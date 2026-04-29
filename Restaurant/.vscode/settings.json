@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "java.compile.nullAnalysis.mode": "automatic",
   "java.configuration.updateBuildConfiguration": "interactive",
@@ -6,12 +5,3 @@
   "editor.minimap.enabled": false,
   "terminal.integrated.defaultProfile.windows": "Command Prompt"
 }
-=======
-{
-  "java.compile.nullAnalysis.mode": "automatic",
-  "java.configuration.updateBuildConfiguration": "interactive",
-  "files.autoSave": "afterDelay",
-  "editor.minimap.enabled": false,
-  "terminal.integrated.defaultProfile.windows": "Command Prompt"
-}
->>>>>>> 9838f3ad983eb47f953cb32c31ec785269618fe7
