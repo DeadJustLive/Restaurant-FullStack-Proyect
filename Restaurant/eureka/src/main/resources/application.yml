@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+=======
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+>>>>>>> 9838f3ad983eb47f953cb32c31ec785269618fe7

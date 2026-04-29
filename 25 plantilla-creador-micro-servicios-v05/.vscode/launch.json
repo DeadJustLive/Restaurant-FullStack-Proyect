@@ -1,0 +1,52 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug Eureka",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/eureka",
+      "mainClass": "cl.triskeledu.eureka.BibliotecaEurekaApplication",
+      "projectName": "cl-triskeledu-eureka",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Debug ms-catalogo",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/ms-catalogo",
+      "mainClass": "cl.triskeledu.catalogo.BibliotecaCatalogoApplication",
+      "projectName": "cl-triskeledu-catalogo",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Debug ms-recursos",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/ms-recursos",
+      "mainClass": "cl.triskeledu.recursos.BibliotecaRecursosApplication",
+      "projectName": "cl-triskeledu-recursos",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Debug ms-usuarios",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/ms-usuarios",
+      "mainClass": "cl.triskeledu.usuarios.BibliotecaUsuariosApplication",
+      "projectName": "cl-triskeledu-usuarios",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Debug All Services",
+      "configurations": [
+        "Debug Eureka",
+        "Debug ms-catalogo",
+        "Debug ms-recursos",
+        "Debug ms-usuarios",
+      ]
+    }
+  ]
+}

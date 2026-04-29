@@ -1,0 +1,1 @@
+mvn -f ms-recursos spring-boot:run
