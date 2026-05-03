@@ -38,7 +38,7 @@ import org.mapstruct.MappingTarget;
  *
  * =============================================================================
  */
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", unmappedTargetPolicy = org.mapstruct.ReportingPolicy.IGNORE)
 public interface MenuItemMapper {
 
     /**

@@ -115,6 +115,13 @@ public interface PedidoRepository extends JpaRepository<Pedido, Long> {
                                              @Param("estados") List<EstadoPedido> estados);
 
     /**
+     * CONSULTA: Pedidos de una sucursal excluyendo ciertos estados.
+     */
+    @Query("SELECT p FROM Pedido p WHERE p.sucursalId = :sucursalId AND p.estado NOT IN :estados ORDER BY p.creadoEn DESC")
+    List<Pedido> findBySucursalIdAndEstadoNotIn(@Param("sucursalId") Long sucursalId,
+                                                @Param("estados") List<EstadoPedido> estados);
+
+    /**
      * CONSULTA: Pedido por ID con ítems cargados en una sola query (evita N+1).
      *
      * CASO DE USO:

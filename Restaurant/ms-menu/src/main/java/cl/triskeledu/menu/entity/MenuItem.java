@@ -31,10 +31,9 @@ import java.time.LocalDateTime;
  *   La validación de existencia se hace mediante llamadas Feign al crear/actualizar.
  *
  * SOFT DELETE:
- *   Se recomienda implementar soft delete en lugar de eliminación física.
+ *   Se ha implementado el soft delete en lugar de eliminación física.
  *   Eliminar físicamente un MenuItem con ID referenciado en pedidos históricos
- *   rompe la trazabilidad, aunque los snapshots en PedidoItem preserven nombre/precio.
- *   TODO: Agregar campo `eliminado BOOLEAN DEFAULT FALSE` para soft delete.
+ *   rompe la trazabilidad.
  *
  * =============================================================================
  */
@@ -153,6 +152,16 @@ public class MenuItem {
      */
     @Column(name = "sucursal_id")
     private Long sucursalId;
+
+    /**
+     * ATRIBUTO: eliminado
+     * Tipo: Boolean
+     * Rol: Flag para soft delete. Un ítem eliminado no se muestra en el menú,
+     *      pero se conserva en la base de datos para no romper relaciones históricas con pedidos.
+     */
+    @Column(name = "eliminado", nullable = false)
+    @Builder.Default
+    private Boolean eliminado = false;
 
     /**
      * ATRIBUTO: creadoEn

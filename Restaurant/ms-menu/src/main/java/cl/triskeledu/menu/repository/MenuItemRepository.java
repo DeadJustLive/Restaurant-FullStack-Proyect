@@ -58,9 +58,9 @@ public interface MenuItemRepository extends JpaRepository<MenuItem, Long> {
      * OUTPUT: List<MenuItem> con disponible=true, ordenados por nombre ASC.
      *
      * SQL GENERADO:
-     *   SELECT * FROM menu_items WHERE disponible = true ORDER BY nombre ASC
+     *   SELECT * FROM menu_items WHERE disponible = true AND eliminado = false ORDER BY nombre ASC
      */
-    List<MenuItem> findByDisponibleTrueOrderByNombreAsc();
+    List<MenuItem> findByDisponibleTrueAndEliminadoFalseOrderByNombreAsc();
 
     /**
      * CONSULTA: Ítems disponibles por categoría.
@@ -73,9 +73,9 @@ public interface MenuItemRepository extends JpaRepository<MenuItem, Long> {
      * OUTPUT: List<MenuItem> disponibles de esa categoría, ordenados por nombre.
      *
      * SQL GENERADO:
-     *   SELECT * FROM menu_items WHERE categoria_id = ? AND disponible = true ORDER BY nombre ASC
+     *   SELECT * FROM menu_items WHERE categoria_id = ? AND disponible = true AND eliminado = false ORDER BY nombre ASC
      */
-    List<MenuItem> findByCategoriaIdAndDisponibleTrueOrderByNombreAsc(Long categoriaId);
+    List<MenuItem> findByCategoriaIdAndDisponibleTrueAndEliminadoFalseOrderByNombreAsc(Long categoriaId);
 
     /**
      * CONSULTA: Ítems disponibles en una sucursal (propios + globales).
@@ -92,6 +92,7 @@ public interface MenuItemRepository extends JpaRepository<MenuItem, Long> {
      *   SELECT m FROM MenuItem m
      *   WHERE (m.sucursalId = :sucursalId OR m.sucursalId IS NULL)
      *   AND m.disponible = true
+     *   AND m.eliminado = false
      *   ORDER BY m.nombre ASC
      *
      * LÓGICA CLAVE:
@@ -102,6 +103,7 @@ public interface MenuItemRepository extends JpaRepository<MenuItem, Long> {
             SELECT m FROM MenuItem m
             WHERE (m.sucursalId = :sucursalId OR m.sucursalId IS NULL)
             AND m.disponible = true
+            AND m.eliminado = false
             ORDER BY m.nombre ASC
             """)
     List<MenuItem> findDisponiblesBySucursal(@Param("sucursalId") Long sucursalId);
@@ -120,8 +122,9 @@ public interface MenuItemRepository extends JpaRepository<MenuItem, Long> {
      * DECISIÓN DE DISEÑO:
      *   Se combina la búsqueda por ID con el filtro de disponibilidad en UNA sola query
      *   para evitar dos llamadas a la BD (findById + check disponible).
+     *   Se filtra también que no esté eliminado lógicamente.
      */
-    Optional<MenuItem> findByIdAndDisponibleTrue(Long id);
+    Optional<MenuItem> findByIdAndDisponibleTrueAndEliminadoFalse(Long id);
 
     /*
      * -----------------------------------------------------------------------
@@ -134,12 +137,12 @@ public interface MenuItemRepository extends JpaRepository<MenuItem, Long> {
      *
      * CASO DE USO:
      *   Vista de gestión de menú para ADMIN. Muestra todos los ítems de una categoría
-     *   incluyendo los deshabilitados (para poder reactivarlos).
+     *   incluyendo los deshabilitados (para poder reactivarlos), pero excluye los eliminados lógicamente.
      *
      * INPUT:  categoriaId (Long).
-     * OUTPUT: List<MenuItem> — todos (activos e inactivos) de la categoría.
+     * OUTPUT: List<MenuItem> — todos (activos e inactivos) de la categoría no eliminados.
      */
-    List<MenuItem> findByCategoriaIdOrderByNombreAsc(Long categoriaId);
+    List<MenuItem> findByCategoriaIdAndEliminadoFalseOrderByNombreAsc(Long categoriaId);
 
     /**
      * CONSULTA: Cambio masivo de disponibilidad por categoría (operación de admin).

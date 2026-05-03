@@ -13,7 +13,7 @@ import org.mapstruct.MappingTarget;
  * MAPPER: InventarioMapper
  * =============================================================================
  */
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", unmappedTargetPolicy = org.mapstruct.ReportingPolicy.IGNORE)
 public interface InventarioMapper {
 
     InsumoResponseDTO toInsumoResponseDTO(Insumo insumo);
