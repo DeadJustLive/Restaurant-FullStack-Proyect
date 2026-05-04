@@ -21,11 +21,25 @@ axiosInstance.interceptors.request.use(
 );
 
 // ─── Instancias por microservicio (puertos reales del backend) ───
-// Puertos extraídos de cada application.yml del backend
 
 export const apiAuth = axios.create({
   ...axiosInstance.defaults,
   baseURL: import.meta.env.VITE_API_AUTH_URL || 'http://localhost:9001/api/v1/auth',
+});
+
+export const apiUsuarios = axios.create({
+  ...axiosInstance.defaults,
+  baseURL: import.meta.env.VITE_API_USUARIOS_URL || 'http://localhost:9002/api/v1/usuarios',
+});
+
+export const apiSucursales = axios.create({
+  ...axiosInstance.defaults,
+  baseURL: import.meta.env.VITE_API_SUCURSALES_URL || 'http://localhost:9003/api/v1/sucursales',
+});
+
+export const apiCategorias = axios.create({
+  ...axiosInstance.defaults,
+  baseURL: import.meta.env.VITE_API_CATEGORIAS_URL || 'http://localhost:9005/api/v1/categorias',
 });
 
 export const apiMenu = axios.create({
@@ -58,33 +72,23 @@ export const apiDelivery = axios.create({
 import type { ApiLogEntry } from '../contexts/DevToolsContext';
 import { generateLogId } from '../contexts/DevToolsContext';
 
-/**
- * Agrega interceptores de request/response a TODAS las instancias de Axios.
- * Se llama una sola vez en el componente raíz (App.tsx) con el addLog del DevToolsContext.
- *
- * Cada llamada queda registrada en el panel de DevTools con:
- *  - método HTTP, URL, duración, status code, body enviado/recibido
- */
 export function setupAxiosInterceptors(addLog: (log: ApiLogEntry) => void) {
-  const instances = [apiAuth, apiMenu, apiInventario, apiPedidos, apiPagos, apiDelivery];
+  const instances = [
+    apiAuth, apiUsuarios, apiSucursales, apiCategorias, 
+    apiMenu, apiInventario, apiPedidos, apiPagos, apiDelivery
+  ];
 
   instances.forEach((instance) => {
-    // Request interceptor — registra el inicio
     instance.interceptors.request.use((config) => {
-      // Inyectar token
       const token = localStorage.getItem('token');
       if (token) {
         config.headers.Authorization = `Bearer ${token}`;
       }
-
-      // Guardar timestamp para medir duración
       (config as any).__startTime = Date.now();
       (config as any).__logId = generateLogId();
-
       return config;
     });
 
-    // Response interceptor — registra éxito o error
     instance.interceptors.response.use(
       (response) => {
         const duration = Date.now() - ((response.config as any).__startTime || Date.now());

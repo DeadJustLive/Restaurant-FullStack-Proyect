@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
  * AuthLayout — Layout minimalista para las vistas de autenticación (Login, Register).
  * No incluye Sidebar ni Header. Centra el formulario vertical y horizontalmente.
  */
-const AuthLayout: React.FC = () => {
+export const AuthLayout: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-surface-900 via-surface-800 to-primary-900 flex items-center justify-center p-4">
       <div className="w-full max-w-md space-y-8">
@@ -32,5 +32,3 @@ const AuthLayout: React.FC = () => {
     </div>
   );
 };
-
-export default AuthLayout;
