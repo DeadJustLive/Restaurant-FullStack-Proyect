@@ -72,10 +72,7 @@ import java.util.List;
 @Slf4j
 public class JwtAuthFilter extends OncePerRequestFilter {
 
-    /*
-     * TODO: Descomentar cuando JwtService esté implementado:
-     * private final JwtService jwtService;
-     */
+    private final cl.triskeledu.auth.service.JwtService jwtService;
 
     /**
      * MÉTODO PRINCIPAL DEL FILTRO: doFilterInternal
@@ -113,33 +110,28 @@ public class JwtAuthFilter extends OncePerRequestFilter {
         // PASO 3: Extraer token (quitar "Bearer ")
         String token = authHeader.substring(7);
 
-        /*
-         * PASO 4 & 5: Validar y poblar SecurityContext.
-         * TODO: Descomentar y completar cuando JwtService esté implementado:
-         *
-         * try {
-         *     if (jwtService.esValido(token) && SecurityContextHolder.getContext().getAuthentication() == null) {
-         *         Long userId   = jwtService.extraerUserId(token);
-         *         String username = jwtService.extraerUsername(token);
-         *         String rol    = jwtService.extraerRol(token);
-         *
-         *         List<SimpleGrantedAuthority> authorities =
-         *             List.of(new SimpleGrantedAuthority(rol));
-         *
-         *         UsernamePasswordAuthenticationToken authToken =
-         *             new UsernamePasswordAuthenticationToken(username, null, authorities);
-         *
-         *         authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
-         *         SecurityContextHolder.getContext().setAuthentication(authToken);
-         *
-         *         log.debug("[JwtFilter] Token válido — userId={}, rol={}", userId, rol);
-         *     }
-         * } catch (JwtException ex) {
-         *     log.warn("[JwtFilter] Token inválido: {}", ex.getMessage());
-         *     SecurityContextHolder.clearContext();
-         *     // No lanzar excepción aquí — el endpoint protegido devolverá 401
-         * }
-         */
+        try {
+            if (jwtService.esValido(token) && SecurityContextHolder.getContext().getAuthentication() == null) {
+                Long userId   = jwtService.extraerUserId(token);
+                String username = jwtService.extraerUsername(token);
+                String rol    = jwtService.extraerRol(token);
+
+                List<SimpleGrantedAuthority> authorities =
+                    List.of(new SimpleGrantedAuthority(rol));
+
+                UsernamePasswordAuthenticationToken authToken =
+                    new UsernamePasswordAuthenticationToken(username, null, authorities);
+
+                authToken.setDetails(new org.springframework.security.web.authentication.WebAuthenticationDetailsSource().buildDetails(request));
+                SecurityContextHolder.getContext().setAuthentication(authToken);
+
+                log.debug("[JwtFilter] Token válido — userId={}, rol={}", userId, rol);
+            }
+        } catch (io.jsonwebtoken.JwtException ex) {
+            log.warn("[JwtFilter] Token inválido: {}", ex.getMessage());
+            SecurityContextHolder.clearContext();
+            // No lanzar excepción aquí — el endpoint protegido devolverá 401
+        }
 
         // PASO 6: Continuar la cadena de filtros
         filterChain.doFilter(request, response);

@@ -25,6 +25,9 @@ public class MenuItemServiceImpl implements MenuItemService {
 
     @Autowired
     private MenuItemRepository menuItemRepository;
+    
+    @Autowired
+    private cl.triskeledu.menu.mapper.MenuItemMapper menuItemMapper;
 
     @Override
     @Transactional
@@ -42,19 +45,16 @@ public class MenuItemServiceImpl implements MenuItemService {
          */
         log.info("Creando nuevo MenuItem: {}", dto.getNombre());
         
-        MenuItem item = MenuItem.builder()
-                .nombre(dto.getNombre())
-                .descripcion(dto.getDescripcion())
-                .precio(dto.getPrecio())
-                .imagenUrl(dto.getImagenUrl())
-                .disponible(dto.getDisponible() != null ? dto.getDisponible() : true)
-                .categoriaId(dto.getCategoriaId())
-                .sucursalId(dto.getSucursalId())
-                .eliminado(false)
-                .build();
+        if (menuItemRepository.existsByNombreIgnoreCaseAndCategoriaId(dto.getNombre(), dto.getCategoriaId())) {
+            throw new cl.triskeledu.menu.exception.ItemDuplicadoException("Ya existe un ítem con el nombre " + dto.getNombre() + " en esta categoría.");
+        }
+        
+        MenuItem item = menuItemMapper.toEntity(dto);
+        item.setDisponible(dto.getDisponible() != null ? dto.getDisponible() : true);
+        item.setEliminado(false);
                 
         MenuItem saved = menuItemRepository.save(item);
-        return mapToDTO(saved);
+        return menuItemMapper.toResponseDTO(saved);
     }
 
     @Override
@@ -65,28 +65,28 @@ public class MenuItemServiceImpl implements MenuItemService {
         log.info("Consultando MenuItem con ID: {}", id);
         MenuItem item = menuItemRepository.findByIdAndDisponibleTrueAndEliminadoFalse(id)
                 .orElseThrow(() -> new MenuItemNotFoundException("Item no encontrado o no disponible con ID: " + id));
-        return mapToDTO(item);
+        return menuItemMapper.toResponseDTO(item);
     }
 
     @Override
     public List<MenuItemResponseDTO> listarDisponibles() {
         log.info("Listando todos los MenuItem disponibles");
         List<MenuItem> items = menuItemRepository.findByDisponibleTrueAndEliminadoFalseOrderByNombreAsc();
-        return items.stream().map(this::mapToDTO).collect(Collectors.toList());
+        return items.stream().map(menuItemMapper::toResponseDTO).collect(Collectors.toList());
     }
 
     @Override
     public List<MenuItemResponseDTO> listarPorCategoria(Long categoriaId) {
         log.info("Listando MenuItem disponibles por categoriaId={}", categoriaId);
         List<MenuItem> items = menuItemRepository.findByCategoriaIdAndDisponibleTrueAndEliminadoFalseOrderByNombreAsc(categoriaId);
-        return items.stream().map(this::mapToDTO).collect(Collectors.toList());
+        return items.stream().map(menuItemMapper::toResponseDTO).collect(Collectors.toList());
     }
 
     @Override
     public List<MenuItemResponseDTO> listarPorSucursal(Long sucursalId) {
         log.info("Listando MenuItem disponibles por sucursalId={}", sucursalId);
         List<MenuItem> items = menuItemRepository.findDisponiblesBySucursal(sucursalId);
-        return items.stream().map(this::mapToDTO).collect(Collectors.toList());
+        return items.stream().map(menuItemMapper::toResponseDTO).collect(Collectors.toList());
     }
 
     @Override
@@ -99,17 +99,16 @@ public class MenuItemServiceImpl implements MenuItemService {
         if (item.getEliminado()) {
             throw new RuntimeException("No se puede actualizar un ítem eliminado");
         }
+        
+        if (!item.getNombre().equalsIgnoreCase(dto.getNombre()) && 
+            menuItemRepository.existsByNombreIgnoreCaseAndCategoriaId(dto.getNombre(), dto.getCategoriaId())) {
+            throw new cl.triskeledu.menu.exception.ItemDuplicadoException("Ya existe un ítem con el nombre " + dto.getNombre() + " en esta categoría.");
+        }
 
-        item.setNombre(dto.getNombre());
-        item.setDescripcion(dto.getDescripcion());
-        item.setPrecio(dto.getPrecio());
-        item.setImagenUrl(dto.getImagenUrl());
-        item.setDisponible(dto.getDisponible() != null ? dto.getDisponible() : item.getDisponible());
-        item.setCategoriaId(dto.getCategoriaId());
-        item.setSucursalId(dto.getSucursalId());
+        menuItemMapper.updateEntityFromDto(dto, item);
 
         MenuItem updated = menuItemRepository.save(item);
-        return mapToDTO(updated);
+        return menuItemMapper.toResponseDTO(updated);
     }
 
     @Override
@@ -120,7 +119,7 @@ public class MenuItemServiceImpl implements MenuItemService {
                 .orElseThrow(() -> new MenuItemNotFoundException("Item no encontrado con ID: " + id));
         item.setDisponible(disponible);
         MenuItem updated = menuItemRepository.save(item);
-        return mapToDTO(updated);
+        return menuItemMapper.toResponseDTO(updated);
     }
 
     @Override
@@ -138,18 +137,4 @@ public class MenuItemServiceImpl implements MenuItemService {
         menuItemRepository.save(item);
     }
     
-    private MenuItemResponseDTO mapToDTO(MenuItem entity) {
-        return MenuItemResponseDTO.builder()
-                .id(entity.getId())
-                .nombre(entity.getNombre())
-                .descripcion(entity.getDescripcion())
-                .precio(entity.getPrecio())
-                .imagenUrl(entity.getImagenUrl())
-                .disponible(entity.getDisponible())
-                .categoriaId(entity.getCategoriaId())
-                .sucursalId(entity.getSucursalId())
-                .creadoEn(entity.getCreadoEn())
-                .actualizadoEn(entity.getActualizadoEn())
-                .build();
-    }
 }

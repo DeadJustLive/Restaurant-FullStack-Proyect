@@ -35,14 +35,7 @@ public class MenuItemController {
         return ResponseEntity.ok(menuItemService.getById(id));
     }
 
-    @GetMapping("/disponibles")
-    public ResponseEntity<List<MenuItemResponseDTO>> listarDisponiblesExplicito(
-            @RequestParam(required = false) Long sucursalId,
-            @RequestParam(required = false) Long categoriaId) {
-        return listarDisponibles(sucursalId, categoriaId);
-    }
-
-    @GetMapping
+    @GetMapping({"", "/disponibles"})
     public ResponseEntity<List<MenuItemResponseDTO>> listarDisponibles(
             @RequestParam(required = false) Long sucursalId,
             @RequestParam(required = false) Long categoriaId) {
@@ -58,7 +51,7 @@ public class MenuItemController {
     @PutMapping("/{id}")
     public ResponseEntity<MenuItemResponseDTO> actualizarParcial(
             @PathVariable Long id, 
-            @RequestBody MenuItemRequestDTO dto) {
+            @Valid @RequestBody MenuItemRequestDTO dto) {
         return ResponseEntity.ok(menuItemService.actualizar(id, dto));
     }
 

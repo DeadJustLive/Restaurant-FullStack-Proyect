@@ -33,6 +33,9 @@ public class InventarioServiceImpl implements InventarioService {
     
     @Autowired
     private MovimientoRepository movimientoRepository;
+    
+    @Autowired
+    private cl.triskeledu.inventario.mapper.InventarioMapper inventarioMapper;
 
     @Override
     @Transactional
@@ -48,19 +51,14 @@ public class InventarioServiceImpl implements InventarioService {
         log.info("Creando insumo {} en sucursal {}", dto.getNombre(), dto.getSucursalId());
         
         if (insumoRepository.existsBySucursalIdAndNombreIgnoreCase(dto.getSucursalId(), dto.getNombre())) {
-            throw new RuntimeException("El insumo ya existe en esta sucursal");
+            throw new cl.triskeledu.inventario.exception.InsumoDuplicadoException("El insumo ya existe en esta sucursal");
         }
         
-        Insumo insumo = Insumo.builder()
-                .sucursalId(dto.getSucursalId())
-                .nombre(dto.getNombre())
-                .unidadMedida(dto.getUnidadMedida())
-                .stockActual(BigDecimal.ZERO)
-                .stockMinimo(dto.getStockMinimo())
-                .build();
+        Insumo insumo = inventarioMapper.toInsumoEntity(dto);
+        insumo.setStockActual(BigDecimal.ZERO);
                 
         Insumo saved = insumoRepository.save(insumo);
-        return mapToInsumoDTO(saved);
+        return inventarioMapper.toInsumoResponseDTO(saved);
     }
 
     @Override
@@ -74,12 +72,10 @@ public class InventarioServiceImpl implements InventarioService {
         Insumo insumo = insumoRepository.findById(id)
                 .orElseThrow(() -> new cl.triskeledu.inventario.exception.InsumoNotFoundException("Insumo no encontrado"));
                 
-        if (dto.getNombre() != null) insumo.setNombre(dto.getNombre());
-        if (dto.getUnidadMedida() != null) insumo.setUnidadMedida(dto.getUnidadMedida());
-        if (dto.getStockMinimo() != null) insumo.setStockMinimo(dto.getStockMinimo());
+        inventarioMapper.updateInsumoFromDto(dto, insumo);
         
         Insumo updated = insumoRepository.save(insumo);
-        return mapToInsumoDTO(updated);
+        return inventarioMapper.toInsumoResponseDTO(updated);
     }
 
     @Override
@@ -89,7 +85,7 @@ public class InventarioServiceImpl implements InventarioService {
          */
         Insumo insumo = insumoRepository.findById(id)
                 .orElseThrow(() -> new cl.triskeledu.inventario.exception.InsumoNotFoundException("Insumo no encontrado"));
-        return mapToInsumoDTO(insumo);
+        return inventarioMapper.toInsumoResponseDTO(insumo);
     }
 
     @Override
@@ -98,14 +94,14 @@ public class InventarioServiceImpl implements InventarioService {
          * INTENCIÓN: Obtener inventario actual de la sucursal.
          */
         return insumoRepository.findBySucursalId(sucursalId).stream()
-                .map(this::mapToInsumoDTO)
+                .map(inventarioMapper::toInsumoResponseDTO)
                 .collect(Collectors.toList());
     }
 
     @Override
     public List<InsumoResponseDTO> listarTodos() {
         return insumoRepository.findAll().stream()
-                .map(this::mapToInsumoDTO)
+                .map(inventarioMapper::toInsumoResponseDTO)
                 .collect(Collectors.toList());
     }
 
@@ -152,7 +148,7 @@ public class InventarioServiceImpl implements InventarioService {
         
         // TODO: Notificar si stock_actual <= stock_minimo
         
-        return mapToMovimientoDTO(savedMov);
+        return inventarioMapper.toMovimientoResponseDTO(savedMov);
     }
 
     @Override
@@ -161,31 +157,8 @@ public class InventarioServiceImpl implements InventarioService {
          * INTENCIÓN: Auditoría de movimientos de un insumo específico.
          */
         return movimientoRepository.findByInsumoIdOrderByCreadoEnDesc(insumoId).stream()
-                .map(this::mapToMovimientoDTO)
+                .map(inventarioMapper::toMovimientoResponseDTO)
                 .collect(Collectors.toList());
     }
     
-    private InsumoResponseDTO mapToInsumoDTO(Insumo entity) {
-        return InsumoResponseDTO.builder()
-                .id(entity.getId())
-                .sucursalId(entity.getSucursalId())
-                .nombre(entity.getNombre())
-                .unidadMedida(entity.getUnidadMedida())
-                .stockActual(entity.getStockActual())
-                .stockMinimo(entity.getStockMinimo())
-                .creadoEn(entity.getCreadoEn())
-                .actualizadoEn(entity.getActualizadoEn())
-                .build();
-    }
-    
-    private MovimientoResponseDTO mapToMovimientoDTO(MovimientoInventario entity) {
-        return MovimientoResponseDTO.builder()
-                .id(entity.getId())
-                .insumoId(entity.getInsumoId())
-                .tipo(entity.getTipo())
-                .cantidad(entity.getCantidad())
-                .referencia(entity.getReferencia())
-                .creadoEn(entity.getCreadoEn())
-                .build();
-    }
 }

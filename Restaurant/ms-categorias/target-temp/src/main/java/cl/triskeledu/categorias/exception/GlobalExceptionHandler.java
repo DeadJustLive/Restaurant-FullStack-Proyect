@@ -1,4 +1,4 @@
-package cl.triskeledu.inventario.exception;
+package cl.triskeledu.categorias.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,24 +13,19 @@ import java.util.Map;
 
 /**
  * =============================================================================
- * EXCEPTION HANDLER: GlobalExceptionHandler (ms-inventario)
+ * EXCEPTION HANDLER: GlobalExceptionHandler (ms-categorias)
  * =============================================================================
  */
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    @ExceptionHandler(InsumoNotFoundException.class)
-    public ResponseEntity<Map<String, Object>> handleNotFound(InsumoNotFoundException ex) {
+    @ExceptionHandler(CategoriaNotFoundException.class)
+    public ResponseEntity<Map<String, Object>> handleNotFound(CategoriaNotFoundException ex) {
         return buildError(HttpStatus.NOT_FOUND, ex.getMessage());
     }
 
-    @ExceptionHandler(InsumoDuplicadoException.class)
-    public ResponseEntity<Map<String, Object>> handleDuplicado(InsumoDuplicadoException ex) {
-        return buildError(HttpStatus.CONFLICT, ex.getMessage());
-    }
-
-    @ExceptionHandler(StockInsuficienteException.class)
-    public ResponseEntity<Map<String, Object>> handleStockInsuficiente(StockInsuficienteException ex) {
+    @ExceptionHandler(CategoriaDuplicadaException.class)
+    public ResponseEntity<Map<String, Object>> handleDuplicada(CategoriaDuplicadaException ex) {
         return buildError(HttpStatus.CONFLICT, ex.getMessage());
     }
 
@@ -51,7 +46,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGeneral(Exception ex) {
         ex.printStackTrace(); return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
-                "Error interno en ms-inventario. Contacte al administrador.");
+                "Error interno en ms-categorias. Contacte al administrador.");
     }
 
     private ResponseEntity<Map<String, Object>> buildError(HttpStatus status, String mensaje) {

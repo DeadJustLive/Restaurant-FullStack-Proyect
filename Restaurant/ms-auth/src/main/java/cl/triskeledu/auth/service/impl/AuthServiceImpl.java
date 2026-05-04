@@ -3,6 +3,12 @@ package cl.triskeledu.auth.service.impl;
 import cl.triskeledu.auth.dto.request.LoginRequestDTO;
 import cl.triskeledu.auth.dto.request.RegisterRequestDTO;
 import cl.triskeledu.auth.dto.response.AuthResponseDTO;
+import cl.triskeledu.auth.entity.UserCredential;
+import cl.triskeledu.auth.entity.enums.RolUsuario;
+import cl.triskeledu.auth.exception.CredencialesInvalidasException;
+import cl.triskeledu.auth.exception.CuentaDesactivadaException;
+import cl.triskeledu.auth.exception.TokenInvalidoException;
+import cl.triskeledu.auth.exception.UsuarioYaExisteException;
 import cl.triskeledu.auth.repository.UserCredentialRepository;
 import cl.triskeledu.auth.service.AuthService;
 import cl.triskeledu.auth.service.JwtService;
@@ -10,10 +16,11 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * =============================================================================
- * SERVICE IMPL: AuthServiceImpl
+ * SERVICE IMPL: AuthServiceImpl — Implementación REAL (no mock)
  * =============================================================================
  */
 @Service
@@ -26,99 +33,127 @@ public class AuthServiceImpl implements AuthService {
     private final JwtService jwtService;
 
     @Override
+    @Transactional
     public AuthResponseDTO registrar(RegisterRequestDTO dto) {
-        /*
-         * INTENCIÓN:
-         * Registrar nuevas credenciales de usuario.
-         *
-         * FLUJO ESPERADO:
-         * Input: RegisterRequestDTO (username, password, rol)
-         * Process:
-         * 1. Verificar si username existe (UsuarioYaExisteException si es así).
-         * 2. Normalizar username a minúsculas.
-         * 3. Hashear password usando PasswordEncoder.
-         * 4. Asignar ROLE_CL si rol viene null.
-         * 5. Guardar en UserCredentialRepository con activo=true.
-         * 6. Invocar ms-usuarios (Feign) para crear el perfil público (SAGA
-         * simplificado).
-         * 7. Generar tokens via JwtService.
-         * Output: AuthResponseDTO (JWT).
-         *
-         * DEPENDENCIAS:
-         * - ms-usuarios (para crear perfil vinculado al credencialId generado).
-         */
-        log.info("Registrando usuario mockeado (Happy Path): {}", dto.getUsername());
+        log.info("Registrando usuario: {}", dto.getUsername());
+
+        String usernameNormalizado = dto.getUsername().trim().toLowerCase();
+
+        // 1. Verificar que el username no exista
+        if (userCredentialRepository.findByUsername(usernameNormalizado).isPresent()) {
+            throw new UsuarioYaExisteException("El usuario '" + usernameNormalizado + "' ya está registrado");
+        }
+
+        // 2. Determinar rol (ROLE_CL por defecto si no se especifica)
+        RolUsuario rol = dto.getRol() != null ? dto.getRol() : RolUsuario.ROLE_CL;
+
+        // 3. Crear entidad con password hasheado
+        UserCredential credential = UserCredential.builder()
+                .username(usernameNormalizado)
+                .password(passwordEncoder.encode(dto.getPassword()))
+                .rol(rol)
+                .activo(true)
+                .build();
+
+        UserCredential saved = userCredentialRepository.save(credential);
+        log.info("Usuario registrado exitosamente: id={}, rol={}", saved.getId(), saved.getRol());
+
+        // 4. Generar tokens
+        String token = jwtService.generarToken(saved);
+        String refreshToken = jwtService.generarRefreshToken(saved.getId());
+
         return AuthResponseDTO.builder()
-                .token("mock-jwt-token-for-" + dto.getUsername())
-                .refreshToken("mock-refresh-token")
-                .expiresIn(3600L)
+                .token(token)
+                .refreshToken(refreshToken)
+                .expiresIn(86400L) // 24 horas en segundos
+                .rol(saved.getRol())
+                .username(saved.getUsername())
                 .build();
     }
 
     @Override
     public AuthResponseDTO login(LoginRequestDTO dto) {
-        /*
-         * INTENCIÓN:
-         * Autenticar credenciales y emitir JWT.
-         *
-         * FLUJO ESPERADO:
-         * Input: LoginRequestDTO (username, password)
-         * Process:
-         * 1. Normalizar username.
-         * 2. Buscar en repository. Si no existe -> lanzar
-         * CredencialesInvalidasException.
-         * (Importante: ejecutar comparación dummy con BCrypt para prevenir timing
-         * attacks).
-         * 3. Verificar password con PasswordEncoder.matches(). Si falla ->
-         * CredencialesInvalidasException.
-         * 4. Verificar si activo==true. Si no -> CuentaDesactivadaException.
-         * 5. Generar JWT y Refresh Token con JwtService.
-         * Output: AuthResponseDTO.
-         */
-        log.info("Login mockeado (Happy Path) para usuario: {}", dto.getUsername());
+        log.info("Intento de login para usuario: {}", dto.getUsername());
+
+        String usernameNormalizado = dto.getUsername().trim().toLowerCase();
+
+        // 1. Buscar credencial por username
+        UserCredential credential = userCredentialRepository.findByUsername(usernameNormalizado)
+                .orElseThrow(() -> {
+                    // Anti-timing attack: ejecutar BCrypt con hash dummy para igualar tiempos
+                    passwordEncoder.matches(dto.getPassword(), "$2a$10$dummyhashfortimingattak000000000000000000000000000000");
+                    return new CredencialesInvalidasException("Credenciales inválidas");
+                });
+
+        // 2. Verificar password
+        if (!passwordEncoder.matches(dto.getPassword(), credential.getPassword())) {
+            throw new CredencialesInvalidasException("Credenciales inválidas");
+        }
+
+        // 3. Verificar cuenta activa
+        if (!credential.getActivo()) {
+            throw new CuentaDesactivadaException("La cuenta está desactivada. Contacte al administrador.");
+        }
+
+        log.info("Login exitoso para usuario: id={}, rol={}", credential.getId(), credential.getRol());
+
+        // 4. Generar tokens
+        String token = jwtService.generarToken(credential);
+        String refreshToken = jwtService.generarRefreshToken(credential.getId());
+
         return AuthResponseDTO.builder()
-                .token("mock-jwt-token-for-" + dto.getUsername())
-                .refreshToken("mock-refresh-token")
-                .expiresIn(3600L)
+                .token(token)
+                .refreshToken(refreshToken)
+                .expiresIn(86400L)
+                .rol(credential.getRol())
+                .username(credential.getUsername())
                 .build();
     }
 
     @Override
     public AuthResponseDTO refresh(String refreshToken) {
-        /*
-         * INTENCIÓN:
-         * Renovar JWT usando un refresh token válido.
-         *
-         * FLUJO ESPERADO:
-         * Input: refreshToken
-         * Process:
-         * 1. Buscar token en BD (Refresh Token Repository futuro).
-         * 2. Verificar expiración y revocación.
-         * 3. Cargar credencial y verificar si sigue activa.
-         * 4. Generar nuevo JWT.
-         * Output: AuthResponseDTO.
-         */
-        log.info("Refresh token mockeado (Happy Path)");
+        log.info("Solicitud de refresh token");
+
+        // 1. Validar que el refresh token sea un JWT válido
+        if (!jwtService.esValido(refreshToken)) {
+            throw new TokenInvalidoException("El refresh token es inválido o ha expirado");
+        }
+
+        // 2. Extraer userId del refresh token
+        Long userId = jwtService.extraerUserId(refreshToken);
+
+        // 3. Cargar la credencial y verificar que sigue activa
+        UserCredential credential = userCredentialRepository.findById(userId)
+                .orElseThrow(() -> new TokenInvalidoException("Usuario del token no encontrado"));
+
+        if (!credential.getActivo()) {
+            throw new CuentaDesactivadaException("La cuenta está desactivada");
+        }
+
+        // 4. Generar nuevo access token (el refresh token se reutiliza si sigue vigente)
+        String newToken = jwtService.generarToken(credential);
+
+        log.info("Refresh exitoso para userId={}", userId);
+
         return AuthResponseDTO.builder()
-                .token("mock-new-jwt-token")
-                .refreshToken("mock-new-refresh-token")
-                .expiresIn(3600L)
+                .token(newToken)
+                .refreshToken(refreshToken) // se reutiliza el mismo refresh token
+                .expiresIn(86400L)
+                .rol(credential.getRol())
+                .username(credential.getUsername())
                 .build();
     }
 
     @Override
     public void logout(String refreshToken) {
         /*
-         * INTENCIÓN:
-         * Revocar el refresh token.
+         * Logout idempotente.
+         * En un escenario completo con RefreshTokenRepository se revocaría
+         * el token en la BD. Por ahora, el cliente descarta el token localmente
+         * y el JWT de acceso expira naturalmente.
          *
-         * FLUJO ESPERADO:
-         * Input: refreshToken
-         * Process:
-         * 1. Marcar el token en BD como revocado = true.
-         * Output: void (Logout idempotente).
+         * TODO: Implementar persistencia de refresh tokens y blacklist.
          */
-        log.info("Logout mockeado (Happy Path) con token: {}", refreshToken);
-        // Do nothing in mock
+        log.info("Logout ejecutado — el cliente debe descartar los tokens localmente");
     }
 }

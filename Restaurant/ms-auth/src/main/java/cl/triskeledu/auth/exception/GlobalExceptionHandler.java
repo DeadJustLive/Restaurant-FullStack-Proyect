@@ -84,6 +84,14 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(body);
     }
 
+    /**
+     * 401 — Token inválido o expirado (refresh token).
+     */
+    @ExceptionHandler(TokenInvalidoException.class)
+    public ResponseEntity<Map<String, Object>> handleTokenInvalido(TokenInvalidoException ex) {
+        return buildError(HttpStatus.UNAUTHORIZED, ex.getMessage());
+    }
+
     /** 501 — Endpoint scaffoldeado, pendiente de implementar. */
     @ExceptionHandler(UnsupportedOperationException.class)
     public ResponseEntity<Map<String, Object>> handleNotImplemented(UnsupportedOperationException ex) {
