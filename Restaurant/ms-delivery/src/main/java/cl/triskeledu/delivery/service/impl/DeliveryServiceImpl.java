@@ -5,7 +5,9 @@ import cl.triskeledu.delivery.dto.request.DeliveryRequestDTO;
 import cl.triskeledu.delivery.dto.response.DeliveryResponseDTO;
 import cl.triskeledu.delivery.entity.enums.EstadoDelivery;
 import cl.triskeledu.delivery.service.DeliveryService;
+import cl.triskeledu.delivery.entity.Delivery;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**

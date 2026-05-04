@@ -42,7 +42,7 @@ public class PagoServiceImpl implements PagoService {
                 .pedidoId(dto.getPedidoId())
                 .monto(dto.getMonto())
                 .metodo(dto.getMetodo())
-                .estado(EstadoPago.COMPLETADO) // Lo marcamos como completado de inmediato para el happy path
+                .estado(EstadoPago.APROBADO) // Lo marcamos como completado de inmediato para el happy path
                 .build();
         
         return mapToDTO(pagoRepository.save(pago));

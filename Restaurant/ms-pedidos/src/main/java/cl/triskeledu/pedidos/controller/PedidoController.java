@@ -55,7 +55,8 @@ public class PedidoController {
     public ResponseEntity<PedidoResponseDTO> cambiarEstado(
             @PathVariable Long id, 
             @Valid @RequestBody PedidoEstadoRequestDTO dto) {
-        return ResponseEntity.ok(pedidoService.cambiarEstado(id, dto.getEstado()));
+        cl.triskeledu.pedidos.entity.enums.EstadoPedido estado = cl.triskeledu.pedidos.entity.enums.EstadoPedido.valueOf(dto.getEstado().toUpperCase());
+        return ResponseEntity.ok(pedidoService.cambiarEstado(id, estado));
     }
 
     @PatchMapping("/{id}/cancelar")
