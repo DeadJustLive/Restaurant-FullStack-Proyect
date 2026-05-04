@@ -46,7 +46,14 @@ public class AuthServiceImpl implements AuthService {
          * DEPENDENCIAS:
          *   - ms-usuarios (para crear perfil vinculado al credencialId generado).
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+         */
+        log.info("Registrando usuario mockeado (Happy Path): {}", dto.getUsername());
+        return AuthResponseDTO.builder()
+                .token("mock-jwt-token-for-" + dto.getUsername())
+                .refreshToken("mock-refresh-token")
+                .tipo("Bearer")
+                .expiraEn(3600L)
+                .build();
     }
 
     @Override
@@ -66,7 +73,14 @@ public class AuthServiceImpl implements AuthService {
          *     5. Generar JWT y Refresh Token con JwtService.
          *   Output: AuthResponseDTO.
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+         */
+        log.info("Login mockeado (Happy Path) para usuario: {}", dto.getUsername());
+        return AuthResponseDTO.builder()
+                .token("mock-jwt-token-for-" + dto.getUsername())
+                .refreshToken("mock-refresh-token")
+                .tipo("Bearer")
+                .expiraEn(3600L)
+                .build();
     }
 
     @Override
@@ -84,7 +98,14 @@ public class AuthServiceImpl implements AuthService {
          *     4. Generar nuevo JWT.
          *   Output: AuthResponseDTO.
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+         */
+        log.info("Refresh token mockeado (Happy Path)");
+        return AuthResponseDTO.builder()
+                .token("mock-new-jwt-token")
+                .refreshToken("mock-new-refresh-token")
+                .tipo("Bearer")
+                .expiraEn(3600L)
+                .build();
     }
 
     @Override
@@ -99,6 +120,8 @@ public class AuthServiceImpl implements AuthService {
          *     1. Marcar el token en BD como revocado = true.
          *   Output: void (Logout idempotente).
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+         */
+        log.info("Logout mockeado (Happy Path) con token: {}", refreshToken);
+        // Do nothing in mock
     }
 }

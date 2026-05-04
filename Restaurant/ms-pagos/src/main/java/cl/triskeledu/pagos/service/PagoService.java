@@ -20,4 +20,6 @@ public interface PagoService {
     PagoResponseDTO getById(Long id);
 
     List<PagoResponseDTO> listarPorPedido(Long pedidoId);
+
+    List<PagoResponseDTO> listarTodos();
 }

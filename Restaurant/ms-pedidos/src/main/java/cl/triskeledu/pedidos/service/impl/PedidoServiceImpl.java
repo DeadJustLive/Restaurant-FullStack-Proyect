@@ -6,6 +6,7 @@ import cl.triskeledu.pedidos.dto.response.PedidoResponseDTO;
 import cl.triskeledu.pedidos.entity.Pedido;
 import cl.triskeledu.pedidos.entity.PedidoItem;
 import cl.triskeledu.pedidos.entity.enums.EstadoPedido;
+import cl.triskeledu.pedidos.exception.PedidoNotFoundException;
 import cl.triskeledu.pedidos.repository.PedidoRepository;
 import cl.triskeledu.pedidos.service.PedidoService;
 import lombok.extern.slf4j.Slf4j;
@@ -90,7 +91,7 @@ public class PedidoServiceImpl implements PedidoService {
     public PedidoResponseDTO obtenerPorId(Long id) {
         log.info("Consultando pedido ID {}", id);
         Pedido pedido = pedidoRepository.findByIdWithItems(id)
-                .orElseThrow(() -> new RuntimeException("Pedido no encontrado"));
+                .orElseThrow(() -> new PedidoNotFoundException("Pedido no encontrado con ID: " + id));
         return mapToDTO(pedido);
     }
 
@@ -116,7 +117,7 @@ public class PedidoServiceImpl implements PedidoService {
     public PedidoResponseDTO cambiarEstado(Long id, EstadoPedido nuevoEstado) {
         log.info("Cambiando estado de pedido {} a {}", id, nuevoEstado);
         Pedido pedido = pedidoRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Pedido no encontrado"));
+                .orElseThrow(() -> new PedidoNotFoundException("Pedido no encontrado con ID: " + id));
                 
         // Lógica simple de máquina de estados podría agregarse aquí
         pedido.setEstado(nuevoEstado);
@@ -132,7 +133,7 @@ public class PedidoServiceImpl implements PedidoService {
     public PedidoResponseDTO cancelar(Long id) {
         log.info("Cancelando pedido {}", id);
         Pedido pedido = pedidoRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Pedido no encontrado"));
+                .orElseThrow(() -> new PedidoNotFoundException("Pedido no encontrado con ID: " + id));
                 
         if (pedido.getEstado() != EstadoPedido.PENDIENTE && pedido.getEstado() != EstadoPedido.CONFIRMADO) {
             throw new RuntimeException("El pedido no puede ser cancelado en este estado");
@@ -141,6 +142,14 @@ public class PedidoServiceImpl implements PedidoService {
         pedido.setEstado(EstadoPedido.CANCELADO);
         Pedido updated = pedidoRepository.save(pedido);
         return mapToDTO(updated);
+    }
+
+    @Override
+    public List<PedidoResponseDTO> listarTodos() {
+        log.info("Listando todos los pedidos");
+        return pedidoRepository.findAll().stream()
+                .map(this::mapToDTO)
+                .collect(Collectors.toList());
     }
     
     private PedidoResponseDTO mapToDTO(Pedido entity) {

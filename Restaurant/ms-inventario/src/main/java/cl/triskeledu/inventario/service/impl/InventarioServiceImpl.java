@@ -72,7 +72,7 @@ public class InventarioServiceImpl implements InventarioService {
          */
         log.info("Actualizando insumo ID {}", id);
         Insumo insumo = insumoRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Insumo no encontrado"));
+                .orElseThrow(() -> new cl.triskeledu.inventario.exception.InsumoNotFoundException("Insumo no encontrado"));
                 
         if (dto.getNombre() != null) insumo.setNombre(dto.getNombre());
         if (dto.getUnidadMedida() != null) insumo.setUnidadMedida(dto.getUnidadMedida());
@@ -88,7 +88,7 @@ public class InventarioServiceImpl implements InventarioService {
          * INTENCIÓN: Consultar detalle.
          */
         Insumo insumo = insumoRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Insumo no encontrado"));
+                .orElseThrow(() -> new cl.triskeledu.inventario.exception.InsumoNotFoundException("Insumo no encontrado"));
         return mapToInsumoDTO(insumo);
     }
 
@@ -98,6 +98,13 @@ public class InventarioServiceImpl implements InventarioService {
          * INTENCIÓN: Obtener inventario actual de la sucursal.
          */
         return insumoRepository.findBySucursalId(sucursalId).stream()
+                .map(this::mapToInsumoDTO)
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<InsumoResponseDTO> listarTodos() {
+        return insumoRepository.findAll().stream()
                 .map(this::mapToInsumoDTO)
                 .collect(Collectors.toList());
     }
@@ -121,13 +128,13 @@ public class InventarioServiceImpl implements InventarioService {
          */
         log.info("Registrando movimiento {} para insumo ID {} con cantidad {}", dto.getTipo(), dto.getInsumoId(), dto.getCantidad());
         Insumo insumo = insumoRepository.findById(dto.getInsumoId())
-                .orElseThrow(() -> new RuntimeException("Insumo no encontrado"));
+                .orElseThrow(() -> new cl.triskeledu.inventario.exception.InsumoNotFoundException("Insumo no encontrado"));
                 
         if (dto.getTipo() == TipoMovimiento.ENTRADA) {
             insumo.setStockActual(insumo.getStockActual().add(dto.getCantidad()));
         } else if (dto.getTipo() == TipoMovimiento.SALIDA) {
             if (insumo.getStockActual().compareTo(dto.getCantidad()) < 0) {
-                throw new RuntimeException("Stock insuficiente para realizar la salida");
+                throw new cl.triskeledu.inventario.exception.StockInsuficienteException("Stock insuficiente para realizar la salida");
             }
             insumo.setStockActual(insumo.getStockActual().subtract(dto.getCantidad()));
         }

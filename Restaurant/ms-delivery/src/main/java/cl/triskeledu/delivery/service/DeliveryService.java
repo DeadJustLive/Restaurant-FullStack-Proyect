@@ -19,4 +19,8 @@ public interface DeliveryService {
     DeliveryResponseDTO asignarRepartidor(Long id, AsignarRepartidorDTO dto);
 
     DeliveryResponseDTO actualizarEstado(Long id, EstadoDelivery nuevoEstado, String observaciones);
+
+    DeliveryResponseDTO getById(Long id);
+
+    java.util.List<DeliveryResponseDTO> listarTodos();
 }

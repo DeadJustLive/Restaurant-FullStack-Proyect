@@ -4,8 +4,12 @@ import cl.triskeledu.pagos.dto.request.PagoRequestDTO;
 import cl.triskeledu.pagos.dto.response.PagoResponseDTO;
 import cl.triskeledu.pagos.entity.enums.EstadoPago;
 import cl.triskeledu.pagos.service.PagoService;
+import cl.triskeledu.pagos.entity.Pago;
+import cl.triskeledu.pagos.repository.PagoRepository;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -18,7 +22,11 @@ import java.util.List;
 @Slf4j
 public class PagoServiceImpl implements PagoService {
 
+    @Autowired
+    private PagoRepository pagoRepository;
+
     @Override
+    @Transactional
     public PagoResponseDTO iniciarPago(PagoRequestDTO dto) {
         /*
          * INTENCIÓN: Registrar la intención de pago antes de comunicarse con la pasarela.
@@ -28,39 +36,62 @@ public class PagoServiceImpl implements PagoService {
          *   2. Crear entidad Pago con estado PENDIENTE.
          *   3. Guardar en BD.
          *   4. (Opcional) Llamar a API externa para obtener link de pago.
-         *   Output: PagoResponseDTO.
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        log.info("Iniciando pago mockeado (Happy Path) para pedido {}", dto.getPedidoId());
+        Pago pago = Pago.builder()
+                .pedidoId(dto.getPedidoId())
+                .monto(dto.getMonto())
+                .metodo(dto.getMetodo())
+                .estado(EstadoPago.COMPLETADO) // Lo marcamos como completado de inmediato para el happy path
+                .build();
+        
+        return mapToDTO(pagoRepository.save(pago));
     }
 
     @Override
+    @Transactional
     public PagoResponseDTO confirmarPago(Long id, String transaccionId, EstadoPago estadoFinal) {
-        /*
-         * INTENCIÓN: Webhook / Confirmación manual de pago.
-         *
-         * FLUJO ESPERADO:
-         *   1. Buscar pago por ID (PagoNotFoundException si no existe).
-         *   2. Actualizar estado a APROBADO o RECHAZADO, asignar transaccionId.
-         *   3. Guardar en BD.
-         *   4. Si es APROBADO -> Notificar a ms-pedidos (vía Feign o Kafka) para que pase a PREPARACION.
-         *   Output: PagoResponseDTO actualizado.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        log.info("Confirmando pago {} con transaccion {} y estado {}", id, transaccionId, estadoFinal);
+        Pago pago = pagoRepository.findById(id)
+                .orElseThrow(() -> new cl.triskeledu.pagos.exception.PagoNotFoundException("Pago no encontrado con ID: " + id));
+        pago.setEstado(estadoFinal);
+        pago.setTransaccionId(transaccionId);
+        return mapToDTO(pagoRepository.save(pago));
     }
 
     @Override
     public PagoResponseDTO getById(Long id) {
-        /*
-         * INTENCIÓN: Consultar detalle de un pago.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        log.info("Consultando pago ID {}", id);
+        Pago pago = pagoRepository.findById(id)
+                .orElseThrow(() -> new cl.triskeledu.pagos.exception.PagoNotFoundException("Pago no encontrado con ID: " + id));
+        return mapToDTO(pago);
     }
 
     @Override
     public List<PagoResponseDTO> listarPorPedido(Long pedidoId) {
-        /*
-         * INTENCIÓN: Ver historial de intentos de pago de un pedido.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        log.info("Listando pagos por pedido {}", pedidoId);
+        return pagoRepository.findByPedidoId(pedidoId).stream()
+                .map(this::mapToDTO)
+                .collect(java.util.stream.Collectors.toList());
+    }
+
+    public List<PagoResponseDTO> listarTodos() {
+        log.info("Listando todos los pagos");
+        return pagoRepository.findAll().stream()
+                .map(this::mapToDTO)
+                .collect(java.util.stream.Collectors.toList());
+    }
+    
+    private PagoResponseDTO mapToDTO(Pago entity) {
+        return PagoResponseDTO.builder()
+                .id(entity.getId())
+                .pedidoId(entity.getPedidoId())
+                .monto(entity.getMonto())
+                .metodo(entity.getMetodo())
+                .estado(entity.getEstado())
+                .transaccionId(entity.getTransaccionId())
+                .creadoEn(entity.getCreadoEn())
+                .actualizadoEn(entity.getActualizadoEn())
+                .build();
     }
 }

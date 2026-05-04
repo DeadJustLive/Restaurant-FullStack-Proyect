@@ -161,4 +161,9 @@ public interface PedidoService {
      * @throws cl.triskeledu.pedidos.exception.EstadoInvalidoException si el estado no permite cancelación.
      */
     PedidoResponseDTO cancelar(Long id);
+
+    /**
+     * OPERACIÓN: Obtener todos los pedidos (solo para fines administrativos/desarrollo).
+     */
+    List<PedidoResponseDTO> listarTodos();
 }

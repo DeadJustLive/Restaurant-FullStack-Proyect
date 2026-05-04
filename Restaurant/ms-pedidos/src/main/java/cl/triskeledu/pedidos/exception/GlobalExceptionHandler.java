@@ -130,7 +130,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGeneral(Exception ex) {
         // TODO: log.error("[GlobalExceptionHandler] Error no controlado: {}", ex.getMessage(), ex);
-        return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
+        ex.printStackTrace(); return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
                 "Error interno del servidor. Por favor contacte al administrador.");
     }
 

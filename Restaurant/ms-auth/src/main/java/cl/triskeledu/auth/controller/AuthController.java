@@ -198,4 +198,28 @@ public class AuthController {
         authService.logout(refreshToken);
         return ResponseEntity.noContent().build();
     }
+    // ENDPOINT: GET /api/v1/auth/health
+    // =========================================================================
+
+    /**
+     * ENDPOINT: Comprobar el estado del servicio de autenticación.
+     *
+     * MÉTODO: GET
+     * PATH: /api/v1/auth/health
+     * ACCESO: Público.
+     *
+     * RESPUESTA EXITOSA: 200 OK
+     * {
+     *   "status": "UP",
+     *   "service": "ms-auth"
+     * }
+     */
+    @GetMapping("/health")
+    public ResponseEntity<java.util.Map<String, String>> health() {
+        log.info("[AuthController] GET /health");
+        java.util.Map<String, String> response = new java.util.HashMap<>();
+        response.put("status", "UP");
+        response.put("service", "ms-auth");
+        return ResponseEntity.ok(response);
+    }
 }

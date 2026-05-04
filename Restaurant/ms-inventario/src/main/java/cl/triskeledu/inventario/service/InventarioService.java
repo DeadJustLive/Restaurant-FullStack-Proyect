@@ -25,4 +25,6 @@ public interface InventarioService {
     MovimientoResponseDTO registrarMovimiento(MovimientoRequestDTO dto);
 
     List<MovimientoResponseDTO> historialKardex(Long insumoId);
+
+    List<InsumoResponseDTO> listarTodos();
 }

@@ -17,53 +17,74 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class DeliveryServiceImpl implements DeliveryService {
 
+    @Autowired
+    private cl.triskeledu.delivery.repository.DeliveryRepository deliveryRepository;
+
     @Override
     public DeliveryResponseDTO crearDelivery(DeliveryRequestDTO dto) {
-        /*
-         * INTENCIÓN: Inicializar la logística para un pedido listo.
-         *
-         * FLUJO ESPERADO:
-         *   1. Recibir solicitud desde ms-pedidos (cuando el pedido está LISTO).
-         *   2. Crear entidad Delivery en estado BUSCANDO_REPARTIDOR.
-         *   3. Guardar en BD.
-         *   Output: DeliveryResponseDTO.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        log.info("Creando delivery para pedido {}", dto.getPedidoId());
+        Delivery delivery = Delivery.builder()
+                .pedidoId(dto.getPedidoId())
+                .direccionEntrega(dto.getDireccionEntrega())
+                .estado(EstadoDelivery.BUSCANDO_REPARTIDOR)
+                .build();
+        return mapToDTO(deliveryRepository.save(delivery));
     }
 
     @Override
     public DeliveryResponseDTO getByPedidoId(Long pedidoId) {
-        /*
-         * INTENCIÓN: Consultar dónde está el pedido.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        log.info("Consultando delivery para pedido {}", pedidoId);
+        Delivery delivery = deliveryRepository.findByPedidoId(pedidoId)
+                .orElseThrow(() -> new cl.triskeledu.delivery.exception.DeliveryNotFoundException("Delivery no encontrado"));
+        return mapToDTO(delivery);
+    }
+    
+    public DeliveryResponseDTO getById(Long id) {
+        log.info("Consultando delivery ID {}", id);
+        Delivery delivery = deliveryRepository.findById(id)
+                .orElseThrow(() -> new cl.triskeledu.delivery.exception.DeliveryNotFoundException("Delivery no encontrado"));
+        return mapToDTO(delivery);
+    }
+    
+    public java.util.List<DeliveryResponseDTO> listarTodos() {
+        log.info("Listando todos los deliveries");
+        return deliveryRepository.findAll().stream()
+                .map(this::mapToDTO)
+                .collect(java.util.stream.Collectors.toList());
     }
 
     @Override
     public DeliveryResponseDTO asignarRepartidor(Long id, AsignarRepartidorDTO dto) {
-        /*
-         * INTENCIÓN: Asignar un repartidor físico a la entrega.
-         *
-         * FLUJO ESPERADO:
-         *   1. Buscar delivery. Si estado != BUSCANDO_REPARTIDOR -> Exception.
-         *   2. Validar que repartidorId existe y es ROLE_RP (Feign a ms-usuarios).
-         *   3. Cambiar estado a ASIGNADO.
-         *   4. Guardar en BD.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        log.info("Asignando repartidor {} a delivery {}", dto.getRepartidorId(), id);
+        Delivery delivery = deliveryRepository.findById(id)
+                .orElseThrow(() -> new cl.triskeledu.delivery.exception.DeliveryNotFoundException("Delivery no encontrado"));
+        delivery.setRepartidorId(dto.getRepartidorId());
+        delivery.setEstado(EstadoDelivery.ASIGNADO);
+        return mapToDTO(deliveryRepository.save(delivery));
     }
 
     @Override
     public DeliveryResponseDTO actualizarEstado(Long id, EstadoDelivery nuevoEstado, String observaciones) {
-        /*
-         * INTENCIÓN: El repartidor actualiza su progreso.
-         *
-         * FLUJO ESPERADO:
-         *   1. Buscar delivery.
-         *   2. Validar transición de estado lógica (ASIGNADO -> EN_CAMINO -> ENTREGADO).
-         *   3. Si es ENTREGADO -> Notificar a ms-pedidos vía Feign para que cierre el ciclo.
-         *   4. Guardar en BD.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        log.info("Actualizando estado de delivery {} a {}", id, nuevoEstado);
+        Delivery delivery = deliveryRepository.findById(id)
+                .orElseThrow(() -> new cl.triskeledu.delivery.exception.DeliveryNotFoundException("Delivery no encontrado"));
+        delivery.setEstado(nuevoEstado);
+        if (observaciones != null) {
+            delivery.setObservaciones(observaciones);
+        }
+        return mapToDTO(deliveryRepository.save(delivery));
+    }
+    
+    private DeliveryResponseDTO mapToDTO(Delivery entity) {
+        return DeliveryResponseDTO.builder()
+                .id(entity.getId())
+                .pedidoId(entity.getPedidoId())
+                .repartidorId(entity.getRepartidorId())
+                .direccionEntrega(entity.getDireccionEntrega())
+                .estado(entity.getEstado())
+                .observaciones(entity.getObservaciones())
+                .creadoEn(entity.getCreadoEn())
+                .actualizadoEn(entity.getActualizadoEn())
+                .build();
     }
 }

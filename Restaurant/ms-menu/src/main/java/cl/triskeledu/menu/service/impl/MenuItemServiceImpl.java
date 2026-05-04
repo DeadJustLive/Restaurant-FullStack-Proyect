@@ -3,6 +3,7 @@ package cl.triskeledu.menu.service.impl;
 import cl.triskeledu.menu.dto.request.MenuItemRequestDTO;
 import cl.triskeledu.menu.dto.response.MenuItemResponseDTO;
 import cl.triskeledu.menu.entity.MenuItem;
+import cl.triskeledu.menu.exception.MenuItemNotFoundException;
 import cl.triskeledu.menu.repository.MenuItemRepository;
 import cl.triskeledu.menu.service.MenuItemService;
 import lombok.extern.slf4j.Slf4j;
@@ -63,7 +64,7 @@ public class MenuItemServiceImpl implements MenuItemService {
          */
         log.info("Consultando MenuItem con ID: {}", id);
         MenuItem item = menuItemRepository.findByIdAndDisponibleTrueAndEliminadoFalse(id)
-                .orElseThrow(() -> new RuntimeException("Item no encontrado o no disponible con ID: " + id)); // TODO: Custom exception
+                .orElseThrow(() -> new MenuItemNotFoundException("Item no encontrado o no disponible con ID: " + id));
         return mapToDTO(item);
     }
 
@@ -93,7 +94,7 @@ public class MenuItemServiceImpl implements MenuItemService {
     public MenuItemResponseDTO actualizar(Long id, MenuItemRequestDTO dto) {
         log.info("Actualizando completamente MenuItem con ID: {}", id);
         MenuItem item = menuItemRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Item no encontrado con ID: " + id));
+                .orElseThrow(() -> new MenuItemNotFoundException("Item no encontrado con ID: " + id));
                 
         if (item.getEliminado()) {
             throw new RuntimeException("No se puede actualizar un ítem eliminado");
@@ -116,7 +117,7 @@ public class MenuItemServiceImpl implements MenuItemService {
     public MenuItemResponseDTO cambiarDisponibilidad(Long id, Boolean disponible) {
         log.info("Cambiando disponibilidad de MenuItem ID: {} a {}", id, disponible);
         MenuItem item = menuItemRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Item no encontrado con ID: " + id));
+                .orElseThrow(() -> new MenuItemNotFoundException("Item no encontrado con ID: " + id));
         item.setDisponible(disponible);
         MenuItem updated = menuItemRepository.save(item);
         return mapToDTO(updated);
@@ -131,7 +132,7 @@ public class MenuItemServiceImpl implements MenuItemService {
          */
         log.info("Eliminando lógicamente (soft delete) MenuItem con ID: {}", id);
         MenuItem item = menuItemRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Item no encontrado con ID: " + id));
+                .orElseThrow(() -> new MenuItemNotFoundException("Item no encontrado con ID: " + id));
         item.setEliminado(true);
         item.setDisponible(false);
         menuItemRepository.save(item);

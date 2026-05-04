@@ -82,7 +82,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGeneral(Exception ex) {
         // TODO: Integrar con sistema de alertas para errores 500 no esperados.
-        return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
+        ex.printStackTrace(); return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
                 "Error interno en ms-menu. Contacte al administrador.");
     }
 

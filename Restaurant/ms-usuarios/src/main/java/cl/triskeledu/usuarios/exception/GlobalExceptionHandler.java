@@ -52,7 +52,7 @@ public class GlobalExceptionHandler {
     /** 500 — Fallback no controlado. No exponer detalle interno. */
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGeneral(Exception ex) {
-        return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
+        ex.printStackTrace(); return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
                 "Error interno en ms-usuarios. Contacte al administrador.");
     }
 
