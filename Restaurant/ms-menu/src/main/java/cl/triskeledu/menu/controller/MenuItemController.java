@@ -2,10 +2,14 @@ package cl.triskeledu.menu.controller;
 
 import cl.triskeledu.menu.dto.request.MenuItemRequestDTO;
 import cl.triskeledu.menu.dto.response.MenuItemResponseDTO;
+import cl.triskeledu.menu.entity.proyecciones.CategoriaProyeccion;
+import cl.triskeledu.menu.repository.proyecciones.CategoriaProyeccionRepository;
 import cl.triskeledu.menu.service.MenuItemService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -67,4 +71,13 @@ public class MenuItemController {
         menuItemService.eliminar(id);
         return ResponseEntity.noContent().build();
     }
+
+    @Autowired
+private CategoriaProyeccionRepository projectionRepository;
+
+// Este endpoint recibe la copia desde Postman y la guarda en la tabla espejo
+@PostMapping("/proyeccion")
+public ResponseEntity<?> guardarProyeccion(@RequestBody CategoriaProyeccion proyeccion) {
+    return ResponseEntity.ok(projectionRepository.save(proyeccion));
+}
 }

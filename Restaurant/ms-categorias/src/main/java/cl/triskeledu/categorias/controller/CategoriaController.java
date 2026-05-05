@@ -21,6 +21,7 @@ import java.util.List;
 @RequestMapping("/api/v1/categorias")
 @RequiredArgsConstructor
 @Slf4j
+@CrossOrigin(origins = "http://localhost:3000")
 public class CategoriaController {
 
     private final CategoriaService categoriaService;
