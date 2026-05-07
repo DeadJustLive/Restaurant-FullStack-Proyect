@@ -1,5 +1,9 @@
 # 🏷️ Microservicio: Categorías (ms-categorias)
 
+> [!NOTE]
+> **Estado de Implementación:** 🟢 **IMPLEMENTADO**
+> El servicio cuenta con lógica funcional completa, incluyendo validación de nombres únicos (Case-Insensitive).
+
 ## 1. Propósito
 Define la taxonomía del catálogo de productos. Permite agrupar los ítems del menú en clasificaciones lógicas para mejorar la experiencia de búsqueda del cliente.
 

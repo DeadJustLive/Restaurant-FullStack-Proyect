@@ -12,6 +12,10 @@ import cl.triskeledu.pedidos.service.PedidoService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import cl.triskeledu.pedidos.client.AuthFeignClient;
+import cl.triskeledu.pedidos.dto.response.PermisoResponseDTO;
+import cl.triskeledu.pedidos.exception.AccesoDenegadoException;
+import lombok.RequiredArgsConstructor;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
@@ -25,8 +29,12 @@ import java.util.stream.Collectors;
  * =============================================================================
  */
 @Service
+@RequiredArgsConstructor
 @Slf4j
 public class PedidoServiceImpl implements PedidoService {
+
+    private final AuthFeignClient authFeignClient;
+
 
     @Autowired
     private PedidoRepository pedidoRepository;

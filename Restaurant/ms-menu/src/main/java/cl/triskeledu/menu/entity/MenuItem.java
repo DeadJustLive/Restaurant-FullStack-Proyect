@@ -127,17 +127,16 @@ public class MenuItem {
     private Boolean disponible = true;
 
     /**
-     * ATRIBUTO: categoriaId
-     * Tipo: Long (BIGINT)
-     * Rol: FK lógica a la categoría del producto en ms-categorias.
+     * ATRIBUTO: categoria
+     * Tipo: Entidad Categoria (FK a tabla categorias)
+     * Rol: Relación ManyToOne con la categoría del producto.
      *      Permite filtrar el menú por tipo (Entradas, Platos principales, Bebidas, etc.).
      *      El frontend usa este campo para renderizar la navegación por categorías.
-     * Riesgo: MEDIO. Si ms-categorias elimina la categoría, el ítem queda sin clasificación.
-     *         TODO: Al eliminar una categoría en ms-categorias, notificar a ms-menu
-     *               para que reasigne sus ítems a una categoría por defecto (o los marque como no disponibles).
+     * Riesgo: ALTO. La categoría es obligatoria para clasificar un ítem.
      */
-    @Column(name = "categoria_id", nullable = false)
-    private Long categoriaId;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "categoria_id", nullable = false)
+    private Categoria categoria;
 
     /**
      * ATRIBUTO: sucursalId

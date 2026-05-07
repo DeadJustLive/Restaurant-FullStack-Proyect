@@ -9,6 +9,10 @@ import cl.triskeledu.delivery.entity.Delivery;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import cl.triskeledu.delivery.client.AuthFeignClient;
+import cl.triskeledu.delivery.dto.response.PermisoResponseDTO;
+import cl.triskeledu.delivery.exception.AccesoDenegadoException;
+import lombok.RequiredArgsConstructor;
 
 /**
  * =============================================================================
@@ -16,8 +20,12 @@ import org.springframework.stereotype.Service;
  * =============================================================================
  */
 @Service
+@RequiredArgsConstructor
 @Slf4j
 public class DeliveryServiceImpl implements DeliveryService {
+
+    private final AuthFeignClient authFeignClient;
+
 
     @Autowired
     private cl.triskeledu.delivery.repository.DeliveryRepository deliveryRepository;

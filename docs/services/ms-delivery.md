@@ -1,28 +1,18 @@
-# 🛵 Microservicio: Delivery (ms-delivery)
+# 🚚 Microservicio: Delivery (ms-delivery)
 
-## 1. Propósito
-Gestiona la logística de última milla. Se encarga de la asignación de repartidores y el seguimiento del pedido desde que sale del local hasta que llega a manos del cliente.
+## Propósito
+Gestionar la logística de última milla, asignación de repartidores y seguimiento en tiempo real del despacho.
 
-## 2. Responsabilidades Clave
-*   Asignación de repartidores (ROLE_RP) a pedidos en estado "LISTO".
-*   Seguimiento del ciclo de vida del despacho (ASIGNADO, EN_CAMINO, ENTREGADO).
-*   Registro de incidencias durante la entrega.
+## Estado Actual de Implementación: [SCAFFOLDING]
+- **Estado:** Solo estructura de controladores.
+- **Lógica:** Métodos vacíos o con datos fijos para la interfaz visual.
 
-## 3. Diccionario de Datos (Entidad: Delivery)
-| Campo | Tipo | Descripción |
-| :--- | :--- | :--- |
-| `id` | `Long` | PK autoincremental. |
-| `pedidoId` | `Long` | FK Lógica hacia `ms-pedidos`. |
-| `repartidorId` | `Long` | FK Lógica hacia `ms-usuarios` (Repartidor asignado). |
-| `direccionEntrega` | `String` | Punto de llegada capturado del pedido. |
-| `estado` | `Enum` | BUSCANDO, ASIGNADO, EN_CAMINO, ENTREGADO. |
-| `observaciones` | `String` | Notas del repartidor o del cliente. |
+## Arquitectura Objetivo
+- Integración con Google Maps para cálculo de rutas y tiempos de entrega.
+- App móvil dedicada para el repartidor.
 
-## 4. Endpoints Principales
-*   `GET /api/v1/delivery/pendientes`: Ver pedidos esperando repartidor.
-*   `PATCH /api/v1/delivery/{id}/asignar`: Vincular repartidor al pedido.
-*   `PATCH /api/v1/delivery/{id}/estado`: Actualizar progreso del viaje.
+## Limitaciones Actuales
+- La asignación de repartidores es manual o aleatoria en la fase actual.
 
-## 5. Dependencias (Feign Clients)
-*   `ms-usuarios`: Verificar identidad y disponibilidad del repartidor.
-*   `ms-pedidos`: Informar la entrega final para cerrar el ciclo del pedido.
+## Dependencias Reales
+- `ms-pedidos`: Recibe pedidos listos para despacho.

@@ -13,6 +13,10 @@ import cl.triskeledu.inventario.service.InventarioService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import cl.triskeledu.inventario.client.AuthFeignClient;
+import cl.triskeledu.inventario.dto.response.PermisoResponseDTO;
+import cl.triskeledu.inventario.exception.AccesoDenegadoException;
+import lombok.RequiredArgsConstructor;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
@@ -25,8 +29,12 @@ import java.util.stream.Collectors;
  * =============================================================================
  */
 @Service
+@RequiredArgsConstructor
 @Slf4j
 public class InventarioServiceImpl implements InventarioService {
+
+    private final AuthFeignClient authFeignClient;
+
 
     @Autowired
     private InsumoRepository insumoRepository;

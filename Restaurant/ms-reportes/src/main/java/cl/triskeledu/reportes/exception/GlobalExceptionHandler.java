@@ -19,9 +19,15 @@ import java.util.Map;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
+    @ExceptionHandler(AccesoDenegadoException.class)
+    public ResponseEntity<Map<String, Object>> handleAccesoDenegado(AccesoDenegadoException ex) {
+        return buildError(HttpStatus.FORBIDDEN, ex.getMessage());
+    }
+
+
     @ExceptionHandler(ReporteNoGeneradoException.class)
-    public ResponseEntity<Map<String, Object>> handleNoGenerado(ReporteNoGeneradoException ex) {
-        return buildError(HttpStatus.UNPROCESSABLE_ENTITY, ex.getMessage());
+    public ResponseEntity<Map<String, Object>> handleReporteNoGenerado(ReporteNoGeneradoException ex) {
+        return buildError(HttpStatus.INTERNAL_SERVER_ERROR, ex.getMessage());
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
@@ -40,8 +46,9 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGeneral(Exception ex) {
-        ex.printStackTrace(); return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
-                "Error interno en ms-reportes al consolidar datos. Contacte al administrador.");
+        ex.printStackTrace();
+        return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
+                "Error interno en ms-reportes. Contacte al administrador.");
     }
 
     private ResponseEntity<Map<String, Object>> buildError(HttpStatus status, String mensaje) {

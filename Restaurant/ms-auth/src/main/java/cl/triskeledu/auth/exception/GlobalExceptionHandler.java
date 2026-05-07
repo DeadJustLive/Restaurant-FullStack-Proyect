@@ -15,61 +15,50 @@ import java.util.Map;
  * =============================================================================
  * EXCEPTION HANDLER: GlobalExceptionHandler (ms-auth)
  * =============================================================================
- *
- * PROPÓSITO:
- *   Handler global para todos los controllers de ms-auth.
- *   Transforma excepciones de dominio de seguridad en respuestas HTTP consistentes.
- *
- * PRINCIPIO DE SEGURIDAD EN MENSAJES DE ERROR:
- *   Los mensajes de error de autenticación deben ser GENÉRICOS.
- *   - ❌ "Username no encontrado" — revela que el username no existe.
- *   - ❌ "Contraseña incorrecta" — revela que el username SÍ existe.
- *   - ✅ "Credenciales inválidas" — ambos casos, mismo mensaje.
- *   El GlobalExceptionHandler respeta los mensajes que le pasan las excepciones.
- *   Es responsabilidad del Service lanzar mensajes genéricos.
- *
- * CÓDIGOS HTTP DE SEGURIDAD:
- *   401 Unauthorized: credenciales inválidas, token expirado/inválido.
- *   403 Forbidden:    cuenta desactivada o sin permisos para la operación.
- *   409 Conflict:     username ya registrado.
- *   501 Not Implemented: endpoint scaffoldeado pendiente de implementar.
- *
+ * Transforma excepciones de dominio en respuestas HTTP JSON estructuradas.
+ * Las excepciones también son recibidas por los clientes Feign como FeignException.
  * =============================================================================
  */
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    /**
-     * 401 — Credenciales inválidas (username o password incorrectos).
-     * Mensaje genérico para prevenir user enumeration.
-     */
+    /** 404 — Perfil de usuario no encontrado. */
+    @ExceptionHandler(UsuarioNotFoundException.class)
+    public ResponseEntity<Map<String, Object>> handleNotFound(UsuarioNotFoundException ex) {
+        return buildError(HttpStatus.NOT_FOUND, ex.getMessage());
+    }
+
+    /** 401 — Credenciales inválidas. */
     @ExceptionHandler(CredencialesInvalidasException.class)
     public ResponseEntity<Map<String, Object>> handleCredencialesInvalidas(CredencialesInvalidasException ex) {
         return buildError(HttpStatus.UNAUTHORIZED, ex.getMessage());
     }
 
-    /**
-     * 403 — Cuenta desactivada por el administrador.
-     * El usuario existe pero no puede operar con su cuenta.
-     */
+    /** 401 — Token inválido. */
+    @ExceptionHandler(TokenInvalidoException.class)
+    public ResponseEntity<Map<String, Object>> handleTokenInvalido(TokenInvalidoException ex) {
+        return buildError(HttpStatus.UNAUTHORIZED, ex.getMessage());
+    }
+
+    /** 403 — Cuenta desactivada. */
     @ExceptionHandler(CuentaDesactivadaException.class)
     public ResponseEntity<Map<String, Object>> handleCuentaDesactivada(CuentaDesactivadaException ex) {
         return buildError(HttpStatus.FORBIDDEN, ex.getMessage());
     }
 
-    /**
-     * 409 — Username ya registrado.
-     * Solo aplica al endpoint de registro, no al de login.
-     */
+    /** 409 — Usuario ya existe. */
     @ExceptionHandler(UsuarioYaExisteException.class)
-    public ResponseEntity<Map<String, Object>> handleYaExiste(UsuarioYaExisteException ex) {
+    public ResponseEntity<Map<String, Object>> handleUsuarioYaExiste(UsuarioYaExisteException ex) {
         return buildError(HttpStatus.CONFLICT, ex.getMessage());
     }
 
-    /**
-     * 400 — Validación Bean Validation fallida.
-     * Retorna mapa de {campo: "mensaje"} para todos los campos inválidos.
-     */
+    /** 409 — Credencial ya tiene un perfil vinculado. */
+    @ExceptionHandler(CredencialYaVinculadaException.class)
+    public ResponseEntity<Map<String, Object>> handleCredencialYaVinculada(CredencialYaVinculadaException ex) {
+        return buildError(HttpStatus.CONFLICT, ex.getMessage());
+    }
+
+    /** 400 — Validación Bean Validation fallida. Retorna mapa campo→mensaje. */
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Map<String, Object>> handleValidation(MethodArgumentNotValidException ex) {
         Map<String, String> erroresCampos = new HashMap<>();
@@ -84,24 +73,7 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(body);
     }
 
-    /**
-     * 401 — Token inválido o expirado (refresh token).
-     */
-    @ExceptionHandler(TokenInvalidoException.class)
-    public ResponseEntity<Map<String, Object>> handleTokenInvalido(TokenInvalidoException ex) {
-        return buildError(HttpStatus.UNAUTHORIZED, ex.getMessage());
-    }
-
-    /** 501 — Endpoint scaffoldeado, pendiente de implementar. */
-    @ExceptionHandler(UnsupportedOperationException.class)
-    public ResponseEntity<Map<String, Object>> handleNotImplemented(UnsupportedOperationException ex) {
-        return buildError(HttpStatus.NOT_IMPLEMENTED, "Funcionalidad en desarrollo: " + ex.getMessage());
-    }
-
-    /**
-     * 500 — Fallback. No exponer stack trace ni detalle interno al cliente.
-     * TODO: Integrar con sistema de alertas (Sentry, PagerDuty) para errores inesperados en auth.
-     */
+    /** 500 — Fallback no controlado. No exponer detalle interno. */
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGeneral(Exception ex) {
         ex.printStackTrace(); return buildError(HttpStatus.INTERNAL_SERVER_ERROR,

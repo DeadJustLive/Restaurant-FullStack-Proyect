@@ -5,6 +5,10 @@ import cl.triskeledu.reportes.dto.response.ReporteSnapshotResponseDTO;
 import cl.triskeledu.reportes.service.ReporteService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import cl.triskeledu.reportes.client.AuthFeignClient;
+import cl.triskeledu.reportes.dto.response.PermisoResponseDTO;
+import cl.triskeledu.reportes.exception.AccesoDenegadoException;
+import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 
@@ -14,8 +18,12 @@ import java.util.List;
  * =============================================================================
  */
 @Service
+@RequiredArgsConstructor
 @Slf4j
 public class ReporteServiceImpl implements ReporteService {
+
+    private final AuthFeignClient authFeignClient;
+
 
     @Override
     public ReporteSnapshotResponseDTO generarReporteDinamico(FiltroReporteDTO filtro) {
@@ -33,7 +41,7 @@ public class ReporteServiceImpl implements ReporteService {
          *   5. Guardar el nuevo ReporteSnapshot en BD.
          *   Output: ReporteSnapshotResponseDTO.
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        return null; // TODO: Tu compañero debe implementar la lógica de negocio perfecta según el flujo esperado.
     }
 
     @Override
@@ -41,6 +49,6 @@ public class ReporteServiceImpl implements ReporteService {
         /*
          * INTENCIÓN: Consultar reportes ya pre-calculados (rápido).
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        return null; // TODO: Tu compañero debe implementar la lógica de negocio perfecta según el flujo esperado.
     }
 }

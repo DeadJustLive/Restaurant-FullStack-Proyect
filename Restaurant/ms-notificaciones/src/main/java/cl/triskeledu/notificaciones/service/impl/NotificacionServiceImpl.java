@@ -6,6 +6,10 @@ import cl.triskeledu.notificaciones.entity.enums.EstadoNotificacion;
 import cl.triskeledu.notificaciones.service.NotificacionService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import cl.triskeledu.notificaciones.client.AuthFeignClient;
+import cl.triskeledu.notificaciones.dto.response.PermisoResponseDTO;
+import cl.triskeledu.notificaciones.exception.AccesoDenegadoException;
+import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 
@@ -15,8 +19,12 @@ import java.util.List;
  * =============================================================================
  */
 @Service
+@RequiredArgsConstructor
 @Slf4j
 public class NotificacionServiceImpl implements NotificacionService {
+
+    private final AuthFeignClient authFeignClient;
+
 
     @Override
     public NotificacionResponseDTO enviarNotificacion(NotificacionRequestDTO dto) {
@@ -31,7 +39,7 @@ public class NotificacionServiceImpl implements NotificacionService {
          *   5. Guardar actualización en BD.
          *   Output: NotificacionResponseDTO con estado final.
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        return null; // TODO: Tu compañero debe implementar la lógica de negocio perfecta según el flujo esperado.
     }
 
     @Override
@@ -39,7 +47,7 @@ public class NotificacionServiceImpl implements NotificacionService {
         /*
          * INTENCIÓN: Consultar si un mensaje específico se envió.
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        return null; // TODO: Tu compañero debe implementar la lógica de negocio perfecta según el flujo esperado.
     }
 
     @Override
@@ -47,6 +55,6 @@ public class NotificacionServiceImpl implements NotificacionService {
         /*
          * INTENCIÓN: Listar para posible reintento (ej. buscar todas las FALLIDAS).
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        return null; // TODO: Tu compañero debe implementar la lógica de negocio perfecta según el flujo esperado.
     }
 }

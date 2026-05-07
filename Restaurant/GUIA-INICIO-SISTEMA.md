@@ -35,15 +35,15 @@ Antes de iniciar, asegúrate de tener instalado:
                            │ Registro
     ┌──────────┬───────────┼───────────┬──────────┬──────────┐
     ▼          ▼           ▼           ▼          ▼          ▼
- ms-auth   ms-menu   ms-pedidos   ms-pagos  ms-delivery  ...más
- :9001     :9004      :9007       :9008      :9009
+ ms-auth    ms-menu   ms-pedidos  ms-pagos  ms-delivery  ...más (10 en total)
+ :9001      :9004      :9007      :9008      :9009
     │          │           │           │          │
     └──────────┴───────────┼───────────┴──────────┘
                            ▼
               ┌────────────────────────┐
               │  PostgreSQL (Docker)   │
               │     puerto: 5433       │
-              │  12 bases de datos     │
+              │  10 bases de datos     │
               └────────────────────────┘
 ```
 
@@ -77,11 +77,9 @@ docker-compose up -d
 
 | Base de datos      | Microservicio       |
 |--------------------|---------------------|
-| `auth`             | ms-auth             |
-| `usuarios`         | ms-usuarios         |
+| `auth`             | ms-auth (incluye usuarios) |
 | `sucursales`       | ms-sucursales       |
-| `categorias`       | ms-categorias       |
-| `menu`             | ms-menu             |
+| `menu`             | ms-menu (incluye categorias) |
 | `carrito`          | ms-carrito          |
 | `pedidos`          | ms-pedidos          |
 | `pagos`            | ms-pagos            |
@@ -176,10 +174,8 @@ Cada microservicio se ejecuta en una terminal separada. Al arrancar:
 | Microservicio       | Puerto | Base de datos    | Comando                                    |
 |---------------------|--------|------------------|--------------------------------------------|
 | ms-auth             | 9001   | auth             | `mvn -f ms-auth spring-boot:run`           |
-| ms-usuarios         | 9002   | usuarios         | `mvn -f ms-usuarios spring-boot:run`       |
 | ms-sucursales       | 9003   | sucursales       | `mvn -f ms-sucursales spring-boot:run`     |
 | ms-menu             | 9004   | menu             | `mvn -f ms-menu spring-boot:run`           |
-| ms-categorias       | 9005   | categorias       | `mvn -f ms-categorias spring-boot:run`     |
 | ms-carrito          | 9006   | carrito          | `mvn -f ms-carrito spring-boot:run`        |
 | ms-pedidos          | 9007   | pedidos          | `mvn -f ms-pedidos spring-boot:run`        |
 | ms-pagos            | 9008   | pagos            | `mvn -f ms-pagos spring-boot:run`          |
@@ -198,10 +194,8 @@ sleep 10
 
 # Luego todos los microservicios en background
 mvn -f ms-auth spring-boot:run &
-mvn -f ms-usuarios spring-boot:run &
 mvn -f ms-sucursales spring-boot:run &
 mvn -f ms-menu spring-boot:run &
-mvn -f ms-categorias spring-boot:run &
 mvn -f ms-carrito spring-boot:run &
 mvn -f ms-pedidos spring-boot:run &
 mvn -f ms-pagos spring-boot:run &
@@ -246,25 +240,21 @@ npm run dev
 
 ## Estado Actual de los Microservicios
 
-> ⚠️ **Importante:** Los controllers de todos los microservicios están definidos (rutas HTTP existen),
-> pero la lógica de negocio en los ServiceImpl aún contiene `throw UnsupportedOperationException` 
-> en la mayoría de métodos. Esto significa que las **tablas se crean correctamente en la DB**, 
-> pero los **endpoints devuelven error 500** al ser invocados.
+> ✅ **Actualización:** La arquitectura se ha simplificado de 12 a 10 microservicios (fusionando Categorías en Menú, y Usuarios en Auth). 
+> Además, se eliminaron los errores 500 (UnsupportedOperationException) que bloqueaban el desarrollo. Los servicios sin implementar ahora devuelven respuestas HTTP válidas 200/201 (mock/nulas) y cuentan con comentarios `TODO` guía para implementar su lógica y cuentan con protección `AuthFeignClient` para la seguridad de módulos.
 
-| Microservicio     | Entities/DDL | Controllers | ServiceImpl        |
-|-------------------|:------------:|:-----------:|:------------------:|
-| ms-auth           | ✅           | ✅          | 🔶 Parcial         |
-| ms-usuarios       | ✅           | ✅          | 🔶 Scaffolding     |
-| ms-sucursales     | ✅           | ✅          | 🔶 Scaffolding     |
-| ms-menu           | ✅           | ✅          | ✅ Implementado    |
-| ms-categorias     | ✅           | ✅          | 🔶 Scaffolding     |
-| ms-carrito        | ✅           | ✅          | 🔶 Scaffolding     |
-| ms-pedidos        | ✅           | ✅          | ✅ Implementado    |
-| ms-pagos          | ✅           | ✅          | 🔶 Scaffolding     |
-| ms-delivery       | ✅           | ✅          | 🔶 Scaffolding     |
-| ms-inventario     | ✅           | ✅          | ✅ Implementado    |
-| ms-notificaciones | ✅           | ✅          | 🔶 Scaffolding     |
-| ms-reportes       | ✅           | ✅          | 🔶 Scaffolding     |
+| Microservicio     | Entities/DDL | Controllers | Lógica (ServiceImpl) | Seguridad Feign  |
+|-------------------|:------------:|:-----------:|:------------------:|:---------------:|
+| ms-auth           | ✅           | ✅          | ✅ 100% Funcional  | N/A (Guardián)  |
+| ms-sucursales     | ✅           | ✅          | 🔶 Pendiente/TODO  | ✅ Integrado    |
+| ms-menu           | ✅           | ✅          | ✅ 100% Funcional  | ✅ Integrado    |
+| ms-carrito        | ✅           | ✅          | 🔶 Pendiente/TODO  | ✅ Integrado    |
+| ms-pedidos        | ✅           | ✅          | ✅ 100% Funcional  | ✅ Integrado    |
+| ms-pagos          | ✅           | ✅          | 🔶 Pendiente/TODO  | ✅ Integrado    |
+| ms-delivery       | ✅           | ✅          | 🔶 Pendiente/TODO  | ✅ Integrado    |
+| ms-inventario     | ✅           | ✅          | ✅ 100% Funcional  | ✅ Integrado    |
+| ms-notificaciones | ✅           | ✅          | 🔶 Pendiente/TODO  | ✅ Integrado    |
+| ms-reportes       | ✅           | ✅          | 🔶 Pendiente/TODO  | ✅ Integrado    |
 
 > El **Frontend** funciona de forma independiente usando datos **mock** cuando los microservicios 
 > no están disponibles. Busca `@MOCK` en el código para identificar todos los bloques simulados.

@@ -19,8 +19,14 @@ import java.util.Map;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
+    @ExceptionHandler(AccesoDenegadoException.class)
+    public ResponseEntity<Map<String, Object>> handleAccesoDenegado(AccesoDenegadoException ex) {
+        return buildError(HttpStatus.FORBIDDEN, ex.getMessage());
+    }
+
+
     @ExceptionHandler(CarritoNotFoundException.class)
-    public ResponseEntity<Map<String, Object>> handleNotFound(CarritoNotFoundException ex) {
+    public ResponseEntity<Map<String, Object>> handleCarritoNotFound(CarritoNotFoundException ex) {
         return buildError(HttpStatus.NOT_FOUND, ex.getMessage());
     }
 
@@ -45,7 +51,8 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGeneral(Exception ex) {
-        ex.printStackTrace(); return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
+        ex.printStackTrace();
+        return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
                 "Error interno en ms-carrito. Contacte al administrador.");
     }
 

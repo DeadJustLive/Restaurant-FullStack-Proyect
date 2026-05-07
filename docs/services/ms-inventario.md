@@ -1,36 +1,22 @@
 # 📦 Microservicio: Inventario (ms-inventario)
 
-## 1. Propósito
-Controla el stock físico de insumos y productos en cada sucursal. Es vital para prevenir quiebres de stock y registrar el movimiento de mercancía (Kardex).
+## Propósito
+Gestionar el stock de materias primas e insumos de cada sucursal, registrando movimientos de entrada y salida para el control de mermas y reabastecimiento.
 
-## 2. Responsabilidades Clave
-*   Mantenimiento del stock actual por sucursal.
-*   Registro de movimientos (ENTRADA por compra/ajuste, SALIDA por venta/merma).
-*   Alertas de stock bajo (Umbrales de reabastecimiento).
+## Estado Actual de Implementación: [PARCIALMENTE IMPLEMENTADO]
+- **Funcional:** CRUD de Insumos, registro de movimientos (Entrada/Salida) y consulta de Kardex por insumo.
+- **Persistencia:** Real en PostgreSQL.
+- **Validaciones:** Control básico de stock mínimo.
 
-## 3. Diccionario de Datos
-### Entidad: Insumo
-| Campo | Tipo | Descripción |
-| :--- | :--- | :--- |
-| `id` | `Long` | PK autoincremental. |
-| `nombre` | `String` | Nombre del insumo (ej: "Harina"). |
-| `stockActual` | `BigDecimal` | Cantidad física en bodega. |
-| `stockMinimo` | `BigDecimal` | Umbral para alertas. |
-| `sucursalId` | `Long` | FK Lógica hacia `ms-sucursales`. |
+## Arquitectura Objetivo
+- Descuento automático de stock al finalizar un pedido en `ms-pedidos`.
+- Generación de alertas automáticas de reabastecimiento vía `ms-notificaciones`.
+- Integración de escaneo de códigos QR/Barras para movimientos de bodega.
 
-### Entidad: MovimientoInventario (Kardex)
-| Campo | Tipo | Descripción |
-| :--- | :--- | :--- |
-| `id` | `Long` | PK autoincremental. |
-| `insumoId` | `Long` | Relación con el insumo. |
-| `tipo` | `Enum` | ENTRADA o SALIDA. |
-| `cantidad` | `BigDecimal` | Cantidad afectada. |
-| `referencia` | `String` | Motivo (ej: "Pedido #102"). |
+## Limitaciones Actuales
+- No existe integración con la venta real (el stock se debe mover manualmente o vía API).
+- No maneja múltiples unidades de medida con conversión automática.
 
-## 4. Endpoints Principales
-*   `GET /api/v1/inventario/sucursal/{sucId}`: Ver stock de un local.
-*   `POST /api/v1/inventario/movimiento`: Registrar entrada o salida.
-*   `GET /api/v1/inventario/alertas`: Listar productos bajo el stock mínimo.
-
-## 5. Dependencias (Feign Clients)
-*   `ms-sucursales`: Validar local antes de operar.
+## Dependencias Reales
+- `ms-sucursales`: Segmentación de stock por local físico.
+- `ms-auth`: Protección de endpoints de auditoría de inventario.

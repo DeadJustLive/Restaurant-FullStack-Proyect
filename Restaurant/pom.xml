@@ -19,10 +19,8 @@
     <modules>
         <module>eureka</module>      <!-- Servidor Eureka -->
         <module>ms-auth</module>      <!-- Microservicio auth -->
-        <module>ms-usuarios</module>      <!-- Microservicio usuarios -->
         <module>ms-sucursales</module>      <!-- Microservicio sucursales -->
         <module>ms-menu</module>      <!-- Microservicio menu -->
-        <module>ms-categorias</module>      <!-- Microservicio categorias -->
         <module>ms-carrito</module>      <!-- Microservicio carrito -->
         <module>ms-pedidos</module>      <!-- Microservicio pedidos -->
         <module>ms-pagos</module>      <!-- Microservicio pagos -->

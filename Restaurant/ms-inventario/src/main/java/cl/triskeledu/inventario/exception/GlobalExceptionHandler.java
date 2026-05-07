@@ -19,18 +19,24 @@ import java.util.Map;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    @ExceptionHandler(InsumoNotFoundException.class)
-    public ResponseEntity<Map<String, Object>> handleNotFound(InsumoNotFoundException ex) {
-        return buildError(HttpStatus.NOT_FOUND, ex.getMessage());
+    @ExceptionHandler(AccesoDenegadoException.class)
+    public ResponseEntity<Map<String, Object>> handleAccesoDenegado(AccesoDenegadoException ex) {
+        return buildError(HttpStatus.FORBIDDEN, ex.getMessage());
     }
 
-    @ExceptionHandler(InsumoDuplicadoException.class)
-    public ResponseEntity<Map<String, Object>> handleDuplicado(InsumoDuplicadoException ex) {
-        return buildError(HttpStatus.CONFLICT, ex.getMessage());
+
+    @ExceptionHandler(InsumoNotFoundException.class)
+    public ResponseEntity<Map<String, Object>> handleInsumoNotFound(InsumoNotFoundException ex) {
+        return buildError(HttpStatus.NOT_FOUND, ex.getMessage());
     }
 
     @ExceptionHandler(StockInsuficienteException.class)
     public ResponseEntity<Map<String, Object>> handleStockInsuficiente(StockInsuficienteException ex) {
+        return buildError(HttpStatus.CONFLICT, ex.getMessage());
+    }
+
+    @ExceptionHandler(InsumoDuplicadoException.class)
+    public ResponseEntity<Map<String, Object>> handleInsumoDuplicado(InsumoDuplicadoException ex) {
         return buildError(HttpStatus.CONFLICT, ex.getMessage());
     }
 
@@ -50,7 +56,8 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGeneral(Exception ex) {
-        ex.printStackTrace(); return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
+        ex.printStackTrace();
+        return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
                 "Error interno en ms-inventario. Contacte al administrador.");
     }
 

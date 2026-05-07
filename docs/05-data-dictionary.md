@@ -1,29 +1,33 @@
-# 🗄️ Diccionario de Datos Consolidado
+# 🗄️ Diccionario de Datos y Relaciones Inter-Servicio
 
-## 1. Estrategia de Persistencia
-El sistema utiliza **PostgreSQL** con una estrategia de **Aislamiento Total (Database per Service)**. Las entidades están diseñadas siguiendo el patrón de *Agregados de Dominio*.
+## 1. Principio de Identidad
+El sistema sigue el principio de **Database per Service**. Las relaciones entre microservicios son lógicas y basadas en IDs.
 
-## 2. Entidades Principales y Relaciones Lógicas
+## 2. Relación Crítica: Auth <-> Usuarios
 
-A continuación se detallan las entidades clave y cómo se referencian entre microservicios (sin Foreign Keys físicas).
+### Implementación Actual (Realidad en Código)
+La vinculación entre el microservicio de autenticación y el de perfiles no es por email ni username, sino por el ID técnico.
 
-### A. Dominio de Usuarios y Auth
-*   **User (ms-usuarios):** Almacena perfil, email y datos personales.
-*   **Credential (ms-auth):** Almacena username, password (hasheado) y roles.
-    *   *Vínculo:* Se relacionan mediante el `email` o un `uuid` compartido.
+- **Vínculo:** `credencialId` (Long)
+- **Flujo:**
+    1. `ms-auth` crea la credencial y genera un ID autoincremental.
+    2. El ID se devuelve o se utiliza para crear el registro en `ms-usuarios`.
+    3. `ms-usuarios` almacena este `credencialId` como su llave de referencia externa.
 
-### B. Dominio de Ventas (Catálogo)
-*   **MenuItem (ms-menu):** Nombre, precio, stock referencial.
-*   **Categoria (ms-categorias):** Agrupación lógica (ej: "Bebidas", "Pizzas").
-*   **Sucursal (ms-sucursales):** Ubicación física donde está disponible el producto.
+> [!NOTE]
+> Esta separación permite cambiar el email o username del usuario sin romper la integridad de sus perfiles, pedidos o historial.
 
-### C. Dominio Transaccional
-*   **Pedido (ms-pedidos):** Cabecera de la transacción.
-*   **PedidoItem (ms-pedidos):** Detalle de productos comprados.
-    *   *Relación Lógica:* Contiene `menuItemId` que referencia a `ms-menu`.
-*   **Transaccion (ms-pagos):** Registro de intentos de cobro y estados de pasarela.
+## 3. Relaciones en el Dominio de Ventas
 
-## 3. Tipos de Datos Estándar
-*   **Precios/Montos:** Siempre `BigDecimal` (Java) y `DECIMAL(19,2)` (SQL) para evitar errores de redondeo.
-*   **Fechas:** `LocalDateTime` (Java) y `TIMESTAMP` (SQL).
-*   **Identificadores:** `Long` (Java) y `BIGSERIAL` (SQL).
+| De (Servicio) | A (Servicio) | Atributo de Vínculo | Estado Implementación |
+| :--- | :--- | :--- | :--- |
+| `ms-pedidos` | `ms-sucursales`| `sucursalId` (Long) | **Scaffolding** |
+| `ms-pedidos` | `ms-menu` | `menuItemId` (Long) | **Scaffolding** |
+| `ms-inventario` | `ms-sucursales`| `sucursalId` (Long) | **Implementado** |
+| `ms-menu` | `ms-categorias`| `categoriaId` (Long) | **En Transición** |
+
+---
+
+## 4. Arquitectura Objetivo (Datos)
+- Implementar **Vistas Materializadas** para reportes que requieran JOINs entre microservicios (vía `ms-reportes`).
+- Uso de **Eventos de Dominio** para mantener la consistencia eventual entre `ms-pedidos` y `ms-inventario`.

@@ -22,7 +22,7 @@ La siguiente tabla será usada para crear las coordenadas GAV (Group, Artifact, 
 | **Package**             | jar                                      |
 | **Group Id**            | cl.triskeledu                            |
 | **Parent Name**         | Restaurant                               |
-| **Folder**              | C:\Restaurant                            |
+| **Folder**              | \Restaurant-FullStack-Proyect\Restaurant            |
 | **Spring Boot Version** | 3.5.13                                   |
 | **Java Version**        | 21                                       |
 | **Project Name**        | Restaurant                               |

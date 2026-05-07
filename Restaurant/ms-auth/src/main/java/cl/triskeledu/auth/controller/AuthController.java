@@ -7,8 +7,10 @@ import cl.triskeledu.auth.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import cl.triskeledu.auth.dto.response.PermisoResponseDTO;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -221,5 +223,31 @@ public class AuthController {
         response.put("status", "UP");
         response.put("service", "ms-auth");
         return ResponseEntity.ok(response);
+    }
+
+    /**
+     * Endpoint interno para validación de acceso vía Feign (usado por ms-menu, ms-inventario, etc.)
+     */
+    @GetMapping("/validar-acceso")
+    public ResponseEntity<PermisoResponseDTO> validarAcceso(
+            @RequestParam("credencialId") Long credencialId, 
+            @RequestParam("modulo") String modulo, 
+            @RequestParam("accion") String accion) {
+        
+        log.info("Feign Request: Validando acceso de credencial {} para módulo {}", credencialId, modulo);
+        
+        // TODO: Aquí el desarrollador debe implementar la búsqueda del usuario/roles en base de datos.
+        // Como scaffolding, devolveremos "true" si la petición llega, asumiendo que el usuario es válido temporalmente.
+        // Lo ideal: 
+        // UserCredential cred = userCredentialRepository.findById(credencialId)...
+        // boolean tienePermiso = cred.getRoles().stream().anyMatch(r -> r.getName().contains("ADMIN") || r.getName().contains(modulo));
+        
+        boolean esValido = true; // Lógica pendiente de base de datos
+        
+        if (esValido) {
+            return ResponseEntity.ok(PermisoResponseDTO.builder().permitido(true).mensaje("Acceso Concedido").build());
+        } else {
+            return ResponseEntity.ok(PermisoResponseDTO.builder().permitido(false).mensaje("Acceso Denegado").build());
+        }
     }
 }

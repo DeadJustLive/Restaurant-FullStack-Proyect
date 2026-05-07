@@ -6,6 +6,10 @@ import cl.triskeledu.carrito.dto.response.CarritoResponseDTO;
 import cl.triskeledu.carrito.service.CarritoService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import cl.triskeledu.carrito.client.AuthFeignClient;
+import cl.triskeledu.carrito.dto.response.PermisoResponseDTO;
+import cl.triskeledu.carrito.exception.AccesoDenegadoException;
+import lombok.RequiredArgsConstructor;
 
 /**
  * =============================================================================
@@ -13,8 +17,12 @@ import org.springframework.stereotype.Service;
  * =============================================================================
  */
 @Service
+@RequiredArgsConstructor
 @Slf4j
 public class CarritoServiceImpl implements CarritoService {
+
+    private final AuthFeignClient authFeignClient;
+
 
     @Override
     public CarritoResponseDTO obtenerCarrito(Long usuarioId) {
@@ -26,7 +34,7 @@ public class CarritoServiceImpl implements CarritoService {
          *   2. Si no existe, retornar CarritoNotFoundException.
          *   3. Mapear a DTO y retornar.
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        return null; // TODO: Tu compañero debe implementar la lógica de negocio perfecta según el flujo esperado.
     }
 
     @Override
@@ -40,7 +48,7 @@ public class CarritoServiceImpl implements CarritoService {
          *   3. Crear entidad Carrito, total = 0.
          *   4. Guardar en BD.
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        return null; // TODO: Tu compañero debe implementar la lógica de negocio perfecta según el flujo esperado.
     }
 
     @Override
@@ -56,7 +64,7 @@ public class CarritoServiceImpl implements CarritoService {
          *   5. Recalcular subtotal del ítem y total del carrito.
          *   6. Guardar carrito.
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        return null; // TODO: Tu compañero debe implementar la lógica de negocio perfecta según el flujo esperado.
     }
 
     @Override
@@ -70,7 +78,7 @@ public class CarritoServiceImpl implements CarritoService {
          *   3. Actualizar cantidad. Recalcular subtotal y total del carrito.
          *   4. Guardar carrito.
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        return null; // TODO: Tu compañero debe implementar la lógica de negocio perfecta según el flujo esperado.
     }
 
     @Override
@@ -84,7 +92,7 @@ public class CarritoServiceImpl implements CarritoService {
          *   3. Recalcular total.
          *   4. Guardar carrito.
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        return null; // TODO: Tu compañero debe implementar la lógica de negocio perfecta según el flujo esperado.
     }
 
     @Override
@@ -96,6 +104,6 @@ public class CarritoServiceImpl implements CarritoService {
          * FLUJO ESPERADO:
          *   1. Eliminar la entidad Carrito de BD, o borrar todos sus ítems y resetear total a 0.
          */
-        throw new UnsupportedOperationException("Scaffolding: Lógica de negocio pendiente de implementación.");
+        // TODO: Tu compañero debe implementar la lógica de negocio perfecta según el flujo esperado.
     }
 }

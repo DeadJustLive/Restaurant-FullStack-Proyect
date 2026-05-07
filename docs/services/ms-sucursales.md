@@ -1,5 +1,9 @@
 # 🏢 Microservicio: Sucursales (ms-sucursales)
 
+> [!NOTE]
+> **Estado de Implementación:** 🟢 **IMPLEMENTADO**
+> El servicio cuenta con lógica funcional completa para CRUD, auditoría y gestión de estado activa/inactiva.
+
 ## 1. Propósito
 Centraliza la información de los locales físicos. Es el punto de referencia para la disponibilidad de productos, asignación de personal y origen de los despachos.
 

@@ -9,6 +9,10 @@ import cl.triskeledu.pagos.repository.PagoRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import cl.triskeledu.pagos.client.AuthFeignClient;
+import cl.triskeledu.pagos.dto.response.PermisoResponseDTO;
+import cl.triskeledu.pagos.exception.AccesoDenegadoException;
+import lombok.RequiredArgsConstructor;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
@@ -19,8 +23,12 @@ import java.util.List;
  * =============================================================================
  */
 @Service
+@RequiredArgsConstructor
 @Slf4j
 public class PagoServiceImpl implements PagoService {
+
+    private final AuthFeignClient authFeignClient;
+
 
     @Autowired
     private PagoRepository pagoRepository;

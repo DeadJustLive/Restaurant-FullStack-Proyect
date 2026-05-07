@@ -10,6 +10,8 @@ import cl.triskeledu.auth.exception.CuentaDesactivadaException;
 import cl.triskeledu.auth.exception.TokenInvalidoException;
 import cl.triskeledu.auth.exception.UsuarioYaExisteException;
 import cl.triskeledu.auth.repository.UserCredentialRepository;
+import cl.triskeledu.auth.repository.UsuarioRepository;
+import cl.triskeledu.auth.entity.Usuario;
 import cl.triskeledu.auth.service.AuthService;
 import cl.triskeledu.auth.service.JwtService;
 import lombok.RequiredArgsConstructor;
@@ -29,6 +31,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class AuthServiceImpl implements AuthService {
 
     private final UserCredentialRepository userCredentialRepository;
+    private final UsuarioRepository usuarioRepository;
     private final PasswordEncoder passwordEncoder;
     private final JwtService jwtService;
 
@@ -58,7 +61,16 @@ public class AuthServiceImpl implements AuthService {
         UserCredential saved = userCredentialRepository.save(credential);
         log.info("Usuario registrado exitosamente: id={}, rol={}", saved.getId(), saved.getRol());
 
-        // 4. Generar tokens
+        // 4. Crear perfil de Usuario inicial asociado a la credencial
+        Usuario perfilUsuario = Usuario.builder()
+                .credencial(saved)
+                .nombre(usernameNormalizado.split("@")[0]) // Nombre por defecto basado en email
+                .apellido("")
+                .activo(true)
+                .build();
+        usuarioRepository.save(perfilUsuario);
+
+        // 5. Generar tokens
         String token = jwtService.generarToken(saved);
         String refreshToken = jwtService.generarRefreshToken(saved.getId());
 

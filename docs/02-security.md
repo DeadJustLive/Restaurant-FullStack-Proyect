@@ -1,31 +1,37 @@
-# 🔐 Seguridad y Control de Acceso
+# 🛡️ Seguridad y Autenticación (Estado Actual vs Objetivo)
 
-## 1. Modelo de Autenticación
-El sistema utiliza **JWT (JSON Web Tokens)** para la seguridad de los endpoints. El flujo de autenticación es el siguiente:
+Este documento detalla la infraestructura de seguridad del sistema.
 
-1.  El cliente envía credenciales a `ms-auth`.
-2.  `ms-auth` valida contra `db_usuarios`.
-3.  Se genera un JWT que contiene los **Claims de Roles**.
-4.  El cliente envía el JWT en el header `Authorization: Bearer <token>` en cada petición.
-5.  Los microservicios validan el token localmente mediante una configuración de seguridad compartida.
+## 1. Estado Actual de Implementación (Auditado 2026-05-04)
 
-## 2. Matriz de Roles y Permisos (RBAC)
+### Acceso y Autenticación
+- **Mecanismo:** Stateless via JWT (JSON Web Token).
+- **Almacenamiento:** El token se almacena en `localStorage` en el cliente.
+- **Hash de Contraseñas:** Implementado con **BCryptPasswordEncoder** (Strength 10) en `ms-auth`.
+- **Excepciones Reales:** Manejo de `UsuarioYaExisteException`, `CredencialesInvalidasException` y `TokenInvalidoException`.
 
-| Rol | Código | Descripción | Acceso Principal |
-| :--- | :--- | :--- | :--- |
-| **Super Admin** | `ROLE_SA` | Control total del sistema. | Gestión de usuarios, sucursales y reportes globales. |
-| **Admin** | `ROLE_AD` | Administrador de local. | Gestión de menú, inventario y pedidos de su sucursal. |
-| **Cocinero** | `ROLE_CO` | Operativo de cocina. | Visualización y cambio de estado de pedidos. |
-| **Repartidor** | `ROLE_RP` | Operativo de entregas. | Gestión de deliveries asignados. |
-| **Cliente** | `ROLE_CL` | Usuario final. | Lectura de menú, gestión de carrito y pedidos propios. |
+### Estructura Real del JWT (Claims)
+Contrario a versiones preliminares de la documentación, el token actual contiene **únicamente** los siguientes claims (ver `JwtServiceImpl.java`):
+- `sub`: Nombre de usuario.
+- `userId`: Identificador único de la credencial.
+- `roles`: Arreglo de strings (ej: `["ROLE_SA"]`).
 
-## 3. Autorización en el Código
-La seguridad se aplica a nivel de método utilizando anotaciones de Spring Security:
+> [!IMPORTANT]
+> **Módulos Habilitados (enabledModules):** NO es un claim del JWT actualmente. Su gestión es una capa de **UX en el Frontend** basada en la respuesta del login. No debe considerarse una medida de seguridad de backend en esta fase.
 
-```java
-@PreAuthorize("hasRole('ROLE_AD')")
-@PostMapping("/crear")
-public ResponseEntity<ResponseDTO> crearItem(...) { ... }
-```
+### Autorización Backend
+- **Estado:** Configurada pero **permisiva**. 
+- Aunque los microservicios tienen la capacidad de usar `@PreAuthorize`, la mayoría de los endpoints están abiertos para facilitar la demo académica. La validación estricta de roles está implementada solo en el flujo de `ms-auth`.
 
-> **⚠️ Regla de Oro:** La validación en el Frontend es solo estética (UX). La seguridad real debe residir siempre en el Microservicio receptor del request.
+---
+
+## 2. Arquitectura Objetivo (Siguiente Etapa)
+
+### Refresh Tokens
+- **Plan:** Implementar rotación de tokens con persistencia en BD para permitir la revocación real de sesiones. Actualmente, el "Logout" es solo la eliminación del token en el cliente.
+
+### Claims Extendidos
+- **Plan:** Mover `enabledModules` al JWT para que el backend pueda denegar peticiones si el usuario intenta acceder a un microservicio que no tiene contratado/habilitado.
+
+### API Gateway Seguridad
+- **Plan:** Centralizar la validación del JWT en un Spring Cloud Gateway para evitar que peticiones no autenticadas toquen los microservicios internos.

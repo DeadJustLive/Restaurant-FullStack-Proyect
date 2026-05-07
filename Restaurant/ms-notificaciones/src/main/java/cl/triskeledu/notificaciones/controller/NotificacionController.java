@@ -7,6 +7,8 @@ import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import cl.triskeledu.notificaciones.service.NotificacionService;
+import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 
@@ -17,30 +19,27 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api/v1/notificaciones")
+@RequiredArgsConstructor
 @Slf4j
 public class NotificacionController {
 
+    private final NotificacionService notificacionService;
+
     @PostMapping
     public ResponseEntity<NotificacionResponseDTO> enviarNotificacion(@Valid @RequestBody NotificacionRequestDTO dto) {
-        /*
-         * INTENCIÓN: Invocado por ms-pagos, ms-delivery, ms-inventario.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Controlador pendiente de implementación.");
+        log.info("REST request to send Notificacion");
+        return ResponseEntity.status(201).body(notificacionService.enviarNotificacion(dto));
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<NotificacionResponseDTO> getById(@PathVariable Long id) {
-        /*
-         * INTENCIÓN: Ver detalle de envío.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Controlador pendiente de implementación.");
+        log.info("REST request to get Notificacion : {}", id);
+        return ResponseEntity.ok(notificacionService.getById(id));
     }
 
     @GetMapping("/estado/{estado}")
     public ResponseEntity<List<NotificacionResponseDTO>> listarPorEstado(@PathVariable EstadoNotificacion estado) {
-        /*
-         * INTENCIÓN: Para monitor de fallos.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Controlador pendiente de implementación.");
+        log.info("REST request to list Notificaciones by estado: {}", estado);
+        return ResponseEntity.ok(notificacionService.listarPorEstado(estado));
     }
 }

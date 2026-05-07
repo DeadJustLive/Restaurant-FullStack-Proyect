@@ -7,6 +7,8 @@ import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import cl.triskeledu.carrito.service.CarritoService;
+import lombok.RequiredArgsConstructor;
 
 /**
  * =============================================================================
@@ -15,31 +17,28 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("/api/v1/carrito")
+@RequiredArgsConstructor
 @Slf4j
 public class CarritoController {
 
+    private final CarritoService carritoService;
+
     @GetMapping("/usuario/{usuarioId}")
     public ResponseEntity<CarritoResponseDTO> obtenerCarrito(@PathVariable Long usuarioId) {
-        /*
-         * INTENCIÓN: Consultar estado actual del carrito de un usuario.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Controlador pendiente de implementación.");
+        log.info("REST request to get Carrito for usuarioId: {}", usuarioId);
+        return ResponseEntity.ok(carritoService.obtenerCarrito(usuarioId));
     }
 
     @PostMapping
     public ResponseEntity<CarritoResponseDTO> crearCarrito(@Valid @RequestBody CarritoRequestDTO dto) {
-        /*
-         * INTENCIÓN: Inicializar carrito al seleccionar una sucursal.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Controlador pendiente de implementación.");
+        log.info("REST request to create Carrito");
+        return ResponseEntity.status(201).body(carritoService.crearCarrito(dto));
     }
 
     @PostMapping("/usuario/{usuarioId}/items")
     public ResponseEntity<CarritoResponseDTO> agregarItem(@PathVariable Long usuarioId, @Valid @RequestBody CarritoItemRequestDTO dto) {
-        /*
-         * INTENCIÓN: Agregar un plato al carrito.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Controlador pendiente de implementación.");
+        log.info("REST request to add item to Carrito for usuarioId: {}", usuarioId);
+        return ResponseEntity.status(201).body(carritoService.agregarItem(usuarioId, dto));
     }
 
     @PatchMapping("/usuario/{usuarioId}/items/{itemId}")
@@ -55,17 +54,14 @@ public class CarritoController {
 
     @DeleteMapping("/usuario/{usuarioId}/items/{itemId}")
     public ResponseEntity<CarritoResponseDTO> removerItem(@PathVariable Long usuarioId, @PathVariable Long itemId) {
-        /*
-         * INTENCIÓN: Quitar un plato del carrito.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Controlador pendiente de implementación.");
+        log.info("REST request to remove item {} from Carrito for usuarioId: {}", itemId, usuarioId);
+        return ResponseEntity.ok(carritoService.removerItem(usuarioId, itemId));
     }
 
     @DeleteMapping("/usuario/{usuarioId}")
     public ResponseEntity<Void> vaciarCarrito(@PathVariable Long usuarioId) {
-        /*
-         * INTENCIÓN: Vaciar todo el carrito. Invocado post-pago o cancelación manual.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Controlador pendiente de implementación.");
+        log.info("REST request to empty Carrito for usuarioId: {}", usuarioId);
+        carritoService.vaciarCarrito(usuarioId);
+        return ResponseEntity.noContent().build();
     }
 }

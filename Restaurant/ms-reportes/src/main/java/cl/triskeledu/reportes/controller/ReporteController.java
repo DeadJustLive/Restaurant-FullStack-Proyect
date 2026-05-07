@@ -7,6 +7,8 @@ import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import cl.triskeledu.reportes.service.ReporteService;
+import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 
@@ -17,22 +19,21 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api/v1/reportes")
+@RequiredArgsConstructor
 @Slf4j
 public class ReporteController {
 
+    private final ReporteService reporteService;
+
     @PostMapping("/generar")
     public ResponseEntity<ReporteSnapshotResponseDTO> generarReporte(@Valid @RequestBody FiltroReporteDTO filtro) {
-        /*
-         * INTENCIÓN: Disparar cálculo pesado sincrónicamente.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Controlador pendiente de implementación.");
+        log.info("REST request to generate Reporte");
+        return ResponseEntity.status(201).body(reporteService.generarReporteDinamico(filtro));
     }
 
     @GetMapping("/tipo/{tipo}")
     public ResponseEntity<List<ReporteSnapshotResponseDTO>> obtenerHistorial(@PathVariable TipoReporte tipo) {
-        /*
-         * INTENCIÓN: Leer snapshots para dashboards rápidos.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Controlador pendiente de implementación.");
+        log.info("REST request to get Reporte history for tipo: {}", tipo);
+        return ResponseEntity.ok(reporteService.obtenerHistorial(tipo));
     }
 }

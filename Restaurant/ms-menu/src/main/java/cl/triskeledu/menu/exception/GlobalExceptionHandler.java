@@ -1,5 +1,6 @@
 package cl.triskeledu.menu.exception;
 
+import cl.triskeledu.menu.exception.AccesoDenegadoException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
@@ -15,55 +16,40 @@ import java.util.Map;
  * =============================================================================
  * EXCEPTION HANDLER: GlobalExceptionHandler (ms-menu)
  * =============================================================================
- *
- * PROPÓSITO:
- *   Handler global de excepciones para todos los controllers de ms-menu.
- *   Convierte excepciones de dominio en respuestas HTTP estructuradas y consistentes.
- *
- * ESTRUCTURA DE RESPUESTA DE ERROR:
- * {
- *   "timestamp": "2024-04-25T18:30:00",
- *   "status":    404,
- *   "error":     "Not Found",
- *   "mensaje":   "Ítem de menú no encontrado con ID: 7"
- * }
- *
- * CONSIDERACIÓN DE FEIGN:
- *   ms-pedidos y ms-carrito consumen este servicio vía Feign.
- *   Los errores aquí retornados se convierten en FeignException en el cliente.
- *   El body del error también es accesible en el cliente Feign si se configura
- *   un ErrorDecoder personalizado.
- *   TODO: Definir un contrato de error estándar entre todos los microservicios
- *         (ErrorResponseDTO compartido, posiblemente en una librería común).
- *
- * =============================================================================
  */
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    /** 404 — Ítem no encontrado */
-    @ExceptionHandler(MenuItemNotFoundException.class)
-    public ResponseEntity<Map<String, Object>> handleNotFound(MenuItemNotFoundException ex) {
+    @ExceptionHandler(CategoriaNotFoundException.class)
+    public ResponseEntity<Map<String, Object>> handleNotFound(CategoriaNotFoundException ex) {
         return buildError(HttpStatus.NOT_FOUND, ex.getMessage());
     }
 
-    /** 409 — Ítem no disponible (existe pero disponible = false) */
-    @ExceptionHandler(ItemNoDisponibleException.class)
-    public ResponseEntity<Map<String, Object>> handleNoDisponible(ItemNoDisponibleException ex) {
+    @ExceptionHandler(MenuItemNotFoundException.class)
+    public ResponseEntity<Map<String, Object>> handleMenuItemNotFound(MenuItemNotFoundException ex) {
+        return buildError(HttpStatus.NOT_FOUND, ex.getMessage());
+    }
+
+    @ExceptionHandler(CategoriaDuplicadaException.class)
+    public ResponseEntity<Map<String, Object>> handleDuplicada(CategoriaDuplicadaException ex) {
         return buildError(HttpStatus.CONFLICT, ex.getMessage());
     }
 
-    /** 409 — Ítem duplicado (nombre ya existe en la misma categoría) */
+    @ExceptionHandler(AccesoDenegadoException.class)
+    public ResponseEntity<Map<String, Object>> handleAccesoDenegado(AccesoDenegadoException ex) {
+        return buildError(HttpStatus.FORBIDDEN, ex.getMessage());
+    }
+
     @ExceptionHandler(ItemDuplicadoException.class)
-    public ResponseEntity<Map<String, Object>> handleDuplicado(ItemDuplicadoException ex) {
+    public ResponseEntity<Map<String, Object>> handleItemDuplicado(ItemDuplicadoException ex) {
         return buildError(HttpStatus.CONFLICT, ex.getMessage());
     }
 
-    /**
-     * 400 — Validación Bean Validation (@Valid) fallida.
-     * Retorna un mapa de {campo: "mensaje"} para cada campo inválido.
-     * Útil para que el frontend muestre mensajes de error inline en el formulario.
-     */
+    @ExceptionHandler(ItemNoDisponibleException.class)
+    public ResponseEntity<Map<String, Object>> handleItemNoDisponible(ItemNoDisponibleException ex) {
+        return buildError(HttpStatus.CONFLICT, ex.getMessage());
+    }
+
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Map<String, Object>> handleValidation(MethodArgumentNotValidException ex) {
         Map<String, String> erroresCampos = new HashMap<>();
@@ -78,10 +64,8 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(body);
     }
 
-    /** 500 — Fallback para errores no controlados. No exponer stack trace al cliente. */
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGeneral(Exception ex) {
-        // TODO: Integrar con sistema de alertas para errores 500 no esperados.
         ex.printStackTrace(); return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
                 "Error interno en ms-menu. Contacte al administrador.");
     }

@@ -1,29 +1,22 @@
-# 📦 Microservicio: Menú (ms-menu)
+# 📜 Microservicio: Menú (ms-menu)
 
-## 1. Propósito
-Responsable de gestionar el catálogo de productos disponibles para la venta, incluyendo nombres, descripciones, precios y asociación con categorías y sucursales.
+## Propósito
+Gestionar el catálogo de platos, precios y disponibilidad de la oferta gastronómica del restaurante.
 
-## 2. Responsabilidades Clave
-*   Gestión de ítems del menú (CRUD).
-*   Validación de disponibilidad de productos.
-*   Fuente de verdad para el precio vigente al momento de la compra.
+## Estado Actual de Implementación: [PARCIALMENTE IMPLEMENTADO]
+- **Funcional:** Estructura de base de datos para MenuItems.
+- **Scaffolding:** El servicio cuenta con la lógica básica de CRUD pero falta la integración de precios dinámicos por sucursal.
+- **Puerto Real:** 9004.
 
-## 3. Diccionario de Datos (Entidad: MenuItem)
-| Campo | Tipo | Requerido | Descripción |
-| :--- | :--- | :--- | :--- |
-| `id` | `Long` | Sí | PK Autoincremental. |
-| `nombre` | `String` | Sí | Nombre comercial del producto. |
-| `precio` | `BigDecimal` | Sí | Precio unitario. |
-| `disponible` | `Boolean` | Sí | Flag para ocultar/mostrar en el menú. |
-| `categoriaId` | `Long` | Sí | FK Lógica hacia `ms-categorias`. |
-| `sucursalId` | `Long` | Sí | FK Lógica hacia `ms-sucursales`. |
+## Arquitectura Objetivo
+- Validación de disponibilidad en tiempo real basada en el stock de `ms-inventario`.
+- Gestión de modificadores (extras, términos de carne, etc.).
+- Sincronización con `ms-categorias` para filtrado eficiente.
 
-## 4. Endpoints Principales
-*   `GET /api/v1/menu`: Lista todos los productos disponibles.
-*   `GET /api/v1/menu/{id}`: Detalle de un producto específico.
-*   `POST /api/v1/menu`: Crear nuevo ítem (Solo ADMIN).
-*   `PUT /api/v1/menu/{id}`: Actualizar datos o precio.
+## Limitaciones Actuales
+- No valida si una categoría existe realmente antes de asociarla al plato (falta integración Feign).
+- Los precios son globales y no varían por sucursal aún.
 
-## 5. Dependencias (Feign Clients)
-*   `ms-categorias`: Para validar existencia de la categoría.
-*   `ms-sucursales`: Para validar pertenencia a local.
+## Dependencias Reales
+- `ms-categorias`: Para la taxonomía del catálogo.
+- `ms-eureka`: Para el registro en el ecosistema.

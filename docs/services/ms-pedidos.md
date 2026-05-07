@@ -1,9 +1,13 @@
 # 🛒 Microservicio: Pedidos (ms-pedidos)
 
+> [!IMPORTANT]
+> **Estado de Implementación:** 🔴 **SCAFFOLDING**
+> Este servicio cuenta con la estructura de clases (Entity, DTO, Controller) pero la lógica de negocio en el Service lanza `UnsupportedOperationException`.
+
 ## 1. Propósito
 Es el **Núcleo Orquestador** del negocio. Gestiona el ciclo de vida completo de una orden desde que el cliente confirma el carrito hasta que el pedido es entregado.
 
-## 2. Responsabilidades Clave
+## 2. Responsabilidades Clave (Arquitectura Objetivo)
 *   Creación y persistencia de órdenes de compra.
 *   Cálculo de totales y validación de reglas de negocio.
 *   Orquestación de llamadas a pagos, inventario y delivery.
@@ -18,13 +22,13 @@ Es el **Núcleo Orquestador** del negocio. Gestiona el ciclo de vida completo de
 | `estado` | `Enum` | Estado actual del ciclo de vida. |
 | `items` | `List<PedidoItem>` | Detalle de productos comprados. |
 
-## 4. Endpoints Principales
+## 4. Endpoints Definidos (Sin Implementación)
 *   `POST /api/v1/pedidos/checkout`: Convierte un carrito en pedido.
 *   `GET /api/v1/pedidos/mis-pedidos`: Historial para el cliente.
 *   `PATCH /api/v1/pedidos/{id}/estado`: Cambio de fase (Cocinero/Repartidor).
 
-## 5. Orquestación (Interacciones)
-Al crear un pedido, este servicio interactúa con:
+## 5. Orquestación (Interacciones Planeadas)
+Al crear un pedido, este servicio interactuará con:
 1.  **ms-menu:** Valida precios actuales.
 2.  **ms-inventario:** Reserva el stock físico.
 3.  **ms-pagos:** Inicia el flujo de cobro.

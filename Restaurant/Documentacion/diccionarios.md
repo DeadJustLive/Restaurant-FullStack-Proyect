@@ -1,6 +1,6 @@
 # 🗄️ Diccionarios de Datos Centralizados
 
-Este documento consolida las estructuras de las bases de datos de los 12 microservicios del ecosistema `Restaurant`. Cada microservicio posee su propia base de datos física (PostgreSQL) siguiendo el principio "Database per Service".
+Este documento consolida las estructuras de las bases de datos de los microservicios del ecosistema `Restaurant`. Cada microservicio posee su propia base de datos física (PostgreSQL) siguiendo el principio "Database per Service".
 
 ---
 
@@ -15,15 +15,11 @@ Este documento consolida las estructuras de las bases de datos de los 12 microse
 | `rol`      | `VARCHAR(20)` | `RolUsuario` | Enum: ROLE_AD (Admin), ROLE_SA (SuperAdmin), ROLE_CL (Cliente), ROLE_RP (Repartidor), ROLE_CG (Cajero). |
 | `activo`   | `BOOLEAN` | `Boolean` | Flag para suspender/reactivar cuentas (soft delete). |
 
----
-
-## 2. `ms-usuarios` (BD: usuarios_db)
-
 ### Tabla: `usuarios`
 | Campo          | Tipo SQL | Tipo Java | Descripción |
 |----------------|----------|-----------|-------------|
 | `id`           | `BIGSERIAL` | `Long` | PK autoincremental del perfil. |
-| `credencial_id`| `BIGINT` | `Long` | FK lógica a `ms-auth.user_credentials.id` (Unique). |
+| `credencial_id`| `BIGINT` | `Long` | FK real a `user_credentials.id` (Unique, OneToOne). |
 | `sucursal_id`  | `BIGINT` | `Long` | FK lógica a `ms-sucursales` (Solo para empleados). |
 | `nombre`       | `VARCHAR(100)` | `String` | Nombre de pila. |
 | `apellido`     | `VARCHAR(100)` | `String` | Apellido. |
@@ -33,7 +29,7 @@ Este documento consolida las estructuras de las bases de datos de los 12 microse
 
 ---
 
-## 3. `ms-sucursales` (BD: sucursales_db)
+## 2. `ms-sucursales` (BD: sucursales_db)
 
 ### Tabla: `sucursales`
 | Campo      | Tipo SQL | Tipo Java | Descripción |
@@ -46,7 +42,9 @@ Este documento consolida las estructuras de las bases de datos de los 12 microse
 
 ---
 
-## 4. `ms-categorias` (BD: categorias_db)
+
+
+## 3. `ms-menu` (BD: menu)
 
 ### Tabla: `categorias`
 | Campo         | Tipo SQL | Tipo Java | Descripción |
@@ -56,16 +54,12 @@ Este documento consolida las estructuras de las bases de datos de los 12 microse
 | `descripcion` | `VARCHAR(255)` | `String` | Descripción comercial u operativa. |
 | `activa`      | `BOOLEAN` | `Boolean` | Flag para mostrar u ocultar la categoría del menú público. |
 
----
-
-## 5. `ms-menu` (BD: menu)
-
 ### Tabla: `menu_items`
 | Campo          | Tipo SQL | Tipo Java | Descripción |
 |----------------|----------|-----------|-------------|
 | `id`           | `BIGSERIAL` | `Long` | PK autoincremental. |
 | `sucursal_id`  | `BIGINT` | `Long` | FK lógica a `ms-sucursales`. NULL si el ítem es global a la cadena. |
-| `categoria_id` | `BIGINT` | `Long` | FK lógica a `ms-categorias`. |
+| `categoria_id` | `BIGINT` | `Long` | FK real a la tabla `categorias`. |
 | `nombre`       | `VARCHAR(150)` | `String` | Nombre del plato o producto. |
 | `descripcion`  | `TEXT` | `String` | Detalle, ingredientes o notas. |
 | `precio`       | `DECIMAL(10,2)`| `BigDecimal` | Precio de venta al público. |
@@ -75,7 +69,7 @@ Este documento consolida las estructuras de las bases de datos de los 12 microse
 
 ---
 
-## 6. `ms-carrito` (BD: carrito)
+## 4. `ms-carrito` (BD: carrito)
 
 ### Tabla: `carritos`
 | Campo          | Tipo SQL | Tipo Java | Descripción |
@@ -97,7 +91,7 @@ Este documento consolida las estructuras de las bases de datos de los 12 microse
 
 ---
 
-## 7. `ms-pedidos` (BD: pedidos_db)
+## 5. `ms-pedidos` (BD: pedidos_db)
 
 ### Tabla: `pedidos`
 | Campo          | Tipo SQL | Tipo Java | Descripción |
@@ -124,7 +118,7 @@ Este documento consolida las estructuras de las bases de datos de los 12 microse
 
 ---
 
-## 8. `ms-pagos` (BD: pagos)
+## 6. `ms-pagos` (BD: pagos)
 
 ### Tabla: `pagos`
 | Campo          | Tipo SQL | Tipo Java | Descripción |
@@ -138,7 +132,7 @@ Este documento consolida las estructuras de las bases de datos de los 12 microse
 
 ---
 
-## 9. `ms-delivery` (BD: delivery)
+## 7. `ms-delivery` (BD: delivery)
 
 ### Tabla: `deliveries`
 | Campo             | Tipo SQL | Tipo Java | Descripción |
@@ -152,7 +146,7 @@ Este documento consolida las estructuras de las bases de datos de los 12 microse
 
 ---
 
-## 10. `ms-inventario` (BD: inventario)
+## 8. `ms-inventario` (BD: inventario)
 
 ### Tabla: `insumos`
 | Campo          | Tipo SQL | Tipo Java | Descripción |
@@ -175,7 +169,7 @@ Este documento consolida las estructuras de las bases de datos de los 12 microse
 
 ---
 
-## 11. `ms-notificaciones` (BD: notificaciones)
+## 9. `ms-notificaciones` (BD: notificaciones)
 
 ### Tabla: `notificaciones`
 | Campo          | Tipo SQL | Tipo Java | Descripción |
@@ -189,7 +183,7 @@ Este documento consolida las estructuras de las bases de datos de los 12 microse
 
 ---
 
-## 12. `ms-reportes` (BD: reportes)
+## 10. `ms-reportes` (BD: reportes)
 
 ### Tabla: `reporte_snapshots`
 | Campo         | Tipo SQL | Tipo Java | Descripción |

@@ -101,6 +101,8 @@ public class SecurityConfig {
             .authorizeHttpRequests(auth -> auth
                 // Endpoints públicos de autenticación
                 .requestMatchers("/api/v1/auth/**").permitAll()
+                // Endpoints de perfiles protegidos
+                .requestMatchers("/api/v1/usuarios/**").authenticated()
                 // Actuator health checks
                 .requestMatchers("/actuator/**").permitAll()
                 // TODO: Agregar endpoints públicos adicionales según crezca el sistema

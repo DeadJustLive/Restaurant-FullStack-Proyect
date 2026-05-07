@@ -16,16 +16,13 @@ graph TD
     Gateway --> Menu(ms-menu\n[9004])
     Gateway --> Carrito(ms-carrito\n[9006])
     
-    Auth -.->|Registra perfil| Usuarios(ms-usuarios\n[9002])
-    
-    Pedidos -.->|Verifica dueño| Usuarios
+    Pedidos -.->|Verifica dueño| Auth
     Pedidos -.->|Verifica lugar| Sucursales(ms-sucursales\n[9003])
     Pedidos -.->|Verifica precio/stock| Menu
     Pedidos -.->|Descuenta stock| Inventario(ms-inventario\n[9010])
     Pedidos -.->|Paga orden| Pagos(ms-pagos\n[9008])
     Pedidos -.->|Si es envío| Delivery(ms-delivery\n[9009])
     
-    Menu -.->|Asocia| Categorias(ms-categorias\n[9005])
     Menu -.->|Disponibilidad| Sucursales
     
     Carrito -.->|Revisa precio| Menu
@@ -45,9 +42,7 @@ graph TD
 
     %% Bases de Datos
     Auth --- db1[(DB auth)]
-    Usuarios --- db2[(DB users)]
     Sucursales --- db3[(DB sucursales)]
-    Categorias --- db4[(DB cat)]
     Menu --- db5[(DB menu)]
     Carrito --- db6[(DB carrito)]
     Pedidos --- db7[(DB pedidos)]
@@ -137,4 +132,74 @@ stateDiagram-v2
     EN_CAMINO --> CANCELADO : Accidente / Dirección errónea
     ENTREGADO --> [*]
     CANCELADO --> [*]
+```
+
+---
+
+## 4. Estandarización de Excepciones (GlobalExceptionHandler)
+
+El ecosistema utiliza `@RestControllerAdvice` para capturar excepciones de dominio y retornar un formato JSON unificado al frontend, evitando trazas de error de Spring o HTML no deseado.
+
+```mermaid
+sequenceDiagram
+    participant Cliente as Frontend / Cliente
+    participant Control as REST Controller
+    participant Service as Lógica de Negocio (Service)
+    participant Advice as GlobalExceptionHandler
+
+    Cliente->>Control: Solicitud HTTP
+    Control->>Service: Invoca método
+    alt Operación Exitosa
+        Service-->>Control: Retorna DTO
+        Control-->>Cliente: HTTP 200/201 (JSON)
+    else Error de Dominio (ej. NotFound)
+        Service--xControl: Lanza Exception (ej. CategoriaNotFoundException)
+        Control--xAdvice: Spring redirige la excepción
+        Advice-->>Advice: Construye Map<String, Object>
+        Advice-->>Cliente: HTTP 4xx/5xx (JSON Estandarizado)
+    end
+```
+
+**Formato Estándar Retornado:**
+```json
+{
+  "timestamp": "2026-05-06T20:30:45.123",
+  "status": 404,
+  "error": "Not Found",
+  "mensaje": "Categoría con ID 5 no encontrada"
+}
+```
+
+---
+
+## 5. Proyección de Arquitectura Orientada a Eventos (Kafka)
+
+Para desacoplar procesos pesados o no-bloqueantes (como notificaciones, generación de reportes y auditoría), el sistema transicionará parcialmente de llamadas síncronas HTTP (Feign) a un modelo pub/sub asíncrono usando Apache Kafka.
+
+```mermaid
+graph TD
+    %% Productores
+    Pedidos(ms-pedidos) -->|Produce Evento| TopicoPedidos[Tópico: pedidos.creados]
+    Auth(ms-auth) -->|Produce Evento| TopicoAuth[Tópico: auth.registro]
+    Pagos(ms-pagos) -->|Produce Evento| TopicoPagos[Tópico: pagos.completados]
+
+    %% Broker Kafka
+    subgraph Apache Kafka Broker
+        TopicoPedidos
+        TopicoAuth
+        TopicoPagos
+    end
+
+    %% Consumidores
+    TopicoPedidos -.->|Consume| Notificaciones(ms-notificaciones)
+    TopicoPedidos -.->|Consume| Reportes(ms-reportes)
+    
+    TopicoAuth -.->|Consume| Notificaciones
+    
+    TopicoPagos -.->|Consume| Pedidos
+    TopicoPagos -.->|Consume| Reportes
+    
+    %% Nota de diseño
+    classDef broker fill:#f9f,stroke:#333,stroke-width:2px;
+    class TopicoPedidos,TopicoAuth,TopicoPagos broker;
 ```

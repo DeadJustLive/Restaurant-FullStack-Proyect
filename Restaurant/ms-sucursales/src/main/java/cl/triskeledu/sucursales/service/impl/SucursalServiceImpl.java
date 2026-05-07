@@ -10,6 +10,10 @@ import cl.triskeledu.sucursales.service.SucursalService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import cl.triskeledu.sucursales.client.AuthFeignClient;
+import cl.triskeledu.sucursales.dto.response.PermisoResponseDTO;
+import cl.triskeledu.sucursales.exception.AccesoDenegadoException;
+import lombok.RequiredArgsConstructor;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
@@ -24,6 +28,9 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 @Slf4j
 public class SucursalServiceImpl implements SucursalService {
+
+    private final AuthFeignClient authFeignClient;
+
 
     private final SucursalRepository sucursalRepository;
     private final SucursalMapper sucursalMapper;
