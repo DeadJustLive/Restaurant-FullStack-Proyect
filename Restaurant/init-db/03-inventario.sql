@@ -1,8 +1,8 @@
 /* ============================================================
-   ARCHIVO: 0X-inventario.sql
+   ARCHIVO: 03-inventario.sql
    Microservicio: ms-inventario
    Responsabilidad: Controlar el stock de insumos físicos por sucursal y su Kardex (historial).
-   Base de Datos: inventario_db
+   Base de Datos: inventario
    
    NOTA ARQUITECTÓNICA: 
    - sucursal_id: FK Lógica a ms-sucursales.

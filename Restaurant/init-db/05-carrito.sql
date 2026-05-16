@@ -1,8 +1,8 @@
 /* ============================================================
-   ARCHIVO: 0X-carrito.sql
+   ARCHIVO: 05-carrito.sql
    Microservicio: ms-carrito
    Responsabilidad: Gestionar los carritos de compra temporales de los usuarios.
-   Base de Datos: carrito_db
+   Base de Datos: carrito
    
    NOTA ARQUITECTÓNICA: 
    - usuario_id: FK Lógica a ms-usuarios
@@ -15,11 +15,10 @@
 \c carrito;
 
 -- 1. ELIMINACIÓN EN JERARQUÍA INVERSA
--- Siempre borramos primero la tabla "Hija" (la que tiene la llave foránea)
-DROP TABLE IF EXISTS carrito_items;
--- Luego borramos la tabla "Padre"
-DROP TABLE IF EXISTS carritos;
 
+DROP TABLE IF EXISTS carrito_items;
+DROP TABLE IF EXISTS carritos;
+DROP TABLE IF EXISTS clientes_proyeccion;
 -- 2. TABLAS MAESTRAS
 
 -- Tabla Padre: Carritos

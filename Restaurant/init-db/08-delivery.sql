@@ -1,8 +1,8 @@
 /* ============================================================
-   ARCHIVO: 0X-delivery.sql
+   ARCHIVO: 08-delivery.sql
    Microservicio: ms-delivery
    Responsabilidad: Gestionar la logística y el estado de entrega de los pedidos.
-   Base de Datos: delivery_db
+   Base de Datos: delivery
    
    NOTA ARQUITECTÓNICA: 
    - pedido_id: FK Lógica a ms-pedidos (1 a 1, un pedido tiene un solo delivery)
@@ -13,6 +13,8 @@
 
 -- 1. ELIMINACIÓN EN JERARQUÍA INVERSA
 DROP TABLE IF EXISTS deliveries;
+DROP TABLE IF EXISTS clientes_proyeccion;
+DROP TABLE IF EXISTS pedidos_proyeccion;
 
 -- 2. TABLA MAESTRA
 CREATE TABLE deliveries (
@@ -58,3 +60,4 @@ VALUES
 
 -- Delivery 4: Ya entregado históricamente
 (104, 5, 'Pasaje Los Aromos 321', 'ENTREGADO', NULL);
+

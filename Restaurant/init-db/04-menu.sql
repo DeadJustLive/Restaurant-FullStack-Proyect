@@ -1,8 +1,8 @@
 /* ============================================================
-   ARCHIVO: 0X-menu.sql
+   ARCHIVO: 04-menu.sql
    Microservicio: ms-menu
    Responsabilidad: Catálogo de productos, precios y disponibilidad.
-   Base de Datos: menu_db
+   Base de Datos: menu
    
    NOTA ARQUITECTÓNICA: 
    - categorias_proyeccion: Es una copia local de ms-categorias (vía Kafka).
@@ -13,16 +13,22 @@
 
 -- 1. ELIMINACIÓN EN JERARQUÍA INVERSA
 DROP TABLE IF EXISTS menu_items;
-DROP TABLE IF EXISTS categorias_proyeccion;
+DROP TABLE IF EXISTS categorias;
+DROP TABLE IF EXISTS 
 
--- 2. TABLAS DE PROYECCIÓN (Copia local de otros microservicios)
-CREATE TABLE categorias_proyeccion (
-    id          BIGINT          PRIMARY KEY, -- ID viene de ms-categorias
-    nombre      VARCHAR(100)    NOT NULL,
-    activa      BOOLEAN         NOT NULL DEFAULT TRUE
+CREATE TABLE categorias (
+    id              BIGSERIAL       PRIMARY KEY,
+    nombre          VARCHAR(100)    NOT NULL,
+    descripcion     VARCHAR(255),
+    activa          BOOLEAN         NOT NULL DEFAULT TRUE,
+    
+    creado_en       TIMESTAMPTZ     NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    actualizado_en  TIMESTAMPTZ     NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    -- Restricción de unicidad 
+    CONSTRAINT uk_categoria_nombre UNIQUE (nombre)
 );
 
--- 3. TABLA MAESTRA
 CREATE TABLE menu_items (
     id              BIGSERIAL       PRIMARY KEY,
     nombre          VARCHAR(100)    NOT NULL,
@@ -47,22 +53,23 @@ CREATE TABLE menu_items (
     actualizado_en  TIMESTAMPTZ     NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
--- 4. ÍNDICES (Para que el menú cargue volando)
+-- ÍNDICES
 CREATE INDEX idx_menu_items_categoria ON menu_items(categoria_id);
 CREATE INDEX idx_menu_items_sucursal ON menu_items(sucursal_id);
 -- Índice compuesto para filtrar rápido lo que el cliente realmente puede comprar
 CREATE INDEX idx_menu_disponibilidad ON menu_items(disponible, eliminado);
 
--- 5. DATOS DE PRUEBA (Data Seeding)
+-- DATOS DE PRUEBA
 
--- Primero "proyectamos" algunas categorías (Simulando que llegaron por Kafka)
-INSERT INTO categorias_proyeccion (id, nombre, activa) VALUES
-(1, 'Pizzas Tradicionales', true),
-(2, 'Pizzas Premium', true),
-(3, 'Bebidas', true),
-(4, 'Postres', true);
+INSERT INTO categorias (nombre, descripcion, activa) VALUES
+('Pizzas Tradicionales', 'Nuestra selección clásica de masa artesanal.', true),
+('Pizzas Gourmet', 'Ingredientes premium y combinaciones únicas.', true),
+('Entradas', 'Palos de ajo, alitas de pollo y más.', true),
+('Bebidas', 'Refrescos, jugos naturales y cervezas.', true),
+('Postres', 'El toque dulce para terminar la jornada.', true),
+('Promociones', 'Combos especiales por tiempo limitado.', false);
 
--- Luego insertamos los productos
+
 INSERT INTO menu_items 
 (nombre, descripcion, precio, imagen_url, disponible, categoria_id, sucursal_id) 
 VALUES

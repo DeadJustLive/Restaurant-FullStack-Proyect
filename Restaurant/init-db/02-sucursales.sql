@@ -1,8 +1,8 @@
 /* ============================================================
-   ARCHIVO: 0X-sucursales.sql
+   ARCHIVO: 02-sucursales.sql
    Microservicio: ms-sucursales
    Responsabilidad: Gestión de locales físicos y datos de contacto.
-   Base de Datos: sucursales_db
+   Base de Datos: sucursales
    
    NOTA ARQUITECTÓNICA: 
    - Esta es una tabla maestra. 

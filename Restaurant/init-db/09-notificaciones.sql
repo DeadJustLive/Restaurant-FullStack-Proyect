@@ -1,8 +1,8 @@
 /* ============================================================
-   ARCHIVO: 0X-notificaciones.sql
+   ARCHIVO: 09-notificaciones.sql
    Microservicio: ms-notificaciones
    Responsabilidad: Registro y encolamiento de envíos de correos y alertas.
-   Base de Datos: notificaciones_db
+   Base de Datos: notificaciones
    ============================================================ */
 
 \c notificaciones;

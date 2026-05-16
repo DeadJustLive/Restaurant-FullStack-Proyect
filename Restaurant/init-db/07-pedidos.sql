@@ -1,8 +1,8 @@
 /* ============================================================
-   ARCHIVO: 0X-pedidos.sql
+   ARCHIVO: 07-pedidos.sql
    Microservicio: ms-pedidos
    Responsabilidad: Gestión central del ciclo de vida de la compra. Agregado raíz.
-   Base de Datos: pedidos_db
+   Base de Datos: pedidos
    
    NOTA ARQUITECTÓNICA: 
    - usuario_id: FK Lógica a ms-usuarios

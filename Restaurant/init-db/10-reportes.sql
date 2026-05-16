@@ -1,8 +1,8 @@
 /* ============================================================
-   ARCHIVO: 0X-reportes.sql
+   ARCHIVO: 10-reportes.sql
    Microservicio: ms-reportes
    Responsabilidad: Almacenar snapshots precalculados de métricas y estadísticas.
-   Base de Datos: reportes_db
+   Base de Datos: reportes
    
    NOTA ARQUITECTÓNICA: 
    - Esta tabla es de "Solo Inserción" (Append-Only). No hay actualizaciones.

@@ -1,8 +1,8 @@
 /* ============================================================
-   ARCHIVO: 0X-pagos.sql
+   ARCHIVO: 06-pagos.sql
    Microservicio: ms-pagos
    Responsabilidad: Procesar transacciones financieras e integrarse con pasarelas (ej: Transbank, Stripe).
-   Base de Datos: pagos_db
+   Base de Datos: pagos
    
    NOTA ARQUITECTÓNICA: 
    - pedido_id: FK Lógica a ms-pedidos. NO es único, porque un pedido
