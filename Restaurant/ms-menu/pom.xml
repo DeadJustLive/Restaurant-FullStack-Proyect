@@ -61,6 +61,12 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- KAFKA -->
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
+
         <!-- H2 Database: base de datos en memoria para pruebas y desarrollo local -->
         <dependency>
             <groupId>com.h2database</groupId>

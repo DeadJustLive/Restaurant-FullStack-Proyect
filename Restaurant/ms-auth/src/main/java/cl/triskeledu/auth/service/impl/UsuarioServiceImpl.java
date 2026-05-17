@@ -1,5 +1,6 @@
 package cl.triskeledu.auth.service.impl;
 
+import cl.triskeledu.auth.dto.event.AuthEventDTO;
 import cl.triskeledu.auth.dto.request.UsuarioRequestDTO;
 import cl.triskeledu.auth.dto.response.UsuarioResponseDTO;
 import cl.triskeledu.auth.mapper.UsuarioMapper;
@@ -8,6 +9,7 @@ import cl.triskeledu.auth.service.UsuarioService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.kafka.core.KafkaTemplate;
 
 import java.util.List;
 import cl.triskeledu.auth.entity.Usuario;
@@ -28,8 +30,9 @@ public class UsuarioServiceImpl implements UsuarioService {
 
     private final UsuarioRepository usuarioRepository;
     private final UsuarioMapper usuarioMapper;
+    private final KafkaTemplate<String, AuthEventDTO> kafkaTemplate;
 
-    @Override
+  @Override
     public UsuarioResponseDTO crear(UsuarioRequestDTO dto) {
         log.info("Creando perfil para credencial: {}", dto.getCredencialId());
         
@@ -38,14 +41,16 @@ public class UsuarioServiceImpl implements UsuarioService {
         }
         
         Usuario usuario = usuarioMapper.toEntity(dto);
-        // La credencial debe buscarse y asignarse, pero como en AuthServiceImpl ya se crea, este metodo quiza no se use mas.
-        // Lo dejamos implementado por si acasi
         cl.triskeledu.auth.entity.UserCredential cred = new cl.triskeledu.auth.entity.UserCredential();
         cred.setId(dto.getCredencialId());
         usuario.setCredencial(cred);
         
         Usuario saved = usuarioRepository.save(usuario);
-        return usuarioMapper.toResponseDTO(saved);
+        UsuarioResponseDTO response = usuarioMapper.toResponseDTO(saved);
+
+        this.notificarCambio(saved);
+
+        return response;
     }
 
     @Override
@@ -69,7 +74,7 @@ public class UsuarioServiceImpl implements UsuarioService {
                 .toList();
     }
 
-    @Override
+   @Override
     public UsuarioResponseDTO actualizar(Long id, UsuarioRequestDTO dto) {
         log.info("Actualizando perfil ID: {}", id);
         Usuario usuario = usuarioRepository.findById(id)
@@ -77,7 +82,12 @@ public class UsuarioServiceImpl implements UsuarioService {
         
         usuarioMapper.updateEntityFromDto(dto, usuario);
         Usuario updated = usuarioRepository.save(usuario);
-        return usuarioMapper.toResponseDTO(updated);
+        UsuarioResponseDTO response = usuarioMapper.toResponseDTO(updated);
+
+        // [KAFKA] AVISAMOS QUE SE MODIFICÓ EL USUARIO
+        this.notificarCambio(updated);
+
+        return response;
     }
 
     @Override
@@ -92,16 +102,30 @@ public class UsuarioServiceImpl implements UsuarioService {
         return getById(id);
     }
 
-    @Override
+   @Override
     public void eliminar(Long id) {
         log.info("Eliminando (soft delete) perfil ID: {}", id);
         Usuario usuario = usuarioRepository.findById(id)
                 .orElseThrow(() -> new cl.triskeledu.auth.exception.UsuarioNotFoundException("Perfil no encontrado con ID: " + id));
         
         usuario.setActivo(false);
-        usuarioRepository.save(usuario);
+        Usuario usuarioActualizado = usuarioRepository.save(usuario);
         
-        // TODO: Notificar a ms-auth (UserCredential) si corresponde, aunque ya estamos en ms-auth.
-        // Podriamos desactivar la credencial aqui mismo inyectando UserCredentialRepository.
+        // [KAFKA] Avisamos que el usuario fue desactivado
+        this.notificarCambio(usuarioActualizado);
+        
+        // TODO: Notificar a ms-auth (UserCredential) si corresponde...
+    }
+    private void notificarCambio(Usuario usuario) {
+        AuthEventDTO evento = AuthEventDTO.builder()
+                .id(usuario.getId()) // Este es el ID que usará la proyección como auth_user_id
+                .nombre(usuario.getNombre())
+                .apellido(usuario.getApellido())
+                .direccion(usuario.getDireccion())
+                .telefono(usuario.getTelefono())
+                .build();
+
+        log.info("Enviando evento de actualización para usuario ID: {}", usuario.getId());
+        kafkaTemplate.send("topico-usuarios", evento);
     }
 }
