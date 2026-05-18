@@ -49,22 +49,22 @@ INSERT INTO user_credentials
 (username, password, rol, activo) 
 VALUES
 -- ID 1: Super Admin (Roberto Dueñas en ms-usuarios)
-('roberto.admin@restaurant.cl', '$2a$10$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGGa.MeC', 'ROLE_SA', TRUE),
+('roberto.admin@restaurant.cl', '$2a$10$1sPnz9oX7wNmCKXNJChky.SA6Z9sU0h8gYH17DZdaxr5PN1fqFcSe', 'ROLE_SA', TRUE),
  
 -- ID 2: Admin de Sucursal 1 (Carla Méndez en ms-usuarios)
-('carla.mendez@restaurant.cl', '$2a$10$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGGa.MeC', 'ROLE_AD', TRUE),
+('carla.mendez@restaurant.cl', '$2a$10$1sPnz9oX7wNmCKXNJChky.SA6Z9sU0h8gYH17DZdaxr5PN1fqFcSe', 'ROLE_AD', TRUE),
  
 -- ID 3: Cocinero (Pedro Pinto en ms-usuarios)
-('pedro.pinto@restaurant.cl', '$2a$10$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGGa.MeC', 'ROLE_CO', TRUE),
+('pedro.pinto@restaurant.cl', '$2a$10$1sPnz9oX7wNmCKXNJChky.SA6Z9sU0h8gYH17DZdaxr5PN1fqFcSe', 'ROLE_CO', TRUE),
  
 -- ID 4: Mesero (Sofia Soto en ms-usuarios)
-('sofia.soto@restaurant.cl', '$2a$10$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGGa.MeC', 'ROLE_ME', TRUE),
+('sofia.soto@restaurant.cl', '$2a$10$1sPnz9oX7wNmCKXNJChky.SA6Z9sU0h8gYH17DZdaxr5PN1fqFcSe', 'ROLE_ME', TRUE),
  
 -- ID 5: Repartidor (Diego Tapia en ms-usuarios)
-('diego.tapia@restaurant.cl', '$2a$10$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGGa.MeC', 'ROLE_RP', TRUE),
+('diego.tapia@restaurant.cl', '$2a$10$1sPnz9oX7wNmCKXNJChky.SA6Z9sU0h8gYH17DZdaxr5PN1fqFcSe', 'ROLE_RP', TRUE),
  
 -- ID 6: Cliente (Valentina Vargas en ms-usuarios)
-('valentina.vargas@gmail.com', '$2a$10$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGGa.MeC', 'ROLE_CL', TRUE);
+('valentina.vargas@gmail.com', '$2a$10$1sPnz9oX7wNmCKXNJChky.SA6Z9sU0h8gYH17DZdaxr5PN1fqFcSe', 'ROLE_CL', TRUE);
 
 CREATE TABLE usuarios (
     -- Usamos BIGSERIAL porque en Java declaraste un Long (64 bits). SERIAL normal es Integer (32 bits).

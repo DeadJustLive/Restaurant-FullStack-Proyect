@@ -29,6 +29,7 @@ cl/triskeledu/auth/service/impl/AuthServiceImpl.class
 cl/triskeledu/auth/exception/GlobalExceptionHandler.class
 cl/triskeledu/auth/dto/response/AuthResponseDTO.class
 cl/triskeledu/auth/service/AuthService.class
+cl/triskeledu/auth/config/SeedPasswordFixer.class
 cl/triskeledu/auth/service/UsuarioService.class
 cl/triskeledu/auth/dto/event/AuthEventDTO$AuthEventDTOBuilder.class
 cl/triskeledu/auth/exception/CredencialesInvalidasException.class

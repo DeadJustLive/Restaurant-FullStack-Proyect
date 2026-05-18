@@ -5,6 +5,13 @@ node_modules/
 contexto.md
 .openprompt/
 prompt-lang.json
+.prompt-lang/
+prompt-lang.lock
+openprompt-lang.json
+
+# opencode personal config (project config like AGENTS.md is committed)
+.opencode/config.jsonc
+.opencode/skills/
 
 # npm
 package-lock.json
