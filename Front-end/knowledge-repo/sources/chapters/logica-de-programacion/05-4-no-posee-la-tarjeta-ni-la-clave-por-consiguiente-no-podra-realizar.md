@@ -1,0 +1,32 @@
+# 4. No posee la tarjeta, ni la clave, por consiguiente, no podr´a realizar
+
+transacciones.
+Para expresar este ejemplo con el operador Y, primero que todo recuerde
+la forma general de una expresi´on:
+Operando1 Operador Operando2 \\
+De acuerdo a esta forma general, el operando1 estar´a representado por
+la tarjeta de cr´edito y el operando2 ser´a la clave de dicha tarjeta,
+el operador ser´a la conjunci´on (Y).
+Los valores de Falso o Verdadero para cada operando estar´an dados
+de la siguiente forma: si se posee la tarjeta el valor ser´a Verdadero, en
+caso contrario ser´a Falso; para la clave se procede de la misma manera
+(Ver Tabla 1.8).
+
+-- 43 of 450 --
+
+42 Fundamentos
+tarjeta clave tarjeta Y clave Explicaci´on
+Verdadero Verdadero Verdadero Hay transacci´on
+Verdadero Falso Falso No hay transacci´on
+Falso Verdadero Falso No hay transacci´on
+Falso Falso Falso No hay transacci´on
+Tabla 1.8: Tabla de verdad del operador Y - Ejemplo
+En conclusi´on, solo puede hacer la transacci´on cuando se cumplan las
+dos condiciones, tener la tarjeta y la clave, lo cual dar´a un resultado
+Verdadero.
+Ejemplo con el operador O: para el pr´oximo cumplea˜nos de una
+sobrinita, ella quiere que le regale una mascota, dice que estar´ıa feliz si le
+regalo un gato o un perro, o ambos; pero que si no le doy la mascota ser´ıa
+infeliz en su d´ıa.
+Analizando esta situaci´on observe en cu´ales casos estar´ıa feliz y en cu´ales
+no:

@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch046-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 46,
+  "chunkIndex": 0,
+  "title": "Traits Avanzados",
+  "start": 0,
+  "end": 40,
+  "words": 40,
+  "content": "# Traits Avanzados ## Traits Avanzados ### Tipos Asociados ### Parámetros Generics Predeterminados y Sobrecarga de Operadores ### Desambiguando Entre Métodos con el Mismo Nombre ### Usando Supertraits ### Usando el pattern Newtype para implementar traits externos en tipos externos"
+}

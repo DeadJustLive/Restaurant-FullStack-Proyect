@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch084-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 84,
+  "chunkIndex": 0,
+  "title": "Organización de los Tests",
+  "start": 0,
+  "end": 43,
+  "words": 43,
+  "content": "# Organización de los Tests ## Organización de los Tests ### Tests Unitarios #### El módulo de tests y#[cfg(test)] #### Testeando Funciones Privadas ### Tests de Integración #### El directoriotests #### Submódulos en Tests de Integración #### Tests de Integración para Crates Binarios"
+}

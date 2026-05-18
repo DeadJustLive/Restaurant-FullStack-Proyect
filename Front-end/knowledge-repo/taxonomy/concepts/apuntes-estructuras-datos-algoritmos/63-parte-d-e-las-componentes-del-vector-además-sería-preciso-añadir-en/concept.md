@@ -1,0 +1,49 @@
+# parte d: e las componentes del vector. Además, sería preciso añadir en
+
+## Fuente
+apuntes-estructuras-datos-algoritmos (Cap. 63)
+
+## Contenido
+# parte d: e las componentes del vector. Además, sería preciso añadir en
+
+cada componente un campo booleano que almacene si esa componente
+guarda un elemento del vector o no.
+La implementación de las operaciones con árboles ordenados,
+supuesta la representación calculada, se plantea como ejercicio.
+3
+14 	15
+9 	2 	6 	33
+[0]
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+[11]
+[12]
+3
+14
+15
+–
+9
+2
+6
+33
+–
+–
+–
+–
+–
+
+-- 155 of 267 --
+
+148
+
+-- 156 of 267 --
+
+149

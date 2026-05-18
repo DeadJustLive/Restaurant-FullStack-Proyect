@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch056-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 56,
+  "chunkIndex": 0,
+  "title": "¡Hola, mundo!",
+  "start": 0,
+  "end": 34,
+  "words": 34,
+  "content": "# ¡Hola, mundo! ## ¡Hola, mundo! ### Creando un directorio de proyecto ### Escribir y ejecutar un programa en Rust ### Anatomía de un programa en Rust ### Compilar y ejecutar son pasos separados"
+}

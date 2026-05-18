@@ -1,0 +1,176 @@
+# PROP´OSITO:
+
+baja todas las piezas y resetea la zona de selecci´on
+*/
+{
+BajarPiezasDeZonaDeJuego()
+BorrarZonaDeSeleccion()
+}
+B.7. Operaciones de biblioteca
+/* ----------------------------------------------- *
+* Biblioteca.gbs *
+* ----------------------------------------------- *
+// procedure PonerN(color,n)
+// procedure SacarN(color,n)
+// procedure MoverN(dir,n)
+// procedure DejarN(color,n)
+// procedure SacarTodasLasDeColor(color)
+// procedure VaciarCelda()
+// function esCeldaVacia()
+// function hayCeldaVaciaAl(dir)
+//
+// procedure IrALaEsquina(dir1,dir2)
+// procedure IrACoordenada(x,y)
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 303 of 312 --
+
+304
+//
+// function nroBolitasAl(col,dir)
+// procedure CopiarAcaCeldaAl(dir)
+//
+// procedure IrAPrimerCeldaNEConBolitas(col,n)
+// function medirDistanciaAlBorde(dir)
+//
+//-----------------------------------------------------
+// De recorrido
+//-----------------------------------------------------
+// procedure IniciarRecorridoDeCeldas(dirE,dirI)
+// function esFinDelRecorridoDeCeldas(dirE,dirI)
+// procedure AvanzarASiguienteDelRecorridoDeCeldas(dirE,dirI)
+//
+//-----------------------------------------------------
+// De generaci´on de n´umeros rand´omicos
+//-----------------------------------------------------
+// function randomEntre0YConSemilla(maximo,semilla)
+// function min_stand(semilla)
+* ----------------------------------------------- */
+//----------------------------------------------------
+procedure PonerN(color, n)
+{ repeat(n) { Poner(color) } }
+//----------------------------------------------------
+procedure SacarN(color,n)
+/* PRECONDICI´ON: hay al menos n bolitas de color */
+{ repeat(n) { Sacar(color) } }
+//----------------------------------------------------
+procedure MoverN(dir,n)
+/* PRECONDICI´ON: el cabezal puede moverse n veces
+en direcci´on dir
+*/
+{ repeat(n) { Mover(dir) } }
+//----------------------------------------------------
+procedure DejarN(color,n)
+{ SacarTodasLasDeColor(color); PonerN(color,n) }
+//----------------------------------------------------
+procedure SacarTodasLasDeColor(color)
+{ SacarN(color, nroBolitas(color)) }
+//----------------------------------------------------
+procedure VaciarCelda()
+{
+foreach color in [minColor()..maxColor()]
+{ SacarTodasLasDeColor(color) }
+}
+//----------------------------------------------------
+function esCeldaVacia()
+{
+return (not hayBolitas(Azul) && not hayBolitas(Negro)
+&& not hayBolitas(Rojo) && not hayBolitas(Verde))
+}
+//----------------------------------------------------
+function esCeldaVaciaAl(dir)
+/* PRECONDICION: el cabezal puede moverse
+en direcci´on dir
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 304 of 312 --
+
+305
+*/
+{
+Mover(dir)
+return (esCeldaVacia())
+}
+//----------------------------------------------------
+function hayCeldaVaciaAl(dir)
+{ return (puedeMover(dir) && esCeldaVaciaAl(dir)) }
+//----------------------------------------------------
+//----------------------------------------------------
+procedure IrALaEsquina(dir1,dir2)
+{ IrAlBorde(dir1); IrAlBorde(dir2) }
+//----------------------------------------------------
+procedure IrACoordenada(x,y)
+/* PRECONDICION: coordenada x,y esta en el tablero */
+{ IrALaEsquina(Sur,Oeste); MoverN(Este,x); MoverN(Norte,y) }
+//----------------------------------------------------
+//----------------------------------------------------
+function nroBolitasAl(col,dir)
+/* PRECONDICION: el cabezal puede moverse al dir */
+{
+Mover(dir)
+return (nroBolitas(col))
+}
+//----------------------------------------------------
+procedure CopiarAcaCeldaAl(dir)
+/* PRECONDICION: el cabezal puede moverse al dir */
+{
+foreach color in [minColor()..maxColor()]
+{ DejarN(color, nroBolitasAl(color,dir)) }
+}
+//----------------------------------------------------
+//----------------------------------------------------
+procedure IrAPrimerCeldaNEConBolitas(col,n)
+/* PRECONDICION: existe una celda con n bolitas de
+color col en el tablero
+*/
+{
+IniciarRecorridoDeCeldas(Norte,Este)
+while (not (nroBolitas(col)==n))
+{ AvanzarASiguienteDelRecorridoDeCeldas(Norte,Este) }
+}
+//----------------------------------------------------
+function medirDistanciaAlBorde(dir)
+{
+cont:=0
+while (puedeMover(dir))
+{
+cont := cont + 1
+Mover(dir)
+}
+return(cont)
+}
+//----------------------------------------------------
+// Operaciones de recorridos genericas
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 305 of 312 --
+
+306
+//----------------------------------------------------
+procedure IniciarRecorridoDeCeldas(dirE,dirI)
+{
+IrAlBorde(opuesto(dirE))
+IrAlBorde(opuesto(dirI))
+}
+//----------------------------------------------------
+function esFinDelRecorridoDeCeldas(dirE,dirI)
+{ return (not puedeMover(dirE)
+&& not puedeMover(dirI))
+}
+//----------------------------------------------------
+procedure AvanzarASiguienteDelRecorridoDeCeldas(dirE,dirI)
+/* PRECONDICION: no esta en el final del recorrido */
+{
+if (puedeMover(dirI))
+{ Mover(dirI) }
+else
+{ IrAlBorde(opuesto(dirI)); Mover(dirE) }
+}
+//----------------------------------------------------
+//----------------------------------------------------
+function randomEntre0YConSemilla(maximo,semilla)
+/*
+PROP´OSITO: calcula en base a una semilla dada (x_i),
+un n´umero seudoaleatorio entre 0 y el
+m´aximo dado, y una nueva semilla (x_{i+1})
+a ser usada en invocaciones futuras

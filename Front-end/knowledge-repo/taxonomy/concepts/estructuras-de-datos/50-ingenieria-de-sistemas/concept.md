@@ -1,0 +1,38 @@
+# INGENIERIA DE SISTEMAS
+
+## Fuente
+estructuras-de-datos (Cap. 50)
+
+## Contenido
+# INGENIERIA DE SISTEMAS
+
+a.asignatripleta(t,c) //asigna el valor a la tripeta t,c
+End(if)
+End(for)
+a.asignadatos(c ) //asigna datos a la matriz con asignadatos
+return a //retorna la matriz en tripletas
+fin (construyematrizentripletas)
+El siguiente paso es construir la matriz en cuadricula cuando me dan la matriz en tripletas:
+matriz contruyematriz() //identificación del método de la clase
+entero m,n,p //definición de tres variables enteras
+tripleta t //definición de objeto de clase tripleta
+matriz a //definición de objeto de clase matriz
+m=retornafilas() //número de filas
+n=retornacolumnas() //número de columnas
+p=retornanumerodetripletas() //número de tripletas
+a=new matriz(m,n) //pide memoria para objeto a de matriz
+for (i=1;i<=p;i++) do //ciclo para recorrer hasta número tripletas
+t=retornatripleta(i) //retorna tripleta t de acuerdo a i
+a.asignadato(t.retornafila(),t.retornacolumna(), t.retornavalor()) //crea la tripleta
+end(for)
+fin(construyematriz)
+A continuación se escribirá el método matriz en tripletas
+matrizentripletas(tripleta t) //constructor de la clase
+entero m=t.retornafila() //encuentra las filas de la matriz
+entero n=t.retornacolumna() //encuentra las columnas de la matriz
+entero p=m*n+2 //determina la cantidad de elementos de la matriz
+entero I //define variable entera
+
+-- 45 of 64 --
+
+46

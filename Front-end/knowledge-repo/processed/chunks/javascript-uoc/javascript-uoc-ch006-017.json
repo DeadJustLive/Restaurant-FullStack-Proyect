@@ -1,0 +1,11 @@
+{
+  "id": "javascript-uoc-ch006-017",
+  "bookId": "javascript-uoc",
+  "chapterIndex": 6,
+  "chunkIndex": 17,
+  "title": "2. Ecmascript",
+  "start": 7650,
+  "end": 7964,
+  "words": 314,
+  "content": "plano desplazado por librerías tan completas como Bootstrap, que cuenta con mu- chos de los widgets existentes en jQueryUI, con una estética y una experiencia mejorada. Pero los elementos de interacción como draggable y sortable siguen siendo de gran valor. 3.11. Patrones de uso Un framework o librería, además de una serie de instrucciones, objetos y mé- todos para facilitarnos la vida a la hora de trabajar, también implica ciertos patrones de trabajo a modo de convenciones que harán que la ejecución de aplicaciones sea más robusta y más convencional para la mayoría de los pro- gramadores que lo utilicen. $(documento).ready(function() { // código de programación }) -- 34 of 48 -- CC-BY-NC-ND • PID_00254185 35 JavaScript Este primer patrón emplea el evento ready, un evento especial que nos notifica que el DOM del documento HTML ya está listo para ser empleado, es decir, que podemos emplear de forma segura cualquiera de los elementos del documento desde nuestro programa. Como en las últimas versiones ha quedado obsoleto, actualmente habría que escribirlo de este modo, con el mismo significado: $(function() { // código de programación }) El evento estándar para hacer esto en JavaScript es el body.onload. Con la técni- ca de jQuery, el evento se ejecuta sin haber descargado las imágenes asociadas con el DOM, mientras que con el método convencional se tiene que esperar al resto, así que es algo menos eficiente. Aparte se pueden crear llamadas ilimi- tadas documento.ready en todo el documento, mientras que de window.onload solo podía haber una. Otro patrón de uso muy interesante es la capacidad de jQuery de encadenar métodos. A nivel funcional no supone mucho, pero sí en cuanto a legibilidad. Sobre un mismo selector podemos ir aplicando diferentes métodos, de forma que resulta habitual encontrar construcciones como esta: $('#lelemtn') .css('color', 'black') .on('click', alferclic) .on('mouseover', rollover) -- 35 of 48 -- CC-BY-NC-ND • PID_00254185 36 JavaScript"
+}

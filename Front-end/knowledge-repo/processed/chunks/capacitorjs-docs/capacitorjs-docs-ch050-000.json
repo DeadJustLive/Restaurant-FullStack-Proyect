@@ -1,0 +1,11 @@
+{
+  "id": "capacitorjs-docs-ch050-000",
+  "bookId": "capacitorjs-docs",
+  "chapterIndex": 50,
+  "chunkIndex": 0,
+  "title": "Dynamically build for different environments​",
+  "start": 0,
+  "end": 24,
+  "words": 24,
+  "content": "# Dynamically build for different environments​ ## Dynamically build for different environments​ ### Export environment-specific Capacitor configuration​ ### Run the App for different environments​"
+}

@@ -1,0 +1,20 @@
+# SW DATO LIGA
+
+## Fuente
+estructuras-de-datos (Cap. 126)
+
+## Contenido
+# SW DATO LIGA
+
+Dónde: Si el sw =0 En el campo de dato hay un dato
+Si sw=1 en el campo hay un apuntador hacia un sub árbol
+La representación utiliza una lista simplemente ligada para cada raíz con sus hijos.
+Ejemplo de representación de árbol general con listas generalizadas sea el árbol:
+Explicación: La raíz principal forma una lista simplemente ligada con sus dos hijos (tres nodos), el concepto de
+lista generalizada aparece par el segundo nodo de la raíz principal que tiene el campo de sw=1 indicando que
+contiene en vez de un datos un apuntador a la segunda sublista que representa los cuatro nodos, la raíz y los tres
+hijos del subárbol de la derecha (en este todos tienen sw=0 y no hay mas sublistas)
+
+-- 11 of 64 --
+
+12

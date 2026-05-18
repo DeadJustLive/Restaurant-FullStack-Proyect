@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch067-000",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 67,
+  "chunkIndex": 0,
+  "title": "5. Continúe con el ejercicio anterior, y añada a la clase un método de instancia para",
+  "start": 0,
+  "end": 52,
+  "words": 52,
+  "content": "# 5. Continúe con el ejercicio anterior, y añada a la clase un método de instancia para multiplicar dos secuencias de ADN. La multiplicación consiste en dar como salida una nueva secuencia que contenga sólo aquellas bases que coincidan en posición en ambas secuencias de entrada. → Solución a todos los ejercicios"
+}

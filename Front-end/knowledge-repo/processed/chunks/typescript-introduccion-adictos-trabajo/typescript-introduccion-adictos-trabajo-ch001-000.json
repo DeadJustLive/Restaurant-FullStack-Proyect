@@ -1,0 +1,11 @@
+{
+  "id": "typescript-introduccion-adictos-trabajo-ch001-000",
+  "bookId": "typescript-introduccion-adictos-trabajo",
+  "chapterIndex": 1,
+  "chunkIndex": 0,
+  "title": "0. Índice de contenidos.",
+  "start": 0,
+  "end": 29,
+  "words": 29,
+  "content": "# 0. Índice de contenidos. •1. Introducción •2. Sintaxis •3. Comunicación con código Javascript ya existente •4. Compilador Typescript, Grunt y Gulp. •5. Revisando el código generado •6. Conclusiones"
+}

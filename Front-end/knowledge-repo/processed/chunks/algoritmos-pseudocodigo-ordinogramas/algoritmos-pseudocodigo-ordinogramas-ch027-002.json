@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch027-002",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 27,
+  "chunkIndex": 2,
+  "title": "COMILLA_SIMPLE = '\\''",
+  "start": 900,
+  "end": 959,
+  "words": 59,
+  "content": "ESTE, OESTE } direccion_de_un_coche -- 40 of 180 -- Libro de Algoritmos de “Abrirllave.com” 41 / 180 EJEMPLO También se pueden combinar prescindiendo del nombre –identificador– del tipo de dato enumerado. enumerado { NORTE, SUR, ESTE, OESTE } direccion_de_un_coche Varias variables del mismo tipo de dato enumerado se pueden declarar de diferentes formas. A continuación, se muestran algunos ejemplos."
+}

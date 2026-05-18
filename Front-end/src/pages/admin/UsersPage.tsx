@@ -5,7 +5,7 @@ import { Button } from '../../components/ui/Button';
 import { Input } from '../../components/ui/Input';
 import { Badge } from '../../components/ui/Badge';
 import { apiUsuarios } from '../../api/axios';
-import { UserPlus, Edit2, Shield, Eye, Trash2, CheckCircle2, XCircle } from 'lucide-react';
+import { UserPlus, Edit2, Eye, Trash2, CheckCircle2, XCircle } from 'lucide-react';
 import { navigationConfig, Role } from '../../config/navigation';
 
 interface User {
@@ -21,7 +21,6 @@ const ROLES: Role[] = ['ROLE_SA', 'ROLE_AD', 'ROLE_CO', 'ROLE_ME', 'ROLE_RP', 'R
 
 export const UsersPage: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
-  const [loading, setLoading] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedUser, setSelectedUser] = useState<Partial<User> | null>(null);
 
@@ -31,7 +30,6 @@ export const UsersPage: React.FC = () => {
 
   const fetchUsers = async () => {
     try {
-      setLoading(true);
       const response = await apiUsuarios.get('/');
       setUsers(response.data);
     } catch (error) {
@@ -47,16 +45,70 @@ export const UsersPage: React.FC = () => {
           active: true 
         }
       ]);
-    } finally {
-      setLoading(false);
     }
+  };
+
+  const [formData, setFormData] = useState({
+    username: '',
+    email: '',
+    password: '',
+    roles: ['ROLE_CL'] as Role[],
+    enabledModules: navigationConfig.map(i => i.id),
+    active: true,
+  });
+
+  const handleOpenCreateModal = () => {
+    setFormData({
+      username: '',
+      email: '',
+      password: '',
+      roles: ['ROLE_CL'],
+      enabledModules: navigationConfig.map(i => i.id),
+      active: true,
+    });
+    setSelectedUser({});
+    setIsModalOpen(true);
+  };
+
+  const handleOpenEditModal = (user: User) => {
+    setFormData({
+      username: user.username,
+      email: user.email,
+      password: '',
+      roles: user.roles,
+      enabledModules: user.enabledModules,
+      active: user.active,
+    });
+    setSelectedUser(user);
+    setIsModalOpen(true);
   };
 
   const handleSave = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Lógica para guardar/actualizar usuario vía API
-    setIsModalOpen(false);
-    fetchUsers();
+    try {
+      if (selectedUser?.id) {
+        await apiUsuarios.put(`/${selectedUser.id}`, {
+          username: formData.username,
+          email: formData.email,
+          roles: formData.roles,
+          enabledModules: formData.enabledModules,
+          active: formData.active,
+        });
+      } else {
+        await apiUsuarios.post('/', {
+          username: formData.username,
+          email: formData.email,
+          password: formData.password,
+          roles: formData.roles,
+          enabledModules: formData.enabledModules,
+          active: formData.active,
+        });
+      }
+      fetchUsers();
+      setIsModalOpen(false);
+    } catch (error) {
+      console.error('Error saving user:', error);
+    }
   };
 
   return (
@@ -66,7 +118,7 @@ export const UsersPage: React.FC = () => {
           <h1 className="text-2xl font-bold text-surface-900">Gestión de Usuarios</h1>
           <p className="text-surface-500">Administra accesos, roles y visibilidad de módulos.</p>
         </div>
-        <Button onClick={() => { setSelectedUser({}); setIsModalOpen(true); }}>
+        <Button onClick={handleOpenCreateModal}>
           <UserPlus className="w-4 h-4 mr-2" />
           Nuevo Usuario
         </Button>
@@ -129,7 +181,7 @@ export const UsersPage: React.FC = () => {
                     </td>
                     <td className="px-6 py-4 text-right">
                       <div className="flex items-center justify-end gap-2">
-                        <Button variant="ghost" size="sm" className="h-8 w-8 p-0">
+                        <Button variant="ghost" size="sm" className="h-8 w-8 p-0" onClick={() => handleOpenEditModal(user)}>
                           <Edit2 className="w-3.5 h-3.5" />
                         </Button>
                         <Button variant="ghost" size="sm" className="h-8 w-8 p-0 text-red-500 hover:text-red-600 hover:bg-red-50">
@@ -154,20 +206,33 @@ export const UsersPage: React.FC = () => {
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSave} className="space-y-4">
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium">Username</label>
-                    <Input placeholder="ej: jdoe" required />
+                {!selectedUser?.id && (
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="space-y-2">
+                      <label className="text-sm font-medium">Username</label>
+                      <Input value={formData.username} onChange={e => setFormData(prev => ({ ...prev, username: e.target.value }))} placeholder="ej: jdoe" required />
+                    </div>
+                    <div className="space-y-2">
+                      <label className="text-sm font-medium">Email</label>
+                      <Input type="email" value={formData.email} onChange={e => setFormData(prev => ({ ...prev, email: e.target.value }))} placeholder="ej: juan@mail.com" required />
+                    </div>
                   </div>
+                )}
+
+                {!selectedUser?.id && (
                   <div className="space-y-2">
-                    <label className="text-sm font-medium">Email</label>
-                    <Input type="email" placeholder="ej: juan@mail.com" required />
+                    <label className="text-sm font-medium">Contraseña</label>
+                    <Input type="password" value={formData.password} onChange={e => setFormData(prev => ({ ...prev, password: e.target.value }))} placeholder="Mínimo 6 caracteres" required />
                   </div>
-                </div>
+                )}
 
                 <div className="space-y-2">
                   <label className="text-sm font-medium">Rol Principal</label>
-                  <select className="w-full h-10 px-3 rounded-lg border border-surface-200 focus:ring-2 focus:ring-primary-500 outline-none transition-all">
+                  <select
+                    value={formData.roles[0]}
+                    onChange={e => setFormData(prev => ({ ...prev, roles: [e.target.value as Role] }))}
+                    className="w-full h-10 px-3 rounded-lg border border-surface-200 focus:ring-2 focus:ring-primary-500 outline-none transition-all"
+                  >
                     {ROLES.map(role => (
                       <option key={role} value={role}>{role}</option>
                     ))}
@@ -179,7 +244,17 @@ export const UsersPage: React.FC = () => {
                   <div className="grid grid-cols-2 gap-2 max-h-40 overflow-y-auto p-2 border border-surface-100 rounded-lg">
                     {navigationConfig.map(item => (
                       <label key={item.id} className="flex items-center gap-2 text-xs p-1.5 hover:bg-surface-50 rounded cursor-pointer">
-                        <input type="checkbox" defaultChecked className="rounded text-primary-500 focus:ring-primary-500" />
+                        <input
+                          type="checkbox"
+                          checked={formData.enabledModules.includes(item.id)}
+                          onChange={e => {
+                            const mods = e.target.checked
+                              ? [...formData.enabledModules, item.id]
+                              : formData.enabledModules.filter(m => m !== item.id);
+                            setFormData(prev => ({ ...prev, enabledModules: mods }));
+                          }}
+                          className="rounded text-primary-500 focus:ring-primary-500"
+                        />
                         {item.title}
                       </label>
                     ))}

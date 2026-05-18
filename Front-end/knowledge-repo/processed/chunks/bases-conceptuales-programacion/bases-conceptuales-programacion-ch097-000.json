@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch097-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 97,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 19,
+  "words": 19,
+  "content": "# PROP´OSITO: * retorna verdadero si hay m´as bolitas del color1 que bolitas del color2 en la celda actual"
+}

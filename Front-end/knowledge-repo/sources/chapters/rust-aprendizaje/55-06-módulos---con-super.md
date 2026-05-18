@@ -1,0 +1,30 @@
+# 06. Módulos - Con super
+
+Cuando desee acceder a una función raíz desde dentro de un módulo,	1.
+fn main() {
+dash::call_hello();
+}
+fn hello() {
+println!("Hello, world!");
+}
+mod dash {
+pub fn call_hello() {
+super::hello();
+}
+}
+Cuando desee acceder a una función en el módulo externo / principal desde un módulo
+anidado,
+2.
+fn main() {
+outer::inner::call_hello();
+}
+mod outer {
+pub fn hello() {
+println!("Hello, world!");
+}
+mod inner {
+pub fn call_hello() {
+super::hello();
+}
+}
+}

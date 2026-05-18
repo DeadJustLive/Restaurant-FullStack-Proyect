@@ -1,0 +1,15 @@
+# 16.1 Estilo a la Vieja Usanza
+
+## Fuente
+react-aprendiz-maestro (Cap. 137)
+
+## Contenido
+# 16.1 Estilo a la Vieja Usanza
+
+La aproximación a la vieja usanza consiste en dejar algunos ids y classes por ahí,
+configurar reglas en el CSS, y esperar lo mejor. En CSS todo tiene, por defecto, ámbito
+global. Las definiciones anidadas (por ejemplo, .main .sidebar .button) crean una
+lógica implícita en los estilos. Ambas características incrementan la complejidad
+a medida que el proyecto va creciendo. Esta aproximación puede ser aceptable al
+comenzar, pero a medida que vayas desarrollando, irás queriendo migrar a otra
+solución.

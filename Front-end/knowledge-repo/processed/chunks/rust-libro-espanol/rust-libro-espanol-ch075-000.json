@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch075-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 75,
+  "chunkIndex": 0,
+  "title": "Almacenar Claves con Valores Asociados en HashMaps",
+  "start": 0,
+  "end": 68,
+  "words": 68,
+  "content": "# Almacenar Claves con Valores Asociados en HashMaps ## Almacenar Claves con Valores Asociados en HashMaps ### Creando un nuevo HashMap ### Accediendo a los valores en un HashMap ### HashMaps y Ownership ### Actualizando un HashMap #### Reemplazando un valor #### Insertando una clave y un valor solo si una clave no está presente #### Actualizando un valor basado en el valor anterior ### Funciones de Hashing"
+}

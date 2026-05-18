@@ -1,0 +1,30 @@
+# OBSERVACIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 332)
+
+## Contenido
+# OBSERVACIONES:
+
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 273 of 312 --
+
+274
+* en rotaci´on 1, I es
+Norte -> I
+X
+I <- Sur
+I <- Sur,Sur
+donde la X representa al pivote y
+las Is a las dem´as secciones
+*/
+{
+(dA,dB,dC1,dC2) := id(Sur,Norte,Sur,Sur)
+(dA,dB,dC1,dC2) := ajustarDires(dA,dB,dC1,dC2,rotPieza)
+return (dA,dB,dC1,dC2)
+}
+//-----------------------------------------------------
+function diresDePiezaL(rotPieza)
+/*
+PROP´OSITO: devolver las direcciones de una L

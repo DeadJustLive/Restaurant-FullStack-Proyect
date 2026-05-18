@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch438-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 438,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 37,
+  "words": 37,
+  "content": "# PRECONDICIONES: * hay celdas de la pieza en los lugares correctos * rotPieza es una rotaci´on v´alida * tipoPieza es un tipo v´alido * las direcciones coinciden con el tipoPieza * la pieza no est´a marcada"
+}

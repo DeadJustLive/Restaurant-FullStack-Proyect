@@ -1,0 +1,28 @@
+# Capítulo 61:: Integración de mongodb 207
+
+## Fuente
+Capítulo 1: Empezando con Node.js 2 (Cap. 19)
+
+## Contenido
+# Capítulo 61:: Integración de mongodb 207
+
+Sintaxis 207
+Parámetros 207
+Examples 208
+Conectarse a MongoDB 208
+Método MongoClient Connect() 208
+Inserte un documento 208
+Método de recogida insertOne() 209
+Leer una coleccion 209
+Método de recogida find() 210
+Actualizar un documento 210
+Método de updateOne() 210
+Borrar un documento 211
+Método de deleteOne() 211
+Eliminar múltiples documentos 211
+
+-- 15 of 423 --
+
+Método de deleteMany() 212
+Conexión simple 212
+Conexión simple, utilizando promesas. 212

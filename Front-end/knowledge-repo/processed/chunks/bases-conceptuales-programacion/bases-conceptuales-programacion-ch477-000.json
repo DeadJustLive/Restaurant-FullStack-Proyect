@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch477-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 477,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 37,
+  "words": 37,
+  "content": "# OBSERVACIONES: * si no hay pieza, entonces no hace nada */ { if (esSeccionDeAlgunaPieza()) { IrAPiezaSiExiste(leerCodigoDePiezaActual()) TransformarEnPisoPiezaActual(marca) } } //----------------------------------------------------- procedure TransformarEnPisoPiezaActual(marca) /* PROP´OSITO: transforma en piso la pieza actual y agrega la marca si corresponde"
+}

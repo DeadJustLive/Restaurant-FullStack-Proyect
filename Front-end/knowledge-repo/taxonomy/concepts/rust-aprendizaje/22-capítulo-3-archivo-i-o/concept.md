@@ -1,0 +1,84 @@
+# Capítulo 3:: Archivo I / O
+
+## Fuente
+Capítulo 1: Empezando con Rust 2 (Cap. 22)
+
+## Contenido
+# Capítulo 3:: Archivo I / O
+
+Examples
+Leer un archivo en su conjunto como una cadena
+use std::fs::File;
+use std::io::Read;
+fn main() {
+let filename = "src/main.rs";
+// Open the file in read-only mode.
+match File::open(filename) {
+// The file is open (no error).
+Ok(mut file) => {
+let mut content = String::new();
+// Read all the file content into a variable (ignoring the result of the
+operation).
+file.read_to_string(&mut content).unwrap();
+println!("{}", content);
+// The file is automatically closed when is goes out of scope.
+},
+// Error handling.
+Err(error) => {
+println!("Error opening file {}: {}", filename, error);
+},
+}
+}
+Leer un archivo línea por línea
+use std::fs::File;
+use std::io::{BufRead, BufReader};
+fn main() {
+let filename = "src/main.rs";
+// Open the file in read-only mode (ignoring errors).
+let file = File::open(filename).unwrap();
+let reader = BufReader::new(file);
+// Read the file line by line using the lines() iterator from std::io::BufRead.
+for (index, line) in reader.lines().enumerate() {
+let line = line.unwrap(); // Ignore errors.
+// Show the line and its number.
+println!("{}. {}", index + 1, line);
+}
+}
+Escribir en un archivo
+https://riptutorial.com/es/home 10
+
+-- 24 of 188 --
+
+use std::env;
+use std::fs::File;
+use std::io::Write;
+fn main() {
+// Create a temporary file.
+let temp_directory = env::temp_dir();
+let temp_file = temp_directory.join("file");
+// Open a file in write-only (ignoring errors).
+// This creates the file if it does not exist (and empty the file if it exists).
+let mut file = File::create(temp_file).unwrap();
+// Write a &str in the file (ignoring the result).
+writeln!(&mut file, "Hello World!").unwrap();
+// Write a byte string.
+file.write(b"Bytes\n").unwrap();
+}
+Lee un archivo como un vec
+use std::fs::File;
+use std::io::Read;
+fn read_a_file() -> std::io::Result<Vec<u8>> {
+let mut file = try!(File::open("example.data"));
+let mut data = Vec::new();
+try!(file.read_to_end(&mut data));
+return Ok(data);
+}
+std::io::Result<T> es un alias para Result<T, std::io::Error> .
+La macro try!() Regresa de la función en caso de error.
+read_to_end() es un método de std::io::Read rasgo, que se debe use explícitamente d.
+read_to_end() no devuelve los datos que leyó. En su lugar, pone los datos en el contenedor que se
+le da.
+Lea Archivo I / O en línea: https://riptutorial.com/es/rust/topic/1307/archivo-i---o
+https://riptutorial.com/es/home 11
+
+-- 25 of 188 --

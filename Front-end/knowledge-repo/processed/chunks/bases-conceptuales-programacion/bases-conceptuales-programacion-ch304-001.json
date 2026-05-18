@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch304-001",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 304,
+  "chunkIndex": 1,
+  "title": "PRECONDICIONES:",
+  "start": 450,
+  "end": 586,
+  "words": 136,
+  "content": "d bolitas negras para indicar de qu´e d´ıgito se trata (0<=d<=9) . una celda vac´ıa indica que no hay d´ıgito en ese lugar - las piezas se codifican en 4 celdas contiguas utilizando bolitas verdes, rojas y negras. - el piso se codifica con exactamente 8 bolitas azules (y puede llevar marcas especiales con bolitas azules extra) - una pieza es v´alida si (ver SECCI´ON 2): . ocupa 4 celdas contiguas identificadas con la misma cantidad de bolitas verdes (el c´odigo de la pieza) . una sola de las celdas es el pivote (identificado con bolitas negras y rojas -- las negras indican el tipo de pieza y las rojas la rotaci´on) . las celdas de la pieza est´an dispuestas seg´un indican el tipo y la rotaci´on . un tipo v´alido va entre 1 y 7"
+}

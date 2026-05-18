@@ -1,0 +1,43 @@
+# INGENIERIA DE SISTEMAS
+
+Fin (retornacolumna)
+Objeto retornaValor()
+Return(valor) //retorna el valor de la matriz
+Fin (retornavalor)
+Por ser una definición bastante simple de los algoritmos no requiere que sea explicada. A continuación
+se define la clase matizentripletas:
+Clase matrizentripletas
+Privado
+Tripleta v[] //característica privada de la clase
+Publico:
+Matrizentripletas(tripleta t) //constructor
+Void asignanumerotripletas(entero n)
+Void asignatripleta(tripleta tx, entero i)
+Entero retornafilas()
+Entero retornacolumnas()
+Entero retornanumerotripletas()
+Entero retornatripleta(entero i)
+Void muestramatrizentripletas(tripleta tx) //ver matriz en tripletas
+Void insertatripleta(tripleta tx) //insertar tripletas
+Matriz en tripletas suma(matizentripletas,b) //sumar matrices en tripletas
+Matriz en tripletas multiplica(matizentripletas,b)//multiplica matriz en tripletas
+Matriz en tripletas traspuesta(matizentripletas,b)//matriz transpuesta en tripletas
+Fin(matrizentripletas)
+Después de definir la clase se escriben los métodos básicos para la creación y manipulación de la
+representación en tripletas para la matriz dispersa así:
+Matriz en tripletas construyematriz(entero m, entero n) // m, n enteros para fila y columna de matriz
+Matriztripletas a //define el objeto “a” de la clase
+Entero c,d //define dos variables enteras
+t=new tripleta(n,m,null) //asigna a T memoria de tripleta
+a=new matrizentripletas(t) //asigna a a memoria de matriztripleta
+c=0 //inicializa “c “en cero
+For(i=1;i<=m;i++) do //ciclo para las filas
+For (j=1;j<=n;j++) do //ciclo para las columnas
+d=retornadato(i,j) //devuelve el dato en i, j
+If (d!=0) then //pregunta si d no es 0
+c=c+1 //cuenta en c la tripleta
+t=new tripleta(i,j,d) //asigna memoria de tripleta en “T”
+
+-- 44 of 64 --
+
+45

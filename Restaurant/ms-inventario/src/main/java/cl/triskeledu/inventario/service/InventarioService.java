@@ -14,15 +14,15 @@ import java.util.List;
  */
 public interface InventarioService {
 
-    InsumoResponseDTO crearInsumo(InsumoRequestDTO dto);
+    InsumoResponseDTO crearInsumo(Long credencialId, InsumoRequestDTO dto);
 
-    InsumoResponseDTO actualizarInsumo(Long id, InsumoRequestDTO dto);
+    InsumoResponseDTO actualizarInsumo(Long credencialId, Long id, InsumoRequestDTO dto);
 
     InsumoResponseDTO getInsumoById(Long id);
 
     List<InsumoResponseDTO> listarPorSucursal(Long sucursalId);
 
-    MovimientoResponseDTO registrarMovimiento(MovimientoRequestDTO dto);
+    MovimientoResponseDTO registrarMovimiento(Long credencialId, MovimientoRequestDTO dto);
 
     List<MovimientoResponseDTO> historialKardex(Long insumoId);
 

@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch026-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 26,
+  "chunkIndex": 1,
+  "title": "Capítulo 7:: Auto-desreferenciación",
+  "start": 450,
+  "end": 735,
+  "words": 285,
+  "content": "[u8] . work_on_bytes(vec); work_on_bytes(arr); work_on_bytes(slice); work_on_bytes(\"strings work too!\"); Implementación Deref para Opción y estructura de contenedor use std::ops::Deref; use std::fmt::Debug; #[derive(Debug)] struct RichOption<T>(Option<T>); // wrapper struct https://riptutorial.com/es/home 20 -- 34 of 188 -- impl<T> Deref for RichOption<T> { type Target = Option<T>; // Our wrapper struct will coerce into Option fn deref(&self) -> &Option<T> { &self.0 // We just extract the inner element } } impl<T: Debug> RichOption<T> { fn print_inner(&self) { println!(\"{:?}\", self.0) } } fn main() { let x = RichOption(Some(1)); println!(\"{:?}\",x.map(|x| x + 1)); // Now we can use Option's methods... fn_that_takes_option(&x); // pass it to functions that take Option... x.print_inner() // and use it's own methods to extend Option } fn fn_that_takes_option<T : std::fmt::Debug>(x: &Option<T>) { println!(\"{:?}\", x) } Ejemplo simple de Deref Deref tiene una regla simple: si tienes un tipo T e implementa Deref<Target=F> , entonces &T obliga a &F , el compilador repetirá esto tantas veces como sea necesario para obtener F, por ejemplo: fn f(x: &str) -> &str { x } fn main() { // Compiler will coerce &&&&&&&str to &str and then pass it to our function f(&&&&&&&\"It's a string\"); } La coacción Deref es especialmente útil cuando se trabaja con tipos de punteros, como Box o Arc , por ejemplo: fn main() { let val = Box::new(vec![1,2,3]); // Now, thanks to Deref, we still // can use our vector method as if there wasn't any Box val.iter().fold(0, |acc, &x| acc + x ); // 6 // We pass our Box to the function that takes Vec, // Box<Vec> coerces to Vec f(&val) } fn f(x: &Vec<i32>) { println!(\"{:?}\", x) // [1,2,3] } Lea Auto-desreferenciación en línea: https://riptutorial.com/es/rust/topic/2574/auto- desreferenciacion https://riptutorial.com/es/home 21 -- 35 of 188 --"
+}

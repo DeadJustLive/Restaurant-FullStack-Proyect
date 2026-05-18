@@ -1,0 +1,1640 @@
+{
+  "bookId": "problemas-y-algoritmos",
+  "totalChunks": 233,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.330Z",
+  "chunks": [
+    {
+      "id": "problemas-y-algoritmos-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "1. Inducción Matemática 19",
+      "words": 234
+    },
+    {
+      "id": "problemas-y-algoritmos-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "2. De\u001cnición y Características de la Recursión 35",
+      "words": 93
+    },
+    {
+      "id": "problemas-y-algoritmos-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "3. Recursión con Memoria o Memorización 43",
+      "words": 107
+    },
+    {
+      "id": "problemas-y-algoritmos-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "4. Divide y Vencerás 51",
+      "words": 100
+    },
+    {
+      "id": "problemas-y-algoritmos-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "10 ÍNDICE GENERAL",
+      "words": 4
+    },
+    {
+      "id": "problemas-y-algoritmos-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "5. Búsqueda Exhaustiva 61",
+      "words": 98
+    },
+    {
+      "id": "problemas-y-algoritmos-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "6. Técnicas Básicas de Conteo 79",
+      "words": 141
+    },
+    {
+      "id": "problemas-y-algoritmos-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "7. Funciones 91",
+      "words": 54
+    },
+    {
+      "id": "problemas-y-algoritmos-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "8. Análisis de Complejidad 97",
+      "words": 146
+    },
+    {
+      "id": "problemas-y-algoritmos-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "9. Reglas para Medir la Complejidad 111",
+      "words": 256
+    },
+    {
+      "id": "problemas-y-algoritmos-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "ÍNDICE GENERAL 11",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch011-001",
+      "chapterIndex": 11,
+      "chunkIndex": 1,
+      "title": "ÍNDICE GENERAL 11",
+      "words": 332
+    },
+    {
+      "id": "problemas-y-algoritmos-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "12 ÍNDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch012-001",
+      "chapterIndex": 12,
+      "chunkIndex": 1,
+      "title": "12 ÍNDICE GENERAL",
+      "words": 298
+    },
+    {
+      "id": "problemas-y-algoritmos-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "ÍNDICE GENERAL 13",
+      "words": 403
+    },
+    {
+      "id": "problemas-y-algoritmos-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "14 ÍNDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch014-001",
+      "chapterIndex": 14,
+      "chunkIndex": 1,
+      "title": "14 ÍNDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch014-002",
+      "chapterIndex": 14,
+      "chunkIndex": 2,
+      "title": "14 ÍNDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch014-003",
+      "chapterIndex": 14,
+      "chunkIndex": 3,
+      "title": "14 ÍNDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch014-004",
+      "chapterIndex": 14,
+      "chunkIndex": 4,
+      "title": "14 ÍNDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch014-005",
+      "chapterIndex": 14,
+      "chunkIndex": 5,
+      "title": "14 ÍNDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch014-006",
+      "chapterIndex": 14,
+      "chunkIndex": 6,
+      "title": "14 ÍNDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch014-007",
+      "chapterIndex": 14,
+      "chunkIndex": 7,
+      "title": "14 ÍNDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch014-008",
+      "chapterIndex": 14,
+      "chunkIndex": 8,
+      "title": "14 ÍNDICE GENERAL",
+      "words": 118
+    },
+    {
+      "id": "problemas-y-algoritmos-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "5. Cualquier cantidad de dinero mayor que 34 centavos puede ser formada",
+      "words": 40
+    },
+    {
+      "id": "problemas-y-algoritmos-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "1. Para todo entero n y todo par m, un tablero de ajedrez de n × m tiene",
+      "words": 28
+    },
+    {
+      "id": "problemas-y-algoritmos-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "2. Para todos los impares n y m, un tablero de ajedrez de n × m tiene",
+      "words": 79
+    },
+    {
+      "id": "problemas-y-algoritmos-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "1. Para n ≥ 1 cualquier tablero de ajedrez de 2n × 2n, con un cuadro",
+      "words": 31
+    },
+    {
+      "id": "problemas-y-algoritmos-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "2. Para n ≥ 1 cualquier tablero de ajedrez de 2n × 2n, con un cuadrado",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch019-001",
+      "chapterIndex": 19,
+      "chunkIndex": 1,
+      "title": "2. Para n ≥ 1 cualquier tablero de ajedrez de 2n × 2n, con un cuadrado",
+      "words": 62
+    },
+    {
+      "id": "problemas-y-algoritmos-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "1. Intenta demostrarlo para un tablero de 2 x n y luego usar esa de-",
+      "words": 26
+    },
+    {
+      "id": "problemas-y-algoritmos-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "2. Intenta usar el inciso anterior agregando/quitando una columna.",
+      "words": 16
+    },
+    {
+      "id": "problemas-y-algoritmos-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "1. Intenta juntar 4 tableros de 2n x 2n para obtener un tablero de 2n+1 x",
+      "words": 35
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-001",
+      "chapterIndex": 23,
+      "chunkIndex": 1,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-002",
+      "chapterIndex": 23,
+      "chunkIndex": 2,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-003",
+      "chapterIndex": 23,
+      "chunkIndex": 3,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-004",
+      "chapterIndex": 23,
+      "chunkIndex": 4,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-005",
+      "chapterIndex": 23,
+      "chunkIndex": 5,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-006",
+      "chapterIndex": 23,
+      "chunkIndex": 6,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-007",
+      "chapterIndex": 23,
+      "chunkIndex": 7,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-008",
+      "chapterIndex": 23,
+      "chunkIndex": 8,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-009",
+      "chapterIndex": 23,
+      "chunkIndex": 9,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-010",
+      "chapterIndex": 23,
+      "chunkIndex": 10,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-011",
+      "chapterIndex": 23,
+      "chunkIndex": 11,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-012",
+      "chapterIndex": 23,
+      "chunkIndex": 12,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-013",
+      "chapterIndex": 23,
+      "chunkIndex": 13,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-014",
+      "chapterIndex": 23,
+      "chunkIndex": 14,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-015",
+      "chapterIndex": 23,
+      "chunkIndex": 15,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-016",
+      "chapterIndex": 23,
+      "chunkIndex": 16,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch023-017",
+      "chapterIndex": 23,
+      "chunkIndex": 17,
+      "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+      "words": 156
+    },
+    {
+      "id": "problemas-y-algoritmos-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "11. Es obvio que cad(1, c) imprime c líneas.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch024-001",
+      "chapterIndex": 24,
+      "chunkIndex": 1,
+      "title": "11. Es obvio que cad(1, c) imprime c líneas.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch024-002",
+      "chapterIndex": 24,
+      "chunkIndex": 2,
+      "title": "11. Es obvio que cad(1, c) imprime c líneas.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch024-003",
+      "chapterIndex": 24,
+      "chunkIndex": 3,
+      "title": "11. Es obvio que cad(1, c) imprime c líneas.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch024-004",
+      "chapterIndex": 24,
+      "chunkIndex": 4,
+      "title": "11. Es obvio que cad(1, c) imprime c líneas.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch024-005",
+      "chapterIndex": 24,
+      "chunkIndex": 5,
+      "title": "11. Es obvio que cad(1, c) imprime c líneas.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch024-006",
+      "chapterIndex": 24,
+      "chunkIndex": 6,
+      "title": "11. Es obvio que cad(1, c) imprime c líneas.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch024-007",
+      "chapterIndex": 24,
+      "chunkIndex": 7,
+      "title": "11. Es obvio que cad(1, c) imprime c líneas.",
+      "words": 420
+    },
+    {
+      "id": "problemas-y-algoritmos-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "Parte II",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch025-001",
+      "chapterIndex": 25,
+      "chunkIndex": 1,
+      "title": "Parte II",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch025-002",
+      "chapterIndex": 25,
+      "chunkIndex": 2,
+      "title": "Parte II",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch025-003",
+      "chapterIndex": 25,
+      "chunkIndex": 3,
+      "title": "Parte II",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch025-004",
+      "chapterIndex": 25,
+      "chunkIndex": 4,
+      "title": "Parte II",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch025-005",
+      "chapterIndex": 25,
+      "chunkIndex": 5,
+      "title": "Parte II",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch025-006",
+      "chapterIndex": 25,
+      "chunkIndex": 6,
+      "title": "Parte II",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch025-007",
+      "chapterIndex": 25,
+      "chunkIndex": 7,
+      "title": "Parte II",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch025-008",
+      "chapterIndex": 25,
+      "chunkIndex": 8,
+      "title": "Parte II",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch025-009",
+      "chapterIndex": 25,
+      "chunkIndex": 9,
+      "title": "Parte II",
+      "words": 392
+    },
+    {
+      "id": "problemas-y-algoritmos-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "1. La regla que le asigna a cada número real su mitad.",
+      "words": 13
+    },
+    {
+      "id": "problemas-y-algoritmos-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "2. La regla que le asigna a cada número entero positivo n su sumatoria",
+      "words": 21
+    },
+    {
+      "id": "problemas-y-algoritmos-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "3. La regla que le asigna una CURP a cada ciudadano.",
+      "words": 12
+    },
+    {
+      "id": "problemas-y-algoritmos-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "4. La regla que le asigna a cada par de números a y b su promedio a+b",
+      "words": 20
+    },
+    {
+      "id": "problemas-y-algoritmos-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "5. La regla que le asigna √2 a 53, 1",
+      "words": 20
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-001",
+      "chapterIndex": 31,
+      "chunkIndex": 1,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-002",
+      "chapterIndex": 31,
+      "chunkIndex": 2,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-003",
+      "chapterIndex": 31,
+      "chunkIndex": 3,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-004",
+      "chapterIndex": 31,
+      "chunkIndex": 4,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-005",
+      "chapterIndex": 31,
+      "chunkIndex": 5,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-006",
+      "chapterIndex": 31,
+      "chunkIndex": 6,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-007",
+      "chapterIndex": 31,
+      "chunkIndex": 7,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-008",
+      "chapterIndex": 31,
+      "chunkIndex": 8,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-009",
+      "chapterIndex": 31,
+      "chunkIndex": 9,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-010",
+      "chapterIndex": 31,
+      "chunkIndex": 10,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-011",
+      "chapterIndex": 31,
+      "chunkIndex": 11,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-012",
+      "chapterIndex": 31,
+      "chunkIndex": 12,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-013",
+      "chapterIndex": 31,
+      "chunkIndex": 13,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-014",
+      "chapterIndex": 31,
+      "chunkIndex": 14,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-015",
+      "chapterIndex": 31,
+      "chunkIndex": 15,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-016",
+      "chapterIndex": 31,
+      "chunkIndex": 16,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-017",
+      "chapterIndex": 31,
+      "chunkIndex": 17,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-018",
+      "chapterIndex": 31,
+      "chunkIndex": 18,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-019",
+      "chapterIndex": 31,
+      "chunkIndex": 19,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-020",
+      "chapterIndex": 31,
+      "chunkIndex": 20,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-021",
+      "chapterIndex": 31,
+      "chunkIndex": 21,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-022",
+      "chapterIndex": 31,
+      "chunkIndex": 22,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-023",
+      "chapterIndex": 31,
+      "chunkIndex": 23,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch031-024",
+      "chapterIndex": 31,
+      "chunkIndex": 24,
+      "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+      "words": 208
+    },
+    {
+      "id": "problemas-y-algoritmos-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "Parte III",
+      "words": 123
+    },
+    {
+      "id": "problemas-y-algoritmos-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch033-001",
+      "chapterIndex": 33,
+      "chunkIndex": 1,
+      "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch033-002",
+      "chapterIndex": 33,
+      "chunkIndex": 2,
+      "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch033-003",
+      "chapterIndex": 33,
+      "chunkIndex": 3,
+      "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch033-004",
+      "chapterIndex": 33,
+      "chunkIndex": 4,
+      "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch033-005",
+      "chapterIndex": 33,
+      "chunkIndex": 5,
+      "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch033-006",
+      "chapterIndex": 33,
+      "chunkIndex": 6,
+      "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch033-007",
+      "chapterIndex": 33,
+      "chunkIndex": 7,
+      "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch033-008",
+      "chapterIndex": 33,
+      "chunkIndex": 8,
+      "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch033-009",
+      "chapterIndex": 33,
+      "chunkIndex": 9,
+      "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch033-010",
+      "chapterIndex": 33,
+      "chunkIndex": 10,
+      "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+      "words": 296
+    },
+    {
+      "id": "problemas-y-algoritmos-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "1. GetN() regresa 5.",
+      "words": 5
+    },
+    {
+      "id": "problemas-y-algoritmos-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "2. Med3(1, 2, 3) regresa 3.",
+      "words": 7
+    },
+    {
+      "id": "problemas-y-algoritmos-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "3. Med3(3, 4, 1) regresa 4.",
+      "words": 7
+    },
+    {
+      "id": "problemas-y-algoritmos-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "4. Med3(4, 2, 5) regresa 4.",
+      "words": 7
+    },
+    {
+      "id": "problemas-y-algoritmos-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "5. Answer(4)",
+      "words": 93
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-001",
+      "chapterIndex": 39,
+      "chunkIndex": 1,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-002",
+      "chapterIndex": 39,
+      "chunkIndex": 2,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-003",
+      "chapterIndex": 39,
+      "chunkIndex": 3,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-004",
+      "chapterIndex": 39,
+      "chunkIndex": 4,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-005",
+      "chapterIndex": 39,
+      "chunkIndex": 5,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-006",
+      "chapterIndex": 39,
+      "chunkIndex": 6,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-007",
+      "chapterIndex": 39,
+      "chunkIndex": 7,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-008",
+      "chapterIndex": 39,
+      "chunkIndex": 8,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-009",
+      "chapterIndex": 39,
+      "chunkIndex": 9,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-010",
+      "chapterIndex": 39,
+      "chunkIndex": 10,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-011",
+      "chapterIndex": 39,
+      "chunkIndex": 11,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-012",
+      "chapterIndex": 39,
+      "chunkIndex": 12,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-013",
+      "chapterIndex": 39,
+      "chunkIndex": 13,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-014",
+      "chapterIndex": 39,
+      "chunkIndex": 14,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-015",
+      "chapterIndex": 39,
+      "chunkIndex": 15,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-016",
+      "chapterIndex": 39,
+      "chunkIndex": 16,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-017",
+      "chapterIndex": 39,
+      "chunkIndex": 17,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-018",
+      "chapterIndex": 39,
+      "chunkIndex": 18,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-019",
+      "chapterIndex": 39,
+      "chunkIndex": 19,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-020",
+      "chapterIndex": 39,
+      "chunkIndex": 20,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-021",
+      "chapterIndex": 39,
+      "chunkIndex": 21,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-022",
+      "chapterIndex": 39,
+      "chunkIndex": 22,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-023",
+      "chapterIndex": 39,
+      "chunkIndex": 23,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-024",
+      "chapterIndex": 39,
+      "chunkIndex": 24,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-025",
+      "chapterIndex": 39,
+      "chunkIndex": 25,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-026",
+      "chapterIndex": 39,
+      "chunkIndex": 26,
+      "title": "Parte IV",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch039-027",
+      "chapterIndex": 39,
+      "chunkIndex": 27,
+      "title": "Parte IV",
+      "words": 446
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-001",
+      "chapterIndex": 40,
+      "chunkIndex": 1,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-002",
+      "chapterIndex": 40,
+      "chunkIndex": 2,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-003",
+      "chapterIndex": 40,
+      "chunkIndex": 3,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-004",
+      "chapterIndex": 40,
+      "chunkIndex": 4,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-005",
+      "chapterIndex": 40,
+      "chunkIndex": 5,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-006",
+      "chapterIndex": 40,
+      "chunkIndex": 6,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-007",
+      "chapterIndex": 40,
+      "chunkIndex": 7,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-008",
+      "chapterIndex": 40,
+      "chunkIndex": 8,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-009",
+      "chapterIndex": 40,
+      "chunkIndex": 9,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-010",
+      "chapterIndex": 40,
+      "chunkIndex": 10,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-011",
+      "chapterIndex": 40,
+      "chunkIndex": 11,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-012",
+      "chapterIndex": 40,
+      "chunkIndex": 12,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-013",
+      "chapterIndex": 40,
+      "chunkIndex": 13,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-014",
+      "chapterIndex": 40,
+      "chunkIndex": 14,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-015",
+      "chapterIndex": 40,
+      "chunkIndex": 15,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-016",
+      "chapterIndex": 40,
+      "chunkIndex": 16,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-017",
+      "chapterIndex": 40,
+      "chunkIndex": 17,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch040-018",
+      "chapterIndex": 40,
+      "chunkIndex": 18,
+      "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+      "words": 341
+    },
+    {
+      "id": "problemas-y-algoritmos-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "1. Localiza la hoja h que esté etiquetada con el número mas pequeño.",
+      "words": 14
+    },
+    {
+      "id": "problemas-y-algoritmos-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "2. Agrega al código la etiqueta del vértice al cual está unido h",
+      "words": 14
+    },
+    {
+      "id": "problemas-y-algoritmos-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "3. Borra h",
+      "words": 4
+    },
+    {
+      "id": "problemas-y-algoritmos-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "4. Si quedan 3 vértices o más, regresa al paso 1",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch044-001",
+      "chapterIndex": 44,
+      "chunkIndex": 1,
+      "title": "4. Si quedan 3 vértices o más, regresa al paso 1",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch044-002",
+      "chapterIndex": 44,
+      "chunkIndex": 2,
+      "title": "4. Si quedan 3 vértices o más, regresa al paso 1",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch044-003",
+      "chapterIndex": 44,
+      "chunkIndex": 3,
+      "title": "4. Si quedan 3 vértices o más, regresa al paso 1",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch044-004",
+      "chapterIndex": 44,
+      "chunkIndex": 4,
+      "title": "4. Si quedan 3 vértices o más, regresa al paso 1",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch044-005",
+      "chapterIndex": 44,
+      "chunkIndex": 5,
+      "title": "4. Si quedan 3 vértices o más, regresa al paso 1",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch044-006",
+      "chapterIndex": 44,
+      "chunkIndex": 6,
+      "title": "4. Si quedan 3 vértices o más, regresa al paso 1",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch044-007",
+      "chapterIndex": 44,
+      "chunkIndex": 7,
+      "title": "4. Si quedan 3 vértices o más, regresa al paso 1",
+      "words": 472
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-001",
+      "chapterIndex": 45,
+      "chunkIndex": 1,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-002",
+      "chapterIndex": 45,
+      "chunkIndex": 2,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-003",
+      "chapterIndex": 45,
+      "chunkIndex": 3,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-004",
+      "chapterIndex": 45,
+      "chunkIndex": 4,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-005",
+      "chapterIndex": 45,
+      "chunkIndex": 5,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-006",
+      "chapterIndex": 45,
+      "chunkIndex": 6,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-007",
+      "chapterIndex": 45,
+      "chunkIndex": 7,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-008",
+      "chapterIndex": 45,
+      "chunkIndex": 8,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-009",
+      "chapterIndex": 45,
+      "chunkIndex": 9,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-010",
+      "chapterIndex": 45,
+      "chunkIndex": 10,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-011",
+      "chapterIndex": 45,
+      "chunkIndex": 11,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-012",
+      "chapterIndex": 45,
+      "chunkIndex": 12,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-013",
+      "chapterIndex": 45,
+      "chunkIndex": 13,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-014",
+      "chapterIndex": 45,
+      "chunkIndex": 14,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-015",
+      "chapterIndex": 45,
+      "chunkIndex": 15,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-016",
+      "chapterIndex": 45,
+      "chunkIndex": 16,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-017",
+      "chapterIndex": 45,
+      "chunkIndex": 17,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-018",
+      "chapterIndex": 45,
+      "chunkIndex": 18,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-019",
+      "chapterIndex": 45,
+      "chunkIndex": 19,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-020",
+      "chapterIndex": 45,
+      "chunkIndex": 20,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-021",
+      "chapterIndex": 45,
+      "chunkIndex": 21,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-022",
+      "chapterIndex": 45,
+      "chunkIndex": 22,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-023",
+      "chapterIndex": 45,
+      "chunkIndex": 23,
+      "title": "Parte VI",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch045-024",
+      "chapterIndex": 45,
+      "chunkIndex": 24,
+      "title": "Parte VI",
+      "words": 175
+    },
+    {
+      "id": "problemas-y-algoritmos-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "1. Encontrar una fórmula recursiva que resuelva el problema, comunmente",
+      "words": 18
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-001",
+      "chapterIndex": 47,
+      "chunkIndex": 1,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-002",
+      "chapterIndex": 47,
+      "chunkIndex": 2,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-003",
+      "chapterIndex": 47,
+      "chunkIndex": 3,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-004",
+      "chapterIndex": 47,
+      "chunkIndex": 4,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-005",
+      "chapterIndex": 47,
+      "chunkIndex": 5,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-006",
+      "chapterIndex": 47,
+      "chunkIndex": 6,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-007",
+      "chapterIndex": 47,
+      "chunkIndex": 7,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-008",
+      "chapterIndex": 47,
+      "chunkIndex": 8,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-009",
+      "chapterIndex": 47,
+      "chunkIndex": 9,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-010",
+      "chapterIndex": 47,
+      "chunkIndex": 10,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-011",
+      "chapterIndex": 47,
+      "chunkIndex": 11,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-012",
+      "chapterIndex": 47,
+      "chunkIndex": 12,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-013",
+      "chapterIndex": 47,
+      "chunkIndex": 13,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-014",
+      "chapterIndex": 47,
+      "chunkIndex": 14,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-015",
+      "chapterIndex": 47,
+      "chunkIndex": 15,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-016",
+      "chapterIndex": 47,
+      "chunkIndex": 16,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-017",
+      "chapterIndex": 47,
+      "chunkIndex": 17,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-018",
+      "chapterIndex": 47,
+      "chunkIndex": 18,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-019",
+      "chapterIndex": 47,
+      "chunkIndex": 19,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch047-020",
+      "chapterIndex": 47,
+      "chunkIndex": 20,
+      "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+      "words": 193
+    },
+    {
+      "id": "problemas-y-algoritmos-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "Parte VII",
+      "words": 154
+    },
+    {
+      "id": "problemas-y-algoritmos-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "1. Entender el problema",
+      "words": 5
+    },
+    {
+      "id": "problemas-y-algoritmos-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "2. Encontrar la solución",
+      "words": 5
+    },
+    {
+      "id": "problemas-y-algoritmos-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "3. Implementar la solución",
+      "words": 5
+    },
+    {
+      "id": "problemas-y-algoritmos-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "4. Revisar",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch052-001",
+      "chapterIndex": 52,
+      "chunkIndex": 1,
+      "title": "4. Revisar",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch052-002",
+      "chapterIndex": 52,
+      "chunkIndex": 2,
+      "title": "4. Revisar",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch052-003",
+      "chapterIndex": 52,
+      "chunkIndex": 3,
+      "title": "4. Revisar",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch052-004",
+      "chapterIndex": 52,
+      "chunkIndex": 4,
+      "title": "4. Revisar",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch052-005",
+      "chapterIndex": 52,
+      "chunkIndex": 5,
+      "title": "4. Revisar",
+      "words": 424
+    },
+    {
+      "id": "problemas-y-algoritmos-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "Parte VIII",
+      "words": 500
+    },
+    {
+      "id": "problemas-y-algoritmos-ch053-001",
+      "chapterIndex": 53,
+      "chunkIndex": 1,
+      "title": "Parte VIII",
+      "words": 200
+    }
+  ]
+}

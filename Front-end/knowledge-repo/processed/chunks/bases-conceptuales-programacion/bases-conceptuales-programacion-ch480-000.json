@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch480-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 480,
+  "chunkIndex": 0,
+  "title": "6. Uso de variables",
+  "start": 0,
+  "end": 31,
+  "words": 31,
+  "content": "# PRECONDICIONES: * hay celdas de la pieza en los lugares correctos * rotPieza es una rotaci´on v´alida * tipoPieza es un tipo v´alido * las direcciones coinciden con el tipoPieza"
+}

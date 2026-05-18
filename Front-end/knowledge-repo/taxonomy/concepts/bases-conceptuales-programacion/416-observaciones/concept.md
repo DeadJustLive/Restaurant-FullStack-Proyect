@@ -1,0 +1,29 @@
+# OBSERVACIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 416)
+
+## Contenido
+# OBSERVACIONES:
+
+* se estructura como un recorrido sobre las
+celdas de la zona de juego, quitando todas
+las marcas de pieza
+*/
+{
+// Iniciar recorrido NE en la zona de juego
+IrAlOrigenDeZonaDeJuego()
+while (not esFinDelRecorridoNEDeZonaDeJuego())
+{
+// Procesar es sacar la marca de pieza, si existe
+DesmarcarPiezaActualSiHay()
+AvanzarEnRecorridoNEDeZonaDeJuego()
+}
+// Procesar ´ultimo
+DesmarcarPiezaActualSiHay()
+}
+//-----------------------------------------------------
+procedure DesmarcarPiezaActualSiHay()
+/*
+PROP´OSITO: desmarcar la pieza actual, si existe
+y est´a marcada; si no, no hacer nada

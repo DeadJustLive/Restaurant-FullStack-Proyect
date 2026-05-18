@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch027-002",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 27,
+  "chunkIndex": 2,
+  "title": "4. Sin embargo, algunos sistemas operativos utilizan no solo un carácter de",
+  "start": 900,
+  "end": 1178,
+  "words": 278,
+  "content": "y la hace persistente, lo que significa que no buscará por delante ni omitirá parte de la cadena al buscar una coincidencia. La opción u activa el modo Unicode, que habilita la sintaxis \\p y soluciona varios problemas en torno al manejo de caracteres que ocupan dos unidades de código. Las expresiones regulares son una herramienta afilada con un mango incó- modo. Simplifican enormemente algunas tareas, pero pueden volverse rápida- mente ingobernables cuando se aplican a problemas complejos. Parte de saber cómo usarlas es resistir la tentación de intentar forzar cosas que no pueden 163 -- 175 of 445 -- expresarse de forma clara en ellas. Ejercicios Es casi inevitable que, al trabajar en estos ejercicios, te sientas confundido y frustrado por el comportamiento inexplicable de algunas expresiones regulares. A veces ayuda introducir tu expresión en una herramienta en línea como de- buggex.com para ver si su visualización corresponde a lo que pretendías y para experimentar con la forma en que responde a diferentes cadenas de entrada. Regexp golf Code golf es un término utilizado para el juego de intentar expresar un pro- grama en particular con la menor cantidad de caracteres posible. De manera similar, regexp golf es la práctica de escribir una expresión regular lo más pe- queña posible para que coincida con un patrón dado, y solo ese patrón. Para cada uno de los siguientes elementos, escribe una expresión regular para comprobar si el patrón dado ocurre en una cadena. La expresión regular debe coincidir solo con cadenas que contengan el patrón. Cuando tu expresión funcione, verifica si puedes hacerla más pequeña. 1. car y cat 2. pop y prop 3. ferret, ferry y ferrari"
+}

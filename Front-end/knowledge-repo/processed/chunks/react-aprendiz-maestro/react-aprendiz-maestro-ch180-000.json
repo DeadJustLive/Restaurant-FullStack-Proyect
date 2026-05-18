@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch180-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 180,
+  "chunkIndex": 0,
+  "title": "8.6 Entendiendo conectar . . . . . . . . . . . . . . . . . . . . . . . 76",
+  "start": 0,
+  "end": 228,
+  "words": 228,
+  "content": "# 10.4 Implementando la Lógica de Persistencia Podemos gestionar la lógica de persistencia en un módulo separado que se dedique a ello. Puede ser una buena idea implementar un flag de debug ya que puede ser útil deshabilitar el snapshotting de forma temporal. La idea es dejar de almacenar datos si el flag está puesto a true. 3https://github.com/mozilla/localForage -- 119 of 226 -- Implementando Persistencia en localStorage 102 Esto es especialmente útil para poder eliminar el estado de la aplicación de forma drástica durante el desarrollo y poder dejarlo en un estado en blanco median- te localStorage.setItem('debug', 'true') (localStorage.debug = true), lo- calStorage.clear() y, finalmente, refrescar el navegador. Dado que el bootstrapping puede fallar por algún motivo desconocido debemos ser capaces de capturar el error. Puede ser una buena idea seguir con el arranque de la aplicación aunque algo horrible haya pasado llegado ese punto. La siguiente implementación ilustra estas ideas: app/libs/persist.js export default function(alt, storage, storageName) { try { alt.bootstrap(storage.get(storageName)); } catch(e) { console.error('Failed to bootstrap data', e); } alt.FinalStore.listen(() => { if(!storage.get('debug')) { storage.set(storageName, alt.takeSnapshot()); } }); } Puede que acabes con algo similar usando otros gestores de estado. Necesitarás encontrar puntos de enganche similares con los que inicializar el sistema con datos cargados desde el localStorage y poder escribir el estado cuando algo haya cambiado. -- 120 of 226 -- Implementando Persistencia en localStorage 103"
+}

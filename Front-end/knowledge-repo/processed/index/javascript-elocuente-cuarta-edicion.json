@@ -1,0 +1,438 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion",
+  "title": "javascript-elocuente-cuarta-edicion",
+  "author": "",
+  "pages": 445,
+  "sourceFile": "source-pdfs/javascript-elocuente-cuarta-edicion.pdf",
+  "processedAt": "2026-05-17T05:38:45.895Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "parte d: edicada a la lógica, el orden, la regla y la claridad.”",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/01-parte-d-edicada-a-la-lógica-el-orden-la-regla-y-la-claridad.md",
+      "words": 1142
+    },
+    {
+      "index": 2,
+      "title": "1. Almacena el número 0 en la ubicación de memoria 0.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/02-1-almacena-el-número-0-en-la-ubicación-de-memoria-0.md",
+      "words": 0
+    },
+    {
+      "index": 3,
+      "title": "2. Almacena el número 1 en la ubicación de memoria 1.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/03-2-almacena-el-número-1-en-la-ubicación-de-memoria-1.md",
+      "words": 0
+    },
+    {
+      "index": 4,
+      "title": "3. Almacena el valor de la ubicación de memoria 1 en la ubicación de memo-",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/04-3-almacena-el-valor-de-la-ubicación-de-memoria-1-en-la-ubicación-de-memo-.md",
+      "words": 2
+    },
+    {
+      "index": 5,
+      "title": "4. Resta el número 11 al valor en la ubicación de memoria 2.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/05-4-resta-el-número-11-al-valor-en-la-ubicación-de-memoria-2.md",
+      "words": 0
+    },
+    {
+      "index": 6,
+      "title": "5. Si el valor en la ubicación de memoria 2 es el número 0, continúa con la",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/06-5-si-el-valor-en-la-ubicación-de-memoria-2-es-el-número-0-continúa-con-la.md",
+      "words": 2
+    },
+    {
+      "index": 7,
+      "title": "6. Suma el valor de la ubicación de memoria 1 a la ubicación de memoria 0.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/07-6-suma-el-valor-de-la-ubicación-de-memoria-1-a-la-ubicación-de-memoria-0.md",
+      "words": 0
+    },
+    {
+      "index": 8,
+      "title": "7. Añade el número 1 al valor de la ubicación de memoria 1.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/08-7-añade-el-número-1-al-valor-de-la-ubicación-de-memoria-1.md",
+      "words": 0
+    },
+    {
+      "index": 9,
+      "title": "8. Continúa con la instrucción 3.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/09-8-continúa-con-la-instrucción-3.md",
+      "words": 0
+    },
+    {
+      "index": 10,
+      "title": "9. Muestra el valor de la ubicación de memoria 0.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/10-9-muestra-el-valor-de-la-ubicación-de-memoria-0.md",
+      "words": 3204
+    },
+    {
+      "index": 11,
+      "title": "0. La precedencia del operador de residuo es la misma que la de multiplicación",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/11-0-la-precedencia-del-operador-de-residuo-es-la-misma-que-la-de-multiplicación.md",
+      "words": 4456
+    },
+    {
+      "index": 12,
+      "title": "Capítulo 3: explicará cómo escribir tus propias funciones.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/12-capítulo-3-explicará-cómo-escribir-tus-propias-funciones.md",
+      "words": 3180
+    },
+    {
+      "index": 13,
+      "title": "# # #",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/13--.md",
+      "words": 0
+    },
+    {
+      "index": 14,
+      "title": "# # #",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/14--.md",
+      "words": 0
+    },
+    {
+      "index": 15,
+      "title": "# # #",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/15--.md",
+      "words": 0
+    },
+    {
+      "index": 16,
+      "title": "# # #",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/16--.md",
+      "words": 0
+    },
+    {
+      "index": 17,
+      "title": "# # #",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/17--.md",
+      "words": 0
+    },
+    {
+      "index": 18,
+      "title": "# # #",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/18--.md",
+      "words": 0
+    },
+    {
+      "index": 19,
+      "title": "# # #",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/19--.md",
+      "words": 0
+    },
+    {
+      "index": 20,
+      "title": "# # #",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/20--.md",
+      "words": 1788
+    },
+    {
+      "index": 21,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/21-2-allí-llega-al-final-de-la-función-saludar-por-lo-que-regresa-al-lugar-que-la.md",
+      "words": 8478
+    },
+    {
+      "index": 22,
+      "title": "// → LALALA",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/22--lalala.md",
+      "words": 6555
+    },
+    {
+      "index": 23,
+      "title": "capítulo d: escribe la forma en que estas ideas se pueden aplicar en JavaScript.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/23-capítulo-d-escribe-la-forma-en-que-estas-ideas-se-pueden-aplicar-en-javascript.md",
+      "words": 1506
+    },
+    {
+      "index": 24,
+      "title": "2015. Cualquier función puede ser utilizada como constructor, y antes de 2015",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/24-2015-cualquier-función-puede-ser-utilizada-como-constructor-y-antes-de-2015.md",
+      "words": 3855
+    },
+    {
+      "index": 25,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/25-parte-d-e-un-conjunto-solo-una-vez-agregarlo-nuevamente-no-tiene-ningún-efecto.md",
+      "words": 12471
+    },
+    {
+      "index": 26,
+      "title": "parte d: el patrón falle, el coincidente retrocede un carácter y vuelve a intentar",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/26-parte-d-el-patrón-falle-el-coincidente-retrocede-un-carácter-y-vuelve-a-intentar.md",
+      "words": 1283
+    },
+    {
+      "index": 27,
+      "title": "4. Sin embargo, algunos sistemas operativos utilizan no solo un carácter de",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/27-4-sin-embargo-algunos-sistemas-operativos-utilizan-no-solo-un-carácter-de.md",
+      "words": 1165
+    },
+    {
+      "index": 28,
+      "title": "4. Cualquier palabra que termine en ious",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/28-4-cualquier-palabra-que-termine-en-ious.md",
+      "words": 0
+    },
+    {
+      "index": 29,
+      "title": "5. Un carácter de espacio en blanco seguido de un punto, coma, dos puntos",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/29-5-un-carácter-de-espacio-en-blanco-seguido-de-un-punto-coma-dos-puntos.md",
+      "words": 4
+    },
+    {
+      "index": 30,
+      "title": "6. Una palabra con más de seis letras",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/30-6-una-palabra-con-más-de-seis-letras.md",
+      "words": 0
+    },
+    {
+      "index": 31,
+      "title": "7. Una palabra sin la letra e (o E)",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/31-7-una-palabra-sin-la-letra-e-o-e.md",
+      "words": 200
+    },
+    {
+      "index": 32,
+      "title": "Chapter 10",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/32-chapter-10.md",
+      "words": 606
+    },
+    {
+      "index": 33,
+      "title": "parte d: e su interfaz y dos funciones que sí lo son. No tiene dependencias.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/33-parte-d-e-su-interfaz-y-dos-funciones-que-sí-lo-son-no-tiene-dependencias.md",
+      "words": 716
+    },
+    {
+      "index": 34,
+      "title": "Capítulo 20: mostrará cómo instalar tales paquetes localmente usando el pro-",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/34-capítulo-20-mostrará-cómo-instalar-tales-paquetes-localmente-usando-el-pro-.md",
+      "words": 2698
+    },
+    {
+      "index": 35,
+      "title": "tema C: ommonJS.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/35-tema-c-ommonjs.md",
+      "words": 104
+    },
+    {
+      "index": 36,
+      "title": "Módulo d: e caminos",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/36-módulo-d-e-caminos.md",
+      "words": 222
+    },
+    {
+      "index": 37,
+      "title": "Chapter 11",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/37-chapter-11.md",
+      "words": 4481
+    },
+    {
+      "index": 38,
+      "title": "13. Carla nota que sus propios teléfonos reciben direcciones como 10.0.0.20",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/38-13-carla-nota-que-sus-propios-teléfonos-reciben-direcciones-como-100020.md",
+      "words": 2437
+    },
+    {
+      "index": 39,
+      "title": "Chapter 12",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/39-chapter-12.md",
+      "words": 3766
+    },
+    {
+      "index": 40,
+      "title": "Chapter 13",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/40-chapter-13.md",
+      "words": 2914
+    },
+    {
+      "index": 41,
+      "title": "Chapter 14",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/41-chapter-14.md",
+      "words": 2097
+    },
+    {
+      "index": 42,
+      "title": "// → [\"UNO\", \"DOS\"]",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/42--uno-dos.md",
+      "words": 3416
+    },
+    {
+      "index": 43,
+      "title": "Chapter 15",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/43-chapter-15.md",
+      "words": 5348
+    },
+    {
+      "index": 44,
+      "title": "Chapter 16",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/44-chapter-16.md",
+      "words": 633
+    },
+    {
+      "index": 45,
+      "title": "parte d: e la cuadrícula de fondo o un elemento móvil.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/45-parte-d-e-la-cuadrícula-de-fondo-o-un-elemento-móvil.md",
+      "words": 578
+    },
+    {
+      "index": 46,
+      "title": "Capítulo 6.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/46-capítulo-6.md",
+      "words": 4574
+    },
+    {
+      "index": 47,
+      "title": "parte d: e un segundo). Cuando la pestaña del navegador o la ventana con",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/47-parte-d-e-un-segundo-cuando-la-pestaña-del-navegador-o-la-ventana-con.md",
+      "words": 769
+    },
+    {
+      "index": 48,
+      "title": "Chapter 17",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/48-chapter-17.md",
+      "words": 5927
+    },
+    {
+      "index": 49,
+      "title": "1. Un trapecio (un rectángulo que es más ancho en un lado)",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/49-1-un-trapecio-un-rectángulo-que-es-más-ancho-en-un-lado.md",
+      "words": 0
+    },
+    {
+      "index": 50,
+      "title": "2. Un diamante rojo diamond (un rectángulo rotado 45 grados o ¼π radi-",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/50-2-un-diamante-rojo-diamond-un-rectángulo-rotado-45-grados-o-radi-.md",
+      "words": 1
+    },
+    {
+      "index": 51,
+      "title": "3. Una línea en zigzag",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/51-3-una-línea-en-zigzag.md",
+      "words": 0
+    },
+    {
+      "index": 52,
+      "title": "4. Un espiral compuesta por 100 segmentos de línea recta",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/52-4-un-espiral-compuesta-por-100-segmentos-de-línea-recta.md",
+      "words": 0
+    },
+    {
+      "index": 53,
+      "title": "5. Una estrella amarilla star",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/53-5-una-estrella-amarilla-star.md",
+      "words": 189
+    },
+    {
+      "index": 54,
+      "title": "Capítulo 16: para dibujar una caja con una pelota rebotando dentro. La pelota",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/54-capítulo-16-para-dibujar-una-caja-con-una-pelota-rebotando-dentro-la-pelota.md",
+      "words": 227
+    },
+    {
+      "index": 55,
+      "title": "Chapter 18",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/55-chapter-18.md",
+      "words": 13
+    },
+    {
+      "index": 56,
+      "title": "Capítulo 13: , es el mecanismo a través del cual se solicita y proporciona datos",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/56-capítulo-13-es-el-mecanismo-a-través-del-cual-se-solicita-y-proporciona-datos.md",
+      "words": 592
+    },
+    {
+      "index": 57,
+      "title": "parte d: el ejemplo de respuesta:",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/57-parte-d-el-ejemplo-de-respuesta.md",
+      "words": 6224
+    },
+    {
+      "index": 58,
+      "title": "Chapter 19",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/58-chapter-19.md",
+      "words": 5757
+    },
+    {
+      "index": 59,
+      "title": "Chapter 20",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/59-chapter-20.md",
+      "words": 247
+    },
+    {
+      "index": 60,
+      "title": "tema c: omo Node. Es uno de los pocos lenguajes de programación que no tiene",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/60-tema-c-omo-node-es-uno-de-los-pocos-lenguajes-de-programación-que-no-tiene.md",
+      "words": 650
+    },
+    {
+      "index": 61,
+      "title": "módulo i: ntegrado del sistema de archivos de Node. E importar \"robot\" podría",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/61-módulo-i-ntegrado-del-sistema-de-archivos-de-node-e-importar-robot-podría.md",
+      "words": 226
+    },
+    {
+      "index": 62,
+      "title": "Capítulo 10.: Podemos usar NPM para buscar e instalar ese paquete en nuestra",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/62-capítulo-10-podemos-usar-npm-para-buscar-e-instalar-ese-paquete-en-nuestra.md",
+      "words": 213
+    },
+    {
+      "index": 63,
+      "title": "Capítulo 10: , podría tener un archivo package.json como este:",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/63-capítulo-10-podría-tener-un-archivo-packagejson-como-este.md",
+      "words": 1799
+    },
+    {
+      "index": 64,
+      "title": "// → HOLA SERVIDOR",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/64--hola-servidor.md",
+      "words": 1740
+    },
+    {
+      "index": 65,
+      "title": "CONTENIDO",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/65-contenido.md",
+      "words": 743
+    },
+    {
+      "index": 66,
+      "title": "Chapter 21",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/66-chapter-21.md",
+      "words": 7689
+    },
+    {
+      "index": 67,
+      "title": "módulo d: ependa menos del formato de entrada.",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/67-módulo-d-ependa-menos-del-formato-de-entrada.md",
+      "words": 203
+    },
+    {
+      "index": 68,
+      "title": "módulo i: ndividual hace algo bastante simple y se puede leer por sí solo. Dividir",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/68-módulo-i-ndividual-hace-algo-bastante-simple-y-se-puede-leer-por-sí-solo-dividir.md",
+      "words": 234
+    },
+    {
+      "index": 69,
+      "title": "Módulo d: e caminos",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/69-módulo-d-e-caminos.md",
+      "words": 1427
+    },
+    {
+      "index": 70,
+      "title": "capítulo d: el proyecto, 116, 200, 261,",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/70-capítulo-d-el-proyecto-116-200-261.md",
+      "words": 4780
+    },
+    {
+      "index": 71,
+      "title": "módulo d: e caminos (ejercicio), 177,",
+      "file": "chapters/javascript-elocuente-cuarta-edicion/71-módulo-d-e-caminos-ejercicio-177.md",
+      "words": 2953
+    }
+  ],
+  "learningIntegrated": true
+}

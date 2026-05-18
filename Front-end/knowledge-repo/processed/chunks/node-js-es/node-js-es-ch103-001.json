@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch103-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 103,
+  "chunkIndex": 1,
+  "title": "Capítulo 62:: Integración de MongoDB para",
+  "start": 450,
+  "end": 629,
+  "words": 179,
+  "content": "punto final. Algunas cosas clave, sin embargo: El límite hace exactamente lo que parece. Solo estoy recibiendo 5 documentos de vuelta. 1. https://riptutorial.com/es/home 214 -- 242 of 423 -- Lean elimina algunas cosas del BSON en bruto, reduciendo la complejidad y los gastos generales. No requerido. Pero útil. 2. Cuando use find lugar de findOne , confirme que doc.length es mayor que 0. Esto se debe a que find siempre devuelve una matriz, por lo que una matriz vacía no manejará su error a menos que se verifique la longitud 3. Personalmente me gusta enviar el mensaje de error en ese formato. Cámbiala según tus necesidades. Lo mismo para el documento devuelto. 4. El código en este ejemplo se escribe bajo el supuesto de que lo ha colocado en otro archivo y no directamente en el servidor Express. Para llamar a esto en el servidor, incluya estas líneas en su código de servidor: 5. const app = express(); require('./path/to/this/file')(app) // Lea Integración de MongoDB para Node.js / Express.js en línea: https://riptutorial.com/es/node- js/topic/9020/integracion-de-mongodb-para-node-js---express-js https://riptutorial.com/es/home 215 -- 243 of 423 --"
+}

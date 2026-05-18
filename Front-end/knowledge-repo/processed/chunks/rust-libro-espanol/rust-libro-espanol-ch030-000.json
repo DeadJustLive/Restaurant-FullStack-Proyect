@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch030-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 30,
+  "chunkIndex": 0,
+  "title": "Fundamentos de la Programación Asíncrona: Async, Await, Futures y Streams",
+  "start": 0,
+  "end": 26,
+  "words": 26,
+  "content": "# Fundamentos de la Programación Asíncrona: Async, Await, Futures y Streams ## Fundamentos de la Programación Asíncrona: Async, Await, Futures y Streams ### Paralelismo y Concurrencia"
+}

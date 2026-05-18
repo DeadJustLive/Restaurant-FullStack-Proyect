@@ -1,0 +1,11 @@
+{
+  "id": "javascript-asincronismo-ch012-000",
+  "bookId": "javascript-asincronismo",
+  "chapterIndex": 12,
+  "chunkIndex": 0,
+  "title": "12. Se ejecuta callback(), por ende, se apila",
+  "start": 0,
+  "end": 12,
+  "words": 12,
+  "content": "# 12. Se ejecuta callback(), por ende, se apila console.log(\"Op. async #2\")"
+}

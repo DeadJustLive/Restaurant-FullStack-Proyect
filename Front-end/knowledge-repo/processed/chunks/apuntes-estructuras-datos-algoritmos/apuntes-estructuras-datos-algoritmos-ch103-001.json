@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch103-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 103,
+  "chunkIndex": 1,
+  "title": "3. Implementación con estructuras de listas múltiples",
+  "start": 450,
+  "end": 691,
+  "words": 241,
+  "content": "un nodo son sus primeros descendientes propios, si existen. Dos nodos son hermanos si tienen el mismo padre. 3 6 9 51 13 7 33 15 55 38 23 Camino desde el nodo 3, hasta el nodo 55: su longitud es 3 Camino desde el nodo 9 hasta el 23: longitud 2 3 6 9 51 13 7 33 15 55 38 23 Antecesores del nodo 7, son los nodos 6 y 3, y sus descendientes son los nodos 15 y 55. Antecesor del nodo 6, es el nodo 3. Descendientes del nodo 6 son todos los nodos que “cuelgan” de él. 3 6 9 51 13 7 33 15 55 38 23 Sus hijos son Su padre es Sus hermanos son -- 108 of 267 -- 101 La altura de un árbol es la longitud del camino más largo que puede encontrarse en el árbol desde la raíz a un nodo. No está definida para árboles vacíos. La profundidad de un nodo en un árbol es la longitud del único camino existente desde la raíz del árbol hasta ese nodo. Un nivel es un conjunto de nodos de un árbol con igual profundidad. En el nivel cero sólo está la raíz; en el nivel uno, sus hijos, etc. El grado de un árbol es el número máximo de hijos que pueden tener sus nodos (si el árbol es n–ario su grado es n; si es binario, su grado es dos)."
+}

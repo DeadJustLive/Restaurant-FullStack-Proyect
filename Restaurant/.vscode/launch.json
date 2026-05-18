@@ -21,15 +21,6 @@
     },
     {
       "type": "java",
-      "name": "Debug ms-usuarios",
-      "request": "launch",
-      "cwd": "${workspaceFolder}/ms-usuarios",
-      "mainClass": "cl.triskeledu.usuarios.RestaurantUsuariosApplication",
-      "projectName": "cl-triskeledu-usuarios",
-      "envFile": "${workspaceFolder}/.env"
-    },
-    {
-      "type": "java",
       "name": "Debug ms-sucursales",
       "request": "launch",
       "cwd": "${workspaceFolder}/ms-sucursales",
@@ -44,15 +35,6 @@
       "cwd": "${workspaceFolder}/ms-menu",
       "mainClass": "cl.triskeledu.menu.RestaurantMenuApplication",
       "projectName": "cl-triskeledu-menu",
-      "envFile": "${workspaceFolder}/.env"
-    },
-    {
-      "type": "java",
-      "name": "Debug ms-categorias",
-      "request": "launch",
-      "cwd": "${workspaceFolder}/ms-categorias",
-      "mainClass": "cl.triskeledu.categorias.RestaurantCategoriasApplication",
-      "projectName": "cl-triskeledu-categorias",
       "envFile": "${workspaceFolder}/.env"
     },
     {
@@ -125,10 +107,8 @@
       "configurations": [
         "Debug Eureka",
         "Debug ms-auth",
-        "Debug ms-usuarios",
         "Debug ms-sucursales",
         "Debug ms-menu",
-        "Debug ms-categorias",
         "Debug ms-carrito",
         "Debug ms-pedidos",
         "Debug ms-pagos",
@@ -136,6 +116,16 @@
         "Debug ms-inventario",
         "Debug ms-notificaciones",
         "Debug ms-reportes"
+      ]
+    },
+    {
+      "name": "Debug Esenciales (Auth, Menu, Pedidos)",
+      "configurations": [
+        "Debug Eureka",
+        "Debug ms-auth",
+        "Debug ms-menu",
+        "Debug ms-pedidos",
+        "Debug ms-inventario"
       ]
     }
   ]

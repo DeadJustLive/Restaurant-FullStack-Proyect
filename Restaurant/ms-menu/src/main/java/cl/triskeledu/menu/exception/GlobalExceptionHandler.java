@@ -1,6 +1,8 @@
 package cl.triskeledu.menu.exception;
 
 import cl.triskeledu.menu.exception.AccesoDenegadoException;
+import feign.FeignException;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
@@ -17,6 +19,7 @@ import java.util.Map;
  * EXCEPTION HANDLER: GlobalExceptionHandler (ms-menu)
  * =============================================================================
  */
+@Slf4j
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
@@ -62,6 +65,13 @@ public class GlobalExceptionHandler {
         body.put("error", "Errores de validación");
         body.put("errores", erroresCampos);
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(body);
+    }
+
+    @ExceptionHandler(FeignException.class)
+    public ResponseEntity<Map<String, Object>> handleFeignException(FeignException ex) {
+        log.warn("Error de comunicacion con servicio externo: status={}, mensaje={}", ex.status(), ex.getMessage());
+        return buildError(HttpStatus.SERVICE_UNAVAILABLE,
+                "Servicio de autenticacion no disponible. Intente mas tarde.");
     }
 
     @ExceptionHandler(Exception.class)

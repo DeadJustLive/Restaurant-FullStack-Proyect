@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch121-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 121,
+  "chunkIndex": 0,
+  "title": "12. Simule el funcionamiento de un temporizador, que reciba como",
+  "start": 0,
+  "end": 49,
+  "words": 49,
+  "content": "# 12. Simule el funcionamiento de un temporizador, que reciba como entrada una cantidad de minutos y segundos. En el momento que falten 5 minutos para cumplir el tiempo, deber´a dar un mensaje de alerta, cuando finalice mostrar´a el siguiente mensaje “Tiempo fuera”. Debe funcionar m´aximo para 1 hora."
+}

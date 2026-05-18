@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch128-001",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 128,
+  "chunkIndex": 1,
+  "title": "OBSERVACIONES:",
+  "start": 450,
+  "end": 615,
+  "words": 165,
+  "content": "considerar un recorrido por filas en lugar de uno por columnas. Otra variante, algo m ´as compleja, pero que resulta en menor cantidad de c ´odigo, es utilizar un recorrido por celdas. Actividad de Programaci ´on 14 Modifique el c ´odigo del programa del ejercicio 4.2.6 para que en lugar de hacer el recorrido por columnas, lo haga por filas. ¡No olvide modificar los nombres de los procedimientos y los comentarios adecuadamente! Para abordar el problema de pintar el tablero mediante un recorrido por celdas, las preguntas pertinentes son cu ´al ser ´a la primera celda a pintar y c ´omo deter- minamos cu ´al es la siguiente en cada caso. Las respuestas a estas preguntas determinar ´an los restantes elementos del recorrido. Supongamos que elegimos que la primera celda ser ´a la de la esquina suroeste, y que las celdas ser ´an re- corridas de Oeste a Este y de Sur a Norte, en ese orden. Entonces, el c ´odigo quedar´ıa as´ı procedure PintarTableroPorCeldasNE(color)"
+}

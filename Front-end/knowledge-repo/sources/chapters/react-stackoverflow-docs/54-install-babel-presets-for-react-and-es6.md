@@ -1,0 +1,53 @@
+# install babel presets for react and es6
+
+$ npm i babel-preset-react babel-preset-es2015 --save
+Configurar webpack
+Cree un archivo webpack.config.js en la raíz de su directorio de trabajo
+Nombre de archivo : webpack.config.js
+module.exports = {
+entry: __dirname + "/src/index.jsx",
+devtool: "source-map",
+output: {
+path: __dirname + "/build",
+filename: "bundle.js"
+},
+https://riptutorial.com/es/home 56
+
+-- 66 of 139 --
+
+module: {
+loaders: [
+{test: /\.jsx?$/, exclude: /node_modules/, loader: "babel-loader"}
+]
+}
+}
+Configurar babel
+Cree un archivo .babelrc en la raíz de nuestro directorio de trabajo
+Nombre de archivo : .babelrc
+{
+"presets": ["es2015","react"]
+}
+Archivo HTML para usar el componente reaccionar
+Configure un simple archivo html en la raíz del directorio del proyecto
+Nombre de archivo : index.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+<div id="App"></div>
+<script src="build/bundle.js" charset="utf-8"></script>
+</body>
+</html>
+Transpilar y agrupar su componente
+Usando webpack, puedes agrupar tu componente:
+$ webpack
+Esto creará nuestro archivo de salida en el directorio de build .
+Abra la página HTML en un navegador para ver el componente en acción
+Lea Configuración de React Ambiente en línea:
+https://riptutorial.com/es/reactjs/topic/7480/configuracion-de-react-ambiente
+https://riptutorial.com/es/home 57
+
+-- 67 of 139 --

@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch087-002",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 87,
+  "chunkIndex": 2,
+  "title": "Lección 14:: Árboles AVL .................................................................................................................... 127",
+  "start": 900,
+  "end": 1007,
+  "words": 107,
+  "content": "mod max) OR ((c.actual=(c.último+1) mod max) AND c.iterEnInicio) fin procedimiento siguiente(e/s c:cola; sal e:elemento: sal error:booleano) {Si existe algún elemento de c pendiente de visitar, devuelve en e el siguiente elemento a visitar y error=falso, y además avanza el iterador para que a continuación se pueda visitar otro elemento de c. Si no quedan elementos pendientes de visitar devuelve error=verdad, e queda indefinido y c queda como estaba} principio si existeSiguiente(c) entonces error:=falso; e:=c.datos[c.actual]; c.actual:=(c.actual+1) mod max; si c.iterEnInicio entonces c.iterEnInicio:=falso fsi sino error:=verdad fsi fin fin Nótese que el coste temporal de todas las operaciones es O(1), excepto para las de duplicar y comparación de igualdad."
+}

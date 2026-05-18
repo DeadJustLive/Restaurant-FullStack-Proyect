@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch035-007",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 35,
+  "chunkIndex": 7,
+  "title": "Ch17 06 futures tasks threads.html",
+  "start": 3150,
+  "end": 3266,
+  "words": 116,
+  "content": "eficientes - 22.1.A - Palabras claves - 22.2.B - Operadores y Símbolos - 22.3.C - Traits derivables - 22.4.D - Herramientas de desarrollo útiles - 22.5.E - Ediciones - 22.6.F - Traducciones del libro - 22.7.G - Cómo se hace Rust y “Rust Nightly” - Light (default) - Rust - Coal - Navy - Ayu - Latte - Frappé - Macchiato - Mocha - Si el trabajo esmuy paralelizable, como procesar un montón de datos donde cada parte puede procesarse por separado, los hilos son una mejor elección. - Si el trabajo esmuy concurrente, como manejar mensajes de un montón de fuentes diferentes que pueden llegar en intervalos o tasas diferentes, async es una mejor elección."
+}

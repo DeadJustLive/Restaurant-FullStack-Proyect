@@ -1,0 +1,366 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas",
+  "title": "algoritmos-pseudocodigo-ordinogramas",
+  "author": "",
+  "pages": 180,
+  "sourceFile": "source-pdfs/algoritmos-pseudocodigo-ordinogramas.pdf",
+  "processedAt": "2026-05-17T05:38:51.830Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "ÍNDICE DEL CONTENIDO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/01-índice-del-contenido.md",
+      "words": 7
+    },
+    {
+      "index": 2,
+      "title": "Capítulo 1.: Qué es un algoritmo ..................................................... 11",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/02-capítulo-1-qué-es-un-algoritmo-11.md",
+      "words": 29
+    },
+    {
+      "index": 3,
+      "title": "Capítulo 2.: Tipos de datos .............................................................. 17",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/03-capítulo-2-tipos-de-datos-17.md",
+      "words": 60
+    },
+    {
+      "index": 4,
+      "title": "Capítulo 3.: Identificadores, variables y constantes........................ 23",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/04-capítulo-3-identificadores-variables-y-constantes-23.md",
+      "words": 82
+    },
+    {
+      "index": 5,
+      "title": "Capítulo 4.: Tipos de datos definidos por el programador ............... 38",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/05-capítulo-4-tipos-de-datos-definidos-por-el-programador-38.md",
+      "words": 53
+    },
+    {
+      "index": 6,
+      "title": "Capítulo 5.: Operadores y expresiones ............................................ 45",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/06-capítulo-5-operadores-y-expresiones-45.md",
+      "words": 60
+    },
+    {
+      "index": 7,
+      "title": "Capítulo 6.: Instrucciones primitivas .............................................. 63",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/07-capítulo-6-instrucciones-primitivas-63.md",
+      "words": 24
+    },
+    {
+      "index": 8,
+      "title": "Capítulo 7.: Estructura de un algoritmo en pseudocódigo ............... 71",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/08-capítulo-7-estructura-de-un-algoritmo-en-pseudocódigo-71.md",
+      "words": 57
+    },
+    {
+      "index": 9,
+      "title": "Capítulo 8.: Ordinogramas .............................................................. 79",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/09-capítulo-8-ordinogramas-79.md",
+      "words": 24
+    },
+    {
+      "index": 10,
+      "title": "Capítulo 9.: Instrucciones de control alternativas ........................... 83",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/10-capítulo-9-instrucciones-de-control-alternativas-83.md",
+      "words": 60
+    },
+    {
+      "index": 11,
+      "title": "Capítulo 10.: Instrucciones de control repetitivas......................... 111",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/11-capítulo-10-instrucciones-de-control-repetitivas-111.md",
+      "words": 106
+    },
+    {
+      "index": 12,
+      "title": "Capítulo 11.: Instrucciones de control de salto ............................. 148",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/12-capítulo-11-instrucciones-de-control-de-salto-148.md",
+      "words": 42
+    },
+    {
+      "index": 13,
+      "title": "Capítulo 12.: Llamadas a subalgoritmos ....................................... 156",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/13-capítulo-12-llamadas-a-subalgoritmos-156.md",
+      "words": 102
+    },
+    {
+      "index": 14,
+      "title": "PREFACIO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/14-prefacio.md",
+      "words": 1674
+    },
+    {
+      "index": 15,
+      "title": "parte d: e la solución a un problema mayor. Pero, a su vez, dicho algoritmo debe",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/15-parte-d-e-la-solución-a-un-problema-mayor-pero-a-su-vez-dicho-algoritmo-debe.md",
+      "words": 2016
+    },
+    {
+      "index": 16,
+      "title": "1. Consta de uno o más caracteres.",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/16-1-consta-de-uno-o-más-caracteres.md",
+      "words": 8
+    },
+    {
+      "index": 17,
+      "title": "2. El primer carácter debe ser una letra o el carácter guion bajo ( _ ), mientras que, todos",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/17-2-el-primer-carácter-debe-ser-una-letra-o-el-carácter-guion-bajo-mientras-que-todos.md",
+      "words": 57
+    },
+    {
+      "index": 18,
+      "title": "3. No pueden existir dos identificadores iguales, es decir, dos elementos de un algoritmo",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/18-3-no-pueden-existir-dos-identificadores-iguales-es-decir-dos-elementos-de-un-algoritmo.md",
+      "words": 88
+    },
+    {
+      "index": 19,
+      "title": "PINGUINO1",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/19-pinguino1.md",
+      "words": 336
+    },
+    {
+      "index": 20,
+      "title": "1. Cuántas son las variables que el programa necesita para realizar las tareas que se le",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/20-1-cuántas-son-las-variables-que-el-programa-necesita-para-realizar-las-tareas-que-se-le.md",
+      "words": 19
+    },
+    {
+      "index": 21,
+      "title": "2. El tipo de dato que puede almacenar cada una de ellas.",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/21-2-el-tipo-de-dato-que-puede-almacenar-cada-una-de-ellas.md",
+      "words": 759
+    },
+    {
+      "index": 22,
+      "title": "TEMPERATURA = -5",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/22-temperatura--5.md",
+      "words": 9
+    },
+    {
+      "index": 23,
+      "title": "TEMPERATURA = -5, MES = 10",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/23-temperatura--5-mes-10.md",
+      "words": 850
+    },
+    {
+      "index": 24,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/24-ejemplo.md",
+      "words": 103
+    },
+    {
+      "index": 25,
+      "title": "NUMERO = '9'",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/25-numero-9.md",
+      "words": 7
+    },
+    {
+      "index": 26,
+      "title": "ESPACIO_EN_BLANCO = ' '",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/26-espacioenblanco-.md",
+      "words": 29
+    },
+    {
+      "index": 27,
+      "title": "COMILLA_SIMPLE = '\\''",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/27-comillasimple-.md",
+      "words": 959
+    },
+    {
+      "index": 28,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/28-ejemplo.md",
+      "words": 18
+    },
+    {
+      "index": 29,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/29-ejemplo.md",
+      "words": 16
+    },
+    {
+      "index": 30,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/30-ejemplo.md",
+      "words": 15
+    },
+    {
+      "index": 31,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/31-ejemplo.md",
+      "words": 14
+    },
+    {
+      "index": 32,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/32-ejemplo.md",
+      "words": 621
+    },
+    {
+      "index": 33,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/33-ejemplo.md",
+      "words": 12
+    },
+    {
+      "index": 34,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/34-ejemplo.md",
+      "words": 10
+    },
+    {
+      "index": 35,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/35-ejemplo.md",
+      "words": 9
+    },
+    {
+      "index": 36,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/36-ejemplo.md",
+      "words": 7
+    },
+    {
+      "index": 37,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/37-ejemplo.md",
+      "words": 139
+    },
+    {
+      "index": 38,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/38-ejemplo.md",
+      "words": 59
+    },
+    {
+      "index": 39,
+      "title": "1. Operadores suma y resta.",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/39-1-operadores-suma-y-resta.md",
+      "words": 6
+    },
+    {
+      "index": 40,
+      "title": "2. Signos de un número (también son operadores).",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/40-2-signos-de-un-número-también-son-operadores.md",
+      "words": 3075
+    },
+    {
+      "index": 41,
+      "title": "CONSONANTE = 'S'",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/41-consonante-s.md",
+      "words": 19
+    },
+    {
+      "index": 42,
+      "title": "CONSONANTE",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/42-consonante.md",
+      "words": 110
+    },
+    {
+      "index": 43,
+      "title": "OLIMPIADA + PUNTO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/43-olimpiada-punto.md",
+      "words": 2417
+    },
+    {
+      "index": 44,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/44-ejemplo.md",
+      "words": 33
+    },
+    {
+      "index": 45,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/45-ejemplo.md",
+      "words": 19
+    },
+    {
+      "index": 46,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/46-ejemplo.md",
+      "words": 353
+    },
+    {
+      "index": 47,
+      "title": "EJEMPLO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/47-ejemplo.md",
+      "words": 5417
+    },
+    {
+      "index": 48,
+      "title": "Capítulo 10",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/48-capítulo-10.md",
+      "words": 648
+    },
+    {
+      "index": 49,
+      "title": "1. Si la condición se evalúa a falsa, el bloque de instrucciones no se ejecuta, y el bucle",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/49-1-si-la-condición-se-evalúa-a-falsa-el-bloque-de-instrucciones-no-se-ejecuta-y-el-bucle.md",
+      "words": 25
+    },
+    {
+      "index": 50,
+      "title": "2. Si la condición se evalúa a verdadera, el bloque de instrucciones sí que se ejecuta y,",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/50-2-si-la-condición-se-evalúa-a-verdadera-el-bloque-de-instrucciones-sí-que-se-ejecuta-y.md",
+      "words": 1749
+    },
+    {
+      "index": 51,
+      "title": "1. Se ejecuta el bloque de instrucciones y, después, si la condición se evalúa a falsa, el",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/51-1-se-ejecuta-el-bloque-de-instrucciones-y-después-si-la-condición-se-evalúa-a-falsa-el.md",
+      "words": 38
+    },
+    {
+      "index": 52,
+      "title": "2. Se ejecuta el bloque de instrucciones y, a continuación, si la condición se evalúa a",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/52-2-se-ejecuta-el-bloque-de-instrucciones-y-a-continuación-si-la-condición-se-evalúa-a.md",
+      "words": 1140
+    },
+    {
+      "index": 53,
+      "title": "1. Si el valor de la <variable> es mayor que el <valor_final>, entonces no se",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/53-1-si-el-valor-de-la-variable-es-mayor-que-el-valorfinal-entonces-no-se.md",
+      "words": 30
+    },
+    {
+      "index": 54,
+      "title": "2. Si el valor de la <variable> es menor o igual que el <valor_final>, entonces,",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/54-2-si-el-valor-de-la-variable-es-menor-o-igual-que-el-valorfinal-entonces.md",
+      "words": 3051
+    },
+    {
+      "index": 55,
+      "title": "Capítulo 11",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/55-capítulo-11.md",
+      "words": 1818
+    },
+    {
+      "index": 56,
+      "title": "Capítulo 12",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/56-capítulo-12.md",
+      "words": 4008
+    },
+    {
+      "index": 57,
+      "title": "1. En vez de la palabra reservada procedimiento, se debe escribir la palabra",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/57-1-en-vez-de-la-palabra-reservada-procedimiento-se-debe-escribir-la-palabra.md",
+      "words": 16
+    },
+    {
+      "index": 58,
+      "title": "2. Una función devuelve siempre un valor. Por tanto, en una función siempre debe",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/58-2-una-función-devuelve-siempre-un-valor-por-tanto-en-una-función-siempre-debe.md",
+      "words": 755
+    },
+    {
+      "index": 59,
+      "title": "EPÍLOGO",
+      "file": "chapters/algoritmos-pseudocodigo-ordinogramas/59-epílogo.md",
+      "words": 136
+    }
+  ],
+  "learningIntegrated": true
+}

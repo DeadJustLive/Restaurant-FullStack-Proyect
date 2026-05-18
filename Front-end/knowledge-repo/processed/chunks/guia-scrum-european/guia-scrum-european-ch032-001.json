@@ -1,0 +1,11 @@
+{
+  "id": "guia-scrum-european-ch032-001",
+  "bookId": "guia-scrum-european",
+  "chapterIndex": 32,
+  "chunkIndex": 1,
+  "title": "5.3 \tEl Incremento",
+  "start": 450,
+  "end": 610,
+  "words": 160,
+  "content": "de que un incremento pueda considerarse completo, debe cumplir con la 'Definición de Hecho' acordada por el equipo y el Product Owner. Esta definición incluye criterios específicos que cada funcionalidad debe cumplir para asegurar su calidad. • Pruebas Automatizadas y Manuales: El uso de pruebas automatizadas y manuales durante el desarrollo ayuda a identificar y corregir errores antes de que se integren completamente en el producto. 5.3.5 Conclusión de el Incremento El Incremento es el resultado concreto de cada Sprint en Scrum, que no solo demuestra el progreso del proyecto sino que también valida la dirección y la estrategia del desarrollo del producto. Al asegurar que cada incremento sea de alta calidad y potencialmente lanzable, el Equipo de Desarrollo contribuye de manera significativa al éxito y la adaptabilidad del proyecto en su conjunto. 6 Eventos de Scrum En Scrum encontramos diferentes eventos: El Sprint, Sprint Init o 0, Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective y Refinamiento o Grooming."
+}

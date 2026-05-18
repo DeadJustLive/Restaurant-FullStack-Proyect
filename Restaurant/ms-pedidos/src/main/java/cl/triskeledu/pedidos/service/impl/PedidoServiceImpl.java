@@ -1,26 +1,30 @@
 package cl.triskeledu.pedidos.service.impl;
 
+import cl.triskeledu.pedidos.client.MenuItemClient;
+import cl.triskeledu.pedidos.client.dto.MenuItemClientResponseDTO;
+import cl.triskeledu.pedidos.dto.event.PedidoEventDTO;
 import cl.triskeledu.pedidos.dto.request.PedidoRequestDTO;
-import cl.triskeledu.pedidos.dto.response.PedidoItemResponseDTO;
 import cl.triskeledu.pedidos.dto.response.PedidoResponseDTO;
 import cl.triskeledu.pedidos.entity.Pedido;
 import cl.triskeledu.pedidos.entity.PedidoItem;
 import cl.triskeledu.pedidos.entity.enums.EstadoPedido;
+import cl.triskeledu.pedidos.entity.enums.TipoPedido;
+import cl.triskeledu.pedidos.exception.EstadoInvalidoException;
 import cl.triskeledu.pedidos.exception.PedidoNotFoundException;
+import cl.triskeledu.pedidos.mapper.PedidoMapper;
+import cl.triskeledu.pedidos.proyecciones.MenuItemProyeccion;
+import cl.triskeledu.pedidos.repository.MenuItemProyeccionRepository;
 import cl.triskeledu.pedidos.repository.PedidoRepository;
 import cl.triskeledu.pedidos.service.PedidoService;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import cl.triskeledu.pedidos.client.AuthFeignClient;
-import cl.triskeledu.pedidos.dto.response.PermisoResponseDTO;
-import cl.triskeledu.pedidos.exception.AccesoDenegadoException;
+import feign.FeignException;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -33,11 +37,24 @@ import java.util.stream.Collectors;
 @Slf4j
 public class PedidoServiceImpl implements PedidoService {
 
-    private final AuthFeignClient authFeignClient;
+    private static final Map<EstadoPedido, Set<EstadoPedido>> TRANSICIONES_VALIDAS;
 
+    static {
+        TRANSICIONES_VALIDAS = new EnumMap<>(EstadoPedido.class);
+        TRANSICIONES_VALIDAS.put(EstadoPedido.PENDIENTE, EnumSet.of(EstadoPedido.CONFIRMADO, EstadoPedido.CANCELADO));
+        TRANSICIONES_VALIDAS.put(EstadoPedido.CONFIRMADO, EnumSet.of(EstadoPedido.EN_PREPARACION, EstadoPedido.CANCELADO));
+        TRANSICIONES_VALIDAS.put(EstadoPedido.EN_PREPARACION, EnumSet.of(EstadoPedido.LISTO));
+        TRANSICIONES_VALIDAS.put(EstadoPedido.EN_CAMINO, EnumSet.of(EstadoPedido.ENTREGADO));
+    }
 
-    @Autowired
-    private PedidoRepository pedidoRepository;
+    private final MenuItemClient menuItemClient;
+    private final MenuItemProyeccionRepository menuItemProyeccionRepository;
+    private final PedidoMapper pedidoMapper;
+
+    private static final String TOPIC = "pedido-events";
+
+    private final KafkaTemplate<String, PedidoEventDTO> kafkaTemplate;
+    private final PedidoRepository pedidoRepository;
 
     @Override
     @Transactional
@@ -68,19 +85,36 @@ public class PedidoServiceImpl implements PedidoService {
         BigDecimal total = BigDecimal.ZERO;
         
         for (var itemDto : dto.getItems()) {
-            // TODO: Consultar ms-menu via Feign para obtener nombre y precio
-            // Simulación de respuesta de ms-menu
-            String nombreSnapshot = "Producto " + itemDto.getMenuItemId(); 
-            BigDecimal precioSnapshot = new BigDecimal("5000.00"); // Dummy price
-            
-            BigDecimal subtotal = precioSnapshot.multiply(new BigDecimal(itemDto.getCantidad()));
+            String nombreSnapshot;
+            BigDecimal precioUnitario;
+
+            try {
+                MenuItemClientResponseDTO menuResponse = menuItemClient.getById(itemDto.getMenuItemId());
+                nombreSnapshot = menuResponse.getNombre();
+                precioUnitario = menuResponse.getPrecio();
+                log.debug("Feign: menuItemId={} -> nombre={}, precio={}", itemDto.getMenuItemId(), nombreSnapshot, precioUnitario);
+            } catch (FeignException fe) {
+                log.warn("Feign falló para menuItemId={}, usando proyección local: {}", itemDto.getMenuItemId(), fe.getMessage());
+                MenuItemProyeccion proyeccion = menuItemProyeccionRepository.findById(itemDto.getMenuItemId())
+                        .orElseThrow(() -> new PedidoNotFoundException("MenuItem no encontrado (Feign y proyección fallaron) para ID: " + itemDto.getMenuItemId()));
+                nombreSnapshot = proyeccion.getNombre();
+                precioUnitario = BigDecimal.valueOf(proyeccion.getPrecio());
+            } catch (Exception ex) {
+                log.warn("Error inesperado consultando menuItemId={}, usando proyección local: {}", itemDto.getMenuItemId(), ex.getMessage());
+                MenuItemProyeccion proyeccion = menuItemProyeccionRepository.findById(itemDto.getMenuItemId())
+                        .orElseThrow(() -> new PedidoNotFoundException("MenuItem no encontrado (Feign y proyección fallaron) para ID: " + itemDto.getMenuItemId()));
+                nombreSnapshot = proyeccion.getNombre();
+                precioUnitario = BigDecimal.valueOf(proyeccion.getPrecio());
+            }
+
+            BigDecimal subtotal = precioUnitario.multiply(new BigDecimal(itemDto.getCantidad()));
             total = total.add(subtotal);
             
             PedidoItem item = PedidoItem.builder()
                     .pedido(pedido)
                     .menuItemId(itemDto.getMenuItemId())
                     .nombreSnapshot(nombreSnapshot)
-                    .precioUnitario(precioSnapshot)
+                    .precioUnitario(precioUnitario)
                     .cantidad(itemDto.getCantidad())
                     .subtotal(subtotal)
                     .build();
@@ -92,7 +126,18 @@ public class PedidoServiceImpl implements PedidoService {
         pedido.setTotal(total);
         
         Pedido saved = pedidoRepository.save(pedido);
-        return mapToDTO(saved);
+
+        PedidoEventDTO event = new PedidoEventDTO(
+                saved.getId(),
+                saved.getUsuarioId(),
+                saved.getTotal().doubleValue(),
+                saved.getEstado().name(),
+                null
+        );
+        kafkaTemplate.send(TOPIC, String.valueOf(saved.getId()), event);
+        log.info("Kafka event sent to {}: pedido creado id={}", TOPIC, saved.getId());
+
+        return pedidoMapper.toResponseDTO(saved);
     }
 
     @Override
@@ -100,7 +145,7 @@ public class PedidoServiceImpl implements PedidoService {
         log.info("Consultando pedido ID {}", id);
         Pedido pedido = pedidoRepository.findByIdWithItems(id)
                 .orElseThrow(() -> new PedidoNotFoundException("Pedido no encontrado con ID: " + id));
-        return mapToDTO(pedido);
+        return pedidoMapper.toResponseDTO(pedido);
     }
 
     @Override
@@ -108,7 +153,7 @@ public class PedidoServiceImpl implements PedidoService {
         log.info("Listando pedidos activos para sucursal {}", sucursalId);
         List<EstadoPedido> estadosFinales = List.of(EstadoPedido.ENTREGADO, EstadoPedido.CANCELADO);
         return pedidoRepository.findBySucursalIdAndEstadoNotIn(sucursalId, estadosFinales).stream()
-                .map(this::mapToDTO)
+                .map(pedidoMapper::toResponseDTO)
                 .collect(Collectors.toList());
     }
 
@@ -116,7 +161,7 @@ public class PedidoServiceImpl implements PedidoService {
     public List<PedidoResponseDTO> obtenerPorUsuario(Long usuarioId) {
         log.info("Listando pedidos para usuario {}", usuarioId);
         return pedidoRepository.findByUsuarioIdOrderByCreadoEnDesc(usuarioId).stream()
-                .map(this::mapToDTO)
+                .map(pedidoMapper::toResponseDTO)
                 .collect(Collectors.toList());
     }
 
@@ -126,14 +171,39 @@ public class PedidoServiceImpl implements PedidoService {
         log.info("Cambiando estado de pedido {} a {}", id, nuevoEstado);
         Pedido pedido = pedidoRepository.findById(id)
                 .orElseThrow(() -> new PedidoNotFoundException("Pedido no encontrado con ID: " + id));
-                
-        // Lógica simple de máquina de estados podría agregarse aquí
+
+        EstadoPedido estadoActual = pedido.getEstado();
+        Set<EstadoPedido> estadosPermitidos;
+
+        if (estadoActual == EstadoPedido.LISTO) {
+            estadosPermitidos = pedido.getTipo() == TipoPedido.DELIVERY
+                    ? EnumSet.of(EstadoPedido.EN_CAMINO)
+                    : EnumSet.of(EstadoPedido.ENTREGADO);
+        } else {
+            estadosPermitidos = TRANSICIONES_VALIDAS.getOrDefault(estadoActual, EnumSet.noneOf(EstadoPedido.class));
+        }
+
+        if (!estadosPermitidos.contains(nuevoEstado)) {
+            throw new EstadoInvalidoException("No se puede cambiar de " + estadoActual + " a " + nuevoEstado);
+        }
+
         pedido.setEstado(nuevoEstado);
         
         // TODO: Agregar lógica si el estado es LISTO o CANCELADO notificar.
         
         Pedido updated = pedidoRepository.save(pedido);
-        return mapToDTO(updated);
+
+        PedidoEventDTO event = new PedidoEventDTO(
+                updated.getId(),
+                updated.getUsuarioId(),
+                updated.getTotal().doubleValue(),
+                updated.getEstado().name(),
+                null
+        );
+        kafkaTemplate.send(TOPIC, String.valueOf(updated.getId()), event);
+        log.info("Kafka event sent to {}: pedido estado cambiado id={} estado={}", TOPIC, updated.getId(), updated.getEstado());
+
+        return pedidoMapper.toResponseDTO(updated);
     }
 
     @Override
@@ -144,47 +214,30 @@ public class PedidoServiceImpl implements PedidoService {
                 .orElseThrow(() -> new PedidoNotFoundException("Pedido no encontrado con ID: " + id));
                 
         if (pedido.getEstado() != EstadoPedido.PENDIENTE && pedido.getEstado() != EstadoPedido.CONFIRMADO) {
-            throw new RuntimeException("El pedido no puede ser cancelado en este estado");
+            throw new EstadoInvalidoException("El pedido no puede ser cancelado en este estado");
         }
         
         pedido.setEstado(EstadoPedido.CANCELADO);
         Pedido updated = pedidoRepository.save(pedido);
-        return mapToDTO(updated);
+
+        PedidoEventDTO event = new PedidoEventDTO(
+                updated.getId(),
+                updated.getUsuarioId(),
+                updated.getTotal().doubleValue(),
+                updated.getEstado().name(),
+                null
+        );
+        kafkaTemplate.send(TOPIC, String.valueOf(updated.getId()), event);
+        log.info("Kafka event sent to {}: pedido cancelado id={}", TOPIC, updated.getId());
+
+        return pedidoMapper.toResponseDTO(updated);
     }
 
     @Override
     public List<PedidoResponseDTO> listarTodos() {
         log.info("Listando todos los pedidos");
         return pedidoRepository.findAll().stream()
-                .map(this::mapToDTO)
+                .map(pedidoMapper::toResponseDTO)
                 .collect(Collectors.toList());
-    }
-    
-    private PedidoResponseDTO mapToDTO(Pedido entity) {
-        List<PedidoItemResponseDTO> itemDTOs = new ArrayList<>();
-        if (entity.getItems() != null) {
-            itemDTOs = entity.getItems().stream().map(item -> PedidoItemResponseDTO.builder()
-                    .id(item.getId())
-                    .menuItemId(item.getMenuItemId())
-                    .nombreSnapshot(item.getNombreSnapshot())
-                    .precioUnitario(item.getPrecioUnitario())
-                    .cantidad(item.getCantidad())
-                    .subtotal(item.getSubtotal())
-                    .build()).collect(Collectors.toList());
-        }
-        
-        return PedidoResponseDTO.builder()
-                .id(entity.getId())
-                .numeroPedido(entity.getNumeroPedido())
-                .usuarioId(entity.getUsuarioId())
-                .sucursalId(entity.getSucursalId())
-                .estado(entity.getEstado())
-                .tipo(entity.getTipo())
-                .total(entity.getTotal())
-                .notas(entity.getNotas())
-                .items(itemDTOs)
-                .creadoEn(entity.getCreadoEn())
-                .actualizadoEn(entity.getActualizadoEn())
-                .build();
     }
 }

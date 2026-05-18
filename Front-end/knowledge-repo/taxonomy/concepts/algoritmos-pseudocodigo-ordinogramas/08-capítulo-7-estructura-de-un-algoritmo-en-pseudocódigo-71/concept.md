@@ -1,0 +1,17 @@
+# Capítulo 7.: Estructura de un algoritmo en pseudocódigo ............... 71
+
+## Fuente
+algoritmos-pseudocodigo-ordinogramas (Cap. 8)
+
+## Contenido
+# Capítulo 7.: Estructura de un algoritmo en pseudocódigo ............... 71
+
+7.1. Cabecera de un algoritmo ............................................................................................. 71
+7.2. Declaraciones de un algoritmo ...................................................................................... 72
+
+-- 5 of 180 --
+
+Libro de Algoritmos de “Abrirllave.com” 6 / 180
+7.3. Cuerpo de un algoritmo ................................................................................................. 72
+7.4. Comentarios en un algoritmo ........................................................................................ 75
+7.5. Presentación escrita ...................................................................................................... 77

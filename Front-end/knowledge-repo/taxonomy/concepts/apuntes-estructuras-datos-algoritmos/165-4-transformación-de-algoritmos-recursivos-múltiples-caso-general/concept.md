@@ -1,0 +1,140 @@
+# 4. Transformación de algoritmos recursivos múltiples: caso general
+
+## Fuente
+apuntes-estructuras-datos-algoritmos (Cap. 165)
+
+## Contenido
+# 4. Transformación de algoritmos recursivos múltiples: caso general
+
+En el caso particular anterior, se han considerado algoritmos que se corresponden con un recorrido en pre-orden del
+árbol binario de valores del parámetro, es decir, con una operación del tipo:
+
+-- 253 of 267 --
+
+240
+operación
+preOrden: arbin -> lista
+ecuaciones e:elemento; ai,ad:arbin
+preOrden(vacío) = []
+preOrden(plantar(e,ai,ad)) = [e] & preOrden(ai) & preOrden(ad)
+Ahora vamos a considerar el caso general de un algoritmo con dos llamadas recursivas. De igual forma, se puede
+asociar un árbol binario de valores del parámetro del algoritmo e identificar el problema dado con el de una operación
+sobre el árbol de tipo general como la siguiente:
+operación
+r: arbin -> lista
+ecuaciones e:elemento; ai,ad:arbin
+[e0
+1 ] 	r(vacío) = L0
+[e0
+2 ] 	r(plantar(e,ai,ad)) = f(plantar(e,ai,ad),r(ai),r(ad))
+Donde L0 representa una constante cualquiera de género lista y f es una operación cualquiera con el siguiente perfil:
+operación
+f: arbin lista lista -> lista
+En notación algorítmica, la operación anterior se puede implementar de forma recursiva de la siguiente forma:
+función r(a:arbin) devuelve lista
+variables ai,ad:arbin
+función L0 devuelve lista
+...
+función f(a:arbin; L1,L2:lista) devuelve lista
+...
+principio
+si esVacío(a) entonces
+devuelve(L0)
+sino
+subIzq(a,ai);
+subDer(a,ad);
+devuelve(f(a,r(ai),r(ad)))
+fsi
+fin
+Un ejemplo de algoritmo recursivo que responde al esquema general anterior es el siguiente:
+procedimiento r(ent x:tx)
+principio
+si C(x) entonces
+A(x)
+sino
+B1(x);
+r(sig1(x));
+B2(x);
+r(sig2(x));
+B3(x)
+fsi
+fin
+El algoritmo anterior tiene asociado un recorrido del árbol de valores del parámetro x en el que cada nodo se visita tres
+veces: antes de recorrer su subárbol izquierdo, después de tratar su subárbol izquierdo, y después de tratar su subárbol
+derecho.
+
+-- 254 of 267 --
+
+241
+Antes de deducir la versión iterativa del algoritmo r, supongamos que existe un valor especial del tipo lista, que
+denotaremos por ⊥ y llamaremos lista indefinida (si resulta extraño, puede interpretarse/implementarse mediante un par o
+registro con dos campos: uno de tipo lista y otro booleano que dice si la lista es indefinida o no).
+Vamos a emplear una pila de pares (es decir, de registros con dos campos) formados por: un árbol binario no vacío
+y una lista. Los valores del tipo par (árbol, lista) los generaremos con la siguiente operación:
+operación
+par: arbin lista -> parArbLis
+La interpretación intuitiva de la pila de pares es la siguiente:
+• 	un par par(a,⊥) en la pila indica que estamos calculando r(a) y aún no sabemos nada sobre sus hijos;
+• 	un par par(a,LL), con LL ≠ ⊥, en la pila indica que estamos calculando r(a) y la solución de su hijo izquierdo
+ya ha sido calculada, y vale LL, por lo que ahora estamos calculando la solución de su hijo derecho.
+Definimos, en primer lugar, la siguiente operación auxiliar:
+operación
+r1: lista pila -> lista
+ecuaciones L,LL:lista; a:arbin; p:pila
+[e1
+1 ] 	r1(L,pilaVacía) = L
+[e1
+2 ] 	r1(L,apilar(p,par(a,⊥))) = r1(r(subDer(a)),apilar(p,par(a,L))
+[e1
+3 ] 	si LL≠⊥ ⇒ r1(L,apilar(p,par(a,LL))) = r1(f(a,LL,L),p)
+La interpretación intuitiva de la operación anterior es la siguiente:
+• 	r1(L,p) representa lo siguiente: L es la solución para uno de los hijos del árbol a que está en la cima de p;
+o 	si la pareja de este árbol a es ⊥, entonces L es la solución para el hijo izquierdo de a, y lo que vamos a
+hacer es sustituir la cima par(a,⊥) por la cima par(a,L) y pasaremos a resolver el hijo derecho de a;
+o 	si, en cambio, la cima es par(a,LL), con LL≠⊥, entonces LL es la solución del hijo izquierdo de a, L es
+la solución del hijo derecho y ya se puede calcular la solución de a como f(a,LL,L).
+A continuación, vamos a definir una nueva operación auxiliar (parcial):
+operación
+parcial r2: arbin lista pila -> lista
+dominio de definición a:arbin; L:lista; p:pila
+r2(a,L,p) está definido sólo si (vacío?(a)=verdad) ∨ (L=⊥)
+ecuaciones a:arbin; L:lista; p:pila
+[e2
+1 ] 	r2(a,⊥,p) = r1(r(a),p)
+[e2
+2 ] 	L≠⊥ ⇒ r2(vacío,L,p) = r1(L,p)
+La interpretación intuitiva de la operación anterior es la siguiente:
+• 	la operación r2 distingue entre cuándo aplicamos r1 para resolver un árbol sin tener todavía nada calculado
+(ecuación [e2
+1 ]) y cuándo la aplicamos a partir de una lista ya calculada (ecuación [e2
+2 ]).
+Lema 1. Si encontramos una solución iterativa de r2, tenemos una solución iterativa de r, en la forma siguiente:
+r(a) 	=
+[e1
+1]
+r1(r(a),pilaVacía) 	=
+[e2
+1]
+r2(a,⊥,pilaVacía) 	♦
+Lema 2. La operación r2(a,L,p) admite una definición recursiva final en el caso (a≠vacío)∧(L=⊥). En efecto:
+a≠vacío ⇒ r2(a,⊥,p) 	=
+[e2
+1]
+r1(r(a),p) 	=
+[e0
+2]
+
+-- 255 of 267 --
+
+242
+= r1(f(a,r(subIzq(a)),r(subDer(a))),p) 	=
+[e1
+3]
+= r1(r(subDer(a)),apilar(p,par(a,r(subIzq(a))))) 	=
+[e1
+2]
+= r1(r(subIzq(a)),apilar(p,par(a,⊥))) 	=
+[e2
+1]
+= r2(subIzq(a),⊥,apilar(p,par(a,⊥))) 	♦
+Lema 3. La operación r2(a,L,p) admite una definición recursiva final en el caso (a=vacío)∧(L=⊥). En efecto:

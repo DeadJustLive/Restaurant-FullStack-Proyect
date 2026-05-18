@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch026-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 26,
+  "chunkIndex": 1,
+  "title": "Capítulo 2: - Aplicación de Estándares",
+  "start": 450,
+  "end": 621,
+  "words": 171,
+  "content": "de letra, espaciado, interlineado, sangría, justificación, color y tipografía utilizada. Utilización de la etiqueta <div> y <span>: son elementos neutros que sirven para marcar y agrupar contenidos con fines estructurales. Con <div> se define lo que ocurre con bloques de información, mientras que con <span> es posible hacer esa misma definición pero para líneas de contenidos. Ambas etiquetas utilizan las definiciones existentes en las Hojas de Estilo y permiten aplicarlas a los contenidos. Basándonos en un ejemplo de W3C, se puede ver el siguiente código en que se aprecia la aplicación de estas etiquetas: Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile <div class=\"seccion\" id=\"sitio-web\" > <h1>Sitio Web</h1> <p>In esta sección se da a conocer la forma de trabajar en un sitio web. ...más contenido... ...más contenido... ...más contenido... <div class=\"subseccion\" id=\"pagina-web\" > <h2>Las Páginas Web</H2> <p>Las páginas web <span class=\"cursiva-bold\">son parte de los sitios</span> y se denominan así porque...</p> <p>...más contenido... </p> <p>...más contenido... </p> <p>...más contenido... </p> </div> </div> -- 46 of 122 --"
+}

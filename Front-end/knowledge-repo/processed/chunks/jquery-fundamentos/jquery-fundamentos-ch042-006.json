@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch042-006",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 42,
+  "chunkIndex": 6,
+  "title": "parte i: zquierda.",
+  "start": 2700,
+  "end": 2923,
+  "words": 223,
+  "content": "return title ? (window.title = title) : window.title; } } ); Solo un módulo debe ser requerido por archivo JavaScript. Optimizar el Código con las Herramientas de RequireJS Una vez incorporado RequireJS para el manejo de dependencias, la optimización del código es muy fácil. Descargue el paquete de RequireJS y colóquelo en cualquier lugar, preferentemente fuera del área de desarrollo web. Para los propósitos de este ejemplo, el paquete de RequireJS esta ubicado en una carpeta paralela al directorio webapp (la cual contiene la página HTML y todos los archivos JavaScript de la aplicación). La estructura de directorios es: 87 -- 88 of 107 -- requirejs/ (utilizado para ejecutar las herramientas) webapp/app.html webapp/scripts/app.js webapp/scripts/require-jquery.js webapp/scripts/jquery.alpha.js webapp/scripts/jquery.beta.js Luego, en la carpeta en donde se encuentran require-jquery.js y app.js, crear un archivo llamado app.build.js con el siguiente contenido: Archivo de configuración para las herramientas de optimización de RequireJS { appDir: \"../\", baseUrl: \"scripts/\", dir: \"../../webapp-build\", //Comentar la siguiente línea si se desea //minificar el código por el compilador //en su modo \"simple\" optimize: \"none\", modules: [ { name: \"app\" } ] } Para utilizar la herramienta, es necesario tener instalado Java 6. Closure Compiler es utilizado para la minificación del código (en caso que optimize: \"none\" esté comentado). Para comenzar a procesar los archivos, abrir una ventana de comandos, dirigirse al directorio webapp/scripts y ejecutar:"
+}

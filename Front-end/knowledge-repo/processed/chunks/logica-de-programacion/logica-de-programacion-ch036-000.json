@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch036-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 36,
+  "chunkIndex": 0,
+  "title": "4. Dise˜ne un algoritmo que, al ingresarle el costo de un producto y la",
+  "start": 0,
+  "end": 60,
+  "words": 60,
+  "content": "# 4. Dise˜ne un algoritmo que, al ingresarle el costo de un producto y la cantidad de ese producto que compra un cliente, calcule y muestre el valor a pagar por el cliente, obteniendo igualmente, el valor del impuesto al valor agregado IVA, que corresponde al 16 % del valor de la compra y que tambi´en el cliente debe pagar."
+}

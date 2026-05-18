@@ -1,0 +1,18 @@
+# 7. Escriba en notaci´on algor´ıtmica las siguientes expresiones
+
+matem´aticas:
+a) x = −b + √b2 − 4ac
+2a
+b) x = 3a + 4b
+5 + c + 8c − 10
+3a + b
+c) x = 3a√4b + 8
+4b+7
+10+√4c
++ 3
+√8d
+d) x = 5ab7
+3b + a + 2ac3/5
+e) x = 3a + 2b+4
+3c43
+a+b+c	√a+c+7

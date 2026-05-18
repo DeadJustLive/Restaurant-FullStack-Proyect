@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch518-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 518,
+  "chunkIndex": 0,
+  "title": "{- PROP´OSITO:",
+  "start": 0,
+  "end": 45,
+  "words": 45,
+  "content": "# PROP´OSITO: combinar las acciones necesarias para la aparici´on de una nueva pieza en la zona de juego (si entra) */ { semilla := leerSemilla() (codPz,tipoPz,ubicPz,semilla) := determinarNuevaPieza(semilla) GrabarSemilla(semilla) ColocarNuevaPieza(codPz,tipoPz,ubicPz) // Al exceder el m´aximo, vuelve a 1 IncrementarZonaDeProximaPieza() BorrarZonaDeSeleccion() } //---------------------------------------------------- procedure OperacionMoverPiezaAl(dir) /*"
+}

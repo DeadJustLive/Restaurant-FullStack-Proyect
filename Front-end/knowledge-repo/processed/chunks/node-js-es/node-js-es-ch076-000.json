@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch076-000",
+  "bookId": "node-js-es",
+  "chapterIndex": 76,
+  "chunkIndex": 0,
+  "title": "Capítulo 39:: Ejecutando node.js como un",
+  "start": 0,
+  "end": 109,
+  "words": 109,
+  "content": "# Capítulo 39:: Ejecutando node.js como un servicio Introducción A diferencia de muchos servidores web, Node no se instala como un servicio fuera de la caja. Pero en producción, es mejor tenerlo ejecutado como un demonio, gestionado por un sistema init. Examples Node.js como un sistema de demonio systemd es el sistema inicial de facto en la mayoría de las distribuciones de Linux. Después de que Node se haya configurado para ejecutarse con systemd, es posible usar el comando de service para administrarlo. En primer lugar, necesita un archivo de configuración, vamos a crearlo. Para las distribuciones basadas en Debian, estará en /etc/systemd/system/node.service [Unit] Description=My super nodejs app [Service]"
+}

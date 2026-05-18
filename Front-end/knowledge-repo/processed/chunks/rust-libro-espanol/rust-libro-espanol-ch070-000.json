@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch070-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 70,
+  "chunkIndex": 0,
+  "title": "Definiendo módulos para controlar el alcance y la privacidad",
+  "start": 0,
+  "end": 32,
+  "words": 32,
+  "content": "# Definiendo módulos para controlar el alcance y la privacidad ## Definiendo módulos para controlar el alcance y la privacidad ### Hoja de referencia de módulos ### Agrupando código relacionado en módulos"
+}

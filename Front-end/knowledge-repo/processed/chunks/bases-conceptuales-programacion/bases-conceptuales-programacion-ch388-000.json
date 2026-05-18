@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch388-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 388,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 43,
+  "words": 43,
+  "content": "# OBSERVACIONES: * realiza una selecci´on alternativa en base al tipo de pieza */ { switch (tipoPieza) to 7 -> { (dirA,dirB,dirC) := diresDePiezaT(rotPieza) } _ -> { } return (dirA,dirB,dirC) } //----------------------------------------------------- function diresDePiezaZ(rotPieza) /* PROP´OSITO: devolver las direcciones de una Z"
+}

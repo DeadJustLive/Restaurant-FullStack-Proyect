@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch440-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 440,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 53,
+  "words": 53,
+  "content": "# PRECONDICIONES: * hay celdas de la pieza en los lugares correctos * rotPieza es una rotaci´on v´alida * tipoPieza es un tipo v´alido * las direcciones coinciden con el tipoPieza * la pieza no est´a marcada Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 284 of 312 -- 285"
+}

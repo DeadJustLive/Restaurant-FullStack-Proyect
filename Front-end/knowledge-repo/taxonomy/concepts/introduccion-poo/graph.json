@@ -1,0 +1,97 @@
+{
+  "nodes": [
+    {
+      "id": "ch-introduccion-poo-01",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.051Z"
+    },
+    {
+      "id": "ch-introduccion-poo-02",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.051Z"
+    },
+    {
+      "id": "ch-introduccion-poo-03",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.051Z"
+    },
+    {
+      "id": "ch-introduccion-poo-04",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.052Z"
+    },
+    {
+      "id": "ch-introduccion-poo-05",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.052Z"
+    },
+    {
+      "id": "ch-introduccion-poo-06",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.052Z"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pdf-introduccion-poo",
+      "to": "ch-introduccion-poo-01",
+      "label": "cap. 1"
+    },
+    {
+      "from": "pdf-introduccion-poo",
+      "to": "ch-introduccion-poo-02",
+      "label": "cap. 2"
+    },
+    {
+      "from": "ch-introduccion-poo-01",
+      "to": "ch-introduccion-poo-02",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-introduccion-poo",
+      "to": "ch-introduccion-poo-03",
+      "label": "cap. 3"
+    },
+    {
+      "from": "ch-introduccion-poo-02",
+      "to": "ch-introduccion-poo-03",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-introduccion-poo",
+      "to": "ch-introduccion-poo-04",
+      "label": "cap. 4"
+    },
+    {
+      "from": "ch-introduccion-poo-03",
+      "to": "ch-introduccion-poo-04",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-introduccion-poo",
+      "to": "ch-introduccion-poo-05",
+      "label": "cap. 5"
+    },
+    {
+      "from": "ch-introduccion-poo-04",
+      "to": "ch-introduccion-poo-05",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-introduccion-poo",
+      "to": "ch-introduccion-poo-06",
+      "label": "cap. 6"
+    },
+    {
+      "from": "ch-introduccion-poo-05",
+      "to": "ch-introduccion-poo-06",
+      "label": "siguiente"
+    }
+  ]
+}

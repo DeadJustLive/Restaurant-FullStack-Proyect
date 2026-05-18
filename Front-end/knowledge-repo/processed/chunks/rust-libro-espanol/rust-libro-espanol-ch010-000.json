@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch010-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 10,
+  "chunkIndex": 0,
+  "title": "Mejorando nuestro proyecto I/O",
+  "start": 0,
+  "end": 45,
+  "words": 45,
+  "content": "# Mejorando nuestro proyecto I/O ## Mejorando nuestro proyecto I/O ### Removiendo uncloneusando un iterator #### Usando el iterator retornado directamente #### Usando los métodos del traitIteratoren lugar de indexar ### Haciendo el código más claro con iterator adapters ### Escogiendo entre loops o iterators"
+}

@@ -1,0 +1,179 @@
+# Capítulo 1: Empezando con Node.js 2
+
+## Resumen
+Documento procesado con openPrompt-Lang Knowledge.
+
+**Páginas:** 423
+**Método:** native
+**Procesado:** 2026-05-17
+
+## Capítulos
+- **Capítulo 1:: Empezando con Node.js 2**
+- **Capítulo 2:: Ambiente 23**
+- **Capítulo 5:: Aplicaciones Web Con Express 29**
+- **Capítulo 6:: Asegurando aplicaciones Node.js 46**
+- **Capítulo 7:: Async / Await 51**
+- **Capítulo 8:: async.js 55**
+- **Capítulo 11:: Biblioteca de mangosta 65**
+- **Capítulo 14:: Carga automática en los cambios 83**
+- **Capítulo 30:: Depurando la aplicación Node.js 114**
+- **Capítulo 33:: Despliegue de aplicaciones Node.js en producción 123**
+- **Capítulo 38:: Ejecutando archivos o comandos con procesos hijo 138**
+- **Capítulo 40:: Emisores de eventos 143**
+- **Capítulo 47:: Eventloop 163**
+- **Capítulo 49:: Exigir() 168**
+- **Capítulo 51:: Exportando y consumiendo módulos 174**
+- **Capítulo 53:: Gestor de paquetes de hilo 184**
+- **Capítulo 57:: Historia de Nodejs 193**
+- **Capítulo 59:: Instalación de Node.js 199**
+- **Capítulo 61:: Integración de mongodb 207**
+- **Capítulo 63:: Integración de MySQL 216**
+- **Capítulo 70:: La comunicación arduino con nodeJs. 235**
+- **Capítulo 76:: Mantener una aplicación de nodo constantemente en ejecución 249**
+- **Capítulo 82:: Node.js (express.js) con código de ejemplo angular.js 264**
+- **Capítulo 88:: Node.js Performance 279**
+- **Capítulo 90:: Node.JS y MongoDB. 286**
+- **Capítulo 94:: npm 302**
+- **Capítulo 95:: nvm - Administrador de versiones de nodo 317**
+- **Capítulo 97:: paquete.json 330**
+- **Capítulo 99:: Programación asíncrona 340**
+- **Capítulo 105:: Sistema de archivos de E / S 358**
+- **Capítulo 111:: Uso de IISNode para alojar aplicaciones web Node.js en IIS 382**
+- **Capítulo 1:: Empezando con Node.js**
+- **Capítulo 2:: Ambiente**
+- **Database connection to mysql**
+- **Capítulo 3:: Análisis de argumentos de línea**
+- **REST**
+- **Capítulo 5:: Aplicaciones Web Con Express**
+- **Capítulo 6:: Asegurando aplicaciones Node.js**
+- **Capítulo 7:: Async / Await**
+- **Capítulo 8:: async.js**
+- **Capítulo 9:: Autenticación de Windows bajo**
+- **Capítulo 10:: Base de datos (MongoDB con**
+- **ECMA 6:**
+- **ECMA6:**
+- **Capítulo 11:: Biblioteca de mangosta**
+- **Capítulo 12:: Bluebird Promises**
+- **Capítulo 13:: Buen estilo de codificación**
+- **Capítulo 14:: Carga automática en los**
+- **Capítulo 15:: Casos de uso de Node.js**
+- **BEGIN**
+- **Capítulo 16:: Cierre agraciado**
+- **Capítulo 17:: CLI**
+- **NODE_DISABLE_COLORS=1**
+- **Capítulo 18:: Código Node.js para STDIN y**
+- **Capítulo 19:: Comenzando con el perfilado de**
+- **Capítulo 20:: Cómo se cargan los módulos**
+- **Capítulo 21:: Comunicación cliente-servidor**
+- **Capítulo 22:: Comunicación socket.io**
+- **Capítulo 23:: Conectarse a Mongodb**
+- **Capítulo 24:: Conexión Mysql Pool**
+- **Capítulo 25:: Cortar**
+- **Capítulo 26:: Creación de una biblioteca**
+- **Módulo d: e ejemplo y programa correspondiente usando Bluebird**
+- **Capítulo 27:: Creando API's con Node.js**
+- **Capítulo 28:: csv parser en el nodo js**
+- **Capítulo 29:: Depuración remota en Node.JS**
+- **Capítulo 30:: Depurando la aplicación Node.js**
+- **Capítulo 31:: Desafíos de rendimiento**
+- **Capítulo 32:: Desinstalar Node.js**
+- **Capítulo 33:: Despliegue de aplicaciones**
+- **Capítulo 34:: Despliegue de la aplicación**
+- **Capítulo 35:: Devolución de llamada a la**
+- **Capítulo 36:: Diseño API de descanso:**
+- **Capítulo 37:: ECMAScript 2015 (ES6) con**
+- **Capítulo 38:: Ejecutando archivos o**
+- **Capítulo 39:: Ejecutando node.js como un**
+- **start node at multi user system level (= sysVinit runlevel 3)**
+- **Capítulo 40:: Emisores de eventos**
+- **Capítulo 41:: Enrutamiento de solicitudes ajax**
+- **Capítulo 42:: Enrutamiento NodeJs**
+- **Capítulo 43:: Entregar HTML o cualquier otro**
+- **Capítulo 44:: Enviando un flujo de archivos al**
+- **Capítulo 45:: Enviar notificación web**
+- **Capítulo 46:: Estructura del proyecto**
+- **Capítulo 47:: Eventloop**
+- **Capítulo 48:: Evitar el infierno de devolución**
+- **Capítulo 49:: Exigir()**
+- **Capítulo 50:: Exportando e importando el**
+- **Capítulo 51:: Exportando y consumiendo**
+- **Módulo d: e carga con nombre de directorio**
+- **Módulo c: argando desde node_modules**
+- **Capítulo 52:: Gestión de errores Node.js**
+- **Capítulo 53:: Gestor de paquetes de hilo**
+- **Capítulo 54:: gruñido**
+- **Capítulo 55:: Guía para principiantes de**
+- **Capítulo 56:: herrero**
+- **Capítulo 57:: Historia de Nodejs**
+- **Capítulo 58:: http**
+- **the node & npm versions in apt are outdated. This is how you can update them:**
+- **choco install nodejs.install**
+- **Capítulo 60:: Integracion de cassandra**
+- **Capítulo 61:: Integración de mongodb**
+- **Capítulo 62:: Integración de MongoDB para**
+- **Capítulo 63:: Integración de MySQL**
+- **módulo M: ySQL buscará la siguiente conexión gratuita para ejecutar su consulta.**
+- **Capítulo 64:: Integración de pasaportes**
+- **Capítulo 65:: Integración MSSQL**
+- **Capítulo 66:: Integración PostgreSQL**
+- **Módulo d: e consola**
+- **Módulo d: e proceso**
+- **Capítulo 68:: Inyección de dependencia**
+- **Capítulo 69:: Koa Framework v2**
+- **Capítulo 70:: La comunicación arduino con**
+- **Módulo d: e traducción simple y ligero con almacenamiento dinámico de json. Es compatible con**
+- **Capítulo 72:: Lodash**
+- **REST**
+- **Capítulo 74:: Manejo de excepciones**
+- **módulo d: e flujo proporciona una API base que facilita la creación de objetos que**
+- **NOTA**
+- **Capítulo 76:: Mantener una aplicación de**
+- **Capítulo 77:: Marcos de plantillas**
+- **Capítulo 78:: Marcos de pruebas unitarias**
+- **Capítulo 79:: Módulo de cluster**
+- **Capítulo 80:: Multihilo**
+- **Capítulo 81:: N-API**
+- **Capítulo 82:: Node.js (express.js) con código**
+- **Capítulo 83:: Node.js Arquitectura y Trabajos**
+- **Capítulo 84:: Node.js con CORS**
+- **Capítulo 85:: Node.JS con ES6**
+- **Capítulo 86:: Node.js con Oracle**
+- **Capítulo 87:: Node.js Design Fundamental**
+- **Capítulo 88:: Node.js Performance**
+- **Capítulo 89:: Node.js v6 Nuevas**
+- **Capítulo 90:: Node.JS y MongoDB.**
+- **Capítulo 91:: NodeJS con Redis**
+- **Capítulo 92:: NodeJS Frameworks**
+- **Capítulo 93:: Notificaciones push**
+- **Capítulo 94:: npm**
+- **e.g. to install lodash and express**
+- **of the package lodash**
+- **public ones by setting registry for specific scope**
+- **or**
+- **or**
+- **e.g. to install the grunt command line tool**
+- **or**
+- **or**
+- **Install a package "mylib" from the scope "myscope"**
+- **or**
+- **SYNOPSIS**
+- **Capítulo 95:: nvm - Administrador de**
+- **PROCESO DE INSTALACIÓN**
+- **PRUEBA DE QUE NVM FUE INSTALADO CORRECTAMENTE**
+- **Capítulo 96:: OAuth 2.0**
+- **Capítulo 97:: paquete.json**
+- **or**
+- **Capítulo 98:: pasaporte.js**
+- **Capítulo 99:: Programación asíncrona**
+- **Capítulo 100:: Programación síncrona vs**
+- **Capítulo 101:: Readline**
+- **Capítulo 102:: Ruta-controlador-estructura de**
+- **Capítulo 103:: Sequelize.js**
+- **Capítulo 104:: Servidor de nodo sin marco**
+- **Capítulo 105:: Sistema de archivos de E / S**
+- **Capítulo 106:: Sockets TCP**
+- **Capítulo 107:: Subir archivo**
+- **Capítulo 108:: Usando Streams**
+- **Capítulo 109:: Usando WebSocket con**
+- **Capítulo 110:: Uso de Browserfiy para**
+- **Capítulo 111:: Uso de IISNode para alojar**

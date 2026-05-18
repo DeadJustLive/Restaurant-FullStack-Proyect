@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch005-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 5,
+  "chunkIndex": 0,
+  "title": "5. Un ejemplo completo: ZILFOST 179",
+  "start": 0,
+  "end": 500,
+  "words": 500,
+  "content": "# 5. Un ejemplo completo: ZILFOST 179 5.1. Representaci ´on del ZILFOST . . . . . . . . . . . . . . . . . . . . . 179 5.2. C ´odigo GOBSTONES para las zonas . . . . . . . . . . . . . . . . . 183 5.2.1. Zona de juego . . . . . . . . . . . . . . . . . . . . . . . . . 183 5.2.2. Zonas de n ´umeros . . . . . . . . . . . . . . . . . . . . . . . 187 5.2.3. Zonas de n ´umeros espec´ıficas . . . . . . . . . . . . . . . . 193 5.3. C ´odigo para expresar piezas . . . . . . . . . . . . . . . . . . . . . 195 5.3.1. Geometr´ıa de las piezas . . . . . . . . . . . . . . . . . . . . 195 5.3.2. Detecci ´on de piezas . . . . . . . . . . . . . . . . . . . . . . 199 5.4. C ´odigo para operaciones b ´asicas sobre piezas . . . . . . . . . . . 204 5.4.1. Localizar una pieza . . . . . . . . . . . . . . . . . . . . . . 204 5.4.2. Colocar y quitar una pieza . . . . . . . . . . . . . . . . . . . 204 5.4.3. Movimientos de una pieza . . . . . . . . . . . . . . . . . . . 207 5.5. C ´odigo para la mec ´anica del juego . . . . . . . . . . . . . . . . . . 209 5.5.1. Colocar nueva pieza . . . . . . . . . . . . . . . . . . . . . . 210 5.5.2. Bajar las piezas . . . . . . . . . . . . . . . . . . . . . . . . 210 5.5.3. Extender el piso . . . . . . . . . . . . . . . . . . . . . . . . 214 5.5.4. Eliminar filas llenas . . . . . . . . . . . . . . . . . . . . . . . 218 5.5.5. Generaci ´on del logo de ZILFOST . . . . . . . . . . . . . . . 221 5.6. C ´odigo para las operaciones de interfaz . . . . . ."
+}

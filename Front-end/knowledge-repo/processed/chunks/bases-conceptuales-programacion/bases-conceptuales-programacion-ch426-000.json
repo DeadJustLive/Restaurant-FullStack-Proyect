@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch426-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 426,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 17,
+  "words": 17,
+  "content": "# PRECONDICIONES: * la celda actual est´a libre * no hay otra pieza codPieza en el tablero"
+}

@@ -1,0 +1,1392 @@
+{
+  "id": "react-aprendiz-maestro",
+  "title": "react-aprendiz-maestro",
+  "author": "",
+  "pages": 226,
+  "sourceFile": "source-pdfs/react-aprendiz-maestro.pdf",
+  "processedAt": "2026-05-17T05:38:52.239Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "1. Introducción a React . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",
+      "file": "chapters/react-aprendiz-maestro/01-1-introducción-a-react-2.md",
+      "words": 67
+    },
+    {
+      "index": 2,
+      "title": "1.2 DOM Virtual . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3",
+      "file": "chapters/react-aprendiz-maestro/02-12-dom-virtual-3.md",
+      "words": 34
+    },
+    {
+      "index": 3,
+      "title": "1.3 Renderizadores de React . . . . . . . . . . . . . . . . . . . . . . 5",
+      "file": "chapters/react-aprendiz-maestro/03-13-renderizadores-de-react-5.md",
+      "words": 28
+    },
+    {
+      "index": 4,
+      "title": "1.4 React.createElement y JSX . . . . . . . . . . . . . . . . . . . . 6",
+      "file": "chapters/react-aprendiz-maestro/04-14-reactcreateelement-y-jsx-6.md",
+      "words": 26
+    },
+    {
+      "index": 5,
+      "title": "1.5 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8",
+      "file": "chapters/react-aprendiz-maestro/05-15-conclusión-8.md",
+      "words": 34
+    },
+    {
+      "index": 6,
+      "title": "2. Configurando el Proyecto . . . . . . . . . . . . . . . . . . . . . . . . . 9",
+      "file": "chapters/react-aprendiz-maestro/06-2-configurando-el-proyecto-9.md",
+      "words": 31
+    },
+    {
+      "index": 7,
+      "title": "2.1 Configuración de Node.js y Git . . . . . . . . . . . . . . . . . . . 10",
+      "file": "chapters/react-aprendiz-maestro/07-21-configuración-de-nodejs-y-git-10.md",
+      "words": 27
+    },
+    {
+      "index": 8,
+      "title": "2.2 Ejecutando el Proyecto . . . . . . . . . . . . . . . . . . . . . . . 11",
+      "file": "chapters/react-aprendiz-maestro/08-22-ejecutando-el-proyecto-11.md",
+      "words": 34
+    },
+    {
+      "index": 9,
+      "title": "ÍNDICE GENERAL",
+      "file": "chapters/react-aprendiz-maestro/09-índice-general.md",
+      "words": 25
+    },
+    {
+      "index": 10,
+      "title": "2.4 Características del Lenguaje Presentes en el Esqueleto . . . . . . 14",
+      "file": "chapters/react-aprendiz-maestro/10-24-características-del-lenguaje-presentes-en-el-esqueleto-14.md",
+      "words": 16
+    },
+    {
+      "index": 11,
+      "title": "16.2 Metodologías CSS . . . . . . . . . . . . . . . . . . . . . . . . . . 161",
+      "file": "chapters/react-aprendiz-maestro/100-162-metodologías-css-161.md",
+      "words": 31
+    },
+    {
+      "index": 12,
+      "title": "16.3 Procesadores CSS . . . . . . . . . . . . . . . . . . . . . . . . . . 164",
+      "file": "chapters/react-aprendiz-maestro/101-163-procesadores-css-164.md",
+      "words": 31
+    },
+    {
+      "index": 13,
+      "title": "16.4 Aproximaciones Basadas en React . . . . . . . . . . . . . . . . . 166",
+      "file": "chapters/react-aprendiz-maestro/102-164-aproximaciones-basadas-en-react-166.md",
+      "words": 24
+    },
+    {
+      "index": 14,
+      "title": "16.5 Módulos CSS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 173",
+      "file": "chapters/react-aprendiz-maestro/103-165-módulos-css-173.md",
+      "words": 34
+    },
+    {
+      "index": 15,
+      "title": "16.6 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 175",
+      "file": "chapters/react-aprendiz-maestro/104-166-conclusión-175.md",
+      "words": 34
+    },
+    {
+      "index": 16,
+      "title": "17. Estructurando Proyectos con React . . . . . . . . . . . . . . . . . . . . 177",
+      "file": "chapters/react-aprendiz-maestro/105-17-estructurando-proyectos-con-react-177.md",
+      "words": 27
+    },
+    {
+      "index": 17,
+      "title": "17.1 Un Directorio por Concepto . . . . . . . . . . . . . . . . . . . . 177",
+      "file": "chapters/react-aprendiz-maestro/106-171-un-directorio-por-concepto-177.md",
+      "words": 27
+    },
+    {
+      "index": 18,
+      "title": "17.2 Un Directorio por Componente . . . . . . . . . . . . . . . . . . . 178",
+      "file": "chapters/react-aprendiz-maestro/107-172-un-directorio-por-componente-178.md",
+      "words": 26
+    },
+    {
+      "index": 19,
+      "title": "17.3 Un Directorio por Vista . . . . . . . . . . . . . . . . . . . . . . . 180",
+      "file": "chapters/react-aprendiz-maestro/108-173-un-directorio-por-vista-180.md",
+      "words": 30
+    },
+    {
+      "index": 20,
+      "title": "17.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 181",
+      "file": "chapters/react-aprendiz-maestro/109-174-conclusión-181.md",
+      "words": 617
+    },
+    {
+      "index": 21,
+      "title": "2.5 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16",
+      "file": "chapters/react-aprendiz-maestro/11-25-conclusión-16.md",
+      "words": 34
+    },
+    {
+      "index": 22,
+      "title": "ÍNDICE GENERAL",
+      "file": "chapters/react-aprendiz-maestro/110-índice-general.md",
+      "words": 2444
+    },
+    {
+      "index": 23,
+      "title": "1. Introducción a React",
+      "file": "chapters/react-aprendiz-maestro/111-1-introducción-a-react.md",
+      "words": 263
+    },
+    {
+      "index": 24,
+      "title": "1.2 DOM Virtual",
+      "file": "chapters/react-aprendiz-maestro/112-12-dom-virtual.md",
+      "words": 379
+    },
+    {
+      "index": 25,
+      "title": "1.3 Renderizadores de React",
+      "file": "chapters/react-aprendiz-maestro/113-13-renderizadores-de-react.md",
+      "words": 306
+    },
+    {
+      "index": 26,
+      "title": "1.4 React.createElement y JSX",
+      "file": "chapters/react-aprendiz-maestro/114-14-reactcreateelement-y-jsx.md",
+      "words": 373
+    },
+    {
+      "index": 27,
+      "title": "1.5 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/115-15-conclusión.md",
+      "words": 35
+    },
+    {
+      "index": 28,
+      "title": "2. Configurando el Proyecto",
+      "file": "chapters/react-aprendiz-maestro/116-2-configurando-el-proyecto.md",
+      "words": 226
+    },
+    {
+      "index": 29,
+      "title": "2.1 Configuración de Node.js y Git",
+      "file": "chapters/react-aprendiz-maestro/117-21-configuración-de-nodejs-y-git.md",
+      "words": 313
+    },
+    {
+      "index": 30,
+      "title": "2.2 Ejecutando el Proyecto",
+      "file": "chapters/react-aprendiz-maestro/118-22-ejecutando-el-proyecto.md",
+      "words": 560
+    },
+    {
+      "index": 31,
+      "title": "2.4 Características del Lenguaje Presentes en",
+      "file": "chapters/react-aprendiz-maestro/119-24-características-del-lenguaje-presentes-en.md",
+      "words": 399
+    },
+    {
+      "index": 32,
+      "title": "3. Implementando una Aplicación de Notas . . . . . . . . . . . . . . . . 17",
+      "file": "chapters/react-aprendiz-maestro/12-3-implementando-una-aplicación-de-notas-17.md",
+      "words": 24
+    },
+    {
+      "index": 33,
+      "title": "2.5 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/120-25-conclusión.md",
+      "words": 35
+    },
+    {
+      "index": 34,
+      "title": "3. Implementando una",
+      "file": "chapters/react-aprendiz-maestro/121-3-implementando-una.md",
+      "words": 66
+    },
+    {
+      "index": 35,
+      "title": "3.1 Modelo de Datos Inicial",
+      "file": "chapters/react-aprendiz-maestro/122-31-modelo-de-datos-inicial.md",
+      "words": 231
+    },
+    {
+      "index": 36,
+      "title": "3.2 Renderizado de los Datos Iniciales",
+      "file": "chapters/react-aprendiz-maestro/123-32-renderizado-de-los-datos-iniciales.md",
+      "words": 312
+    },
+    {
+      "index": 37,
+      "title": "3.3 Generando los Ids",
+      "file": "chapters/react-aprendiz-maestro/124-33-generando-los-ids.md",
+      "words": 341
+    },
+    {
+      "index": 38,
+      "title": "3.4 Añadiendo Nuevas Notas a la Lista",
+      "file": "chapters/react-aprendiz-maestro/125-34-añadiendo-nuevas-notas-a-la-lista.md",
+      "words": 1730
+    },
+    {
+      "index": 39,
+      "title": "3.5 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/126-35-conclusión.md",
+      "words": 53
+    },
+    {
+      "index": 40,
+      "title": "4. Borrado de Notas",
+      "file": "chapters/react-aprendiz-maestro/127-4-borrado-de-notas.md",
+      "words": 123
+    },
+    {
+      "index": 41,
+      "title": "4.1 Separación de Nota",
+      "file": "chapters/react-aprendiz-maestro/128-41-separación-de-nota.md",
+      "words": 144
+    },
+    {
+      "index": 42,
+      "title": "4.2 Añadir un Esqueleto para la Llamada a",
+      "file": "chapters/react-aprendiz-maestro/129-42-añadir-un-esqueleto-para-la-llamada-a.md",
+      "words": 91
+    },
+    {
+      "index": 43,
+      "title": "3.1 Modelo de Datos Inicial . . . . . . . . . . . . . . . . . . . . . . . 17",
+      "file": "chapters/react-aprendiz-maestro/13-31-modelo-de-datos-inicial-17.md",
+      "words": 30
+    },
+    {
+      "index": 44,
+      "title": "4.3 Comunicar el Borrado a App",
+      "file": "chapters/react-aprendiz-maestro/130-43-comunicar-el-borrado-a-app.md",
+      "words": 433
+    },
+    {
+      "index": 45,
+      "title": "4.4 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/131-44-conclusión.md",
+      "words": 55
+    },
+    {
+      "index": 46,
+      "title": "parte d: el Kanban. La edición es la funcionalidad más difícil de todas. Una forma de",
+      "file": "chapters/react-aprendiz-maestro/132-parte-d-el-kanban-la-edición-es-la-funcionalidad-más-difícil-de-todas-una-forma-de.md",
+      "words": 74
+    },
+    {
+      "index": 47,
+      "title": "5. Comprendiendo los",
+      "file": "chapters/react-aprendiz-maestro/133-5-comprendiendo-los.md",
+      "words": 75
+    },
+    {
+      "index": 48,
+      "title": "5.1 Métodos del Ciclo de Vida",
+      "file": "chapters/react-aprendiz-maestro/134-51-métodos-del-ciclo-de-vida.md",
+      "words": 404
+    },
+    {
+      "index": 49,
+      "title": "5.2 Refs",
+      "file": "chapters/react-aprendiz-maestro/135-52-refs.md",
+      "words": 105
+    },
+    {
+      "index": 50,
+      "title": "5.3 Propiedades y Métodos Propios",
+      "file": "chapters/react-aprendiz-maestro/136-53-propiedades-y-métodos-propios.md",
+      "words": 301
+    },
+    {
+      "index": 51,
+      "title": "5.4 Convenciones de los Componentes de",
+      "file": "chapters/react-aprendiz-maestro/137-54-convenciones-de-los-componentes-de.md",
+      "words": 202
+    },
+    {
+      "index": 52,
+      "title": "5.5 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/138-55-conclusión.md",
+      "words": 62
+    },
+    {
+      "index": 53,
+      "title": "6. Edición de Notas",
+      "file": "chapters/react-aprendiz-maestro/139-6-edición-de-notas.md",
+      "words": 156
+    },
+    {
+      "index": 54,
+      "title": "3.2 Renderizado de los Datos Iniciales . . . . . . . . . . . . . . . . . 18",
+      "file": "chapters/react-aprendiz-maestro/14-32-renderizado-de-los-datos-iniciales-18.md",
+      "words": 25
+    },
+    {
+      "index": 55,
+      "title": "6.1 Implementación de Editable",
+      "file": "chapters/react-aprendiz-maestro/140-61-implementación-de-editable.md",
+      "words": 288
+    },
+    {
+      "index": 56,
+      "title": "6.2 Extrayendo el Renderizado de Nota",
+      "file": "chapters/react-aprendiz-maestro/141-62-extrayendo-el-renderizado-de-nota.md",
+      "words": 219
+    },
+    {
+      "index": 57,
+      "title": "6.3 Inclusión del Esqueleto Editable",
+      "file": "chapters/react-aprendiz-maestro/142-63-inclusión-del-esqueleto-editable.md",
+      "words": 111
+    },
+    {
+      "index": 58,
+      "title": "6.4 Conectando Editable con Notas",
+      "file": "chapters/react-aprendiz-maestro/143-64-conectando-editable-con-notas.md",
+      "words": 116
+    },
+    {
+      "index": 59,
+      "title": "6.5 Haciendo un Seguimiento del Estado",
+      "file": "chapters/react-aprendiz-maestro/144-65-haciendo-un-seguimiento-del-estado.md",
+      "words": 319
+    },
+    {
+      "index": 60,
+      "title": "6.6 Implementación de Edit",
+      "file": "chapters/react-aprendiz-maestro/145-66-implementación-de-edit.md",
+      "words": 242
+    },
+    {
+      "index": 61,
+      "title": "6.7 Sobre los Componentes y el Espacio de",
+      "file": "chapters/react-aprendiz-maestro/146-67-sobre-los-componentes-y-el-espacio-de.md",
+      "words": 282
+    },
+    {
+      "index": 62,
+      "title": "6.8 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/147-68-conclusión.md",
+      "words": 85
+    },
+    {
+      "index": 63,
+      "title": "7. Dando Estilo a la Aplicación",
+      "file": "chapters/react-aprendiz-maestro/148-7-dando-estilo-a-la-aplicación.md",
+      "words": 77
+    },
+    {
+      "index": 64,
+      "title": "7.1 Aplicando Estilo sobre el Botón “Añadir",
+      "file": "chapters/react-aprendiz-maestro/149-71-aplicando-estilo-sobre-el-botón-añadir.md",
+      "words": 119
+    },
+    {
+      "index": 65,
+      "title": "3.3 Generando los Ids . . . . . . . . . . . . . . . . . . . . . . . . . . 20",
+      "file": "chapters/react-aprendiz-maestro/15-33-generando-los-ids-20.md",
+      "words": 32
+    },
+    {
+      "index": 66,
+      "title": "7.2 Aplicando estilos sobre Notas",
+      "file": "chapters/react-aprendiz-maestro/150-72-aplicando-estilos-sobre-notas.md",
+      "words": 179
+    },
+    {
+      "index": 67,
+      "title": "7.3 Aplicando Estilos sobre Notas Individuales",
+      "file": "chapters/react-aprendiz-maestro/151-73-aplicando-estilos-sobre-notas-individuales.md",
+      "words": 363
+    },
+    {
+      "index": 68,
+      "title": "7.4 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/152-74-conclusión.md",
+      "words": 298
+    },
+    {
+      "index": 69,
+      "title": "8. React y Flux",
+      "file": "chapters/react-aprendiz-maestro/153-8-react-y-flux.md",
+      "words": 144
+    },
+    {
+      "index": 70,
+      "title": "8.1 Breve Introducción a Redux",
+      "file": "chapters/react-aprendiz-maestro/154-81-breve-introducción-a-redux.md",
+      "words": 149
+    },
+    {
+      "index": 71,
+      "title": "8.2 Breve Introducción a MobX",
+      "file": "chapters/react-aprendiz-maestro/155-82-breve-introducción-a-mobx.md",
+      "words": 428
+    },
+    {
+      "index": 72,
+      "title": "8.4 Introducción a Flux",
+      "file": "chapters/react-aprendiz-maestro/156-84-introducción-a-flux.md",
+      "words": 485
+    },
+    {
+      "index": 73,
+      "title": "8.5 Migrando a Alt",
+      "file": "chapters/react-aprendiz-maestro/157-85-migrando-a-alt.md",
+      "words": 78
+    },
+    {
+      "index": 74,
+      "title": "1. Configurar una instancia de Alt para que siga las acciones, los almacenes y",
+      "file": "chapters/react-aprendiz-maestro/158-1-configurar-una-instancia-de-alt-para-que-siga-las-acciones-los-almacenes-y.md",
+      "words": 27
+    },
+    {
+      "index": 75,
+      "title": "2. Conectar Alt con las vistas.",
+      "file": "chapters/react-aprendiz-maestro/159-2-conectar-alt-con-las-vistas.md",
+      "words": 7
+    },
+    {
+      "index": 76,
+      "title": "3.4 Añadiendo Nuevas Notas a la Lista . . . . . . . . . . . . . . . . . 22",
+      "file": "chapters/react-aprendiz-maestro/16-34-añadiendo-nuevas-notas-a-la-lista-22.md",
+      "words": 26
+    },
+    {
+      "index": 77,
+      "title": "3. Dejar nuestros datos en un almacén.",
+      "file": "chapters/react-aprendiz-maestro/160-3-dejar-nuestros-datos-en-un-almacén.md",
+      "words": 8
+    },
+    {
+      "index": 78,
+      "title": "4. Definir acciones que permitan manipular el almacén.",
+      "file": "chapters/react-aprendiz-maestro/161-4-definir-acciones-que-permitan-manipular-el-almacén.md",
+      "words": 1012
+    },
+    {
+      "index": 79,
+      "title": "8.6 Entendiendo conectar",
+      "file": "chapters/react-aprendiz-maestro/162-86-entendiendo-conectar.md",
+      "words": 736
+    },
+    {
+      "index": 80,
+      "title": "8.7 Usando el Dispatcher en Alt",
+      "file": "chapters/react-aprendiz-maestro/163-87-usando-el-dispatcher-en-alt.md",
+      "words": 109
+    },
+    {
+      "index": 81,
+      "title": "8.8 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/164-88-conclusión.md",
+      "words": 76
+    },
+    {
+      "index": 82,
+      "title": "9. Implementando NoteStore y",
+      "file": "chapters/react-aprendiz-maestro/165-9-implementando-notestore-y.md",
+      "words": 164
+    },
+    {
+      "index": 83,
+      "title": "9.1 Configurando un NoteStore",
+      "file": "chapters/react-aprendiz-maestro/166-91-configurando-un-notestore.md",
+      "words": 420
+    },
+    {
+      "index": 84,
+      "title": "9.2 Entendiendo las Acciones",
+      "file": "chapters/react-aprendiz-maestro/167-92-entendiendo-las-acciones.md",
+      "words": 251
+    },
+    {
+      "index": 85,
+      "title": "9.3 Configurando NoteActions",
+      "file": "chapters/react-aprendiz-maestro/168-93-configurando-noteactions.md",
+      "words": 217
+    },
+    {
+      "index": 86,
+      "title": "9.4 Conectando NoteActions con NoteStore",
+      "file": "chapters/react-aprendiz-maestro/169-94-conectando-noteactions-con-notestore.md",
+      "words": 216
+    },
+    {
+      "index": 87,
+      "title": "3.5 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32",
+      "file": "chapters/react-aprendiz-maestro/17-35-conclusión-32.md",
+      "words": 34
+    },
+    {
+      "index": 88,
+      "title": "9.5 Migrando App.addNote a Flux",
+      "file": "chapters/react-aprendiz-maestro/170-95-migrando-appaddnote-a-flux.md",
+      "words": 330
+    },
+    {
+      "index": 89,
+      "title": "9.6 Migrando App.deleteNote a Flux",
+      "file": "chapters/react-aprendiz-maestro/171-96-migrando-appdeletenote-a-flux.md",
+      "words": 173
+    },
+    {
+      "index": 90,
+      "title": "9.7 Migrando App.activateNoteEdit a Flux",
+      "file": "chapters/react-aprendiz-maestro/172-97-migrando-appactivatenoteedit-a-flux.md",
+      "words": 234
+    },
+    {
+      "index": 91,
+      "title": "9.8 Migrando App.editNote a Flux",
+      "file": "chapters/react-aprendiz-maestro/173-98-migrando-appeditnote-a-flux.md",
+      "words": 261
+    },
+    {
+      "index": 92,
+      "title": "1. Supón que quieres almacenar las notas en el localStorage. ¿Dónde imple-",
+      "file": "chapters/react-aprendiz-maestro/174-1-supón-que-quieres-almacenar-las-notas-en-el-localstorage-dónde-imple-.md",
+      "words": 166
+    },
+    {
+      "index": 93,
+      "title": "9.9 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/175-99-conclusión.md",
+      "words": 68
+    },
+    {
+      "index": 94,
+      "title": "10. Implementando",
+      "file": "chapters/react-aprendiz-maestro/176-10-implementando.md",
+      "words": 86
+    },
+    {
+      "index": 95,
+      "title": "10.1 Entendiendo localStorage",
+      "file": "chapters/react-aprendiz-maestro/177-101-entendiendo-localstorage.md",
+      "words": 179
+    },
+    {
+      "index": 96,
+      "title": "10.2 Implementando un Envoltorio para",
+      "file": "chapters/react-aprendiz-maestro/178-102-implementando-un-envoltorio-para.md",
+      "words": 158
+    },
+    {
+      "index": 97,
+      "title": "10.3 Persistiendo la Aplicación usando",
+      "file": "chapters/react-aprendiz-maestro/179-103-persistiendo-la-aplicación-usando.md",
+      "words": 179
+    },
+    {
+      "index": 98,
+      "title": "4. Borrado de Notas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33",
+      "file": "chapters/react-aprendiz-maestro/18-4-borrado-de-notas-33.md",
+      "words": 36
+    },
+    {
+      "index": 99,
+      "title": "10.4 Implementando la Lógica de Persistencia",
+      "file": "chapters/react-aprendiz-maestro/180-104-implementando-la-lógica-de-persistencia.md",
+      "words": 228
+    },
+    {
+      "index": 100,
+      "title": "10.5 Conectando la Lógica de Persistencia con",
+      "file": "chapters/react-aprendiz-maestro/181-105-conectando-la-lógica-de-persistencia-con.md",
+      "words": 246
+    },
+    {
+      "index": 101,
+      "title": "10.6 Limpiando NoteStore",
+      "file": "chapters/react-aprendiz-maestro/182-106-limpiando-notestore.md",
+      "words": 122
+    },
+    {
+      "index": 102,
+      "title": "10.7 Implementaciones Alternativas",
+      "file": "chapters/react-aprendiz-maestro/183-107-implementaciones-alternativas.md",
+      "words": 284
+    },
+    {
+      "index": 103,
+      "title": "10.9 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/184-109-conclusión.md",
+      "words": 48
+    },
+    {
+      "index": 104,
+      "title": "11. Gestionado Dependencias",
+      "file": "chapters/react-aprendiz-maestro/185-11-gestionado-dependencias.md",
+      "words": 109
+    },
+    {
+      "index": 105,
+      "title": "11.1 Definiendo Carriles",
+      "file": "chapters/react-aprendiz-maestro/186-111-definiendo-carriles.md",
+      "words": 343
+    },
+    {
+      "index": 106,
+      "title": "11.2 Conectando Carriles con App",
+      "file": "chapters/react-aprendiz-maestro/187-112-conectando-carriles-con-app.md",
+      "words": 171
+    },
+    {
+      "index": 107,
+      "title": "11.3 Modelando Carril",
+      "file": "chapters/react-aprendiz-maestro/188-113-modelando-carril.md",
+      "words": 254
+    },
+    {
+      "index": 108,
+      "title": "11.4 Haciendo que Carriles sea el Responsable",
+      "file": "chapters/react-aprendiz-maestro/189-114-haciendo-que-carriles-sea-el-responsable.md",
+      "words": 1130
+    },
+    {
+      "index": 109,
+      "title": "4.1 Separación de Nota . . . . . . . . . . . . . . . . . . . . . . . . . 33",
+      "file": "chapters/react-aprendiz-maestro/19-41-separación-de-nota-33.md",
+      "words": 31
+    },
+    {
+      "index": 110,
+      "title": "11.5 Extrayendo LaneHeader (Cabecera de Carril)",
+      "file": "chapters/react-aprendiz-maestro/190-115-extrayendo-laneheader-cabecera-de-carril.md",
+      "words": 364
+    },
+    {
+      "index": 111,
+      "title": "11.6 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/191-116-conclusión.md",
+      "words": 121
+    },
+    {
+      "index": 112,
+      "title": "12. Editando los Carriles",
+      "file": "chapters/react-aprendiz-maestro/192-12-editando-los-carriles.md",
+      "words": 113
+    },
+    {
+      "index": 113,
+      "title": "12.1 Implementando la Edición de Nombres",
+      "file": "chapters/react-aprendiz-maestro/193-121-implementando-la-edición-de-nombres.md",
+      "words": 322
+    },
+    {
+      "index": 114,
+      "title": "12.2 Implementando el Borrado de Carril",
+      "file": "chapters/react-aprendiz-maestro/194-122-implementando-el-borrado-de-carril.md",
+      "words": 339
+    },
+    {
+      "index": 115,
+      "title": "12.3 Dando Estilo al Tablero Kanban",
+      "file": "chapters/react-aprendiz-maestro/195-123-dando-estilo-al-tablero-kanban.md",
+      "words": 244
+    },
+    {
+      "index": 116,
+      "title": "capítulo D: ando Estilo a React para más información.",
+      "file": "chapters/react-aprendiz-maestro/196-capítulo-d-ando-estilo-a-react-para-más-información.md",
+      "words": 10
+    },
+    {
+      "index": 117,
+      "title": "12.4 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/197-124-conclusión.md",
+      "words": 54
+    },
+    {
+      "index": 118,
+      "title": "13. Implementado Arrastrar y",
+      "file": "chapters/react-aprendiz-maestro/198-13-implementado-arrastrar-y.md",
+      "words": 73
+    },
+    {
+      "index": 119,
+      "title": "13.1 Configurando React DnD",
+      "file": "chapters/react-aprendiz-maestro/199-131-configurando-react-dnd.md",
+      "words": 193
+    },
+    {
+      "index": 120,
+      "title": "4.2 Añadir un Esqueleto para la Llamada a onDelete . . . . . . . . . 34",
+      "file": "chapters/react-aprendiz-maestro/20-42-añadir-un-esqueleto-para-la-llamada-a-ondelete-34.md",
+      "words": 20
+    },
+    {
+      "index": 121,
+      "title": "13.2 Permitiendo que las Notas sean",
+      "file": "chapters/react-aprendiz-maestro/200-132-permitiendo-que-las-notas-sean.md",
+      "words": 257
+    },
+    {
+      "index": 122,
+      "title": "13.3 Permitiendo a las Notas que Detecten",
+      "file": "chapters/react-aprendiz-maestro/201-133-permitiendo-a-las-notas-que-detecten.md",
+      "words": 221
+    },
+    {
+      "index": 123,
+      "title": "13.4 Desarrollando el API onMove para Notas",
+      "file": "chapters/react-aprendiz-maestro/202-134-desarrollando-el-api-onmove-para-notas.md",
+      "words": 35
+    },
+    {
+      "index": 124,
+      "title": "1. Capturar el identificador de Nota en beginDrag.",
+      "file": "chapters/react-aprendiz-maestro/203-1-capturar-el-identificador-de-nota-en-begindrag.md",
+      "words": 9
+    },
+    {
+      "index": 125,
+      "title": "2. Capturar el identificador de la Nota objetivo hover.",
+      "file": "chapters/react-aprendiz-maestro/204-2-capturar-el-identificador-de-la-nota-objetivo-hover.md",
+      "words": 10
+    },
+    {
+      "index": 126,
+      "title": "3. Lanzar la llmada a hover cuando se ejecute onMove par que podamos incluir",
+      "file": "chapters/react-aprendiz-maestro/205-3-lanzar-la-llmada-a-hover-cuando-se-ejecute-onmove-par-que-podamos-incluir.md",
+      "words": 324
+    },
+    {
+      "index": 127,
+      "title": "13.5 Añadiendo Acciones en el Movimiento",
+      "file": "chapters/react-aprendiz-maestro/206-135-añadiendo-acciones-en-el-movimiento.md",
+      "words": 389
+    },
+    {
+      "index": 128,
+      "title": "13.6 Implementando la Lógica de Arrastrar y",
+      "file": "chapters/react-aprendiz-maestro/207-136-implementando-la-lógica-de-arrastrar-y.md",
+      "words": 468
+    },
+    {
+      "index": 129,
+      "title": "13.7 Arrastrando Notas sobre Carriles Vacíos",
+      "file": "chapters/react-aprendiz-maestro/208-137-arrastrando-notas-sobre-carriles-vacíos.md",
+      "words": 652
+    },
+    {
+      "index": 130,
+      "title": "13.8 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/209-138-conclusión.md",
+      "words": 343
+    },
+    {
+      "index": 131,
+      "title": "4.3 Comunicar el Borrado a App . . . . . . . . . . . . . . . . . . . . 35",
+      "file": "chapters/react-aprendiz-maestro/21-43-comunicar-el-borrado-a-app-35.md",
+      "words": 28
+    },
+    {
+      "index": 132,
+      "title": "14. Probando React",
+      "file": "chapters/react-aprendiz-maestro/210-14-probando-react.md",
+      "words": 67
+    },
+    {
+      "index": 133,
+      "title": "14.1 TL;DR",
+      "file": "chapters/react-aprendiz-maestro/211-141-tldr.md",
+      "words": 236
+    },
+    {
+      "index": 134,
+      "title": "15. Tipado con React",
+      "file": "chapters/react-aprendiz-maestro/212-15-tipado-con-react.md",
+      "words": 68
+    },
+    {
+      "index": 135,
+      "title": "15.1 TL;DR",
+      "file": "chapters/react-aprendiz-maestro/213-151-tldr.md",
+      "words": 114
+    },
+    {
+      "index": 136,
+      "title": "16. Aplicando Estilo a React",
+      "file": "chapters/react-aprendiz-maestro/214-16-aplicando-estilo-a-react.md",
+      "words": 116
+    },
+    {
+      "index": 137,
+      "title": "16.1 Estilo a la Vieja Usanza",
+      "file": "chapters/react-aprendiz-maestro/215-161-estilo-a-la-vieja-usanza.md",
+      "words": 85
+    },
+    {
+      "index": 138,
+      "title": "16.2 Metodologías CSS",
+      "file": "chapters/react-aprendiz-maestro/216-162-metodologías-css.md",
+      "words": 240
+    },
+    {
+      "index": 139,
+      "title": "OOCSS y SMACSS",
+      "file": "chapters/react-aprendiz-maestro/217-oocss-y-smacss.md",
+      "words": 168
+    },
+    {
+      "index": 140,
+      "title": "16.3 Procesadores CSS",
+      "file": "chapters/react-aprendiz-maestro/218-163-procesadores-css.md",
+      "words": 401
+    },
+    {
+      "index": 141,
+      "title": "16.4 Aproximaciones Basadas en React",
+      "file": "chapters/react-aprendiz-maestro/219-164-aproximaciones-basadas-en-react.md",
+      "words": 1160
+    },
+    {
+      "index": 142,
+      "title": "4.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38",
+      "file": "chapters/react-aprendiz-maestro/22-44-conclusión-38.md",
+      "words": 34
+    },
+    {
+      "index": 143,
+      "title": "16.5 Módulos CSS",
+      "file": "chapters/react-aprendiz-maestro/220-165-módulos-css.md",
+      "words": 367
+    },
+    {
+      "index": 144,
+      "title": "16.6 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/221-166-conclusión.md",
+      "words": 201
+    },
+    {
+      "index": 145,
+      "title": "17. Estructurando Proyectos",
+      "file": "chapters/react-aprendiz-maestro/222-17-estructurando-proyectos.md",
+      "words": 68
+    },
+    {
+      "index": 146,
+      "title": "17.1 Un Directorio por Concepto",
+      "file": "chapters/react-aprendiz-maestro/223-171-un-directorio-por-concepto.md",
+      "words": 188
+    },
+    {
+      "index": 147,
+      "title": "17.2 Un Directorio por Componente",
+      "file": "chapters/react-aprendiz-maestro/224-172-un-directorio-por-componente.md",
+      "words": 312
+    },
+    {
+      "index": 148,
+      "title": "17.3 Un Directorio por Vista",
+      "file": "chapters/react-aprendiz-maestro/225-173-un-directorio-por-vista.md",
+      "words": 344
+    },
+    {
+      "index": 149,
+      "title": "17.4 Conclusión",
+      "file": "chapters/react-aprendiz-maestro/226-174-conclusión.md",
+      "words": 3518
+    },
+    {
+      "index": 150,
+      "title": "EPEERINVALID",
+      "file": "chapters/react-aprendiz-maestro/227-epeerinvalid.md",
+      "words": 200
+    },
+    {
+      "index": 151,
+      "title": "1. Avisar al autor del paquete del problema y confiar en que incremente el rango",
+      "file": "chapters/react-aprendiz-maestro/228-1-avisar-al-autor-del-paquete-del-problema-y-confiar-en-que-incremente-el-rango.md",
+      "words": 21
+    },
+    {
+      "index": 152,
+      "title": "2. Resolver el conflicto utilizando una versión que satisfaga la dependencia. En",
+      "file": "chapters/react-aprendiz-maestro/229-2-resolver-el-conflicto-utilizando-una-versión-que-satisfaga-la-dependencia-en.md",
+      "words": 36
+    },
+    {
+      "index": 153,
+      "title": "5. Comprendiendo los Componentes de React . . . . . . . . . . . . . . . 39",
+      "file": "chapters/react-aprendiz-maestro/23-5-comprendiendo-los-componentes-de-react-39.md",
+      "words": 23
+    },
+    {
+      "index": 154,
+      "title": "3. Hacer un fork del paquete, arreglar el rango de versiones, y utilizar tu",
+      "file": "chapters/react-aprendiz-maestro/230-3-hacer-un-fork-del-paquete-arreglar-el-rango-de-versiones-y-utilizar-tu.md",
+      "words": 494
+    },
+    {
+      "index": 155,
+      "title": "5.1 Métodos del Ciclo de Vida . . . . . . . . . . . . . . . . . . . . . 39",
+      "file": "chapters/react-aprendiz-maestro/24-51-métodos-del-ciclo-de-vida-39.md",
+      "words": 29
+    },
+    {
+      "index": 156,
+      "title": "5.2 Refs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41",
+      "file": "chapters/react-aprendiz-maestro/25-52-refs-41.md",
+      "words": 38
+    },
+    {
+      "index": 157,
+      "title": "5.3 Propiedades y Métodos Propios . . . . . . . . . . . . . . . . . . . 41",
+      "file": "chapters/react-aprendiz-maestro/26-53-propiedades-y-métodos-propios-41.md",
+      "words": 26
+    },
+    {
+      "index": 158,
+      "title": "5.4 Convenciones de los Componentes de React . . . . . . . . . . . . 43",
+      "file": "chapters/react-aprendiz-maestro/27-54-convenciones-de-los-componentes-de-react-43.md",
+      "words": 21
+    },
+    {
+      "index": 159,
+      "title": "5.5 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44",
+      "file": "chapters/react-aprendiz-maestro/28-55-conclusión-44.md",
+      "words": 34
+    },
+    {
+      "index": 160,
+      "title": "6. Edición de Notas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45",
+      "file": "chapters/react-aprendiz-maestro/29-6-edición-de-notas-45.md",
+      "words": 36
+    },
+    {
+      "index": 161,
+      "title": "6.1 Implementación de Editable . . . . . . . . . . . . . . . . . . . . 45",
+      "file": "chapters/react-aprendiz-maestro/30-61-implementación-de-editable-45.md",
+      "words": 26
+    },
+    {
+      "index": 162,
+      "title": "6.2 Extrayendo el Renderizado de Nota . . . . . . . . . . . . . . . . 46",
+      "file": "chapters/react-aprendiz-maestro/31-62-extrayendo-el-renderizado-de-nota-46.md",
+      "words": 24
+    },
+    {
+      "index": 163,
+      "title": "6.3 Inclusión del Esqueleto Editable . . . . . . . . . . . . . . . . . . 48",
+      "file": "chapters/react-aprendiz-maestro/32-63-inclusión-del-esqueleto-editable-48.md",
+      "words": 25
+    },
+    {
+      "index": 164,
+      "title": "6.4 Conectando Editable con Notas . . . . . . . . . . . . . . . . . . 49",
+      "file": "chapters/react-aprendiz-maestro/33-64-conectando-editable-con-notas-49.md",
+      "words": 25
+    },
+    {
+      "index": 165,
+      "title": "6.5 Haciendo un Seguimiento del Estado editing de Nota . . . . . . 50",
+      "file": "chapters/react-aprendiz-maestro/34-65-haciendo-un-seguimiento-del-estado-editing-de-nota-50.md",
+      "words": 17
+    },
+    {
+      "index": 166,
+      "title": "6.6 Implementación de Edit . . . . . . . . . . . . . . . . . . . . . . 53",
+      "file": "chapters/react-aprendiz-maestro/35-66-implementación-de-edit-53.md",
+      "words": 28
+    },
+    {
+      "index": 167,
+      "title": "6.7 Sobre los Componentes y el Espacio de Nombres . . . . . . . . . 55",
+      "file": "chapters/react-aprendiz-maestro/36-67-sobre-los-componentes-y-el-espacio-de-nombres-55.md",
+      "words": 20
+    },
+    {
+      "index": 168,
+      "title": "6.8 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56",
+      "file": "chapters/react-aprendiz-maestro/37-68-conclusión-56.md",
+      "words": 34
+    },
+    {
+      "index": 169,
+      "title": "7. Dando Estilo a la Aplicación de Notas . . . . . . . . . . . . . . . . . . 57",
+      "file": "chapters/react-aprendiz-maestro/38-7-dando-estilo-a-la-aplicación-de-notas-57.md",
+      "words": 28
+    },
+    {
+      "index": 170,
+      "title": "7.1 Aplicando Estilo sobre el Botón “Añadir Nota” . . . . . . . . . . 57",
+      "file": "chapters/react-aprendiz-maestro/39-71-aplicando-estilo-sobre-el-botón-añadir-nota-57.md",
+      "words": 25
+    },
+    {
+      "index": 171,
+      "title": "ÍNDICE GENERAL",
+      "file": "chapters/react-aprendiz-maestro/40-índice-general.md",
+      "words": 3
+    },
+    {
+      "index": 172,
+      "title": "7.2 Aplicando estilos sobre Notas . . . . . . . . . . . . . . . . . . . . 58",
+      "file": "chapters/react-aprendiz-maestro/41-72-aplicando-estilos-sobre-notas-58.md",
+      "words": 27
+    },
+    {
+      "index": 173,
+      "title": "7.3 Aplicando Estilos sobre Notas Individuales . . . . . . . . . . . . 60",
+      "file": "chapters/react-aprendiz-maestro/42-73-aplicando-estilos-sobre-notas-individuales-60.md",
+      "words": 20
+    },
+    {
+      "index": 174,
+      "title": "7.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63",
+      "file": "chapters/react-aprendiz-maestro/43-74-conclusión-63.md",
+      "words": 52
+    },
+    {
+      "index": 175,
+      "title": "8. React y Flux . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66",
+      "file": "chapters/react-aprendiz-maestro/44-8-react-y-flux-66.md",
+      "words": 39
+    },
+    {
+      "index": 176,
+      "title": "8.1 Breve Introducción a Redux . . . . . . . . . . . . . . . . . . . . . 66",
+      "file": "chapters/react-aprendiz-maestro/45-81-breve-introducción-a-redux-66.md",
+      "words": 28
+    },
+    {
+      "index": 177,
+      "title": "8.2 Breve Introducción a MobX . . . . . . . . . . . . . . . . . . . . . 67",
+      "file": "chapters/react-aprendiz-maestro/46-82-breve-introducción-a-mobx-67.md",
+      "words": 44
+    },
+    {
+      "index": 178,
+      "title": "8.4 Introducción a Flux . . . . . . . . . . . . . . . . . . . . . . . . . 68",
+      "file": "chapters/react-aprendiz-maestro/47-84-introducción-a-flux-68.md",
+      "words": 31
+    },
+    {
+      "index": 179,
+      "title": "8.5 Migrando a Alt . . . . . . . . . . . . . . . . . . . . . . . . . . . 70",
+      "file": "chapters/react-aprendiz-maestro/48-85-migrando-a-alt-70.md",
+      "words": 33
+    },
+    {
+      "index": 180,
+      "title": "8.6 Entendiendo conectar . . . . . . . . . . . . . . . . . . . . . . . 76",
+      "file": "chapters/react-aprendiz-maestro/49-86-entendiendo-conectar-76.md",
+      "words": 28
+    },
+    {
+      "index": 181,
+      "title": "8.7 Usando el Dispatcher en Alt . . . . . . . . . . . . . . . . . . . . 81",
+      "file": "chapters/react-aprendiz-maestro/50-87-usando-el-dispatcher-en-alt-81.md",
+      "words": 28
+    },
+    {
+      "index": 182,
+      "title": "8.8 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82",
+      "file": "chapters/react-aprendiz-maestro/51-88-conclusión-82.md",
+      "words": 34
+    },
+    {
+      "index": 183,
+      "title": "9. Implementando NoteStore y NoteActions . . . . . . . . . . . . . . . . 83",
+      "file": "chapters/react-aprendiz-maestro/52-9-implementando-notestore-y-noteactions-83.md",
+      "words": 23
+    },
+    {
+      "index": 184,
+      "title": "9.1 Configurando un NoteStore . . . . . . . . . . . . . . . . . . . . 83",
+      "file": "chapters/react-aprendiz-maestro/53-91-configurando-un-notestore-83.md",
+      "words": 26
+    },
+    {
+      "index": 185,
+      "title": "9.2 Entendiendo las Acciones . . . . . . . . . . . . . . . . . . . . . . 86",
+      "file": "chapters/react-aprendiz-maestro/54-92-entendiendo-las-acciones-86.md",
+      "words": 28
+    },
+    {
+      "index": 186,
+      "title": "9.3 Configurando NoteActions . . . . . . . . . . . . . . . . . . . . . 87",
+      "file": "chapters/react-aprendiz-maestro/55-93-configurando-noteactions-87.md",
+      "words": 26
+    },
+    {
+      "index": 187,
+      "title": "9.4 Conectando NoteActions con NoteStore . . . . . . . . . . . . . 88",
+      "file": "chapters/react-aprendiz-maestro/56-94-conectando-noteactions-con-notestore-88.md",
+      "words": 20
+    },
+    {
+      "index": 188,
+      "title": "9.5 Migrando App.addNote a Flux . . . . . . . . . . . . . . . . . . . 90",
+      "file": "chapters/react-aprendiz-maestro/57-95-migrando-appaddnote-a-flux-90.md",
+      "words": 26
+    },
+    {
+      "index": 189,
+      "title": "9.6 Migrando App.deleteNote a Flux . . . . . . . . . . . . . . . . . 92",
+      "file": "chapters/react-aprendiz-maestro/58-96-migrando-appdeletenote-a-flux-92.md",
+      "words": 24
+    },
+    {
+      "index": 190,
+      "title": "9.7 Migrando App.activateNoteEdit a Flux . . . . . . . . . . . . . 94",
+      "file": "chapters/react-aprendiz-maestro/59-97-migrando-appactivatenoteedit-a-flux-94.md",
+      "words": 20
+    },
+    {
+      "index": 191,
+      "title": "9.8 Migrando App.editNote a Flux . . . . . . . . . . . . . . . . . . . 96",
+      "file": "chapters/react-aprendiz-maestro/60-98-migrando-appeditnote-a-flux-96.md",
+      "words": 26
+    },
+    {
+      "index": 192,
+      "title": "9.9 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98",
+      "file": "chapters/react-aprendiz-maestro/61-99-conclusión-98.md",
+      "words": 34
+    },
+    {
+      "index": 193,
+      "title": "10. Implementando Persistencia en localStorage . . . . . . . . . . . . . . 99",
+      "file": "chapters/react-aprendiz-maestro/62-10-implementando-persistencia-en-localstorage-99.md",
+      "words": 21
+    },
+    {
+      "index": 194,
+      "title": "10.1 Entendiendo localStorage . . . . . . . . . . . . . . . . . . . . . 99",
+      "file": "chapters/react-aprendiz-maestro/63-101-entendiendo-localstorage-99.md",
+      "words": 26
+    },
+    {
+      "index": 195,
+      "title": "10.2 Implementando un Envoltorio para localStorage . . . . . . . . 100",
+      "file": "chapters/react-aprendiz-maestro/64-102-implementando-un-envoltorio-para-localstorage-100.md",
+      "words": 16
+    },
+    {
+      "index": 196,
+      "title": "10.3 Persistiendo la Aplicación usando FinalStore . . . . . . . . . . . 101",
+      "file": "chapters/react-aprendiz-maestro/65-103-persistiendo-la-aplicación-usando-finalstore-101.md",
+      "words": 19
+    },
+    {
+      "index": 197,
+      "title": "10.4 Implementando la Lógica de Persistencia . . . . . . . . . . . . . 101",
+      "file": "chapters/react-aprendiz-maestro/66-104-implementando-la-lógica-de-persistencia-101.md",
+      "words": 21
+    },
+    {
+      "index": 198,
+      "title": "10.5 Conectando la Lógica de Persistencia con la Aplicación . . . . . . 103",
+      "file": "chapters/react-aprendiz-maestro/67-105-conectando-la-lógica-de-persistencia-con-la-aplicación-103.md",
+      "words": 17
+    },
+    {
+      "index": 199,
+      "title": "10.6 Limpiando NoteStore . . . . . . . . . . . . . . . . . . . . . . . . 104",
+      "file": "chapters/react-aprendiz-maestro/68-106-limpiando-notestore-104.md",
+      "words": 29
+    },
+    {
+      "index": 200,
+      "title": "10.7 Implementaciones Alternativas . . . . . . . . . . . . . . . . . . . 105",
+      "file": "chapters/react-aprendiz-maestro/69-107-implementaciones-alternativas-105.md",
+      "words": 29
+    },
+    {
+      "index": 201,
+      "title": "ÍNDICE GENERAL",
+      "file": "chapters/react-aprendiz-maestro/70-índice-general.md",
+      "words": 38
+    },
+    {
+      "index": 202,
+      "title": "10.9 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106",
+      "file": "chapters/react-aprendiz-maestro/71-109-conclusión-106.md",
+      "words": 34
+    },
+    {
+      "index": 203,
+      "title": "11. Gestionado Dependencias de Datos . . . . . . . . . . . . . . . . . . . . 107",
+      "file": "chapters/react-aprendiz-maestro/72-11-gestionado-dependencias-de-datos-107.md",
+      "words": 27
+    },
+    {
+      "index": 204,
+      "title": "11.1 Definiendo Carriles . . . . . . . . . . . . . . . . . . . . . . . . 107",
+      "file": "chapters/react-aprendiz-maestro/73-111-definiendo-carriles-107.md",
+      "words": 29
+    },
+    {
+      "index": 205,
+      "title": "11.2 Conectando Carriles con App . . . . . . . . . . . . . . . . . . . 110",
+      "file": "chapters/react-aprendiz-maestro/74-112-conectando-carriles-con-app-110.md",
+      "words": 26
+    },
+    {
+      "index": 206,
+      "title": "11.3 Modelando Carril . . . . . . . . . . . . . . . . . . . . . . . . . 111",
+      "file": "chapters/react-aprendiz-maestro/75-113-modelando-carril-111.md",
+      "words": 30
+    },
+    {
+      "index": 207,
+      "title": "11.4 Haciendo que Carriles sea el Responsable de Notas . . . . . . . 114",
+      "file": "chapters/react-aprendiz-maestro/76-114-haciendo-que-carriles-sea-el-responsable-de-notas-114.md",
+      "words": 18
+    },
+    {
+      "index": 208,
+      "title": "11.5 Extrayendo LaneHeader (Cabecera de Carril) de Carril . . . . . 123",
+      "file": "chapters/react-aprendiz-maestro/77-115-extrayendo-laneheader-cabecera-de-carril-de-carril-123.md",
+      "words": 15
+    },
+    {
+      "index": 209,
+      "title": "11.6 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126",
+      "file": "chapters/react-aprendiz-maestro/78-116-conclusión-126.md",
+      "words": 34
+    },
+    {
+      "index": 210,
+      "title": "12. Editando los Carriles . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127",
+      "file": "chapters/react-aprendiz-maestro/79-12-editando-los-carriles-127.md",
+      "words": 34
+    },
+    {
+      "index": 211,
+      "title": "12.1 Implementando la Edición de Nombres de Carril . . . . . . . . . 127",
+      "file": "chapters/react-aprendiz-maestro/80-121-implementando-la-edición-de-nombres-de-carril-127.md",
+      "words": 19
+    },
+    {
+      "index": 212,
+      "title": "12.2 Implementando el Borrado de Carril . . . . . . . . . . . . . . . 130",
+      "file": "chapters/react-aprendiz-maestro/81-122-implementando-el-borrado-de-carril-130.md",
+      "words": 23
+    },
+    {
+      "index": 213,
+      "title": "12.3 Dando Estilo al Tablero Kanban . . . . . . . . . . . . . . . . . . 133",
+      "file": "chapters/react-aprendiz-maestro/82-123-dando-estilo-al-tablero-kanban-133.md",
+      "words": 26
+    },
+    {
+      "index": 214,
+      "title": "12.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136",
+      "file": "chapters/react-aprendiz-maestro/83-124-conclusión-136.md",
+      "words": 34
+    },
+    {
+      "index": 215,
+      "title": "13. Implementado Arrastrar y Soltar . . . . . . . . . . . . . . . . . . . . . 137",
+      "file": "chapters/react-aprendiz-maestro/84-13-implementado-arrastrar-y-soltar-137.md",
+      "words": 28
+    },
+    {
+      "index": 216,
+      "title": "13.1 Configurando React DnD . . . . . . . . . . . . . . . . . . . . . . 137",
+      "file": "chapters/react-aprendiz-maestro/85-131-configurando-react-dnd-137.md",
+      "words": 28
+    },
+    {
+      "index": 217,
+      "title": "13.2 Permitiendo que las Notas sean Arrastradas . . . . . . . . . . . . 139",
+      "file": "chapters/react-aprendiz-maestro/86-132-permitiendo-que-las-notas-sean-arrastradas-139.md",
+      "words": 21
+    },
+    {
+      "index": 218,
+      "title": "13.3 Permitiendo a las Notas que Detecten Notas que Pasan por Encima 141",
+      "file": "chapters/react-aprendiz-maestro/87-133-permitiendo-a-las-notas-que-detecten-notas-que-pasan-por-encima-141.md",
+      "words": 14
+    },
+    {
+      "index": 219,
+      "title": "13.4 Desarrollando el API onMove para Notas . . . . . . . . . . . . . . 142",
+      "file": "chapters/react-aprendiz-maestro/88-134-desarrollando-el-api-onmove-para-notas-142.md",
+      "words": 23
+    },
+    {
+      "index": 220,
+      "title": "13.5 Añadiendo Acciones en el Movimiento . . . . . . . . . . . . . . 146",
+      "file": "chapters/react-aprendiz-maestro/89-135-añadiendo-acciones-en-el-movimiento-146.md",
+      "words": 22
+    },
+    {
+      "index": 221,
+      "title": "13.6 Implementando la Lógica de Arrastrar y Soltar Notas . . . . . . . 148",
+      "file": "chapters/react-aprendiz-maestro/90-136-implementando-la-lógica-de-arrastrar-y-soltar-notas-148.md",
+      "words": 18
+    },
+    {
+      "index": 222,
+      "title": "13.7 Arrastrando Notas sobre Carriles Vacíos . . . . . . . . . . . . . . 151",
+      "file": "chapters/react-aprendiz-maestro/91-137-arrastrando-notas-sobre-carriles-vacíos-151.md",
+      "words": 22
+    },
+    {
+      "index": 223,
+      "title": "13.8 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 156",
+      "file": "chapters/react-aprendiz-maestro/92-138-conclusión-156.md",
+      "words": 56
+    },
+    {
+      "index": 224,
+      "title": "14. Probando React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 158",
+      "file": "chapters/react-aprendiz-maestro/93-14-probando-react-158.md",
+      "words": 36
+    },
+    {
+      "index": 225,
+      "title": "14.1 TL;DR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 158",
+      "file": "chapters/react-aprendiz-maestro/94-141-tldr-158.md",
+      "words": 36
+    },
+    {
+      "index": 226,
+      "title": "15. Tipado con React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160",
+      "file": "chapters/react-aprendiz-maestro/95-15-tipado-con-react-160.md",
+      "words": 36
+    },
+    {
+      "index": 227,
+      "title": "15.1 TL;DR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160",
+      "file": "chapters/react-aprendiz-maestro/96-151-tldr-160.md",
+      "words": 41
+    },
+    {
+      "index": 228,
+      "title": "ÍNDICE GENERAL",
+      "file": "chapters/react-aprendiz-maestro/97-índice-general.md",
+      "words": 3
+    },
+    {
+      "index": 229,
+      "title": "16. Aplicando Estilo a React . . . . . . . . . . . . . . . . . . . . . . . . . . 161",
+      "file": "chapters/react-aprendiz-maestro/98-16-aplicando-estilo-a-react-161.md",
+      "words": 33
+    },
+    {
+      "index": 230,
+      "title": "16.1 Estilo a la Vieja Usanza . . . . . . . . . . . . . . . . . . . . . . . 161",
+      "file": "chapters/react-aprendiz-maestro/99-161-estilo-a-la-vieja-usanza-161.md",
+      "words": 31
+    }
+  ],
+  "learningIntegrated": true
+}

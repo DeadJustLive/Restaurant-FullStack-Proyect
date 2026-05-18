@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch023-003",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 23,
+  "chunkIndex": 3,
+  "title": "capítulo d: escribe la forma en que estas ideas se pueden aplicar en JavaScript.",
+  "start": 1350,
+  "end": 1521,
+  "words": 171,
+  "content": "objeto prototype. class Rabbit { constructor(type) { this.type = type; } speak(line) { console.log(`El conejo ${this.type} dice '${line}'`); } } La palabra clave class inicia una declaración de clase, que nos permite definir un constructor y un conjunto de métodos juntos. Se pueden escribir cualquier 99 -- 111 of 445 -- cantidad de métodos dentro de las llaves de la declaración. Este código tiene el efecto de definir un enlace llamado Rabbit, que contiene una función que ejecuta el código en constructor, y tiene una propiedad prototype que contiene el método speak. Esta función no puede ser llamada normalmente. Los constructores, en JavaScript, se llaman colocando la palabra clave new delante de ellos. Al hac- erlo, se crea un objeto nuevo con el objeto contenido en la propiedad prototype de la función como prototipo, luego se ejecuta la función con this vinculado al nuevo objeto, y finalmente se devuelve el objeto. let killerRabbit = new Rabbit(\"asesino\"); De hecho, la palabra clave class se introdujo solo en la edición de JavaScript de"
+}

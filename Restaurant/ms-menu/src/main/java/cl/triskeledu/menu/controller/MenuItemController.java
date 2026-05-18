@@ -26,8 +26,9 @@ public class MenuItemController {
     private final MenuItemService menuItemService;
 
     @PostMapping
-    public ResponseEntity<MenuItemResponseDTO> crear(@Valid @RequestBody MenuItemRequestDTO dto) {
-        return ResponseEntity.status(HttpStatus.CREATED).body(menuItemService.crear(dto));
+    public ResponseEntity<MenuItemResponseDTO> crear(@RequestHeader(value = "X-Credencial-Id", defaultValue = "1") Long credencialId,
+                                                     @Valid @RequestBody MenuItemRequestDTO dto) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(menuItemService.crear(credencialId, dto));
     }
 
     @GetMapping("/{id}")
@@ -50,21 +51,24 @@ public class MenuItemController {
 
     @PutMapping("/{id}")
     public ResponseEntity<MenuItemResponseDTO> actualizarParcial(
-            @PathVariable Long id, 
+            @RequestHeader(value = "X-Credencial-Id", defaultValue = "1") Long credencialId,
+            @PathVariable Long id,
             @Valid @RequestBody MenuItemRequestDTO dto) {
-        return ResponseEntity.ok(menuItemService.actualizar(id, dto));
+        return ResponseEntity.ok(menuItemService.actualizar(credencialId, id, dto));
     }
 
     @PatchMapping("/{id}/disponibilidad")
     public ResponseEntity<MenuItemResponseDTO> cambiarDisponibilidad(
-            @PathVariable Long id, 
+            @RequestHeader(value = "X-Credencial-Id", defaultValue = "1") Long credencialId,
+            @PathVariable Long id,
             @RequestParam Boolean disponible) {
-        return ResponseEntity.ok(menuItemService.cambiarDisponibilidad(id, disponible));
+        return ResponseEntity.ok(menuItemService.cambiarDisponibilidad(credencialId, id, disponible));
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> eliminarFisicamente(@PathVariable Long id) {
-        menuItemService.eliminar(id);
+    public ResponseEntity<Void> eliminarFisicamente(@RequestHeader(value = "X-Credencial-Id", defaultValue = "1") Long credencialId,
+                                                    @PathVariable Long id) {
+        menuItemService.eliminar(credencialId, id);
         return ResponseEntity.noContent().build();
     }
 }

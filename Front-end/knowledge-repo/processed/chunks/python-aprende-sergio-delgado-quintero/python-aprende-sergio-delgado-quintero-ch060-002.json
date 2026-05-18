@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch060-002",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 60,
+  "chunkIndex": 2,
+  "title": "2. If distance less than a half, return floor.",
+  "start": 900,
+  "end": 975,
+  "words": 75,
+  "content": "make_multiplier_of(n): ... def multiplier(x): ... return x * n ... return multiplier ... >>> m3 = make_multiplier_of(3) >>> m5 = make_multiplier_of(5) >>> type(m3) function >>> m3(7) # 7 * 3 21 >>> type(m5) function >>> m5(8) # 8 * 5 40 Importante: En una clausura retornamos una función, no una llamada a la función. 232 Capítulo 6. Modularidad -- 236 of 516 -- Aprende Python Funciones anónimas «lambda» Una función lambda tiene las siguientes propiedades:"
+}

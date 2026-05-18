@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch097-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 97,
+  "chunkIndex": 1,
+  "title": "Capítulo 57:: Historia de Nodejs",
+  "start": 450,
+  "end": 773,
+  "words": 323,
+  "content": "Q1 14 de enero: IO.js 1.0.0 • Décimo siglo: Joyent se mueve para establecer la Fundación Node.js Joyent, IBM, Microsoft, PayPal, Fidelity, SAP y The Linux Foundation unen fuerzas para apoyar a la comunidad Node.js con gobierno neutral y abierto ○ • Propuesta de conciliación de 27th Febraury : IO.js y Node.js • Q2 14 de abril: npm Módulos privados. • 28 de mayo: el líder del nodo TJ Fontaine se retira y abandona a Joyent • 13 de mayo: Node.js y io.js se fusionan bajo la Fundación Node • https://riptutorial.com/es/home 194 -- 222 of 423 -- Q3 2 de agosto: seguimiento - monitoreo y depuración del rendimiento de Node.js Trace es una herramienta de monitoreo de microservicio visualizado que le brinda todas las métricas que necesita cuando opera microservicios. ○ • 13 de agosto: 4.0 es el nuevo 1.0. • Q4 12 de octubre: Nodo v4.2.0, primer lanzamiento de soporte a largo plazo • 8 de diciembre: Apigee, RisingStack y Yahoo se unen a la Fundación Node.js • 8 y 9 de diciembre: Nodo interactivo. La primera conferencia anual de Node.js por la Fundación Node.js ○ • 2016 Q1 10 de febrero: Express se convierte en un proyecto incubado. • 23 de marzo: El incidente del leftpad. • 29 de marzo: Google Cloud Platform se une a la Fundación Node.js • Q2 26 de abril: npm tiene 210.000 usuarios. • Q3 18 de julio: CJ Silverio se convierte en el CTO de npm. • 1 de agosto: Trace, la solución de depuración Node.js está disponible en general. • 15 de septiembre: El primer nodo interactivo en Europa. • Q4 11 de octubre: el administrador del paquete de hilados fue liberado. • 18 de octubre: Node.js 6 se convierte en la versión LTS. • Referencia \"Historia de Node.js en una línea de tiempo\" [en línea]. Disponible: [ https://blog.risingstack.com/history-of-node-js] 1. Lea Historia de Nodejs en línea: https://riptutorial.com/es/node-js/topic/8653/historia-de-nodejs https://riptutorial.com/es/home 195 -- 223 of 423 --"
+}

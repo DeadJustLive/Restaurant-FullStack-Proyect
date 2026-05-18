@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch025-000",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 25,
+  "chunkIndex": 0,
+  "title": "Capítulo 22:: Reaccionar llamada AJAX 87",
+  "start": 0,
+  "end": 37,
+  "words": 37,
+  "content": "# Capítulo 22:: Reaccionar llamada AJAX 87 Examples 87 Solicitud HTTP GET 87 Ajax en Reaccionar sin una biblioteca de terceros, también conocido como VanillaJS 88 Solicitud HTTP GET y bucle a través de los datos 88"
+}

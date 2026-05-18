@@ -1,0 +1,32 @@
+# Chapter 20
+
+## Fuente
+javascript-elocuente-cuarta-edicion (Cap. 59)
+
+## Contenido
+# Chapter 20
+
+Node.js
+Hasta ahora, hemos utilizado el lenguaje JavaScript en un solo entorno: el
+navegador. Este capítulo y el siguiente introducirán brevemente Node.js, un
+programa que te permite aplicar tus habilidades con JavaScript fuera del nave-
+gador. Con él, puedes construir desde pequeñas herramientas de línea de co-
+mandos hasta servidores HTTP server que alimentan sitios web dinámicos.
+Estos capítulos tienen como objetivo enseñarte los conceptos principales que
+Node.js utiliza y darte información suficiente para escribir programas útiles
+para él. No intentan ser un tratamiento completo, ni siquiera exhaustivo, de la
+plataforma.
+Si deseas seguir y ejecutar el código en este capítulo, necesitarás instalar
+Node.js versión 18 o superior. Para hacerlo, ve a https://nodejs.org y sigue
+las instrucciones de instalación para tu sistema operativo. También puedes
+encontrar más documentación para Node.js allí.
+Antecedentes
+Cuando se construyen sistemas que se comunican a través de la red, la forma
+en que gestionas la entrada y el output—es decir, la lectura y escritura de datos
+desde y hacia la red y el disco duro—puede marcar una gran diferencia en cuán
+rápido responde un sistema al usuario o a las solicitudes de red.
+En tales programas, la programación asincrónica a menudo es útil. Permite
+que el programa envíe y reciba datos desde y hacia múltiples dispositivos al
+mismo tiempo sin una complicada gestión de hilos y sincronización.
+Node fue concebido inicialmente con el propósito de hacer que la progra-
+mación asincrónica sea fácil y conveniente. JavaScript se presta bien a un sis-

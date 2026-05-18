@@ -1,0 +1,20 @@
+# 1. Generación de los contenidos: se refiere a que los contenidos del Sitio Web
+
+deben ser escritos teniendo en mente la forma en que el usuario final denomina
+a los temas que incluye el sitio. Se debe considerar que si se habla en el
+lenguaje del usuario, será más fácil que un sistema de búsqueda muestre entre
+Findability: facilidad
+para que los contenidos
+de un sitio web puedan
+ser indexados y luego
+encontrados por sistemas
+de búsqueda externos
+e internos.
+E
+1.- Ver Capítulo II de la Guía Web 1.0 en http://www.guiaweb.gob.cl/guia/capitulos/cuatro/objetivos.htm
+
+-- 77 of 122 --
+
+78 < www.guiaweb.gob.cl
+sus resultados los contenidos ofrecidos por el sitio ya que contendrán las
+mismas palabras utilizadas por el usuario que busca.

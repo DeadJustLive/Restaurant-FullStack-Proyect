@@ -1,0 +1,25 @@
+# 5. Revisando el código generado
+
+Por último, vamos a comprobar el código que ha generado el compilador de Typescript, el siguiente código es el
+que ha generado para el fchero main.js
+Cómo se puede observar es código fácilmente legible, y podría ser fácilmente generado por un humano, esto es
+una de las principales ventajas de Typescript respecto a otros lenguajes que compilan a Javascript.
+También podemos observar como se compilan las clases:
+
+-- 8 of 9 --
+
+define(["require", "exports"], function (require, exports) {
+var Dog = (function () {
+function Dog(name) {
+this.name = name;
+}
+Dog.prototype.makeSound = function () {
+return "guau!";
+};
+return Dog;
+})();
+return Dog;
+});
+Como podemos ver no se hace ningún tipo de mención a la interfaz Animal y esto es debido a que la
+comprobación de que cumpla la interfaz se hace en tiempo de compilación y no en tiempo de ejecución, por lo
+que no incurrimos en ningún tipo de penalización.

@@ -1,0 +1,52 @@
+# Capítulo 31:: Operadores y sobrecargas
+
+Introducción
+La mayoría de los operadores en Rust se pueden definir ("sobrecargar") para los tipos definidos
+por el usuario. Esto se puede lograr implementando el rasgo respectivo en el módulo std::ops .
+Examples
+Sobrecarga del operador de suma (+)
+Sobrecargar el operador de suma (+) requiere implementar el rasgo std::ops::Add .
+De la documentación, la definición completa del rasgo es:
+pub trait Add<RHS = Self> {
+type Output;
+fn add(self, rhs: RHS) -> Self::Output;
+}
+¿Como funciona?
+El rasgo se implementa para el tipo del lado izquierdo.	•
+el rasgo se implementa para un argumento del lado derecho, a menos que se especifique
+de manera predeterminada que tenga el mismo tipo que el lado izquierdo
+•
+el tipo de resultado de la adición se especifica en el tipo asociado Output	•
+Por lo tanto, tener 3 tipos diferentes es posible.
+Nota: el rasgo que se consume son los argumentos del lado izquierdo y del lado derecho, es
+posible que prefiera implementarlo para referencias a su tipo en lugar de a los tipos básicos.
+Implementando + para un tipo personalizado:
+use std::ops::Add;
+#[derive(Clone)]
+struct List<T> {
+data: Vec<T>,
+}
+// Implementation which consumes both LHS and RHS
+impl<T> Add for List<T> {
+type Output = List<T>;
+fn add(self, rhs: List<T>) -> List<T> {
+self.data.extend(rhs.data.drain(..));
+self
+}
+}
+https://riptutorial.com/es/home 104
+
+-- 118 of 188 --
+
+// Implementation which only consumes RHS (and thus where LHS != RHS)
+impl<'a, T: Clone> Add<List<T>> for &'a List<T> {
+type Output = List<T>;
+fn add(self, rhs: List<T>) -> List<T> {
+self.clone() + rhs
+}
+}
+Lea Operadores y sobrecargas en línea: https://riptutorial.com/es/rust/topic/7271/operadores-y-
+sobrecargas
+https://riptutorial.com/es/home 105
+
+-- 119 of 188 --

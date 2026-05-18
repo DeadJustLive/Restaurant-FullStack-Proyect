@@ -1,0 +1,36 @@
+# 22 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 40)
+
+## Contenido
+# 22 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+4
+Como hacemos la planificación de Sprint
+La 	planificación 	de 	Sprint 	es 	una 	reunión 	crítica, 	probablemente 	la 	más
+importante de Scrum (en mi subjetiva opinión, por supuesto). 	Una planificación
+de Sprint mal ejecutada puede arruinar por completo todo el Sprint.
+El propósito de la planificación de Sprint es proporcionar al equipo suficiente
+información como para que puedan trabajar en paz y sin interrupciones durante
+unas pocas semanas, y para ofrecer al Dueño de Producto suficiente confianza
+como para permitírselo.
+Vale, 	ha 	quedado 	un 	poco 	difuso. 	Una 	planificación 	de 	Sprint 	produce,
+concretamente:
+• 	Una meta de Sprint.
+• 	Una lista de miembros (y su nivel de dedicación, si no es del 100%)
+• 	Una Pila de Sprint (lista de historias incluidas en el Sprint)
+• 	Una fecha concreta para la Demo del Sprint.
+• 	Un lugar y momento definidos para el Scrum Diario.
+Por qué debe asistir el Dueño de Producto
+A veces los Dueños de Producto se resisten a pasar horas con el equipo
+preparando la planificación de Sprint. “Mirad, tíos, ya os he listado lo que quiero.
+No tengo tiempo para estar en vuestra reunión de planificación”. Es un problema
+bastante serio. La razón por la que el equipo y el Dueño de Producto deben
+asistir a la planificación de Sprint es que cada historia contiene tres variables que
+son muy dependientes unas de otras.
+Versión gratuita on-line.
+Apoya este trabajo, compra la copia impresa:
+http://infoq.com/minibooks/scrum-xp-from- the-trenches
+
+-- 22 of 122 --

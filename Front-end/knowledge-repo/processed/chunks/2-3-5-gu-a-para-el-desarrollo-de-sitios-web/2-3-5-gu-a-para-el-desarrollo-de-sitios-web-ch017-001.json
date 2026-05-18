@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch017-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 17,
+  "chunkIndex": 1,
+  "title": "Capítulo 2: - Aplicación de Estándares",
+  "start": 450,
+  "end": 692,
+  "words": 242,
+  "content": "parte de la implementación de los Servidores de Nombres de Dominio (DNS, por su sigla del inglés Domain Name Server) que permiten asociar un nombre de dominios a partir de números IP. El beneficio de usar tablas reversas es que los servicios web dentro de la red de Gobierno responden con mayor velocidad al requirimiento de un usuario, facilita la protección contra el spam y ayuda a la confirmación de validez de la relación entre un nombre y un dominio, permitiendo por ejemplo, evitar acciones de phishing.9 Utilidad (DS100/2006 Art. 4°) Este artículo se refiere a la necesidad de que los contenidos del sitio web estén desa- rrollados con una orientación al usuario, ofreciéndole la información de manera simple, rápida y eficiente. En este sentido la norma explica que para lograrlo se deben adoptar las siguientes medidas: Ofrecer Contenidos de utilidad: se refiere a que el sitio web debe ser útil desde la perspectiva del usuario, es decir, entregar lo que éste anda buscando. Emplear Etiquetas descriptivas: se refiere a que se deben emplear palabras y descriptores que sean de fácil comprensión y que estén escritas en el lenguaje que hable el usuario, no en la terminología propia de la institución Asegurar la Correcta Indexación: se refiere a preparar la información del sitio web para que sea incluida en sistemas de búsqueda, con el objetivo de que el sitio web pueda ser encontrado por diferentes medios (más de este tema en el"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch135-001",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 135,
+  "chunkIndex": 1,
+  "title": "PRECONDICIONES:",
+  "start": 450,
+  "end": 661,
+  "words": 211,
+  "content": "sencillo saber cu ´al es la pr ´oxima celda a visitar: la ´unica de las contiguas que tiene bolitas negras y en la que no estuvimos antes. Tambi ´en vemos que en este tablero hay 3 celdas con bolitas negras que no pertenecen al Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 152 of 312 -- 153 sendero. Ahora supongamos que la intenci ´on es colocar una rosa (representada mediante una bolita roja) en cada celda del sendero. As´ı, podemos realizar esta tarea definiendo las siguientes operaciones, y luego armando un recorrido con ellas: Operaci ´on gen ´erica Operaci ´on real IniciarRecorrido() BuscarInicioSendero() ProcesarElementoActual() ColocarRosa() PasarAlSiguiente() MoverASiguienteSector() FinalizarRecorrido() ColocarRosa() VolverAlInicioDelSendero() llegoAlUltimoElemento() esFinDelSendero() La operaci ´on de ColocarRosa es trivial. La condici ´on de esFinDelSendero tambi ´en es sim- ple, pues alcanza con mirar el n ´umero de bolitas negras de la celda actual. Las operacio- nes dadas por los procedimientos BuscarInicioSendero y VolverAlInicioDelSendero son, en esta forma simplificada de senderos, nada m ´as que IrALaEsquina(Sur,Oeste). Entonces, la operaci ´on interesante esMoverASiguienteSector, que es una b ´usqueda por las 4 celdas contiguas de aquella que tenga bolitas negras pero no tenga flores y luego moverse all´ı. Se puede realizar con dos subtareas, de la siguiente manera procedure MoverASiguienteSector() {-"
+}

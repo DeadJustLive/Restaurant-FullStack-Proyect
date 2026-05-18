@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch197-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 197,
+  "chunkIndex": 0,
+  "title": "10.4 Implementando la Lógica de Persistencia . . . . . . . . . . . . . 101",
+  "start": 0,
+  "end": 54,
+  "words": 54,
+  "content": "# 12.4 Conclusión Aunque nuestra aplicación empieza a tener un buen aspecto y tiene una funcio- nalidad básica todavia carece de una característica vital: aún no podemos mover notas entre carriles. Esto es algo que solucionaremos en el próximo capítulo cuando implementemos el drag and drop (arrastrar y soltar). -- 154 of 226 --"
+}

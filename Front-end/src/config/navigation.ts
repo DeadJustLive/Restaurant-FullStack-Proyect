@@ -3,14 +3,17 @@ import {
   ChefHat, 
   UtensilsCrossed,
   Truck, 
-  BookOpen,
   Settings,
   UserCircle,
   Users,
   Store,
   Tags,
   ClipboardList,
-  CreditCard
+  CreditCard,
+  BookOpen,
+  ShoppingCart,
+  Bell,
+  BarChart3
 } from 'lucide-react';
 
 export type Role = 'ROLE_SA' | 'ROLE_AD' | 'ROLE_CO' | 'ROLE_RP' | 'ROLE_ME' | 'ROLE_CL';
@@ -62,6 +65,14 @@ export const navigationConfig: NavItem[] = [
     adminOnly: true,
   },
   {
+    id: 'menu',
+    title: 'Platos y Menú',
+    href: '/admin/menu',
+    icon: BookOpen,
+    roles: ['ROLE_SA', 'ROLE_AD'],
+    adminOnly: true,
+  },
+  {
     id: 'inventario',
     title: 'Inventario',
     href: '/admin/inventario',
@@ -96,6 +107,28 @@ export const navigationConfig: NavItem[] = [
     href: '/admin/pagos',
     icon: CreditCard,
     roles: ['ROLE_SA', 'ROLE_AD'],
+  },
+  {
+    id: 'carrito',
+    title: 'Carrito',
+    href: '/carrito',
+    icon: ShoppingCart,
+    roles: ['ROLE_CL', 'ROLE_ME'],
+  },
+  {
+    id: 'notificaciones',
+    title: 'Notificaciones',
+    href: '/notificaciones',
+    icon: Bell,
+    roles: ['ROLE_SA', 'ROLE_AD', 'ROLE_CO', 'ROLE_ME', 'ROLE_RP', 'ROLE_CL'],
+  },
+  {
+    id: 'reportes',
+    title: 'Reportes',
+    href: '/admin/reportes',
+    icon: BarChart3,
+    roles: ['ROLE_SA', 'ROLE_AD'],
+    adminOnly: true,
   },
 ];
 

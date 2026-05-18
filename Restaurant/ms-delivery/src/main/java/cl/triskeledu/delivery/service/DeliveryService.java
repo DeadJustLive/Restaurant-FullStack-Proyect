@@ -12,13 +12,13 @@ import cl.triskeledu.delivery.entity.enums.EstadoDelivery;
  */
 public interface DeliveryService {
 
-    DeliveryResponseDTO crearDelivery(DeliveryRequestDTO dto);
+    DeliveryResponseDTO crearDelivery(Long credencialId, DeliveryRequestDTO dto);
 
     DeliveryResponseDTO getByPedidoId(Long pedidoId);
 
-    DeliveryResponseDTO asignarRepartidor(Long id, AsignarRepartidorDTO dto);
+    DeliveryResponseDTO asignarRepartidor(Long credencialId, Long id, AsignarRepartidorDTO dto);
 
-    DeliveryResponseDTO actualizarEstado(Long id, EstadoDelivery nuevoEstado, String observaciones);
+    DeliveryResponseDTO actualizarEstado(Long credencialId, Long id, EstadoDelivery nuevoEstado, String observaciones);
 
     DeliveryResponseDTO getById(Long id);
 

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch182-001",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 182,
+  "chunkIndex": 1,
+  "title": "OBSERVACIONES:",
+  "start": 450,
+  "end": 644,
+  "words": 194,
+  "content": "azules. Definiremos los siguientes procedimientos y funciones concernientes a la zona de juego // Operaciones de movimiento en la zona de n´umeros actual // function puedeMoverEnZonaDeNumeroAl(dir) // procedure IrAlBordeDeZonaDeNumeros(dir) // // Operaciones para leer y grabar un n´umero de una // zona de n´umeros // function leerZonaDeNumeros() // function hayDigito() Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 187 of 312 -- 188 // function leerDigito() // procedure GrabarNumeroEnZonaDeNumeros(numero) // procedure GrabarDigitoEnCelda(dig) // // Operaciones para modificar una zona de n´umeros // procedure BorrarZonaDeNumeros() // procedure AgregarDigitoAZonaDeNumerosPorIzq(dig) // procedure IncrementarZonaDeNumeros() // procedure IncrementarDigitoDeCelda() La primera funci ´on a definir permite controlar si es posible moverse en una direcci ´on de- terminada dentro de la zona de n ´umeros. Dado que no es posible moverse en direcci ´on Norte o Sur, la pregunta carece de sentido en estos casos, por lo que supondremos como precondici ´on que la direcci ´on no es ninguna de esas dos. Adem ´as, para que la funci ´on tenga sentido la celda actual debe encontrarse dentro de una zona de n ´umeros. El c ´odigo de la funci ´on ser ´a entonces muy simple function puedeMoverEnZonaDeNumeroAl(dir) /*"
+}

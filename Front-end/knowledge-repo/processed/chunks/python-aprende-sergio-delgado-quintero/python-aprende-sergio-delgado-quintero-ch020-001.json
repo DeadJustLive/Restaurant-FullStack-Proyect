@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch020-001",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 20,
+  "chunkIndex": 1,
+  "title": "3.3 Cadenas de texto",
+  "start": 450,
+  "end": 604,
+  "words": 154,
+  "content": "str(True) True >>> str(10) 10 >>> str(21.7) 21.7 Para el caso contrario de convertir un «string» a un valor numérico, tenemos a disposición las funciones ya vistas: >>> int( 10 ) 10 >>> float( 21.7 ) 21.7 Pero hay que tener en cuenta un detalle. La función int() también admite la base en la que se encuentra el número. Eso significa que podemos pasar un número, por ejemplo, en hexadecimal (como «string») y lo podríamos convertir a su valor entero: >>> int( FF , 16) 255 Nota: La base por defecto que utiliza int() para convertir cadenas de texto es la base decimal. 3.3.3 Secuencias de escape Python permite escapar el significado de algunos caracteres para conseguir otros resultados. Si escribimos una barra invertida \\ antes del carácter en cuestión, le otorgamos un significado especial. Quizás la secuencia de escape más conocida es \\n que representa un salto de línea, pero existen muchas otras:"
+}

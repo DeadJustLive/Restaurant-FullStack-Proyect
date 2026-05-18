@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch083-001",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 83,
+  "chunkIndex": 1,
+  "title": "84893.0 Cuantiles (por defecto 50%)",
+  "start": 450,
+  "end": 740,
+  "words": 290,
+  "content": "58604 California United States Sony 84893 109700 Tokyo Japan Hitachi 82345 350864 Tokyo Japan Intel 77867 110600 California United States IBM 73620 364800 New York United States Tencent 69864 85858 Shenzhen China Panasonic 63191 243540 Osaka Japan Lenovo 60742 71500 Hong Kong China HP Inc. 56639 53000 California United States LG Electronics 53625 75000 Seoul South Korea También es posible utilizar varias columnas en la ordenación. Pongamos que deseamos ordenar los datos por país y por ciudad. Veamos cómo afrontarlo: >>> df.sort_values(by=[ Country , City ]) Revenue Employees City Country Company Lenovo 60742 71500 Hong Kong China Huawei 129184 197000 Shenzhen China Tencent 69864 85858 Shenzhen China Panasonic 63191 243540 Osaka Japan Sony 84893 109700 Tokyo Japan Hitachi 82345 350864 Tokyo Japan LG Electronics 53625 75000 Seoul South Korea Samsung Electronics 200734 267937 Suwon South Korea Foxconn 181945 878429 New Taipei City Taiwan Apple 274515 147000 California United States Alphabet 182527 135301 California United States Facebook 85965 58604 California United States Intel 77867 110600 California United States HP Inc. 56639 53000 California United States IBM 73620 364800 New York United States Dell Technologies 92224 158000 Texas United States Microsoft 143015 163000 Washington United States 420 Capítulo 8. Ciencia de datos -- 424 of 516 -- Aprende Python Buscando máximos y mínimos Al igual que veíamos en el caso de las series, podemos aplicar muchas de estas funciones de máximos y mínimos sobre un DataFrame de Pandas. Podemos obtener los valores mínimos y máximos de todas las columnas: >>> df.min() Revenue 53625 Employees 53000 City California Country China dtype: object >>> df.max() Revenue 274515 Employees 878429 City Washington Country United States dtype: object También podría ser de utilidad saber qué empresa tiene el valor mínimo o máximo para una determinada columna:"
+}

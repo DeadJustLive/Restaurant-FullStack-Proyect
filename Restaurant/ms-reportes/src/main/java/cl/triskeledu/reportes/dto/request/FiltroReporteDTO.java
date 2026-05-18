@@ -17,10 +17,13 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class FiltroReporteDTO {
 
+    @NotNull(message = "La credencial es obligatoria")
+    private Long credencialId;
+
     @NotNull(message = "El tipo de reporte es obligatorio")
     private TipoReporte tipo;
 
-    private Long sucursalId; // Opcional para reportes globales
+    private Long sucursalId;
 
     @NotNull(message = "La fecha de inicio es obligatoria")
     private LocalDate fechaInicio;

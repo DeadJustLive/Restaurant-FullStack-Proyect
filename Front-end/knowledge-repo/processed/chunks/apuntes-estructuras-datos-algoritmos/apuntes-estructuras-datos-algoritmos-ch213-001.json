@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch213-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 213,
+  "chunkIndex": 1,
+  "title": "3. Implementación en C++",
+  "start": 450,
+  "end": 644,
+  "words": 194,
+  "content": "unidades). Después se seleccionan las parejas (a,b), (b,c) y (e,f). La distancia es para todas ellas igual (5 unidades). La siguiente pareja de distancia mínima es (a,c), con longitud 7,07. Sin embargo, esta pareja cierra un recorrido junto con otras dos ya seleccionadas, (b,c) y (a,b), por lo que se descarta. La siguiente pareja es (d,f) y se descarta también por motivos similares. La siguiente es la pareja (b,e), pero debe rechazarse también porque su inclusión haría visitar más de una vez los puntos b y e. La pareja (b,d) se rechaza por motivos similares (el punto b habría que visitarlo dos veces). La siguiente pareja que debe considerarse es -- 229 of 267 -- 216 (c,d), y puede seleccionarse. Las parejas (b,f), (c,e), (a,e) y (a,d) no son aceptables. Finalmente, la pareja (a,f) cierra el recorrido: a b c d e f Este recorrido no es el óptimo pues su longitud es de 50 unidades. No obstante, es el cuarto mejor recorrido de entre los sesenta (esencialmente distintos) posibles y es más costoso que el óptimo en sólo un 3,3%. -- 230 of 267 -- 217 Anexo 4: Especificación algebraica de TAD Indice"
+}

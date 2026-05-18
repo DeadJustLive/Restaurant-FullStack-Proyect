@@ -1,0 +1,183 @@
+# React hooks
+
+## Fuente
+CapacitorJS — Documentación Oficial (Cap. 30)
+
+## Contenido
+# React hooks
+
+## Products
+
+## Open Source
+
+# Using Capacitor in a Web Project
+
+## Browser Support​
+
+## Installation​
+
+### Using Capacitor as a Module​
+
+### Using Capacitor as a Script Include​
+
+## Going Live​
+
+## Contents
+
+Capacitor fully supports traditional web and Progressive Web Apps. In fact, using Capacitor makes it easy to ship a PWA version of your iOS and Android app store apps with minimal work.
+
+Capacitor core and plugins build for ES2017. This newer JavaScript syntax is supported in all modern browsers (including those that power PWAs on iOS and Android), but will not work in IE11 without additional JavaScript transformations, e.g. withBabel.
+
+Plugins with web support will perform feature detection and throw exceptions if a browser does not support a particular Web API.
+
+If you're already building with Capacitor for iOS or Android, there are no additional installation steps!
+
+Otherwise, see theInstallationguide before continuing.
+
+Most commonly, apps will be using a framework with a build system that supports importing JavaScript modules. By importing from@capacitor/core, or by importing a plugin, the Capacitor JavaScript runtime will be loaded with your app.
+
+This option is no longer available, please, use a JavaScript module bundler.
+
+When you're ready to publish your Progressive Web App and share it with the world, just upload the contents of your web assets directory.
+
+That will contain everything you need to run your app!
+
+Micro Frontends for any React Native, Android, or iOS mobile apps.
+
+## Código
+
+```
+@capacitor/core
+```
+
+- v8
+- v7
+- v6
+- v5
+- v4
+- v3
+- v2
+
+- Appflow
+- Portals
+
+- Ionic Framework
+- Capacitor
+- Stencil
+
+- Getting StartedIntroductionEnvironment SetupInstalling CapacitorBuilding Your UIUsing with Ionic FrameworkVS Code ExtensionCapacitor TemplatesFAQs
+- Introduction
+- Environment Setup
+- Installing Capacitor
+- Building Your UI
+- Using with Ionic Framework
+- VS Code Extension
+- Capacitor Templates
+- FAQs
+- BasicsDevelopment WorkflowUsing PluginsConfiguring Your AppJavaScript API
+- Development Workflow
+- Using Plugins
+- Configuring Your App
+- JavaScript API
+- Upgrade GuidesUpdating to 8.0Updating plugins to 8.0Updating to 7.0Updating plugins to 7.0Updating to 6.0Updating plugins to 6.0Updating to 5.0Updating plugins to 5.0Updating to 4.0Updating to 3.0Updating to 2.0Updating to 1.1Updating plugins to 3.0
+- Updating to 8.0
+- Updating plugins to 8.0
+- Updating to 7.0
+- Updating plugins to 7.0
+- Updating to 6.0
+- Updating plugins to 6.0
+- Updating to 5.0
+- Updating plugins to 5.0
+- Updating to 4.0
+- Updating to 3.0
+- Updating to 2.0
+- Updating to 1.1
+- Updating plugins to 3.0
+- Cordova/PhoneGapOverviewMigrating StrategyCordova to Capacitor Migration
+- Overview
+- Migrating Strategy
+- Cordova to Capacitor Migration
+- ConceptsAdsAngularAutofill CredentialsAutomated ConfigurationCI/CDDeep LinksDeploying and UpdatingEnvironment Specific ConfigurationsGamesIn App PurchasesLive ReloadMocking PluginsPush Notifications - FirebaseReact HooksScreen OrientationSecuritySplash Screens and IconsStorageCommunity Guides
+- Ads
+- Angular
+- Autofill Credentials
+- Automated Configuration
+- CI/CD
+- Deep Links
+- Deploying and Updating
+- Environment Specific Configurations
+- Games
+- In App Purchases
+- Live Reload
+- Mocking Plugins
+- Push Notifications - Firebase
+- React Hooks
+- Screen Orientation
+- Security
+- Splash Screens and Icons
+- Storage
+- Community Guides
+- iOSGetting StartedConfiguring iOSCustom Native iOS CodePrivacy ManifestDeploying to App StoreCustom ViewControllerTroubleshootingSwift Package Manager
+- Getting Started
+- Configuring iOS
+- Custom Native iOS Code
+- Privacy Manifest
+- Deploying to App Store
+- Custom ViewController
+- Troubleshooting
+- Swift Package Manager
+- AndroidGetting StartedConfigurationCustom Native CodeSetting Target SDKDeploying to Google PlayTroubleshooting
+- Getting Started
+- Configuration
+- Custom Native Code
+- Setting Target SDK
+- Deploying to Google Play
+- Troubleshooting
+- Web/PWAGetting StartedBuilding Progressive Web AppsPWA Elements
+- Getting Started
+- Building Progressive Web Apps
+- PWA Elements
+- ReferenceConfigCapacitor iOS APICapacitor Android APICapacitor Web APICapacitor Data TypesPersisting Plugin CallsPlugin APIsSupport PolicyCLI
+- Config
+- Capacitor iOS API
+- Capacitor Android API
+- Capacitor Web API
+- Capacitor Data Types
+- Persisting Plugin Calls
+- Plugin APIs
+- Support Policy
+- CLI
+
+- Introduction
+- Environment Setup
+- Installing Capacitor
+- Building Your UI
+- Using with Ionic Framework
+- VS Code Extension
+- Capacitor Templates
+- FAQs
+
+- Development Workflow
+- Using Plugins
+- Configuring Your App
+- JavaScript API
+
+- Updating to 8.0
+- Updating plugins to 8.0
+- Updating to 7.0
+- Updating plugins to 7.0
+- Updating to 6.0
+- Updating plugins to 6.0
+- Updating to 5.0
+- Updating plugins to 5.0
+- Updating to 4.0
+- Updating to 3.0
+- Updating to 2.0
+- Updating to 1.1
+- Updating plugins to 3.0
+
+- Overview
+- Migrating Strategy
+- Cordova to Capacitor Migration
+
+

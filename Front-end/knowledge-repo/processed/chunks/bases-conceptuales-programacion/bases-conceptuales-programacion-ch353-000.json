@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch353-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 353,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 26,
+  "words": 26,
+  "content": "# PRECONDICIONES: * default <hay un tablero de Zilfost codificado> * o bien no hay d´ıgito, o bien es un d´ıgito v´alido (entre 0 y 9)"
+}

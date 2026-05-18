@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch164-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 164,
+  "chunkIndex": 0,
+  "title": "INGENIERIA DE SISTEMAS",
+  "start": 0,
+  "end": 190,
+  "words": 190,
+  "content": "# INGENIERIA DE SISTEMAS Para calcular la sumatoria de esta progresión aplicamos la fórmula matemática para la suma de una progresión aritmética así: Suma= ∑ 𝑖 𝑛 1 =𝑛(𝑛+1) 2 En todas las matrices de este tipo se analiza: 1<=i<=n y 1<=j<=n , con i número de la fila y j número de la columna. Aplicando el método de inducción matemática en este caso se obtiene que un elemento perteneciente a la fila i columna j su pos el vector se obtiene con base a la suma de los elementos de las i-1 filas anteriores más la columna j así: pos para datos diferentes de cero de la fila 1, columna 1 es: i-1+j=1-1+1=1 pos para datos diferentes de cero de la fila 2, columna 1 es: i-1+j=2-1+1=2 pos para datos diferentes de cero de la fila 3, columna 1 es: 3-1+1=3 En general pos =(∑ 𝑖 𝑖−1 1 )+j ∑ 𝑖 𝑖−1 1 =i*(i-1)/2 De esa manera que: Pos=i*(i-1)/2+j En este caso es válido para los elementos que pertenezcan a la matriz triangular inferior, es decir: Para todo i,j tales que i>=j 3.4.2 FORMULA DE DIRECCIONAMIENTO DE MATRIZ TRIDIAGONAL"
+}

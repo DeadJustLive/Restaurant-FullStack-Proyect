@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch122-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 122,
+  "chunkIndex": 0,
+  "title": "LIGA1 LIGA2 LIGA3 DATO",
+  "start": 0,
+  "end": 19,
+  "words": 19,
+  "content": "# 2) Elabore un algoritmo que imprima el recorrido BFS de un grafo representado como listas ligadas de adyacencia"
+}

@@ -1,0 +1,60 @@
+# 5.3 Propiedades y Métodos Propios
+
+## Fuente
+react-aprendiz-maestro (Cap. 50)
+
+## Contenido
+# 5.3 Propiedades y Métodos Propios
+
+Más allá del ciclo de vida y de las referencias hay una gran cantidad de propiedades
+y métodos4 de los cuales deberías ser consciente, especialmente si vas a utilizar
+React.createClass:
+3https://facebook.github.io/react/docs/more-about-refs.html
+4https://facebook.github.io/react/docs/component-specs.html
+
+-- 59 of 226 --
+
+Comprendiendo los Componentes de React 42
+• displayName - Es preferible establecer un displayName ya que nos permitirá
+depurar mejor. Para las clases de ES6 este valor se genera automáticamente a
+partir del nombre de la clase. Puedes ponerle también un displayName a un
+componente basado en una función anónima.
+• getInitialState() - Se puede conseguir lo mismo con clases utilizando el
+constructor.
+• getDefaultProps() - En clases las estableces dentro del constructor.
+• render() - Es la piedra angular de React. Debe devolver un único nodo5 ya
+que si devuelves varios no funcionará.
+• mixins - mixins contiene un array de mixins que aplicar a los componentes.
+• statics - statics contiene propiedades estáticas y métodos para un compo-
+nente. Con ES6 puedes asignárselos a la clase del siguiente modo:
+class Note {
+render() {
+...
+}
+}
+Note.willTransitionTo = () => {...};
+export default Note;
+También puedes escribirlo así:
+5https://facebook.github.io/react/tips/maximum-number-of-jsx-root-nodes.html
+
+-- 60 of 226 --
+
+Comprendiendo los Componentes de React 43
+class Note {
+static willTransitionTo() {...}
+render() {
+...
+}
+}
+export default Note;
+Algunas librerías, como React DnD, se apoyan en métodos estáticos para facilitar
+enganches de transición. Esto te permite controlar qué ocurre cuando un componente
+se muestra o se oculta. Por definición todo lo estático se encuentra disponible en la
+propia clase.
+Los componentes de React te permiten documentar la interfaz de tu componente
+utilizando propTypes de este modo:
+const Note = ({task}) => <div>{task}</div>;
+Note.propTypes = {
+task: React.PropTypes.string.isRequired
+}
+Lee el capítulo Tipado con React Para saber más sobre propTypes.

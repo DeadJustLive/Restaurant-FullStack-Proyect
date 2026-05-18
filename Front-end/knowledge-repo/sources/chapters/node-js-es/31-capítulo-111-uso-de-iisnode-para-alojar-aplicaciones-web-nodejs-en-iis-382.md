@@ -1,0 +1,39 @@
+# Capítulo 111:: Uso de IISNode para alojar aplicaciones web Node.js en IIS 382
+
+Observaciones 382
+Directorio virtual / Aplicación anidada con vistas sin errores 382
+Versiones 382
+Examples 382
+Empezando 382
+Requerimientos 382
+Ejemplo básico de Hello World usando Express 383
+Proyecto Strucure 383
+
+-- 27 of 423 --
+
+server.js - Aplicación Express 383
+Configuración y Web.config 383
+Configuración 384
+IISNode Handler 384
+Reglas de reescritura de URL 384
+Uso de un directorio virtual de IIS o una aplicación anidada a través de 385
+Usando Socket.io con IISNode 386
+Creditos 388
+
+-- 28 of 423 --
+
+Acerca de
+You can share this PDF with anyone you feel could benefit from it, downloaded the latest version
+from: node-js
+It is an unofficial and free Node.js ebook created for educational purposes. All the content is
+extracted from Stack Overflow Documentation, which is written by many hardworking individuals at
+Stack Overflow. It is neither affiliated with Stack Overflow nor official Node.js.
+The content is released under Creative Commons BY-SA, and the list of contributors to each
+chapter are provided in the credits section at the end of this book. Images may be copyright of
+their respective owners unless otherwise specified. All trademarks and registered trademarks are
+the property of their respective company owners.
+Use the content presented in this book at your own risk; it is not guaranteed to be correct nor
+accurate, please send your feedback and corrections to info@zzzprojects.com
+https://riptutorial.com/es/home 1
+
+-- 29 of 423 --

@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch225-000",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 225,
+  "chunkIndex": 0,
+  "title": "2. Representación estática e implementación de operaciones",
+  "start": 0,
+  "end": 32,
+  "words": 32,
+  "content": "# 1. El álgebra de términos cerrados sobre SIG, TSIG, es inicial en la clase ALG(SIG). El único homomorfismo de TSIG a cualquier SIG-álgebra A es la evaluación de términos t A."
+}

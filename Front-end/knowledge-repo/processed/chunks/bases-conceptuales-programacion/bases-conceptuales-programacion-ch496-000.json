@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch496-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 496,
+  "chunkIndex": 0,
+  "title": "PROP´OSITO:",
+  "start": 0,
+  "end": 41,
+  "words": 41,
+  "content": "# OBSERVACIONES: * al bajar las filas sobre la actual, se borra la que estaba, y la condici´on puede cambiar * al terminar, la fila actual no est´a llena */ { while (esFilaLlena()) { BajarFilasSobreEsta() } } //---------------------------------------------------- function esFilaLlena() /*"
+}

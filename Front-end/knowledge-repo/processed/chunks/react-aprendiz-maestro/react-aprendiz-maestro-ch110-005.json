@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch110-005",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 110,
+  "chunkIndex": 5,
+  "title": "11.5 Extrayendo LaneHeader (Cabecera de Carril)",
+  "start": 2250,
+  "end": 2444,
+  "words": 194,
+  "content": "Fisher, Rory Hunter, Dario Carella, Toni Laukka, Blake Dietz, Felipe Almeida, Greg Kedge, Deepak Kannan, Jake Peyser, Alfred Lau, Tom Byrer, Stefanos Grammenos, Lionel Ringenbach, Hamilton Greene, Daniel Robinson, @karloxyz, Nicolò Ribaudo, Andrew Wooldridge, Francois Constant, Wes Price, Dawid Karabin, @alavkx, Aitor Gómez-Goiri, P.E. Butler III, @TomV, John Korzhuk, @markfox1, Jaime Liz, Richard C. Davis, y muchos otros. Si no he puesto tu nombre puede que haya olvidado incluirlo. -- 18 of 226 -- I Comenzando React ha tenido un impacto significativo en la comunidad de desarrolladores de frontend a pesar de ser una librería reciente. Introduce conceptos, como el DOM virtual, y ha hecho que la comunidad entienda el poder de los componentes. Su dieño orientado a componentes funciona bien con la web, aunque React no está limitado a la web, puedes utilizarlo para desarrollar aplicaciones móviles e incluso interfaces de usuario que funcionen por una terminal. En este apartado comenzaremos a bucear dentro de React e implementaremos una pequeña aplicación de notas. Esto es algo que en algún momento se convertirá en un Kanban. Aprenderás lo más basico de React y te acostumbrarás a trabajar con él. -- 19 of 226 --"
+}

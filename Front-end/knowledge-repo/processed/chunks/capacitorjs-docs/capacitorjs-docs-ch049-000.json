@@ -1,0 +1,11 @@
+{
+  "id": "capacitorjs-docs-ch049-000",
+  "bookId": "capacitorjs-docs",
+  "chapterIndex": 49,
+  "chunkIndex": 0,
+  "title": "Setup Android product flavors​",
+  "start": 0,
+  "end": 26,
+  "words": 26,
+  "content": "# Setup Android product flavors​ ## Setup Android product flavors​ ### Modify the App's Gradle file​ ### Update the Android manifest​ ### Add Android-specific Capacitor configuration​"
+}

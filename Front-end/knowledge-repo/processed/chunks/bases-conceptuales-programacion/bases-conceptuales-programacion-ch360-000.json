@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch360-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 360,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 32,
+  "words": 32,
+  "content": "# OBSERVACIONES: * 2 al Norte del origen de la zona de pr´oxima pieza */ { IrAlOrigenDeZonaDeProximaPieza() MoverN(Norte,2) } //---------------------------------------------------- procedure IrAlOrigenDeZonaDeSemilla() /* PROP´OSITO: ir al origen de la zona de semilla"
+}

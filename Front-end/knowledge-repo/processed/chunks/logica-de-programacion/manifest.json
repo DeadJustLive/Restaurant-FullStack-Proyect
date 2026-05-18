@@ -1,0 +1,2767 @@
+{
+  "bookId": "logica-de-programacion",
+  "totalChunks": 394,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.252Z",
+  "chunks": [
+    {
+      "id": "logica-de-programacion-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-001",
+      "chapterIndex": 1,
+      "chunkIndex": 1,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-002",
+      "chapterIndex": 1,
+      "chunkIndex": 2,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-003",
+      "chapterIndex": 1,
+      "chunkIndex": 3,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-004",
+      "chapterIndex": 1,
+      "chunkIndex": 4,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-005",
+      "chapterIndex": 1,
+      "chunkIndex": 5,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-006",
+      "chapterIndex": 1,
+      "chunkIndex": 6,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-007",
+      "chapterIndex": 1,
+      "chunkIndex": 7,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-008",
+      "chapterIndex": 1,
+      "chunkIndex": 8,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-009",
+      "chapterIndex": 1,
+      "chunkIndex": 9,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-010",
+      "chapterIndex": 1,
+      "chunkIndex": 10,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-011",
+      "chapterIndex": 1,
+      "chunkIndex": 11,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-012",
+      "chapterIndex": 1,
+      "chunkIndex": 12,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-013",
+      "chapterIndex": 1,
+      "chunkIndex": 13,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-014",
+      "chapterIndex": 1,
+      "chunkIndex": 14,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-015",
+      "chapterIndex": 1,
+      "chunkIndex": 15,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-016",
+      "chapterIndex": 1,
+      "chunkIndex": 16,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-017",
+      "chapterIndex": 1,
+      "chunkIndex": 17,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-018",
+      "chapterIndex": 1,
+      "chunkIndex": 18,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-019",
+      "chapterIndex": 1,
+      "chunkIndex": 19,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-020",
+      "chapterIndex": 1,
+      "chunkIndex": 20,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-021",
+      "chapterIndex": 1,
+      "chunkIndex": 21,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-022",
+      "chapterIndex": 1,
+      "chunkIndex": 22,
+      "title": "4 ´INDICE GENERAL",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch001-023",
+      "chapterIndex": 1,
+      "chunkIndex": 23,
+      "title": "4 ´INDICE GENERAL",
+      "words": 274
+    },
+    {
+      "id": "logica-de-programacion-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "1. Posee la tarjeta y la clave de ella, podr´a realizar transacciones.",
+      "words": 13
+    },
+    {
+      "id": "logica-de-programacion-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "2. Posee la tarjeta, pero no la clave, por lo tanto, no podr´a realizar",
+      "words": 16
+    },
+    {
+      "id": "logica-de-programacion-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "3. No posee la tarjeta y posee la clave, no podr´a realizar transacciones.",
+      "words": 14
+    },
+    {
+      "id": "logica-de-programacion-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "4. No posee la tarjeta, ni la clave, por consiguiente, no podr´a realizar",
+      "words": 238
+    },
+    {
+      "id": "logica-de-programacion-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "1. Le regalo tanto el perro como el gato, estar´ıa feliz.",
+      "words": 12
+    },
+    {
+      "id": "logica-de-programacion-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "2. Solamente le doy el perro, estar´ıa feliz.",
+      "words": 9
+    },
+    {
+      "id": "logica-de-programacion-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "3. Solamente le regalo el gato, estar´ıa feliz.",
+      "words": 9
+    },
+    {
+      "id": "logica-de-programacion-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "4. Pens´andolo bien, ella est´a muy ni˜na para hacerse cargo de una",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch009-001",
+      "chapterIndex": 9,
+      "chunkIndex": 1,
+      "title": "4. Pens´andolo bien, ella est´a muy ni˜na para hacerse cargo de una",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch009-002",
+      "chapterIndex": 9,
+      "chunkIndex": 2,
+      "title": "4. Pens´andolo bien, ella est´a muy ni˜na para hacerse cargo de una",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch009-003",
+      "chapterIndex": 9,
+      "chunkIndex": 3,
+      "title": "4. Pens´andolo bien, ella est´a muy ni˜na para hacerse cargo de una",
+      "words": 148
+    },
+    {
+      "id": "logica-de-programacion-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "1. Descripci´on narrada.",
+      "words": 4
+    },
+    {
+      "id": "logica-de-programacion-ch100-000",
+      "chapterIndex": 100,
+      "chunkIndex": 0,
+      "title": "4. Un periodo acad´emico se considera aprobado, si al promediar las",
+      "words": 47
+    },
+    {
+      "id": "logica-de-programacion-ch101-000",
+      "chapterIndex": 101,
+      "chunkIndex": 0,
+      "title": "5. Al finalizar el semestre, el estudiante ser´a clasificado en una de las",
+      "words": 39
+    },
+    {
+      "id": "logica-de-programacion-ch102-000",
+      "chapterIndex": 102,
+      "chunkIndex": 0,
+      "title": "6. Un estudiante quedar´a excluido por bajo rendimiento, si cumple una",
+      "words": 40
+    },
+    {
+      "id": "logica-de-programacion-ch103-000",
+      "chapterIndex": 103,
+      "chunkIndex": 0,
+      "title": "7. Se considera que un estudiante queda en situaci´on condicional, si",
+      "words": 30
+    },
+    {
+      "id": "logica-de-programacion-ch104-000",
+      "chapterIndex": 104,
+      "chunkIndex": 0,
+      "title": "8. Si el estudiante no presenta ninguna de las dos anteriores",
+      "words": 311
+    },
+    {
+      "id": "logica-de-programacion-ch105-000",
+      "chapterIndex": 105,
+      "chunkIndex": 0,
+      "title": "1. Por estudiante.",
+      "words": 4
+    },
+    {
+      "id": "logica-de-programacion-ch106-000",
+      "chapterIndex": 106,
+      "chunkIndex": 0,
+      "title": "2. Por grupo.",
+      "words": 4
+    },
+    {
+      "id": "logica-de-programacion-ch107-000",
+      "chapterIndex": 107,
+      "chunkIndex": 0,
+      "title": "3. General, es decir, del total de los estudiantes.",
+      "words": 38
+    },
+    {
+      "id": "logica-de-programacion-ch108-000",
+      "chapterIndex": 108,
+      "chunkIndex": 0,
+      "title": "1. Se pueden definir 6 variables para almacenar la nota definitiva",
+      "words": 23
+    },
+    {
+      "id": "logica-de-programacion-ch109-000",
+      "chapterIndex": 109,
+      "chunkIndex": 0,
+      "title": "2. Se define una sola variable para leer la nota definitiva de cada",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch109-001",
+      "chapterIndex": 109,
+      "chunkIndex": 1,
+      "title": "2. Se define una sola variable para leer la nota definitiva de cada",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch109-002",
+      "chapterIndex": 109,
+      "chunkIndex": 2,
+      "title": "2. Se define una sola variable para leer la nota definitiva de cada",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch109-003",
+      "chapterIndex": 109,
+      "chunkIndex": 3,
+      "title": "2. Se define una sola variable para leer la nota definitiva de cada",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch109-004",
+      "chapterIndex": 109,
+      "chunkIndex": 4,
+      "title": "2. Se define una sola variable para leer la nota definitiva de cada",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch109-005",
+      "chapterIndex": 109,
+      "chunkIndex": 5,
+      "title": "2. Se define una sola variable para leer la nota definitiva de cada",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch109-006",
+      "chapterIndex": 109,
+      "chunkIndex": 6,
+      "title": "2. Se define una sola variable para leer la nota definitiva de cada",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch109-007",
+      "chapterIndex": 109,
+      "chunkIndex": 7,
+      "title": "2. Se define una sola variable para leer la nota definitiva de cada",
+      "words": 345
+    },
+    {
+      "id": "logica-de-programacion-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "2. Diagramas de flujo.",
+      "words": 5
+    },
+    {
+      "id": "logica-de-programacion-ch110-000",
+      "chapterIndex": 110,
+      "chunkIndex": 0,
+      "title": "1. Responda las siguientes preguntas:",
+      "words": 219
+    },
+    {
+      "id": "logica-de-programacion-ch111-000",
+      "chapterIndex": 111,
+      "chunkIndex": 0,
+      "title": "2. Tome cada uno de los ejemplos de este cap´ıtulo y reescr´ıbalos usando",
+      "words": 30
+    },
+    {
+      "id": "logica-de-programacion-ch112-000",
+      "chapterIndex": 112,
+      "chunkIndex": 0,
+      "title": "3. Usando la instrucci´on Para, represente los siguientes enunciados:",
+      "words": 62
+    },
+    {
+      "id": "logica-de-programacion-ch113-000",
+      "chapterIndex": 113,
+      "chunkIndex": 0,
+      "title": "4. Dado los extremos de un intervalo [M, N], halle la sumatoria de los",
+      "words": 25
+    },
+    {
+      "id": "logica-de-programacion-ch114-000",
+      "chapterIndex": 114,
+      "chunkIndex": 0,
+      "title": "5. Dada una poblaci´on, m´aximo de 500 habitantes, determinar cu´antos",
+      "words": 29
+    },
+    {
+      "id": "logica-de-programacion-ch115-000",
+      "chapterIndex": 115,
+      "chunkIndex": 0,
+      "title": "6. Genere e imprima los m´ultiplos de 3 que se encuentren entre 6 y n,",
+      "words": 24
+    },
+    {
+      "id": "logica-de-programacion-ch116-000",
+      "chapterIndex": 116,
+      "chunkIndex": 0,
+      "title": "7. En 1937, el matem´atico alem´an Lothar Collatz, enunci´o la conjetura",
+      "words": 189
+    },
+    {
+      "id": "logica-de-programacion-ch117-000",
+      "chapterIndex": 117,
+      "chunkIndex": 0,
+      "title": "8. Lea un n´umero entero positivo, descomp´ongalo en cada una de sus",
+      "words": 35
+    },
+    {
+      "id": "logica-de-programacion-ch118-000",
+      "chapterIndex": 118,
+      "chunkIndex": 0,
+      "title": "9. Dado un n´umero menor o igual a 50, calcule su factorial mediante",
+      "words": 16
+    },
+    {
+      "id": "logica-de-programacion-ch119-000",
+      "chapterIndex": 119,
+      "chunkIndex": 0,
+      "title": "10. El cajero de un restaurante desea controlar el flujo de caja en un",
+      "words": 186
+    },
+    {
+      "id": "logica-de-programacion-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "3. Pseudoc´odigo.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch012-001",
+      "chapterIndex": 12,
+      "chunkIndex": 1,
+      "title": "3. Pseudoc´odigo.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch012-002",
+      "chapterIndex": 12,
+      "chunkIndex": 2,
+      "title": "3. Pseudoc´odigo.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch012-003",
+      "chapterIndex": 12,
+      "chunkIndex": 3,
+      "title": "3. Pseudoc´odigo.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch012-004",
+      "chapterIndex": 12,
+      "chunkIndex": 4,
+      "title": "3. Pseudoc´odigo.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch012-005",
+      "chapterIndex": 12,
+      "chunkIndex": 5,
+      "title": "3. Pseudoc´odigo.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch012-006",
+      "chapterIndex": 12,
+      "chunkIndex": 6,
+      "title": "3. Pseudoc´odigo.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch012-007",
+      "chapterIndex": 12,
+      "chunkIndex": 7,
+      "title": "3. Pseudoc´odigo.",
+      "words": 63
+    },
+    {
+      "id": "logica-de-programacion-ch120-000",
+      "chapterIndex": 120,
+      "chunkIndex": 0,
+      "title": "11. En el Ejemplo 4.15 se hizo un algoritmo que informaba si un n´umero",
+      "words": 41
+    },
+    {
+      "id": "logica-de-programacion-ch121-000",
+      "chapterIndex": 121,
+      "chunkIndex": 0,
+      "title": "12. Simule el funcionamiento de un temporizador, que reciba como",
+      "words": 49
+    },
+    {
+      "id": "logica-de-programacion-ch122-000",
+      "chapterIndex": 122,
+      "chunkIndex": 0,
+      "title": "13. Usando estructuras repetitivas, elabore un algoritmo, que genere e",
+      "words": 20
+    },
+    {
+      "id": "logica-de-programacion-ch123-000",
+      "chapterIndex": 123,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E D C B A",
+      "words": 27
+    },
+    {
+      "id": "logica-de-programacion-ch124-000",
+      "chapterIndex": 124,
+      "chunkIndex": 0,
+      "title": "Y X W V U T S R Q P O N M L K J I H G F E D C B A",
+      "words": 26
+    },
+    {
+      "id": "logica-de-programacion-ch125-000",
+      "chapterIndex": 125,
+      "chunkIndex": 0,
+      "title": "X W V U T S R Q P O N M L K J I H G F E D C B A",
+      "words": 25
+    },
+    {
+      "id": "logica-de-programacion-ch126-000",
+      "chapterIndex": 126,
+      "chunkIndex": 0,
+      "title": "W V U T S R Q P O N M L K J I H G F E D C B A",
+      "words": 24
+    },
+    {
+      "id": "logica-de-programacion-ch127-000",
+      "chapterIndex": 127,
+      "chunkIndex": 0,
+      "title": "V U T S R Q P O N M L K J I H G F E D C B A",
+      "words": 23
+    },
+    {
+      "id": "logica-de-programacion-ch128-000",
+      "chapterIndex": 128,
+      "chunkIndex": 0,
+      "title": "U T S R Q P O N M L K J I H G F E D C B A",
+      "words": 22
+    },
+    {
+      "id": "logica-de-programacion-ch129-000",
+      "chapterIndex": 129,
+      "chunkIndex": 0,
+      "title": "T S R Q P O N M L K J I H G F E D C B A",
+      "words": 21
+    },
+    {
+      "id": "logica-de-programacion-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "1. De una sola l´ınea. Para ello se usan dos barras (//).",
+      "words": 38
+    },
+    {
+      "id": "logica-de-programacion-ch130-000",
+      "chapterIndex": 130,
+      "chunkIndex": 0,
+      "title": "S R Q P O N M L K J I H G F E D C B A",
+      "words": 20
+    },
+    {
+      "id": "logica-de-programacion-ch131-000",
+      "chapterIndex": 131,
+      "chunkIndex": 0,
+      "title": "R Q P O N M L K J I H G F E D C B A",
+      "words": 19
+    },
+    {
+      "id": "logica-de-programacion-ch132-000",
+      "chapterIndex": 132,
+      "chunkIndex": 0,
+      "title": "Q P O N M L K J I H G F E D C B A",
+      "words": 18
+    },
+    {
+      "id": "logica-de-programacion-ch133-000",
+      "chapterIndex": 133,
+      "chunkIndex": 0,
+      "title": "P O N M L K J I H G F E D C B A",
+      "words": 17
+    },
+    {
+      "id": "logica-de-programacion-ch134-000",
+      "chapterIndex": 134,
+      "chunkIndex": 0,
+      "title": "O N M L K J I H G F E D C B A",
+      "words": 16
+    },
+    {
+      "id": "logica-de-programacion-ch135-000",
+      "chapterIndex": 135,
+      "chunkIndex": 0,
+      "title": "N M L K J I H G F E D C B A",
+      "words": 15
+    },
+    {
+      "id": "logica-de-programacion-ch136-000",
+      "chapterIndex": 136,
+      "chunkIndex": 0,
+      "title": "M L K J I H G F E D C B A",
+      "words": 14
+    },
+    {
+      "id": "logica-de-programacion-ch137-000",
+      "chapterIndex": 137,
+      "chunkIndex": 0,
+      "title": "L K J I H G F E D C B A",
+      "words": 13
+    },
+    {
+      "id": "logica-de-programacion-ch138-000",
+      "chapterIndex": 138,
+      "chunkIndex": 0,
+      "title": "K J I H G F E D C B A",
+      "words": 12
+    },
+    {
+      "id": "logica-de-programacion-ch139-000",
+      "chapterIndex": 139,
+      "chunkIndex": 0,
+      "title": "J I H G F E D C B A",
+      "words": 11
+    },
+    {
+      "id": "logica-de-programacion-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "2. De varias l´ıneas. En este caso se usa la pareja de caracteres /* para",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch014-001",
+      "chapterIndex": 14,
+      "chunkIndex": 1,
+      "title": "2. De varias l´ıneas. En este caso se usa la pareja de caracteres /* para",
+      "words": 76
+    },
+    {
+      "id": "logica-de-programacion-ch140-000",
+      "chapterIndex": 140,
+      "chunkIndex": 0,
+      "title": "I H G F E D C B A",
+      "words": 10
+    },
+    {
+      "id": "logica-de-programacion-ch141-000",
+      "chapterIndex": 141,
+      "chunkIndex": 0,
+      "title": "H G F E D C B A",
+      "words": 9
+    },
+    {
+      "id": "logica-de-programacion-ch142-000",
+      "chapterIndex": 142,
+      "chunkIndex": 0,
+      "title": "G F E D C B A",
+      "words": 8
+    },
+    {
+      "id": "logica-de-programacion-ch143-000",
+      "chapterIndex": 143,
+      "chunkIndex": 0,
+      "title": "F E D C B A",
+      "words": 22
+    },
+    {
+      "id": "logica-de-programacion-ch144-000",
+      "chapterIndex": 144,
+      "chunkIndex": 0,
+      "title": "14. A un amigo que vive en el norte de la ciudad, su terapeuta le",
+      "words": 122
+    },
+    {
+      "id": "logica-de-programacion-ch145-000",
+      "chapterIndex": 145,
+      "chunkIndex": 0,
+      "title": "15. Imprima los 10 m´ultiplos sucesivos de 3 en orden descendente, a",
+      "words": 87
+    },
+    {
+      "id": "logica-de-programacion-ch146-000",
+      "chapterIndex": 146,
+      "chunkIndex": 0,
+      "title": "16. En una compa˜n´ıa que tiene varias sucursales a nivel nacional, una o",
+      "words": 133
+    },
+    {
+      "id": "logica-de-programacion-ch147-000",
+      "chapterIndex": 147,
+      "chunkIndex": 0,
+      "title": "17. Para los siguientes algoritmos, realice la respectiva prueba de",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch147-001",
+      "chapterIndex": 147,
+      "chunkIndex": 1,
+      "title": "17. Para los siguientes algoritmos, realice la respectiva prueba de",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch147-002",
+      "chapterIndex": 147,
+      "chunkIndex": 2,
+      "title": "17. Para los siguientes algoritmos, realice la respectiva prueba de",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch147-003",
+      "chapterIndex": 147,
+      "chunkIndex": 3,
+      "title": "17. Para los siguientes algoritmos, realice la respectiva prueba de",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch147-004",
+      "chapterIndex": 147,
+      "chunkIndex": 4,
+      "title": "17. Para los siguientes algoritmos, realice la respectiva prueba de",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch147-005",
+      "chapterIndex": 147,
+      "chunkIndex": 5,
+      "title": "17. Para los siguientes algoritmos, realice la respectiva prueba de",
+      "words": 115
+    },
+    {
+      "id": "logica-de-programacion-ch148-000",
+      "chapterIndex": 148,
+      "chunkIndex": 0,
+      "title": "parte c: entral del algoritmo o de otros procedimientos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch148-001",
+      "chapterIndex": 148,
+      "chunkIndex": 1,
+      "title": "parte c: entral del algoritmo o de otros procedimientos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch148-002",
+      "chapterIndex": 148,
+      "chunkIndex": 2,
+      "title": "parte c: entral del algoritmo o de otros procedimientos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch148-003",
+      "chapterIndex": 148,
+      "chunkIndex": 3,
+      "title": "parte c: entral del algoritmo o de otros procedimientos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch148-004",
+      "chapterIndex": 148,
+      "chunkIndex": 4,
+      "title": "parte c: entral del algoritmo o de otros procedimientos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch148-005",
+      "chapterIndex": 148,
+      "chunkIndex": 5,
+      "title": "parte c: entral del algoritmo o de otros procedimientos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch148-006",
+      "chapterIndex": 148,
+      "chunkIndex": 6,
+      "title": "parte c: entral del algoritmo o de otros procedimientos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch148-007",
+      "chapterIndex": 148,
+      "chunkIndex": 7,
+      "title": "parte c: entral del algoritmo o de otros procedimientos.",
+      "words": 206
+    },
+    {
+      "id": "logica-de-programacion-ch149-000",
+      "chapterIndex": 149,
+      "chunkIndex": 0,
+      "title": "parte d: e la responsabilidad en otras funciones",
+      "words": 64
+    },
+    {
+      "id": "logica-de-programacion-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "1. Definici´on del problema.",
+      "words": 5
+    },
+    {
+      "id": "logica-de-programacion-ch150-000",
+      "chapterIndex": 150,
+      "chunkIndex": 0,
+      "title": "1. Dise˜ne un algoritmos con funciones y procedimientos que permita",
+      "words": 17
+    },
+    {
+      "id": "logica-de-programacion-ch151-000",
+      "chapterIndex": 151,
+      "chunkIndex": 0,
+      "title": "2. Dise˜ne un algoritmos con funciones y procedimientos que permita",
+      "words": 90
+    },
+    {
+      "id": "logica-de-programacion-ch152-000",
+      "chapterIndex": 152,
+      "chunkIndex": 0,
+      "title": "3. Dise˜ne un algoritmos con funciones y procedimientos que permita",
+      "words": 29
+    },
+    {
+      "id": "logica-de-programacion-ch153-000",
+      "chapterIndex": 153,
+      "chunkIndex": 0,
+      "title": "4. Dise˜ne un algoritmos con funciones y procedimientos que indique el",
+      "words": 33
+    },
+    {
+      "id": "logica-de-programacion-ch154-000",
+      "chapterIndex": 154,
+      "chunkIndex": 0,
+      "title": "5. Dise˜ne un algoritmos con funciones y procedimientos que indique si",
+      "words": 34
+    },
+    {
+      "id": "logica-de-programacion-ch155-000",
+      "chapterIndex": 155,
+      "chunkIndex": 0,
+      "title": "6. Dise˜ne un algoritmos con funciones y procedimientos que dado un",
+      "words": 45
+    },
+    {
+      "id": "logica-de-programacion-ch156-000",
+      "chapterIndex": 156,
+      "chunkIndex": 0,
+      "title": "7. Dise˜ne un algoritmos con funciones y procedimientos que indique si",
+      "words": 55
+    },
+    {
+      "id": "logica-de-programacion-ch157-000",
+      "chapterIndex": 157,
+      "chunkIndex": 0,
+      "title": "8. Dise˜ne un algoritmos con funciones y procedimientos que permita",
+      "words": 65
+    },
+    {
+      "id": "logica-de-programacion-ch158-000",
+      "chapterIndex": 158,
+      "chunkIndex": 0,
+      "title": "9. Dise˜ne un algoritmos con funciones y procedimientos que indique si",
+      "words": 59
+    },
+    {
+      "id": "logica-de-programacion-ch159-000",
+      "chapterIndex": 159,
+      "chunkIndex": 0,
+      "title": "10. Dise˜ne un algoritmos con funciones y procedimientos que indique",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch159-001",
+      "chapterIndex": 159,
+      "chunkIndex": 1,
+      "title": "10. Dise˜ne un algoritmos con funciones y procedimientos que indique",
+      "words": 424
+    },
+    {
+      "id": "logica-de-programacion-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "2. An´alisis del problema.",
+      "words": 5
+    },
+    {
+      "id": "logica-de-programacion-ch160-000",
+      "chapterIndex": 160,
+      "chunkIndex": 0,
+      "title": "1. Se declara una variable suscrita llamada edadEstudiante y se",
+      "words": 46
+    },
+    {
+      "id": "logica-de-programacion-ch161-000",
+      "chapterIndex": 161,
+      "chunkIndex": 0,
+      "title": "2. Se declara una variable suscrita llamada estaturaPersona y se le",
+      "words": 44
+    },
+    {
+      "id": "logica-de-programacion-ch162-000",
+      "chapterIndex": 162,
+      "chunkIndex": 0,
+      "title": "3. Se declara una variable suscrita llamada nombreEmpleado y se le",
+      "words": 51
+    },
+    {
+      "id": "logica-de-programacion-ch163-000",
+      "chapterIndex": 163,
+      "chunkIndex": 0,
+      "title": "4. Se declara una variable suscrita llamada letrasDocumento y se le",
+      "words": 103
+    },
+    {
+      "id": "logica-de-programacion-ch164-000",
+      "chapterIndex": 164,
+      "chunkIndex": 0,
+      "title": "parte d: el algoritmo, sin ser un error de l´ogica, lo ideal",
+      "words": 201
+    },
+    {
+      "id": "logica-de-programacion-ch165-000",
+      "chapterIndex": 165,
+      "chunkIndex": 0,
+      "title": "1. Se declara una variable suscrita llamada semestreEstudiante",
+      "words": 45
+    },
+    {
+      "id": "logica-de-programacion-ch166-000",
+      "chapterIndex": 166,
+      "chunkIndex": 0,
+      "title": "2. Se declara una variable suscrita llamada",
+      "words": 45
+    },
+    {
+      "id": "logica-de-programacion-ch167-000",
+      "chapterIndex": 167,
+      "chunkIndex": 0,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-001",
+      "chapterIndex": 167,
+      "chunkIndex": 1,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-002",
+      "chapterIndex": 167,
+      "chunkIndex": 2,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-003",
+      "chapterIndex": 167,
+      "chunkIndex": 3,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-004",
+      "chapterIndex": 167,
+      "chunkIndex": 4,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-005",
+      "chapterIndex": 167,
+      "chunkIndex": 5,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-006",
+      "chapterIndex": 167,
+      "chunkIndex": 6,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-007",
+      "chapterIndex": 167,
+      "chunkIndex": 7,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-008",
+      "chapterIndex": 167,
+      "chunkIndex": 8,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-009",
+      "chapterIndex": 167,
+      "chunkIndex": 9,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-010",
+      "chapterIndex": 167,
+      "chunkIndex": 10,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-011",
+      "chapterIndex": 167,
+      "chunkIndex": 11,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-012",
+      "chapterIndex": 167,
+      "chunkIndex": 12,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-013",
+      "chapterIndex": 167,
+      "chunkIndex": 13,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-014",
+      "chapterIndex": 167,
+      "chunkIndex": 14,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-015",
+      "chapterIndex": 167,
+      "chunkIndex": 15,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-016",
+      "chapterIndex": 167,
+      "chunkIndex": 16,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-017",
+      "chapterIndex": 167,
+      "chunkIndex": 17,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-018",
+      "chapterIndex": 167,
+      "chunkIndex": 18,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-019",
+      "chapterIndex": 167,
+      "chunkIndex": 19,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-020",
+      "chapterIndex": 167,
+      "chunkIndex": 20,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-021",
+      "chapterIndex": 167,
+      "chunkIndex": 21,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-022",
+      "chapterIndex": 167,
+      "chunkIndex": 22,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-023",
+      "chapterIndex": 167,
+      "chunkIndex": 23,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-024",
+      "chapterIndex": 167,
+      "chunkIndex": 24,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-025",
+      "chapterIndex": 167,
+      "chunkIndex": 25,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-026",
+      "chapterIndex": 167,
+      "chunkIndex": 26,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-027",
+      "chapterIndex": 167,
+      "chunkIndex": 27,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-028",
+      "chapterIndex": 167,
+      "chunkIndex": 28,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-029",
+      "chapterIndex": 167,
+      "chunkIndex": 29,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-030",
+      "chapterIndex": 167,
+      "chunkIndex": 30,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-031",
+      "chapterIndex": 167,
+      "chunkIndex": 31,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-032",
+      "chapterIndex": 167,
+      "chunkIndex": 32,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-033",
+      "chapterIndex": 167,
+      "chunkIndex": 33,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-034",
+      "chapterIndex": 167,
+      "chunkIndex": 34,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-035",
+      "chapterIndex": 167,
+      "chunkIndex": 35,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-036",
+      "chapterIndex": 167,
+      "chunkIndex": 36,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-037",
+      "chapterIndex": 167,
+      "chunkIndex": 37,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-038",
+      "chapterIndex": 167,
+      "chunkIndex": 38,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-039",
+      "chapterIndex": 167,
+      "chunkIndex": 39,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-040",
+      "chapterIndex": 167,
+      "chunkIndex": 40,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-041",
+      "chapterIndex": 167,
+      "chunkIndex": 41,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-042",
+      "chapterIndex": 167,
+      "chunkIndex": 42,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-043",
+      "chapterIndex": 167,
+      "chunkIndex": 43,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-044",
+      "chapterIndex": 167,
+      "chunkIndex": 44,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-045",
+      "chapterIndex": 167,
+      "chunkIndex": 45,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch167-046",
+      "chapterIndex": 167,
+      "chunkIndex": 46,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "words": 173
+    },
+    {
+      "id": "logica-de-programacion-ch168-000",
+      "chapterIndex": 168,
+      "chunkIndex": 0,
+      "title": "17 MAX_EMPLEADOS )",
+      "words": 12
+    },
+    {
+      "id": "logica-de-programacion-ch169-000",
+      "chapterIndex": 169,
+      "chunkIndex": 0,
+      "title": "21 MAX_MESES )",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch169-001",
+      "chapterIndex": 169,
+      "chunkIndex": 1,
+      "title": "21 MAX_MESES )",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch169-002",
+      "chapterIndex": 169,
+      "chunkIndex": 2,
+      "title": "21 MAX_MESES )",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch169-003",
+      "chapterIndex": 169,
+      "chunkIndex": 3,
+      "title": "21 MAX_MESES )",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch169-004",
+      "chapterIndex": 169,
+      "chunkIndex": 4,
+      "title": "21 MAX_MESES )",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch169-005",
+      "chapterIndex": 169,
+      "chunkIndex": 5,
+      "title": "21 MAX_MESES )",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch169-006",
+      "chapterIndex": 169,
+      "chunkIndex": 6,
+      "title": "21 MAX_MESES )",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch169-007",
+      "chapterIndex": 169,
+      "chunkIndex": 7,
+      "title": "21 MAX_MESES )",
+      "words": 196
+    },
+    {
+      "id": "logica-de-programacion-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "3. Dise˜no del algoritmo.",
+      "words": 5
+    },
+    {
+      "id": "logica-de-programacion-ch170-000",
+      "chapterIndex": 170,
+      "chunkIndex": 0,
+      "title": "1. Escriba un algoritmo en pseudoc´odigo que permita almacenar en",
+      "words": 74
+    },
+    {
+      "id": "logica-de-programacion-ch171-000",
+      "chapterIndex": 171,
+      "chunkIndex": 0,
+      "title": "2. Dise˜ne un algoritmo que permita ingresar y almacenar los nombres",
+      "words": 74
+    },
+    {
+      "id": "logica-de-programacion-ch172-000",
+      "chapterIndex": 172,
+      "chunkIndex": 0,
+      "title": "3. Construya un algoritmo que almacene n n´umero enteros en un arreglo",
+      "words": 48
+    },
+    {
+      "id": "logica-de-programacion-ch173-000",
+      "chapterIndex": 173,
+      "chunkIndex": 0,
+      "title": "4. Escriba un algoritmo en pseudoc´odigo que almacene en un arreglo n",
+      "words": 47
+    },
+    {
+      "id": "logica-de-programacion-ch174-000",
+      "chapterIndex": 174,
+      "chunkIndex": 0,
+      "title": "5. El profesor de la materia de “Lenguaje de Programaci´on” requiere",
+      "words": 189
+    },
+    {
+      "id": "logica-de-programacion-ch175-000",
+      "chapterIndex": 175,
+      "chunkIndex": 0,
+      "title": "6. En una cl´ınica de control al sobrepeso requieren almacenar los",
+      "words": 135
+    },
+    {
+      "id": "logica-de-programacion-ch176-000",
+      "chapterIndex": 176,
+      "chunkIndex": 0,
+      "title": "7. Dise˜ne un algoritmo que almacene n´umeros enteros en una matriz",
+      "words": 49
+    },
+    {
+      "id": "logica-de-programacion-ch177-000",
+      "chapterIndex": 177,
+      "chunkIndex": 0,
+      "title": "8. Escriba un algoritmo en pseudoc´odigo que almacene caracteres en",
+      "words": 48
+    },
+    {
+      "id": "logica-de-programacion-ch178-000",
+      "chapterIndex": 178,
+      "chunkIndex": 0,
+      "title": "9. Construya un algoritmo en pseudoc´odigo que almacene unos (1) en la",
+      "words": 68
+    },
+    {
+      "id": "logica-de-programacion-ch179-000",
+      "chapterIndex": 179,
+      "chunkIndex": 0,
+      "title": "10. Elabore un algoritmo que permita realizar la multiplicaci´on de dos",
+      "words": 135
+    },
+    {
+      "id": "logica-de-programacion-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "4. Codificaci´on (implementaci´on).",
+      "words": 4
+    },
+    {
+      "id": "logica-de-programacion-ch180-000",
+      "chapterIndex": 180,
+      "chunkIndex": 0,
+      "title": "L. F., Rodr´ıguez, J. G., Fern´andez-Aliseda, A., Azc´arate, A. G., Farn´es,",
+      "words": 12
+    },
+    {
+      "id": "logica-de-programacion-ch181-000",
+      "chapterIndex": 181,
+      "chunkIndex": 0,
+      "title": "M. M., SANCHEZ, J. A. M., Mart´ın, J. A. H., et al. (2004). Matem´aticas",
+      "words": 92
+    },
+    {
+      "id": "logica-de-programacion-ch182-000",
+      "chapterIndex": 182,
+      "chunkIndex": 0,
+      "title": "L. N. Z. (2016). Fundamentos de Programaci´on, Diagramas de flujo,",
+      "words": 62
+    },
+    {
+      "id": "logica-de-programacion-ch183-000",
+      "chapterIndex": 183,
+      "chunkIndex": 0,
+      "title": "444 BIBLIOGRAF´IA",
+      "words": 266
+    },
+    {
+      "id": "logica-de-programacion-ch184-000",
+      "chapterIndex": 184,
+      "chunkIndex": 0,
+      "title": "446 ´INDICE ALFAB ´ETICO",
+      "words": 191
+    },
+    {
+      "id": "logica-de-programacion-ch185-000",
+      "chapterIndex": 185,
+      "chunkIndex": 0,
+      "title": "FORTRAN, 18",
+      "words": 124
+    },
+    {
+      "id": "logica-de-programacion-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "5. Compilaci´on y ejecuci´on.",
+      "words": 5
+    },
+    {
+      "id": "logica-de-programacion-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "6. Verificaci´on y depuraci´on.",
+      "words": 5
+    },
+    {
+      "id": "logica-de-programacion-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "7. Mantenimiento.",
+      "words": 3
+    },
+    {
+      "id": "logica-de-programacion-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "8. Documentaci´on.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch022-001",
+      "chapterIndex": 22,
+      "chunkIndex": 1,
+      "title": "8. Documentaci´on.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch022-002",
+      "chapterIndex": 22,
+      "chunkIndex": 2,
+      "title": "8. Documentaci´on.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch022-003",
+      "chapterIndex": 22,
+      "chunkIndex": 3,
+      "title": "8. Documentaci´on.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch022-004",
+      "chapterIndex": 22,
+      "chunkIndex": 4,
+      "title": "8. Documentaci´on.",
+      "words": 109
+    },
+    {
+      "id": "logica-de-programacion-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "1. Imagine que se desea declarar variables para almacenar datos de",
+      "words": 120
+    },
+    {
+      "id": "logica-de-programacion-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "2. Para las variables que se declaran en la Tabla 1.17, diga si el",
+      "words": 36
+    },
+    {
+      "id": "logica-de-programacion-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "#CEDULA",
+      "words": 14
+    },
+    {
+      "id": "logica-de-programacion-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "3. Describa, de acuerdo a la precedencia de los operadores, en cu´al orden",
+      "words": 92
+    },
+    {
+      "id": "logica-de-programacion-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "4. Resuelva paso a paso las siguientes expresiones, teniendo en cuenta",
+      "words": 101
+    },
+    {
+      "id": "logica-de-programacion-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "5. Suponga que se requieren las variables: a, b, c, d de tipo real.",
+      "words": 106
+    },
+    {
+      "id": "logica-de-programacion-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "6. Se tienen las variables: a, b, c y d de tipo entero. A partir de",
+      "words": 200
+    },
+    {
+      "id": "logica-de-programacion-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "7. Escriba en notaci´on algor´ıtmica las siguientes expresiones",
+      "words": 64
+    },
+    {
+      "id": "logica-de-programacion-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "8. Preguntas sobre los conceptos vistos",
+      "words": 63
+    },
+    {
+      "id": "logica-de-programacion-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-001",
+      "chapterIndex": 32,
+      "chunkIndex": 1,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-002",
+      "chapterIndex": 32,
+      "chunkIndex": 2,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-003",
+      "chapterIndex": 32,
+      "chunkIndex": 3,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-004",
+      "chapterIndex": 32,
+      "chunkIndex": 4,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-005",
+      "chapterIndex": 32,
+      "chunkIndex": 5,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-006",
+      "chapterIndex": 32,
+      "chunkIndex": 6,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-007",
+      "chapterIndex": 32,
+      "chunkIndex": 7,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-008",
+      "chapterIndex": 32,
+      "chunkIndex": 8,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-009",
+      "chapterIndex": 32,
+      "chunkIndex": 9,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-010",
+      "chapterIndex": 32,
+      "chunkIndex": 10,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-011",
+      "chapterIndex": 32,
+      "chunkIndex": 11,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-012",
+      "chapterIndex": 32,
+      "chunkIndex": 12,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-013",
+      "chapterIndex": 32,
+      "chunkIndex": 13,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-014",
+      "chapterIndex": 32,
+      "chunkIndex": 14,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-015",
+      "chapterIndex": 32,
+      "chunkIndex": 15,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-016",
+      "chapterIndex": 32,
+      "chunkIndex": 16,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-017",
+      "chapterIndex": 32,
+      "chunkIndex": 17,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-018",
+      "chapterIndex": 32,
+      "chunkIndex": 18,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-019",
+      "chapterIndex": 32,
+      "chunkIndex": 19,
+      "title": "9. Algoritmos.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch032-020",
+      "chapterIndex": 32,
+      "chunkIndex": 20,
+      "title": "9. Algoritmos.",
+      "words": 79
+    },
+    {
+      "id": "logica-de-programacion-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "1. Suponga que, para el algoritmo del c´alculo de la nota definitiva",
+      "words": 114
+    },
+    {
+      "id": "logica-de-programacion-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "2. Imagine que se conoce el valor del lado de un cubo. Elabore un",
+      "words": 67
+    },
+    {
+      "id": "logica-de-programacion-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "3. Un empleado fue contratado durante un periodo espec´ıfico en d´ıas",
+      "words": 81
+    },
+    {
+      "id": "logica-de-programacion-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "4. Dise˜ne un algoritmo que, al ingresarle el costo de un producto y la",
+      "words": 60
+    },
+    {
+      "id": "logica-de-programacion-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "5. Construya un algoritmo al que se le ingresa el valor de un n´umero",
+      "words": 59
+    },
+    {
+      "id": "logica-de-programacion-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "6. Un agente inmobiliario necesita un algoritmo con el que pueda saber",
+      "words": 87
+    },
+    {
+      "id": "logica-de-programacion-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "7. Construya un algoritmo que reciba como entrada un ´angulo",
+      "words": 28
+    },
+    {
+      "id": "logica-de-programacion-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "8. Un artesano se enfrenta diariamente al problema de determinar cu´al",
+      "words": 102
+    },
+    {
+      "id": "logica-de-programacion-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "9. Construir un algoritmo que permita determinar cu´al es la altura de",
+      "words": 86
+    },
+    {
+      "id": "logica-de-programacion-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "10. Dada una temperatura en grados cent´ıgrados, construya un algoritmo",
+      "words": 265
+    },
+    {
+      "id": "logica-de-programacion-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-001",
+      "chapterIndex": 43,
+      "chunkIndex": 1,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-002",
+      "chapterIndex": 43,
+      "chunkIndex": 2,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-003",
+      "chapterIndex": 43,
+      "chunkIndex": 3,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-004",
+      "chapterIndex": 43,
+      "chunkIndex": 4,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-005",
+      "chapterIndex": 43,
+      "chunkIndex": 5,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-006",
+      "chapterIndex": 43,
+      "chunkIndex": 6,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-007",
+      "chapterIndex": 43,
+      "chunkIndex": 7,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-008",
+      "chapterIndex": 43,
+      "chunkIndex": 8,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-009",
+      "chapterIndex": 43,
+      "chunkIndex": 9,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-010",
+      "chapterIndex": 43,
+      "chunkIndex": 10,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-011",
+      "chapterIndex": 43,
+      "chunkIndex": 11,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-012",
+      "chapterIndex": 43,
+      "chunkIndex": 12,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-013",
+      "chapterIndex": 43,
+      "chunkIndex": 13,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-014",
+      "chapterIndex": 43,
+      "chunkIndex": 14,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-015",
+      "chapterIndex": 43,
+      "chunkIndex": 15,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-016",
+      "chapterIndex": 43,
+      "chunkIndex": 16,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-017",
+      "chapterIndex": 43,
+      "chunkIndex": 17,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-018",
+      "chapterIndex": 43,
+      "chunkIndex": 18,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-019",
+      "chapterIndex": 43,
+      "chunkIndex": 19,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-020",
+      "chapterIndex": 43,
+      "chunkIndex": 20,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-021",
+      "chapterIndex": 43,
+      "chunkIndex": 21,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-022",
+      "chapterIndex": 43,
+      "chunkIndex": 22,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-023",
+      "chapterIndex": 43,
+      "chunkIndex": 23,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch043-024",
+      "chapterIndex": 43,
+      "chunkIndex": 24,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "words": 408
+    },
+    {
+      "id": "logica-de-programacion-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "1. Crear un algoritmo que indique el valor del descuento de un art´ıculo",
+      "words": 29
+    },
+    {
+      "id": "logica-de-programacion-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "2. Crear un algoritmo que indique si la llave de un tanque de agua debe",
+      "words": 30
+    },
+    {
+      "id": "logica-de-programacion-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "3. Crear un algoritmo que dado un n´umero entero entre 0 y 20 diga si",
+      "words": 41
+    },
+    {
+      "id": "logica-de-programacion-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "4. Crear un algoritmo que indique si un estudiante gan´o o perdi´o un",
+      "words": 51
+    },
+    {
+      "id": "logica-de-programacion-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "5. Crear un algoritmo que permita saber si una ecuaci´on cuadr´atica",
+      "words": 70
+    },
+    {
+      "id": "logica-de-programacion-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "6. Crear un algoritmo que indique si un n´umero entero x, ingresado por",
+      "words": 80
+    },
+    {
+      "id": "logica-de-programacion-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "7. Crear un algoritmo que indique si un n´umero entero x se encuentra",
+      "words": 38
+    },
+    {
+      "id": "logica-de-programacion-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "8. Crear un algoritmo que indique el valor del descuento de un art´ıculo",
+      "words": 46
+    },
+    {
+      "id": "logica-de-programacion-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "9. Crear un algoritmo que indique el valor del descuento de un art´ıculo",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch052-001",
+      "chapterIndex": 52,
+      "chunkIndex": 1,
+      "title": "9. Crear un algoritmo que indique el valor del descuento de un art´ıculo",
+      "words": 425
+    },
+    {
+      "id": "logica-de-programacion-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "0. De igual manera si se trabaja con divisiones, la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch053-001",
+      "chapterIndex": 53,
+      "chunkIndex": 1,
+      "title": "0. De igual manera si se trabaja con divisiones, la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch053-002",
+      "chapterIndex": 53,
+      "chunkIndex": 2,
+      "title": "0. De igual manera si se trabaja con divisiones, la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch053-003",
+      "chapterIndex": 53,
+      "chunkIndex": 3,
+      "title": "0. De igual manera si se trabaja con divisiones, la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch053-004",
+      "chapterIndex": 53,
+      "chunkIndex": 4,
+      "title": "0. De igual manera si se trabaja con divisiones, la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch053-005",
+      "chapterIndex": 53,
+      "chunkIndex": 5,
+      "title": "0. De igual manera si se trabaja con divisiones, la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch053-006",
+      "chapterIndex": 53,
+      "chunkIndex": 6,
+      "title": "0. De igual manera si se trabaja con divisiones, la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch053-007",
+      "chapterIndex": 53,
+      "chunkIndex": 7,
+      "title": "0. De igual manera si se trabaja con divisiones, la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch053-008",
+      "chapterIndex": 53,
+      "chunkIndex": 8,
+      "title": "0. De igual manera si se trabaja con divisiones, la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch053-009",
+      "chapterIndex": 53,
+      "chunkIndex": 9,
+      "title": "0. De igual manera si se trabaja con divisiones, la",
+      "words": 214
+    },
+    {
+      "id": "logica-de-programacion-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "41. De esta forma, al calcular el promedio general del grupo se evita un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch054-001",
+      "chapterIndex": 54,
+      "chunkIndex": 1,
+      "title": "41. De esta forma, al calcular el promedio general del grupo se evita un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch054-002",
+      "chapterIndex": 54,
+      "chunkIndex": 2,
+      "title": "41. De esta forma, al calcular el promedio general del grupo se evita un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch054-003",
+      "chapterIndex": 54,
+      "chunkIndex": 3,
+      "title": "41. De esta forma, al calcular el promedio general del grupo se evita un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch054-004",
+      "chapterIndex": 54,
+      "chunkIndex": 4,
+      "title": "41. De esta forma, al calcular el promedio general del grupo se evita un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch054-005",
+      "chapterIndex": 54,
+      "chunkIndex": 5,
+      "title": "41. De esta forma, al calcular el promedio general del grupo se evita un",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch054-006",
+      "chapterIndex": 54,
+      "chunkIndex": 6,
+      "title": "41. De esta forma, al calcular el promedio general del grupo se evita un",
+      "words": 339
+    },
+    {
+      "id": "logica-de-programacion-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "1. Se divide a entre b y se obtiene el cociente c1 y el resto r1. Los",
+      "words": 31
+    },
+    {
+      "id": "logica-de-programacion-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "2. Si r1 es diferente de 0, se divide b entre r1, obteni´endose el cociente",
+      "words": 21
+    },
+    {
+      "id": "logica-de-programacion-ch057-000",
+      "chapterIndex": 57,
+      "chunkIndex": 0,
+      "title": "3. Si r2 es diferente de 0, se divide r1 entre r2, obteni´endose un nuevo",
+      "words": 21
+    },
+    {
+      "id": "logica-de-programacion-ch058-000",
+      "chapterIndex": 58,
+      "chunkIndex": 0,
+      "title": "4. Estos pasos se repiten mientras que rn sea diferente de 0.",
+      "words": 13
+    },
+    {
+      "id": "logica-de-programacion-ch059-000",
+      "chapterIndex": 59,
+      "chunkIndex": 0,
+      "title": "5. El resto anterior (rn−1), es decir, el ´ultimo divisor es el MCD de a",
+      "words": 207
+    },
+    {
+      "id": "logica-de-programacion-ch060-000",
+      "chapterIndex": 60,
+      "chunkIndex": 0,
+      "title": "1. Sea a = 532 y b = 112. La primera operaci´on a realizar es",
+      "words": 28
+    },
+    {
+      "id": "logica-de-programacion-ch061-000",
+      "chapterIndex": 61,
+      "chunkIndex": 0,
+      "title": "2. El primer resto (r1) es diferente de 0, entonces se divide b entre",
+      "words": 24
+    },
+    {
+      "id": "logica-de-programacion-ch062-000",
+      "chapterIndex": 62,
+      "chunkIndex": 0,
+      "title": "3. El segundo resto (r2) es diferente de 0, se procede a una nueva",
+      "words": 27
+    },
+    {
+      "id": "logica-de-programacion-ch063-000",
+      "chapterIndex": 63,
+      "chunkIndex": 0,
+      "title": "4. El nuevo resto (r3) ya no es diferente de 0, por lo tanto, no se",
+      "words": 20
+    },
+    {
+      "id": "logica-de-programacion-ch064-000",
+      "chapterIndex": 64,
+      "chunkIndex": 0,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-001",
+      "chapterIndex": 64,
+      "chunkIndex": 1,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-002",
+      "chapterIndex": 64,
+      "chunkIndex": 2,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-003",
+      "chapterIndex": 64,
+      "chunkIndex": 3,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-004",
+      "chapterIndex": 64,
+      "chunkIndex": 4,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-005",
+      "chapterIndex": 64,
+      "chunkIndex": 5,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-006",
+      "chapterIndex": 64,
+      "chunkIndex": 6,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-007",
+      "chapterIndex": 64,
+      "chunkIndex": 7,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-008",
+      "chapterIndex": 64,
+      "chunkIndex": 8,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-009",
+      "chapterIndex": 64,
+      "chunkIndex": 9,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-010",
+      "chapterIndex": 64,
+      "chunkIndex": 10,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-011",
+      "chapterIndex": 64,
+      "chunkIndex": 11,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-012",
+      "chapterIndex": 64,
+      "chunkIndex": 12,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-013",
+      "chapterIndex": 64,
+      "chunkIndex": 13,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-014",
+      "chapterIndex": 64,
+      "chunkIndex": 14,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-015",
+      "chapterIndex": 64,
+      "chunkIndex": 15,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-016",
+      "chapterIndex": 64,
+      "chunkIndex": 16,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch064-017",
+      "chapterIndex": 64,
+      "chunkIndex": 17,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "words": 467
+    },
+    {
+      "id": "logica-de-programacion-ch065-000",
+      "chapterIndex": 65,
+      "chunkIndex": 0,
+      "title": "1. Pedir el dato",
+      "words": 5
+    },
+    {
+      "id": "logica-de-programacion-ch066-000",
+      "chapterIndex": 66,
+      "chunkIndex": 0,
+      "title": "2. Escribir la instrucci´on Haga",
+      "words": 6
+    },
+    {
+      "id": "logica-de-programacion-ch067-000",
+      "chapterIndex": 67,
+      "chunkIndex": 0,
+      "title": "3. Leer el dato",
+      "words": 5
+    },
+    {
+      "id": "logica-de-programacion-ch068-000",
+      "chapterIndex": 68,
+      "chunkIndex": 0,
+      "title": "4. Escribir la instrucci´on MientrasQue y su condici´on.",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch068-001",
+      "chapterIndex": 68,
+      "chunkIndex": 1,
+      "title": "4. Escribir la instrucci´on MientrasQue y su condici´on.",
+      "words": 467
+    },
+    {
+      "id": "logica-de-programacion-ch069-000",
+      "chapterIndex": 69,
+      "chunkIndex": 0,
+      "title": "0. Si el resultado es verdadero, significa que se est´a frente a un dato vac´ıo,",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch069-001",
+      "chapterIndex": 69,
+      "chunkIndex": 1,
+      "title": "0. Si el resultado es verdadero, significa que se est´a frente a un dato vac´ıo,",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch069-002",
+      "chapterIndex": 69,
+      "chunkIndex": 2,
+      "title": "0. Si el resultado es verdadero, significa que se est´a frente a un dato vac´ıo,",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch069-003",
+      "chapterIndex": 69,
+      "chunkIndex": 3,
+      "title": "0. Si el resultado es verdadero, significa que se est´a frente a un dato vac´ıo,",
+      "words": 355
+    },
+    {
+      "id": "logica-de-programacion-ch070-000",
+      "chapterIndex": 70,
+      "chunkIndex": 0,
+      "title": "Parte d: e las estructuras Haga-MientrasQue se destinaron a la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch070-001",
+      "chapterIndex": 70,
+      "chunkIndex": 1,
+      "title": "Parte d: e las estructuras Haga-MientrasQue se destinaron a la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch070-002",
+      "chapterIndex": 70,
+      "chunkIndex": 2,
+      "title": "Parte d: e las estructuras Haga-MientrasQue se destinaron a la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch070-003",
+      "chapterIndex": 70,
+      "chunkIndex": 3,
+      "title": "Parte d: e las estructuras Haga-MientrasQue se destinaron a la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch070-004",
+      "chapterIndex": 70,
+      "chunkIndex": 4,
+      "title": "Parte d: e las estructuras Haga-MientrasQue se destinaron a la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch070-005",
+      "chapterIndex": 70,
+      "chunkIndex": 5,
+      "title": "Parte d: e las estructuras Haga-MientrasQue se destinaron a la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch070-006",
+      "chapterIndex": 70,
+      "chunkIndex": 6,
+      "title": "Parte d: e las estructuras Haga-MientrasQue se destinaron a la",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch070-007",
+      "chapterIndex": 70,
+      "chunkIndex": 7,
+      "title": "Parte d: e las estructuras Haga-MientrasQue se destinaron a la",
+      "words": 390
+    },
+    {
+      "id": "logica-de-programacion-ch071-000",
+      "chapterIndex": 71,
+      "chunkIndex": 0,
+      "title": "1. Se inicializa la variable numero en 1.",
+      "words": 9
+    },
+    {
+      "id": "logica-de-programacion-ch072-000",
+      "chapterIndex": 72,
+      "chunkIndex": 0,
+      "title": "2. Se eval´ua la condici´on del Hasta, que para este caso se interpreta",
+      "words": 18
+    },
+    {
+      "id": "logica-de-programacion-ch073-000",
+      "chapterIndex": 73,
+      "chunkIndex": 0,
+      "title": "3. Luego de que se ejecute el cuerpo del ciclo, se incrementa la variable",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch073-001",
+      "chapterIndex": 73,
+      "chunkIndex": 1,
+      "title": "3. Luego de que se ejecute el cuerpo del ciclo, se incrementa la variable",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch073-002",
+      "chapterIndex": 73,
+      "chunkIndex": 2,
+      "title": "3. Luego de que se ejecute el cuerpo del ciclo, se incrementa la variable",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch073-003",
+      "chapterIndex": 73,
+      "chunkIndex": 3,
+      "title": "3. Luego de que se ejecute el cuerpo del ciclo, se incrementa la variable",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch073-004",
+      "chapterIndex": 73,
+      "chunkIndex": 4,
+      "title": "3. Luego de que se ejecute el cuerpo del ciclo, se incrementa la variable",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch073-005",
+      "chapterIndex": 73,
+      "chunkIndex": 5,
+      "title": "3. Luego de que se ejecute el cuerpo del ciclo, se incrementa la variable",
+      "words": 497
+    },
+    {
+      "id": "logica-de-programacion-ch074-000",
+      "chapterIndex": 74,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U",
+      "words": 7
+    },
+    {
+      "id": "logica-de-programacion-ch075-000",
+      "chapterIndex": 75,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T",
+      "words": 8
+    },
+    {
+      "id": "logica-de-programacion-ch076-000",
+      "chapterIndex": 76,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S",
+      "words": 9
+    },
+    {
+      "id": "logica-de-programacion-ch077-000",
+      "chapterIndex": 77,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R",
+      "words": 10
+    },
+    {
+      "id": "logica-de-programacion-ch078-000",
+      "chapterIndex": 78,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q",
+      "words": 11
+    },
+    {
+      "id": "logica-de-programacion-ch079-000",
+      "chapterIndex": 79,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P",
+      "words": 12
+    },
+    {
+      "id": "logica-de-programacion-ch080-000",
+      "chapterIndex": 80,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O",
+      "words": 13
+    },
+    {
+      "id": "logica-de-programacion-ch081-000",
+      "chapterIndex": 81,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N",
+      "words": 14
+    },
+    {
+      "id": "logica-de-programacion-ch082-000",
+      "chapterIndex": 82,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M",
+      "words": 15
+    },
+    {
+      "id": "logica-de-programacion-ch083-000",
+      "chapterIndex": 83,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L",
+      "words": 16
+    },
+    {
+      "id": "logica-de-programacion-ch084-000",
+      "chapterIndex": 84,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L K",
+      "words": 17
+    },
+    {
+      "id": "logica-de-programacion-ch085-000",
+      "chapterIndex": 85,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L K J",
+      "words": 18
+    },
+    {
+      "id": "logica-de-programacion-ch086-000",
+      "chapterIndex": 86,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L K J I",
+      "words": 19
+    },
+    {
+      "id": "logica-de-programacion-ch087-000",
+      "chapterIndex": 87,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H",
+      "words": 20
+    },
+    {
+      "id": "logica-de-programacion-ch088-000",
+      "chapterIndex": 88,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G",
+      "words": 21
+    },
+    {
+      "id": "logica-de-programacion-ch089-000",
+      "chapterIndex": 89,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F",
+      "words": 22
+    },
+    {
+      "id": "logica-de-programacion-ch090-000",
+      "chapterIndex": 90,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E",
+      "words": 23
+    },
+    {
+      "id": "logica-de-programacion-ch091-000",
+      "chapterIndex": 91,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E D",
+      "words": 24
+    },
+    {
+      "id": "logica-de-programacion-ch092-000",
+      "chapterIndex": 92,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E D C",
+      "words": 25
+    },
+    {
+      "id": "logica-de-programacion-ch093-000",
+      "chapterIndex": 93,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E D C B",
+      "words": 26
+    },
+    {
+      "id": "logica-de-programacion-ch094-000",
+      "chapterIndex": 94,
+      "chunkIndex": 0,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E D C B A",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch094-001",
+      "chapterIndex": 94,
+      "chunkIndex": 1,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E D C B A",
+      "words": 463
+    },
+    {
+      "id": "logica-de-programacion-ch095-000",
+      "chapterIndex": 95,
+      "chunkIndex": 0,
+      "title": "SALTO LINEA",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch095-001",
+      "chapterIndex": 95,
+      "chunkIndex": 1,
+      "title": "SALTO LINEA",
+      "words": 456
+    },
+    {
+      "id": "logica-de-programacion-ch096-000",
+      "chapterIndex": 96,
+      "chunkIndex": 0,
+      "title": "10. Igualmente, mostrar´a un mensaje de acuerdo a la respuesta del",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch096-001",
+      "chapterIndex": 96,
+      "chunkIndex": 1,
+      "title": "10. Igualmente, mostrar´a un mensaje de acuerdo a la respuesta del",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch096-002",
+      "chapterIndex": 96,
+      "chunkIndex": 2,
+      "title": "10. Igualmente, mostrar´a un mensaje de acuerdo a la respuesta del",
+      "words": 500
+    },
+    {
+      "id": "logica-de-programacion-ch096-003",
+      "chapterIndex": 96,
+      "chunkIndex": 3,
+      "title": "10. Igualmente, mostrar´a un mensaje de acuerdo a la respuesta del",
+      "words": 280
+    },
+    {
+      "id": "logica-de-programacion-ch097-000",
+      "chapterIndex": 97,
+      "chunkIndex": 0,
+      "title": "1. Todo estudiante de primer semestre debe cursar 6 espacios",
+      "words": 14
+    },
+    {
+      "id": "logica-de-programacion-ch098-000",
+      "chapterIndex": 98,
+      "chunkIndex": 0,
+      "title": "2. La nota m´ınima es de 0.0 y la nota m´axima es de 5.0.",
+      "words": 15
+    },
+    {
+      "id": "logica-de-programacion-ch099-000",
+      "chapterIndex": 99,
+      "chunkIndex": 0,
+      "title": "3. Se considera que un espacio acad´emico se aprueba si su nota",
+      "words": 20
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch239-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 239,
+  "chunkIndex": 1,
+  "title": "3. Ejemplo de aplicación del TAD pila: evaluación de expresiones postfijas",
+  "start": 450,
+  "end": 654,
+  "words": 204,
+  "content": "elementos 1..n del vector v por valores crecientes de clave.} procedimiento rápido(e/s v:tpVector; ent izq,der:índice) {Ordena los elementos izq..der de v por valores crecientes de clave.} variables i,d:índice; unItem,aux:ítem principio si izq ≤ der entonces unItem:=v[izq]; i:=izq+1; d:=der; mientrasQue i≠d+1 hacer si v[i].clave ≤ unItem.clave entonces i:=i+1 sino si v[d].clave ≥ unItem.clave entonces d:=d-1 sino {(v[i].clave>unItem.clave) ∧(v[d].clave<unItem.clave)} aux:=v[i]; v[i]:=v[d]; v[d]:=aux; i:=i+1; d:=d-1 fsi fsi fmq; v[izq]:=v[d]; v[d]:=unItem; rápido(v,izq,d-1); rápido(v,d+1,der) fsi fin principio {de ordenar} rápido(v,1,n) fin Aplicando el esquema de transformación visto anteriormente, se obtiene la siguiente versión iterativa del algoritmo: -- 252 of 267 -- 239 constante maxN = 100 {dimensión del vector} tipos índice = 1..maxN; ítem = registro clave:entero; info:tpInfo freg tpVector = vector[1..maxN] de ítem par = registro iz,de:índice freg procedimiento ordenar_iter(e/s v:tpVector; ent n:índice) {Ordena los elementos 1..n de v por valores crecientes de clave.} variables p:pila_de_par; unP:par; izq,der,i,d:índice; unItem,aux:ítem principio creaVacía(p); unP.iz:=1; unP.de:=n; apilar(p,unP); mientrasQue not esVacía(p) hacer unP:=cima(p); izq:=unP.iz; der:=unP.de; desapilar(p); si izq ≤ der entonces unItem:=v[izq]; i:=izq+1; d:=der; mientrasQue i≠d+1 hacer si v[i].clave ≤ unItem.clave entonces i:=i+1 sino si v[d].clave ≥ unItem.clave entonces d:=d-1 sino {(v[i].clave>unItem.clave) ∧(v[d].clave<unItem.clave)} aux:=v[i]; v[i]:=v[d]; v[d]:=aux; i:=i+1; d:=d-1 fsi fsi fmq; v[izq]:=v[d]; v[d]:=unItem; unP.iz:=d+1; unP.de:=der; apilar(p,unP); unP.iz:=izq; unP.de:=d-1; apilar(p,unP) fsi fmq fin"
+}

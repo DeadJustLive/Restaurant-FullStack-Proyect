@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch096-003",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 96,
+  "chunkIndex": 3,
+  "title": "10. Igualmente, mostrar´a un mensaje de acuerdo a la respuesta del",
+  "start": 1350,
+  "end": 1630,
+  "words": 280,
+  "content": "38 imprimir( \"Insuficiente\" ) 39 SiNo 40 Si( aciertos <= 7 ) 41 imprimir (\"Aceptable\") 42 SiNo 43 Si( aciertos <= 9 ) 44 imprimir( \"Sobresaliente\" ) 45 SiNo 46 imprimir( \"Excelente\" ) 47 FinSi 48 FinSi 49 FinSi Antes de finalizar las instrucciones del ciclo Mientras-FinMientras se le pregunta al ni˜no si desea volver a jugar o no, la respuesta es almacenada en la variable seguir; luego se encuentra el FinMientras y el control regresa al Mientras donde se eval´ua la condici´on: 8 Mientras( seguir == ’S’ O seguir == ’s’ ) Si el resultado es verdadero, se vuelve a ejecutar todo el proceso. El juego termina en el momento que el ni˜no responda con una letra ’N’, al cuestionamiento si desea volver a jugar. -- 302 of 450 -- Introducci ´on a la L ´ogica de Programaci ´on 301 .:Ejemplo 4.25. Una Universidad est´a interesada en tener una soluci´on algor´ıtmica que le permita conocer de sus estudiantes, de primer semestre que acaban de concluir el periodo acad´emico, la siguiente informaci´on: El mayor y el menor promedio general. Cantidad total de estudiantes que aprobaron y reprobaron, de igual forma, el total de los que quedaron en situaci´on condicional. Porcentaje de estudiantes que quedaron excluidos por bajo rendimiento y tambi´en el porcentaje que aprobaron el periodo, con relaci´on al total de ellos. Por cada grupo se requiere la cantidad de estudiantes que aprobaron y reprobaron el periodo. Los grupos son identificados como Grupo A, Grupo B, Grupo C y as´ı sucesivamente. Finalmente, por cada estudiante se debe informar su nota definitiva acompa˜nada de un mensaje que especifique su situaci´on acad´emica. Dentro del reglamento estudiantil se tienen contemplados los siguientes aspectos:"
+}

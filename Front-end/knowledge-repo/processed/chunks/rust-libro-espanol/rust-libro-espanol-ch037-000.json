@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch037-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 37,
+  "chunkIndex": 0,
+  "title": "Características de lenguajes orientados a objetos",
+  "start": 0,
+  "end": 42,
+  "words": 42,
+  "content": "# Características de lenguajes orientados a objetos ## Características de lenguajes orientados a objetos ### Los objetos contienen datos y comportamiento ### Encapsulacion que oculta los detalles de implementacion ### Herencia como un sistema de tipos y como Code Sharing ### Polimorfismo"
+}

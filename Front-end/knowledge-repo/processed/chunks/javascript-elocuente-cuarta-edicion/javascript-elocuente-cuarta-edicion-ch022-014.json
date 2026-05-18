@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch022-014",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 22,
+  "chunkIndex": 14,
+  "title": "// → LALALA",
+  "start": 6300,
+  "end": 6559,
+  "words": 259,
+  "content": "usar un bucle regular para hacer el bucle real. Everything Los arrays también tienen un método every análogo al método some. Este método devuelve true cuando la función dada devuelve true para cada elemento en el array. En cierto modo, some es una versión del operador || que actúa en arrays, y every es como el operador &&. Implementa every como una función que recibe un array y una función de predicado como parámetros. Escribe dos versiones, una usando un bucle y otra usando el método some. Dirección de escritura dominante Escribe una función que calcule la dirección de escritura dominante en una ca- dena de texto. Recuerda que cada objeto script tiene una propiedad direction que puede ser \"ltr\" (de izquierda a derecha), \"rtl\" (de derecha a izquierda) o \"ttb\" (de arriba a abajo). 94 -- 106 of 445 -- “Un tipo de dato abstracto se realiza escribiendo un tipo especial de programa [...] que define el tipo en términos de las operaciones que se pueden realizar en él.” —Barbara Liskov, Programando con Tipos de Datos Abstractos Chapter 6 La Vida Secreta de los Objetos El Capítulo 4 introdujo los objetos de JavaScript, como contenedores que al- macenan otros datos. En la cultura de la programación, tenemos algo llamado programación ori- entada a objetos, un conjunto de técnicas que utilizan objetos como principio central de la organización de programas. Aunque nadie realmente se pone de acuerdo en su definición precisa, la programación orientada a objetos ha dado forma al diseño de muchos lenguajes de programación, incluido JavaScript. Este"
+}

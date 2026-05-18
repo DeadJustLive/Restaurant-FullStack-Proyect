@@ -65,6 +65,6 @@ public class LoginRequestDTO {
      *                  mínimo 1 mayúscula, 1 número, 1 carácter especial.
      */
     @NotBlank(message = "La contraseña es obligatoria")
-    @Size(min = 8, message = "La contraseña debe tener al menos 8 caracteres")
+    @Size(min = 6, message = "La contraseña debe tener al menos 6 caracteres")
     private String password;
 }

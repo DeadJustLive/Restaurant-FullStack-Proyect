@@ -1,0 +1,260 @@
+# Flow Subscription.postman collection.json
+
+## Fuente
+Flow API — Documentación de Integración de Pagos (Cap. 9)
+
+## Contenido
+# Flow Subscription.postman collection.json
+
+## Código
+
+```typescript
+{
+	"info": {
+		"_postman_id": "78976c70-a7fb-4319-b832-be498cd3e878",
+		"name": "Flow Subscription",
+		"description": "Suscripciones de Flow",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "subscription/create",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "96db3d88-246a-4eb2-bef6-a40fe72ade5b",
+						"exec": [
+							"var jsonData = pm.response.json();\r",
+							"pm.environment.set(\"SubscriptionId\", jsonData.subscriptionId);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "apiKey",
+							"value": "{{apiKey}}",
+							"type": "text"
+						},
+						{
+							"key": "planId",
+							"value": "{{PlanId}}",
+							"type": "text"
+						},
+						{
+							"key": "customerId",
+							"value": "{{CustomerId}}",
+							"type": "text"
+						},
+						{
+							"key": "s",
+							"value": "{{Signature}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://{{Hosting}}/api/subscription/create",
+					"protocol": "https",
+					"host": [
+						"{{Hosting}}"
+					],
+					"path": [
+						"api",
+						"subscription",
+						"create"
+					]
+				},
+				"description": "Crea una nueva suscripción"
+			},
+			"response": []
+		},
+		{
+			"name": "subscription/get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{Hosting}}/api/subscription/get?apiKey={{apiKey}}&subscriptionId={{SubscriptionId}}&s={{Signature}}",
+					"protocol": "https",
+					"host": [
+						"{{Hosting}}"
+					],
+					"path": [
+						"api",
+						"subscription",
+						"get"
+					],
+					"query": [
+						{
+							"key": "apiKey",
+							"value": "{{apiKey}}"
+						},
+						{
+							"key": "subscriptionId",
+							"value": "{{SubscriptionId}}"
+						},
+						{
+							"key": "s",
+							"value": "{{Signature}}"
+						}
+					]
+				},
+				"description": "Obtiene una Suscripción en base al subscriptionId"
+			},
+			"response": []
+		},
+		{
+			"name": "subscription/list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{Hosting}}/api/subscription/list?apiKey={{apiKey}}&planId={{PlanId}}&s={{Signature}}",
+					"protocol": "https",
+					"host": [
+						"{{Hosting}}"
+					],
+					"path": [
+						"api",
+						"subscription",
+						"list"
+					],
+					"query": [
+						{
+							"key": "apiKey",
+							"value": "{{apiKey}}"
+						},
+						{
+							"key": "planId",
+							"value": "{{PlanId}}"
+						},
+						{
+							"key": "s",
+							"value": "{{Signature}}"
+						}
+					]
+				},
+				"description": "Obtiene la lista de suscritos a un Plan"
+			},
+			"response": []
+		},
+		{
+			"name": "subscription/changeTrial",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "apiKey",
+							"value": "{{apiKey}}",
+							"type": "text"
+						},
+						{
+							"key": "subscriptionId",
+							"value": "{{SubscriptionId}}",
+							"type": "text"
+						},
+						{
+							"key": "trial_period_days",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "s",
+							"value": "{{Signature}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://{{Hosting}}/api/subscription/changeTrial",
+					"protocol": "https",
+					"host": [
+						"{{Hosting}}"
+					],
+					"path": [
+						"api",
+						"subscription",
+						"changeTrial"
+					]
+				},
+				"description": "Modifica los días de Trial de una Suscripción"
+			},
+			"response": []
+		},
+		{
+			"name": "subscription/addCoupon",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "apiKey",
+							"value": "{{apiKey}}",
+							"type": "text"
+						},
+						{
+							"key": "subscriptionId",
+							"value": "{{SubscriptionId}}",
+							"type": "text"
+						},
+						{
+							"key": "couponId",
+							"value": "{{CouponId}}",
+							"type": "text"
+						},
+						{
+							"key": "s",
+							"value": "{{Signature}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://{{Hosting}}/api/subscription/addCoupon",
+					"protocol": "https",
+					"host": [
+						"{{Hosting}}"
+					],
+					"path": [
+						"api",
+						"subscription",
+						"addCoupon"
+					]
+				},
+				"description": "Agrega un Cupón de descuento a una suscripción"
+			},
+			"response": []
+		},
+		{
+			"name": "subscription/deleteCoupon",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "apiKey",
+							"value": "{{apiKey}}",
+							"type": "text"
+						},
+						{
+							"key": "subscriptionId",
+							"value": "{{SubscriptionId}}",
+							"type": "text"
+						},
+						{
+							"

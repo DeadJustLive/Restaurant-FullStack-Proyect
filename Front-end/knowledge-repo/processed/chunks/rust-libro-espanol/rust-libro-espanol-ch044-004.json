@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch044-004",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 44,
+  "chunkIndex": 4,
+  "title": "Ch20 00 advanced features.html",
+  "start": 1800,
+  "end": 1862,
+  "words": 62,
+  "content": "asociados, parámetros de tipo predeterminados, sintaxis completamente calificada, supertraits y el patrón newtype en relación con los traits - Tipos avanzados: más sobre el pattern newtype, tipo alias, el tipo never y tipos de tamaño dinámico - Funciones y closures avanzados: punteros a funciones y devolución de closures - Macros: formas de definir código que define más código en tiempo de compilación"
+}

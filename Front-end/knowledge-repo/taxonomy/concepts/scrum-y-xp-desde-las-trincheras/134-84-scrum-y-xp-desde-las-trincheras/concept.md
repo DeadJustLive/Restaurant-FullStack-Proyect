@@ -1,0 +1,52 @@
+# 84 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 134)
+
+## Contenido
+# 84 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+ello. Pequeños y fácilmente accesibles atajos que hacían todo el trabajo rutinario
+y permitían a los encargados de pruebas concentrarse en las pruebas.
+¡El esfuerzo mereció la pena! De hecho, es probablemente lo que deberíamos
+haber hecho desde el principio. Estábamos tan deseosos de automatizar las
+pruebas que nos olvidamos de hacerlo paso a paso, siendo el primer paso
+construir herramientas que hiciesen las pruebas manuales más eficientes.
+Lecciones aprendidas: si estás atascado con pruebas de regresión manuales y
+quieres automatizarlas, no lo hagas (a menos que sea realmente fácil). En lugar
+de eso, construye herramientas que hagan la regresión manual más sencilla.
+Entonces considera automatizar las pruebas.
+Diseño incremental
+Esto 	significa 	mantener 	el 	diseño 	simple 	desde 	el 	principio 	y 	mejorarlo
+continuamente, en lugar de conseguir que todo funcione desde el principio y
+entonces congelarlo.
+Esto lo estamos haciendo bastante bien, es decir, empleamos una cantidad
+razonable de tiempo refactorizando y mejorando los diseños existentes, y rara
+vez empleamos tiempo haciendo grandes diseños desde el principio. A veces
+metemos la pata, por supuesto, por ejemplo permitiendo que un diseño inestable
+se “enquiste” fuertemente de tal forma que la refactorización se convierta en un
+proyecto grande. Pero en términos generales estamos satisfechos.
+La mejora continua del diseño es sobre todo un efecto secundario automática de
+hacer TDD.
+Integración continua
+La mayoría de nuestros productos cuentan con un sofisticado entorno de
+integración continua basado en Maven y QuickBuild. Esto es extremadamente
+valioso y ahorra muchísimo tiempo. Es la solución definitiva al viejo problema de
+“hey, pero sí que funciona en mí máquina”. Nuestro servidor de compilación
+continua actúa como el “juez” o punto de referencia desde el que determinar la
+salud de todas nuestras bases de código.
+Cada vez que alguien chequea algo en el sistema de control de versiones, el
+servidor de compilación continua arranca, compila todo desde cero en un
+servidor compartido, y corre todas las pruebas. Si algo va mal, manda un correo
+notificando a todo el equipo que la compilación ha fallado, incluyendo información
+sobre qué parte del código falló la compilación exactamente, enlaces a los
+informes de pruebas, etc.
+Todas las noches el servidor de compilación continúa reconstruye el producto
+desde cero y publica los binarios (ear’s, war’s, etc.), documentación, informes de
+pruebas, informes de cobertura de pruebas, informes de dependencias, etc., a
+nuestro 	portal 	interno 	de 	documentación. 	Algunos 	productos 	también 	se
+instalarán automáticamente en un entorno de pruebas.
+Montar todo este entorno nos costó un montón de trabajo, pero cada minuto
+mereció la pena.
+
+-- 84 of 122 --

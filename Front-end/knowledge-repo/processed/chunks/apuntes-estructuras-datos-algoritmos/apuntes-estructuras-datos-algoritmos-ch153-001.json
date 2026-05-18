@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch153-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 153,
+  "chunkIndex": 1,
+  "title": "Lección 19:: El TAD tabla y las tablas dispersas (hash) ...................................................................... 177",
+  "start": 450,
+  "end": 525,
+  "words": 75,
+  "content": "búsqueda. En un árbol multicamino de grado n, cada nodo interno puede tener como máximo n nodos descendientes, y puede almacenar como máximo n – 1 claves ordenadas. Los árboles n-arios de búsqueda son especialmente útiles cuando se utilizan en búsquedas externas (los datos almacenados en disco, etc., no en memoria), permitiendo reducir así el número de accesos a disco (1 acceso por nodo consultado o nivel del árbol). -- 157 of 267 -- 150"
+}

@@ -1,0 +1,1123 @@
+{
+  "id": "rust-libro-espanol",
+  "title": "El Lenguaje de Programación Rust (Libro Oficial en Español)",
+  "author": "Rust Community",
+  "pages": 285,
+  "sourceFile": "web:book.rustlang-es.org",
+  "processedAt": "2026-05-17T08:44:01.768Z",
+  "method": "web",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Appendix 00.html",
+      "file": "chapters/rust-libro-espanol/01-appendix-00html.md",
+      "words": 1680
+    },
+    {
+      "index": 2,
+      "title": "Apéndice A: Palabras clave",
+      "file": "chapters/rust-libro-espanol/02-apéndice-a-palabras-clave.md",
+      "words": 21
+    },
+    {
+      "index": 3,
+      "title": "Appendix 02 operators.html",
+      "file": "chapters/rust-libro-espanol/03-appendix-02-operatorshtml.md",
+      "words": 3716
+    },
+    {
+      "index": 4,
+      "title": "Apéndice C: Traits derivables",
+      "file": "chapters/rust-libro-espanol/04-apéndice-c-traits-derivables.md",
+      "words": 40
+    },
+    {
+      "index": 5,
+      "title": "Apéndice D - Herramientas de desarrollo útiles",
+      "file": "chapters/rust-libro-espanol/05-apéndice-d-herramientas-de-desarrollo-útiles.md",
+      "words": 27
+    },
+    {
+      "index": 6,
+      "title": "Appendix 05 editions.html",
+      "file": "chapters/rust-libro-espanol/06-appendix-05-editionshtml.md",
+      "words": 2208
+    },
+    {
+      "index": 7,
+      "title": "Appendix 06 translation.html",
+      "file": "chapters/rust-libro-espanol/07-appendix-06-translationhtml.md",
+      "words": 1735
+    },
+    {
+      "index": 8,
+      "title": "Apéndice G - Cómo se hace Rust y “Rust Nightly”",
+      "file": "chapters/rust-libro-espanol/08-apéndice-g-cómo-se-hace-rust-y-rust-nightly.md",
+      "words": 29
+    },
+    {
+      "index": 9,
+      "title": "Procesando una serie de elementos con Iteradores",
+      "file": "chapters/rust-libro-espanol/09-procesando-una-serie-de-elementos-con-iteradores.md",
+      "words": 32
+    },
+    {
+      "index": 10,
+      "title": "Mejorando nuestro proyecto I/O",
+      "file": "chapters/rust-libro-espanol/10-mejorando-nuestro-proyecto-io.md",
+      "words": 40
+    },
+    {
+      "index": 11,
+      "title": "Ch13 04 performance.html",
+      "file": "chapters/rust-libro-espanol/11-ch13-04-performancehtml.md",
+      "words": 2483
+    },
+    {
+      "index": 12,
+      "title": "Ch14 00 more about cargo.html",
+      "file": "chapters/rust-libro-espanol/12-ch14-00-more-about-cargohtml.md",
+      "words": 1762
+    },
+    {
+      "index": 13,
+      "title": "Ch14 01 release profiles.html",
+      "file": "chapters/rust-libro-espanol/13-ch14-01-release-profileshtml.md",
+      "words": 2138
+    },
+    {
+      "index": 14,
+      "title": "Publicando un Crate a Crates.io",
+      "file": "chapters/rust-libro-espanol/14-publicando-un-crate-a-cratesio.md",
+      "words": 67
+    },
+    {
+      "index": 15,
+      "title": "Cargo Workspaces",
+      "file": "chapters/rust-libro-espanol/15-cargo-workspaces.md",
+      "words": 31
+    },
+    {
+      "index": 16,
+      "title": "Ch14 04 installing binaries.html",
+      "file": "chapters/rust-libro-espanol/16-ch14-04-installing-binarieshtml.md",
+      "words": 2012
+    },
+    {
+      "index": 17,
+      "title": "Ch14 05 extending cargo.html",
+      "file": "chapters/rust-libro-espanol/17-ch14-05-extending-cargohtml.md",
+      "words": 1823
+    },
+    {
+      "index": 18,
+      "title": "Ch15 00 smart pointers.html",
+      "file": "chapters/rust-libro-espanol/18-ch15-00-smart-pointershtml.md",
+      "words": 2183
+    },
+    {
+      "index": 19,
+      "title": "UsandoBox<T>para Apuntar a Datos en el Heap",
+      "file": "chapters/rust-libro-espanol/19-usandoboxtpara-apuntar-a-datos-en-el-heap.md",
+      "words": 49
+    },
+    {
+      "index": 20,
+      "title": "Tratando los Smart Pointers como Referencias Regulares con el TraitDeref",
+      "file": "chapters/rust-libro-espanol/20-tratando-los-smart-pointers-como-referencias-regulares-con-el-traitderef.md",
+      "words": 55
+    },
+    {
+      "index": 21,
+      "title": "Ch15 03 drop.html",
+      "file": "chapters/rust-libro-espanol/21-ch15-03-drophtml.md",
+      "words": 3048
+    },
+    {
+      "index": 22,
+      "title": "Rc<T>, el Smart Pointer de Conteo de Referencias",
+      "file": "chapters/rust-libro-espanol/22-rct-el-smart-pointer-de-conteo-de-referencias.md",
+      "words": 20
+    },
+    {
+      "index": 23,
+      "title": "RefCell<T>y el Patrón de Mutabilidad Interior",
+      "file": "chapters/rust-libro-espanol/23-refcellty-el-patrón-de-mutabilidad-interior.md",
+      "words": 56
+    },
+    {
+      "index": 24,
+      "title": "Referencias Circulares Pueden Fugar Memoria",
+      "file": "chapters/rust-libro-espanol/24-referencias-circulares-pueden-fugar-memoria.md",
+      "words": 41
+    },
+    {
+      "index": 25,
+      "title": "Ch16 00 concurrency.html",
+      "file": "chapters/rust-libro-espanol/25-ch16-00-concurrencyhtml.md",
+      "words": 2169
+    },
+    {
+      "index": 26,
+      "title": "Usando Threads para Ejecutar Código Simultáneamente",
+      "file": "chapters/rust-libro-espanol/26-usando-threads-para-ejecutar-código-simultáneamente.md",
+      "words": 26
+    },
+    {
+      "index": 27,
+      "title": "Usando el Pasaje de Mensajes para Transferir Datos entre Hilos",
+      "file": "chapters/rust-libro-espanol/27-usando-el-pasaje-de-mensajes-para-transferir-datos-entre-hilos.md",
+      "words": 33
+    },
+    {
+      "index": 28,
+      "title": "Concurrencia con Estado Compartido",
+      "file": "chapters/rust-libro-espanol/28-concurrencia-con-estado-compartido.md",
+      "words": 45
+    },
+    {
+      "index": 29,
+      "title": "Concurrencia extensible con los traitsSyncySend",
+      "file": "chapters/rust-libro-espanol/29-concurrencia-extensible-con-los-traitssyncysend.md",
+      "words": 27
+    },
+    {
+      "index": 30,
+      "title": "Fundamentos de la Programación Asíncrona: Async, Await, Futures y Streams",
+      "file": "chapters/rust-libro-espanol/30-fundamentos-de-la-programación-asíncrona-async-await-futures-y-streams.md",
+      "words": 15
+    },
+    {
+      "index": 31,
+      "title": "Ch17 01 futures and syntax.html",
+      "file": "chapters/rust-libro-espanol/31-ch17-01-futures-and-syntaxhtml.md",
+      "words": 5263
+    },
+    {
+      "index": 32,
+      "title": "Ch17 02 concurrency with async.html",
+      "file": "chapters/rust-libro-espanol/32-ch17-02-concurrency-with-asynchtml.md",
+      "words": 5193
+    },
+    {
+      "index": 33,
+      "title": "Ch17 04 streams.html",
+      "file": "chapters/rust-libro-espanol/33-ch17-04-streamshtml.md",
+      "words": 6225
+    },
+    {
+      "index": 34,
+      "title": "Profundizando en los rasgos para async",
+      "file": "chapters/rust-libro-espanol/34-profundizando-en-los-rasgos-para-async.md",
+      "words": 21
+    },
+    {
+      "index": 35,
+      "title": "Ch17 06 futures tasks threads.html",
+      "file": "chapters/rust-libro-espanol/35-ch17-06-futures-tasks-threadshtml.md",
+      "words": 3260
+    },
+    {
+      "index": 36,
+      "title": "Ch18 00 oop.html",
+      "file": "chapters/rust-libro-espanol/36-ch18-00-oophtml.md",
+      "words": 1814
+    },
+    {
+      "index": 37,
+      "title": "Características de lenguajes orientados a objetos",
+      "file": "chapters/rust-libro-espanol/37-características-de-lenguajes-orientados-a-objetos.md",
+      "words": 35
+    },
+    {
+      "index": 38,
+      "title": "Usando Trait Objects que permiten valores de diferentes tipos",
+      "file": "chapters/rust-libro-espanol/38-usando-trait-objects-que-permiten-valores-de-diferentes-tipos.md",
+      "words": 28
+    },
+    {
+      "index": 39,
+      "title": "Implementando un patrón de diseño orientado a objetos",
+      "file": "chapters/rust-libro-espanol/39-implementando-un-patrón-de-diseño-orientado-a-objetos.md",
+      "words": 84
+    },
+    {
+      "index": 40,
+      "title": "Ch19 00 patterns.html",
+      "file": "chapters/rust-libro-espanol/40-ch19-00-patternshtml.md",
+      "words": 1912
+    },
+    {
+      "index": 41,
+      "title": "Todos los lugares donde se pueden usar Patterns",
+      "file": "chapters/rust-libro-espanol/41-todos-los-lugares-donde-se-pueden-usar-patterns.md",
+      "words": 27
+    },
+    {
+      "index": 42,
+      "title": "Ch19 02 refutability.html",
+      "file": "chapters/rust-libro-espanol/42-ch19-02-refutabilityhtml.md",
+      "words": 2655
+    },
+    {
+      "index": 43,
+      "title": "Sintaxis de los Patterns",
+      "file": "chapters/rust-libro-espanol/43-sintaxis-de-los-patterns.md",
+      "words": 92
+    },
+    {
+      "index": 44,
+      "title": "Ch20 00 advanced features.html",
+      "file": "chapters/rust-libro-espanol/44-ch20-00-advanced-featureshtml.md",
+      "words": 1857
+    },
+    {
+      "index": 45,
+      "title": "Unsafe Rust",
+      "file": "chapters/rust-libro-espanol/45-unsafe-rust.md",
+      "words": 75
+    },
+    {
+      "index": 46,
+      "title": "Traits Avanzados",
+      "file": "chapters/rust-libro-espanol/46-traits-avanzados.md",
+      "words": 37
+    },
+    {
+      "index": 47,
+      "title": "Tipos Avanzados",
+      "file": "chapters/rust-libro-espanol/47-tipos-avanzados.md",
+      "words": 35
+    },
+    {
+      "index": 48,
+      "title": "Ch20 04 advanced functions and closures.html",
+      "file": "chapters/rust-libro-espanol/48-ch20-04-advanced-functions-and-closureshtml.md",
+      "words": 3159
+    },
+    {
+      "index": 49,
+      "title": "Macros",
+      "file": "chapters/rust-libro-espanol/49-macros.md",
+      "words": 40
+    },
+    {
+      "index": 50,
+      "title": "Ch21 00 final project a web server.html",
+      "file": "chapters/rust-libro-espanol/50-ch21-00-final-project-a-web-serverhtml.md",
+      "words": 1971
+    },
+    {
+      "index": 51,
+      "title": "Construyendo un servidor web de un solo hilo",
+      "file": "chapters/rust-libro-espanol/51-construyendo-un-servidor-web-de-un-solo-hilo.md",
+      "words": 47
+    },
+    {
+      "index": 52,
+      "title": "Convirtiendo nuestro servidor de un solo hilo en un servidor multihilo",
+      "file": "chapters/rust-libro-espanol/52-convirtiendo-nuestro-servidor-de-un-solo-hilo-en-un-servidor-multihilo.md",
+      "words": 91
+    },
+    {
+      "index": 53,
+      "title": "Apagado y limpieza eficientes",
+      "file": "chapters/rust-libro-espanol/53-apagado-y-limpieza-eficientes.md",
+      "words": 20
+    },
+    {
+      "index": 54,
+      "title": "Para Quién Es Rust",
+      "file": "chapters/rust-libro-espanol/54-para-quién-es-rust.md",
+      "words": 27
+    },
+    {
+      "index": 55,
+      "title": "Instalación",
+      "file": "chapters/rust-libro-espanol/55-instalación.md",
+      "words": 45
+    },
+    {
+      "index": 56,
+      "title": "¡Hola, mundo!",
+      "file": "chapters/rust-libro-espanol/56-hola-mundo.md",
+      "words": 31
+    },
+    {
+      "index": 57,
+      "title": "¡Hola, Cargo!",
+      "file": "chapters/rust-libro-espanol/57-hola-cargo.md",
+      "words": 28
+    },
+    {
+      "index": 58,
+      "title": "Procesando una adivinanza",
+      "file": "chapters/rust-libro-espanol/58-procesando-una-adivinanza.md",
+      "words": 33
+    },
+    {
+      "index": 59,
+      "title": "Generando un número secreto",
+      "file": "chapters/rust-libro-espanol/59-generando-un-número-secreto.md",
+      "words": 34
+    },
+    {
+      "index": 60,
+      "title": "Permitir múltiples adivinanzas con bucles",
+      "file": "chapters/rust-libro-espanol/60-permitir-múltiples-adivinanzas-con-bucles.md",
+      "words": 19
+    },
+    {
+      "index": 61,
+      "title": "Tipos de datos",
+      "file": "chapters/rust-libro-espanol/61-tipos-de-datos.md",
+      "words": 39
+    },
+    {
+      "index": 62,
+      "title": "Flujo de Control",
+      "file": "chapters/rust-libro-espanol/62-flujo-de-control.md",
+      "words": 52
+    },
+    {
+      "index": 63,
+      "title": "¿Qué es el Ownership?",
+      "file": "chapters/rust-libro-espanol/63-qué-es-el-ownership.md",
+      "words": 61
+    },
+    {
+      "index": 64,
+      "title": "Referencias y Prestamos",
+      "file": "chapters/rust-libro-espanol/64-referencias-y-prestamos.md",
+      "words": 16
+    },
+    {
+      "index": 65,
+      "title": "El Tipo Slice",
+      "file": "chapters/rust-libro-espanol/65-el-tipo-slice.md",
+      "words": 20
+    },
+    {
+      "index": 66,
+      "title": "Definiendo e Instanciando Structs",
+      "file": "chapters/rust-libro-espanol/66-definiendo-e-instanciando-structs.md",
+      "words": 47
+    },
+    {
+      "index": 67,
+      "title": "Un Programa de Ejemplo Usando Structs",
+      "file": "chapters/rust-libro-espanol/67-un-programa-de-ejemplo-usando-structs.md",
+      "words": 25
+    },
+    {
+      "index": 68,
+      "title": "Sintaxis de Métodos",
+      "file": "chapters/rust-libro-espanol/68-sintaxis-de-métodos.md",
+      "words": 22
+    },
+    {
+      "index": 69,
+      "title": "El operador de control de flujomatch",
+      "file": "chapters/rust-libro-espanol/69-el-operador-de-control-de-flujomatch.md",
+      "words": 27
+    },
+    {
+      "index": 70,
+      "title": "Definiendo módulos para controlar el alcance y la privacidad",
+      "file": "chapters/rust-libro-espanol/70-definiendo-módulos-para-controlar-el-alcance-y-la-privacidad.md",
+      "words": 22
+    },
+    {
+      "index": 71,
+      "title": "Rutas para referirse a un elemento en el árbol de módulos",
+      "file": "chapters/rust-libro-espanol/71-rutas-para-referirse-a-un-elemento-en-el-árbol-de-módulos.md",
+      "words": 42
+    },
+    {
+      "index": 72,
+      "title": "Incluyendo rutas al ámbito con la palabra claveuse",
+      "file": "chapters/rust-libro-espanol/72-incluyendo-rutas-al-ámbito-con-la-palabra-claveuse.md",
+      "words": 41
+    },
+    {
+      "index": 73,
+      "title": "Almacenando listas de valores con vectores",
+      "file": "chapters/rust-libro-espanol/73-almacenando-listas-de-valores-con-vectores.md",
+      "words": 42
+    },
+    {
+      "index": 74,
+      "title": "Almacenando texto codificado en UTF-8 con Strings",
+      "file": "chapters/rust-libro-espanol/74-almacenando-texto-codificado-en-utf-8-con-strings.md",
+      "words": 66
+    },
+    {
+      "index": 75,
+      "title": "Almacenar Claves con Valores Asociados en HashMaps",
+      "file": "chapters/rust-libro-espanol/75-almacenar-claves-con-valores-asociados-en-hashmaps.md",
+      "words": 60
+    },
+    {
+      "index": 76,
+      "title": "Errores irrecuperables conpanic!",
+      "file": "chapters/rust-libro-espanol/76-errores-irrecuperables-conpanic.md",
+      "words": 20
+    },
+    {
+      "index": 77,
+      "title": "Errores recuperables conResult",
+      "file": "chapters/rust-libro-espanol/77-errores-recuperables-conresult.md",
+      "words": 39
+    },
+    {
+      "index": 78,
+      "title": "panic!o nopanic!",
+      "file": "chapters/rust-libro-espanol/78-panico-nopanic.md",
+      "words": 35
+    },
+    {
+      "index": 79,
+      "title": "Tipos de Datos Genéricos",
+      "file": "chapters/rust-libro-espanol/79-tipos-de-datos-genéricos.md",
+      "words": 27
+    },
+    {
+      "index": 80,
+      "title": "Traits: Definiendo Comportamiento Compartido",
+      "file": "chapters/rust-libro-espanol/80-traits-definiendo-comportamiento-compartido.md",
+      "words": 57
+    },
+    {
+      "index": 81,
+      "title": "Validando Referencias con Lifetimes",
+      "file": "chapters/rust-libro-espanol/81-validando-referencias-con-lifetimes.md",
+      "words": 70
+    },
+    {
+      "index": 82,
+      "title": "Como escribir tests",
+      "file": "chapters/rust-libro-espanol/82-como-escribir-tests.md",
+      "words": 39
+    },
+    {
+      "index": 83,
+      "title": "Controlando como los tests son ejecutados",
+      "file": "chapters/rust-libro-espanol/83-controlando-como-los-tests-son-ejecutados.md",
+      "words": 50
+    },
+    {
+      "index": 84,
+      "title": "Organización de los Tests",
+      "file": "chapters/rust-libro-espanol/84-organización-de-los-tests.md",
+      "words": 38
+    },
+    {
+      "index": 85,
+      "title": "Aceptando argumentos de línea de comandos",
+      "file": "chapters/rust-libro-espanol/85-aceptando-argumentos-de-línea-de-comandos.md",
+      "words": 28
+    },
+    {
+      "index": 86,
+      "title": "Refactorizando para mejorar la modularidad y el manejo de errores",
+      "file": "chapters/rust-libro-espanol/86-refactorizando-para-mejorar-la-modularidad-y-el-manejo-de-errores.md",
+      "words": 89
+    },
+    {
+      "index": 87,
+      "title": "Desarrollando la funcionalidad de la biblioteca con T.D.D.",
+      "file": "chapters/rust-libro-espanol/87-desarrollando-la-funcionalidad-de-la-biblioteca-con-tdd.md",
+      "words": 48
+    },
+    {
+      "index": 88,
+      "title": "Trabajando con Variables de Entorno",
+      "file": "chapters/rust-libro-espanol/88-trabajando-con-variables-de-entorno.md",
+      "words": 22
+    },
+    {
+      "index": 89,
+      "title": "Escribiendo mensajes de error estándar en lugar del output estándar",
+      "file": "chapters/rust-libro-espanol/89-escribiendo-mensajes-de-error-estándar-en-lugar-del-output-estándar.md",
+      "words": 25
+    },
+    {
+      "index": 90,
+      "title": "Closures: Funciones anónimas que capturan su entorno",
+      "file": "chapters/rust-libro-espanol/90-closures-funciones-anónimas-que-capturan-su-entorno.md",
+      "words": 40
+    },
+    {
+      "index": 91,
+      "title": "Trabajando con cualquier número de futures",
+      "file": "chapters/rust-libro-espanol/91-trabajando-con-cualquier-número-de-futures.md",
+      "words": 21
+    },
+    {
+      "index": 92,
+      "title": "El Lenguaje de Programación Rust es 0.0.1.epub",
+      "file": "chapters/rust-libro-espanol/92-el-lenguaje-de-programación-rust-es-001epub.md",
+      "words": 1680
+    },
+    {
+      "index": 93,
+      "title": "Appendix 01 keywords.html",
+      "file": "chapters/rust-libro-espanol/93-appendix-01-keywordshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 94,
+      "title": "Appendix 03 derivable traits.html",
+      "file": "chapters/rust-libro-espanol/94-appendix-03-derivable-traitshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 95,
+      "title": "Appendix 04 useful development tools.html",
+      "file": "chapters/rust-libro-espanol/95-appendix-04-useful-development-toolshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 96,
+      "title": "Appendix 07 nightly rust.html",
+      "file": "chapters/rust-libro-espanol/96-appendix-07-nightly-rusthtml.md",
+      "words": 1680
+    },
+    {
+      "index": 97,
+      "title": "Ch00 00 introduction.html",
+      "file": "chapters/rust-libro-espanol/97-ch00-00-introductionhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 98,
+      "title": "Ch01 00 getting started.html",
+      "file": "chapters/rust-libro-espanol/98-ch01-00-getting-startedhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 99,
+      "title": "Ch01 01 installation.html",
+      "file": "chapters/rust-libro-espanol/99-ch01-01-installationhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 100,
+      "title": "Ch01 02 hello world.html",
+      "file": "chapters/rust-libro-espanol/100-ch01-02-hello-worldhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 101,
+      "title": "Ch01 03 hello cargo.html",
+      "file": "chapters/rust-libro-espanol/101-ch01-03-hello-cargohtml.md",
+      "words": 1680
+    },
+    {
+      "index": 102,
+      "title": "Ch02 00 guessing game tutorial.html",
+      "file": "chapters/rust-libro-espanol/102-ch02-00-guessing-game-tutorialhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 103,
+      "title": "Ch03 00 common programming concepts.html",
+      "file": "chapters/rust-libro-espanol/103-ch03-00-common-programming-conceptshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 104,
+      "title": "Ch03 01 variables and mutability.html",
+      "file": "chapters/rust-libro-espanol/104-ch03-01-variables-and-mutabilityhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 105,
+      "title": "Ch03 02 data types.html",
+      "file": "chapters/rust-libro-espanol/105-ch03-02-data-typeshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 106,
+      "title": "Ch03 03 how functions work.html",
+      "file": "chapters/rust-libro-espanol/106-ch03-03-how-functions-workhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 107,
+      "title": "Ch03 04 comments.html",
+      "file": "chapters/rust-libro-espanol/107-ch03-04-commentshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 108,
+      "title": "Ch03 05 control flow.html",
+      "file": "chapters/rust-libro-espanol/108-ch03-05-control-flowhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 109,
+      "title": "Ch04 00 understanding ownership.html",
+      "file": "chapters/rust-libro-espanol/109-ch04-00-understanding-ownershiphtml.md",
+      "words": 1680
+    },
+    {
+      "index": 110,
+      "title": "Ch04 01 what is ownership.html",
+      "file": "chapters/rust-libro-espanol/110-ch04-01-what-is-ownershiphtml.md",
+      "words": 1680
+    },
+    {
+      "index": 111,
+      "title": "Ch04 02 references and borrowing.html",
+      "file": "chapters/rust-libro-espanol/111-ch04-02-references-and-borrowinghtml.md",
+      "words": 1680
+    },
+    {
+      "index": 112,
+      "title": "Ch04 03 slices.html",
+      "file": "chapters/rust-libro-espanol/112-ch04-03-sliceshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 113,
+      "title": "Ch05 00 structs.html",
+      "file": "chapters/rust-libro-espanol/113-ch05-00-structshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 114,
+      "title": "Ch05 01 defining structs.html",
+      "file": "chapters/rust-libro-espanol/114-ch05-01-defining-structshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 115,
+      "title": "Ch05 02 example structs.html",
+      "file": "chapters/rust-libro-espanol/115-ch05-02-example-structshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 116,
+      "title": "Ch05 03 method syntax.html",
+      "file": "chapters/rust-libro-espanol/116-ch05-03-method-syntaxhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 117,
+      "title": "Ch06 00 enums.html",
+      "file": "chapters/rust-libro-espanol/117-ch06-00-enumshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 118,
+      "title": "Ch06 01 defining an enum.html",
+      "file": "chapters/rust-libro-espanol/118-ch06-01-defining-an-enumhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 119,
+      "title": "Ch06 02 match.html",
+      "file": "chapters/rust-libro-espanol/119-ch06-02-matchhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 120,
+      "title": "Ch06 03 if let.html",
+      "file": "chapters/rust-libro-espanol/120-ch06-03-if-lethtml.md",
+      "words": 1680
+    },
+    {
+      "index": 121,
+      "title": "Ch07 00 managing growing projects with packages crates and modules.html",
+      "file": "chapters/rust-libro-espanol/121-ch07-00-managing-growing-projects-with-packages-crates-and-moduleshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 122,
+      "title": "Ch07 01 packages and crates.html",
+      "file": "chapters/rust-libro-espanol/122-ch07-01-packages-and-crateshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 123,
+      "title": "Ch07 02 defining modules to control scope and privacy.html",
+      "file": "chapters/rust-libro-espanol/123-ch07-02-defining-modules-to-control-scope-and-privacyhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 124,
+      "title": "Ch07 03 paths for referring to an item in the module tree.html",
+      "file": "chapters/rust-libro-espanol/124-ch07-03-paths-for-referring-to-an-item-in-the-module-treehtml.md",
+      "words": 1680
+    },
+    {
+      "index": 125,
+      "title": "Ch07 04 bringing paths into scope with the use keyword.html",
+      "file": "chapters/rust-libro-espanol/125-ch07-04-bringing-paths-into-scope-with-the-use-keywordhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 126,
+      "title": "Ch07 05 separating modules into different files.html",
+      "file": "chapters/rust-libro-espanol/126-ch07-05-separating-modules-into-different-fileshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 127,
+      "title": "Ch08 00 common collections.html",
+      "file": "chapters/rust-libro-espanol/127-ch08-00-common-collectionshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 128,
+      "title": "Ch08 01 vectors.html",
+      "file": "chapters/rust-libro-espanol/128-ch08-01-vectorshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 129,
+      "title": "Ch08 02 strings.html",
+      "file": "chapters/rust-libro-espanol/129-ch08-02-stringshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 130,
+      "title": "Ch08 03 hash maps.html",
+      "file": "chapters/rust-libro-espanol/130-ch08-03-hash-mapshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 131,
+      "title": "Ch09 00 error handling.html",
+      "file": "chapters/rust-libro-espanol/131-ch09-00-error-handlinghtml.md",
+      "words": 1680
+    },
+    {
+      "index": 132,
+      "title": "Ch09 01 unrecoverable errors with panic.html",
+      "file": "chapters/rust-libro-espanol/132-ch09-01-unrecoverable-errors-with-panichtml.md",
+      "words": 1680
+    },
+    {
+      "index": 133,
+      "title": "Ch09 02 recoverable errors with result.html",
+      "file": "chapters/rust-libro-espanol/133-ch09-02-recoverable-errors-with-resulthtml.md",
+      "words": 1680
+    },
+    {
+      "index": 134,
+      "title": "Ch09 03 to panic or not to panic.html",
+      "file": "chapters/rust-libro-espanol/134-ch09-03-to-panic-or-not-to-panichtml.md",
+      "words": 1680
+    },
+    {
+      "index": 135,
+      "title": "Ch10 00 generics.html",
+      "file": "chapters/rust-libro-espanol/135-ch10-00-genericshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 136,
+      "title": "Ch10 01 syntax.html",
+      "file": "chapters/rust-libro-espanol/136-ch10-01-syntaxhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 137,
+      "title": "Ch10 02 traits.html",
+      "file": "chapters/rust-libro-espanol/137-ch10-02-traitshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 138,
+      "title": "Ch10 03 lifetime syntax.html",
+      "file": "chapters/rust-libro-espanol/138-ch10-03-lifetime-syntaxhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 139,
+      "title": "Ch11 00 testing.html",
+      "file": "chapters/rust-libro-espanol/139-ch11-00-testinghtml.md",
+      "words": 1680
+    },
+    {
+      "index": 140,
+      "title": "Ch11 01 writing tests.html",
+      "file": "chapters/rust-libro-espanol/140-ch11-01-writing-testshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 141,
+      "title": "Ch11 02 running tests.html",
+      "file": "chapters/rust-libro-espanol/141-ch11-02-running-testshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 142,
+      "title": "Ch11 03 test organization.html",
+      "file": "chapters/rust-libro-espanol/142-ch11-03-test-organizationhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 143,
+      "title": "Ch12 00 an io project.html",
+      "file": "chapters/rust-libro-espanol/143-ch12-00-an-io-projecthtml.md",
+      "words": 1680
+    },
+    {
+      "index": 144,
+      "title": "Ch12 01 accepting command line arguments.html",
+      "file": "chapters/rust-libro-espanol/144-ch12-01-accepting-command-line-argumentshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 145,
+      "title": "Ch12 02 reading a file.html",
+      "file": "chapters/rust-libro-espanol/145-ch12-02-reading-a-filehtml.md",
+      "words": 1680
+    },
+    {
+      "index": 146,
+      "title": "Ch12 03 improving error handling and modularity.html",
+      "file": "chapters/rust-libro-espanol/146-ch12-03-improving-error-handling-and-modularityhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 147,
+      "title": "Ch12 04 testing the librarys functionality.html",
+      "file": "chapters/rust-libro-espanol/147-ch12-04-testing-the-librarys-functionalityhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 148,
+      "title": "Ch12 05 working with environment variables.html",
+      "file": "chapters/rust-libro-espanol/148-ch12-05-working-with-environment-variableshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 149,
+      "title": "Ch12 06 writing to stderr instead of stdout.html",
+      "file": "chapters/rust-libro-espanol/149-ch12-06-writing-to-stderr-instead-of-stdouthtml.md",
+      "words": 1680
+    },
+    {
+      "index": 150,
+      "title": "Ch13 00 functional features.html",
+      "file": "chapters/rust-libro-espanol/150-ch13-00-functional-featureshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 151,
+      "title": "Ch13 01 closures.html",
+      "file": "chapters/rust-libro-espanol/151-ch13-01-closureshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 152,
+      "title": "Ch13 02 iterators.html",
+      "file": "chapters/rust-libro-espanol/152-ch13-02-iteratorshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 153,
+      "title": "Ch13 03 improving our io project.html",
+      "file": "chapters/rust-libro-espanol/153-ch13-03-improving-our-io-projecthtml.md",
+      "words": 1680
+    },
+    {
+      "index": 154,
+      "title": "Ch14 02 publishing to crates io.html",
+      "file": "chapters/rust-libro-espanol/154-ch14-02-publishing-to-crates-iohtml.md",
+      "words": 1680
+    },
+    {
+      "index": 155,
+      "title": "Ch14 03 cargo workspaces.html",
+      "file": "chapters/rust-libro-espanol/155-ch14-03-cargo-workspaceshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 156,
+      "title": "Ch15 01 box.html",
+      "file": "chapters/rust-libro-espanol/156-ch15-01-boxhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 157,
+      "title": "Ch15 02 deref.html",
+      "file": "chapters/rust-libro-espanol/157-ch15-02-derefhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 158,
+      "title": "Ch15 04 rc.html",
+      "file": "chapters/rust-libro-espanol/158-ch15-04-rchtml.md",
+      "words": 1680
+    },
+    {
+      "index": 159,
+      "title": "Ch15 05 interior mutability.html",
+      "file": "chapters/rust-libro-espanol/159-ch15-05-interior-mutabilityhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 160,
+      "title": "Ch15 06 reference cycles.html",
+      "file": "chapters/rust-libro-espanol/160-ch15-06-reference-cycleshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 161,
+      "title": "Ch16 01 threads.html",
+      "file": "chapters/rust-libro-espanol/161-ch16-01-threadshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 162,
+      "title": "Ch16 02 message passing.html",
+      "file": "chapters/rust-libro-espanol/162-ch16-02-message-passinghtml.md",
+      "words": 1680
+    },
+    {
+      "index": 163,
+      "title": "Ch16 03 shared state.html",
+      "file": "chapters/rust-libro-espanol/163-ch16-03-shared-statehtml.md",
+      "words": 1680
+    },
+    {
+      "index": 164,
+      "title": "Ch16 04 extensible concurrency sync and send.html",
+      "file": "chapters/rust-libro-espanol/164-ch16-04-extensible-concurrency-sync-and-sendhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 165,
+      "title": "Ch17 00 async await.html",
+      "file": "chapters/rust-libro-espanol/165-ch17-00-async-awaithtml.md",
+      "words": 1680
+    },
+    {
+      "index": 166,
+      "title": "Ch17 03 more futures.html",
+      "file": "chapters/rust-libro-espanol/166-ch17-03-more-futureshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 167,
+      "title": "Ch18 01 what is oo.html",
+      "file": "chapters/rust-libro-espanol/167-ch18-01-what-is-oohtml.md",
+      "words": 1680
+    },
+    {
+      "index": 168,
+      "title": "Ch18 02 trait objects.html",
+      "file": "chapters/rust-libro-espanol/168-ch18-02-trait-objectshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 169,
+      "title": "Ch18 03 oo design patterns.html",
+      "file": "chapters/rust-libro-espanol/169-ch18-03-oo-design-patternshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 170,
+      "title": "Ch19 01 all the places for patterns.html",
+      "file": "chapters/rust-libro-espanol/170-ch19-01-all-the-places-for-patternshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 171,
+      "title": "Ch19 03 pattern syntax.html",
+      "file": "chapters/rust-libro-espanol/171-ch19-03-pattern-syntaxhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 172,
+      "title": "Ch20 01 unsafe rust.html",
+      "file": "chapters/rust-libro-espanol/172-ch20-01-unsafe-rusthtml.md",
+      "words": 1680
+    },
+    {
+      "index": 173,
+      "title": "Ch20 02 advanced traits.html",
+      "file": "chapters/rust-libro-espanol/173-ch20-02-advanced-traitshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 174,
+      "title": "Ch20 03 advanced types.html",
+      "file": "chapters/rust-libro-espanol/174-ch20-03-advanced-typeshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 175,
+      "title": "Ch20 05 macros.html",
+      "file": "chapters/rust-libro-espanol/175-ch20-05-macroshtml.md",
+      "words": 1680
+    },
+    {
+      "index": 176,
+      "title": "Ch21 01 single threaded.html",
+      "file": "chapters/rust-libro-espanol/176-ch21-01-single-threadedhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 177,
+      "title": "Ch21 02 multithreaded.html",
+      "file": "chapters/rust-libro-espanol/177-ch21-02-multithreadedhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 178,
+      "title": "Ch21 03 graceful shutdown and cleanup.html",
+      "file": "chapters/rust-libro-espanol/178-ch21-03-graceful-shutdown-and-cleanuphtml.md",
+      "words": 1680
+    },
+    {
+      "index": 179,
+      "title": "External blocks.html#abi",
+      "file": "chapters/rust-libro-espanol/179-external-blockshtmlabi.md",
+      "words": 1680
+    },
+    {
+      "index": 180,
+      "title": "Foreword.html",
+      "file": "chapters/rust-libro-espanol/180-forewordhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 181,
+      "title": "Print.html",
+      "file": "chapters/rust-libro-espanol/181-printhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 182,
+      "title": "Title page.html",
+      "file": "chapters/rust-libro-espanol/182-title-pagehtml.md",
+      "words": 1680
+    },
+    {
+      "index": 183,
+      "title": "Index.html",
+      "file": "chapters/rust-libro-espanol/183-indexhtml.md",
+      "words": 1680
+    },
+    {
+      "index": 184,
+      "title": "Ch17 05 traits for async.html",
+      "file": "chapters/rust-libro-espanol/184-ch17-05-traits-for-asynchtml.md",
+      "words": 1680
+    },
+    {
+      "index": 185,
+      "title": "Index.html#other preludes",
+      "file": "chapters/rust-libro-espanol/185-indexhtmlother-preludes.md",
+      "words": 1680
+    }
+  ],
+  "learningIntegrated": true,
+  "sourceUrl": "https://book.rustlang-es.org"
+}

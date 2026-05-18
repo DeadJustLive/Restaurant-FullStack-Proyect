@@ -1,0 +1,56 @@
+# 17.3 Un Directorio por Vista
+
+Tener varias vistas es un reto por sí mismo. Para comenzar, debes definir un esquema
+de enrutamiento. react-router2 es una solución popular que cumple este propósito.
+Además de la definición del esquema, necesitarás definir qué quieres mostrar en
+cada vista. Puedes tener vistas separadas para la página principal de tu aplicación,
+otra para el registro, el tablero de Kanban, etc, enlanzándolas con cada ruta.
+Estos requisitos implican nuevos conceptos que deben ser introducidos en nuestra
+estructura. Una forma de lidiar con el enrutado es crear un componente Routes
+que coordine qué vista hay que mostrar en base a la ruta actual. En lugar de App
+podemos tener varias vistas en su lugar. He aquí el aspecto que podría tener una
+posible estructura:
+├── components
+│ ├── Note
+│ │ ├── Note.jsx
+│ │ ├── index.js
+│ │ ├── note.css
+│ │ └── note_test.jsx
+│ ├── Routes
+│ │ ├── Routes.jsx
+│ │ ├── index.js
+│ │ └── routes_test.jsx
+│ └── index.js
+1https://github.com/gajus/create-index
+2https://github.com/rackt/react-router
+
+-- 198 of 226 --
+
+Estructurando Proyectos con React 181
+...
+├── index.jsx
+├── main.css
+└── views
+├── Home
+│ ├── Home.jsx
+│ ├── home.css
+│ ├── home_test.jsx
+│ └── index.js
+├── Register
+│ ├── Register.jsx
+│ ├── index.js
+│ ├── register.css
+│ └── register_test.jsx
+└── index.js
+La idea es la misma que antes, aunque esta vez tenemos más partes que coordinar. La
+aplicación comienza desde index.jsx, que invocará Routes, que decidirá qué vista
+mostrar, Tras esto el flujo sigue como hasta ahora.
+Esta estructura puede escalar mejor, pero también tiene sus límites. Una vez el
+proyecto comience a crecer puede que quieras introducir nuevos componentes en
+él. Puede ser natural introducir un concepto, como “funcionalidad”, entre las vistas
+y los componentes.
+Por ejemplo, puede que quieras tener un LoginModal resultón que se muestre en
+ciertas vistas sólo si la sesión del usuario ha caducado. Puede estar compuesto por
+componentes de más bajo nivel. De nuevo, las características comunes pueden ser
+desplazadas fuera del proyecto como paquetes si ves que tienen potencial para ser
+reusadas.

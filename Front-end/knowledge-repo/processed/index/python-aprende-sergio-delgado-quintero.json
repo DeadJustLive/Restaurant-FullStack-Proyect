@@ -1,0 +1,546 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero",
+  "title": "Aprende Python",
+  "author": "",
+  "pages": 516,
+  "sourceFile": "source-pdfs/python-aprende-sergio-delgado-quintero.pdf",
+  "processedAt": "2026-05-17T07:11:22.615Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Sección 6",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/01-sección-6.md",
+      "words": 1375
+    },
+    {
+      "index": 2,
+      "title": "XVII",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/02-xvii.md",
+      "words": 749
+    },
+    {
+      "index": 3,
+      "title": "COBOL",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/03-cobol.md",
+      "words": 184
+    },
+    {
+      "index": 4,
+      "title": "1.3 Python",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/04-13-python.md",
+      "words": 1458
+    },
+    {
+      "index": 5,
+      "title": "CAPÍTULO 2",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/05-capítulo-2.md",
+      "words": 44
+    },
+    {
+      "index": 6,
+      "title": "2.1 Thonny",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/06-21-thonny.md",
+      "words": 1021
+    },
+    {
+      "index": 7,
+      "title": "2.2 Contexto real",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/07-22-contexto-real.md",
+      "words": 1683
+    },
+    {
+      "index": 8,
+      "title": "4. Finalmente, la instalamos:",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/08-4-finalmente-la-instalamos.md",
+      "words": 38
+    },
+    {
+      "index": 9,
+      "title": "2.3 VSCode",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/09-23-vscode.md",
+      "words": 339
+    },
+    {
+      "index": 10,
+      "title": "4. Salida de la terminal.",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/10-4-salida-de-la-terminal.md",
+      "words": 59
+    },
+    {
+      "index": 11,
+      "title": "5. Barra de herramientas para depuración.",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/11-5-barra-de-herramientas-para-depuración.md",
+      "words": 204
+    },
+    {
+      "index": 12,
+      "title": "CAPÍTULO 3",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/12-capítulo-3.md",
+      "words": 50
+    },
+    {
+      "index": 13,
+      "title": "3.1 Datos",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/13-31-datos.md",
+      "words": 280
+    },
+    {
+      "index": 14,
+      "title": "3. No pueden ser una palabra reservada del lenguaje («keywords»).",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/14-3-no-pueden-ser-una-palabra-reservada-del-lenguaje-keywords.md",
+      "words": 1144
+    },
+    {
+      "index": 15,
+      "title": "2. Si estamos escribiendo un programa desde el editor, podemos hacer uso de print:",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/15-2-si-estamos-escribiendo-un-programa-desde-el-editor-podemos-hacer-uso-de-print.md",
+      "words": 67
+    },
+    {
+      "index": 16,
+      "title": "4. Asigna la expresión 10 * 3.0 a la variable result y muestra su tipo.",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/16-4-asigna-la-expresión-10-30-a-la-variable-result-y-muestra-su-tipo.md",
+      "words": 673
+    },
+    {
+      "index": 17,
+      "title": "3.2 Números",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/17-32-números.md",
+      "words": 1956
+    },
+    {
+      "index": 18,
+      "title": "EJERCICIOS DE REPASO",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/18-ejercicios-de-repaso.md",
+      "words": 64
+    },
+    {
+      "index": 19,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/19-ampliar-conocimientos.md",
+      "words": 32
+    },
+    {
+      "index": 20,
+      "title": "3.3 Cadenas de texto",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/20-33-cadenas-de-texto.md",
+      "words": 599
+    },
+    {
+      "index": 21,
+      "title": "Salto de línea",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/21-salto-de-línea.md",
+      "words": 37
+    },
+    {
+      "index": 22,
+      "title": "Barra invertida",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/22-barra-invertida.md",
+      "words": 2322
+    },
+    {
+      "index": 23,
+      "title": "QUIEN A BUEN ÁRBOL SE ARRIMA BUENA SOMBRA LE COBIJA",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/23-quien-a-buen-árbol-se-arrima-buena-sombra-le-cobija.md",
+      "words": 1297
+    },
+    {
+      "index": 24,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/24-ampliar-conocimientos.md",
+      "words": 112
+    },
+    {
+      "index": 25,
+      "title": "CAPÍTULO 4",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/25-capítulo-4.md",
+      "words": 72
+    },
+    {
+      "index": 26,
+      "title": "4.1 Condicionales",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/26-41-condicionales.md",
+      "words": 212
+    },
+    {
+      "index": 27,
+      "title": "Universe age expressed in days",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/27-universe-age-expressed-in-days.md",
+      "words": 49
+    },
+    {
+      "index": 28,
+      "title": "9. Usa comentarios para destacar implementaciones incompletas.",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/28-9-usa-comentarios-para-destacar-implementaciones-incompletas.md",
+      "words": 101
+    },
+    {
+      "index": 29,
+      "title": "2. Usar los paréntesis (...):",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/29-2-usar-los-paréntesis-.md",
+      "words": 481
+    },
+    {
+      "index": 30,
+      "title": "HIGH",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/30-high.md",
+      "words": 85
+    },
+    {
+      "index": 31,
+      "title": "Asignación de valor inicial",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/31-asignación-de-valor-inicial.md",
+      "words": 72
+    },
+    {
+      "index": 32,
+      "title": "Asignación de valor inicial",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/32-asignación-de-valor-inicial.md",
+      "words": 131
+    },
+    {
+      "index": 33,
+      "title": "2. El uso de paréntesis, en función del caso, puede aclarar la expresión de comparación.",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/33-2-el-uso-de-paréntesis-en-función-del-caso-puede-aclarar-la-expresión-de-comparación.md",
+      "words": 1929
+    },
+    {
+      "index": 34,
+      "title": "4.2 Bucles",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/34-42-bucles.md",
+      "words": 850
+    },
+    {
+      "index": 35,
+      "title": "CTRL-C",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/35-ctrl-c.md",
+      "words": 1863
+    },
+    {
+      "index": 36,
+      "title": "2. Escriba un programa que pida nombre y apellidos de una persona (usando un solo",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/36-2-escriba-un-programa-que-pida-nombre-y-apellidos-de-una-persona-usando-un-solo.md",
+      "words": 46
+    },
+    {
+      "index": 37,
+      "title": "10. Escriba un programa que muestre por pantalla todas las fichas del dominó. La ficha",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/37-10-escriba-un-programa-que-muestre-por-pantalla-todas-las-fichas-del-dominó-la-ficha.md",
+      "words": 50
+    },
+    {
+      "index": 38,
+      "title": "12. Escriba un programa que muestre (por filas) la Tabla ASCII, empezando con el código",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/38-12-escriba-un-programa-que-muestre-por-filas-la-tabla-ascii-empezando-con-el-código.md",
+      "words": 205
+    },
+    {
+      "index": 39,
+      "title": "13. Escriba un programa que permita al usuario adivinar un número. Indicar si el número",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/39-13-escriba-un-programa-que-permita-al-usuario-adivinar-un-número-indicar-si-el-número.md",
+      "words": 49
+    },
+    {
+      "index": 40,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/40-ampliar-conocimientos.md",
+      "words": 45
+    },
+    {
+      "index": 41,
+      "title": "CAPÍTULO 5",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/41-capítulo-5.md",
+      "words": 89
+    },
+    {
+      "index": 42,
+      "title": "5.1 Listas",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/42-51-listas.md",
+      "words": 2205
+    },
+    {
+      "index": 43,
+      "title": "1. Utilizando la función clear():",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/43-1-utilizando-la-función-clear.md",
+      "words": 2583
+    },
+    {
+      "index": 44,
+      "title": "Su código debajo de aquí",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/44-su-código-debajo-de-aquí.md",
+      "words": 366
+    },
+    {
+      "index": 45,
+      "title": "EJERCICIOS DE REPASO",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/45-ejercicios-de-repaso.md",
+      "words": 171
+    },
+    {
+      "index": 46,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/46-ampliar-conocimientos.md",
+      "words": 55
+    },
+    {
+      "index": 47,
+      "title": "5.2 Tuplas",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/47-52-tuplas.md",
+      "words": 1168
+    },
+    {
+      "index": 48,
+      "title": "5.3 Diccionarios",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/48-53-diccionarios.md",
+      "words": 980
+    },
+    {
+      "index": 49,
+      "title": "2. Si la clave que buscamos no existe, nos devuelve None4 salvo que le indiquemos otro",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/49-2-si-la-clave-que-buscamos-no-existe-nos-devuelve-none4-salvo-que-le-indiquemos-otro.md",
+      "words": 1039
+    },
+    {
+      "index": 50,
+      "title": "2. Si la clave ya existe, se añade con el valor del «último» diccionario en la mezcla.6",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/50-2-si-la-clave-ya-existe-se-añade-con-el-valor-del-último-diccionario-en-la-mezcla6.md",
+      "words": 503
+    },
+    {
+      "index": 51,
+      "title": "1. Utilizando la función clear():",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/51-1-utilizando-la-función-clear.md",
+      "words": 768
+    },
+    {
+      "index": 52,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/52-ampliar-conocimientos.md",
+      "words": 58
+    },
+    {
+      "index": 53,
+      "title": "5.4 Conjuntos",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/53-54-conjuntos.md",
+      "words": 1440
+    },
+    {
+      "index": 54,
+      "title": "5.5 Ficheros",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/54-55-ficheros.md",
+      "words": 1366
+    },
+    {
+      "index": 55,
+      "title": "3. Escribir un fichero de salida avg_temps.txt con 12 filas (meses) y la temperatura",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/55-3-escribir-un-fichero-de-salida-avgtempstxt-con-12-filas-meses-y-la-temperatura.md",
+      "words": 66
+    },
+    {
+      "index": 56,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/56-ampliar-conocimientos.md",
+      "words": 36
+    },
+    {
+      "index": 57,
+      "title": "CAPÍTULO 6",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/57-capítulo-6.md",
+      "words": 139
+    },
+    {
+      "index": 58,
+      "title": "2. Reutilizar el código para distintas situaciones.",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/58-2-reutilizar-el-código-para-distintas-situaciones.md",
+      "words": 1746
+    },
+    {
+      "index": 59,
+      "title": "2. La variable result apunta a una zona de memoria en la que se modifican sus valores.",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/59-2-la-variable-result-apunta-a-una-zona-de-memoria-en-la-que-se-modifican-sus-valores.md",
+      "words": 1505
+    },
+    {
+      "index": 60,
+      "title": "2. If distance less than a half, return floor.",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/60-2-if-distance-less-than-a-half-return-floor.md",
+      "words": 965
+    },
+    {
+      "index": 61,
+      "title": "4. Puede recibir cualquier número de parámetros.",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/61-4-puede-recibir-cualquier-número-de-parámetros.md",
+      "words": 2831
+    },
+    {
+      "index": 62,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/62-ampliar-conocimientos.md",
+      "words": 111
+    },
+    {
+      "index": 63,
+      "title": "6.2 Objetos y Clases",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/63-62-objetos-y-clases.md",
+      "words": 4305
+    },
+    {
+      "index": 64,
+      "title": "5. Imprima por pantalla la info() de este objeto (el método info() debería retornar str",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/64-5-imprima-por-pantalla-la-info-de-este-objeto-el-método-info-debería-retornar-str.md",
+      "words": 280
+    },
+    {
+      "index": 65,
+      "title": "1. Escriba una clase en Python para representar una secuencia de ADN. De momento, la",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/65-1-escriba-una-clase-en-python-para-representar-una-secuencia-de-adn-de-momento-la.md",
+      "words": 35
+    },
+    {
+      "index": 66,
+      "title": "3. Continúe con el ejercicio anterior, y añada a la clase un método de instancia para sumar",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/66-3-continúe-con-el-ejercicio-anterior-y-añada-a-la-clase-un-método-de-instancia-para-sumar.md",
+      "words": 31
+    },
+    {
+      "index": 67,
+      "title": "5. Continúe con el ejercicio anterior, y añada a la clase un método de instancia para",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/67-5-continúe-con-el-ejercicio-anterior-y-añada-a-la-clase-un-método-de-instancia-para.md",
+      "words": 35
+    },
+    {
+      "index": 68,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/68-ampliar-conocimientos.md",
+      "words": 92
+    },
+    {
+      "index": 69,
+      "title": "6.3 Excepciones",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/69-63-excepciones.md",
+      "words": 1310
+    },
+    {
+      "index": 70,
+      "title": "6.4 Módulos",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/70-64-módulos.md",
+      "words": 295
+    },
+    {
+      "index": 71,
+      "title": "2. En las rutas definidas en la variable de entorno PYTHONPATH.",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/71-2-en-las-rutas-definidas-en-la-variable-de-entorno-pythonpath.md",
+      "words": 757
+    },
+    {
+      "index": 72,
+      "title": "punto de entrada real",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/72-punto-de-entrada-real.md",
+      "words": 289
+    },
+    {
+      "index": 73,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/73-ampliar-conocimientos.md",
+      "words": 50
+    },
+    {
+      "index": 74,
+      "title": "CAPÍTULO 7",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/74-capítulo-7.md",
+      "words": 95
+    },
+    {
+      "index": 75,
+      "title": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/75-abcdefghijklmnopqrstuvwxyz.md",
+      "words": 524
+    },
+    {
+      "index": 76,
+      "title": "CAPÍTULO 8",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/76-capítulo-8.md",
+      "words": 10157
+    },
+    {
+      "index": 77,
+      "title": "4. Compute los tiempos de ejecución de 2) y 3)",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/77-4-compute-los-tiempos-de-ejecución-de-2-y-3.md",
+      "words": 3849
+    },
+    {
+      "index": 78,
+      "title": "Column Non-Null Count Dtype",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/78-column-non-null-count-dtype.md",
+      "words": 1764
+    },
+    {
+      "index": 79,
+      "title": "Islas con más de 1000 km2 de extensión",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/79-islas-con-más-de-1000-km2-de-extensión.md",
+      "words": 886
+    },
+    {
+      "index": 80,
+      "title": "IBM USA",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/80-ibm-usa.md",
+      "words": 986
+    },
+    {
+      "index": 81,
+      "title": "IBM NEW YORK",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/81-ibm-new-york.md",
+      "words": 1919
+    },
+    {
+      "index": 82,
+      "title": "84893.0 Mediana de los valores",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/82-848930-mediana-de-los-valores.md",
+      "words": 65
+    },
+    {
+      "index": 83,
+      "title": "84893.0 Cuantiles (por defecto 50%)",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/83-848930-cuantiles-por-defecto-50.md",
+      "words": 734
+    },
+    {
+      "index": 84,
+      "title": "Foxconn tiene el mayor número de empleados/as",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/84-foxconn-tiene-el-mayor-número-de-empleadosas.md",
+      "words": 4438
+    },
+    {
+      "index": 85,
+      "title": "2020. Hemos descargado el fichero medals.xlsx desde una página de Kaggle4.",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/85-2020-hemos-descargado-el-fichero-medalsxlsx-desde-una-página-de-kaggle4.md",
+      "words": 3082
+    },
+    {
+      "index": 86,
+      "title": "CAPÍTULO 9",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/86-capítulo-9.md",
+      "words": 4887
+    },
+    {
+      "index": 87,
+      "title": "PARTIAL_LINK_TEXT",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/87-partiallinktext.md",
+      "words": 1420
+    },
+    {
+      "index": 88,
+      "title": "STACK OVERFLOW",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/88-stack-overflow.md",
+      "words": 199
+    },
+    {
+      "index": 89,
+      "title": "5. Recorrer los elementos desplegados li y mostrar el contenido textual de los elementos",
+      "file": "chapters/python-aprende-sergio-delgado-quintero/89-5-recorrer-los-elementos-desplegados-li-y-mostrar-el-contenido-textual-de-los-elementos.md",
+      "words": 53
+    }
+  ],
+  "learningIntegrated": true
+}

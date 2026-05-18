@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch436-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 436,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 18,
+  "words": 18,
+  "content": "# PRECONDICIONES: * la celda actual es el pivote de una pieza * la pieza no est´a marcada"
+}

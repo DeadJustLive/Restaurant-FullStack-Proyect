@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch032-001",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 32,
+  "chunkIndex": 1,
+  "title": "Chapter 10",
+  "start": 450,
+  "end": 609,
+  "words": 159,
+  "content": "a las vinculaciones globales creadas por ese script. Esto fomentaba activamente el enredo accidental y difícil de detectar del código e invitaba a problemas como scripts no relacionados que intentaban usar el mismo nombre de vinculación. Desde ECMAScript 2015, JavaScript admite dos tipos diferentes de pro- gramas. Los scripts se comportan de la manera antigua: sus vinculaciones se definen en el ámbito global y no tienen forma de referenciar directamente otros scripts. Los módulos obtienen su propio ámbito separado y admiten las palabras clave import y export, que no están disponibles en los scripts, para declarar sus dependencias e interfaz. Este sistema de módulos se suele llamar módulos de ES (donde “ES” significa “ECMAScript”). Un programa modular está compuesto por varios de estos módulos, conecta- dos a través de sus importaciones y exportaciones. Este ejemplo de módulo convierte entre nombres de días y números (como los devueltos por el método getDay de Date). Define una constante que no forma"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch048-013",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 48,
+  "chunkIndex": 13,
+  "title": "Chapter 17",
+  "start": 5850,
+  "end": 5930,
+  "words": 80,
+  "content": "actual que se puede cambiar con los métodos translate, scale y rotate. Estos afectarán todas las operaciones de dibujo subsiguientes. Un estado de transformación se puede guardar con el método save y restaurar con el método restore. Al mostrar una animación en un canvas, se puede usar el método clearRect para borrar parte del canvas antes de volver a dibujarlo. 305 -- 317 of 445 -- Ejercicios Formas Escribe un programa que dibuje las siguientes formas en un lienzo canvas:"
+}

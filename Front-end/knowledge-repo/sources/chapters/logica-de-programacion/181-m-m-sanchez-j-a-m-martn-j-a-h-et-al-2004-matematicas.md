@@ -1,0 +1,12 @@
+# M. M., SANCHEZ, J. A. M., Mart´ın, J. A. H., et al. (2004). Matem´aticas
+
+re-creativas, volume 29. Grao.
+[Boullosa, 2016] Boullosa, P. (2016). Ada Lovelace. https://
+www.youtube.com/watch?v=QcvuMFveUqk. Tv Azteca [Online;
+consultado Junio-2017].
+[Corona and Ancona, 2011] Corona, M. A. N. and Ancona, M. V. (2011).
+Dise˜no de algoritmos y su codificaci´on en lenguaje C. McGraw-Hill
+Interamericana.
+[Echeverri and Orrego, 2012] Echeverri, J. A. A. and Orrego, G. A. V.
+(2012). Programaci´on, Teor´ıa y aplicaciones. Universidad de Medell´ın.
+[Jim´enez et al., 2016] Jim´enez, J. A. M., Jim´enez, E. M. H., and Alvarado,

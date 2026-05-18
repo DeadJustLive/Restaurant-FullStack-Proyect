@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch029-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 29,
+  "chunkIndex": 0,
+  "title": "Concurrencia extensible con los traitsSyncySend",
+  "start": 0,
+  "end": 33,
+  "words": 33,
+  "content": "# Concurrencia extensible con los traitsSyncySend ## Concurrencia extensible con los traitsSyncySend ### Permitiendo la transferencia de Ownership entre hilos conSend ### Permitiendo el acceso desde múltiples hilos conSync ### ImplementarSendySyncmanualmente es inseguro"
+}

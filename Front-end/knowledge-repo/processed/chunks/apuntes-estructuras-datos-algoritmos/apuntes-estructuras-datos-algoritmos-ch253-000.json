@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch253-000",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 253,
+  "chunkIndex": 0,
+  "title": "1. Concepto de diccionario y su especificación",
+  "start": 0,
+  "end": 36,
+  "words": 36,
+  "content": "# 9. Instrucciones iterativas para <variable_de_tipo_discreto>:=<valor_inicial> hasta <valor_final> hacer <secuencia de acciones> fpara para <variable_de_tipo_disc>:=<valor_inicial> descendiendo hasta <valor_final> hacer <secuencia de acciones> fpara mientrasQue <condición> hacer <secuencia de acciones> fmq repetir <secuencia de acciones> hastaQue <condición>"
+}

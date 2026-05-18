@@ -1,0 +1,535 @@
+# bases-conceptuales-programacion
+
+## Resumen
+Documento procesado con openPrompt-Lang Knowledge.
+
+**Páginas:** 312
+**Método:** native
+**Procesado:** 2026-05-17
+
+## Capítulos
+- **1. La disciplina de la programaci ´on 23**
+- **2. Primeros elementos de programaci ´on 39**
+- **3. Procedimientos, funciones y parametrizaci ´on 89**
+- **4. Alternativa, repetici ´on y memoria 131**
+- **5. Un ejemplo completo: ZILFOST 179**
+- **1) Elementos del lenguaje**
+- **2) Elementos de abstracci ´on**
+- **3) Elementos de estilo**
+- **4) Otros conceptos**
+- **1. Universo de discurso (tablero, bolitas, cabezal)**
+- **PRECONDICI´ON:**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **parte 2: , vemos que la misma tiene como precondici ´on que haya tantas celdas en**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **2. Programas**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **SUPOSICION:**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **{- PROP´OSITO:**
+- **3. Comandos**
+- **PRECONDICI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **OBSERVACI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **OBSERVACI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **{- PROP´OSITO:**
+- **4. Comandos primitivos (Poner)**
+- **PRECONDICI´ON:**
+- **OBSERVACI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **PRECONDICI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **PRECONDICI´ON:**
+- **5. Expresiones**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **SUPOSICI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **OBSERVACI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **6. Expresiones literales**
+- **OBSERVACI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **PROP´OSITO:**
+- **7. Secuencia de comandos**
+- **PRECONDICI´ON:**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **SUPOSICI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **8. Bloques**
+- **OBSERVACI´ON:**
+- **1. Recorrer primero el texto de referencia, recordando la traducci ´on de cada s´ımbolo**
+- **2. Recorrer el texto de referencia y, a medida que se encuentra un par clave/valor,**
+- **3. Esta posibilidad es la m ´as simple de programar (y quiz ´as la m ´as “natural” en alg ´un**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **9. Ejecuci ´on de programas**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **10. Mensajes de error**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **11. M ´as comandos primitivos (Mover, Sacar, etc.)**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **12. Procedimientos simples**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **13. Invocaci ´on de procedimientos simples**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **14. Divisi ´on en subtareas**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **15. Biblioteca de operaciones**
+- **PRECONDICIONES Y OBSERVACIONES:**
+- **PRECONDICIONES Y OBSERVACIONES:**
+- **PRECONDICIONES Y OBSERVACIONES:**
+- **PRECONDICIONES Y OBSERVACIONES:**
+- **PRECONDICIONES Y OBSERVACIONES:**
+- **PRECONDICIONES Y OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **16. Elementos de estilo**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **17. Indentaci ´on**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **18. Elecci ´on de nombres**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **19. Comentarios**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **20. Elementos de “contrato”**
+- **PROP´OSITO:**
+- **PROP´OSITO:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **K BACKSPACE; y**
+- **PRECONDICI´ON:**
+- **K_B, K_ESCAPE, K_DELETE, K_BACKSPACE**
+- **K_J, K_ARROW_LEFT**
+- **K_L, K_ARROW_RIGHT**
+- **21. Prop ´osito de una operaci ´on**
+- **K_K, K_ARROW_DOWN**
+- **K_I, K_ARROW_UP**
+- **K_D, K_ENTER**
+- **K_A, K_SPACE**
+- **OBSERVACIONES:**
+- **(1-Z,2-I,3-L,4-F,5-O,6-S,7-T)**
+- **/*=SECCI´ON 1=======================================***
+- **PRECONDICI´ON:**
+- **PRECONDICI´ON:**
+- **K_B, K_ESCAPE, K_DELETE, K_BACKSPACE**
+- **22. Precondiciones de una operaci ´on**
+- **K_J, K_ARROW_LEFT**
+- **K_L, K_ARROW_RIGHT**
+- **K_K, K_ARROW_DOWN**
+- **K_I, K_ARROW_UP**
+- **K_D, K_ENTER**
+- **K_A, K_SPACE**
+- **/*=SECCI´ON 2=======================================***
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **1. Par ´ametros**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **2. Procedimientos con par ´ametros**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **3. Invocaci ´on de procedimientos con argumentos**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **4. Uso de par ´ametros**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **5. Requisitos a los par ´ametros**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **6. Repetici ´on simple**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **7. Repetici ´on indexada**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **/*=SECCI´ON 3=======================================***
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **9. Uso de ´ındices**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **10. Tipos de datos**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **11. Utilidad de los tipos**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **/*=SECCI´ON 4=======================================***
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **12. Operaciones primitivas de expresiones (por tipo)**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **13. Alternativa condicional**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **14. Funciones simples**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **15. Invocaci ´on de funciones simples**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **16. Funciones con par ´ametros**
+- **/*=SECCI´ON 5=======================================***
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **17. Invocaci ´on de funciones con argumentos**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **18. Funciones con procesamiento**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **1. Alternativa indexada**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **2. Repetici ´on condicional**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **3. Esquemas de recorrido**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **/*=SECCI´ON 6=======================================***
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PROP´OSITO:**
+- **4. Variables**
+- **PROP´OSITO:**
+- **PROP´OSITO:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **OBSERVACIONES:**
+- **OBSERVACIONES:**
+- **5. Asignaci ´on**
+- **6. Uso de variables**
+- **1957. Realiz ´o nu-**
+- **2007. Gan ´o diver-**
+- **3. Dibujar**
+- **5. UnIdentificadorMasEntendible**
+- **6. UnIdentificadorTanLargoQueNoValeLaPenaNiPensarEnEscribirlo**
+- **7. DibujarCuadradoNegroDeLado3**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **PRECONDICIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **PRECONDICIONES:**
+- **OBSERVACIONES:**
+- **PROP´OSITO:**
+- **1. PonerN que deposite cant bolitas de color color en la celda actual, supo-**
+- **2. MoverN que se mueva cant celdas en la direcci ´on dir desde la celda actual,**
+- **3. SacarN que quite cant bolitas de color color de la celda actual, suponiendo**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **OBSERVACI´ON:**
+- **parte 3: , y combinarlo con alguna de las expresiones reci ´en presentadas.**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **{- PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **OBSERVACI´ON:**
+- **PROP´OSITO:**
+- **PRECONDICI´ON:**
+- **PROP´OSITO:**

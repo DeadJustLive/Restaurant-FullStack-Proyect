@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch033-000",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 33,
+  "chunkIndex": 0,
+  "title": "2. Escribir un código que permita mostrar los ítems de forma cíclica, mostrando un ítem por unos",
+  "start": 0,
+  "end": 35,
+  "words": 35,
+  "content": "# 2. Escribir un código que permita mostrar los ítems de forma cíclica, mostrando un ítem por unos segundos, luego ocultándolo con un efecto fade out y mostrando el siguiente con un efecto *fade in."
+}

@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# openPrompt-Lang framework generated files
+contexto.md
+.openprompt/
+prompt-lang.json
+
+# npm
+package-lock.json
+package.json
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.ctxt
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.local
+
+# Build
+dist/
+build/
+
+# Logs
+logs/
+*.log

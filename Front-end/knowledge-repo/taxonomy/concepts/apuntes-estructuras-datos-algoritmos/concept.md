@@ -1,0 +1,269 @@
+# apuntes-estructuras-datos-algoritmos
+
+## Resumen
+Documento procesado con openPrompt-Lang Knowledge.
+
+**Páginas:** 267
+**Método:** native
+**Procesado:** 2026-05-17
+
+## Capítulos
+- **Tema I:: Programación con Tipos Abstractos de Datos ..................................................................................... 1**
+- **Lección 1:: Tipos Abstractos de Datos (TAD) ......................................................................................... 3**
+- **Lección 2:: Especificación de TAD ........................................................................................................ 17**
+- **Lección 3:: Implementación de TAD...................................................................................................... 25**
+- **Lección 4:: TAD genéricos ..................................................................................................................... 35**
+- **Lección 5:: TAD fundamentales ............................................................................................................. 47**
+- **Tema II:: Tipos de datos lineales...................................................................................................................... 53**
+- **Lección 6:: El TAD pila genérica. Definición e implementación estática .............................................. 55**
+- **Lección 7:: Datos puntero y estructuras dinámicas de datos .................................................................. 61**
+- **Lección 8:: Implementación dinámica de pilas....................................................................................... 65**
+- **Lección 11**
+- **1. Conceptos, definiciones y terminología básica**
+- **2. Los árboles como estructura de datos para representar TAD contenedores**
+- **1. Conceptos, definiciones y terminología básica**
+- **2. Los árboles como estructura de datos para representar TAD contenedores**
+- **Lección 12**
+- **1. Concepto y especificación**
+- **2. Implementación estática**
+- **3. Implementación dinámica**
+- **4. Recorridos**
+- **Lección 9:: El TAD cola genérica........................................................................................................... 75**
+- **1. Concepto y especificación**
+- **2. Implementación estática**
+- **3. Implementación dinámica**
+- **4. Recorridos**
+- **1. 	Recorrido en pre-orden:**
+- **2. 	Recorrido en post-orden:**
+- **3. 	Recorrido en in-orden u orden central:**
+- **Lección 13**
+- **1. Concepto y especificación**
+- **2. Implementación dinámica**
+- **Lección 10:: El TAD diccionario. Implementación con listas enlazadas ordenadas .............................. 87**
+- **3. Implementación del TAD diccionario con ABB**
+- **1. Concepto y especificación**
+- **2. Implementación dinámica**
+- **3. Implementación del TAD diccionario con ABB**
+- **Lección 14**
+- **1. Definición y teorema de AVL**
+- **2. Representación de los árboles AVL**
+- **3. Inserción en AVL**
+- **4. Borrado en AVL**
+- **1. Definición y teorema AVL**
+- **Tema III:: Tipos de datos arborescentes ........................................................................................................... 97**
+- **2. Representación de los árboles AVL**
+- **unidad m: ayor que la del derecho.**
+- **3. Inserción en AVL**
+- **1. 	Buscar la clave hasta encontrar la posición de inserción o modificación del valor asociado. Es un proceso idéntico**
+- **2. 	Insertar el nuevo nodo hoja, con factor de equilibrio equilibrado.**
+- **3. 	Desandar 	el 	camino 	de 	búsqueda, 	verificando 	el 	equilibrio 	de 	los 	nodos 	del 	camino, 	y**
+- **4. Borrado en AVL**
+- **1. 	Proceso de borrado como en un árbol binario de búsqueda:**
+- **2. 	Se regresa por el camino de búsqueda calculando los nuevos factores de equilibrio:**
+- **Lección 15**
+- **Lección 11:: Introducción a los árboles .................................................................................................. 99**
+- **1. Conceptos y especificación**
+- **2. Recorridos**
+- **3. Implementación dinámica**
+- **4. Ideas sobre implementación estática**
+- **1. Conceptos y especificación**
+- **2. Recorridos**
+- **3. Implementación dinámica**
+- **4. Ideas sobre implementación estática**
+- **parte d: e las componentes del vector. Además, sería preciso añadir en**
+- **Lección 16**
+- **Lección 12:: Árboles binarios ............................................................................................................... 103**
+- **1. Definición**
+- **2. Árboles n–arios de búsqueda equilibrados**
+- **3. Ejemplo de implementación (árboles 2–3)**
+- **1. Definición**
+- **2. Árboles n–arios de búsqueda equilibrados**
+- **3. Ejemplo de implementación (árboles 2–3)**
+- **Lección 17**
+- **1. Definición y características principales**
+- **2. Implementaciones**
+- **3. Detalles de la implementación nodo–lista**
+- **Lección 13:: Árboles binarios de búsqueda .......................................................................................... 115**
+- **1. Definición y características principales**
+- **2. Implementaciones**
+- **3. Detalles de la implementación nodo–lista**
+- **Lección 18**
+- **1. Concepto y especificación de cola con prioridad genérica**
+- **2. Implementación basada en un montículo o heap**
+- **3. Aplicación a la ordenación de elementos de un vector: el heapsort**
+- **1. Concepto y especificación de cola con prioridad genérica**
+- **2. Implementación basada en un montículo o heap**
+- **módulo c: olaConPrioridadesDeMáximos**
+- **Lección 14:: Árboles AVL .................................................................................................................... 127**
+- **3. Aplicación a la ordenación de elementos de un vector: el heapsort**
+- **TEMA IV**
+- **Lección 19**
+- **1. Recordatorio del concepto de tabla o diccionario y su especificación**
+- **2. Repaso de implementaciones ya vistas**
+- **3. Tablas dispersas (o hash)**
+- **1. Recordatorio del concepto de tabla o diccionario y su especificación**
+- **2. Repaso de implementaciones ya vistas**
+- **3. Tablas dispersas (o hash)**
+- **1. Elegir la función**
+- **Lección 15:: Árboles n–arios ................................................................................................................ 139**
+- **2. Seleccionar un método para resolver las colisiones.**
+- **Lección 20**
+- **1. Concepto y ejemplo introductorio**
+- **2. Especificación de tablas bidimensionales**
+- **3. Implementación con estructuras de listas múltiples**
+- **1. Concepto y ejemplo introductorio**
+- **2. Especificación de tablas bidimensionales**
+- **3. Implementación con estructuras de listas múltiples**
+- **ANEXOS**
+- **1. Conceptos básicos**
+- **Lección 16:: Árboles n–arios de búsqueda ........................................................................................... 149**
+- **2. Especificación**
+- **3. Representación con matriz de adyacencia**
+- **4. Representación con listas de adyacencia**
+- **5. Representación con listas múltiples de adyacencia**
+- **1. Conceptos básicos**
+- **2. Especificación**
+- **3. Representación con matriz de adyacencia**
+- **4. Representación con listas de adyacencia**
+- **5. Representación con listas múltiples de adyacencia**
+- **1. Introducción al esquema de vuelta atrás**
+- **Lección 17:: Árboles lexicográficos (o tries)........................................................................................ 159**
+- **2. Ejemplo: el problema de las ocho reinas**
+- **3. Ejemplo: recorrido de un laberinto**
+- **4. Árboles de juego: estrategia minimax**
+- **1. Introducción al esquema de vuelta atrás**
+- **2. Ejemplo: el problema de las ocho reinas**
+- **3. Ejemplo: recorrido de un laberinto**
+- **4. Árboles de juego: estrategia minimax**
+- **EM PATE 	EM PATE**
+- **1. Estrategias voraces**
+- **2. Aplicación al problema del recorrido del caballo de ajedrez**
+- **Lección 18:: Colas con prioridad, montículos y el heapsort ................................................................ 167**
+- **3. Aplicación al problema del viajante**
+- **1. Estrategias voraces**
+- **2. Aplicación al problema del recorrido del caballo de ajedrez**
+- **3. Aplicación al problema del viajante**
+- **1. Especificación: sintaxis**
+- **2. Semántica de una especificación algebraica**
+- **3. Construcción de especificaciones**
+- **4. Verificación con especificaciones algebraicas**
+- **1. Especificación: sintaxis**
+- **Tema I: con el procedimiento info.**
+- **Tema IV:: Tipos de datos funcionales ............................................................................................................ 175**
+- **2. Semántica de una especificación algebraica**
+- **¬ (T) = F; 	¬ (F) = T; 	¬ (KK) = KK**
+- **T∧T = T; 	F∧F = F∧T = T∧F = F∧KK = KK∧F = F**
+- **T∧KK = KK∧T = KK; 	F∨F = F**
+- **T∨T = T∨F = F∨T = T∨KK = KK∨T = T; 	F∨KK = KK∨F = KK**
+- **1. 	El álgebra de términos cerrados sobre SIG, TSIG, es inicial en la clase ALG(SIG). El único homomorfismo de TSIG a**
+- **2. 	El álgebra definida por ESPEC, TESPEC, es inicial en la clase ALG(ESPEC). El único homomorfismo f = {f g}g∈G,**
+- **3. Construcción de especificaciones**
+- **1. 	Si Gen(g) es un conjunto libre, sólo hay que escribir ecuaciones con las operaciones modificadoras y observadoras**
+- **2. 	Si Gen(g) es un conjunto no libre, un primer conjunto de ecuaciones se utiliza para hacer congruentes entre sí**
+- **Lección 19:: El TAD tabla y las tablas dispersas (hash) ...................................................................... 177**
+- **3. 	Para cada operación modificadora se escriben tantas ecuaciones como sean necesarias para garantizar que todo**
+- **4. 	Para cada operación observadora se escriben tantas operaciones como sean necesarias para garantizar que todo**
+- **4. Verificación con especificaciones algebraicas**
+- **1. Transformación de algoritmos recursivos finales**
+- **2. Transformación de algoritmos recursivos lineales (no finales)**
+- **3. Transformación de algoritmos recursivos múltiples: un caso particular**
+- **4. Transformación de algoritmos recursivos múltiples: caso general**
+- **1. Transformación de algoritmos recursivos finales**
+- **2. Transformación de algoritmos recursivos lineales (no finales)**
+- **3. Transformación de algoritmos recursivos múltiples: un caso particular**
+- **Lección 20:: Tablas multidimensionales............................................................................................... 189**
+- **4. Transformación de algoritmos recursivos múltiples: caso general**
+- **1. 	Sintaxis para una especificación de TAD en lenguaje natural**
+- **2. 	Sintaxis del pseudocódigo**
+- **1. Sintaxis para una especificación de TAD en lenguaje natural**
+- **2. Sintaxis del pseudocódigo**
+- **1. 	Tipos de datos predefinidos**
+- **2. 	Definición de constantes**
+- **3. 	Definición de nuevos tipos de datos**
+- **4. 	Declaración de variables**
+- **5. 	Instrucción de asignación**
+- **1. Concepto de abstracción**
+- **6. 	Operaciones con datos cadena**
+- **7. 	Instrucciones de entrada/salida**
+- **8. 	Instrucciones condicionales**
+- **9. 	Instrucciones iterativas**
+- **10. Procedimientos y funciones**
+- **11. Módulos**
+- **12. Módulos genéricos**
+- **13. Uso de módulos genéricos**
+- **14. Datos puntero**
+- **15. Instrucciones de creación y uso de ficheros**
+- **2. Definición de TAD**
+- **3. Programación con TAD**
+- **4. Ventajas de la programación con TAD**
+- **1. Concepto de abstracción**
+- **2. Definición de TAD**
+- **3. Programación con TAD**
+- **módulo c: onjuntosDeCaracteres**
+- **módulo d: e declaración, contiene la definición del tipo de dato (nombre del tipo y encabezamientos de los algoritmos),**
+- **4. Ventajas de la programación con TAD**
+- **1. Características generales de una especificación**
+- **2. Especificación algebraica**
+- **3. Especificación no formal**
+- **1. Características generales de una especificación**
+- **2. Especificación algebraica**
+- **2. Especificación no formal**
+- **1. Características de la implementación de un TAD**
+- **2. Implementación modular**
+- **1. Características de la implementación de un TAD**
+- **2. Implementación modular**
+- **1. Concepto de genericidad**
+- **2. TAD genéricos**
+- **3. Implementación en C++**
+- **1. Concepto de genericidad**
+- **2. TAD genéricos**
+- **módulo m: onedas**
+- **módulo m: onederos**
+- **módulo m: onedero concreta sacosGen(moneda,precio);**
+- **3. Implementación en C++**
+- **1. Contenedores**
+- **2. Iteradores**
+- **3. La biblioteca Standard Template Library (STL)**
+- **1. Contenedores**
+- **2. Iteradores**
+- **3. La biblioteca Standard Template Library (STL)**
+- **TEMA II**
+- **1. Concepto de pila y especificación**
+- **2. Representación estática e implementación de operaciones**
+- **3. Representación de varias pilas en un vector**
+- **1. Concepto de pila y especificación**
+- **2. Representación estática e implementación de operaciones**
+- **3. Representación de varias pilas en un vector**
+- **1. Datos puntero y datos dinámicos**
+- **2. Estructuras de datos recursivas: representación mediante punteros y datos dinámicos**
+- **3. Punteros y datos dinámicos en C++**
+- **1. Datos puntero y datos dinámicos**
+- **2. Estructuras de datos recursivas: representación mediante punteros y datos**
+- **3. Punteros y datos dinámicos en C++**
+- **1. Representación dinámica de una pila e implementación de operaciones**
+- **2. Codificación en C++ (fragmento)**
+- **3. Ejemplo de aplicación del TAD pila: evaluación de expresiones postfijas**
+- **4. Otro ejemplo de aplicación: traducción de expresiones infijas a postfijas**
+- **1. Representación dinámica de una pila e implementación de operaciones**
+- **2. Codificación en C++ (fragmento)**
+- **3. Ejemplo de aplicación del TAD pila: evaluación de expresiones postfijas**
+- **4. Otro ejemplo de aplicación: traducción de expresiones infijas a postfijas**
+- **1. Concepto de cola y especificación**
+- **2. Representación dinámica e implementación de operaciones**
+- **3. Representación estática circular**
+- **4. Ejemplo de aplicación: simulación de una cola de espera**
+- **1. Concepto de cola y especificación**
+- **2. Representación dinámica e implementación de operaciones**
+- **3. Representación estática circular**
+- **4. Ejemplo de aplicación: simulación de una cola de espera**
+- **RESULTADOS**
+- **RESULTADOS**
+- **RESULTADOS**
+- **Lección 10**
+- **1. Concepto de diccionario y su especificación**
+- **2. Implementaciones estáticas sencillas**
+- **3. Implementación con listas enlazadas ordenadas**
+- **1. Concepto de diccionario y su especificación**
+- **2. Implementaciones estáticas sencillas**
+- **3. Implementación con listas enlazadas ordenadas**
+- **TEMA III**

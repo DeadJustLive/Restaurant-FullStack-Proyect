@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch362-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 362,
+  "chunkIndex": 0,
+  "title": "12. Operaciones primitivas de expresiones (por tipo)",
+  "start": 0,
+  "end": 29,
+  "words": 29,
+  "content": "# OBSERVACIONES: * la semilla se codifica debajo de la zona de piezas, todo a lo ancho */ { IrAlOrigenDeZonaDeJuego() MoverN(Sur, 2) IrAlBordeDeZonaDeNumeros(Este) } //---------------------------------------------------- //---------------------------------------------------- function leerZonaDeProximaPieza() /*"
+}

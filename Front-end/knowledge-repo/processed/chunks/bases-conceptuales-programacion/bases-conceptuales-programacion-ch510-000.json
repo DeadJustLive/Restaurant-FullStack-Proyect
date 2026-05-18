@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch510-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 510,
+  "chunkIndex": 0,
+  "title": "2. MoverN que se mueva cant celdas en la direcci ´on dir desde la celda actual,",
+  "start": 0,
+  "end": 10,
+  "words": 10,
+  "content": "# PRECONDICIONES: * default <hay un tablero de Zilfost codificado>"
+}

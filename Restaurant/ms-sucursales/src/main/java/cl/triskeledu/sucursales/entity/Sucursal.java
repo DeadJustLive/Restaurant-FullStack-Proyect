@@ -54,7 +54,7 @@ public class Sucursal {
      */
     @Column(name = "activa", nullable = false)
     @Builder.Default
-    private Boolean activa = true;
+    private boolean activa = true;
 
     @CreationTimestamp
     @Column(name = "creado_en", nullable = false, updatable = false)

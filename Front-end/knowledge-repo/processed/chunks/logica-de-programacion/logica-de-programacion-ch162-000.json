@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch162-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 162,
+  "chunkIndex": 0,
+  "title": "3. Se declara una variable suscrita llamada nombreEmpleado y se le",
+  "start": 0,
+  "end": 51,
+  "words": 51,
+  "content": "# 3. Se declara una variable suscrita llamada nombreEmpleado y se le da un tama˜no de 3 posiciones para datos de tipo Cadena.(Ver Figura 6.4). Cadena nombreEmpleado[ ] nombreEmpleado = dimensionar( 3 ) nombreEmpleado -> 1 2 3 Figura 6.4: Vector nombreEmpleado -- 355 of 450 -- 354 Vectores y matrices"
+}

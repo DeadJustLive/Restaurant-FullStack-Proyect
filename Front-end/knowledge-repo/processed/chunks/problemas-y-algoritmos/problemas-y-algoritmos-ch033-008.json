@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch033-008",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 33,
+  "chunkIndex": 8,
+  "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+  "start": 3600,
+  "end": 4100,
+  "words": 500,
+  "content": "b ] ) { -- 143 of 315 -- 144 CAPÍTULO 12. ORDENAMIENTO 6 C[ c++]=A[ a ++]; 7 } e l s e { 8 C[ c++]=B [ b++]; 9 } 10 } e l s e i f ( a<na ) { // S i s o l o A t i e n e e l e m e n t o s 11 C[ c++]=A[ a ++]; 12 } e l s e { // S i s o l o B t i e n e e l e m e n t o s 13 C[ c++]=B [ b++]; 14 } 15 } 16 } \u0003 La idea del algoritmo de mezcla es ordenar los primeros bn 2 c elementos de la sucesión y los últimos dn 2 e elementos de la sucesión por separado. Y pos- teriormente mezclar ambas mitades de la sucesión para obtener la sucesión ordenada. Y obviamente, para ordenar cada mitad de la sucesión por separado se procede recursivamente. De manera mas especí\u001cca, se implementará una función llamada orden- Mezcla, que recibirá como argumentos dos arreglos, S y Dest y dos enteros inicio y f in. La función ordenará todos los elementos de S[inicio..f in] y los colocará en Dest[inicio..f in]. A continuación se muestra una implementación de la función ordenMezcla. Código 12.6: Ordenamiento por Mezcla 1 void ordenMezcla ( t i p o D a t o s S [ ] , t i p o D a t o s Dest [ ] , int i n i c i o , int f i n ) { 2 int piv , i ; 3 i f ( i n i c i o >=f i n ) 4 return ; 5 p i v =( i n i c i o+f i n ) / 2 ; 6 for ( i=i n i c i o ; i<=f i n ; i ++) 7 Dest [ i ]=S [ i ] ; 8 ordenMezcla ( Dest , S , i n i c i o , p i v ) ; 9 ordenMezcla ( Dest , S , p i v +1, f i n ) ; 10 m e z c l a r (&S [ i n i c i o ] , &S [ p i v +1] , &Dest [ i n i c i o ] , piv−i n i c i o +1, f i n −p i v ) ; 11 } -- 144 of 315 -- 12.7. ORDENAMIENTO EN O(N LOG N ) POR MEZCLA 145 Utilizando inducción es muy fácil darse cuenta de que este algoritmo fun- ciona, pero el análisis de complejidad de este algoritmo no luce tan sencillo. Vamos a llamarle T a una función tal que T (n) es una conta superior para el tiempo que puede tardar en ejecutarse ordenM ezcla(S, Dest, a, a+n) para a, n ∈ N. Tenemos que T es de"
+}

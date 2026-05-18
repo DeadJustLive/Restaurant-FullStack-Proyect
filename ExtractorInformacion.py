@@ -1,7 +1,7 @@
 import os
 
-IGNORED_DIRS = {'.git', 'node_modules', 'dist', '.gemini', 'public', '25 plantilla-creador-micro-servicios-v05'}
-IGNORED_FILES = {'ExtractorInformacion.py', 'proyecto_completo.md', 'package-lock.json','.env.local','.env'}
+IGNORED_DIRS = {'.git', 'node_modules', 'dist', '.gemini', 'public'}
+IGNORED_FILES = {'ExtractorInformacion.py', 'package-lock.json','.env.local','.env'}
 IGNORED_EXTENSIONS = {'.png', '.jpg', '.jpeg', '.gif', '.ico', '.svg', '.webp', '.pdf', '.woff', '.woff2', '.ttf','.env'}
 
 def generate_tree(dir_path, prefix=""):
@@ -27,7 +27,9 @@ def generate_tree(dir_path, prefix=""):
 
 def main():
     base_dir = os.path.abspath(os.path.dirname(__file__))
-    output_file = os.path.join(base_dir, "proyecto_completo.md")
+    project_name = os.path.basename(base_dir)+"_Proyecto_Completo"
+    output_filename = f"{project_name}.md"
+    output_file = os.path.join(base_dir, output_filename)
     
     with open(output_file, 'w', encoding='utf-8') as out:
         out.write("# Contenido del Proyecto\n\n")
@@ -36,7 +38,7 @@ def main():
             dirs[:] = [d for d in dirs if d not in IGNORED_DIRS]
             
             for file in sorted(files):
-                if file in IGNORED_FILES:
+                if file in IGNORED_FILES or file == output_filename:
                     continue
                     
                 _, ext = os.path.splitext(file)

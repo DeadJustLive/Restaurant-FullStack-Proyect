@@ -1,0 +1,98 @@
+# 4. Verificación con especificaciones algebraicas
+
+## Fuente
+apuntes-estructuras-datos-algoritmos (Cap. 156)
+
+## Contenido
+# 4. Verificación con especificaciones algebraicas
+
+Un beneficio adicional que se obtiene al trabajar con TAD es la posibilidad de modularizar las tareas de verificación
+formal. Debe recordarse que los TAD se utilizan como base para la descomposición modular de programas grandes. Vemos
+ahora cómo esta metodología de diseño facilita la verificación de cada módulo por separado.
+Consideremos un TAD especificado algebraicamente e implementado por medio de un módulo. La verificación del
+programa en lo concerniente a este TAD se realiza en dos fases:
+• 	Verificación de los programas (más correctamente, módulos) usuarios del TAD. Esta tarea se realiza utilizando
+solamente la especificación algebraica del TAD. No debe tenerse en cuenta la implementación elegida para el tipo.
+• 	Verificación de que la implementación del TAD es correcta, es decir, los valores del TAD son todos representados
+y la implementación de las operaciones verifica las propiedades expresadas mediante las ecuaciones. En esta fase
+no deben tenerse en cuenta el resto de módulos usuarios del TAD.
+En resumen, la especificación algebraica de un tipo abstracto de datos actúa como una barrera permite descomponer la
+tarea de la verificación en dos niveles independientes.
+La verificación de programas usuarios de TAD sigue las mismas reglas conocidas para la verificación de programas
+con tipos concretos sencillos, como booleanos, enteros o reales. Ahora bien, hay que tener en cuenta que:
+• 	En un predicado pueden aparecer variables del tipo abstracto en cuestión, así como operaciones del tipo
+(especificadas algebraicamente).
+• 	La regla de la asignación sigue siendo válida. Debe tenerse en cuenta que la asignación de un valor a una variable
+de un TAD se hará mediante la evaluación de una operación constructora del tipo correspondiente o bien de una
+operación observadora de otro TAD definido sobre el primero.
+El principal problema en la verificación de programas con TAD está en la forma de simplificar predicados o, en
+general, deducir otros nuevos predicados a partir de los primeros. Cuando los tipos involucrados son sencillos (booleanos,
+enteros, reales), las reglas para deducir nuevos predicados son conocidas, por los conocimientos previos que de esos tipos
+tenemos (es decir, por nuestra experiencia con la Lógica o las Matemáticas). En el caso de TAD más complejos, las únicas
+reglas con que contamos para razonar son las ecuaciones de la especificación correspondiente y otras propiedades que
+puedan ser demostradas a partir de ellas.
+
+-- 243 of 267 --
+
+230
+Pueden deducirse dos tipos de propiedades atendiendo a la forma de demostrarlas:
+• 	Propiedades ecuacionales: se deducen mediante cálculo ecuacional; éste consiste en aplicar las reglas de la
+congruencia ≡E, sustituyendo en cada paso una ecuación por otra nueva. Ejemplo:
+desapilar(apilar(p,e1)) = q ⇔
+p = q ⇔
+apilar(p,e2) = apilar(q,e2)
+• 	Propiedades inductivas: se deducen mediante inducción estructural; ésta consiste en un principio de inducción
+sobre los valores del TAD. La inducción estructural se aplica en dos fases:
+o 	Base de la inducción: se demuestra la propiedad para los valores básicos del tipo, es decir, para los
+generados mediante operaciones constantes o por generadoras en cuyos argumentos no aparezcan valores
+del tipo.
+o 	Paso de inducción: para cada valor no básico (es decir, aquél cuya operación más externa es una
+generadora con argumentos del tipo en cuestión), se demuestra que satisface la propiedad asumiendo la
+hipótesis de inducción; ésta consiste en asumir para cada valor no básico que sus argumentos del tipo
+satisfacen la propiedad.
+Las propiedades ecuacionales son satisfechas por todos los modelos de la especificación. En cambio, las inductivas
+sólo las satisfacen los modelos sin basura.
+Como ejemplo, consideremos de nuevo la especificación de las pilas:
+espec pilas
+usa booleanos
+parámetro formal
+género elemento
+fpf
+género pila
+operaciones
+pilaVacía: -> pila
+apilar: pila elemento -> pila
+desapilar: pila -> pila
+parcial cima: pila -> elemento
+vacía?: pila -> bool
+dominio de definición p:pila; e:elemento
+cima(apilar(p,e))
+ecuaciones p:pila; e:elemento
+desapilar(pilaVacía) = pilaVacía
+desapilar(apilar(p,e)) = p
+cima(apilar(p,e)) = e
+vacía?(pilaVacía) = verdad
+vacía?(apilar(p,e)) = falso
+fespec
+Supóngase que el tipo pila ha sido enriquecido con la operación inv: pila -> pila, que invierte los elementos
+de una pila. Para especificar esta operación mediante ecuaciones vamos a utilizar una operación auxiliar, “apila pila”,
+_∇_: pila pila -> pila, operación que apila una pila (su primer argumento) sobre otra (el segundo). Las ecuaciones
+que definen estas operaciones son las siguientes:
+espec pilas
+...
+operaciones
+...
+_∇_: pila pila -> pila
+inv: pila -> pila
+ecuaciones ... q:pila
+...
+pilaVacía ∇ p = p
+apilar(p,e) ∇ q = apilar(p ∇ q,e)
+inv(pilaVacía) = pilaVacía
+inv(apilar(p,e)) = inv(p) ∇ apilar(pilaVacía,e)
+fespec
+
+-- 244 of 267 --
+
+231
+Se trata de verificar formalmente el siguiente algori

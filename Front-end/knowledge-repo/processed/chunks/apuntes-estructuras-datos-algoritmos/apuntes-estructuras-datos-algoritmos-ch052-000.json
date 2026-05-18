@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch052-000",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 52,
+  "chunkIndex": 0,
+  "title": "2. \tSe regresa por el camino de búsqueda calculando los nuevos factores de equilibrio:",
+  "start": 0,
+  "end": 21,
+  "words": 21,
+  "content": "# módulo m: onedero concreta sacosGen(moneda,precio); módulo frutero concreta sacosGen(fruta,precio); variables m:monedero.saco; f:frutero.saco principio ... vacío(m); meter(m,e1); vacío(f); meter(f,pera) ... fin"
+}

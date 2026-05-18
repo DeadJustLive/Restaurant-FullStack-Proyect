@@ -1,0 +1,38 @@
+# INGENIERIA DE SISTEMAS
+
+## Fuente
+estructuras-de-datos (Cap. 11)
+
+## Contenido
+# INGENIERIA DE SISTEMAS
+
+en los grafos 2 y 3 donde los vértices (v1, v2) es igual
+al vértice (v2, v1) que conforman el mismo lado.
+Grafos Dirigidos Son los que tienen sus lados orientados,
+gráficamente se realiza con una flecha indicando
+hacia dónde va dirigido, el lado y los vértices se
+representan entre ángulos. El grafo 1 es dirigido y el
+vértice <1,2> es diferente del vértice <2,1>.
+Nota: Cuando se trata de un grafo dirigido cada vértice de un lado se diferencia de la siguiente forma:
+<Vi,Vj>: Vi: cabeza del lado; Vj: cola del dado
+3.2.1.2 TERMINOLOGÍA BÁSICA DE GRAFOS
+Adyacencia: Dos vértices son adyacentes si conforman un lado: por ejemplo en el grafo 1, los vértices 1
+y 2 son adyacente, también los son 1 y 3.
+La adyacencia en los grafos dirigidos se da de dos formas según la orientación del grafo:
+<Vi,Vj>: Vi es adyacente hacia Vj y que Vj: Es adyacente desde Vi.
+El lado que forman dos vértices es incidente sobre ellos
+Grado de un vértice: Es el número de lados incidentes sobre él. En el Grafo 3, el vértice 3 tiene grado=1;
+el vértice 1 tiene grado=2.
+En el caso de los grafos dirigidos se define:
+Grado entrante: Número de lados que llegan al vértice
+Grado Saliente: Número de lados que salen del vértice
+El grado total es la suma del grado entrante más el grado saliente
+Trayectoria: describe el camino para ir de un vértice i a un vértice j en un grafo. Por ejemplo en el grafo
+1 para ir del vértice 1 al 4 puedo ir con tres trayectorias: 1234, 134, 124. Es de anotar que para que
+exista la trayectoria los lados sobre la trayectoria deben pertenecer al conjunto de lados del grafo. Así
+<1,2>, <2,3>,<3,4> pertenecen al conjunto de lados del Grafo 1, lo anterior quiere decir que en un grafo
+pueden haber trayectorias que no son válidas.
+
+-- 30 of 64 --
+
+31

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch189-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 189,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 23,
+  "words": 23,
+  "content": "# PRECONDICIONES: * default <hay un tablero de Zilfost codificado> * est´a en el borde derecho de la zona de n´umeros a leer"
+}

@@ -1,0 +1,29 @@
+# 36 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 79)
+
+## Contenido
+# 36 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+¿Suena bien? Bueno, pues no. De hecho apesta. Y lo que es peor, el equipo no
+se da cuenta de que apesta hasta que llega el final de la reunión y se dan cuenta
+de que no han conseguido revisar toda la lista de historias.
+Una solución que funciona mucho mejor es crear tarjetas y ponerlas en la pared
+(o en una mesa grande).
+Este es un interfaz muy superior, comparado con un ordenador y un proyector,
+debido a que:
+ 	La gente se pone de pie y camina alrededor Æ se mantienen despiertos y
+alerta más tiempo
+ 	Todo el mundo se siente personalmente más involucrado (y no solamente
+el tipo del teclado)
+ 	Se pueden editar múltiples historias simultáneamente
+ 	Repriorizar es trivial – simplemente se trata de mover las tarjetas
+ 	Tras la reunión, las tarjetas pueden trasladarse directamente a la sala de
+equipo y usarse como un tablón de tareas en la pared (ver “cómo
+hacemos la Pila de Sprint”).
+Puedes escribirlas a mano o (como hacemos nosotros) utilizar un simple
+programa para generar las tarjetas directamente desde la Pila de Producto (PD –
+el programa está disponible en mi blog, en http://blog.crisp.se/henrikkniberg).
+
+-- 36 of 122 --

@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch245-000",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 245,
+  "chunkIndex": 0,
+  "title": "1. Concepto de cola y especificación",
+  "start": 0,
+  "end": 39,
+  "words": 39,
+  "content": "# 1. Tipos de datos predefinidos booleano {con los valores verdad y falso; escribimos los comentarios entre llaves} carácter natural {incluímos el 0 en los naturales} entero real cadena {son secuencias de caracteres de longitud arbitraria (vacías o no)}"
+}

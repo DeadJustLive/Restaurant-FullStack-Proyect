@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch045-010",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 45,
+  "chunkIndex": 10,
+  "title": "Parte VI",
+  "start": 4500,
+  "end": 5000,
+  "words": 500,
+  "content": "o r e s i n i c i a l e s de l a s 4 c a s i l l a s 4 f i l a −−; c o l −−; //Cambia l a f i l a y columna de i n d i c e s b a s a d o s en 1 a i n d i c e s b a s a d o s en 0 5 a=&perm [ f i l a ∗3+ c o l ] ; 6 b=&perm [ f i l a ∗3+ c o l + 1 ] ; 7 c=&perm [ ( f i l a +1)∗3+ c o l ] ; 8 d=&perm [ ( f i l a +1)∗3+ c o l + 1 ] ; 9 ta=∗a ; tb=∗b ; t c=∗c ; td=∗d ; // Guarda e l e s t a d o i n i c i a l en v a r i a b l e s t e m p o r a l e s 10 ∗a=t c ; ∗b=ta ; ∗ c=td ; ∗d=tb ; // Rota en s e n t i d o h o r a r i o 11 } Una vez implementadas todas estas funciones la búsqueda en amplitud es algo muy sencillo: 1 e n c o l a r ( a c t u a l , 1) ; 2 while (MinMov[0]==0) { 3 movs=d e s e n c o l a r ( a c t u a l ) ; 4 for ( i =1; i <=2; i ++){ 5 for ( k=1;k<=2;k++){ 6 r o t a ( a c t u a l , i , k ) ; 7 e n c o l a r ( a c t u a l , movs+1) ; // Rotacion h o r a r i a -- 252 of 315 -- 19.3. EMPUJANDO CAJAS 253 8 r o t a ( a c t u a l , i , k ) ; 9 r o t a ( a c t u a l , i , k ) ; 10 e n c o l a r ( a c t u a l , movs+1) ; // Rotación a n t i h o r a r i a 11 r o t a ( a c t u a l , i , k ) ; // Despues de 4 r o t a c i o n e s l a permutación i n i c i a l r e g r e s a a como e s t a b a a l i n i c i o 12 } 13 } 14 } El código completo de esta solución(incluyendo la cabecera, la lectura y la escritura) mide menos de 80 líneas. 19.3. Empujando Cajas El siguiente problema se"
+}

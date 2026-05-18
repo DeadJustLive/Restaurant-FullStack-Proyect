@@ -1,0 +1,76 @@
+# Capítulo 27:: Creando API's con Node.js
+
+## Fuente
+Capítulo 1: Empezando con Node.js 2 (Cap. 64)
+
+## Contenido
+# Capítulo 27:: Creando API's con Node.js
+
+Examples
+OBTENER API utilizando Express
+Node.js apis se puede construir fácilmente en el marco web Express .
+El siguiente ejemplo crea una api GET simple para enumerar a todos los usuarios.
+Ejemplo
+var express = require('express');
+var app = express();
+var users =[{
+id: 1,
+name: "John Doe",
+age : 23,
+email: "john@doe.com"
+}];
+// GET /api/users
+app.get('/api/users', function(req, res){
+return res.json(users); //return response as JSON
+});
+app.listen('3000', function(){
+console.log('Server listening on port 3000');
+});
+POST API utilizando Express
+El siguiente ejemplo crea la API POST usando Express . Este ejemplo es similar al ejemplo GET
+excepto el uso de body-parser de body-parser que analiza los datos de la publicación y los agrega
+a req.body .
+Ejemplo
+var express = require('express');
+var app = express();
+// for parsing the body in POST request
+var bodyParser = require('body-parser');
+var users =[{
+id: 1,
+name: "John Doe",
+age : 23,
+email: "john@doe.com"
+}];
+app.use(bodyParser.urlencoded({ extended: false }));
+https://riptutorial.com/es/home 109
+
+-- 137 of 423 --
+
+app.use(bodyParser.json());
+// GET /api/users
+app.get('/api/users', function(req, res){
+return res.json(users);
+});
+/* POST /api/users
+{
+"user": {
+"id": 3,
+"name": "Test User",
+"age" : 20,
+"email": "test@test.com"
+}
+}
+*/
+app.post('/api/users', function (req, res) {
+var user = req.body.user;
+users.push(user);
+return res.send('User has been added successfully');
+});
+app.listen('3000', function(){
+console.log('Server listening on port 3000');
+});
+Lea Creando API's con Node.js en línea: https://riptutorial.com/es/node-js/topic/5991/creando-api-
+s-con-node-js
+https://riptutorial.com/es/home 110
+
+-- 138 of 423 --

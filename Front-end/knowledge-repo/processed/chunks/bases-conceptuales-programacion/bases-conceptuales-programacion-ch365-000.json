@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch365-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 365,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 41,
+  "words": 41,
+  "content": "# OBSERVACIONES: * va a la zona de pr´oxima pieza y lee el n´umero all´ı codificado */ { Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 268 of 312 -- 269 IrAlOrigenDeZonaDeProximaPieza() return(leerZonaDeNumeros()) } //---------------------------------------------------- function leerZonaDeSeleccion() /*"
+}

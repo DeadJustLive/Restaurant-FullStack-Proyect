@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch219-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 219,
+  "chunkIndex": 1,
+  "title": "3. La biblioteca Standard Template Library (STL)",
+  "start": 450,
+  "end": 605,
+  "words": 155,
+  "content": "natural _+_: natural natural -> natural fespec Sin embargo, esta especificación construye un tipo que no corresponde con lo que llamamos “naturales” puesto que, por ejemplo, los términos suc(0) y 0+suc(0) denotan, en principio, valores diferentes (algo contrario a nuestro conocimiento sobre cómo los números naturales deberían comportarse). La forma de expresar en una especificación que varios términos corresponden a un mismo valor y tienen, por tanto, un mismo significado es añadir ecuaciones: término_1 = término_2 Donde término_1 y término_2 son términos bien formados de un mismo género. Para poder expresar el hecho de que un número grande o infinito de términos bien formados tienen el mismo valor se pueden introducir variables en las ecuaciones. Se entiende que, en cada ecuación con variables, éstas están (implícitamente) cuantificadas universalmente (∀). espec naturales_3 género natural operaciones 0: -> natural suc: natural -> natural _+_: natural natural -> natural ecuaciones x,y:natural x+0 = x x+suc(y) = suc(x+y) fespec"
+}

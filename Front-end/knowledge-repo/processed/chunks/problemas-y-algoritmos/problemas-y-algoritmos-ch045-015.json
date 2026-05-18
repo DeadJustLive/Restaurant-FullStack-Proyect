@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch045-015",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 45,
+  "chunkIndex": 15,
+  "title": "Parte VI",
+  "start": 6750,
+  "end": 7250,
+  "words": 500,
+  "content": "manera: 1 void amplitud ( int O, int C) { 2 int f1 , c1 , f2 , c2 , l e n ; 3 int f , c ; 4 int a , i ; -- 257 of 315 -- 258CAPÍTULO 19. ESTRUCTURA DE LA SOLUCIÓN Y ESPACIO DE BÚSQUEDA 5 e n c o l a r ( o b t e n F i l a (O) , obtenColumna (O) , o b t e n F i l a (C) , obtenColumna (C) , 0) ; 6 while ( C o l a I n i c i o != ColaFin ) { 7 f 1=o b t e n F i l a ( ColaA [ C o l a I n i c i o ] ) ; 8 c1=obtenColumna ( ColaA [ C o l a I n i c i o ] ) ; 9 f 2=o b t e n F i l a ( ColaB [ C o l a I n i c i o ] ) ; 10 c2=obtenColumna ( ColaB [ C o l a I n i c i o ] ) ; 11 l e n=ColaTam [ C o l a I n i c i o ] ; 12 C o l a I n i c i o ++; 13 for ( i =0; i <4; i ++){ 14 f=f 1+Df [ i ] ; 15 c=c1+Dc [ i ] ; 16 i f (Mapa [ f ] [ c ] ! = 'X ' ) { // S i e l o b r e r o s e mueve a una p o s i c i ó n donde no hay pared 17 i f ( f==f 2 && c==c2 ) { // S i empuja l a c a j a 18 i f (Mapa [ f 2+Df [ i ] ] [ c2+Dc [ i ] ] ! = 'X ' ) { // S i l a c a j a s e mueve a una p o s i c i ó n donde no hay pared 19 e n c o l a r ( f , c , f 2+ Df [ i ] , c2+ Dc [ i ] , l e n +1) ; 20 } 21 } e l s e { // S i s e mueve a s u e l o l i b r e 22 e n c o l a r ( f , c , f2 , c2 , l e n -- 258 of 315 -- 19.4. CAMINO ESCONDIDO 259 +1) ; 23 } 24 } 25 } 26 } 27 } El programa completo que resuelve este problema posee poco menos de 100 líneas. 19.4. Camino Escondido Este problema apareció en un examen preselectivo para la IOI del año 2007, el contexto del problema es el siguiente: Imagina que estas a punto"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch109-007",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 109,
+  "chunkIndex": 7,
+  "title": "2. Se define una sola variable para leer la nota definitiva de cada",
+  "start": 3150,
+  "end": 3495,
+  "words": 345,
+  "content": "por segunda ocasi´on la variable c del ciclo Para, toma el valor de 1. Este inicia de nuevo su iteraci´on, cuando la variable c tome el valor de 2, la condici´on ser´a falsa (c <= b, o sea, 2 <= 1 (F)). De nuevo el control vuelve a ser asumido por el ciclo Haga-MientrasQue, donde la variable b se decrementa en 2 -- 317 of 450 -- 316 Estructuras de repetici ´on unidades y toma el valor de -1; la condici´on del MientrasQue arroja un resultado falso (-1 >= 1 (F)), el control vuelve a ser asumido por el ciclo Mientras-FinMientras. Ahora la variable b toma el valor de 2 y la variable a el valor de 3. Al encontrar el FinMientras se regresa al Mientras y se testea la condici´on (a <5, es decir, 3 <5 (V)), logrando un resultado verdadero. Nuevamente se entra al Haga-MientrasQue y por consiguiente al Para, el ´ındice c inicia en 1 y este ciclo se ejecuta dos veces. Una vez m´as el Haga-MientrasQue tiene el control, al realizar la operaci´on b = b - 2, la variable b toma el valor de 0 con lo cual la condici´on del MientrasQue se vuelve falsa. Por tercera vez el control lo asume el ciclo Mientras-FinMientras, la variable b toma el valor de 2 y la variable a incrementa en el valor de b, almacenando un 5; el FinMientras retorna al Mientras para evaluar la condici´on (a <5), obteniendo un resultado falso, con lo cual se termina la ejecuci´on de los ciclos y del algoritmo. Observe en la tabla, que las tres condiciones de los ciclos terminan con un valor de falso: 3 <= 2 (F), 0 >= 1 (F) y 5 < 5 (F). Ellos solamente se ejecutan mientras la condici´on sea verdadera. En cada iteraci´on del Para se imprimen los valores de a, b y c. Cuando el ciclo intermedio Haga-MientrasQue no se ejecute, tampoco se ejecuta el Para. Cuando el ciclo externo Mientras-FinMientras termine de iterar, los otros dos ciclos tampoco podr´an volver a hacerlo. 4.5. Ejercicios propuestos"
+}

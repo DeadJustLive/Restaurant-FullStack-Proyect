@@ -14,6 +14,7 @@ import cl.triskeledu.auth.repository.UsuarioRepository;
 import cl.triskeledu.auth.entity.Usuario;
 import cl.triskeledu.auth.service.AuthService;
 import cl.triskeledu.auth.service.JwtService;
+import cl.triskeledu.auth.service.RefreshTokenService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -34,6 +35,7 @@ public class AuthServiceImpl implements AuthService {
     private final UsuarioRepository usuarioRepository;
     private final PasswordEncoder passwordEncoder;
     private final JwtService jwtService;
+    private final RefreshTokenService refreshTokenService;
 
     @Override
     @Transactional
@@ -73,8 +75,10 @@ public class AuthServiceImpl implements AuthService {
         // 5. Generar tokens
         String token = jwtService.generarToken(saved);
         String refreshToken = jwtService.generarRefreshToken(saved.getId());
+        refreshTokenService.storeRefreshToken(saved.getId(), refreshToken);
 
         return AuthResponseDTO.builder()
+                .id(saved.getId())
                 .token(token)
                 .refreshToken(refreshToken)
                 .expiresIn(86400L) // 24 horas en segundos
@@ -112,8 +116,10 @@ public class AuthServiceImpl implements AuthService {
         // 4. Generar tokens
         String token = jwtService.generarToken(credential);
         String refreshToken = jwtService.generarRefreshToken(credential.getId());
+        refreshTokenService.storeRefreshToken(credential.getId(), refreshToken);
 
         return AuthResponseDTO.builder()
+                .id(credential.getId())
                 .token(token)
                 .refreshToken(refreshToken)
                 .expiresIn(86400L)
@@ -134,6 +140,11 @@ public class AuthServiceImpl implements AuthService {
         // 2. Extraer userId del refresh token
         Long userId = jwtService.extraerUserId(refreshToken);
 
+        // 2b. Validar que el refresh token esté almacenado (no revocado)
+        if (!refreshTokenService.validateRefreshToken(userId, refreshToken)) {
+            throw new TokenInvalidoException("El refresh token ha sido revocado o no existe");
+        }
+
         // 3. Cargar la credencial y verificar que sigue activa
         UserCredential credential = userCredentialRepository.findById(userId)
                 .orElseThrow(() -> new TokenInvalidoException("Usuario del token no encontrado"));
@@ -142,14 +153,18 @@ public class AuthServiceImpl implements AuthService {
             throw new CuentaDesactivadaException("La cuenta está desactivada");
         }
 
-        // 4. Generar nuevo access token (el refresh token se reutiliza si sigue vigente)
+        // 4. Generar nuevo access token y refresh token
         String newToken = jwtService.generarToken(credential);
+        String newRefreshToken = jwtService.generarRefreshToken(credential.getId());
+        refreshTokenService.revokeRefreshToken(userId, refreshToken);
+        refreshTokenService.storeRefreshToken(userId, newRefreshToken);
 
         log.info("Refresh exitoso para userId={}", userId);
 
         return AuthResponseDTO.builder()
+                .id(credential.getId())
                 .token(newToken)
-                .refreshToken(refreshToken) // se reutiliza el mismo refresh token
+                .refreshToken(newRefreshToken)
                 .expiresIn(86400L)
                 .rol(credential.getRol())
                 .username(credential.getUsername())
@@ -158,14 +173,12 @@ public class AuthServiceImpl implements AuthService {
 
     @Override
     public void logout(String refreshToken) {
-        /*
-         * Logout idempotente.
-         * En un escenario completo con RefreshTokenRepository se revocaría
-         * el token en la BD. Por ahora, el cliente descarta el token localmente
-         * y el JWT de acceso expira naturalmente.
-         *
-         * TODO: Implementar persistencia de refresh tokens y blacklist.
-         */
-        log.info("Logout ejecutado — el cliente debe descartar los tokens localmente");
+        try {
+            Long userId = jwtService.extraerUserId(refreshToken);
+            refreshTokenService.revokeRefreshToken(userId, refreshToken);
+            log.info("Logout exitoso para userId={}", userId);
+        } catch (Exception e) {
+            log.warn("Logout idempotente — no se pudo extraer userId del refresh token: {}", e.getMessage());
+        }
     }
 }

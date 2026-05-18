@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch050-001",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 50,
+  "chunkIndex": 1,
+  "title": "2. Si la clave ya existe, se añade con el valor del «último» diccionario en la mezcla.6",
+  "start": 450,
+  "end": 521,
+  "words": 71,
+  "content": "Que tiende al desorden >>> rae { bifronte : De dos frentes o dos caras , montuvio : Campesino de la costa } >>> rae.pop( bucle ) Traceback (most recent call last): File \"<stdin>\", line 1, in <module> KeyError: bucle 186 Capítulo 5. Estructuras de datos -- 190 of 516 -- Aprende Python Advertencia: Si la clave que pretendemos extraer con pop() no existe, obtendremos un error. Borrado completo del diccionario:"
+}

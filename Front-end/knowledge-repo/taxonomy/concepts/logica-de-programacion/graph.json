@@ -1,0 +1,2961 @@
+{
+  "nodes": [
+    {
+      "id": "ch-logica-de-programacion-01",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.070Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-02",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.070Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-03",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.070Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-04",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.070Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-05",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.070Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-06",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.070Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-07",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.070Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-08",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.070Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-09",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.070Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-10",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.070Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-11",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.070Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-12",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-13",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-14",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-15",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-16",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-17",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-18",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-19",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-20",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-21",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-22",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-23",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-24",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-25",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-26",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.071Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-27",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.072Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-28",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.072Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-29",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.072Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-30",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.072Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-31",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.072Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-32",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.072Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-33",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.072Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-34",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.072Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-35",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.072Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-36",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.072Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-37",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.072Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-38",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.072Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-39",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.073Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-40",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.073Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-41",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.073Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-42",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.073Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-43",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.073Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-44",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.073Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-45",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.073Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-46",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.073Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-47",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.073Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-48",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.073Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-49",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.073Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-50",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.073Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-51",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.074Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-52",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.074Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-53",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.074Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-54",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.074Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-55",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.074Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-56",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.074Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-57",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.074Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-58",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.074Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-59",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.074Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-60",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.074Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-61",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.075Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-62",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.075Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-63",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.075Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-64",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.075Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-65",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.075Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-66",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.075Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-67",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.075Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-68",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.075Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-69",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.075Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-70",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-71",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-72",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-73",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-74",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-75",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-76",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-77",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-78",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-79",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-80",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-81",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-82",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-83",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-84",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.076Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-85",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-86",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-87",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-88",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-89",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-90",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-91",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-92",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-93",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-94",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-95",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-96",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-97",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.077Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-98",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-99",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-100",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-101",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-102",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-103",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-104",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-105",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-106",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-107",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-108",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-109",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-110",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-111",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.078Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-112",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-113",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-114",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-115",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-116",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-117",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-118",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-119",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-120",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-121",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-122",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-123",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-124",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-125",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-126",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-127",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.079Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-128",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-129",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-130",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-131",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-132",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-133",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-134",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-135",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-136",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-137",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-138",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-139",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-140",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-141",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-142",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-143",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-144",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-145",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-146",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.080Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-147",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.081Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-148",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.081Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-149",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.081Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-150",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.081Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-151",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.081Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-152",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.081Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-153",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.081Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-154",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.081Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-155",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.081Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-156",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.081Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-157",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.081Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-158",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.081Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-159",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.082Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-160",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.082Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-161",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.082Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-162",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.082Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-163",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.082Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-164",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.082Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-165",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.082Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-166",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.082Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-167",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.082Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-168",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.082Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-169",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-170",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-171",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-172",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-173",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-174",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-175",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-176",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-177",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-178",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-179",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-180",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-181",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-182",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-183",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-184",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.083Z"
+    },
+    {
+      "id": "ch-logica-de-programacion-185",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.084Z"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-01",
+      "label": "cap. 1"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-02",
+      "label": "cap. 2"
+    },
+    {
+      "from": "ch-logica-de-programacion-01",
+      "to": "ch-logica-de-programacion-02",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-03",
+      "label": "cap. 3"
+    },
+    {
+      "from": "ch-logica-de-programacion-02",
+      "to": "ch-logica-de-programacion-03",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-04",
+      "label": "cap. 4"
+    },
+    {
+      "from": "ch-logica-de-programacion-03",
+      "to": "ch-logica-de-programacion-04",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-05",
+      "label": "cap. 5"
+    },
+    {
+      "from": "ch-logica-de-programacion-04",
+      "to": "ch-logica-de-programacion-05",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-06",
+      "label": "cap. 6"
+    },
+    {
+      "from": "ch-logica-de-programacion-05",
+      "to": "ch-logica-de-programacion-06",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-07",
+      "label": "cap. 7"
+    },
+    {
+      "from": "ch-logica-de-programacion-06",
+      "to": "ch-logica-de-programacion-07",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-08",
+      "label": "cap. 8"
+    },
+    {
+      "from": "ch-logica-de-programacion-07",
+      "to": "ch-logica-de-programacion-08",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-09",
+      "label": "cap. 9"
+    },
+    {
+      "from": "ch-logica-de-programacion-08",
+      "to": "ch-logica-de-programacion-09",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-10",
+      "label": "cap. 10"
+    },
+    {
+      "from": "ch-logica-de-programacion-09",
+      "to": "ch-logica-de-programacion-10",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-11",
+      "label": "cap. 11"
+    },
+    {
+      "from": "ch-logica-de-programacion-10",
+      "to": "ch-logica-de-programacion-11",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-12",
+      "label": "cap. 12"
+    },
+    {
+      "from": "ch-logica-de-programacion-11",
+      "to": "ch-logica-de-programacion-12",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-13",
+      "label": "cap. 13"
+    },
+    {
+      "from": "ch-logica-de-programacion-12",
+      "to": "ch-logica-de-programacion-13",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-14",
+      "label": "cap. 14"
+    },
+    {
+      "from": "ch-logica-de-programacion-13",
+      "to": "ch-logica-de-programacion-14",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-15",
+      "label": "cap. 15"
+    },
+    {
+      "from": "ch-logica-de-programacion-14",
+      "to": "ch-logica-de-programacion-15",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-16",
+      "label": "cap. 16"
+    },
+    {
+      "from": "ch-logica-de-programacion-15",
+      "to": "ch-logica-de-programacion-16",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-17",
+      "label": "cap. 17"
+    },
+    {
+      "from": "ch-logica-de-programacion-16",
+      "to": "ch-logica-de-programacion-17",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-18",
+      "label": "cap. 18"
+    },
+    {
+      "from": "ch-logica-de-programacion-17",
+      "to": "ch-logica-de-programacion-18",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-19",
+      "label": "cap. 19"
+    },
+    {
+      "from": "ch-logica-de-programacion-18",
+      "to": "ch-logica-de-programacion-19",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-20",
+      "label": "cap. 20"
+    },
+    {
+      "from": "ch-logica-de-programacion-19",
+      "to": "ch-logica-de-programacion-20",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-21",
+      "label": "cap. 21"
+    },
+    {
+      "from": "ch-logica-de-programacion-20",
+      "to": "ch-logica-de-programacion-21",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-22",
+      "label": "cap. 22"
+    },
+    {
+      "from": "ch-logica-de-programacion-21",
+      "to": "ch-logica-de-programacion-22",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-23",
+      "label": "cap. 23"
+    },
+    {
+      "from": "ch-logica-de-programacion-22",
+      "to": "ch-logica-de-programacion-23",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-24",
+      "label": "cap. 24"
+    },
+    {
+      "from": "ch-logica-de-programacion-23",
+      "to": "ch-logica-de-programacion-24",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-25",
+      "label": "cap. 25"
+    },
+    {
+      "from": "ch-logica-de-programacion-24",
+      "to": "ch-logica-de-programacion-25",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-26",
+      "label": "cap. 26"
+    },
+    {
+      "from": "ch-logica-de-programacion-25",
+      "to": "ch-logica-de-programacion-26",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-27",
+      "label": "cap. 27"
+    },
+    {
+      "from": "ch-logica-de-programacion-26",
+      "to": "ch-logica-de-programacion-27",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-28",
+      "label": "cap. 28"
+    },
+    {
+      "from": "ch-logica-de-programacion-27",
+      "to": "ch-logica-de-programacion-28",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-29",
+      "label": "cap. 29"
+    },
+    {
+      "from": "ch-logica-de-programacion-28",
+      "to": "ch-logica-de-programacion-29",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-30",
+      "label": "cap. 30"
+    },
+    {
+      "from": "ch-logica-de-programacion-29",
+      "to": "ch-logica-de-programacion-30",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-31",
+      "label": "cap. 31"
+    },
+    {
+      "from": "ch-logica-de-programacion-30",
+      "to": "ch-logica-de-programacion-31",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-32",
+      "label": "cap. 32"
+    },
+    {
+      "from": "ch-logica-de-programacion-31",
+      "to": "ch-logica-de-programacion-32",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-33",
+      "label": "cap. 33"
+    },
+    {
+      "from": "ch-logica-de-programacion-32",
+      "to": "ch-logica-de-programacion-33",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-34",
+      "label": "cap. 34"
+    },
+    {
+      "from": "ch-logica-de-programacion-33",
+      "to": "ch-logica-de-programacion-34",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-35",
+      "label": "cap. 35"
+    },
+    {
+      "from": "ch-logica-de-programacion-34",
+      "to": "ch-logica-de-programacion-35",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-36",
+      "label": "cap. 36"
+    },
+    {
+      "from": "ch-logica-de-programacion-35",
+      "to": "ch-logica-de-programacion-36",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-37",
+      "label": "cap. 37"
+    },
+    {
+      "from": "ch-logica-de-programacion-36",
+      "to": "ch-logica-de-programacion-37",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-38",
+      "label": "cap. 38"
+    },
+    {
+      "from": "ch-logica-de-programacion-37",
+      "to": "ch-logica-de-programacion-38",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-39",
+      "label": "cap. 39"
+    },
+    {
+      "from": "ch-logica-de-programacion-38",
+      "to": "ch-logica-de-programacion-39",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-40",
+      "label": "cap. 40"
+    },
+    {
+      "from": "ch-logica-de-programacion-39",
+      "to": "ch-logica-de-programacion-40",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-41",
+      "label": "cap. 41"
+    },
+    {
+      "from": "ch-logica-de-programacion-40",
+      "to": "ch-logica-de-programacion-41",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-42",
+      "label": "cap. 42"
+    },
+    {
+      "from": "ch-logica-de-programacion-41",
+      "to": "ch-logica-de-programacion-42",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-43",
+      "label": "cap. 43"
+    },
+    {
+      "from": "ch-logica-de-programacion-42",
+      "to": "ch-logica-de-programacion-43",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-44",
+      "label": "cap. 44"
+    },
+    {
+      "from": "ch-logica-de-programacion-43",
+      "to": "ch-logica-de-programacion-44",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-45",
+      "label": "cap. 45"
+    },
+    {
+      "from": "ch-logica-de-programacion-44",
+      "to": "ch-logica-de-programacion-45",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-46",
+      "label": "cap. 46"
+    },
+    {
+      "from": "ch-logica-de-programacion-45",
+      "to": "ch-logica-de-programacion-46",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-47",
+      "label": "cap. 47"
+    },
+    {
+      "from": "ch-logica-de-programacion-46",
+      "to": "ch-logica-de-programacion-47",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-48",
+      "label": "cap. 48"
+    },
+    {
+      "from": "ch-logica-de-programacion-47",
+      "to": "ch-logica-de-programacion-48",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-49",
+      "label": "cap. 49"
+    },
+    {
+      "from": "ch-logica-de-programacion-48",
+      "to": "ch-logica-de-programacion-49",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-50",
+      "label": "cap. 50"
+    },
+    {
+      "from": "ch-logica-de-programacion-49",
+      "to": "ch-logica-de-programacion-50",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-51",
+      "label": "cap. 51"
+    },
+    {
+      "from": "ch-logica-de-programacion-50",
+      "to": "ch-logica-de-programacion-51",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-52",
+      "label": "cap. 52"
+    },
+    {
+      "from": "ch-logica-de-programacion-51",
+      "to": "ch-logica-de-programacion-52",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-53",
+      "label": "cap. 53"
+    },
+    {
+      "from": "ch-logica-de-programacion-52",
+      "to": "ch-logica-de-programacion-53",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-54",
+      "label": "cap. 54"
+    },
+    {
+      "from": "ch-logica-de-programacion-53",
+      "to": "ch-logica-de-programacion-54",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-55",
+      "label": "cap. 55"
+    },
+    {
+      "from": "ch-logica-de-programacion-54",
+      "to": "ch-logica-de-programacion-55",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-56",
+      "label": "cap. 56"
+    },
+    {
+      "from": "ch-logica-de-programacion-55",
+      "to": "ch-logica-de-programacion-56",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-57",
+      "label": "cap. 57"
+    },
+    {
+      "from": "ch-logica-de-programacion-56",
+      "to": "ch-logica-de-programacion-57",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-58",
+      "label": "cap. 58"
+    },
+    {
+      "from": "ch-logica-de-programacion-57",
+      "to": "ch-logica-de-programacion-58",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-59",
+      "label": "cap. 59"
+    },
+    {
+      "from": "ch-logica-de-programacion-58",
+      "to": "ch-logica-de-programacion-59",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-60",
+      "label": "cap. 60"
+    },
+    {
+      "from": "ch-logica-de-programacion-59",
+      "to": "ch-logica-de-programacion-60",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-61",
+      "label": "cap. 61"
+    },
+    {
+      "from": "ch-logica-de-programacion-60",
+      "to": "ch-logica-de-programacion-61",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-62",
+      "label": "cap. 62"
+    },
+    {
+      "from": "ch-logica-de-programacion-61",
+      "to": "ch-logica-de-programacion-62",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-63",
+      "label": "cap. 63"
+    },
+    {
+      "from": "ch-logica-de-programacion-62",
+      "to": "ch-logica-de-programacion-63",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-64",
+      "label": "cap. 64"
+    },
+    {
+      "from": "ch-logica-de-programacion-63",
+      "to": "ch-logica-de-programacion-64",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-65",
+      "label": "cap. 65"
+    },
+    {
+      "from": "ch-logica-de-programacion-64",
+      "to": "ch-logica-de-programacion-65",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-66",
+      "label": "cap. 66"
+    },
+    {
+      "from": "ch-logica-de-programacion-65",
+      "to": "ch-logica-de-programacion-66",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-67",
+      "label": "cap. 67"
+    },
+    {
+      "from": "ch-logica-de-programacion-66",
+      "to": "ch-logica-de-programacion-67",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-68",
+      "label": "cap. 68"
+    },
+    {
+      "from": "ch-logica-de-programacion-67",
+      "to": "ch-logica-de-programacion-68",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-69",
+      "label": "cap. 69"
+    },
+    {
+      "from": "ch-logica-de-programacion-68",
+      "to": "ch-logica-de-programacion-69",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-70",
+      "label": "cap. 70"
+    },
+    {
+      "from": "ch-logica-de-programacion-69",
+      "to": "ch-logica-de-programacion-70",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-71",
+      "label": "cap. 71"
+    },
+    {
+      "from": "ch-logica-de-programacion-70",
+      "to": "ch-logica-de-programacion-71",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-72",
+      "label": "cap. 72"
+    },
+    {
+      "from": "ch-logica-de-programacion-71",
+      "to": "ch-logica-de-programacion-72",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-73",
+      "label": "cap. 73"
+    },
+    {
+      "from": "ch-logica-de-programacion-72",
+      "to": "ch-logica-de-programacion-73",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-74",
+      "label": "cap. 74"
+    },
+    {
+      "from": "ch-logica-de-programacion-73",
+      "to": "ch-logica-de-programacion-74",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-75",
+      "label": "cap. 75"
+    },
+    {
+      "from": "ch-logica-de-programacion-74",
+      "to": "ch-logica-de-programacion-75",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-76",
+      "label": "cap. 76"
+    },
+    {
+      "from": "ch-logica-de-programacion-75",
+      "to": "ch-logica-de-programacion-76",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-77",
+      "label": "cap. 77"
+    },
+    {
+      "from": "ch-logica-de-programacion-76",
+      "to": "ch-logica-de-programacion-77",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-78",
+      "label": "cap. 78"
+    },
+    {
+      "from": "ch-logica-de-programacion-77",
+      "to": "ch-logica-de-programacion-78",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-79",
+      "label": "cap. 79"
+    },
+    {
+      "from": "ch-logica-de-programacion-78",
+      "to": "ch-logica-de-programacion-79",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-80",
+      "label": "cap. 80"
+    },
+    {
+      "from": "ch-logica-de-programacion-79",
+      "to": "ch-logica-de-programacion-80",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-81",
+      "label": "cap. 81"
+    },
+    {
+      "from": "ch-logica-de-programacion-80",
+      "to": "ch-logica-de-programacion-81",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-82",
+      "label": "cap. 82"
+    },
+    {
+      "from": "ch-logica-de-programacion-81",
+      "to": "ch-logica-de-programacion-82",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-83",
+      "label": "cap. 83"
+    },
+    {
+      "from": "ch-logica-de-programacion-82",
+      "to": "ch-logica-de-programacion-83",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-84",
+      "label": "cap. 84"
+    },
+    {
+      "from": "ch-logica-de-programacion-83",
+      "to": "ch-logica-de-programacion-84",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-85",
+      "label": "cap. 85"
+    },
+    {
+      "from": "ch-logica-de-programacion-84",
+      "to": "ch-logica-de-programacion-85",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-86",
+      "label": "cap. 86"
+    },
+    {
+      "from": "ch-logica-de-programacion-85",
+      "to": "ch-logica-de-programacion-86",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-87",
+      "label": "cap. 87"
+    },
+    {
+      "from": "ch-logica-de-programacion-86",
+      "to": "ch-logica-de-programacion-87",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-88",
+      "label": "cap. 88"
+    },
+    {
+      "from": "ch-logica-de-programacion-87",
+      "to": "ch-logica-de-programacion-88",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-89",
+      "label": "cap. 89"
+    },
+    {
+      "from": "ch-logica-de-programacion-88",
+      "to": "ch-logica-de-programacion-89",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-90",
+      "label": "cap. 90"
+    },
+    {
+      "from": "ch-logica-de-programacion-89",
+      "to": "ch-logica-de-programacion-90",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-91",
+      "label": "cap. 91"
+    },
+    {
+      "from": "ch-logica-de-programacion-90",
+      "to": "ch-logica-de-programacion-91",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-92",
+      "label": "cap. 92"
+    },
+    {
+      "from": "ch-logica-de-programacion-91",
+      "to": "ch-logica-de-programacion-92",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-93",
+      "label": "cap. 93"
+    },
+    {
+      "from": "ch-logica-de-programacion-92",
+      "to": "ch-logica-de-programacion-93",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-94",
+      "label": "cap. 94"
+    },
+    {
+      "from": "ch-logica-de-programacion-93",
+      "to": "ch-logica-de-programacion-94",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-95",
+      "label": "cap. 95"
+    },
+    {
+      "from": "ch-logica-de-programacion-94",
+      "to": "ch-logica-de-programacion-95",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-96",
+      "label": "cap. 96"
+    },
+    {
+      "from": "ch-logica-de-programacion-95",
+      "to": "ch-logica-de-programacion-96",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-97",
+      "label": "cap. 97"
+    },
+    {
+      "from": "ch-logica-de-programacion-96",
+      "to": "ch-logica-de-programacion-97",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-98",
+      "label": "cap. 98"
+    },
+    {
+      "from": "ch-logica-de-programacion-97",
+      "to": "ch-logica-de-programacion-98",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-99",
+      "label": "cap. 99"
+    },
+    {
+      "from": "ch-logica-de-programacion-98",
+      "to": "ch-logica-de-programacion-99",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-100",
+      "label": "cap. 100"
+    },
+    {
+      "from": "ch-logica-de-programacion-99",
+      "to": "ch-logica-de-programacion-100",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-101",
+      "label": "cap. 101"
+    },
+    {
+      "from": "ch-logica-de-programacion-100",
+      "to": "ch-logica-de-programacion-101",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-102",
+      "label": "cap. 102"
+    },
+    {
+      "from": "ch-logica-de-programacion-101",
+      "to": "ch-logica-de-programacion-102",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-103",
+      "label": "cap. 103"
+    },
+    {
+      "from": "ch-logica-de-programacion-102",
+      "to": "ch-logica-de-programacion-103",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-104",
+      "label": "cap. 104"
+    },
+    {
+      "from": "ch-logica-de-programacion-103",
+      "to": "ch-logica-de-programacion-104",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-105",
+      "label": "cap. 105"
+    },
+    {
+      "from": "ch-logica-de-programacion-104",
+      "to": "ch-logica-de-programacion-105",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-106",
+      "label": "cap. 106"
+    },
+    {
+      "from": "ch-logica-de-programacion-105",
+      "to": "ch-logica-de-programacion-106",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-107",
+      "label": "cap. 107"
+    },
+    {
+      "from": "ch-logica-de-programacion-106",
+      "to": "ch-logica-de-programacion-107",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-108",
+      "label": "cap. 108"
+    },
+    {
+      "from": "ch-logica-de-programacion-107",
+      "to": "ch-logica-de-programacion-108",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-109",
+      "label": "cap. 109"
+    },
+    {
+      "from": "ch-logica-de-programacion-108",
+      "to": "ch-logica-de-programacion-109",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-110",
+      "label": "cap. 110"
+    },
+    {
+      "from": "ch-logica-de-programacion-109",
+      "to": "ch-logica-de-programacion-110",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-111",
+      "label": "cap. 111"
+    },
+    {
+      "from": "ch-logica-de-programacion-110",
+      "to": "ch-logica-de-programacion-111",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-112",
+      "label": "cap. 112"
+    },
+    {
+      "from": "ch-logica-de-programacion-111",
+      "to": "ch-logica-de-programacion-112",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-113",
+      "label": "cap. 113"
+    },
+    {
+      "from": "ch-logica-de-programacion-112",
+      "to": "ch-logica-de-programacion-113",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-114",
+      "label": "cap. 114"
+    },
+    {
+      "from": "ch-logica-de-programacion-113",
+      "to": "ch-logica-de-programacion-114",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-115",
+      "label": "cap. 115"
+    },
+    {
+      "from": "ch-logica-de-programacion-114",
+      "to": "ch-logica-de-programacion-115",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-116",
+      "label": "cap. 116"
+    },
+    {
+      "from": "ch-logica-de-programacion-115",
+      "to": "ch-logica-de-programacion-116",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-117",
+      "label": "cap. 117"
+    },
+    {
+      "from": "ch-logica-de-programacion-116",
+      "to": "ch-logica-de-programacion-117",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-118",
+      "label": "cap. 118"
+    },
+    {
+      "from": "ch-logica-de-programacion-117",
+      "to": "ch-logica-de-programacion-118",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-119",
+      "label": "cap. 119"
+    },
+    {
+      "from": "ch-logica-de-programacion-118",
+      "to": "ch-logica-de-programacion-119",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-120",
+      "label": "cap. 120"
+    },
+    {
+      "from": "ch-logica-de-programacion-119",
+      "to": "ch-logica-de-programacion-120",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-121",
+      "label": "cap. 121"
+    },
+    {
+      "from": "ch-logica-de-programacion-120",
+      "to": "ch-logica-de-programacion-121",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-122",
+      "label": "cap. 122"
+    },
+    {
+      "from": "ch-logica-de-programacion-121",
+      "to": "ch-logica-de-programacion-122",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-123",
+      "label": "cap. 123"
+    },
+    {
+      "from": "ch-logica-de-programacion-122",
+      "to": "ch-logica-de-programacion-123",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-124",
+      "label": "cap. 124"
+    },
+    {
+      "from": "ch-logica-de-programacion-123",
+      "to": "ch-logica-de-programacion-124",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-125",
+      "label": "cap. 125"
+    },
+    {
+      "from": "ch-logica-de-programacion-124",
+      "to": "ch-logica-de-programacion-125",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-126",
+      "label": "cap. 126"
+    },
+    {
+      "from": "ch-logica-de-programacion-125",
+      "to": "ch-logica-de-programacion-126",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-127",
+      "label": "cap. 127"
+    },
+    {
+      "from": "ch-logica-de-programacion-126",
+      "to": "ch-logica-de-programacion-127",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-128",
+      "label": "cap. 128"
+    },
+    {
+      "from": "ch-logica-de-programacion-127",
+      "to": "ch-logica-de-programacion-128",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-129",
+      "label": "cap. 129"
+    },
+    {
+      "from": "ch-logica-de-programacion-128",
+      "to": "ch-logica-de-programacion-129",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-130",
+      "label": "cap. 130"
+    },
+    {
+      "from": "ch-logica-de-programacion-129",
+      "to": "ch-logica-de-programacion-130",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-131",
+      "label": "cap. 131"
+    },
+    {
+      "from": "ch-logica-de-programacion-130",
+      "to": "ch-logica-de-programacion-131",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-132",
+      "label": "cap. 132"
+    },
+    {
+      "from": "ch-logica-de-programacion-131",
+      "to": "ch-logica-de-programacion-132",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-133",
+      "label": "cap. 133"
+    },
+    {
+      "from": "ch-logica-de-programacion-132",
+      "to": "ch-logica-de-programacion-133",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-134",
+      "label": "cap. 134"
+    },
+    {
+      "from": "ch-logica-de-programacion-133",
+      "to": "ch-logica-de-programacion-134",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-135",
+      "label": "cap. 135"
+    },
+    {
+      "from": "ch-logica-de-programacion-134",
+      "to": "ch-logica-de-programacion-135",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-136",
+      "label": "cap. 136"
+    },
+    {
+      "from": "ch-logica-de-programacion-135",
+      "to": "ch-logica-de-programacion-136",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-137",
+      "label": "cap. 137"
+    },
+    {
+      "from": "ch-logica-de-programacion-136",
+      "to": "ch-logica-de-programacion-137",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-138",
+      "label": "cap. 138"
+    },
+    {
+      "from": "ch-logica-de-programacion-137",
+      "to": "ch-logica-de-programacion-138",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-139",
+      "label": "cap. 139"
+    },
+    {
+      "from": "ch-logica-de-programacion-138",
+      "to": "ch-logica-de-programacion-139",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-140",
+      "label": "cap. 140"
+    },
+    {
+      "from": "ch-logica-de-programacion-139",
+      "to": "ch-logica-de-programacion-140",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-141",
+      "label": "cap. 141"
+    },
+    {
+      "from": "ch-logica-de-programacion-140",
+      "to": "ch-logica-de-programacion-141",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-142",
+      "label": "cap. 142"
+    },
+    {
+      "from": "ch-logica-de-programacion-141",
+      "to": "ch-logica-de-programacion-142",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-143",
+      "label": "cap. 143"
+    },
+    {
+      "from": "ch-logica-de-programacion-142",
+      "to": "ch-logica-de-programacion-143",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-144",
+      "label": "cap. 144"
+    },
+    {
+      "from": "ch-logica-de-programacion-143",
+      "to": "ch-logica-de-programacion-144",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-145",
+      "label": "cap. 145"
+    },
+    {
+      "from": "ch-logica-de-programacion-144",
+      "to": "ch-logica-de-programacion-145",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-146",
+      "label": "cap. 146"
+    },
+    {
+      "from": "ch-logica-de-programacion-145",
+      "to": "ch-logica-de-programacion-146",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-147",
+      "label": "cap. 147"
+    },
+    {
+      "from": "ch-logica-de-programacion-146",
+      "to": "ch-logica-de-programacion-147",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-148",
+      "label": "cap. 148"
+    },
+    {
+      "from": "ch-logica-de-programacion-147",
+      "to": "ch-logica-de-programacion-148",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-149",
+      "label": "cap. 149"
+    },
+    {
+      "from": "ch-logica-de-programacion-148",
+      "to": "ch-logica-de-programacion-149",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-150",
+      "label": "cap. 150"
+    },
+    {
+      "from": "ch-logica-de-programacion-149",
+      "to": "ch-logica-de-programacion-150",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-151",
+      "label": "cap. 151"
+    },
+    {
+      "from": "ch-logica-de-programacion-150",
+      "to": "ch-logica-de-programacion-151",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-152",
+      "label": "cap. 152"
+    },
+    {
+      "from": "ch-logica-de-programacion-151",
+      "to": "ch-logica-de-programacion-152",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-153",
+      "label": "cap. 153"
+    },
+    {
+      "from": "ch-logica-de-programacion-152",
+      "to": "ch-logica-de-programacion-153",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-154",
+      "label": "cap. 154"
+    },
+    {
+      "from": "ch-logica-de-programacion-153",
+      "to": "ch-logica-de-programacion-154",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-155",
+      "label": "cap. 155"
+    },
+    {
+      "from": "ch-logica-de-programacion-154",
+      "to": "ch-logica-de-programacion-155",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-156",
+      "label": "cap. 156"
+    },
+    {
+      "from": "ch-logica-de-programacion-155",
+      "to": "ch-logica-de-programacion-156",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-157",
+      "label": "cap. 157"
+    },
+    {
+      "from": "ch-logica-de-programacion-156",
+      "to": "ch-logica-de-programacion-157",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-158",
+      "label": "cap. 158"
+    },
+    {
+      "from": "ch-logica-de-programacion-157",
+      "to": "ch-logica-de-programacion-158",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-159",
+      "label": "cap. 159"
+    },
+    {
+      "from": "ch-logica-de-programacion-158",
+      "to": "ch-logica-de-programacion-159",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-160",
+      "label": "cap. 160"
+    },
+    {
+      "from": "ch-logica-de-programacion-159",
+      "to": "ch-logica-de-programacion-160",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-161",
+      "label": "cap. 161"
+    },
+    {
+      "from": "ch-logica-de-programacion-160",
+      "to": "ch-logica-de-programacion-161",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-162",
+      "label": "cap. 162"
+    },
+    {
+      "from": "ch-logica-de-programacion-161",
+      "to": "ch-logica-de-programacion-162",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-163",
+      "label": "cap. 163"
+    },
+    {
+      "from": "ch-logica-de-programacion-162",
+      "to": "ch-logica-de-programacion-163",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-164",
+      "label": "cap. 164"
+    },
+    {
+      "from": "ch-logica-de-programacion-163",
+      "to": "ch-logica-de-programacion-164",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-165",
+      "label": "cap. 165"
+    },
+    {
+      "from": "ch-logica-de-programacion-164",
+      "to": "ch-logica-de-programacion-165",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-166",
+      "label": "cap. 166"
+    },
+    {
+      "from": "ch-logica-de-programacion-165",
+      "to": "ch-logica-de-programacion-166",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-167",
+      "label": "cap. 167"
+    },
+    {
+      "from": "ch-logica-de-programacion-166",
+      "to": "ch-logica-de-programacion-167",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-168",
+      "label": "cap. 168"
+    },
+    {
+      "from": "ch-logica-de-programacion-167",
+      "to": "ch-logica-de-programacion-168",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-169",
+      "label": "cap. 169"
+    },
+    {
+      "from": "ch-logica-de-programacion-168",
+      "to": "ch-logica-de-programacion-169",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-170",
+      "label": "cap. 170"
+    },
+    {
+      "from": "ch-logica-de-programacion-169",
+      "to": "ch-logica-de-programacion-170",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-171",
+      "label": "cap. 171"
+    },
+    {
+      "from": "ch-logica-de-programacion-170",
+      "to": "ch-logica-de-programacion-171",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-172",
+      "label": "cap. 172"
+    },
+    {
+      "from": "ch-logica-de-programacion-171",
+      "to": "ch-logica-de-programacion-172",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-173",
+      "label": "cap. 173"
+    },
+    {
+      "from": "ch-logica-de-programacion-172",
+      "to": "ch-logica-de-programacion-173",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-174",
+      "label": "cap. 174"
+    },
+    {
+      "from": "ch-logica-de-programacion-173",
+      "to": "ch-logica-de-programacion-174",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-175",
+      "label": "cap. 175"
+    },
+    {
+      "from": "ch-logica-de-programacion-174",
+      "to": "ch-logica-de-programacion-175",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-176",
+      "label": "cap. 176"
+    },
+    {
+      "from": "ch-logica-de-programacion-175",
+      "to": "ch-logica-de-programacion-176",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-177",
+      "label": "cap. 177"
+    },
+    {
+      "from": "ch-logica-de-programacion-176",
+      "to": "ch-logica-de-programacion-177",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-178",
+      "label": "cap. 178"
+    },
+    {
+      "from": "ch-logica-de-programacion-177",
+      "to": "ch-logica-de-programacion-178",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-179",
+      "label": "cap. 179"
+    },
+    {
+      "from": "ch-logica-de-programacion-178",
+      "to": "ch-logica-de-programacion-179",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-180",
+      "label": "cap. 180"
+    },
+    {
+      "from": "ch-logica-de-programacion-179",
+      "to": "ch-logica-de-programacion-180",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-181",
+      "label": "cap. 181"
+    },
+    {
+      "from": "ch-logica-de-programacion-180",
+      "to": "ch-logica-de-programacion-181",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-182",
+      "label": "cap. 182"
+    },
+    {
+      "from": "ch-logica-de-programacion-181",
+      "to": "ch-logica-de-programacion-182",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-183",
+      "label": "cap. 183"
+    },
+    {
+      "from": "ch-logica-de-programacion-182",
+      "to": "ch-logica-de-programacion-183",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-184",
+      "label": "cap. 184"
+    },
+    {
+      "from": "ch-logica-de-programacion-183",
+      "to": "ch-logica-de-programacion-184",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-logica-de-programacion",
+      "to": "ch-logica-de-programacion-185",
+      "label": "cap. 185"
+    },
+    {
+      "from": "ch-logica-de-programacion-184",
+      "to": "ch-logica-de-programacion-185",
+      "label": "siguiente"
+    }
+  ]
+}

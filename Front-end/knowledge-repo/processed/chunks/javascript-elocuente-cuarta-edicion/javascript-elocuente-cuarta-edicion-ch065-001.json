@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch065-001",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 65,
+  "chunkIndex": 1,
+  "title": "CONTENIDO",
+  "start": 450,
+  "end": 745,
+  "words": 295,
+  "content": "este mismo propósito en el estándar WebDAV, el cual especifica un conjunto de convenciones sobre HTTP que lo hacen adecuado para crear documentos. Un espacio público en la web Dado que el servidor de archivos sirve cualquier tipo de archivo e incluso incluye la cabecera Content-Type correcta, puedes usarlo para servir un sitio web. Dado que permite a todos eliminar y reemplazar archivos, sería un tipo interesante de sitio web: uno que puede ser modificado, mejorado y vandalizado por todos aquellos que se tomen el tiempo de hacer la solicitud HTTP adecuada. Escribe una página HTML básica que incluya un archivo JavaScript sencillo. Coloca los archivos en un directorio servido por el servidor de archivos y ábrelos 368 -- 380 of 445 -- en tu navegador. Luego, como ejercicio avanzado o incluso como un proyecto de fin de semana, combina todo el conocimiento que has adquirido de este libro para construir una interfaz más amigable para modificar el sitio web—desde dentro del sitio web. Utiliza un formulario HTML para editar el contenido de los archivos que con- forman el sitio web, permitiendo al usuario actualizarlos en el servidor mediante solicitudes HTTP, como se describe en el Capítulo 18. Comienza permitiendo que solo un archivo sea editable. Luego haz que el usuario pueda seleccionar qué archivo editar. Aprovecha el hecho de que nuestro servidor de archivos devuelve listas de archivos al leer un directorio. No trabajes directamente en el código expuesto por el servidor de archivos ya que si cometes un error, es probable que dañes los archivos allí. En su lugar, mantén tu trabajo fuera del directorio accesible al público y cópialo allí al hacer pruebas. 369 -- 381 of 445 -- “Si tienes conocimiento, permite que otros enciendan sus velas en él.” —Margaret Fuller"
+}

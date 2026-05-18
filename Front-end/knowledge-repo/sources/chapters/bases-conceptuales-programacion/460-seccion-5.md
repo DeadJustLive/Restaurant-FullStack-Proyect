@@ -1,0 +1,23 @@
+# /*=SECCI´ON 5=======================================*
+
+* Mec´anica del juego *
+*=================================================*
+// 5.1 procedure ColocarNuevaPieza(codPieza,tipoPieza,ubicacion)
+// 5.2 procedure BajarPiezasDeZonaDeJuego()
+// 5.3 procedure ExtenderElPiso()
+// 5.4 procedure EliminarFilasLlenas()
+// 5.5 procedure GenerarLogoZILFOST()
+*=================================================*/
+B.5.1. Operaci ´on de colocar nueva pieza
+/*=SECCI´ON 5.1=======================================*
+* Operaciones del juego (ColocarNuevaPieza) *
+*===================================================*
+// procedure ColocarNuevaPieza(codPieza,tipoPieza,ubicacion)
+*===================================================*/
+//-----------------------------------------------------
+procedure ColocarNuevaPieza(codPieza,tipoPieza,ubicacion)
+/*
+PROP´OSITO: coloca una nueva pieza de c´odigo
+codPieza y tipo tipoPieza en la zona de
+juego, en la columna indicada por
+ubicacion

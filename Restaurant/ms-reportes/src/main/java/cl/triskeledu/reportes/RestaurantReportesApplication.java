@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@EnableFeignClients
+@EnableFeignClients(basePackages = "cl.triskeledu.reportes.client")
 public class RestaurantReportesApplication {
 
 	public static void main(String[] args) {

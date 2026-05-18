@@ -1,0 +1,113 @@
+# Capítulo 10:: Comunicar Entre Componentes
+
+## Fuente
+react-stackoverflow-docs (Cap. 49)
+
+## Contenido
+# Capítulo 10:: Comunicar Entre Componentes
+
+Examples
+Comunicación entre componentes funcionales sin estado
+En este ejemplo, haremos uso de los módulos Redux y React Redux para manejar el estado de
+nuestra aplicación y para la reproducción automática de nuestros componentes funcionales. Y,
+por supuesto, React y React Dom
+Puedes ver la demo completa aquí
+En el siguiente ejemplo tenemos tres componentes diferentes y un componente conectado
+UserInputForm : este componente muestra un campo de entrada Y cuando el valor del
+campo cambia, llama inputChange método inputChange en props (que es proporcionado por el
+componente principal) y si los datos también se proporcionan, muestra eso en el campo de
+entrada.
+•
+UserDashboard: Este componente muestra un mensaje simple y también anida
+UserInputForm componente, sino que también pasa inputChange método para UserInputForm
+componente, UserInputForm componente inturn hace uso de este método para comunicarse
+con el componente de matriz.
+UserDashboardConnected : este componente simplemente envuelve el componente
+UserDashboard utilizando el método de ReactRedux connect . Esto nos facilita la
+administración del estado del componente y la actualización del componente cuando
+el estado cambia.
+○
+•
+Aplicación : Este componente solo representa el componente UserDashboardConnected .	•
+const UserInputForm = (props) => {
+let handleSubmit = (e) => {
+e.preventDefault();
+}
+return(
+<form action="" onSubmit={handleSubmit}>
+<label htmlFor="name">Please enter your name</label>
+<br />
+<input type="text" id="name" defaultValue={props.data.name || ''} onChange={
+props.inputChange } />
+</form>
+)
+}
+const UserDashboard = (props) => {
+https://riptutorial.com/es/home 53
+
+-- 63 of 139 --
+
+let inputChangeHandler = (event) => {
+props.updateName(event.target.value);
+}
+return(
+<div>
+<h1>Hi { props.user.name || 'User' }</h1>
+<UserInputForm data={props.user} inputChange={inputChangeHandler} />
+</div>
+)
+}
+const mapStateToProps = (state) => {
+return {
+user: state
+};
+}
+const mapDispatchToProps = (dispatch) => {
+return {
+updateName: (data) => dispatch( Action.updateName(data) ),
+};
+};
+const { connect, Provider } = ReactRedux;
+const UserDashboardConnected = connect(
+mapStateToProps,
+mapDispatchToProps
+)(UserDashboard);
+const App = (props) => {
+return(
+<div>
+<h1>Communication between Stateless Functional Components</h1>
+<UserDashboardConnected />
+</div>
+)
+}
+const user = (state={name: 'John'}, action) => {
+switch (action.type) {
+case 'UPDATE_NAME':
+return Object.assign( {}, state, {name: action.payload} );
+default:
+return state;
+}
+};
+const { createStore } = Redux;
+const store = createStore(user);
+const Action = {
+updateName: (data) => {
+return { type : 'UPDATE_NAME', payload: data }
+},
+}
+https://riptutorial.com/es/home 54
+
+-- 64 of 139 --
+
+ReactDOM.render(
+<Provider store={ store }>
+<App />
+</Provider>,
+document.getElementById('application')
+);
+URL de JS Bin
+Lea Comunicar Entre Componentes en línea:
+https://riptutorial.com/es/reactjs/topic/6137/comunicar-entre-componentes
+https://riptutorial.com/es/home 55
+
+-- 65 of 139 --

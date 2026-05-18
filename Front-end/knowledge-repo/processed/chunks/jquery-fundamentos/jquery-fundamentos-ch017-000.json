@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch017-000",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 17,
+  "chunkIndex": 0,
+  "title": "1. Añadir 5 nuevos ítems al final de la lista desordenada #myList. Ayuda:",
+  "start": 0,
+  "end": 24,
+  "words": 24,
+  "content": "# 1. Añadir 5 nuevos ítems al final de la lista desordenada #myList. Ayuda: for (var i = 0; i<5; i++) { ... }"
+}

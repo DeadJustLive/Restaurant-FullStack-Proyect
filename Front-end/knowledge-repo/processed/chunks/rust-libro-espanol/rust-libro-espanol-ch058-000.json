@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch058-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 58,
+  "chunkIndex": 0,
+  "title": "Procesando una adivinanza",
+  "start": 0,
+  "end": 37,
+  "words": 37,
+  "content": "# Procesando una adivinanza ## Procesando una adivinanza ### Almacenando valores con variables ### Recibiendo la entrada del usuario ### Manejando el posible fallo conResult ### Imprimiendo valores con marcadores de posiciónprintln! ### Probando la primera parte"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch087-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 87,
+  "chunkIndex": 0,
+  "title": "Desarrollando la funcionalidad de la biblioteca con T.D.D.",
+  "start": 0,
+  "end": 57,
+  "words": 57,
+  "content": "# Desarrollando la funcionalidad de la biblioteca con T.D.D. ## Desarrollando la funcionalidad de la biblioteca con T.D.D. ### Escribiendo un test fallido ### Escribiendo código para pasar el test #### Iterando a través de las líneas con el métodolines #### Buscando cada línea para la consulta #### Almacenando líneas coincidentes #### Usando la funciónsearchen la funciónrun"
+}

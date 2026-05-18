@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch087-003",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 87,
+  "chunkIndex": 3,
+  "title": "PARTIAL_LINK_TEXT",
+  "start": 1350,
+  "end": 1422,
+  "words": 72,
+  "content": "en el que cargamos la web de Stack Overflow y esperamos a que el pie de página esté disponible: >>> from selenium.webdriver.support.ui import WebDriverWait >>> from selenium.webdriver.support import expected_conditions as EC >>> from selenium.webdriver.common.by import By >>> driver.get( https://stackoverflow.com ) (continué en la próxima página) 510 Capítulo 9. Scraping -- 514 of 516 -- Aprende Python (proviene de la página anterior) >>> footer = WebDriverWait(driver, 10).until( ... EC.presence_of_element_located((By.ID, footer ))) >>> print(footer.text)"
+}

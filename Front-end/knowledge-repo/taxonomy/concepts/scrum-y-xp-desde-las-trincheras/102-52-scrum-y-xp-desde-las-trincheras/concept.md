@@ -1,0 +1,24 @@
+# 52 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 102)
+
+## Contenido
+# 52 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+Por supuesto puedes añadir toda clase de columnas adicionales. “Esperando test
+de integración”, por ejemplo. O “cancelado”. De todas formas, antes de complicar
+las cosas, piénsalo profundamente. ¿Es esta extensión realmente, realmente
+necesaria? He descubierto que la simplicidad es extremadamente valiosa en
+estas cosas, así que sólo añado complicaciones adicionales si el coste de no
+hacerlo es demasiado grande.
+Ejemplo 1 – tras el primer Scrum diario
+Después del primer Scrum, el tablón puede aparecer así:
+Como puedes ver, tres tareas están “en proceso”, es decir, el equipo estará
+trabajando en estos elementos hoy.
+A veces, para equipos más grandes, una tarea queda atascada “en progreso”
+porque nadie recuerda quién estaba trabajando en ella. Si esto ocurre a menudo
+en un equipo, usualmente introducimos políticas como etiquetar cada tarea en
+progreso con el nombre de la persona que la ha emprendido.
+
+-- 52 of 122 --

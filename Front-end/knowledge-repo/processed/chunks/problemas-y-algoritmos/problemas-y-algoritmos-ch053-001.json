@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch053-001",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 53,
+  "chunkIndex": 1,
+  "title": "Parte VIII",
+  "start": 450,
+  "end": 650,
+  "words": 200,
+  "content": "Solving Strategies Arthur Engel. Libro ampliamente usado para entrenamientos en la Olimpiada de Matemáticas, no está centrado en el estudio de los algoritmos pero contiene muchas cosas útiles. Además de estos libros, internet está lleno de contenido útil, consultese la sección de contenido educativo de www.topcoder.com/tc. Para aquellos interesados en la prueba de la fórmula de Stirling, se re- quieren conocimientos de cálculo, un buen libro de cálculo es Calculus de Michael Spivak ; para quienes ya sepan cálculo, la prueba de dicha fórmu- la se puede encontrar en muchos lugares, uno de ellos es Wikipedia, la enciclopedia libre(en.wikipedia.org). -- 314 of 315 -- Bibliografía [1] Cesar Arturo Cepeda García, Espacio de Búsqueda 2007 [2] Ian Parberry y William Gasarch, Problems on Algorithms 2002 [3] George Polya, How to Solve It 1945 [4] Arthur Charguéraud, Mathias Hiron, Teaching Algorithmics for In- formatics Olympiads: The French Method [5] Arthur Engel, Problem Solving Strategies Springer 2000 [6] Maria Luisa Pérez Seguí Combinatoria 2005 [7] Bernard Kolman, Robert C. Busby y Sharon Cutler Ross, Estructuras de Matemáticas Discretas para la Computación Editorial Pearson Educación 1995 [8] Francisco Javier Zaragoza Martínez Una Breve Introducción a la Recursión 2004 315 -- 315 of 315 --"
+}

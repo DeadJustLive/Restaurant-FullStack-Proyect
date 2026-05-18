@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch242-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 242,
+  "chunkIndex": 0,
+  "title": "K_J, K_ARROW_LEFT",
+  "start": 0,
+  "end": 28,
+  "words": 28,
+  "content": "# PRECONDICIONES Y OBSERVACIONES: * las mismas que para ColocarPieza */ { PonerN(Verde,codPieza) } //----------------------------------------------------- procedure ColocarPivote(codPieza, tipoPieza, rotPieza) /* PROP´OSITO: coloca el pivote de la pieza codPieza"
+}

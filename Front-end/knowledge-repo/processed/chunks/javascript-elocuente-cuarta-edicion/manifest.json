@@ -1,0 +1,2277 @@
+{
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "totalChunks": 324,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.198Z",
+  "chunks": [
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "parte d: edicada a la lógica, el orden, la regla y la claridad.”",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch001-001",
+      "chapterIndex": 1,
+      "chunkIndex": 1,
+      "title": "parte d: edicada a la lógica, el orden, la regla y la claridad.”",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch001-002",
+      "chapterIndex": 1,
+      "chunkIndex": 2,
+      "title": "parte d: edicada a la lógica, el orden, la regla y la claridad.”",
+      "words": 256
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "1. Almacena el número 0 en la ubicación de memoria 0.",
+      "words": 12
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "2. Almacena el número 1 en la ubicación de memoria 1.",
+      "words": 12
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "3. Almacena el valor de la ubicación de memoria 1 en la ubicación de memo-",
+      "words": 18
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "4. Resta el número 11 al valor en la ubicación de memoria 2.",
+      "words": 14
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "5. Si el valor en la ubicación de memoria 2 es el número 0, continúa con la",
+      "words": 20
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "6. Suma el valor de la ubicación de memoria 1 a la ubicación de memoria 0.",
+      "words": 17
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "7. Añade el número 1 al valor de la ubicación de memoria 1.",
+      "words": 14
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "8. Continúa con la instrucción 3.",
+      "words": 7
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "9. Muestra el valor de la ubicación de memoria 0.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch010-001",
+      "chapterIndex": 10,
+      "chunkIndex": 1,
+      "title": "9. Muestra el valor de la ubicación de memoria 0.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch010-002",
+      "chapterIndex": 10,
+      "chunkIndex": 2,
+      "title": "9. Muestra el valor de la ubicación de memoria 0.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch010-003",
+      "chapterIndex": 10,
+      "chunkIndex": 3,
+      "title": "9. Muestra el valor de la ubicación de memoria 0.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch010-004",
+      "chapterIndex": 10,
+      "chunkIndex": 4,
+      "title": "9. Muestra el valor de la ubicación de memoria 0.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch010-005",
+      "chapterIndex": 10,
+      "chunkIndex": 5,
+      "title": "9. Muestra el valor de la ubicación de memoria 0.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch010-006",
+      "chapterIndex": 10,
+      "chunkIndex": 6,
+      "title": "9. Muestra el valor de la ubicación de memoria 0.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch010-007",
+      "chapterIndex": 10,
+      "chunkIndex": 7,
+      "title": "9. Muestra el valor de la ubicación de memoria 0.",
+      "words": 65
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "0. La precedencia del operador de residuo es la misma que la de multiplicación",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch011-001",
+      "chapterIndex": 11,
+      "chunkIndex": 1,
+      "title": "0. La precedencia del operador de residuo es la misma que la de multiplicación",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch011-002",
+      "chapterIndex": 11,
+      "chunkIndex": 2,
+      "title": "0. La precedencia del operador de residuo es la misma que la de multiplicación",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch011-003",
+      "chapterIndex": 11,
+      "chunkIndex": 3,
+      "title": "0. La precedencia del operador de residuo es la misma que la de multiplicación",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch011-004",
+      "chapterIndex": 11,
+      "chunkIndex": 4,
+      "title": "0. La precedencia del operador de residuo es la misma que la de multiplicación",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch011-005",
+      "chapterIndex": 11,
+      "chunkIndex": 5,
+      "title": "0. La precedencia del operador de residuo es la misma que la de multiplicación",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch011-006",
+      "chapterIndex": 11,
+      "chunkIndex": 6,
+      "title": "0. La precedencia del operador de residuo es la misma que la de multiplicación",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch011-007",
+      "chapterIndex": 11,
+      "chunkIndex": 7,
+      "title": "0. La precedencia del operador de residuo es la misma que la de multiplicación",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch011-008",
+      "chapterIndex": 11,
+      "chunkIndex": 8,
+      "title": "0. La precedencia del operador de residuo es la misma que la de multiplicación",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch011-009",
+      "chapterIndex": 11,
+      "chunkIndex": 9,
+      "title": "0. La precedencia del operador de residuo es la misma que la de multiplicación",
+      "words": 421
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "Capítulo 3: explicará cómo escribir tus propias funciones.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch012-001",
+      "chapterIndex": 12,
+      "chunkIndex": 1,
+      "title": "Capítulo 3: explicará cómo escribir tus propias funciones.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch012-002",
+      "chapterIndex": 12,
+      "chunkIndex": 2,
+      "title": "Capítulo 3: explicará cómo escribir tus propias funciones.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch012-003",
+      "chapterIndex": 12,
+      "chunkIndex": 3,
+      "title": "Capítulo 3: explicará cómo escribir tus propias funciones.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch012-004",
+      "chapterIndex": 12,
+      "chunkIndex": 4,
+      "title": "Capítulo 3: explicará cómo escribir tus propias funciones.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch012-005",
+      "chapterIndex": 12,
+      "chunkIndex": 5,
+      "title": "Capítulo 3: explicará cómo escribir tus propias funciones.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch012-006",
+      "chapterIndex": 12,
+      "chunkIndex": 6,
+      "title": "Capítulo 3: explicará cómo escribir tus propias funciones.",
+      "words": 489
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "# # #",
+      "words": 4
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "# # #",
+      "words": 4
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "# # #",
+      "words": 4
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "# # #",
+      "words": 4
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "# # #",
+      "words": 4
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "# # #",
+      "words": 4
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "# # #",
+      "words": 4
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "# # #",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch020-001",
+      "chapterIndex": 20,
+      "chunkIndex": 1,
+      "title": "# # #",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch020-002",
+      "chapterIndex": 20,
+      "chunkIndex": 2,
+      "title": "# # #",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch020-003",
+      "chapterIndex": 20,
+      "chunkIndex": 3,
+      "title": "# # #",
+      "words": 442
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-001",
+      "chapterIndex": 21,
+      "chunkIndex": 1,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-002",
+      "chapterIndex": 21,
+      "chunkIndex": 2,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-003",
+      "chapterIndex": 21,
+      "chunkIndex": 3,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-004",
+      "chapterIndex": 21,
+      "chunkIndex": 4,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-005",
+      "chapterIndex": 21,
+      "chunkIndex": 5,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-006",
+      "chapterIndex": 21,
+      "chunkIndex": 6,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-007",
+      "chapterIndex": 21,
+      "chunkIndex": 7,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-008",
+      "chapterIndex": 21,
+      "chunkIndex": 8,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-009",
+      "chapterIndex": 21,
+      "chunkIndex": 9,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-010",
+      "chapterIndex": 21,
+      "chunkIndex": 10,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-011",
+      "chapterIndex": 21,
+      "chunkIndex": 11,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-012",
+      "chapterIndex": 21,
+      "chunkIndex": 12,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-013",
+      "chapterIndex": 21,
+      "chunkIndex": 13,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-014",
+      "chapterIndex": 21,
+      "chunkIndex": 14,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-015",
+      "chapterIndex": 21,
+      "chunkIndex": 15,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-016",
+      "chapterIndex": 21,
+      "chunkIndex": 16,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-017",
+      "chapterIndex": 21,
+      "chunkIndex": 17,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch021-018",
+      "chapterIndex": 21,
+      "chunkIndex": 18,
+      "title": "2. Allí, llega al final de la función saludar, por lo que regresa al lugar que la",
+      "words": 396
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-001",
+      "chapterIndex": 22,
+      "chunkIndex": 1,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-002",
+      "chapterIndex": 22,
+      "chunkIndex": 2,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-003",
+      "chapterIndex": 22,
+      "chunkIndex": 3,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-004",
+      "chapterIndex": 22,
+      "chunkIndex": 4,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-005",
+      "chapterIndex": 22,
+      "chunkIndex": 5,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-006",
+      "chapterIndex": 22,
+      "chunkIndex": 6,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-007",
+      "chapterIndex": 22,
+      "chunkIndex": 7,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-008",
+      "chapterIndex": 22,
+      "chunkIndex": 8,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-009",
+      "chapterIndex": 22,
+      "chunkIndex": 9,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-010",
+      "chapterIndex": 22,
+      "chunkIndex": 10,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-011",
+      "chapterIndex": 22,
+      "chunkIndex": 11,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-012",
+      "chapterIndex": 22,
+      "chunkIndex": 12,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-013",
+      "chapterIndex": 22,
+      "chunkIndex": 13,
+      "title": "// → LALALA",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch022-014",
+      "chapterIndex": 22,
+      "chunkIndex": 14,
+      "title": "// → LALALA",
+      "words": 259
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "capítulo d: escribe la forma en que estas ideas se pueden aplicar en JavaScript.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch023-001",
+      "chapterIndex": 23,
+      "chunkIndex": 1,
+      "title": "capítulo d: escribe la forma en que estas ideas se pueden aplicar en JavaScript.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch023-002",
+      "chapterIndex": 23,
+      "chunkIndex": 2,
+      "title": "capítulo d: escribe la forma en que estas ideas se pueden aplicar en JavaScript.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch023-003",
+      "chapterIndex": 23,
+      "chunkIndex": 3,
+      "title": "capítulo d: escribe la forma en que estas ideas se pueden aplicar en JavaScript.",
+      "words": 171
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "2015. Cualquier función puede ser utilizada como constructor, y antes de 2015",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch024-001",
+      "chapterIndex": 24,
+      "chunkIndex": 1,
+      "title": "2015. Cualquier función puede ser utilizada como constructor, y antes de 2015",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch024-002",
+      "chapterIndex": 24,
+      "chunkIndex": 2,
+      "title": "2015. Cualquier función puede ser utilizada como constructor, y antes de 2015",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch024-003",
+      "chapterIndex": 24,
+      "chunkIndex": 3,
+      "title": "2015. Cualquier función puede ser utilizada como constructor, y antes de 2015",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch024-004",
+      "chapterIndex": 24,
+      "chunkIndex": 4,
+      "title": "2015. Cualquier función puede ser utilizada como constructor, y antes de 2015",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch024-005",
+      "chapterIndex": 24,
+      "chunkIndex": 5,
+      "title": "2015. Cualquier función puede ser utilizada como constructor, y antes de 2015",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch024-006",
+      "chapterIndex": 24,
+      "chunkIndex": 6,
+      "title": "2015. Cualquier función puede ser utilizada como constructor, y antes de 2015",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch024-007",
+      "chapterIndex": 24,
+      "chunkIndex": 7,
+      "title": "2015. Cualquier función puede ser utilizada como constructor, y antes de 2015",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch024-008",
+      "chapterIndex": 24,
+      "chunkIndex": 8,
+      "title": "2015. Cualquier función puede ser utilizada como constructor, y antes de 2015",
+      "words": 268
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-001",
+      "chapterIndex": 25,
+      "chunkIndex": 1,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-002",
+      "chapterIndex": 25,
+      "chunkIndex": 2,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-003",
+      "chapterIndex": 25,
+      "chunkIndex": 3,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-004",
+      "chapterIndex": 25,
+      "chunkIndex": 4,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-005",
+      "chapterIndex": 25,
+      "chunkIndex": 5,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-006",
+      "chapterIndex": 25,
+      "chunkIndex": 6,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-007",
+      "chapterIndex": 25,
+      "chunkIndex": 7,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-008",
+      "chapterIndex": 25,
+      "chunkIndex": 8,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-009",
+      "chapterIndex": 25,
+      "chunkIndex": 9,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-010",
+      "chapterIndex": 25,
+      "chunkIndex": 10,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-011",
+      "chapterIndex": 25,
+      "chunkIndex": 11,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-012",
+      "chapterIndex": 25,
+      "chunkIndex": 12,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-013",
+      "chapterIndex": 25,
+      "chunkIndex": 13,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-014",
+      "chapterIndex": 25,
+      "chunkIndex": 14,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-015",
+      "chapterIndex": 25,
+      "chunkIndex": 15,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-016",
+      "chapterIndex": 25,
+      "chunkIndex": 16,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-017",
+      "chapterIndex": 25,
+      "chunkIndex": 17,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-018",
+      "chapterIndex": 25,
+      "chunkIndex": 18,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-019",
+      "chapterIndex": 25,
+      "chunkIndex": 19,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-020",
+      "chapterIndex": 25,
+      "chunkIndex": 20,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-021",
+      "chapterIndex": 25,
+      "chunkIndex": 21,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-022",
+      "chapterIndex": 25,
+      "chunkIndex": 22,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-023",
+      "chapterIndex": 25,
+      "chunkIndex": 23,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-024",
+      "chapterIndex": 25,
+      "chunkIndex": 24,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-025",
+      "chapterIndex": 25,
+      "chunkIndex": 25,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-026",
+      "chapterIndex": 25,
+      "chunkIndex": 26,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch025-027",
+      "chapterIndex": 25,
+      "chunkIndex": 27,
+      "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+      "words": 336
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "parte d: el patrón falle, el coincidente retrocede un carácter y vuelve a intentar",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch026-001",
+      "chapterIndex": 26,
+      "chunkIndex": 1,
+      "title": "parte d: el patrón falle, el coincidente retrocede un carácter y vuelve a intentar",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch026-002",
+      "chapterIndex": 26,
+      "chunkIndex": 2,
+      "title": "parte d: el patrón falle, el coincidente retrocede un carácter y vuelve a intentar",
+      "words": 398
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "4. Sin embargo, algunos sistemas operativos utilizan no solo un carácter de",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch027-001",
+      "chapterIndex": 27,
+      "chunkIndex": 1,
+      "title": "4. Sin embargo, algunos sistemas operativos utilizan no solo un carácter de",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch027-002",
+      "chapterIndex": 27,
+      "chunkIndex": 2,
+      "title": "4. Sin embargo, algunos sistemas operativos utilizan no solo un carácter de",
+      "words": 278
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "4. Cualquier palabra que termine en ious",
+      "words": 8
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "5. Un carácter de espacio en blanco seguido de un punto, coma, dos puntos",
+      "words": 19
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "6. Una palabra con más de seis letras",
+      "words": 9
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "7. Una palabra sin la letra e (o E)",
+      "words": 210
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "Chapter 10",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch032-001",
+      "chapterIndex": 32,
+      "chunkIndex": 1,
+      "title": "Chapter 10",
+      "words": 159
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "parte d: e su interfaz y dos funciones que sí lo son. No tiene dependencias.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch033-001",
+      "chapterIndex": 33,
+      "chunkIndex": 1,
+      "title": "parte d: e su interfaz y dos funciones que sí lo son. No tiene dependencias.",
+      "words": 282
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "Capítulo 20: mostrará cómo instalar tales paquetes localmente usando el pro-",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch034-001",
+      "chapterIndex": 34,
+      "chunkIndex": 1,
+      "title": "Capítulo 20: mostrará cómo instalar tales paquetes localmente usando el pro-",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch034-002",
+      "chapterIndex": 34,
+      "chunkIndex": 2,
+      "title": "Capítulo 20: mostrará cómo instalar tales paquetes localmente usando el pro-",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch034-003",
+      "chapterIndex": 34,
+      "chunkIndex": 3,
+      "title": "Capítulo 20: mostrará cómo instalar tales paquetes localmente usando el pro-",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch034-004",
+      "chapterIndex": 34,
+      "chunkIndex": 4,
+      "title": "Capítulo 20: mostrará cómo instalar tales paquetes localmente usando el pro-",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch034-005",
+      "chapterIndex": 34,
+      "chunkIndex": 5,
+      "title": "Capítulo 20: mostrará cómo instalar tales paquetes localmente usando el pro-",
+      "words": 460
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "tema C: ommonJS.",
+      "words": 108
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "Módulo d: e caminos",
+      "words": 227
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "Chapter 11",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch037-001",
+      "chapterIndex": 37,
+      "chunkIndex": 1,
+      "title": "Chapter 11",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch037-002",
+      "chapterIndex": 37,
+      "chunkIndex": 2,
+      "title": "Chapter 11",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch037-003",
+      "chapterIndex": 37,
+      "chunkIndex": 3,
+      "title": "Chapter 11",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch037-004",
+      "chapterIndex": 37,
+      "chunkIndex": 4,
+      "title": "Chapter 11",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch037-005",
+      "chapterIndex": 37,
+      "chunkIndex": 5,
+      "title": "Chapter 11",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch037-006",
+      "chapterIndex": 37,
+      "chunkIndex": 6,
+      "title": "Chapter 11",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch037-007",
+      "chapterIndex": 37,
+      "chunkIndex": 7,
+      "title": "Chapter 11",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch037-008",
+      "chapterIndex": 37,
+      "chunkIndex": 8,
+      "title": "Chapter 11",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch037-009",
+      "chapterIndex": 37,
+      "chunkIndex": 9,
+      "title": "Chapter 11",
+      "words": 434
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "13. Carla nota que sus propios teléfonos reciben direcciones como 10.0.0.20",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch038-001",
+      "chapterIndex": 38,
+      "chunkIndex": 1,
+      "title": "13. Carla nota que sus propios teléfonos reciben direcciones como 10.0.0.20",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch038-002",
+      "chapterIndex": 38,
+      "chunkIndex": 2,
+      "title": "13. Carla nota que sus propios teléfonos reciben direcciones como 10.0.0.20",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch038-003",
+      "chapterIndex": 38,
+      "chunkIndex": 3,
+      "title": "13. Carla nota que sus propios teléfonos reciben direcciones como 10.0.0.20",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch038-004",
+      "chapterIndex": 38,
+      "chunkIndex": 4,
+      "title": "13. Carla nota que sus propios teléfonos reciben direcciones como 10.0.0.20",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch038-005",
+      "chapterIndex": 38,
+      "chunkIndex": 5,
+      "title": "13. Carla nota que sus propios teléfonos reciben direcciones como 10.0.0.20",
+      "words": 199
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "Chapter 12",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch039-001",
+      "chapterIndex": 39,
+      "chunkIndex": 1,
+      "title": "Chapter 12",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch039-002",
+      "chapterIndex": 39,
+      "chunkIndex": 2,
+      "title": "Chapter 12",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch039-003",
+      "chapterIndex": 39,
+      "chunkIndex": 3,
+      "title": "Chapter 12",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch039-004",
+      "chapterIndex": 39,
+      "chunkIndex": 4,
+      "title": "Chapter 12",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch039-005",
+      "chapterIndex": 39,
+      "chunkIndex": 5,
+      "title": "Chapter 12",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch039-006",
+      "chapterIndex": 39,
+      "chunkIndex": 6,
+      "title": "Chapter 12",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch039-007",
+      "chapterIndex": 39,
+      "chunkIndex": 7,
+      "title": "Chapter 12",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch039-008",
+      "chapterIndex": 39,
+      "chunkIndex": 8,
+      "title": "Chapter 12",
+      "words": 169
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "Chapter 13",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch040-001",
+      "chapterIndex": 40,
+      "chunkIndex": 1,
+      "title": "Chapter 13",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch040-002",
+      "chapterIndex": 40,
+      "chunkIndex": 2,
+      "title": "Chapter 13",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch040-003",
+      "chapterIndex": 40,
+      "chunkIndex": 3,
+      "title": "Chapter 13",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch040-004",
+      "chapterIndex": 40,
+      "chunkIndex": 4,
+      "title": "Chapter 13",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch040-005",
+      "chapterIndex": 40,
+      "chunkIndex": 5,
+      "title": "Chapter 13",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch040-006",
+      "chapterIndex": 40,
+      "chunkIndex": 6,
+      "title": "Chapter 13",
+      "words": 217
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "Chapter 14",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch041-001",
+      "chapterIndex": 41,
+      "chunkIndex": 1,
+      "title": "Chapter 14",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch041-002",
+      "chapterIndex": 41,
+      "chunkIndex": 2,
+      "title": "Chapter 14",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch041-003",
+      "chapterIndex": 41,
+      "chunkIndex": 3,
+      "title": "Chapter 14",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch041-004",
+      "chapterIndex": 41,
+      "chunkIndex": 4,
+      "title": "Chapter 14",
+      "words": 300
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "// → [\"UNO\", \"DOS\"]",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch042-001",
+      "chapterIndex": 42,
+      "chunkIndex": 1,
+      "title": "// → [\"UNO\", \"DOS\"]",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch042-002",
+      "chapterIndex": 42,
+      "chunkIndex": 2,
+      "title": "// → [\"UNO\", \"DOS\"]",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch042-003",
+      "chapterIndex": 42,
+      "chunkIndex": 3,
+      "title": "// → [\"UNO\", \"DOS\"]",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch042-004",
+      "chapterIndex": 42,
+      "chunkIndex": 4,
+      "title": "// → [\"UNO\", \"DOS\"]",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch042-005",
+      "chapterIndex": 42,
+      "chunkIndex": 5,
+      "title": "// → [\"UNO\", \"DOS\"]",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch042-006",
+      "chapterIndex": 42,
+      "chunkIndex": 6,
+      "title": "// → [\"UNO\", \"DOS\"]",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch042-007",
+      "chapterIndex": 42,
+      "chunkIndex": 7,
+      "title": "// → [\"UNO\", \"DOS\"]",
+      "words": 271
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "Chapter 15",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch043-001",
+      "chapterIndex": 43,
+      "chunkIndex": 1,
+      "title": "Chapter 15",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch043-002",
+      "chapterIndex": 43,
+      "chunkIndex": 2,
+      "title": "Chapter 15",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch043-003",
+      "chapterIndex": 43,
+      "chunkIndex": 3,
+      "title": "Chapter 15",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch043-004",
+      "chapterIndex": 43,
+      "chunkIndex": 4,
+      "title": "Chapter 15",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch043-005",
+      "chapterIndex": 43,
+      "chunkIndex": 5,
+      "title": "Chapter 15",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch043-006",
+      "chapterIndex": 43,
+      "chunkIndex": 6,
+      "title": "Chapter 15",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch043-007",
+      "chapterIndex": 43,
+      "chunkIndex": 7,
+      "title": "Chapter 15",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch043-008",
+      "chapterIndex": 43,
+      "chunkIndex": 8,
+      "title": "Chapter 15",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch043-009",
+      "chapterIndex": 43,
+      "chunkIndex": 9,
+      "title": "Chapter 15",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch043-010",
+      "chapterIndex": 43,
+      "chunkIndex": 10,
+      "title": "Chapter 15",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch043-011",
+      "chapterIndex": 43,
+      "chunkIndex": 11,
+      "title": "Chapter 15",
+      "words": 401
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "Chapter 16",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch044-001",
+      "chapterIndex": 44,
+      "chunkIndex": 1,
+      "title": "Chapter 16",
+      "words": 186
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "parte d: e la cuadrícula de fondo o un elemento móvil.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch045-001",
+      "chapterIndex": 45,
+      "chunkIndex": 1,
+      "title": "parte d: e la cuadrícula de fondo o un elemento móvil.",
+      "words": 140
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "Capítulo 6.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch046-001",
+      "chapterIndex": 46,
+      "chunkIndex": 1,
+      "title": "Capítulo 6.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch046-002",
+      "chapterIndex": 46,
+      "chunkIndex": 2,
+      "title": "Capítulo 6.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch046-003",
+      "chapterIndex": 46,
+      "chunkIndex": 3,
+      "title": "Capítulo 6.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch046-004",
+      "chapterIndex": 46,
+      "chunkIndex": 4,
+      "title": "Capítulo 6.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch046-005",
+      "chapterIndex": 46,
+      "chunkIndex": 5,
+      "title": "Capítulo 6.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch046-006",
+      "chapterIndex": 46,
+      "chunkIndex": 6,
+      "title": "Capítulo 6.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch046-007",
+      "chapterIndex": 46,
+      "chunkIndex": 7,
+      "title": "Capítulo 6.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch046-008",
+      "chapterIndex": 46,
+      "chunkIndex": 8,
+      "title": "Capítulo 6.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch046-009",
+      "chapterIndex": 46,
+      "chunkIndex": 9,
+      "title": "Capítulo 6.",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch046-010",
+      "chapterIndex": 46,
+      "chunkIndex": 10,
+      "title": "Capítulo 6.",
+      "words": 77
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "parte d: e un segundo). Cuando la pestaña del navegador o la ventana con",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch047-001",
+      "chapterIndex": 47,
+      "chunkIndex": 1,
+      "title": "parte d: e un segundo). Cuando la pestaña del navegador o la ventana con",
+      "words": 334
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-001",
+      "chapterIndex": 48,
+      "chunkIndex": 1,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-002",
+      "chapterIndex": 48,
+      "chunkIndex": 2,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-003",
+      "chapterIndex": 48,
+      "chunkIndex": 3,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-004",
+      "chapterIndex": 48,
+      "chunkIndex": 4,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-005",
+      "chapterIndex": 48,
+      "chunkIndex": 5,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-006",
+      "chapterIndex": 48,
+      "chunkIndex": 6,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-007",
+      "chapterIndex": 48,
+      "chunkIndex": 7,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-008",
+      "chapterIndex": 48,
+      "chunkIndex": 8,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-009",
+      "chapterIndex": 48,
+      "chunkIndex": 9,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-010",
+      "chapterIndex": 48,
+      "chunkIndex": 10,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-011",
+      "chapterIndex": 48,
+      "chunkIndex": 11,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-012",
+      "chapterIndex": 48,
+      "chunkIndex": 12,
+      "title": "Chapter 17",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch048-013",
+      "chapterIndex": 48,
+      "chunkIndex": 13,
+      "title": "Chapter 17",
+      "words": 80
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "1. Un trapecio (un rectángulo que es más ancho en un lado)",
+      "words": 13
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "2. Un diamante rojo diamond (un rectángulo rotado 45 grados o ¼π radi-",
+      "words": 15
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "3. Una línea en zigzag",
+      "words": 6
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "4. Un espiral compuesta por 100 segmentos de línea recta",
+      "words": 11
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "5. Una estrella amarilla star",
+      "words": 195
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "Capítulo 16: para dibujar una caja con una pelota rebotando dentro. La pelota",
+      "words": 241
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "Chapter 18",
+      "words": 16
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "Capítulo 13: , es el mecanismo a través del cual se solicita y proporciona datos",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch056-001",
+      "chapterIndex": 56,
+      "chunkIndex": 1,
+      "title": "Capítulo 13: , es el mecanismo a través del cual se solicita y proporciona datos",
+      "words": 158
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-000",
+      "chapterIndex": 57,
+      "chunkIndex": 0,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-001",
+      "chapterIndex": 57,
+      "chunkIndex": 1,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-002",
+      "chapterIndex": 57,
+      "chunkIndex": 2,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-003",
+      "chapterIndex": 57,
+      "chunkIndex": 3,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-004",
+      "chapterIndex": 57,
+      "chunkIndex": 4,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-005",
+      "chapterIndex": 57,
+      "chunkIndex": 5,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-006",
+      "chapterIndex": 57,
+      "chunkIndex": 6,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-007",
+      "chapterIndex": 57,
+      "chunkIndex": 7,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-008",
+      "chapterIndex": 57,
+      "chunkIndex": 8,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-009",
+      "chapterIndex": 57,
+      "chunkIndex": 9,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-010",
+      "chapterIndex": 57,
+      "chunkIndex": 10,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-011",
+      "chapterIndex": 57,
+      "chunkIndex": 11,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-012",
+      "chapterIndex": 57,
+      "chunkIndex": 12,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch057-013",
+      "chapterIndex": 57,
+      "chunkIndex": 13,
+      "title": "parte d: el ejemplo de respuesta:",
+      "words": 381
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-000",
+      "chapterIndex": 58,
+      "chunkIndex": 0,
+      "title": "Chapter 19",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-001",
+      "chapterIndex": 58,
+      "chunkIndex": 1,
+      "title": "Chapter 19",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-002",
+      "chapterIndex": 58,
+      "chunkIndex": 2,
+      "title": "Chapter 19",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-003",
+      "chapterIndex": 58,
+      "chunkIndex": 3,
+      "title": "Chapter 19",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-004",
+      "chapterIndex": 58,
+      "chunkIndex": 4,
+      "title": "Chapter 19",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-005",
+      "chapterIndex": 58,
+      "chunkIndex": 5,
+      "title": "Chapter 19",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-006",
+      "chapterIndex": 58,
+      "chunkIndex": 6,
+      "title": "Chapter 19",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-007",
+      "chapterIndex": 58,
+      "chunkIndex": 7,
+      "title": "Chapter 19",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-008",
+      "chapterIndex": 58,
+      "chunkIndex": 8,
+      "title": "Chapter 19",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-009",
+      "chapterIndex": 58,
+      "chunkIndex": 9,
+      "title": "Chapter 19",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-010",
+      "chapterIndex": 58,
+      "chunkIndex": 10,
+      "title": "Chapter 19",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-011",
+      "chapterIndex": 58,
+      "chunkIndex": 11,
+      "title": "Chapter 19",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch058-012",
+      "chapterIndex": 58,
+      "chunkIndex": 12,
+      "title": "Chapter 19",
+      "words": 360
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch059-000",
+      "chapterIndex": 59,
+      "chunkIndex": 0,
+      "title": "Chapter 20",
+      "words": 250
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch060-000",
+      "chapterIndex": 60,
+      "chunkIndex": 0,
+      "title": "tema c: omo Node. Es uno de los pocos lenguajes de programación que no tiene",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch060-001",
+      "chapterIndex": 60,
+      "chunkIndex": 1,
+      "title": "tema c: omo Node. Es uno de los pocos lenguajes de programación que no tiene",
+      "words": 216
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch061-000",
+      "chapterIndex": 61,
+      "chunkIndex": 0,
+      "title": "módulo i: ntegrado del sistema de archivos de Node. E importar \"robot\" podría",
+      "words": 240
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch062-000",
+      "chapterIndex": 62,
+      "chunkIndex": 0,
+      "title": "Capítulo 10.: Podemos usar NPM para buscar e instalar ese paquete en nuestra",
+      "words": 227
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch063-000",
+      "chapterIndex": 63,
+      "chunkIndex": 0,
+      "title": "Capítulo 10: , podría tener un archivo package.json como este:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch063-001",
+      "chapterIndex": 63,
+      "chunkIndex": 1,
+      "title": "Capítulo 10: , podría tener un archivo package.json como este:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch063-002",
+      "chapterIndex": 63,
+      "chunkIndex": 2,
+      "title": "Capítulo 10: , podría tener un archivo package.json como este:",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch063-003",
+      "chapterIndex": 63,
+      "chunkIndex": 3,
+      "title": "Capítulo 10: , podría tener un archivo package.json como este:",
+      "words": 460
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch064-000",
+      "chapterIndex": 64,
+      "chunkIndex": 0,
+      "title": "// → HOLA SERVIDOR",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch064-001",
+      "chapterIndex": 64,
+      "chunkIndex": 1,
+      "title": "// → HOLA SERVIDOR",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch064-002",
+      "chapterIndex": 64,
+      "chunkIndex": 2,
+      "title": "// → HOLA SERVIDOR",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch064-003",
+      "chapterIndex": 64,
+      "chunkIndex": 3,
+      "title": "// → HOLA SERVIDOR",
+      "words": 395
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch065-000",
+      "chapterIndex": 65,
+      "chunkIndex": 0,
+      "title": "CONTENIDO",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch065-001",
+      "chapterIndex": 65,
+      "chunkIndex": 1,
+      "title": "CONTENIDO",
+      "words": 295
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-000",
+      "chapterIndex": 66,
+      "chunkIndex": 0,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-001",
+      "chapterIndex": 66,
+      "chunkIndex": 1,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-002",
+      "chapterIndex": 66,
+      "chunkIndex": 2,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-003",
+      "chapterIndex": 66,
+      "chunkIndex": 3,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-004",
+      "chapterIndex": 66,
+      "chunkIndex": 4,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-005",
+      "chapterIndex": 66,
+      "chunkIndex": 5,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-006",
+      "chapterIndex": 66,
+      "chunkIndex": 6,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-007",
+      "chapterIndex": 66,
+      "chunkIndex": 7,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-008",
+      "chapterIndex": 66,
+      "chunkIndex": 8,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-009",
+      "chapterIndex": 66,
+      "chunkIndex": 9,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-010",
+      "chapterIndex": 66,
+      "chunkIndex": 10,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-011",
+      "chapterIndex": 66,
+      "chunkIndex": 11,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-012",
+      "chapterIndex": 66,
+      "chunkIndex": 12,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-013",
+      "chapterIndex": 66,
+      "chunkIndex": 13,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-014",
+      "chapterIndex": 66,
+      "chunkIndex": 14,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-015",
+      "chapterIndex": 66,
+      "chunkIndex": 15,
+      "title": "Chapter 21",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch066-016",
+      "chapterIndex": 66,
+      "chunkIndex": 16,
+      "title": "Chapter 21",
+      "words": 492
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch067-000",
+      "chapterIndex": 67,
+      "chunkIndex": 0,
+      "title": "módulo d: ependa menos del formato de entrada.",
+      "words": 212
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch068-000",
+      "chapterIndex": 68,
+      "chunkIndex": 0,
+      "title": "módulo i: ndividual hace algo bastante simple y se puede leer por sí solo. Dividir",
+      "words": 250
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch069-000",
+      "chapterIndex": 69,
+      "chunkIndex": 0,
+      "title": "Módulo d: e caminos",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch069-001",
+      "chapterIndex": 69,
+      "chunkIndex": 1,
+      "title": "Módulo d: e caminos",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch069-002",
+      "chapterIndex": 69,
+      "chunkIndex": 2,
+      "title": "Módulo d: e caminos",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch069-003",
+      "chapterIndex": 69,
+      "chunkIndex": 3,
+      "title": "Módulo d: e caminos",
+      "words": 82
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch070-000",
+      "chapterIndex": 70,
+      "chunkIndex": 0,
+      "title": "capítulo d: el proyecto, 116, 200, 261,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch070-001",
+      "chapterIndex": 70,
+      "chunkIndex": 1,
+      "title": "capítulo d: el proyecto, 116, 200, 261,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch070-002",
+      "chapterIndex": 70,
+      "chunkIndex": 2,
+      "title": "capítulo d: el proyecto, 116, 200, 261,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch070-003",
+      "chapterIndex": 70,
+      "chunkIndex": 3,
+      "title": "capítulo d: el proyecto, 116, 200, 261,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch070-004",
+      "chapterIndex": 70,
+      "chunkIndex": 4,
+      "title": "capítulo d: el proyecto, 116, 200, 261,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch070-005",
+      "chapterIndex": 70,
+      "chunkIndex": 5,
+      "title": "capítulo d: el proyecto, 116, 200, 261,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch070-006",
+      "chapterIndex": 70,
+      "chunkIndex": 6,
+      "title": "capítulo d: el proyecto, 116, 200, 261,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch070-007",
+      "chapterIndex": 70,
+      "chunkIndex": 7,
+      "title": "capítulo d: el proyecto, 116, 200, 261,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch070-008",
+      "chapterIndex": 70,
+      "chunkIndex": 8,
+      "title": "capítulo d: el proyecto, 116, 200, 261,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch070-009",
+      "chapterIndex": 70,
+      "chunkIndex": 9,
+      "title": "capítulo d: el proyecto, 116, 200, 261,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch070-010",
+      "chapterIndex": 70,
+      "chunkIndex": 10,
+      "title": "capítulo d: el proyecto, 116, 200, 261,",
+      "words": 288
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch071-000",
+      "chapterIndex": 71,
+      "chunkIndex": 0,
+      "title": "módulo d: e caminos (ejercicio), 177,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch071-001",
+      "chapterIndex": 71,
+      "chunkIndex": 1,
+      "title": "módulo d: e caminos (ejercicio), 177,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch071-002",
+      "chapterIndex": 71,
+      "chunkIndex": 2,
+      "title": "módulo d: e caminos (ejercicio), 177,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch071-003",
+      "chapterIndex": 71,
+      "chunkIndex": 3,
+      "title": "módulo d: e caminos (ejercicio), 177,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch071-004",
+      "chapterIndex": 71,
+      "chunkIndex": 4,
+      "title": "módulo d: e caminos (ejercicio), 177,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch071-005",
+      "chapterIndex": 71,
+      "chunkIndex": 5,
+      "title": "módulo d: e caminos (ejercicio), 177,",
+      "words": 500
+    },
+    {
+      "id": "javascript-elocuente-cuarta-edicion-ch071-006",
+      "chapterIndex": 71,
+      "chunkIndex": 6,
+      "title": "módulo d: e caminos (ejercicio), 177,",
+      "words": 260
+    }
+  ]
+}

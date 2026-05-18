@@ -1,0 +1,36 @@
+# STACK OVERFLOW
+
+Questions
+Jobs
+Developer Jobs Directory
+Salary Calculator
+Help
+Mobile
+...
+Figura 2: Anatomía de una condición de espera
+Atención: En el caso de que el elemento por el que estamos esperando no «aparezca»
+en el DOM, y una vez pasado el tiempo de «timeout», Selenium eleva una excepción de
+tipo selenium.common.exceptions.TimeoutException.
+9.3.8 Ejecutar javascript
+Puede llegar a ser muy útil la ejecución de javascript en el navegador. La casuística es muy
+variada. En cualquier caso, Selenium nos proporciona el método execute_script() para
+esta tarea.
+Supongamos un ejemplo en el que queremos navegar a la web de GitHub y hacer
+«scroll» hasta el final de la página:
+>>> driver = webdriver.Firefox()
+>>> driver.get( https://github.com )
+>>> body = driver.find_element_by_tag_name( body )
+>>> driver.execute_script( arguments[0].scrollIntoView(false) , body)
+9.3. selenium 511
+
+-- 515 of 516 --
+
+Aprende Python
+Cuando en la función execute_script() se hace referencia al array arguments[] podemos
+pasar elementos Selenium como argumentos y aprovechar así las potencialidades javascript.
+El primer argumento corresponde al índice 0, el segundo argumento al índice 1, y así
+sucesivamente.
+Ejercicio
+Escriba un programa en Python que permita sacar un listado de supermercados Mercadona
+dada una geolocalización (lat,lon) como dato de entrada.
+Pasos a seguir:

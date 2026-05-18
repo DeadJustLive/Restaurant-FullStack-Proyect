@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch045-004",
+  "bookId": "node-js-es",
+  "chapterIndex": 45,
+  "chunkIndex": 4,
+  "title": "Capítulo 11:: Biblioteca de mangosta",
+  "start": 1800,
+  "end": 1980,
+  "words": 180,
+  "content": "{ next() //pass to 404 handler } }) .catch(next) //pass to error handler }) Suponga que los siguientes documentos están en la colección en el modelo: { \"_id\" : ObjectId(\"578abe97522ad414b8eeb55a\"), \"request\" : \"JavaScript is Awesome\", \"time\" : 1468710551 } { \"_id\" : ObjectId(\"578abe9b522ad414b8eeb55b\"), \"request\" : \"JavaScript is Awesome\", \"time\" : 1468710555 } { \"_id\" : ObjectId(\"578abea0522ad414b8eeb55c\"), \"request\" : \"JavaScript is Awesome\", \"time\" : 1468710560 https://riptutorial.com/es/home 75 -- 103 of 423 -- } Y el objetivo es encontrar y mostrar todos los documentos que contienen \"JavaScript is Awesome\" bajo la tecla \"request\" . Para esto, inicie MongoDB y ejecute server.js con node server.js : Uso Para usar esto para encontrar datos, vaya a la siguiente URL en un navegador: http://localhost:8080/find/<query> Donde <query> es la consulta de búsqueda. Ejemplo: http://localhost:8080/find/JavaScript%20is%20Awesome Salida: [{ _id: \"578abe97522ad414b8eeb55a\", request: \"JavaScript is Awesome\", time: 1468710551, __v: 0 }, { _id: \"578abe9b522ad414b8eeb55b\", request: \"JavaScript is Awesome\", time: 1468710555, __v: 0 }, { _id: \"578abea0522ad414b8eeb55c\", request: \"JavaScript is Awesome\", time: 1468710560, __v: 0 }] Lea Biblioteca de mangosta en línea: https://riptutorial.com/es/node-js/topic/3486/biblioteca-de- mangosta https://riptutorial.com/es/home 76 -- 104 of 423 --"
+}

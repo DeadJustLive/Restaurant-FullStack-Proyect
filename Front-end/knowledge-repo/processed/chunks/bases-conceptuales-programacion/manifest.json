@@ -1,0 +1,4853 @@
+{
+  "bookId": "bases-conceptuales-programacion",
+  "totalChunks": 692,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.086Z",
+  "chunks": [
+    {
+      "id": "bases-conceptuales-programacion-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "1. La disciplina de la programaci ´on 23",
+      "words": 247
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "2. Primeros elementos de programaci ´on 39",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch002-001",
+      "chapterIndex": 2,
+      "chunkIndex": 1,
+      "title": "2. Primeros elementos de programaci ´on 39",
+      "words": 80
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "3. Procedimientos, funciones y parametrizaci ´on 89",
+      "words": 346
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "4. Alternativa, repetici ´on y memoria 131",
+      "words": 313
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "5. Un ejemplo completo: ZILFOST 179",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch005-001",
+      "chapterIndex": 5,
+      "chunkIndex": 1,
+      "title": "5. Un ejemplo completo: ZILFOST 179",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch005-002",
+      "chapterIndex": 5,
+      "chunkIndex": 2,
+      "title": "5. Un ejemplo completo: ZILFOST 179",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch005-003",
+      "chapterIndex": 5,
+      "chunkIndex": 3,
+      "title": "5. Un ejemplo completo: ZILFOST 179",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch005-004",
+      "chapterIndex": 5,
+      "chunkIndex": 4,
+      "title": "5. Un ejemplo completo: ZILFOST 179",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch005-005",
+      "chapterIndex": 5,
+      "chunkIndex": 5,
+      "title": "5. Un ejemplo completo: ZILFOST 179",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch005-006",
+      "chapterIndex": 5,
+      "chunkIndex": 6,
+      "title": "5. Un ejemplo completo: ZILFOST 179",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch005-007",
+      "chapterIndex": 5,
+      "chunkIndex": 7,
+      "title": "5. Un ejemplo completo: ZILFOST 179",
+      "words": 88
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "1) Elementos del lenguaje",
+      "words": 108
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "2) Elementos de abstracci ´on",
+      "words": 39
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "3) Elementos de estilo",
+      "words": 31
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "4) Otros conceptos",
+      "words": 124
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "1. Universo de discurso (tablero, bolitas, cabezal)",
+      "words": 8
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch100-000",
+      "chapterIndex": 100,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 297
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch101-000",
+      "chapterIndex": 101,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 24
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch102-000",
+      "chapterIndex": 102,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 250
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch103-000",
+      "chapterIndex": 103,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch104-000",
+      "chapterIndex": 104,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 123
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch105-000",
+      "chapterIndex": 105,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch106-000",
+      "chapterIndex": 106,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch106-001",
+      "chapterIndex": 106,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch106-002",
+      "chapterIndex": 106,
+      "chunkIndex": 2,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch106-003",
+      "chapterIndex": 106,
+      "chunkIndex": 3,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch106-004",
+      "chapterIndex": 106,
+      "chunkIndex": 4,
+      "title": "PRECONDICIONES:",
+      "words": 470
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch107-000",
+      "chapterIndex": 107,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch107-001",
+      "chapterIndex": 107,
+      "chunkIndex": 1,
+      "title": "PROP´OSITO:",
+      "words": 367
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch108-000",
+      "chapterIndex": 108,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 25
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch109-000",
+      "chapterIndex": 109,
+      "chunkIndex": 0,
+      "title": "10. Mensajes de error",
+      "words": 24
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 3
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch110-000",
+      "chapterIndex": 110,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch111-000",
+      "chapterIndex": 111,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch111-001",
+      "chapterIndex": 111,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch111-002",
+      "chapterIndex": 111,
+      "chunkIndex": 2,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch111-003",
+      "chapterIndex": 111,
+      "chunkIndex": 3,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch111-004",
+      "chapterIndex": 111,
+      "chunkIndex": 4,
+      "title": "PRECONDICIONES:",
+      "words": 116
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch112-000",
+      "chapterIndex": 112,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch112-001",
+      "chapterIndex": 112,
+      "chunkIndex": 1,
+      "title": "PROP´OSITO:",
+      "words": 331
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch113-000",
+      "chapterIndex": 113,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch114-000",
+      "chapterIndex": 114,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch114-001",
+      "chapterIndex": 114,
+      "chunkIndex": 1,
+      "title": "OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch114-002",
+      "chapterIndex": 114,
+      "chunkIndex": 2,
+      "title": "OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch114-003",
+      "chapterIndex": 114,
+      "chunkIndex": 3,
+      "title": "OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch114-004",
+      "chapterIndex": 114,
+      "chunkIndex": 4,
+      "title": "OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch114-005",
+      "chapterIndex": 114,
+      "chunkIndex": 5,
+      "title": "OBSERVACIONES:",
+      "words": 74
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch115-000",
+      "chapterIndex": 115,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 21
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch116-000",
+      "chapterIndex": 116,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 309
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch117-000",
+      "chapterIndex": 117,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 11
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch118-000",
+      "chapterIndex": 118,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 154
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch119-000",
+      "chapterIndex": 119,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 25
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 3
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch120-000",
+      "chapterIndex": 120,
+      "chunkIndex": 0,
+      "title": "11. M ´as comandos primitivos (Mover, Sacar, etc.)",
+      "words": 351
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch121-000",
+      "chapterIndex": 121,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch122-000",
+      "chapterIndex": 122,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 8
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch123-000",
+      "chapterIndex": 123,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 413
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch124-000",
+      "chapterIndex": 124,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch125-000",
+      "chapterIndex": 125,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 8
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch126-000",
+      "chapterIndex": 126,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 405
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch127-000",
+      "chapterIndex": 127,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch128-000",
+      "chapterIndex": 128,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch128-001",
+      "chapterIndex": 128,
+      "chunkIndex": 1,
+      "title": "OBSERVACIONES:",
+      "words": 165
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch129-000",
+      "chapterIndex": 129,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 28
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 5
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch130-000",
+      "chapterIndex": 130,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 8
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch131-000",
+      "chapterIndex": 131,
+      "chunkIndex": 0,
+      "title": "12. Procedimientos simples",
+      "words": 137
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch132-000",
+      "chapterIndex": 132,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 18
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch133-000",
+      "chapterIndex": 133,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 358
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch134-000",
+      "chapterIndex": 134,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 15
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch135-000",
+      "chapterIndex": 135,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch135-001",
+      "chapterIndex": 135,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES:",
+      "words": 211
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch136-000",
+      "chapterIndex": 136,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 206
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch137-000",
+      "chapterIndex": 137,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 14
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch138-000",
+      "chapterIndex": 138,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 253
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch139-000",
+      "chapterIndex": 139,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch139-001",
+      "chapterIndex": 139,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch139-002",
+      "chapterIndex": 139,
+      "chunkIndex": 2,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch139-003",
+      "chapterIndex": 139,
+      "chunkIndex": 3,
+      "title": "PRECONDICIONES:",
+      "words": 287
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 3
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch140-000",
+      "chapterIndex": 140,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 27
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch141-000",
+      "chapterIndex": 141,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 9
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch142-000",
+      "chapterIndex": 142,
+      "chunkIndex": 0,
+      "title": "13. Invocaci ´on de procedimientos simples",
+      "words": 418
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch143-000",
+      "chapterIndex": 143,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 413
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch144-000",
+      "chapterIndex": 144,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch144-001",
+      "chapterIndex": 144,
+      "chunkIndex": 1,
+      "title": "OBSERVACIONES:",
+      "words": 229
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch145-000",
+      "chapterIndex": 145,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch146-000",
+      "chapterIndex": 146,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 14
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch147-000",
+      "chapterIndex": 147,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 20
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch148-000",
+      "chapterIndex": 148,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 26
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch149-000",
+      "chapterIndex": 149,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 15
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 4
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch150-000",
+      "chapterIndex": 150,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 118
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch151-000",
+      "chapterIndex": 151,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch152-000",
+      "chapterIndex": 152,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch153-000",
+      "chapterIndex": 153,
+      "chunkIndex": 0,
+      "title": "14. Divisi ´on en subtareas",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch154-000",
+      "chapterIndex": 154,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 144
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch155-000",
+      "chapterIndex": 155,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 17
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch156-000",
+      "chapterIndex": 156,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 335
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch157-000",
+      "chapterIndex": 157,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch158-000",
+      "chapterIndex": 158,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch158-001",
+      "chapterIndex": 158,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES:",
+      "words": 323
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch159-000",
+      "chapterIndex": 159,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 15
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 5
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch160-000",
+      "chapterIndex": 160,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch160-001",
+      "chapterIndex": 160,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES:",
+      "words": 417
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch161-000",
+      "chapterIndex": 161,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 25
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch162-000",
+      "chapterIndex": 162,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 430
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch163-000",
+      "chapterIndex": 163,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 17
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch164-000",
+      "chapterIndex": 164,
+      "chunkIndex": 0,
+      "title": "15. Biblioteca de operaciones",
+      "words": 199
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch165-000",
+      "chapterIndex": 165,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "words": 20
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch166-000",
+      "chapterIndex": 166,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "words": 8
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch167-000",
+      "chapterIndex": 167,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch167-001",
+      "chapterIndex": 167,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "words": 142
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch168-000",
+      "chapterIndex": 168,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "words": 22
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch169-000",
+      "chapterIndex": 169,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "words": 9
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 3
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch170-000",
+      "chapterIndex": 170,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch170-001",
+      "chapterIndex": 170,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch170-002",
+      "chapterIndex": 170,
+      "chunkIndex": 2,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch170-003",
+      "chapterIndex": 170,
+      "chunkIndex": 3,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch170-004",
+      "chapterIndex": 170,
+      "chunkIndex": 4,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "words": 190
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch171-000",
+      "chapterIndex": 171,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 107
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch172-000",
+      "chapterIndex": 172,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 70
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch173-000",
+      "chapterIndex": 173,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch173-001",
+      "chapterIndex": 173,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch173-002",
+      "chapterIndex": 173,
+      "chunkIndex": 2,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch173-003",
+      "chapterIndex": 173,
+      "chunkIndex": 3,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch173-004",
+      "chapterIndex": 173,
+      "chunkIndex": 4,
+      "title": "PRECONDICIONES:",
+      "words": 452
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch174-000",
+      "chapterIndex": 174,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch175-000",
+      "chapterIndex": 175,
+      "chunkIndex": 0,
+      "title": "16. Elementos de estilo",
+      "words": 316
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch176-000",
+      "chapterIndex": 176,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 272
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch177-000",
+      "chapterIndex": 177,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 168
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch178-000",
+      "chapterIndex": 178,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch179-000",
+      "chapterIndex": 179,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 254
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "parte 2: , vemos que la misma tiene como precondici ´on que haya tantas celdas en",
+      "words": 6
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch180-000",
+      "chapterIndex": 180,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 84
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch181-000",
+      "chapterIndex": 181,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 16
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch182-000",
+      "chapterIndex": 182,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch182-001",
+      "chapterIndex": 182,
+      "chunkIndex": 1,
+      "title": "OBSERVACIONES:",
+      "words": 194
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch183-000",
+      "chapterIndex": 183,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 16
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch184-000",
+      "chapterIndex": 184,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 48
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch185-000",
+      "chapterIndex": 185,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 115
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch186-000",
+      "chapterIndex": 186,
+      "chunkIndex": 0,
+      "title": "17. Indentaci ´on",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch187-000",
+      "chapterIndex": 187,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 175
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch188-000",
+      "chapterIndex": 188,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 20
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch189-000",
+      "chapterIndex": 189,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 23
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 5
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch190-000",
+      "chapterIndex": 190,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 451
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch191-000",
+      "chapterIndex": 191,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 228
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch192-000",
+      "chapterIndex": 192,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 11
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch193-000",
+      "chapterIndex": 193,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 20
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch194-000",
+      "chapterIndex": 194,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 255
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch195-000",
+      "chapterIndex": 195,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 13
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch196-000",
+      "chapterIndex": 196,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 32
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch197-000",
+      "chapterIndex": 197,
+      "chunkIndex": 0,
+      "title": "18. Elecci ´on de nombres",
+      "words": 406
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch198-000",
+      "chapterIndex": 198,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 32
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch199-000",
+      "chapterIndex": 199,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 206
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 9
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch200-000",
+      "chapterIndex": 200,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 26
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch201-000",
+      "chapterIndex": 201,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 348
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch202-000",
+      "chapterIndex": 202,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 11
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch203-000",
+      "chapterIndex": 203,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch204-000",
+      "chapterIndex": 204,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 30
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch205-000",
+      "chapterIndex": 205,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch206-000",
+      "chapterIndex": 206,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 26
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch207-000",
+      "chapterIndex": 207,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 31
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch208-000",
+      "chapterIndex": 208,
+      "chunkIndex": 0,
+      "title": "19. Comentarios",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch209-000",
+      "chapterIndex": 209,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 92
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "2. Programas",
+      "words": 4
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch210-000",
+      "chapterIndex": 210,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 18
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch211-000",
+      "chapterIndex": 211,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch212-000",
+      "chapterIndex": 212,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch212-001",
+      "chapterIndex": 212,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES:",
+      "words": 74
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch213-000",
+      "chapterIndex": 213,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 18
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch214-000",
+      "chapterIndex": 214,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch214-001",
+      "chapterIndex": 214,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES:",
+      "words": 333
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch215-000",
+      "chapterIndex": 215,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 14
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch216-000",
+      "chapterIndex": 216,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 85
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch217-000",
+      "chapterIndex": 217,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 14
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch218-000",
+      "chapterIndex": 218,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 303
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch219-000",
+      "chapterIndex": 219,
+      "chunkIndex": 0,
+      "title": "20. Elementos de “contrato”",
+      "words": 9
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch220-000",
+      "chapterIndex": 220,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch221-000",
+      "chapterIndex": 221,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 135
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch222-000",
+      "chapterIndex": 222,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 9
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch223-000",
+      "chapterIndex": 223,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch224-000",
+      "chapterIndex": 224,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 308
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch225-000",
+      "chapterIndex": 225,
+      "chunkIndex": 0,
+      "title": "K BACKSPACE; y",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch225-001",
+      "chapterIndex": 225,
+      "chunkIndex": 1,
+      "title": "K BACKSPACE; y",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch225-002",
+      "chapterIndex": 225,
+      "chunkIndex": 2,
+      "title": "K BACKSPACE; y",
+      "words": 156
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch226-000",
+      "chapterIndex": 226,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 16
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch227-000",
+      "chapterIndex": 227,
+      "chunkIndex": 0,
+      "title": "K_B, K_ESCAPE, K_DELETE, K_BACKSPACE",
+      "words": 124
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch228-000",
+      "chapterIndex": 228,
+      "chunkIndex": 0,
+      "title": "K_J, K_ARROW_LEFT",
+      "words": 58
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch229-000",
+      "chapterIndex": 229,
+      "chunkIndex": 0,
+      "title": "K_L, K_ARROW_RIGHT",
+      "words": 170
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 6
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch230-000",
+      "chapterIndex": 230,
+      "chunkIndex": 0,
+      "title": "21. Prop ´osito de una operaci ´on",
+      "words": 13
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch231-000",
+      "chapterIndex": 231,
+      "chunkIndex": 0,
+      "title": "K_K, K_ARROW_DOWN",
+      "words": 185
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch232-000",
+      "chapterIndex": 232,
+      "chunkIndex": 0,
+      "title": "K_I, K_ARROW_UP",
+      "words": 13
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch233-000",
+      "chapterIndex": 233,
+      "chunkIndex": 0,
+      "title": "K_D, K_ENTER",
+      "words": 266
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch234-000",
+      "chapterIndex": 234,
+      "chunkIndex": 0,
+      "title": "K_A, K_SPACE",
+      "words": 32
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch235-000",
+      "chapterIndex": 235,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 307
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch236-000",
+      "chapterIndex": 236,
+      "chunkIndex": 0,
+      "title": "(1-Z,2-I,3-L,4-F,5-O,6-S,7-T)",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch237-000",
+      "chapterIndex": 237,
+      "chunkIndex": 0,
+      "title": "/*=SECCI´ON 1=======================================*",
+      "words": 246
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch238-000",
+      "chapterIndex": 238,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 30
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch239-000",
+      "chapterIndex": 239,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 120
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "SUPOSICION:",
+      "words": 5
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch240-000",
+      "chapterIndex": 240,
+      "chunkIndex": 0,
+      "title": "K_B, K_ESCAPE, K_DELETE, K_BACKSPACE",
+      "words": 57
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch241-000",
+      "chapterIndex": 241,
+      "chunkIndex": 0,
+      "title": "22. Precondiciones de una operaci ´on",
+      "words": 76
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch242-000",
+      "chapterIndex": 242,
+      "chunkIndex": 0,
+      "title": "K_J, K_ARROW_LEFT",
+      "words": 28
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch243-000",
+      "chapterIndex": 243,
+      "chunkIndex": 0,
+      "title": "K_L, K_ARROW_RIGHT",
+      "words": 34
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch244-000",
+      "chapterIndex": 244,
+      "chunkIndex": 0,
+      "title": "K_K, K_ARROW_DOWN",
+      "words": 52
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch245-000",
+      "chapterIndex": 245,
+      "chunkIndex": 0,
+      "title": "K_I, K_ARROW_UP",
+      "words": 195
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch246-000",
+      "chapterIndex": 246,
+      "chunkIndex": 0,
+      "title": "K_D, K_ENTER",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch247-000",
+      "chapterIndex": 247,
+      "chunkIndex": 0,
+      "title": "K_A, K_SPACE",
+      "words": 238
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch248-000",
+      "chapterIndex": 248,
+      "chunkIndex": 0,
+      "title": "/*=SECCI´ON 2=======================================*",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch249-000",
+      "chapterIndex": 249,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 236
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 5
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch250-000",
+      "chapterIndex": 250,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 13
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch251-000",
+      "chapterIndex": 251,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 232
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch252-000",
+      "chapterIndex": 252,
+      "chunkIndex": 0,
+      "title": "1. Par ´ametros",
+      "words": 13
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch253-000",
+      "chapterIndex": 253,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 339
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch254-000",
+      "chapterIndex": 254,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 31
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch255-000",
+      "chapterIndex": 255,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 344
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch256-000",
+      "chapterIndex": 256,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 198
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch257-000",
+      "chapterIndex": 257,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 349
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch258-000",
+      "chapterIndex": 258,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 187
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch259-000",
+      "chapterIndex": 259,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 104
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 4
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch260-000",
+      "chapterIndex": 260,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 18
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch261-000",
+      "chapterIndex": 261,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 55
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch262-000",
+      "chapterIndex": 262,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 94
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch263-000",
+      "chapterIndex": 263,
+      "chunkIndex": 0,
+      "title": "2. Procedimientos con par ´ametros",
+      "words": 321
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch264-000",
+      "chapterIndex": 264,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 372
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch265-000",
+      "chapterIndex": 265,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 429
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch266-000",
+      "chapterIndex": 266,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 295
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch267-000",
+      "chapterIndex": 267,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 131
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch268-000",
+      "chapterIndex": 268,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch269-000",
+      "chapterIndex": 269,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 231
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 6
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch270-000",
+      "chapterIndex": 270,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 24
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch271-000",
+      "chapterIndex": 271,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch272-000",
+      "chapterIndex": 272,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 71
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch273-000",
+      "chapterIndex": 273,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 27
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch274-000",
+      "chapterIndex": 274,
+      "chunkIndex": 0,
+      "title": "3. Invocaci ´on de procedimientos con argumentos",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch275-000",
+      "chapterIndex": 275,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 143
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch276-000",
+      "chapterIndex": 276,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 11
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch277-000",
+      "chapterIndex": 277,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch278-000",
+      "chapterIndex": 278,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 235
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch279-000",
+      "chapterIndex": 279,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 21
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 3
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch280-000",
+      "chapterIndex": 280,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch281-000",
+      "chapterIndex": 281,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 160
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch282-000",
+      "chapterIndex": 282,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch283-000",
+      "chapterIndex": 283,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 11
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch284-000",
+      "chapterIndex": 284,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 389
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch285-000",
+      "chapterIndex": 285,
+      "chunkIndex": 0,
+      "title": "4. Uso de par ´ametros",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch285-001",
+      "chapterIndex": 285,
+      "chunkIndex": 1,
+      "title": "4. Uso de par ´ametros",
+      "words": 340
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch286-000",
+      "chapterIndex": 286,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 100
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch287-000",
+      "chapterIndex": 287,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch287-001",
+      "chapterIndex": 287,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES:",
+      "words": 70
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch288-000",
+      "chapterIndex": 288,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch288-001",
+      "chapterIndex": 288,
+      "chunkIndex": 1,
+      "title": "OBSERVACIONES:",
+      "words": 136
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch289-000",
+      "chapterIndex": 289,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 241
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 5
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch290-000",
+      "chapterIndex": 290,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 193
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch291-000",
+      "chapterIndex": 291,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 20
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch292-000",
+      "chapterIndex": 292,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 168
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch293-000",
+      "chapterIndex": 293,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 484
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch294-000",
+      "chapterIndex": 294,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch294-001",
+      "chapterIndex": 294,
+      "chunkIndex": 1,
+      "title": "PROP´OSITO:",
+      "words": 171
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch295-000",
+      "chapterIndex": 295,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 197
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch296-000",
+      "chapterIndex": 296,
+      "chunkIndex": 0,
+      "title": "5. Requisitos a los par ´ametros",
+      "words": 17
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch297-000",
+      "chapterIndex": 297,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 59
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch298-000",
+      "chapterIndex": 298,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 23
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch299-000",
+      "chapterIndex": 299,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 8
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch300-000",
+      "chapterIndex": 300,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch301-000",
+      "chapterIndex": 301,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch302-000",
+      "chapterIndex": 302,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-000",
+      "chapterIndex": 303,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-001",
+      "chapterIndex": 303,
+      "chunkIndex": 1,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-002",
+      "chapterIndex": 303,
+      "chunkIndex": 2,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-003",
+      "chapterIndex": 303,
+      "chunkIndex": 3,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-004",
+      "chapterIndex": 303,
+      "chunkIndex": 4,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-005",
+      "chapterIndex": 303,
+      "chunkIndex": 5,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-006",
+      "chapterIndex": 303,
+      "chunkIndex": 6,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-007",
+      "chapterIndex": 303,
+      "chunkIndex": 7,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-008",
+      "chapterIndex": 303,
+      "chunkIndex": 8,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-009",
+      "chapterIndex": 303,
+      "chunkIndex": 9,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-010",
+      "chapterIndex": 303,
+      "chunkIndex": 10,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-011",
+      "chapterIndex": 303,
+      "chunkIndex": 11,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-012",
+      "chapterIndex": 303,
+      "chunkIndex": 12,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-013",
+      "chapterIndex": 303,
+      "chunkIndex": 13,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-014",
+      "chapterIndex": 303,
+      "chunkIndex": 14,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-015",
+      "chapterIndex": 303,
+      "chunkIndex": 15,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-016",
+      "chapterIndex": 303,
+      "chunkIndex": 16,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-017",
+      "chapterIndex": 303,
+      "chunkIndex": 17,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-018",
+      "chapterIndex": 303,
+      "chunkIndex": 18,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-019",
+      "chapterIndex": 303,
+      "chunkIndex": 19,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-020",
+      "chapterIndex": 303,
+      "chunkIndex": 20,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-021",
+      "chapterIndex": 303,
+      "chunkIndex": 21,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-022",
+      "chapterIndex": 303,
+      "chunkIndex": 22,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch303-023",
+      "chapterIndex": 303,
+      "chunkIndex": 23,
+      "title": "PROP´OSITO:",
+      "words": 62
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch304-000",
+      "chapterIndex": 304,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch304-001",
+      "chapterIndex": 304,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES:",
+      "words": 136
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch305-000",
+      "chapterIndex": 305,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 122
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch306-000",
+      "chapterIndex": 306,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 16
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch307-000",
+      "chapterIndex": 307,
+      "chunkIndex": 0,
+      "title": "6. Repetici ´on simple",
+      "words": 38
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch308-000",
+      "chapterIndex": 308,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 17
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch309-000",
+      "chapterIndex": 309,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 59
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 9
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch310-000",
+      "chapterIndex": 310,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch311-000",
+      "chapterIndex": 311,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch312-000",
+      "chapterIndex": 312,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch313-000",
+      "chapterIndex": 313,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch314-000",
+      "chapterIndex": 314,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch315-000",
+      "chapterIndex": 315,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 20
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch316-000",
+      "chapterIndex": 316,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 196
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch317-000",
+      "chapterIndex": 317,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch318-000",
+      "chapterIndex": 318,
+      "chunkIndex": 0,
+      "title": "7. Repetici ´on indexada",
+      "words": 56
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch319-000",
+      "chapterIndex": 319,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 61
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "3. Comandos",
+      "words": 4
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch320-000",
+      "chapterIndex": 320,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 33
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch321-000",
+      "chapterIndex": 321,
+      "chunkIndex": 0,
+      "title": "/*=SECCI´ON 3=======================================*",
+      "words": 58
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch322-000",
+      "chapterIndex": 322,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 65
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch323-000",
+      "chapterIndex": 323,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 37
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch324-000",
+      "chapterIndex": 324,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 142
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch325-000",
+      "chapterIndex": 325,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 35
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch326-000",
+      "chapterIndex": 326,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 16
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch327-000",
+      "chapterIndex": 327,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 210
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch328-000",
+      "chapterIndex": 328,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 16
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch329-000",
+      "chapterIndex": 329,
+      "chunkIndex": 0,
+      "title": "9. Uso de ´ındices",
+      "words": 48
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 6
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch330-000",
+      "chapterIndex": 330,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 37
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch331-000",
+      "chapterIndex": 331,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch332-000",
+      "chapterIndex": 332,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 53
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch333-000",
+      "chapterIndex": 333,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 20
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch334-000",
+      "chapterIndex": 334,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 23
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch335-000",
+      "chapterIndex": 335,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 121
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch336-000",
+      "chapterIndex": 336,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 11
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch337-000",
+      "chapterIndex": 337,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 26
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch338-000",
+      "chapterIndex": 338,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 29
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch339-000",
+      "chapterIndex": 339,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 8
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch340-000",
+      "chapterIndex": 340,
+      "chunkIndex": 0,
+      "title": "10. Tipos de datos",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch341-000",
+      "chapterIndex": 341,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 34
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch342-000",
+      "chapterIndex": 342,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 47
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch343-000",
+      "chapterIndex": 343,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 11
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch344-000",
+      "chapterIndex": 344,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 42
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch345-000",
+      "chapterIndex": 345,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 11
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch346-000",
+      "chapterIndex": 346,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 36
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch347-000",
+      "chapterIndex": 347,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 28
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch348-000",
+      "chapterIndex": 348,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 13
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch349-000",
+      "chapterIndex": 349,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 32
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 6
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch350-000",
+      "chapterIndex": 350,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 101
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch351-000",
+      "chapterIndex": 351,
+      "chunkIndex": 0,
+      "title": "11. Utilidad de los tipos",
+      "words": 32
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch352-000",
+      "chapterIndex": 352,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 92
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch353-000",
+      "chapterIndex": 353,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 26
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch354-000",
+      "chapterIndex": 354,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 125
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch355-000",
+      "chapterIndex": 355,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 11
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch356-000",
+      "chapterIndex": 356,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch357-000",
+      "chapterIndex": 357,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 31
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch358-000",
+      "chapterIndex": 358,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch359-000",
+      "chapterIndex": 359,
+      "chunkIndex": 0,
+      "title": "/*=SECCI´ON 4=======================================*",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "OBSERVACI´ON:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch360-000",
+      "chapterIndex": 360,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 32
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch361-000",
+      "chapterIndex": 361,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch362-000",
+      "chapterIndex": 362,
+      "chunkIndex": 0,
+      "title": "12. Operaciones primitivas de expresiones (por tipo)",
+      "words": 29
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch363-000",
+      "chapterIndex": 363,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 18
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch364-000",
+      "chapterIndex": 364,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch365-000",
+      "chapterIndex": 365,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 41
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch366-000",
+      "chapterIndex": 366,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 17
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch367-000",
+      "chapterIndex": 367,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch368-000",
+      "chapterIndex": 368,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 33
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch369-000",
+      "chapterIndex": 369,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 29
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 21
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch370-000",
+      "chapterIndex": 370,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch371-000",
+      "chapterIndex": 371,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch372-000",
+      "chapterIndex": 372,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 22
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch373-000",
+      "chapterIndex": 373,
+      "chunkIndex": 0,
+      "title": "13. Alternativa condicional",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch374-000",
+      "chapterIndex": 374,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch375-000",
+      "chapterIndex": 375,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 39
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch376-000",
+      "chapterIndex": 376,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch377-000",
+      "chapterIndex": 377,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch378-000",
+      "chapterIndex": 378,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 54
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch379-000",
+      "chapterIndex": 379,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 22
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch380-000",
+      "chapterIndex": 380,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 29
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch381-000",
+      "chapterIndex": 381,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 28
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch382-000",
+      "chapterIndex": 382,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 315
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch383-000",
+      "chapterIndex": 383,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 34
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch384-000",
+      "chapterIndex": 384,
+      "chunkIndex": 0,
+      "title": "14. Funciones simples",
+      "words": 219
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch385-000",
+      "chapterIndex": 385,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 14
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch386-000",
+      "chapterIndex": 386,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 101
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch387-000",
+      "chapterIndex": 387,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 14
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch388-000",
+      "chapterIndex": 388,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 43
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch389-000",
+      "chapterIndex": 389,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "OBSERVACI´ON:",
+      "words": 5
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch390-000",
+      "chapterIndex": 390,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 51
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch391-000",
+      "chapterIndex": 391,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch392-000",
+      "chapterIndex": 392,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 69
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch393-000",
+      "chapterIndex": 393,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch394-000",
+      "chapterIndex": 394,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 52
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch395-000",
+      "chapterIndex": 395,
+      "chunkIndex": 0,
+      "title": "15. Invocaci ´on de funciones simples",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch396-000",
+      "chapterIndex": 396,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 52
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch397-000",
+      "chapterIndex": 397,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch398-000",
+      "chapterIndex": 398,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 67
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch399-000",
+      "chapterIndex": 399,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 5
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch400-000",
+      "chapterIndex": 400,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 51
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch401-000",
+      "chapterIndex": 401,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch402-000",
+      "chapterIndex": 402,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 95
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch403-000",
+      "chapterIndex": 403,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 309
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch404-000",
+      "chapterIndex": 404,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 29
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch405-000",
+      "chapterIndex": 405,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 29
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch406-000",
+      "chapterIndex": 406,
+      "chunkIndex": 0,
+      "title": "16. Funciones con par ´ametros",
+      "words": 63
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch407-000",
+      "chapterIndex": 407,
+      "chunkIndex": 0,
+      "title": "/*=SECCI´ON 5=======================================*",
+      "words": 16
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch408-000",
+      "chapterIndex": 408,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 65
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch409-000",
+      "chapterIndex": 409,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 51
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 6
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch410-000",
+      "chapterIndex": 410,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 65
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch411-000",
+      "chapterIndex": 411,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 13
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch412-000",
+      "chapterIndex": 412,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 43
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch413-000",
+      "chapterIndex": 413,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 13
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch414-000",
+      "chapterIndex": 414,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 45
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch415-000",
+      "chapterIndex": 415,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 32
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch416-000",
+      "chapterIndex": 416,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 73
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch417-000",
+      "chapterIndex": 417,
+      "chunkIndex": 0,
+      "title": "17. Invocaci ´on de funciones con argumentos",
+      "words": 70
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch418-000",
+      "chapterIndex": 418,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch419-000",
+      "chapterIndex": 419,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 118
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 8
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch420-000",
+      "chapterIndex": 420,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 30
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch421-000",
+      "chapterIndex": 421,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 85
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch422-000",
+      "chapterIndex": 422,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 39
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch423-000",
+      "chapterIndex": 423,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 37
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch424-000",
+      "chapterIndex": 424,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 55
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch425-000",
+      "chapterIndex": 425,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 32
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch426-000",
+      "chapterIndex": 426,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 17
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch427-000",
+      "chapterIndex": 427,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 31
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch428-000",
+      "chapterIndex": 428,
+      "chunkIndex": 0,
+      "title": "18. Funciones con procesamiento",
+      "words": 29
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch429-000",
+      "chapterIndex": 429,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 63
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "4. Comandos primitivos (Poner)",
+      "words": 4
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch430-000",
+      "chapterIndex": 430,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 21
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch431-000",
+      "chapterIndex": 431,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 55
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch432-000",
+      "chapterIndex": 432,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 20
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch433-000",
+      "chapterIndex": 433,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 76
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch434-000",
+      "chapterIndex": 434,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch435-000",
+      "chapterIndex": 435,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 47
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch436-000",
+      "chapterIndex": 436,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 18
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch437-000",
+      "chapterIndex": 437,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 68
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch438-000",
+      "chapterIndex": 438,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 37
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch439-000",
+      "chapterIndex": 439,
+      "chunkIndex": 0,
+      "title": "1. Alternativa indexada",
+      "words": 37
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 4
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch440-000",
+      "chapterIndex": 440,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 53
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch441-000",
+      "chapterIndex": 441,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 32
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch442-000",
+      "chapterIndex": 442,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch443-000",
+      "chapterIndex": 443,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 31
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch444-000",
+      "chapterIndex": 444,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 30
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch445-000",
+      "chapterIndex": 445,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 37
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch446-000",
+      "chapterIndex": 446,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 15
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch447-000",
+      "chapterIndex": 447,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 55
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch448-000",
+      "chapterIndex": 448,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 17
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch449-000",
+      "chapterIndex": 449,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 71
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "OBSERVACI´ON:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch450-000",
+      "chapterIndex": 450,
+      "chunkIndex": 0,
+      "title": "2. Repetici ´on condicional",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch451-000",
+      "chapterIndex": 451,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 111
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch452-000",
+      "chapterIndex": 452,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 13
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch453-000",
+      "chapterIndex": 453,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 109
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch454-000",
+      "chapterIndex": 454,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch455-000",
+      "chapterIndex": 455,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 51
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch456-000",
+      "chapterIndex": 456,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch457-000",
+      "chapterIndex": 457,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 80
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch458-000",
+      "chapterIndex": 458,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 13
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch459-000",
+      "chapterIndex": 459,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 67
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 6
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch460-000",
+      "chapterIndex": 460,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 76
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch461-000",
+      "chapterIndex": 461,
+      "chunkIndex": 0,
+      "title": "3. Esquemas de recorrido",
+      "words": 31
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch462-000",
+      "chapterIndex": 462,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 164
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch463-000",
+      "chapterIndex": 463,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 42
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch464-000",
+      "chapterIndex": 464,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 161
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch465-000",
+      "chapterIndex": 465,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 105
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch466-000",
+      "chapterIndex": 466,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 53
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch467-000",
+      "chapterIndex": 467,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 18
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch468-000",
+      "chapterIndex": 468,
+      "chunkIndex": 0,
+      "title": "/*=SECCI´ON 6=======================================*",
+      "words": 34
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch469-000",
+      "chapterIndex": 469,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 75
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 8
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch470-000",
+      "chapterIndex": 470,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 145
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch471-000",
+      "chapterIndex": 471,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 112
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch472-000",
+      "chapterIndex": 472,
+      "chunkIndex": 0,
+      "title": "4. Variables",
+      "words": 76
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch473-000",
+      "chapterIndex": 473,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 228
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch474-000",
+      "chapterIndex": 474,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 60
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch475-000",
+      "chapterIndex": 475,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 27
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch476-000",
+      "chapterIndex": 476,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 78
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch477-000",
+      "chapterIndex": 477,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 37
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch478-000",
+      "chapterIndex": 478,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch479-000",
+      "chapterIndex": 479,
+      "chunkIndex": 0,
+      "title": "5. Asignaci ´on",
+      "words": 68
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch480-000",
+      "chapterIndex": 480,
+      "chunkIndex": 0,
+      "title": "6. Uso de variables",
+      "words": 31
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch481-000",
+      "chapterIndex": 481,
+      "chunkIndex": 0,
+      "title": "1957. Realiz ´o nu-",
+      "words": 53
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch482-000",
+      "chapterIndex": 482,
+      "chunkIndex": 0,
+      "title": "2007. Gan ´o diver-",
+      "words": 31
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch483-000",
+      "chapterIndex": 483,
+      "chunkIndex": 0,
+      "title": "3. Dibujar",
+      "words": 40
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch484-000",
+      "chapterIndex": 484,
+      "chunkIndex": 0,
+      "title": "5. UnIdentificadorMasEntendible",
+      "words": 31
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch485-000",
+      "chapterIndex": 485,
+      "chunkIndex": 0,
+      "title": "6. UnIdentificadorTanLargoQueNoValeLaPenaNiPensarEnEscribirlo",
+      "words": 7
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch486-000",
+      "chapterIndex": 486,
+      "chunkIndex": 0,
+      "title": "7. DibujarCuadradoNegroDeLado3",
+      "words": 52
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch487-000",
+      "chapterIndex": 487,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 15
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch488-000",
+      "chapterIndex": 488,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 37
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch489-000",
+      "chapterIndex": 489,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 18
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 4
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch490-000",
+      "chapterIndex": 490,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 55
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch491-000",
+      "chapterIndex": 491,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 24
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch492-000",
+      "chapterIndex": 492,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch493-000",
+      "chapterIndex": 493,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 56
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch494-000",
+      "chapterIndex": 494,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 27
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch495-000",
+      "chapterIndex": 495,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch496-000",
+      "chapterIndex": 496,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 41
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch497-000",
+      "chapterIndex": 497,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 11
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch498-000",
+      "chapterIndex": 498,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch499-000",
+      "chapterIndex": 499,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 63
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 5
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch500-000",
+      "chapterIndex": 500,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 21
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch501-000",
+      "chapterIndex": 501,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch502-000",
+      "chapterIndex": 502,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 101
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch503-000",
+      "chapterIndex": 503,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 24
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch504-000",
+      "chapterIndex": 504,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 11
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch505-000",
+      "chapterIndex": 505,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 65
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch506-000",
+      "chapterIndex": 506,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch507-000",
+      "chapterIndex": 507,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 11
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch508-000",
+      "chapterIndex": 508,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 122
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch509-000",
+      "chapterIndex": 509,
+      "chunkIndex": 0,
+      "title": "1. PonerN que deposite cant bolitas de color color en la celda actual, supo-",
+      "words": 13
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 5
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch510-000",
+      "chapterIndex": 510,
+      "chunkIndex": 0,
+      "title": "2. MoverN que se mueva cant celdas en la direcci ´on dir desde la celda actual,",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch511-000",
+      "chapterIndex": 511,
+      "chunkIndex": 0,
+      "title": "3. SacarN que quite cant bolitas de color color de la celda actual, suponiendo",
+      "words": 46
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch512-000",
+      "chapterIndex": 512,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 38
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch513-000",
+      "chapterIndex": 513,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 65
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch514-000",
+      "chapterIndex": 514,
+      "chunkIndex": 0,
+      "title": "OBSERVACI´ON:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch515-000",
+      "chapterIndex": 515,
+      "chunkIndex": 0,
+      "title": "parte 3: , y combinarlo con alguna de las expresiones reci ´en presentadas.",
+      "words": 45
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch516-000",
+      "chapterIndex": 516,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 79
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch517-000",
+      "chapterIndex": 517,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 79
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch518-000",
+      "chapterIndex": 518,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 45
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch519-000",
+      "chapterIndex": 519,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 49
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 3
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch520-000",
+      "chapterIndex": 520,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 33
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch521-000",
+      "chapterIndex": 521,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 20
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch522-000",
+      "chapterIndex": 522,
+      "chunkIndex": 0,
+      "title": "OBSERVACI´ON:",
+      "words": 65
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch523-000",
+      "chapterIndex": 523,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 469
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch524-000",
+      "chapterIndex": 524,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 84
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch525-000",
+      "chapterIndex": 525,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch525-001",
+      "chapterIndex": 525,
+      "chunkIndex": 1,
+      "title": "PROP´OSITO:",
+      "words": 188
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 4
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "5. Expresiones",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch054-001",
+      "chapterIndex": 54,
+      "chunkIndex": 1,
+      "title": "5. Expresiones",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch054-002",
+      "chapterIndex": 54,
+      "chunkIndex": 2,
+      "title": "5. Expresiones",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch054-003",
+      "chapterIndex": 54,
+      "chunkIndex": 3,
+      "title": "5. Expresiones",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch054-004",
+      "chapterIndex": 54,
+      "chunkIndex": 4,
+      "title": "5. Expresiones",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch054-005",
+      "chapterIndex": 54,
+      "chunkIndex": 5,
+      "title": "5. Expresiones",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch054-006",
+      "chapterIndex": 54,
+      "chunkIndex": 6,
+      "title": "5. Expresiones",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch054-007",
+      "chapterIndex": 54,
+      "chunkIndex": 7,
+      "title": "5. Expresiones",
+      "words": 348
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch055-001",
+      "chapterIndex": 55,
+      "chunkIndex": 1,
+      "title": "{- PROP´OSITO:",
+      "words": 479
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-001",
+      "chapterIndex": 56,
+      "chunkIndex": 1,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-002",
+      "chapterIndex": 56,
+      "chunkIndex": 2,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-003",
+      "chapterIndex": 56,
+      "chunkIndex": 3,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-004",
+      "chapterIndex": 56,
+      "chunkIndex": 4,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-005",
+      "chapterIndex": 56,
+      "chunkIndex": 5,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-006",
+      "chapterIndex": 56,
+      "chunkIndex": 6,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-007",
+      "chapterIndex": 56,
+      "chunkIndex": 7,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-008",
+      "chapterIndex": 56,
+      "chunkIndex": 8,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-009",
+      "chapterIndex": 56,
+      "chunkIndex": 9,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-010",
+      "chapterIndex": 56,
+      "chunkIndex": 10,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-011",
+      "chapterIndex": 56,
+      "chunkIndex": 11,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-012",
+      "chapterIndex": 56,
+      "chunkIndex": 12,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-013",
+      "chapterIndex": 56,
+      "chunkIndex": 13,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-014",
+      "chapterIndex": 56,
+      "chunkIndex": 14,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-015",
+      "chapterIndex": 56,
+      "chunkIndex": 15,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-016",
+      "chapterIndex": 56,
+      "chunkIndex": 16,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-017",
+      "chapterIndex": 56,
+      "chunkIndex": 17,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-018",
+      "chapterIndex": 56,
+      "chunkIndex": 18,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-019",
+      "chapterIndex": 56,
+      "chunkIndex": 19,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-020",
+      "chapterIndex": 56,
+      "chunkIndex": 20,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-021",
+      "chapterIndex": 56,
+      "chunkIndex": 21,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-022",
+      "chapterIndex": 56,
+      "chunkIndex": 22,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-023",
+      "chapterIndex": 56,
+      "chunkIndex": 23,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-024",
+      "chapterIndex": 56,
+      "chunkIndex": 24,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-025",
+      "chapterIndex": 56,
+      "chunkIndex": 25,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-026",
+      "chapterIndex": 56,
+      "chunkIndex": 26,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-027",
+      "chapterIndex": 56,
+      "chunkIndex": 27,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-028",
+      "chapterIndex": 56,
+      "chunkIndex": 28,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-029",
+      "chapterIndex": 56,
+      "chunkIndex": 29,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-030",
+      "chapterIndex": 56,
+      "chunkIndex": 30,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-031",
+      "chapterIndex": 56,
+      "chunkIndex": 31,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-032",
+      "chapterIndex": 56,
+      "chunkIndex": 32,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-033",
+      "chapterIndex": 56,
+      "chunkIndex": 33,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-034",
+      "chapterIndex": 56,
+      "chunkIndex": 34,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-035",
+      "chapterIndex": 56,
+      "chunkIndex": 35,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch056-036",
+      "chapterIndex": 56,
+      "chunkIndex": 36,
+      "title": "PRECONDICI´ON:",
+      "words": 233
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch057-000",
+      "chapterIndex": 57,
+      "chunkIndex": 0,
+      "title": "SUPOSICI´ON:",
+      "words": 5
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch058-000",
+      "chapterIndex": 58,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch059-000",
+      "chapterIndex": 59,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 3
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-000",
+      "chapterIndex": 60,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-001",
+      "chapterIndex": 60,
+      "chunkIndex": 1,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-002",
+      "chapterIndex": 60,
+      "chunkIndex": 2,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-003",
+      "chapterIndex": 60,
+      "chunkIndex": 3,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-004",
+      "chapterIndex": 60,
+      "chunkIndex": 4,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-005",
+      "chapterIndex": 60,
+      "chunkIndex": 5,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-006",
+      "chapterIndex": 60,
+      "chunkIndex": 6,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-007",
+      "chapterIndex": 60,
+      "chunkIndex": 7,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-008",
+      "chapterIndex": 60,
+      "chunkIndex": 8,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-009",
+      "chapterIndex": 60,
+      "chunkIndex": 9,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-010",
+      "chapterIndex": 60,
+      "chunkIndex": 10,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-011",
+      "chapterIndex": 60,
+      "chunkIndex": 11,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-012",
+      "chapterIndex": 60,
+      "chunkIndex": 12,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-013",
+      "chapterIndex": 60,
+      "chunkIndex": 13,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-014",
+      "chapterIndex": 60,
+      "chunkIndex": 14,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-015",
+      "chapterIndex": 60,
+      "chunkIndex": 15,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch060-016",
+      "chapterIndex": 60,
+      "chunkIndex": 16,
+      "title": "{- PROP´OSITO:",
+      "words": 78
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch061-000",
+      "chapterIndex": 61,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 32
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch062-000",
+      "chapterIndex": 62,
+      "chunkIndex": 0,
+      "title": "OBSERVACI´ON:",
+      "words": 263
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch063-000",
+      "chapterIndex": 63,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 16
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch064-000",
+      "chapterIndex": 64,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch064-001",
+      "chapterIndex": 64,
+      "chunkIndex": 1,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch064-002",
+      "chapterIndex": 64,
+      "chunkIndex": 2,
+      "title": "PRECONDICI´ON:",
+      "words": 128
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch065-000",
+      "chapterIndex": 65,
+      "chunkIndex": 0,
+      "title": "6. Expresiones literales",
+      "words": 45
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch066-000",
+      "chapterIndex": 66,
+      "chunkIndex": 0,
+      "title": "OBSERVACI´ON:",
+      "words": 117
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch067-000",
+      "chapterIndex": 67,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch067-001",
+      "chapterIndex": 67,
+      "chunkIndex": 1,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch067-002",
+      "chapterIndex": 67,
+      "chunkIndex": 2,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch067-003",
+      "chapterIndex": 67,
+      "chunkIndex": 3,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch067-004",
+      "chapterIndex": 67,
+      "chunkIndex": 4,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch067-005",
+      "chapterIndex": 67,
+      "chunkIndex": 5,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch067-006",
+      "chapterIndex": 67,
+      "chunkIndex": 6,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch067-007",
+      "chapterIndex": 67,
+      "chunkIndex": 7,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch067-008",
+      "chapterIndex": 67,
+      "chunkIndex": 8,
+      "title": "{- PROP´OSITO:",
+      "words": 295
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch068-000",
+      "chapterIndex": 68,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch069-000",
+      "chapterIndex": 69,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 38
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch070-000",
+      "chapterIndex": 70,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 12
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch071-000",
+      "chapterIndex": 71,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch071-001",
+      "chapterIndex": 71,
+      "chunkIndex": 1,
+      "title": "{- PROP´OSITO:",
+      "words": 94
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch072-000",
+      "chapterIndex": 72,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 14
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch073-000",
+      "chapterIndex": 73,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch073-001",
+      "chapterIndex": 73,
+      "chunkIndex": 1,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch073-002",
+      "chapterIndex": 73,
+      "chunkIndex": 2,
+      "title": "PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch073-003",
+      "chapterIndex": 73,
+      "chunkIndex": 3,
+      "title": "PROP´OSITO:",
+      "words": 63
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch074-000",
+      "chapterIndex": 74,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch075-000",
+      "chapterIndex": 75,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 68
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch076-000",
+      "chapterIndex": 76,
+      "chunkIndex": 0,
+      "title": "7. Secuencia de comandos",
+      "words": 14
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch077-000",
+      "chapterIndex": 77,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 16
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch078-000",
+      "chapterIndex": 78,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 390
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch079-000",
+      "chapterIndex": 79,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 16
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch080-000",
+      "chapterIndex": 80,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 16
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch081-000",
+      "chapterIndex": 81,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch081-001",
+      "chapterIndex": 81,
+      "chunkIndex": 1,
+      "title": "PRECONDICI´ON:",
+      "words": 480
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch082-000",
+      "chapterIndex": 82,
+      "chunkIndex": 0,
+      "title": "PROP´OSITO:",
+      "words": 206
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch083-000",
+      "chapterIndex": 83,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 29
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch084-000",
+      "chapterIndex": 84,
+      "chunkIndex": 0,
+      "title": "SUPOSICI´ON:",
+      "words": 31
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch085-000",
+      "chapterIndex": 85,
+      "chunkIndex": 0,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch085-001",
+      "chapterIndex": 85,
+      "chunkIndex": 1,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch085-002",
+      "chapterIndex": 85,
+      "chunkIndex": 2,
+      "title": "{- PROP´OSITO:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch085-003",
+      "chapterIndex": 85,
+      "chunkIndex": 3,
+      "title": "{- PROP´OSITO:",
+      "words": 304
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch086-000",
+      "chapterIndex": 86,
+      "chunkIndex": 0,
+      "title": "PRECONDICI´ON:",
+      "words": 10
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch087-000",
+      "chapterIndex": 87,
+      "chunkIndex": 0,
+      "title": "8. Bloques",
+      "words": 16
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch088-000",
+      "chapterIndex": 88,
+      "chunkIndex": 0,
+      "title": "OBSERVACI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch088-001",
+      "chapterIndex": 88,
+      "chunkIndex": 1,
+      "title": "OBSERVACI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch088-002",
+      "chapterIndex": 88,
+      "chunkIndex": 2,
+      "title": "OBSERVACI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch088-003",
+      "chapterIndex": 88,
+      "chunkIndex": 3,
+      "title": "OBSERVACI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch088-004",
+      "chapterIndex": 88,
+      "chunkIndex": 4,
+      "title": "OBSERVACI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch088-005",
+      "chapterIndex": 88,
+      "chunkIndex": 5,
+      "title": "OBSERVACI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch088-006",
+      "chapterIndex": 88,
+      "chunkIndex": 6,
+      "title": "OBSERVACI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch088-007",
+      "chapterIndex": 88,
+      "chunkIndex": 7,
+      "title": "OBSERVACI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch088-008",
+      "chapterIndex": 88,
+      "chunkIndex": 8,
+      "title": "OBSERVACI´ON:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch088-009",
+      "chapterIndex": 88,
+      "chunkIndex": 9,
+      "title": "OBSERVACI´ON:",
+      "words": 441
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch089-000",
+      "chapterIndex": 89,
+      "chunkIndex": 0,
+      "title": "1. Recorrer primero el texto de referencia, recordando la traducci ´on de cada s´ımbolo",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch089-001",
+      "chapterIndex": 89,
+      "chunkIndex": 1,
+      "title": "1. Recorrer primero el texto de referencia, recordando la traducci ´on de cada s´ımbolo",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch089-002",
+      "chapterIndex": 89,
+      "chunkIndex": 2,
+      "title": "1. Recorrer primero el texto de referencia, recordando la traducci ´on de cada s´ımbolo",
+      "words": 373
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch090-000",
+      "chapterIndex": 90,
+      "chunkIndex": 0,
+      "title": "2. Recorrer el texto de referencia y, a medida que se encuentra un par clave/valor,",
+      "words": 20
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch091-000",
+      "chapterIndex": 91,
+      "chunkIndex": 0,
+      "title": "3. Esta posibilidad es la m ´as simple de programar (y quiz ´as la m ´as “natural” en alg ´un",
+      "words": 369
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch092-000",
+      "chapterIndex": 92,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 13
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch093-000",
+      "chapterIndex": 93,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 67
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch094-000",
+      "chapterIndex": 94,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 26
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch095-000",
+      "chapterIndex": 95,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 9
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch096-000",
+      "chapterIndex": 96,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch096-001",
+      "chapterIndex": 96,
+      "chunkIndex": 1,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch096-002",
+      "chapterIndex": 96,
+      "chunkIndex": 2,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch096-003",
+      "chapterIndex": 96,
+      "chunkIndex": 3,
+      "title": "PRECONDICIONES:",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch096-004",
+      "chapterIndex": 96,
+      "chunkIndex": 4,
+      "title": "PRECONDICIONES:",
+      "words": 171
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch097-000",
+      "chapterIndex": 97,
+      "chunkIndex": 0,
+      "title": "OBSERVACIONES:",
+      "words": 19
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch098-000",
+      "chapterIndex": 98,
+      "chunkIndex": 0,
+      "title": "9. Ejecuci ´on de programas",
+      "words": 500
+    },
+    {
+      "id": "bases-conceptuales-programacion-ch099-000",
+      "chapterIndex": 99,
+      "chunkIndex": 0,
+      "title": "PRECONDICIONES:",
+      "words": 19
+    }
+  ]
+}

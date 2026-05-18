@@ -1,0 +1,44 @@
+# 32 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 58)
+
+## Contenido
+# 32 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+Nota que la velocidad real esta basada en las estimaciones iniciales de cada
+historia. Cualquier actualización a la estimación de la historia realizada durante el
+Sprint es ignorada.
+Ya puedo escuchar las objeciones: “¿Cómo va a ser esto útil? ¡Una velocidad
+alta o baja dependerá de un montón de factores! Programadores con poco
+sentido común, estimaciones iniciales incorrectas, cambios en el alcance,
+distracciones imprevistas durante el Sprint, etc.
+Estoy de acuerdo en que se trata de un número bastante aproximado. Pero aun
+así es bastante útil, especialmente si lo comparamos con “nada en absoluto”. Te
+proporciona algunos verdades crudas: “sean cuales sean las razones, aquí está
+la diferencia aproximada entre cuánto pensábamos que podríamos hacer y
+cuánto hicimos en realidad”.
+¿Qué pasa con las historias que casi se consiguieron durante el Sprint? ¿Por
+qué no conseguimos algunos puntos por ellas en la velocidad real? Bueno, esto
+es así para reforzar el hecho de que Scrum (y de hecho todo el Desarrollo Ágil de
+Software y Lean Manufacturing en general) gira en torno al concepto de
+conseguir 	que 	las 	cosas 	se 	hagan 	completamente, 	hasta 	un 	estado 	de
+“potencialmente entregable”. El valor de las cosas medio hechas es cero (podría
+de hecho ser negativo). Coged el libro de Donald Reinertsen “Managing the
+Design Factory” o uno de los libros de Poppendieck para aprender más sobre
+este concepto.
+Así que, ¿mediante qué tipo de magia arcana estimamos la velocidad?
+Una manera muy fácil de estimar la velocidad es revisar la historia del
+equipo.¿Cuál fue su velocidad durante los últimos Sprints? Y entonces asumir
+que la velocidad será más o menos la misma en el próximo Sprint.
+Esta técnica se conoce como el tiempo que hizo ayer. Solo es factible para
+equipos que ya han hecho algunos Sprints (de forma que haya estadísticas
+disponibles) y que harán el próximo Sprint más o menos de la misma manera,
+con el mismo tamaño de equipo, las mismas condiciones de trabajo, etc. Este,
+claro está, no siempre es el caso.
+Una forma más sofisticada de hacerlo es realizar un simple cálculo de recursos.
+Digamos que estamos planificando un Sprint de 3 semanas (15 días laborables)
+con un equipo de 4 personas. Lisa estará de vacaciones 2 días. Dave sólo estará
+disponible al 50% y estará un día de vacaciones. Poniéndolo todo junto…
+
+-- 32 of 122 --

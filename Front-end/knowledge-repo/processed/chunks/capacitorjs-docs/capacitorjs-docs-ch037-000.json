@@ -1,0 +1,11 @@
+{
+  "id": "capacitorjs-docs-ch037-000",
+  "bookId": "capacitorjs-docs",
+  "chapterIndex": 37,
+  "chunkIndex": 0,
+  "title": "Capacitor Object​",
+  "start": 0,
+  "end": 14,
+  "words": 14,
+  "content": "# Capacitor Object​ ## Capacitor Object​ ### convertFileSrc(...)​ ### getPlatform()​ ### isNativePlatform()​ ### isPluginAvailable(...)​"
+}

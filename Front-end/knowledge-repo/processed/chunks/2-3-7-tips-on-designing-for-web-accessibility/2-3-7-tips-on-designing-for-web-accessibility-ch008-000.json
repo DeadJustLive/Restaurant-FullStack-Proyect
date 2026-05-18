@@ -1,0 +1,11 @@
+{
+  "id": "2-3-7-tips-on-designing-for-web-accessibility-ch008-000",
+  "bookId": "2-3-7-tips-on-designing-for-web-accessibility",
+  "chapterIndex": 8,
+  "chunkIndex": 0,
+  "title": "WCAG",
+  "start": 0,
+  "end": 298,
+  "words": 298,
+  "content": "# WCAG Headings and Labels 2.4.6 (Understanding 2.4.6) Section Headings 2.4.10 (Understanding 2.4.10) Tutorial Headings User Story Describes how headings can be helpful for navigation Consider how page information is presented in different sized viewports, such as mobile phones or zoomed browser windows. Position and presentation of main elements, such as header and navigation can be changed to make best use of the space. Ensure that text size and line width are set to maximize readability and legibility. Example: Content and navigation adapt to smaller mobile screen Create designs for different viewport sizes SHARE -- 10 of 13 -- 4/2/2018 Tips on Designing for Web Accessibility • Tips for Getting Started • WAI https://www.w3.org/WAI/gettingstarted/tips/designing.html 11/13 Display in a wide window with small text uses multiple columns for primary content, visible navigation options, and visible secondary information. Display in a narrow window, such as a mobile phone, or with large text uses single column for primary content, navigation options are revealed using an icon, and secondary information is also revealed via icon. For more information Background Small Screen Size Mobile considerations related to Understandability User Story Describes how alternative views of zoomed pages can be helpful Include image and media alternatives in your design SHARE -- 11 of 13 -- 4/2/2018 Tips on Designing for Web Accessibility • Tips for Getting Started • WAI https://www.w3.org/WAI/gettingstarted/tips/designing.html 12/13 Provide a place in your design for alternatives for images and media. For example, you might need: Visible links to transcripts of audio Visible links to audio described versions of videos Text along with icons and graphical buttons Captions and descriptions for tables or complex graphs Work with content authors and developers to provide alternatives for non-text content. Example: Design includes links to a transcript and to an alternative video For more information"
+}

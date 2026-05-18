@@ -1,0 +1,14 @@
+# 4) Otros conceptos
+
+a) Ejecuci ´on de programas
+b) Mensajes de error
+c) Biblioteca de operaciones
+Los diferentes conceptos de esta categorizaci ´on se van presentando en la se-
+cuencia did ´actica como resultado de alguna necesidad surgida desde la pr ´actica
+de la programaci ´on. O sea, para cada concepto se presenta un problema que
+resulta dif´ıcil o imposible de resolver con los elementos previos, y as´ı se justifi-
+ca la necesidad de dicho concepto. De all´ı que el orden de los conceptos en la
+secuencia did ´actica sea extremadamente relevante, y que los ejercicios del libro
+deban realizarse en orden, con los elementos presentados hasta el punto donde
+el ejercicio aparece. La secuencia did ´actica espec´ıfica es la siguiente
+Cap. 2

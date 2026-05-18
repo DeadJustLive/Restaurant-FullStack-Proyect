@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch035-000",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 35,
+  "chunkIndex": 0,
+  "title": "1. Crear un elementos div después del titulo de cada titulo de artículo de blog y guardar una",
+  "start": 0,
+  "end": 29,
+  "words": 29,
+  "content": "# 1. Crear un elementos div después del titulo de cada titulo de artículo de blog y guardar una referencia hacia ellos en el elemento de titulo utilizando $.fn.data."
+}

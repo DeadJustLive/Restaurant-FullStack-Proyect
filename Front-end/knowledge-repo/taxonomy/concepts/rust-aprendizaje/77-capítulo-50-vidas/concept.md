@@ -1,0 +1,128 @@
+# Capítulo 50:: Vidas
+
+## Fuente
+Capítulo 1: Empezando con Rust 2 (Cap. 77)
+
+## Contenido
+# Capítulo 50:: Vidas
+
+Sintaxis
+función fn <'a> (x: &' a Type)	•
+estructura Struct <'a> {x: &' a Type}	•
+enum Enum <'a> {Variant (&' a Type)}	•
+impl <'a> Struct <' a> {fn x <'a> (& self) -> &' a Type {self.x}}	•
+impl <'a> Rasgo <' a> para Tipo	•
+impl <'a> Rasgo para el Tipo <' a>	•
+fn function<F>(f: F) where for<'a> F: FnOnce(&'a Type)	•
+struct Struct<F> where for<'a> F: FnOnce(&'a Type) { x: F }	•
+enum Enum<F> where for<'a> F: FnOnce(&'a Type) { Variant(F) }	•
+impl<F> Struct<F> where for<'a> F: FnOnce(&'a Type) { fn x(&self) -> &F { &self.x } }	•
+Observaciones
+Todas las referencias en Rust tienen una vida útil, incluso si no están anotadas
+explícitamente. El compilador es capaz de asignar implícitamente tiempos de vida.
+•
+El 'static tiempo de vida 'static se asigna a las referencias que están almacenadas en el
+programa binario y serán válidas durante toda su ejecución. Esta vida útil se asigna
+principalmente a los literales de cadena, que tienen el tipo &'static str .
+•
+Examples
+Parámetros de función (tiempos de vida de entrada)
+fn foo<'a>(x: &'a u32) {
+// ...
+}
+Esto especifica que foo tiene una vida útil 'a , y el parámetro x debe tener una vida útil de al
+menos 'a . Las vidas útiles de las funciones generalmente se omiten a través de la elision de por
+vida :
+fn foo(x: &u32) {
+// ...
+}
+En el caso de que una función tome múltiples referencias como parámetros y devuelva una
+referencia, el compilador no puede inferir el tiempo de vida del resultado a través de la elision de
+por vida .
+error[E0106]: missing lifetime specifier
+1 | fn foo(bar: &str, baz: &str) -> &i32 {
+| ^ expected lifetime parameter
+https://riptutorial.com/es/home 169
+
+-- 183 of 188 --
+
+En su lugar, los parámetros de duración deben especificarse explícitamente.
+// Return value of `foo` is valid as long as `bar` and `baz` are alive.
+fn foo<'a>(bar: &'a str, baz: &'a str) -> &'a i32 {
+Las funciones pueden tomar múltiples parámetros de por vida también.
+// Return value is valid for the scope of `bar`
+fn foo<'a, 'b>(bar: &'a str, baz: &'b str) -> &'a i32 {
+Campos de fuerza
+struct Struct<'a> {
+x: &'a u32,
+}
+Esto especifica que cualquier instancia dada de Struct tiene una vida útil 'a , y el &u32 almacenado
+en x debe tener una vida útil de al menos 'a .
+Bloques Impl
+impl<'a> Type<'a> {
+fn my_function(&self) -> &'a u32 {
+self.x
+}
+}
+Esto especifica que el Type tiene una vida útil 'a , y que la referencia devuelta por my_function()
+puede que ya no sea válida después de que 'a termine porque el Type ya no existe para mantener
+self.x
+Límites de rasgo de rango superior
+fn copy_if<F>(slice: &[i32], pred: F) -> Vec<i32>
+where for<'a> F: Fn(&'a i32) -> bool
+{
+let mut result = vec![];
+for &element in slice {
+if pred(&element) {
+result.push(element);
+}
+}
+result
+}
+Esto especifica que la referencia en i32 en el límite del rasgo Fn puede tener cualquier duración.
+Lo siguiente no funciona:
+fn wrong_copy_if<'a, F>(slice: &[i32], pred: F) -> Vec<i32>
+where F: Fn(&'a i32) -> bool
+https://riptutorial.com/es/home 170
+
+-- 184 of 188 --
+
+{ // <----------------+
+let mut result = vec![]; // 'a scope |
+for &element in slice { // <--------+ |
+if pred(&element) { // | |
+result.push(element); // element's| |
+} // scope | |
+} // <--------+ |
+result // |
+} // <----------------+
+El compilador da el siguiente error:
+error: `element` does not live long enough
+if pred(&element) { // | |
+^~~~~~~
+porque la variable local del element no vive tanto como 'a vida útil (como podemos ver en los
+comentarios del código).
+La vida útil no se puede declarar en el nivel de función, porque necesitamos otra vida útil. Es por
+eso que usamos for<'a> : para especificar que la referencia puede ser válida para cualquier
+tiempo de vida (por lo tanto, se puede usar un tiempo de vida más pequeño).
+Los límites del rasgo de rango superior también se pueden usar en estructuras:
+struct Window<F>
+where for<'a> F: FnOnce(&'a Window<F>)
+{
+on_close: F,
+}
+así como en otros artículos.
+Los límites de rasgo de rango más alto son los que se usan más comúnmente con los rasgos Fn* .
+Para estos ejemplos, el elision de por vida funciona bien, así que no tenemos que especificar los
+tiempos de vida.
+Lea Vidas en línea: https://riptutorial.com/es/rust/topic/2074/vidas
+https://riptutorial.com/es/home 171
+
+-- 185 of 188 --
+
+Creditos
+S.
+No Capítulos Contributors
+1 Empezando con
+Rust
+Andy Hayden, ar-ms, Aurora0001, Community, Cormac O'Brien,

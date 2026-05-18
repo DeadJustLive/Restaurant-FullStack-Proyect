@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch085-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 85,
+  "chunkIndex": 1,
+  "title": "Capítulo 47:: Eventloop",
+  "start": 450,
+  "end": 641,
+  "words": 191,
+  "content": "= (conn) else if (event.type == FINISHED_WRITING_TO_SOCKET): conn = event.userdata if (conn.current_state == \"writing headers\"): conn.current_state = \"writing file contents\" start writing (conn.file_contents) to (conn.socket) with userdata = (conn) else if (conn.current_state == \"writing file contents\"): close(conn.socket) Esperemos que este pseudocódigo sea inteligible. Esto es lo que está pasando: esperamos que las cosas sucedan. Cada vez que se crea una nueva conexión o una conexión existente necesita nuestra atención, nos ocupamos de ella y luego volvemos a esperar. De esa manera, nos desempeñamos bien cuando hay muchas conexiones y cada una rara vez requiere atención. En una aplicación real (no pseudocódigo) que se ejecuta en Linux, la parte de \"esperar a que ocurra el próximo evento\" se implementaría llamando a la llamada del sistema poll () o epoll (). https://riptutorial.com/es/home 164 -- 192 of 423 -- Las partes de \"comenzar a leer / escribir algo en un socket\" se implementarían llamando a recv () o a las llamadas del sistema send () en modo no bloqueante. Referencia: [1]. \"¿Cómo funciona un bucle de eventos?\" [En línea]. Disponible: https://www.quora.com/How- does-an-event-loop-work Lea Eventloop en línea: https://riptutorial.com/es/node-js/topic/8652/eventloop https://riptutorial.com/es/home 165 -- 193 of 423 --"
+}

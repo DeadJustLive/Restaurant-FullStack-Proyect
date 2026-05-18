@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch044-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 44,
+  "chunkIndex": 0,
+  "title": "1. Crear un algoritmo que indique el valor del descuento de un art´ıculo",
+  "start": 0,
+  "end": 29,
+  "words": 29,
+  "content": "# 1. Crear un algoritmo que indique el valor del descuento de un art´ıculo el cual es del 5% solo si el art´ıculo tiene un costo superior al $150.000."
+}

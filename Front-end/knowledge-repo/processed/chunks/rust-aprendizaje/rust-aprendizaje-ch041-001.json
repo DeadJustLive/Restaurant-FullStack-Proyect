@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch041-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 41,
+  "chunkIndex": 1,
+  "title": "Capítulo 21:: Instrumentos de cuerda",
+  "start": 450,
+  "end": 643,
+  "words": 193,
+  "content": "propiedad // all variables `s` have the type `String` let s = \"hi\".to_string(); // Generic way to convert into `String`. This works // for all types that implement `Display`. let s = \"hi\".to_owned(); // Clearly states the intend of obtaining an owned object let s: String = \"hi\".into(); // Generic conversion, type annotation required let s: String = From::from(\"hi\"); // in both cases! https://riptutorial.com/es/home 65 -- 79 of 188 -- let s = String::from(\"hi\"); // Calling the `from` impl explicitly -- the `From` // trait has to be in scope! let s = format!(\"hi\"); // Using the formatting functionality (this has some // overhead) Aparte del format!() , Todos los métodos anteriores son igualmente rápidos. Romper los literales de cuerda larga. Romper las cadenas literales regulares con el \\ carácter let a = \"foobar\"; let b = \"foo\\ bar\"; // `a` and `b` are equal. assert_eq!(a,b); ¡Rompe los literales de cuerdas en bruto para separar cadenas y concat! la concat! macro let c = r\"foo\\bar\"; let d = concat!(r\"foo\\\", r\"bar\"); // `c` and `d` are equal. assert_eq!(c, d); Lea Instrumentos de cuerda en línea: https://riptutorial.com/es/rust/topic/998/instrumentos-de- cuerda https://riptutorial.com/es/home 66 -- 80 of 188 --"
+}

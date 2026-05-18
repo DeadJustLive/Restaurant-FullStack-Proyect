@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch146-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 146,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 14,
+  "words": 14,
+  "content": "# PRECONDICI´ON: * falla siempre, por invocar un procedimiento que no puede tener ´exito"
+}

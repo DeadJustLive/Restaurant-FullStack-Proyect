@@ -1,0 +1,50 @@
+# SCRUM Y XP DESDE LAS TRINCHERAS | 45
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 88)
+
+## Contenido
+# SCRUM Y XP DESDE LAS TRINCHERAS | 45
+
+Historias técnicas
+He aquí un asunto complejo: historias técnicas. O elementos no-funcionales, o
+como quieras llamarlos.
+Me refiero a cosas que deben hacerse pero que no son un entregable ni están
+directamente relacionadas con ninguna historia específica, y no son de valor
+inmediato para el Dueño de Producto.
+Las llamamos “historias técnicas”.
+Por ejemplo:
+• 	Instalar un servidor de compilación continua:
+o 	Por qué debe hacerse: porque ahorra cantidades inmensas de
+tiempo a los desarrolladores y reduce el riesgo de problemas
+explosivos de integración al final de la iteración.
+• 	Escribir una descripción general del diseño:
+o 	Por 	qué 	debe 	hacerse: 	porque 	los 	desarrolladores 	olvidan
+constantemente el diseño general, y entonces escriben código
+inconsistente. Necesitan una visión global documentada para
+mantener a todo el mundo en la misma línea de diseño.
+• 	Refactorizar la capa de acceso a datos:
+o 	Por qué debe hacerse: porque la capa de acceso a datos se ha
+vuelto realmente desordenada y le está costando tiempo a todo el
+mundo debido a la confusión y los errores innecesarios. Limpiar el
+código ahorraría tiempo a todo el mundo y mejoraría la robustez
+del sistema.
+• 	Actualizar Jira (seguimiento de errores)
+o 	Por qué debe hacerse: la actual versión es demasiado lenta y
+falla demasiado. Actualizar a una nueva versión ahorrará tiempo
+a todo el mundo.
+¿Son historias en el sentido normal? ¿O son tareas que no están conectadas a
+ninguna historia específica? ¿Quién las prioriza? ¿Debería involucrarse el Dueño
+de Producto en estos asuntos?
+Hemos experimentado mucho con diferentes maneras de manejar las historias
+técnicas. Hemos intentado tratarlas como historias de primera clase, como todas
+las demás. Esto no funcionó bien, ya que cuando el Dueño de Producto
+priorizaba la Pila de Producto era como comparar peras con manzanas. De
+hecho, por razones obvias, las historias técnicas obtenían siempre mínima
+prioridad con razonamientos del tipo “sí, chavales, seguro que la compilación
+continua es muy importante y todo eso, pero construyamos primero algo que nos
+permita facturar, ¿vale? Entonces podréis añadir vuestras chucherías técnicas
+más adelante, ¿OK?”
+En algunos casos el Dueño de Producto tiene razón, pero a menudo no es así.
+Hemos concluido que el Dueño de Producto no siempre está cualificado para
+manejar estos compromisos. Así que esto es lo que hacemos:

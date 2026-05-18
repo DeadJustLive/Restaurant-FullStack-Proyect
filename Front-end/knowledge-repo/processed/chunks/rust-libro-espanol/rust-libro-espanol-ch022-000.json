@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch022-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 22,
+  "chunkIndex": 0,
+  "title": "Rc<T>, el Smart Pointer de Conteo de Referencias",
+  "start": 0,
+  "end": 29,
+  "words": 29,
+  "content": "# Rc<T>, el Smart Pointer de Conteo de Referencias ## Rc<T>, el Smart Pointer de Conteo de Referencias ### UsandoRc<T>para Compartir Datos ### Clonando unRc<T>Incrementa el Conteo de Referencias"
+}

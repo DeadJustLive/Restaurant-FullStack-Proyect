@@ -1,0 +1,34 @@
+# SCRUM Y XP DESDE LAS TRINCHERAS | 105
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 155)
+
+## Contenido
+# SCRUM Y XP DESDE LAS TRINCHERAS | 105
+
+Enfoque 2: equipos multi-funcionales
+Una segunda aproximación es crear equipos multifuncionales, es decir, equipos
+que no están limitados a un componente específico.
+Si muchas de vuestras historias implican múltiples componentes, este tipo de
+estrategia de división funcionará mejor. Cada equipo puede implementar una
+historia completa incluyendo las partes de cliente, servidor y base de datos. Los
+equipos pueden así trabajar de forma más independiente, lo cuál es bueno.
+Una de las primeras cosas que hicimos al comenzar con Scrum fue disolver los
+equipos especializados por componentes y crear equipos multi-funcionales en su
+lugar (enfoque 2). Esto diminuyó el número de casos de “no podemos completar
+este elemento porque estamos esperando a que los tíos del equipo servidor
+hagan su parte”.
+Sin embargo, de vez en cuando creamos equipos temporales especializados en
+algún componente cuando hay una fuerte necesidad.
+¿Redistribuir equipos entre Sprints – o no?
+Cada Sprint suele ser diferente de los anteriores, dependiendo de qué tipo de
+historias son la máxima prioridad en cada momento. Como consecuencia, la
+distribución óptima de cada equipo puede ser diferente en cada Sprint.
+De hecho, en casi todos los Sprints empezamos diciendo algo como “este Sprint
+no es un Sprint normal ya que (bla bla bla)…”. Tras un tiempo simplemente
+hemos abandonado la idea de un Sprint “normal”. No hay Sprints normales. Al
+igual que no hay familias “normales” o personas “normales”.
+Puede ser Buena idea durante un Sprint tener un equipo de sólo-cliente ,
+formado por todos los que conocen la base de código de cliente realmente bien,
+
+-- 105 of 122 --

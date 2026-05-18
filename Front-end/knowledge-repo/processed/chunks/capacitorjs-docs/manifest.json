@@ -1,0 +1,1122 @@
+{
+  "bookId": "capacitorjs-docs",
+  "totalChunks": 159,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.122Z",
+  "chunks": [
+    {
+      "id": "capacitorjs-docs-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "Configuration",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch001-001",
+      "chapterIndex": 1,
+      "chunkIndex": 1,
+      "title": "Configuration",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch001-002",
+      "chapterIndex": 1,
+      "chunkIndex": 2,
+      "title": "Configuration",
+      "words": 414
+    },
+    {
+      "id": "capacitorjs-docs-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "Custom code",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch002-001",
+      "chapterIndex": 2,
+      "chunkIndex": 1,
+      "title": "Custom code",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch002-002",
+      "chapterIndex": 2,
+      "chunkIndex": 2,
+      "title": "Custom code",
+      "words": 415
+    },
+    {
+      "id": "capacitorjs-docs-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "Deploying to google play",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch003-001",
+      "chapterIndex": 3,
+      "chunkIndex": 1,
+      "title": "Deploying to google play",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch003-002",
+      "chapterIndex": 3,
+      "chunkIndex": 2,
+      "title": "Deploying to google play",
+      "words": 417
+    },
+    {
+      "id": "capacitorjs-docs-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "Android",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch004-001",
+      "chapterIndex": 4,
+      "chunkIndex": 1,
+      "title": "Android",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch004-002",
+      "chapterIndex": 4,
+      "chunkIndex": 2,
+      "title": "Android",
+      "words": 414
+    },
+    {
+      "id": "capacitorjs-docs-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "Setting target sdk",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch005-001",
+      "chapterIndex": 5,
+      "chunkIndex": 1,
+      "title": "Setting target sdk",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch005-002",
+      "chapterIndex": 5,
+      "chunkIndex": 2,
+      "title": "Setting target sdk",
+      "words": 416
+    },
+    {
+      "id": "capacitorjs-docs-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "Troubleshooting",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch006-001",
+      "chapterIndex": 6,
+      "chunkIndex": 1,
+      "title": "Troubleshooting",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch006-002",
+      "chapterIndex": 6,
+      "chunkIndex": 2,
+      "title": "Troubleshooting",
+      "words": 414
+    },
+    {
+      "id": "capacitorjs-docs-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "API​",
+      "words": 30
+    },
+    {
+      "id": "capacitorjs-docs-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "Cli",
+      "words": 200
+    },
+    {
+      "id": "capacitorjs-docs-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "Config",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch009-001",
+      "chapterIndex": 9,
+      "chunkIndex": 1,
+      "title": "Config",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch009-002",
+      "chapterIndex": 9,
+      "chunkIndex": 2,
+      "title": "Config",
+      "words": 414
+    },
+    {
+      "id": "capacitorjs-docs-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "Running Your App​",
+      "words": 21
+    },
+    {
+      "id": "capacitorjs-docs-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "Migration strategy",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch011-001",
+      "chapterIndex": 11,
+      "chunkIndex": 1,
+      "title": "Migration strategy",
+      "words": 429
+    },
+    {
+      "id": "capacitorjs-docs-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "Cordova",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch012-001",
+      "chapterIndex": 12,
+      "chunkIndex": 1,
+      "title": "Cordova",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch012-002",
+      "chapterIndex": 12,
+      "chunkIndex": 2,
+      "title": "Cordova",
+      "words": 121
+    },
+    {
+      "id": "capacitorjs-docs-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "Data types",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch013-001",
+      "chapterIndex": 13,
+      "chunkIndex": 1,
+      "title": "Data types",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch013-002",
+      "chapterIndex": 13,
+      "chunkIndex": 2,
+      "title": "Data types",
+      "words": 415
+    },
+    {
+      "id": "capacitorjs-docs-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "Ios",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch014-001",
+      "chapterIndex": 14,
+      "chunkIndex": 1,
+      "title": "Ios",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch014-002",
+      "chapterIndex": 14,
+      "chunkIndex": 2,
+      "title": "Ios",
+      "words": 414
+    },
+    {
+      "id": "capacitorjs-docs-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "Saving calls",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch015-001",
+      "chapterIndex": 15,
+      "chunkIndex": 1,
+      "title": "Saving calls",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch015-002",
+      "chapterIndex": 15,
+      "chunkIndex": 2,
+      "title": "Saving calls",
+      "words": 415
+    },
+    {
+      "id": "capacitorjs-docs-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "Web",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch016-001",
+      "chapterIndex": 16,
+      "chunkIndex": 1,
+      "title": "Web",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch016-002",
+      "chapterIndex": 16,
+      "chunkIndex": 2,
+      "title": "Web",
+      "words": 414
+    },
+    {
+      "id": "capacitorjs-docs-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "Ads",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch017-001",
+      "chapterIndex": 17,
+      "chunkIndex": 1,
+      "title": "Ads",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch017-002",
+      "chapterIndex": 17,
+      "chunkIndex": 2,
+      "title": "Ads",
+      "words": 248
+    },
+    {
+      "id": "capacitorjs-docs-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "WebView-Accessible Native Code​",
+      "words": 25
+    },
+    {
+      "id": "capacitorjs-docs-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "Autofill credentials",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch019-001",
+      "chapterIndex": 19,
+      "chunkIndex": 1,
+      "title": "Autofill credentials",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch019-002",
+      "chapterIndex": 19,
+      "chunkIndex": 2,
+      "title": "Autofill credentials",
+      "words": 342
+    },
+    {
+      "id": "capacitorjs-docs-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "Automated configuration",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch020-001",
+      "chapterIndex": 20,
+      "chunkIndex": 1,
+      "title": "Automated configuration",
+      "words": 397
+    },
+    {
+      "id": "capacitorjs-docs-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "When to create a subclass​",
+      "words": 21
+    },
+    {
+      "id": "capacitorjs-docs-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "Community",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch022-001",
+      "chapterIndex": 22,
+      "chunkIndex": 1,
+      "title": "Community",
+      "words": 431
+    },
+    {
+      "id": "capacitorjs-docs-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "Deep links",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch023-001",
+      "chapterIndex": 23,
+      "chunkIndex": 1,
+      "title": "Deep links",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch023-002",
+      "chapterIndex": 23,
+      "chunkIndex": 2,
+      "title": "Deep links",
+      "words": 374
+    },
+    {
+      "id": "capacitorjs-docs-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "Using SPM in an existing Capacitor Project​",
+      "words": 39
+    },
+    {
+      "id": "capacitorjs-docs-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "Environment specific configurations",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch025-001",
+      "chapterIndex": 25,
+      "chunkIndex": 1,
+      "title": "Environment specific configurations",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch025-002",
+      "chapterIndex": 25,
+      "chunkIndex": 2,
+      "title": "Environment specific configurations",
+      "words": 260
+    },
+    {
+      "id": "capacitorjs-docs-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "Games",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch026-001",
+      "chapterIndex": 26,
+      "chunkIndex": 1,
+      "title": "Games",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch026-002",
+      "chapterIndex": 26,
+      "chunkIndex": 2,
+      "title": "Games",
+      "words": 238
+    },
+    {
+      "id": "capacitorjs-docs-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "Live reload",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch027-001",
+      "chapterIndex": 27,
+      "chunkIndex": 1,
+      "title": "Live reload",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch027-002",
+      "chapterIndex": 27,
+      "chunkIndex": 2,
+      "title": "Live reload",
+      "words": 123
+    },
+    {
+      "id": "capacitorjs-docs-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "Mocking plugins",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch028-001",
+      "chapterIndex": 28,
+      "chunkIndex": 1,
+      "title": "Mocking plugins",
+      "words": 404
+    },
+    {
+      "id": "capacitorjs-docs-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "Android Toolbox​",
+      "words": 18
+    },
+    {
+      "id": "capacitorjs-docs-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "React hooks",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch030-001",
+      "chapterIndex": 30,
+      "chunkIndex": 1,
+      "title": "React hooks",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch030-002",
+      "chapterIndex": 30,
+      "chunkIndex": 2,
+      "title": "React hooks",
+      "words": 70
+    },
+    {
+      "id": "capacitorjs-docs-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "Screen orientation",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch031-001",
+      "chapterIndex": 31,
+      "chunkIndex": 1,
+      "title": "Screen orientation",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch031-002",
+      "chapterIndex": 31,
+      "chunkIndex": 2,
+      "title": "Screen orientation",
+      "words": 296
+    },
+    {
+      "id": "capacitorjs-docs-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "Security",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch032-001",
+      "chapterIndex": 32,
+      "chunkIndex": 1,
+      "title": "Security",
+      "words": 493
+    },
+    {
+      "id": "capacitorjs-docs-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "Splash screens and icons",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch033-001",
+      "chapterIndex": 33,
+      "chunkIndex": 1,
+      "title": "Splash screens and icons",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch033-002",
+      "chapterIndex": 33,
+      "chunkIndex": 2,
+      "title": "Splash screens and icons",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch033-003",
+      "chapterIndex": 33,
+      "chunkIndex": 3,
+      "title": "Splash screens and icons",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch033-004",
+      "chapterIndex": 33,
+      "chunkIndex": 4,
+      "title": "Splash screens and icons",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch033-005",
+      "chapterIndex": 33,
+      "chunkIndex": 5,
+      "title": "Splash screens and icons",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch033-006",
+      "chapterIndex": 33,
+      "chunkIndex": 6,
+      "title": "Splash screens and icons",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch033-007",
+      "chapterIndex": 33,
+      "chunkIndex": 7,
+      "title": "Splash screens and icons",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch033-008",
+      "chapterIndex": 33,
+      "chunkIndex": 8,
+      "title": "Splash screens and icons",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch033-009",
+      "chapterIndex": 33,
+      "chunkIndex": 9,
+      "title": "Splash screens and icons",
+      "words": 184
+    },
+    {
+      "id": "capacitorjs-docs-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "Bridge​",
+      "words": 14
+    },
+    {
+      "id": "capacitorjs-docs-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "Overview​",
+      "words": 19
+    },
+    {
+      "id": "capacitorjs-docs-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "Deploying to app store",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch036-001",
+      "chapterIndex": 36,
+      "chunkIndex": 1,
+      "title": "Deploying to app store",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch036-002",
+      "chapterIndex": 36,
+      "chunkIndex": 2,
+      "title": "Deploying to app store",
+      "words": 417
+    },
+    {
+      "id": "capacitorjs-docs-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "Capacitor Object​",
+      "words": 14
+    },
+    {
+      "id": "capacitorjs-docs-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "Privacy manifest",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch038-001",
+      "chapterIndex": 38,
+      "chunkIndex": 1,
+      "title": "Privacy manifest",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch038-002",
+      "chapterIndex": 38,
+      "chunkIndex": 2,
+      "title": "Privacy manifest",
+      "words": 415
+    },
+    {
+      "id": "capacitorjs-docs-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "Spm",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch039-001",
+      "chapterIndex": 39,
+      "chunkIndex": 1,
+      "title": "Spm",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch039-002",
+      "chapterIndex": 39,
+      "chunkIndex": 2,
+      "title": "Spm",
+      "words": 414
+    },
+    {
+      "id": "capacitorjs-docs-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "Viewcontroller",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch040-001",
+      "chapterIndex": 40,
+      "chunkIndex": 1,
+      "title": "Viewcontroller",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch040-002",
+      "chapterIndex": 40,
+      "chunkIndex": 2,
+      "title": "Viewcontroller",
+      "words": 414
+    },
+    {
+      "id": "capacitorjs-docs-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "Support policy",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch041-001",
+      "chapterIndex": 41,
+      "chunkIndex": 1,
+      "title": "Support policy",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch041-002",
+      "chapterIndex": 41,
+      "chunkIndex": 2,
+      "title": "Support policy",
+      "words": 415
+    },
+    {
+      "id": "capacitorjs-docs-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "Data Security​",
+      "words": 19
+    },
+    {
+      "id": "capacitorjs-docs-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "2 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch043-001",
+      "chapterIndex": 43,
+      "chunkIndex": 1,
+      "title": "2 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch043-002",
+      "chapterIndex": 43,
+      "chunkIndex": 2,
+      "title": "2 0",
+      "words": 197
+    },
+    {
+      "id": "capacitorjs-docs-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "3 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch044-001",
+      "chapterIndex": 44,
+      "chunkIndex": 1,
+      "title": "3 0",
+      "words": 328
+    },
+    {
+      "id": "capacitorjs-docs-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "5 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch045-001",
+      "chapterIndex": 45,
+      "chunkIndex": 1,
+      "title": "5 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch045-002",
+      "chapterIndex": 45,
+      "chunkIndex": 2,
+      "title": "5 0",
+      "words": 266
+    },
+    {
+      "id": "capacitorjs-docs-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "6 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch046-001",
+      "chapterIndex": 46,
+      "chunkIndex": 1,
+      "title": "6 0",
+      "words": 347
+    },
+    {
+      "id": "capacitorjs-docs-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "7 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch047-001",
+      "chapterIndex": 47,
+      "chunkIndex": 1,
+      "title": "7 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch047-002",
+      "chapterIndex": 47,
+      "chunkIndex": 2,
+      "title": "7 0",
+      "words": 226
+    },
+    {
+      "id": "capacitorjs-docs-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "Setup a new iOS scheme​",
+      "words": 43
+    },
+    {
+      "id": "capacitorjs-docs-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "Setup Android product flavors​",
+      "words": 26
+    },
+    {
+      "id": "capacitorjs-docs-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "Dynamically build for different environments​",
+      "words": 24
+    },
+    {
+      "id": "capacitorjs-docs-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "8 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch051-001",
+      "chapterIndex": 51,
+      "chunkIndex": 1,
+      "title": "8 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch051-002",
+      "chapterIndex": 51,
+      "chunkIndex": 2,
+      "title": "8 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch051-003",
+      "chapterIndex": 51,
+      "chunkIndex": 3,
+      "title": "8 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch051-004",
+      "chapterIndex": 51,
+      "chunkIndex": 4,
+      "title": "8 0",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch051-005",
+      "chapterIndex": 51,
+      "chunkIndex": 5,
+      "title": "8 0",
+      "words": 80
+    },
+    {
+      "id": "capacitorjs-docs-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "Using plugins",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch052-001",
+      "chapterIndex": 52,
+      "chunkIndex": 1,
+      "title": "Using plugins",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch052-002",
+      "chapterIndex": 52,
+      "chunkIndex": 2,
+      "title": "Using plugins",
+      "words": 183
+    },
+    {
+      "id": "capacitorjs-docs-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "Utilities",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch053-001",
+      "chapterIndex": 53,
+      "chunkIndex": 1,
+      "title": "Utilities",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch053-002",
+      "chapterIndex": 53,
+      "chunkIndex": 2,
+      "title": "Utilities",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch053-003",
+      "chapterIndex": 53,
+      "chunkIndex": 3,
+      "title": "Utilities",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch053-004",
+      "chapterIndex": 53,
+      "chunkIndex": 4,
+      "title": "Utilities",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch053-005",
+      "chapterIndex": 53,
+      "chunkIndex": 5,
+      "title": "Utilities",
+      "words": 56
+    },
+    {
+      "id": "capacitorjs-docs-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "Faqs",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch054-001",
+      "chapterIndex": 54,
+      "chunkIndex": 1,
+      "title": "Faqs",
+      "words": 287
+    },
+    {
+      "id": "capacitorjs-docs-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "Getting started",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch055-001",
+      "chapterIndex": 55,
+      "chunkIndex": 1,
+      "title": "Getting started",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch055-002",
+      "chapterIndex": 55,
+      "chunkIndex": 2,
+      "title": "Getting started",
+      "words": 265
+    },
+    {
+      "id": "capacitorjs-docs-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "Templates",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch056-001",
+      "chapterIndex": 56,
+      "chunkIndex": 1,
+      "title": "Templates",
+      "words": 284
+    },
+    {
+      "id": "capacitorjs-docs-ch057-000",
+      "chapterIndex": 57,
+      "chunkIndex": 0,
+      "title": "Vscode extension",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch057-001",
+      "chapterIndex": 57,
+      "chunkIndex": 1,
+      "title": "Vscode extension",
+      "words": 285
+    },
+    {
+      "id": "capacitorjs-docs-ch058-000",
+      "chapterIndex": 58,
+      "chunkIndex": 0,
+      "title": "Sección",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch058-001",
+      "chapterIndex": 58,
+      "chunkIndex": 1,
+      "title": "Sección",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch058-002",
+      "chapterIndex": 58,
+      "chunkIndex": 2,
+      "title": "Sección",
+      "words": 264
+    },
+    {
+      "id": "capacitorjs-docs-ch059-000",
+      "chapterIndex": 59,
+      "chunkIndex": 0,
+      "title": "Progressive web apps",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch059-001",
+      "chapterIndex": 59,
+      "chunkIndex": 1,
+      "title": "Progressive web apps",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch059-002",
+      "chapterIndex": 59,
+      "chunkIndex": 2,
+      "title": "Progressive web apps",
+      "words": 362
+    },
+    {
+      "id": "capacitorjs-docs-ch060-000",
+      "chapterIndex": 60,
+      "chunkIndex": 0,
+      "title": "Pwa elements",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch060-001",
+      "chapterIndex": 60,
+      "chunkIndex": 1,
+      "title": "Pwa elements",
+      "words": 500
+    },
+    {
+      "id": "capacitorjs-docs-ch060-002",
+      "chapterIndex": 60,
+      "chunkIndex": 2,
+      "title": "Pwa elements",
+      "words": 361
+    },
+    {
+      "id": "capacitorjs-docs-ch061-000",
+      "chapterIndex": 61,
+      "chunkIndex": 0,
+      "title": "Get startedeasily.",
+      "words": 33
+    },
+    {
+      "id": "capacitorjs-docs-ch062-000",
+      "chapterIndex": 62,
+      "chunkIndex": 0,
+      "title": "Connect web apps tonative functionality.",
+      "words": 21
+    },
+    {
+      "id": "capacitorjs-docs-ch063-000",
+      "chapterIndex": 63,
+      "chunkIndex": 0,
+      "title": "Cross-platform, core native plugins.",
+      "words": 29
+    },
+    {
+      "id": "capacitorjs-docs-ch064-000",
+      "chapterIndex": 64,
+      "chunkIndex": 0,
+      "title": "What people are saying about Capacitor.",
+      "words": 74
+    }
+  ]
+}

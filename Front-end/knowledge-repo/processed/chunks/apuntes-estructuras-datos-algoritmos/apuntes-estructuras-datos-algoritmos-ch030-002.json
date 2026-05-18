@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch030-002",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 30,
+  "chunkIndex": 2,
+  "title": "1. Concepto y especificación",
+  "start": 900,
+  "end": 1163,
+  "words": 263,
+  "content": "el conjunto resultante de añadir e a c} quitar: carácter e, conjcar c -> conjcar {Si e está en c, devuelve el conjunto resultante de eliminar e de c; si e no está en c, devuelve un conjunto igual a c} pertenece: carácter e, conjcar c -> booleano {Devuelve verdad si y sólo si e está en c} unión: conjcar c1, conjcar c2 -> conjcar {Devuelve un conjunto que contiene todos los caracteres que están en c1 y todos los que están en c2} intersección: conjcar c1, conjcar c2 -> conjcar -- 13 of 267 -- 6 {Devuelve un conjunto que contiene únicamente los caracteres que están tanto en c1 como en c2} vacío?: conjcar c -> booleano {Devuelve verdad si y sólo si c no contiene ningún carácter} cardinal: conjcar c -> natural {Devuelve el número total de caracteres que contiene c (0 si es vacío)} {Las cuatro siguientes operaciones son un Iterador. Hablaremos de ello más adelante} iniciarIterador: conjcar c -> conjcar {Prepara el iterador para recorrer los caracteres del conjunto c, de forma que el siguiente carácter a visitar sea el primero que visitamos (situación de no haber visitado ningún carácter)} existeSiguiente?: conjcar c -> booleano {Devuelve falso si ya se han visitado todos los caracteres de c, devuelve verdad en caso contrario} parcial siguiente: conjcar c -> carácter {Devuelve el siguiente carácter de c. Parcial: la operación no está definida si no existeSiguiente?(c)} parcial avanza: conjcar c -> conjcar {Prepara el iterador para visitar el siguiente carácter de c. Parcial: la operación no está definida si no existeSiguiente?(c)} fespec"
+}

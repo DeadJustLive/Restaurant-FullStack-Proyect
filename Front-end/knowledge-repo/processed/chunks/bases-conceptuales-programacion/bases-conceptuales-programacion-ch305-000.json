@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch305-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 305,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 122,
+  "words": 122,
+  "content": "# (1-Z,2-I,3-L,4-F,5-O,6-S,7-T) . cada tipo tiene una rotaci´on \"natural\" que corresponde a la mnemotecnia . una rotaci´on v´alida va entre 1 y 4 y la codificaci´on sigue el sentido de las agujas del reloj (1-natural, 2-1/4 de giro horario, 3-1/2 giro, 4-1/4 de giro antihorario) . el pivote de una pieza puede llevar una marca de exactamente 7 bolitas rojas adicionales - en la zona de juego solo puede haber piezas v´alidas o piso, sin marcar - no hay otra pieza con el mismo c´odigo en la zona de juego - en las zonas de n´umeros solo puede haber d´ıgitos v´alidos o celdas vac´ıas Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 258 of 312 -- 259 ------------------------------------------------- */"
+}

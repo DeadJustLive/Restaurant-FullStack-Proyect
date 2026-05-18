@@ -1,0 +1,23 @@
+# or
+
+## Fuente
+Capítulo 1: Empezando con Node.js 2 (Cap. 146)
+
+## Contenido
+# or
+
+npm i
+npm leerá automáticamente las dependencias de package.json y las instalará.
+NPM detrás de un servidor proxy
+Si su acceso a Internet es a través de un servidor proxy, es posible que deba modificar los
+comandos de instalación de npm que acceden a los repositorios remotos. npm utiliza un archivo
+de configuración que se puede actualizar a través de la línea de comandos:
+npm config set
+Puede localizar la configuración de su proxy desde el panel de configuración de su navegador.
+Una vez que haya obtenido la configuración del proxy (URL del servidor, puerto, nombre de
+usuario y contraseña); necesita configurar sus configuraciones npm de la siguiente manera.
+$ npm config set proxy http://<username>:<password>@<proxy-server-url>:<port>
+$ npm config set https-proxy http://<username>:<password>@<proxy-server-url>:<port>
+username , password , campos de port son opcionales. Una vez que haya configurado esto, su npm
+install npm i -g , npm i -g etc. funcionaría correctamente.
+Alcances y repositorios

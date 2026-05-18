@@ -1,0 +1,27 @@
+# Capítulo 59:: Instalación de Node.js 199
+
+## Fuente
+Capítulo 1: Empezando con Node.js 2 (Cap. 18)
+
+## Contenido
+# Capítulo 59:: Instalación de Node.js 199
+
+Examples 199
+Instala Node.js en Ubuntu 199
+Usando el gestor de paquetes apt 199
+
+-- 14 of 423 --
+
+Usando la última versión específica (ej. LTS 6.x) directamente desde nodesource 199
+Instalación de Node.js en Windows 199
+Usando el administrador de versiones de nodos (nvm) 200
+Instale Node.js From Source con el administrador de paquetes APT 201
+Instalando Node.js en Mac usando el administrador de paquetes 201
+Homebrew 201
+Macports 202
+Instalación utilizando el instalador de MacOS X 202
+Compruebe si Node está instalado 203
+Instalando Node.js en Raspberry PI 203
+Instalación con Node Version Manager bajo Fish Shell con Oh My Fish! 203
+Instale Node.js desde la fuente en Centos, RHEL y Fedora 204
+Instalando Node.js con n 205

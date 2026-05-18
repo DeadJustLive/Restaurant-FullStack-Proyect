@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch080-002",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 80,
+  "chunkIndex": 2,
+  "title": "IBM USA",
+  "start": 900,
+  "end": 989,
+  "words": 89,
+  "content": "cubrir estos casos. De hecho, simplemente debemos utilizar el manejador str y tendremos a disposición la gran mayoría de funciones vistas en la sección de cadenas de texto. Veamos un primer ejemplo en el que pasamos a mayúsculas las ciudades en las que se localizan las empresas tecnológicas: 8.3. pandas 407 -- 411 of 516 -- Aprende Python >>> df[ City ].str.upper() Company Apple CALIFORNIA Samsung Electronics SUWON Alphabet CALIFORNIA Foxconn NEW TAIPEI CITY Microsoft WASHINGTON Huawei SHENZHEN Dell Technologies TEXAS Facebook CALIFORNIA Sony TOKYO Hitachi TOKYO Intel CALIFORNIA"
+}

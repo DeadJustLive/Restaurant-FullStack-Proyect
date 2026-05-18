@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch001-002",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 1,
+  "chunkIndex": 2,
+  "title": "parte d: edicada a la lógica, el orden, la regla y la claridad.”",
+  "start": 900,
+  "end": 1156,
+  "words": 256,
+  "content": "aún se está desarrollando rápidamente, y es lo suficientemente variado como para tener es- pacio para enfoques radicalmente diferentes. Hay muchos errores terribles que cometer en el diseño de programas, y deberías ir y cometerlos al menos una vez para entenderlos. Una noción de cómo es un buen programa se desarrolla con la práctica, no se aprende de una lista de reglas. Por qué importa el lenguaje Al principio, en los inicios de la informática, no existían los lenguajes de pro- gramación. Los programas lucían algo así: 00110001 00000000 00000000 00110001 00000001 00000001 00110011 00000001 00000010 01010001 00001011 00000010 00100010 00000010 00001000 01000011 00000001 00000000 01000001 00000001 00000001 00010000 00000010 00000000 01100010 00000000 00000000 Este es un programa para sumar los números del 1 al 10 y mostrar el resultado: 1 + 2 + ... + 10 = 55. Podría ejecutarse en una máquina hipotética simple. Para programar los primeros ordenadores, era necesario configurar grandes con- juntos de interruptores en la posición correcta o perforar agujeros en tiras de cartón y alimentarlos al ordenador. Puedes imaginar lo tedioso y propenso a errores que era este procedimiento. Incluso escribir programas simples requería mucha astucia y disciplina. Los complejos eran casi inconcebibles. 3 -- 15 of 445 -- Por supuesto, introducir manualmente estos patrones arcanos de bits (los unos y ceros) hacía que el programador se sintiera como un mago poderoso. Y eso debe valer algo en términos de satisfacción laboral. Cada línea del programa anterior contiene una única instrucción. Podría escribirse en inglés de la siguiente manera:"
+}

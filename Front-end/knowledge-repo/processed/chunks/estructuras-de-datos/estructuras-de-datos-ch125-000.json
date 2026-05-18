@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch125-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 125,
+  "chunkIndex": 0,
+  "title": "INGENIERIA DE SISTEMAS",
+  "start": 0,
+  "end": 18,
+  "words": 18,
+  "content": "# 5) Elabore un algoritmo que imprima el recorrido BFS de un grafo representado como matriz de incidencia."
+}

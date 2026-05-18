@@ -1,0 +1,36 @@
+# GENERALIZADA
+
+## Fuente
+estructuras-de-datos (Cap. 167)
+
+## Contenido
+# GENERALIZADA
+
+Se debe tener en cuenta la forma en que se define la hilera de entrada que representa la lista
+generalizada así: paréntesis abierto, átomos, comas, paréntesis cerrado. El algoritmo recibe como
+parámetro de entrada la hilera h que representa el conjunto:
+Void conslg(string s)
+Stack pila=new stack() //estructura pila para las sublistas
+X=new nodolg(null) //consigue nuevo nodo de la lista a crear
+L=x //inicialización de punteros de la lista
+Ultimo =x
+n=longitud(s) // n contiene el tamaño de la cadena s
+for(i=2;i<n;i++) do //ciclo para recorrer la cadena
+Casos para s[i] //casos para determinar que viene en la cadena
+Átomo:
+Ultimo.asignasw(0) //crea el átomo en la lista
+Ultimo.asignadato(s[i])
+“,” x=new nodolg(null) //crea otro nodo para lo que venga
+Ultimo.asignaliga(x) //en la lista a continuación
+Ultimo=x
+“(“ pila.apilar(ultimo) //se debe construir una sublista
+x=new nodolg(null)
+Ultimo.asignasw(1)
+Ultimo.asignadato(x)
+Ultimo=x
+“)” ultimo=pila.desapilar //se terminó de la construcción de la
+//sublista y se debe regresar a la
+
+-- 25 of 64 --
+
+26

@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch001-002",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 1,
+  "chunkIndex": 2,
+  "title": "0. Éstos son una forma práctica de almacenar un conjunto de datos relacionados (como cadenas de",
+  "start": 900,
+  "end": 1053,
+  "words": 153,
+  "content": "devuelve 'function' typeof myObject; // devuelve 'object' typeof myArray; // devuelve 'object' -- tenga cuidado typeof myString; // devuelve 'string' typeof myNumber; // devuelve 'number' typeof null; // devuelve 'object' -- tenga cuidado if (myArray.push && myArray.slice && myArray.join) { // probablemente sea un vector // (este estilo es llamado, en inglés, \"duck typing\") } if (Object.prototype.toString.call(myArray) === '[object Array]') { // definitivamente es un vector; // esta es considerada la forma más robusta // de determinar si un valor es un vector. } jQuery ofrece métodos para ayudar a determinar el tipo de un determinado valor. Estos métodos serán vistos más adelante. 0.2.11. La palabra clave this En JavaScript, así como en la mayoría de los lenguajes de programación orientados a objetos, this es una palabra clave especial que hace referencia al objeto en donde el método está siendo invocado. El valor de this es determinado utilizando una serie de simples pasos:"
+}

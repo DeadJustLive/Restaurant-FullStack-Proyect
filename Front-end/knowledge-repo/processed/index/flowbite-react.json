@@ -1,0 +1,192 @@
+{
+  "id": "flowbite-react",
+  "title": "Flowbite React - Componentes UI",
+  "author": "Flowbite / Themesberg",
+  "pages": 30,
+  "sourceFile": "web/flowbite-react",
+  "processedAt": "2026-05-17T03:11:43.784706",
+  "method": "web",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-alert.md",
+      "words": 826
+    },
+    {
+      "index": 2,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-avatar.md",
+      "words": 826
+    },
+    {
+      "index": 3,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-badge.md",
+      "words": 826
+    },
+    {
+      "index": 4,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-breadcrumb.md",
+      "words": 826
+    },
+    {
+      "index": 5,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-button-group.md",
+      "words": 826
+    },
+    {
+      "index": 6,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-card.md",
+      "words": 826
+    },
+    {
+      "index": 7,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-carousel.md",
+      "words": 826
+    },
+    {
+      "index": 8,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-datepicker.md",
+      "words": 826
+    },
+    {
+      "index": 9,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-dropdown.md",
+      "words": 826
+    },
+    {
+      "index": 10,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-footer.md",
+      "words": 826
+    },
+    {
+      "index": 11,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-forms.md",
+      "words": 826
+    },
+    {
+      "index": 12,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-kbd.md",
+      "words": 826
+    },
+    {
+      "index": 13,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-modal.md",
+      "words": 826
+    },
+    {
+      "index": 14,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-navbar.md",
+      "words": 826
+    },
+    {
+      "index": 15,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-pagination.md",
+      "words": 826
+    },
+    {
+      "index": 16,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-progress.md",
+      "words": 826
+    },
+    {
+      "index": 17,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-sidebar.md",
+      "words": 826
+    },
+    {
+      "index": 18,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-spinner.md",
+      "words": 826
+    },
+    {
+      "index": 19,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-table.md",
+      "words": 826
+    },
+    {
+      "index": 20,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-tabs.md",
+      "words": 826
+    },
+    {
+      "index": 21,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-toast.md",
+      "words": 826
+    },
+    {
+      "index": 22,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-components-tooltip.md",
+      "words": 826
+    },
+    {
+      "index": 23,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-customize-dark-mode.md",
+      "words": 826
+    },
+    {
+      "index": 24,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-customize-theme.md",
+      "words": 826
+    },
+    {
+      "index": 25,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-forms-file-input.md",
+      "words": 826
+    },
+    {
+      "index": 26,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-getting-started-introduction.md",
+      "words": 826
+    },
+    {
+      "index": 27,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-getting-started-quickstart.md",
+      "words": 826
+    },
+    {
+      "index": 28,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-typography-blockquote.md",
+      "words": 826
+    },
+    {
+      "index": 29,
+      "title": "Use with Next.js - Flowbite React",
+      "file": "chapters/web/flowbite-react/docs-typography-list.md",
+      "words": 826
+    },
+    {
+      "index": 30,
+      "title": "Components / Accordion - Always open ⋅ Storybook",
+      "file": "chapters/web/flowbite-react/home.md",
+      "words": 37
+    }
+  ],
+  "learningIntegrated": true
+}

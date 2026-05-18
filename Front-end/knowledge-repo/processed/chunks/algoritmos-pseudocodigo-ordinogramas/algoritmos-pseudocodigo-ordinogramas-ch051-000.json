@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch051-000",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 51,
+  "chunkIndex": 0,
+  "title": "1. Se ejecuta el bloque de instrucciones y, después, si la condición se evalúa a falsa, el",
+  "start": 0,
+  "end": 38,
+  "words": 38,
+  "content": "# 1. Se ejecuta el bloque de instrucciones y, después, si la condición se evalúa a falsa, el bloque de instrucciones no se vuelve a ejecutar, de manera que, el bucle hacer...mientras finaliza, habiendo realizado una sola iteración."
+}

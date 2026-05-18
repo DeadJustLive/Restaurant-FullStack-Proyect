@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch046-010",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 46,
+  "chunkIndex": 10,
+  "title": "Capítulo 6.",
+  "start": 4500,
+  "end": 4577,
+  "words": 77,
+  "content": "una función que espera una diferencia de tiempo como argumento y dibuja un solo fotograma. Cuando la función de fotograma devuelve el valor false, la animación se detiene. function runAnimation(frameFunc) { let lastTime = null; function frame(time) { if (lastTime != null) { let timeStep = Math.min(time - lastTime, 100) / 1000; if (frameFunc(timeStep) === false) return; } lastTime = time; requestAnimationFrame(frame); } requestAnimationFrame(frame); } He establecido un paso de fotograma máximo de 100 milisegundos (una décima"
+}

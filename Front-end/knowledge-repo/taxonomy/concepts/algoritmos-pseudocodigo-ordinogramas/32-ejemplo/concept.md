@@ -1,0 +1,85 @@
+# EJEMPLO
+
+## Fuente
+algoritmos-pseudocodigo-ordinogramas (Cap. 32)
+
+## Contenido
+# EJEMPLO
+
+enumerado direcciones { NORTE, SUR, ESTE, OESTE }
+direccion_de_un_coche
+direcciones direccion_de_un_avion = SUR,
+direccion_de_un_camion
+
+-- 41 of 180 --
+
+Libro de Algoritmos de “Abrirllave.com” 42 / 180
+4.2. Datos de tipos subrangos
+En lenguaje C no existen datos de tipos subrangos, ya que, el programador no puede definir
+tipos de datos subrango en este lenguaje. No obstante, otros lenguajes de programación sí
+permiten definirlos.
+Un dato de un tipo subrango es aquel que puede tomar por valor uno de los pertenecientes a
+un subrango definido por el programador.
+Matemáticamente, un rango es el conjunto de valores comprendidos entre un valor mínimo y
+un valor máximo, ambos inclusive. Por ejemplo, suponiendo que el ordenador –utilizando
+dieciséis bits– puede representar el siguiente conjunto de valores enteros:
+{ -32768, -32767, ..., -1, 0, 1, ..., 32766, 32767 }
+Los valores mínimo y máximo de ese rango son los números -32768 y 32767, respectivamente.
+Pues bien, un subrango es un subconjunto de valores de un rango.
+EJEMPLO Del rango { -32768, ..., 0, ..., 32767 } posibles subrangos son:
+{ 1, 2, 3, 4, 5, 6 }
+{ 0, 1, 2, ..., 8, 9, 10 }
+{ -10, -9, -8, -7 }
+{ -3, -2, -1, ..., 5, 6, 7 }
+{ 1240, 1241, 1243, ..., 2999, 3000, 3001 }
+EJEMPLO Sin embargo, al rango { -32768, ..., 0, ..., 32767 } no pertenecen los siguientes
+subrangos:
+{ 0, 1, 2, ... 34998, 34999, 35000 }
+{ -50000, -49999, -49998, ..., 49998, 49999, 50000 }
+Como se puede observar, el conjunto de valores de un subrango también está comprendido
+entre un valor mínimo y un valor máximo. Además, en el subrango tienen que estar todos los
+elementos que están en el rango entre ambos valores.
+EJEMPLO Así pues, del rango { -32768, ..., 0, ..., 32767 }, los siguientes conjuntos no pueden
+ser considerados como subrangos:
+{ 2, 4, 6, 8, 10 }
+{ 1, 2, 4, 8, 16, 32 }
+Todos los datos de tipos subrangos son ordinales, es decir, solamente pueden tomar por valor
+elementos de subrangos finitos.
+
+-- 42 of 180 --
+
+Libro de Algoritmos de “Abrirllave.com” 43 / 180
+4.2.1. Declaración de tipos subrangos
+En pseudocódigo, para declarar un tipo de dato subrango, se puede utilizar la sintaxis:
+<nombre_del_tipo> = <valor_mínimo>..<valor_máximo>
+O también:
+subrango <nombre_del_tipo> = <valor_mínimo>..<valor_máximo>
+EJEMPLO Suponiendo que la calificación de una asignatura sea dada con un valor
+perteneciente al subrango { 0, 1, 2, ..., 8, 9, 10 } del rango { -32768, ..., 0, ..., 32767 }, para
+declarar el tipo subrango calificaciones, se debe escribir:
+subrango calificaciones = 0..10
+Ha aparecido un nuevo símbolo reservado.
+.. Separador del valor mínimo y máximo de un subrango.
+Y el símbolo reservado igual (=) ha vuelto a aparecer.
+= Separador del identificador de un tipo de dato subrango y del subrango
+asignado al mismo.
+4.2.2. Variables de tipos subrangos
+Una variable de un tipo subrango representa a un espacio de memoria en donde se puede
+almacenar un dato de un tipo subrango.
+EJEMPLO Dadas las declaraciones:
+subrango calificaciones = 0..10
+calificaciones matematicas
+matematicas es una variable del tipo subrango calificaciones. En consecuencia, en el
+espacio de memoria representado por la variable se podrá almacenar uno de los valores del
+conjunto { 0, 1, 2, ..., 8, 9, 10 }.
+EJEMPLO Las declaraciones del ejemplo anterior se pueden combinar de la forma siguiente:
+subrango calificaciones = 0..10 matematicas
+
+-- 43 of 180 --
+
+Libro de Algoritmos de “Abrirllave.com” 44 / 180
+EJEMPLO También, se pueden combinar prescindiendo del nombre –identificador– del tipo
+de dato subrango.
+subrango 0..10 matematicas
+Varias variables del mismo tipo de dato subrango se pueden declarar de diferentes formas. A
+continuación, se muestran algunos ejemplos.

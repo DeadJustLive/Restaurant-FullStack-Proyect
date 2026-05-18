@@ -1,0 +1,18 @@
+# 2.3 	Desarrollo y Contribuciones Clave
+
+## Fuente
+guia-scrum-european (Cap. 23)
+
+## Contenido
+# 2.3 	Desarrollo y Contribuciones Clave
+
+A lo largo de los años, Scrum ha sido enriquecido y refinado por numerosas contribuciones de la
+comunidad global. Las ceremonias, roles y artefactos de Scrum, que hoy en día son bien conocidos,
+fueron estandarizados y ampliamente difundidos a través de materiales como la "Guía Scrum" de
+Schwaber y Sutherland, que se actualiza periódicamente para reflejar las mejores prácticas y
+aprendizajes emergentes de la comunidad ágil. La guia se enriquece de las experiencias reales en
+empresas y sus profesionales con sus mejoras y buenas prácticas. Inicialmente Scrum se diseño para
+desarrollar soluciones tecnológicas focalizadas en el Software, hoy en día es utiliza en un gran
+abaníco de sectores como son: Software, Ingeniería, Consultoría, Químicas, Arquitectura, el mundo
+cultural, Legal, etc….
+3 	Fundamentos de Scrum

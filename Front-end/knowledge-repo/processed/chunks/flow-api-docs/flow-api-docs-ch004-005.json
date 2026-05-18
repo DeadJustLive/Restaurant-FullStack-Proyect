@@ -1,0 +1,11 @@
+{
+  "id": "flow-api-docs-ch004-005",
+  "bookId": "flow-api-docs",
+  "chapterIndex": 4,
+  "chunkIndex": 5,
+  "title": "Flow Merchant.postman collection.json",
+  "start": 2250,
+  "end": 2490,
+  "words": 240,
+  "content": "\"value\": \"<string>\" } ] } }, \"status\": \"Bad Request\", \"code\": 400, \"_postman_previewlanguage\": \"json\", \"header\": [ { \"key\": \"Content-Type\", \"value\": \"application/json\" } ], \"cookie\": [], \"body\": \"{\\n \\\"code\\\": 401,\\n \\\"message\\\": \\\"Bad Request\\\"\\n}\" } ] } ], \"event\": [ { \"listen\": \"prerequest\", \"script\": { \"id\": \"0e9902ef-8995-47c4-bad8-0b27c8c5af75\", \"type\": \"text/javascript\", \"exec\": [ \"pm.environment.set(\\\"CommerceOrder\\\", Math.round(Math.random() * 1000000));\", \"var toSign = getToSign();\", \"console.log(toSign);\", \"var hash = CryptoJS.HmacSHA256(toSign, pm.variables.get(\\\"secretKey\\\"));\", \"pm.environment.set(\\\"Signature\\\", hash.toString());\", \"\", \"\", \"function getToSign() {\", \" var textToSign = \\\"\\\";\", \" var data;\", \" var params = new Map()\", \" if(request.method === \\\"POST\\\") {\", \" data = request.data;\", \" } else if(request.method === \\\"GET\\\") {\", \" data = getUrlVars(request.url);\", \" }\", \" for(var name in data) {\", \" if(name === \\\"s\\\" ) {\", \" continue;\", \" }\", \" var value = data[name];\", \" if (value.startsWith('{{')) {\", \" value = pm.variables.get(clearEnvironment(value)); \", \" }\", \" params.set(name, value);\", \" }\", \" var sortedKeys = Array.from(params.keys()).sort();\", \" for (var param of sortedKeys) {\", \" console.log(param);\", \" textToSign += param + params.get(param);\", \" }\", \" return textToSign;\", \"}\", \"\", \"function getUrlVars(url) {\", \" var vars = {};\", \" var parts = url.replace(/[?&]+([^=&]+)=([^&]*)/gi, \", \" function(m,key,value) {\", \" vars[key] = value;\", \" });\", \" return vars;\", \" }\", \"\", \"function clearEnvironment(key) {\", \" return key.replace('{{','').replace('}}','')\", \"}\" ] } }, { \"listen\": \"test\", \"script\": { \"id\": \"f02978a4-c4c2-4a3b-919e-34ded4afd0a9\", \"type\": \"text/javascript\", \"exec\": [ \"//Check response code\", \"pm.test(\\\"Status code is 200\\\", function () {\", \" pm.response.to.have.status(200);\", \"});\" ] } } ], \"protocolProfileBehavior\": {} } ```"
+}

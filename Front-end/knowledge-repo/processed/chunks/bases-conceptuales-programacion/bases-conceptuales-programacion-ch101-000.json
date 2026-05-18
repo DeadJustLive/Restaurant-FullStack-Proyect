@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch101-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 101,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 24,
+  "words": 24,
+  "content": "# PROP´OSITO: * agregar tantos aliados en la celda actual como enemigos hay en la celda lindante al Norte, m´as uno (si hay enemigos)"
+}

@@ -1,0 +1,113 @@
+{
+  "nodes": [
+    {
+      "id": "ch-typescript-introduccion-adictos-trabajo-01",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.209Z"
+    },
+    {
+      "id": "ch-typescript-introduccion-adictos-trabajo-02",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.209Z"
+    },
+    {
+      "id": "ch-typescript-introduccion-adictos-trabajo-03",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.209Z"
+    },
+    {
+      "id": "ch-typescript-introduccion-adictos-trabajo-04",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.209Z"
+    },
+    {
+      "id": "ch-typescript-introduccion-adictos-trabajo-05",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.210Z"
+    },
+    {
+      "id": "ch-typescript-introduccion-adictos-trabajo-06",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.210Z"
+    },
+    {
+      "id": "ch-typescript-introduccion-adictos-trabajo-07",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.210Z"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pdf-typescript-introduccion-adictos-trabajo",
+      "to": "ch-typescript-introduccion-adictos-trabajo-01",
+      "label": "cap. 1"
+    },
+    {
+      "from": "pdf-typescript-introduccion-adictos-trabajo",
+      "to": "ch-typescript-introduccion-adictos-trabajo-02",
+      "label": "cap. 2"
+    },
+    {
+      "from": "ch-typescript-introduccion-adictos-trabajo-01",
+      "to": "ch-typescript-introduccion-adictos-trabajo-02",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-typescript-introduccion-adictos-trabajo",
+      "to": "ch-typescript-introduccion-adictos-trabajo-03",
+      "label": "cap. 3"
+    },
+    {
+      "from": "ch-typescript-introduccion-adictos-trabajo-02",
+      "to": "ch-typescript-introduccion-adictos-trabajo-03",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-typescript-introduccion-adictos-trabajo",
+      "to": "ch-typescript-introduccion-adictos-trabajo-04",
+      "label": "cap. 4"
+    },
+    {
+      "from": "ch-typescript-introduccion-adictos-trabajo-03",
+      "to": "ch-typescript-introduccion-adictos-trabajo-04",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-typescript-introduccion-adictos-trabajo",
+      "to": "ch-typescript-introduccion-adictos-trabajo-05",
+      "label": "cap. 5"
+    },
+    {
+      "from": "ch-typescript-introduccion-adictos-trabajo-04",
+      "to": "ch-typescript-introduccion-adictos-trabajo-05",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-typescript-introduccion-adictos-trabajo",
+      "to": "ch-typescript-introduccion-adictos-trabajo-06",
+      "label": "cap. 6"
+    },
+    {
+      "from": "ch-typescript-introduccion-adictos-trabajo-05",
+      "to": "ch-typescript-introduccion-adictos-trabajo-06",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-typescript-introduccion-adictos-trabajo",
+      "to": "ch-typescript-introduccion-adictos-trabajo-07",
+      "label": "cap. 7"
+    },
+    {
+      "from": "ch-typescript-introduccion-adictos-trabajo-06",
+      "to": "ch-typescript-introduccion-adictos-trabajo-07",
+      "label": "siguiente"
+    }
+  ]
+}

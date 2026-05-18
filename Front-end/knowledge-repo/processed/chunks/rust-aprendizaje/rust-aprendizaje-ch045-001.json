@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch045-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 45,
+  "chunkIndex": 1,
+  "title": "CMYK",
+  "start": 450,
+  "end": 702,
+  "words": 252,
+  "content": "// content\" because user_ref is a borrowed value but token expects an owned value. match user_ref { &User { token } => println!(\"User token exists? {}\", token.is_some()) } https://riptutorial.com/es/home 74 -- 88 of 188 -- // By adding 'ref' to our pattern we instruct the compiler to give us a reference // instead of an owned value. match user_ref { &User { ref token } => println!(\"User token exists? {}\", token.is_some()) } // We can also combine ref with destructuring match user_ref { // 'ref' will allow us to access the token inside of the Option by reference &User { token: Some(ref user_token) } => println!(\"Token value: {}\", user_token.id ), &User { token: None } => println!(\"There was no token assigned to the user\" ) } // References can be mutable too, let's create another user to demonstrate this let mut other_user = User { token: Some(Token { id: 4 }) }; // Take a mutable reference to the user let other_user_ref_mut = &mut other_user; match other_user_ref_mut { // 'ref mut' gets us a mutable reference allowing us to change the contained value directly. &mut User { token: Some(ref mut user_token) } => { user_token.id = 5; println!(\"New token value: {}\", user_token.id ) }, &mut User { token: None } => println!(\"There was no token assigned to the user\" ) } } Se imprimirá esto: User token exists? true Token value: 3 New token value: 5 Lea La coincidencia de patrones en línea: https://riptutorial.com/es/rust/topic/1188/la-coincidencia- de-patrones https://riptutorial.com/es/home 75 -- 89 of 188 --"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "css3-javascript-avanzado-ch015-001",
+  "bookId": "css3-javascript-avanzado",
+  "chapterIndex": 15,
+  "chunkIndex": 1,
+  "title": "6) Definición única de elementos mediante ids y agrupamiento de atributos",
+  "start": 450,
+  "end": 531,
+  "words": 81,
+  "content": "las funcionalidades especificadas por el W3C. A grandes rasgos, todos implementan la especificación, pero en las ex- cepciones hay matices y cada navegador tiene sus características a la hora de dibujar (render) el contenido con la hoja de estilos. 1.3. Familias de navegadores Hablamos de familias de navegadores para especificar las diferentes tecnolo- gías de dibujo que contienen, y así poder agrupar las distintas versiones de navegadores de una manera sencilla para el desarrollador. Así, podemos des- tacar cuatro grandes familias:"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch093-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 93,
+  "chunkIndex": 1,
+  "title": "Capítulo 53:: Gestor de paquetes de hilo",
+  "start": 450,
+  "end": 581,
+  "words": 131,
+  "content": "\"main\": \"index.js\", \"author\": \"StackOverflow Documentation\", \"license\": \"MIT\" } Ahora intentemos agregar una dependencia. La sintaxis básica para esto es yarn add [package- name] Ejecuta lo siguiente para instalar ExpressJS yarn add express Esto agregará una sección de dependencies a su package.json , y agregará ExpressJS \"dependencies\": { \"express\": \"^4.15.2\" } Instalar el paquete con hilo Yarn usa el mismo registro que npm. Eso significa que cada paquete que está disponible en npm es el mismo en Yarn. Para instalar un paquete, ejecute yarn add package . Si necesita una versión específica del paquete, puede usar yarn add package@version . Si la versión que necesita instalar ha sido etiquetada, puede usar yarn add package@tag . Lea Gestor de paquetes de hilo en línea: https://riptutorial.com/es/node-js/topic/9441/gestor-de- paquetes-de-hilo https://riptutorial.com/es/home 187 -- 215 of 423 --"
+}

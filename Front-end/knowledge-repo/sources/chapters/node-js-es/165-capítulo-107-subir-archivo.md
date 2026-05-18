@@ -1,0 +1,119 @@
+# Capítulo 107:: Subir archivo
+
+Examples
+Carga de un solo archivo usando multer
+Recuerda
+crear carpeta para subir ( uploads en el ejemplo).	•
+instalar multer npm i -S multer	•
+server.js :
+var express = require("express");
+var multer = require('multer');
+var app = express();
+var fs = require('fs');
+app.get('/',function(req,res){
+res.sendFile(__dirname + "/index.html");
+});
+var storage = multer.diskStorage({
+destination: function (req, file, callback) {
+fs.mkdir('./uploads', function(err) {
+if(err) {
+console.log(err.stack)
+} else {
+callback(null, './uploads');
+}
+})
+},
+filename: function (req, file, callback) {
+callback(null, file.fieldname + '-' + Date.now());
+}
+});
+app.post('/api/file',function(req,res){
+var upload = multer({ storage : storage}).single('userFile');
+upload(req,res,function(err) {
+if(err) {
+return res.end("Error uploading file.");
+}
+res.end("File is uploaded");
+});
+});
+app.listen(3000,function(){
+console.log("Working on port 3000");
+});
+index.html :
+<form id = "uploadForm"
+https://riptutorial.com/es/home 370
+
+-- 398 of 423 --
+
+enctype = "multipart/form-data"
+action = "/api/file"
+method = "post"
+>
+<input type="file" name="userFile" />
+<input type="submit" value="Upload File" name="submit">
+</form>
+Nota:
+Para cargar un archivo con extensión, puede usar la biblioteca incorporada de ruta Node.js
+Para eso solo se requiere la path al archivo server.js :
+var path = require('path');
+y cambio:
+callback(null, file.fieldname + '-' + Date.now());
+añadiendo una extensión de archivo de la siguiente manera:
+callback(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname));
+Cómo filtrar la carga por extensión:
+En este ejemplo, vea cómo cargar archivos para permitir solo ciertas extensiones.
+Por ejemplo solo extensiones de imágenes. Solo agregue a var upload = multer({ storage :
+storage}).single('userFile'); condición fileFilter
+var upload = multer({
+storage: storage,
+fileFilter: function (req, file, callback) {
+var ext = path.extname(file.originalname);
+if(ext !== '.png' && ext !== '.jpg' && ext !== '.gif' && ext !== '.jpeg') {
+return callback(new Error('Only images are allowed'))
+}
+callback(null, true)
+}
+}).single('userFile');
+Ahora puede cargar solo archivos de imagen con las extensiones png , jpg , gif o jpeg
+Usando módulo formidable
+Instalar módulo y leer documentos.
+https://riptutorial.com/es/home 371
+
+-- 399 of 423 --
+
+npm i formidable@latest
+Ejemplo de servidor en el puerto 8080
+var formidable = require('formidable'),
+http = require('http'),
+util = require('util');
+http.createServer(function(req, res) {
+if (req.url == '/upload' && req.method.toLowerCase() == 'post') {
+// parse a file upload
+var form = new formidable.IncomingForm();
+form.parse(req, function(err, fields, files) {
+if (err)
+do-smth; // process error
+// Copy file from temporary place
+// var fs = require('fs');
+// fs.rename(file.path, <targetPath>, function (err) { ... });
+// Send result on client
+res.writeHead(200, {'content-type': 'text/plain'});
+res.write('received upload:\n\n');
+res.end(util.inspect({fields: fields, files: files}));
+});
+return;
+}
+// show a file upload form
+res.writeHead(200, {'content-type': 'text/html'});
+res.end(
+'<form action="/upload" enctype="multipart/form-data" method="post">'+
+'<input type="text" name="title"><br>'+
+'<input type="file" name="upload" multiple="multiple"><br>'+
+'<input type="submit" value="Upload">'+
+'</form>'
+);
+}).listen(8080);
+Lea Subir archivo en línea: https://riptutorial.com/es/node-js/topic/4080/subir-archivo
+https://riptutorial.com/es/home 372
+
+-- 400 of 423 --

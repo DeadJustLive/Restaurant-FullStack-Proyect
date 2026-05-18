@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch310-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 310,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 7,
+  "words": 7,
+  "content": "# K_J, K_ARROW_LEFT -> { OperacionMoverPiezaAl(Oeste) }"
+}

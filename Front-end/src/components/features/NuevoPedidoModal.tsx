@@ -4,6 +4,8 @@ import { Input } from '../ui/Input';
 import { Badge } from '../ui/Badge';
 import { X, Plus, Minus, Search, ShoppingCart } from 'lucide-react';
 import { cn } from '../../utils/utils';
+import { useFetch } from '../../hooks/useFetch';
+import { apiMenu } from '../../api/axios';
 
 /**
  * @MOCK — Imports de datos simulados.
@@ -46,13 +48,16 @@ export const NuevoPedidoModal: React.FC<NuevoPedidoModalProps> = ({
   const [notasGenerales, setNotasGenerales] = useState('');
   const [activeCategory, setActiveCategory] = useState<string>('Todos');
 
+  const { data: fetchedMenuItems } = useFetch<MenuItemMock[]>(apiMenu, '/items/disponibles');
+  const menuItems = fetchedMenuItems || MOCK_MENU_ITEMS;
+
   /** @MOCK — Menú disponible filtrado */
-  const menuDisponible = MOCK_MENU_ITEMS.filter(item => item.disponible);
+  const menuDisponible = menuItems.filter(item => item.disponible);
 
   const categorias = useMemo(() => {
     const cats = [...new Set(menuDisponible.map(i => i.categoriaNombre))];
     return ['Todos', ...cats];
-  }, []);
+  }, [menuDisponible]);
 
   const filteredItems = menuDisponible.filter(item => {
     const matchSearch = item.nombre.toLowerCase().includes(searchTerm.toLowerCase());

@@ -3,6 +3,9 @@ package cl.triskeledu.auth.controller;
 import cl.triskeledu.auth.dto.request.LoginRequestDTO;
 import cl.triskeledu.auth.dto.request.RegisterRequestDTO;
 import cl.triskeledu.auth.dto.response.AuthResponseDTO;
+import cl.triskeledu.auth.entity.UserCredential;
+import cl.triskeledu.auth.entity.enums.RolUsuario;
+import cl.triskeledu.auth.repository.UserCredentialRepository;
 import cl.triskeledu.auth.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -49,6 +52,7 @@ import org.springframework.web.bind.annotation.*;
 public class AuthController {
 
     private final AuthService authService;
+    private final UserCredentialRepository userCredentialRepository;
 
     // =========================================================================
     // ENDPOINT: POST /api/v1/auth/register
@@ -230,24 +234,61 @@ public class AuthController {
      */
     @GetMapping("/validar-acceso")
     public ResponseEntity<PermisoResponseDTO> validarAcceso(
-            @RequestParam("credencialId") Long credencialId, 
-            @RequestParam("modulo") String modulo, 
+            @RequestParam("credencialId") Long credencialId,
+            @RequestParam("modulo") String modulo,
             @RequestParam("accion") String accion) {
-        
-        log.info("Feign Request: Validando acceso de credencial {} para módulo {}", credencialId, modulo);
-        
-        // TODO: Aquí el desarrollador debe implementar la búsqueda del usuario/roles en base de datos.
-        // Como scaffolding, devolveremos "true" si la petición llega, asumiendo que el usuario es válido temporalmente.
-        // Lo ideal: 
-        // UserCredential cred = userCredentialRepository.findById(credencialId)...
-        // boolean tienePermiso = cred.getRoles().stream().anyMatch(r -> r.getName().contains("ADMIN") || r.getName().contains(modulo));
-        
-        boolean esValido = true; // Lógica pendiente de base de datos
-        
-        if (esValido) {
-            return ResponseEntity.ok(PermisoResponseDTO.builder().permitido(true).mensaje("Acceso Concedido").build());
-        } else {
-            return ResponseEntity.ok(PermisoResponseDTO.builder().permitido(false).mensaje("Acceso Denegado").build());
+
+        log.info("[AuthController] Feign Request: Validando acceso de credencial {} para módulo {} acción {}", credencialId, modulo, accion);
+
+        UserCredential cred = userCredentialRepository.findById(credencialId).orElse(null);
+
+        if (cred == null) {
+            log.warn("[AuthController] Credencial no encontrada: {}", credencialId);
+            return ResponseEntity.ok(PermisoResponseDTO.builder().permitido(false).mensaje("Credencial no encontrada").build());
         }
+
+        if (!cred.getActivo()) {
+            log.warn("[AuthController] Credencial desactivada: {}", credencialId);
+            return ResponseEntity.ok(PermisoResponseDTO.builder().permitido(false).mensaje("Cuenta desactivada").build());
+        }
+
+        RolUsuario rol = cred.getRol();
+        boolean permitido = switch (rol) {
+            case ROLE_SA -> true;
+            case ROLE_AD -> true;
+            case ROLE_CO -> switch (modulo.toUpperCase()) {
+                case "PEDIDOS", "INVENTARIO", "MENU" -> switch (accion.toUpperCase()) {
+                    case "LECTURA", "ESCRITURA" -> true;
+                    default -> false;
+                };
+                default -> "LECTURA".equals(accion.toUpperCase());
+            };
+            case ROLE_RP -> switch (modulo.toUpperCase()) {
+                case "DELIVERY", "PEDIDOS" -> switch (accion.toUpperCase()) {
+                    case "LECTURA", "ESCRITURA" -> true;
+                    default -> false;
+                };
+                default -> "LECTURA".equals(accion.toUpperCase());
+            };
+            case ROLE_ME -> switch (modulo.toUpperCase()) {
+                case "PEDIDOS", "MENU", "PAGOS" -> switch (accion.toUpperCase()) {
+                    case "LECTURA", "ESCRITURA" -> true;
+                    default -> false;
+                };
+                default -> "LECTURA".equals(accion.toUpperCase());
+            };
+            case ROLE_CL -> "LECTURA".equals(accion.toUpperCase()) && switch (modulo.toUpperCase()) {
+                case "MENU", "PEDIDOS", "CARRITO", "PAGOS" -> true;
+                default -> false;
+            };
+        };
+
+        log.info("[AuthController] Acceso {} para credencial {} rol {} módulo {} acción {}",
+                permitido ? "CONCEDIDO" : "DENEGADO", credencialId, rol, modulo, accion);
+
+        return ResponseEntity.ok(PermisoResponseDTO.builder()
+                .permitido(permitido)
+                .mensaje(permitido ? "Acceso Concedido" : "Acceso Denegado")
+                .build());
     }
 }

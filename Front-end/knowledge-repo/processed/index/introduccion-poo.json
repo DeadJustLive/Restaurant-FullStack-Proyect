@@ -1,0 +1,48 @@
+{
+  "id": "introduccion-poo",
+  "title": "introduccion-poo",
+  "author": "",
+  "pages": 44,
+  "sourceFile": "source-pdfs/introduccion-poo.pdf",
+  "processedAt": "2026-05-17T05:38:50.435Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "1. Introducción........................................................................................ 5",
+      "file": "chapters/introduccion-poo/01-1-introducción-5.md",
+      "words": 37
+    },
+    {
+      "index": 2,
+      "title": "2. Conceptos y principales características....................................... 11",
+      "file": "chapters/introduccion-poo/02-2-conceptos-y-principales-características-11.md",
+      "words": 66
+    },
+    {
+      "index": 3,
+      "title": "3. POO en los distintos lenguajes de programación...................... 31",
+      "file": "chapters/introduccion-poo/03-3-poo-en-los-distintos-lenguajes-de-programación-31.md",
+      "words": 72
+    },
+    {
+      "index": 4,
+      "title": "1. Introducción",
+      "file": "chapters/introduccion-poo/04-1-introducción.md",
+      "words": 2540
+    },
+    {
+      "index": 5,
+      "title": "2. Conceptos y principales características",
+      "file": "chapters/introduccion-poo/05-2-conceptos-y-principales-características.md",
+      "words": 6347
+    },
+    {
+      "index": 6,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "file": "chapters/introduccion-poo/06-3-poo-en-los-distintos-lenguajes-de-programación.md",
+      "words": 6087
+    }
+  ],
+  "learningIntegrated": true
+}

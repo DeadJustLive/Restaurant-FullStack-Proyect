@@ -1,0 +1,31 @@
+# Capítulo 16:: Cierre agraciado
+
+## Fuente
+Capítulo 1: Empezando con Node.js 2 (Cap. 51)
+
+## Contenido
+# Capítulo 16:: Cierre agraciado
+
+Examples
+Cierre agraciado - SIGTERM
+Al usar server.close () y process.exit () , podemos detectar la excepción del servidor y hacer un
+cierre correcto.
+var http = require('http');
+var server = http.createServer(function (req, res) {
+setTimeout(function () { //simulate a long request
+res.writeHead(200, {'Content-Type': 'text/plain'});
+res.end('Hello World\n');
+}, 4000);
+}).listen(9090, function (err) {
+console.log('listening http://localhost:9090/');
+console.log('pid is ' + process.pid);
+});
+process.on('SIGTERM', function () {
+server.close(function () {
+process.exit(0);
+});
+});
+Lea Cierre agraciado en línea: https://riptutorial.com/es/node-js/topic/5996/cierre-agraciado
+https://riptutorial.com/es/home 88
+
+-- 116 of 423 --

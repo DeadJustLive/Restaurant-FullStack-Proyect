@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch039-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 39,
+  "chunkIndex": 0,
+  "title": "Implementando un patrón de diseño orientado a objetos",
+  "start": 0,
+  "end": 93,
+  "words": 93,
+  "content": "# Implementando un patrón de diseño orientado a objetos ## Implementando un patrón de diseño orientado a objetos ### DefiniendoPosty creando una nueva instancia en el estado de borrador ### Almacenando el texto del contenido del post ### Asegurando que el contenido de un post en borrador esté vacío ### Solicitar una revisión de los cambios de publicación de su estado ### Agregandoapprovepara cambiar el comportamiento decontent ### ¿Por qué no un enum? ### Trade-offs del State Pattern #### Codificando estados y comportamiento como tipos #### Implementando transiciones como transformaciones en diferentes tipos"
+}

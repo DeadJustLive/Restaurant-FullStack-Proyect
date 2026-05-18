@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch027-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 27,
+  "chunkIndex": 1,
+  "title": "Capítulo 8:: Bucles",
+  "start": 450,
+  "end": 805,
+  "words": 355,
+  "content": "{ println!(\"{}\", val); } Rendimiento esperado: foo bar baz Tenga en cuenta que la iteración sobre el vector de esta manera lo consume (después del bucle for , el vector no se puede usar de nuevo). Esto se debe a que IntoIterator::into_iter mueve a self . IntoIterator también se implementa con &Vec<T> y &mut Vec<T> (obteniendo valores con los tipos &T y &mut T respectivamente) para que pueda evitar el movimiento del vector simplemente pasándolo por referencia: let vector = vec![\"foo\", \"bar\", \"baz\"]; for val in &vector { println!(\"{}\", val); } println!(\"{:?}\", vector); Tenga en cuenta que val es de tipo &&str , ya que vector es de tipo Vec<&str> . Control de bucle Todas las construcciones de bucle permiten el uso de las declaraciones break y continue . Afectan el bucle inmediato (más interno) que lo rodea. Control de bucle básico break termina el bucle: https://riptutorial.com/es/home 24 -- 38 of 188 -- for x in 0..5 { if x > 2 { break; } println!(\"{}\", x); } Salida 0 1 2 continue termina la iteración actual temprano. for x in 0..5 { if x < 2 { continue; } println!(\"{}\", x); } Salida 2 3 4 Control de bucle avanzado Ahora, supongamos que tenemos bucles anidados y queremos break hacia el bucle externo. Luego, podemos usar etiquetas de bucle para especificar a qué bucle se aplica una break o continue . En el siguiente ejemplo, 'outer es la etiqueta dada al bucle externo. 'outer: for i in 0..4 { for j in i..i+2 { println!(\"{} {}\", i, j); if i > 1 { continue 'outer; } } println!(\"--\"); } Salida 0 0 0 1 -- 1 1 1 2 -- 2 2 3 3 Para i > 1 , el bucle interno se itera sólo una vez y -- no se imprimió. https://riptutorial.com/es/home 25 -- 39 of 188 -- Nota: No confunda una etiqueta de bucle con una variable de por vida. Las variables de por vida solo aparecen junto a un & o como un parámetro genérico dentro de <> . Lea Bucles en línea: https://riptutorial.com/es/rust/topic/955/bucles https://riptutorial.com/es/home 26 -- 40 of 188 --"
+}

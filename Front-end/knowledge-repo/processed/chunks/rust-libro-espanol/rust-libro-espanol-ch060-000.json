@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch060-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 60,
+  "chunkIndex": 0,
+  "title": "Permitir múltiples adivinanzas con bucles",
+  "start": 0,
+  "end": 25,
+  "words": 25,
+  "content": "# Permitir múltiples adivinanzas con bucles ## Permitir múltiples adivinanzas con bucles ### Salir después de una adivinanza correcta ### Manejo de entrada no válida"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch003-000",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 3,
+  "chunkIndex": 0,
+  "title": "Capítulo 7:: Auto-desreferenciación 19",
+  "start": 0,
+  "end": 38,
+  "words": 38,
+  "content": "# Capítulo 7:: Auto-desreferenciación 19 Examples 19 El operador de puntos 19 Deref coerciones 19 Usando Deref y AsRef para argumentos de función 20 Implementación Deref para Opción y estructura de contenedor 20 Ejemplo simple de Deref 21"
+}

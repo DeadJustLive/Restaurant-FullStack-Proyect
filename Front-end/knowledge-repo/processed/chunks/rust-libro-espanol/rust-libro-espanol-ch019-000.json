@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch019-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 19,
+  "chunkIndex": 0,
+  "title": "UsandoBox<T>para Apuntar a Datos en el Heap",
+  "start": 0,
+  "end": 57,
+  "words": 57,
+  "content": "# UsandoBox<T>para Apuntar a Datos en el Heap ## UsandoBox<T>para Apuntar a Datos en el Heap ### Usando unBox<T>para Almacenar Datos en el Heap ### Habilitando Tipos Recursivos con Boxes #### Más Información Acerca de la Cons List #### Calculando el Tamaño de un Tipo No Recursivo #### UsandoBox<T>para Obtener un Tipo Recursivo con un Tamaño Conocido"
+}

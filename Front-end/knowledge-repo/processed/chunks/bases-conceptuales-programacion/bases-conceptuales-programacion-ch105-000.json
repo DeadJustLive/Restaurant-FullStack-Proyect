@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch105-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 105,
+  "chunkIndex": 0,
+  "title": "PROP´OSITO:",
+  "start": 0,
+  "end": 19,
+  "words": 19,
+  "content": "# PROP´OSITO: * retorna verdadero si hay alg´un enemigo en las pr´oximas 3 celdas al Norte de la actual"
+}

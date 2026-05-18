@@ -1,0 +1,43 @@
+# 20 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+3
+Como nos preparamos para la planificación
+de Sprint
+OK, el día de la planificación de Sprint se aproxima rápidamente. Una lección
+que hemos aprendido una y otra vez es:
+Lección: Asegúrate de que la Pila de Producto está perfectamente lista antes de
+la reunión de planificación de Sprint.
+¿Y esto qué significa? ¿Que todas las historias deban estar perfectamente bien
+definidas? ¿Qué las estimaciones sean correctas? ¿Qué todas las prioridades
+hayan sido fijadas? ¡No, no y no! Lo que significa realmente es:
+• 	¡La pila de producto debe existir! (¿Podéis imaginároslo?)
+• 	Debería haber una Pila de Producto y un dueño de producto (por
+producto, claro).
+• 	Todos los elementos importantes deberían tener ratios de importancia
+asignados, diferentes ratios de importancia. En realidad, da igual si los
+elementos menos importantes tienen todos el mismo valor, ya que
+probablemente no se discutirán durante la planificación de Sprint en
+cualquier caso. Cualquier historia sobre la que el Dueño de Producto
+piense que tiene una remota posibilidad de incluirse en el Sprint debería
+tener un nivel de importancia único definido. El ratio de importancia se
+emplea solo para ordenar los elementos por relevancia. Así que si el
+elemento A tiene una importancia de 20 y el elemento B una importancia
+de 100, simplemente significa que B es más importante que A. No
+significa que B sea cinco veces más importante que A. Si B tuviera una
+importancia de 21, ¡aun significaría lo mismo! Es útil dejar espacio entre
+la secuencia de números 	por si aparece un elemento C que es más
+importante que A pero menos importante que B. Por supuesto, le
+podríamos dar un ratio de importancia de 20,5 a C, pero queda mal, así
+que en vez de ello dejamos espacio entre números.
+• 	El dueño de producto debe comprender cada historia (normalmente él es
+el autor, pero en algunos casos otras personas añaden solicitudes, que el
+Dueño 	de 	Producto 	puede 	priorizar). 	No 	necesita 	saber 	cómo
+exactamente debe implementarse, pero debería entender por qué la
+historia está ahí.
+Nota: Otras personas aparte del Dueño de Producto pueden añadir sus historias
+a la Pila de Producto. Pero no pueden asignarles niveles de importancia, ese es
+Versión gratuita on-line.
+Apoya este trabajo, compra la copia impresa:
+http://infoq.com/minibooks/scrum-xp-from- the-trenches
+
+-- 20 of 122 --

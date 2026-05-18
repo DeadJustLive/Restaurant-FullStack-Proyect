@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { PageContainer } from '../layouts/PageContainer';
 import { Card } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
@@ -6,7 +6,8 @@ import { Button } from '../components/ui/Button';
 import { EntregarDeliveryModal } from '../components/features/EntregarDeliveryModal';
 import { CobrarPedidoModal } from '../components/features/CobrarPedidoModal';
 import { Truck, Clock, MapPin, Package, CheckCircle, Phone } from 'lucide-react';
-import { apiPedidos } from '../api/axios';
+import { apiDelivery, apiPedidos } from '../api/axios';
+import { useFetch } from '../hooks/useFetch';
 
 /**
  * @MOCK — Imports de datos simulados.
@@ -50,8 +51,16 @@ const getDeliveryPedidos = (pedidos: PedidoMock[]) =>
  */
 const EntregasPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<DeliveryTab>('TODOS');
+  
+  const { data: fetchedPedidos } = useFetch<PedidoMock[]>(apiDelivery, '/activos');
   /** @MOCK — Estado local de pedidos */
   const [pedidos, setPedidos] = useState<PedidoMock[]>(MOCK_PEDIDOS);
+
+  useEffect(() => {
+    if (fetchedPedidos) {
+      setPedidos(Array.isArray(fetchedPedidos) ? fetchedPedidos : MOCK_PEDIDOS);
+    }
+  }, [fetchedPedidos]);
 
   // Modal: Entregar
   const [entregarOpen, setEntregarOpen] = useState(false);
@@ -123,13 +132,13 @@ const EntregasPage: React.FC = () => {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h2 className="text-2xl font-bold tracking-tight text-surface-900">Entregas (Delivery)</h2>
-          <p className="text-surface-500">
+          <h2 className="text-2xl font-bold tracking-tight text-white">Entregas (Delivery)</h2>
+          <p className="text-surface-400">
             {deliveryPedidos.length} pedidos delivery activos
           </p>
         </div>
         <div className="flex items-center gap-3">
-          <div className="flex items-center gap-2 px-3 py-1.5 bg-green-50 text-green-700 rounded-lg text-sm font-medium">
+          <div className="flex items-center gap-2 px-3 py-1.5 bg-green-500/10 text-green-400 border border-green-500/20 rounded-lg text-sm font-medium">
             <div className="h-2 w-2 rounded-full bg-green-500 animate-pulse" />
             En línea
           </div>
@@ -137,7 +146,7 @@ const EntregasPage: React.FC = () => {
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-1 bg-surface-100 p-1 rounded-xl w-fit overflow-x-auto">
+      <div className="flex gap-1 bg-surface-800 p-1 rounded-xl w-fit overflow-x-auto">
         {TABS.map(tab => {
           const count = tab.value === 'TODOS'
             ? deliveryPedidos.length
@@ -149,12 +158,12 @@ const EntregasPage: React.FC = () => {
               onClick={() => setActiveTab(tab.value)}
               className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all whitespace-nowrap ${
                 activeTab === tab.value
-                  ? 'bg-white text-surface-900 shadow-sm'
-                  : 'text-surface-500 hover:text-surface-700'
+                  ? 'bg-surface-800 text-white shadow-sm'
+                  : 'text-surface-400 hover:text-surface-300'
               }`}
             >
               {tab.label}
-              <span className="bg-surface-200 text-surface-700 text-xs font-semibold px-1.5 py-0.5 rounded-full">
+              <span className="bg-surface-700 text-surface-300 text-xs font-semibold px-1.5 py-0.5 rounded-full">
                 {count}
               </span>
             </button>
@@ -172,16 +181,16 @@ const EntregasPage: React.FC = () => {
       ) : (
         <div className="space-y-3">
           {filteredPedidos.map(pedido => (
-            <Card key={pedido.id} className={`transition-all hover:shadow-md ${
+            <Card key={pedido.id} className={`bg-surface-900/40 backdrop-blur-md border-white/5 text-white transition-all hover:shadow-md ${
               pedido.estado === 'EN_CAMINO' ? 'border-l-4 border-l-primary-500' :
               pedido.estado === 'LISTO' ? 'border-l-4 border-l-green-500' : ''
             }`}>
               <div className="p-4 sm:p-6 flex flex-col sm:flex-row sm:items-center gap-4">
                 {/* Icono de estado */}
                 <div className={`h-12 w-12 rounded-xl flex items-center justify-center shrink-0 ${
-                  pedido.estado === 'EN_CAMINO' ? 'bg-primary-100 text-primary-600' :
-                  pedido.estado === 'LISTO' ? 'bg-green-100 text-green-600' :
-                  'bg-surface-100 text-surface-500'
+                  pedido.estado === 'EN_CAMINO' ? 'bg-primary-500/10 text-primary-300' :
+                  pedido.estado === 'LISTO' ? 'bg-green-500/10 text-green-400' :
+                  'bg-surface-800 text-surface-400'
                 }`}>
                   {pedido.estado === 'EN_CAMINO' ? <Truck className="w-6 h-6" /> :
                    pedido.estado === 'LISTO' ? <Package className="w-6 h-6" /> :
@@ -191,12 +200,12 @@ const EntregasPage: React.FC = () => {
                 {/* Info principal */}
                 <div className="flex-1 min-w-0 space-y-1">
                   <div className="flex items-center gap-2 flex-wrap">
-                    <span className="font-bold text-surface-900">{pedido.numeroPedido}</span>
+                    <span className="font-bold text-white">{pedido.numeroPedido}</span>
                     <Badge variant={getEstadoBadgeVariant(pedido.estado)}>
                       {pedido.estado.replace('_', ' ')}
                     </Badge>
                   </div>
-                  <div className="flex items-center gap-3 text-xs text-surface-500 flex-wrap">
+                  <div className="flex items-center gap-3 text-xs text-surface-400 flex-wrap">
                     <span className="flex items-center gap-1">
                       <Clock className="w-3 h-3" />
                       {tiempoTranscurrido(pedido.creadoEn)}
@@ -212,11 +221,11 @@ const EntregasPage: React.FC = () => {
                       +56 9 1234 5678
                     </span>
                   </div>
-                  <p className="text-xs text-surface-500">
+                  <p className="text-xs text-surface-400">
                     {pedido.items.map(i => `${i.cantidad}x ${i.nombreSnapshot}`).join(', ')}
                   </p>
                   {pedido.notas && (
-                    <p className="text-xs text-yellow-700 bg-yellow-50 px-2 py-1 rounded inline-block">
+                      <p className="text-xs text-yellow-300 bg-yellow-500/10 border border-yellow-500/20 px-2 py-1 rounded inline-block">
                       📝 {pedido.notas}
                     </p>
                   )}
@@ -224,7 +233,7 @@ const EntregasPage: React.FC = () => {
 
                 {/* Precio + Acción */}
                 <div className="flex items-center gap-3 shrink-0">
-                  <span className="text-lg font-bold text-surface-900">{formatPrecio(pedido.total)}</span>
+                  <span className="text-lg font-bold text-white">{formatPrecio(pedido.total)}</span>
                   {(pedido.estado === 'LISTO' || pedido.estado === 'EN_CAMINO') && (
                     <Button
                       variant={pedido.estado === 'EN_CAMINO' ? 'default' : 'outline'}

@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch124-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 124,
+  "chunkIndex": 1,
+  "title": "Capítulo 80:: Multihilo",
+  "start": 450,
+  "end": 530,
+  "words": 80,
+  "content": "new tasks from the parent process.on('message', function(messageFromParent) { //do some intense work here console.log('[Child]', 'Child doing some intense work'); if(messageFromParent == 'Hello') process.send('Hello to you too :)'); else process.send('what?'); }) Junto al mensaje, se pueden escuchar muchos eventos como 'error', 'conectado' o 'desconectar'. Iniciar un proceso hijo tiene un cierto costo asociado. Uno querría engendrar la menor cantidad posible de ellos. https://riptutorial.com/es/home 260 -- 288 of 423 -- Lea Multihilo en línea: https://riptutorial.com/es/node-js/topic/10592/multihilo https://riptutorial.com/es/home 261 -- 289 of 423 --"
+}

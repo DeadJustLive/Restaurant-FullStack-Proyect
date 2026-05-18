@@ -1,0 +1,8 @@
+# Universe age expressed in days
+
+universe_age = 13800 * (10 ** 6) * 365
+Los comentarios también pueden aparecer en la misma línea de código, aunque la guía de
+estilo de Python no aconseja usarlos en demasía:
+Lista 2: Comentario en línea
+stock = 0 # Release additional articles
+Reglas para escribir buenos comentarios:6

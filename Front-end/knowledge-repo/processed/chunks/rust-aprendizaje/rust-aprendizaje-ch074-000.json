@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch074-000",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 74,
+  "chunkIndex": 0,
+  "title": "Capítulo 47:: Tipos de datos primitivos",
+  "start": 0,
+  "end": 196,
+  "words": 196,
+  "content": "# Capítulo 47:: Tipos de datos primitivos Examples Tipos escalares Enteros Firmado: i8 , i16 , i32 , i64 , isize Sin firmar : u8 , u16 , u32 , u64 , usize El tipo de un entero literal, digamos 45 , se deducirá automáticamente del contexto. Pero para forzarlo, agregamos un sufijo: 45u8 (sin espacio) se escribirá u8 . Nota: El tamaño de isize y usize depende de la arquitectura. En el arco de 32 bits, es de 32 bits, y en 64 bits, lo has adivinado! Puntos Flotantes f32 y f64 . Si solo escribe 2.0 , es f64 por defecto, a menos que la inferencia de tipo determine lo contrario. Para forzar f32 , defina la variable con el tipo f32 o el sufijo literal: 2.0f32 . Booleanos bool , teniendo valores true y false . Caracteres char , con valores escritos como 'x' . En las comillas simples, contenga un solo valor escalar Unicode, lo que significa que es válido tener un emoji en él. Aquí hay 3 ejemplos más: '\u0000' , '\\u{3f}' , '\\u{1d160}' . Lea Tipos de datos primitivos en línea: https://riptutorial.com/es/rust/topic/8705/tipos-de-datos- primitivos https://riptutorial.com/es/home 162 -- 176 of 188 --"
+}

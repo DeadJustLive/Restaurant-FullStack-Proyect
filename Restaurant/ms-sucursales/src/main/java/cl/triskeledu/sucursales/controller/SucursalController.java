@@ -26,9 +26,10 @@ public class SucursalController {
     private final SucursalService sucursalService;
 
     @PostMapping
-    public ResponseEntity<SucursalResponseDTO> crear(@Valid @RequestBody SucursalRequestDTO dto) {
+    public ResponseEntity<SucursalResponseDTO> crear(@RequestHeader(value = "X-Credencial-Id", defaultValue = "1") Long credencialId,
+                                                     @Valid @RequestBody SucursalRequestDTO dto) {
         log.info("[SucursalController] POST /sucursales — nombre={}", dto.getNombre());
-        return ResponseEntity.status(HttpStatus.CREATED).body(sucursalService.crear(dto));
+        return ResponseEntity.status(HttpStatus.CREATED).body(sucursalService.crear(credencialId, dto));
     }
 
     @GetMapping("/{id}")
@@ -47,12 +48,14 @@ public class SucursalController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<SucursalResponseDTO> actualizar(@PathVariable Long id, @Valid @RequestBody SucursalRequestDTO dto) {
-        return ResponseEntity.ok(sucursalService.actualizar(id, dto));
+    public ResponseEntity<SucursalResponseDTO> actualizar(@RequestHeader(value = "X-Credencial-Id", defaultValue = "1") Long credencialId,
+                                                          @PathVariable Long id, @Valid @RequestBody SucursalRequestDTO dto) {
+        return ResponseEntity.ok(sucursalService.actualizar(credencialId, id, dto));
     }
 
     @PatchMapping("/{id}/estado")
-    public ResponseEntity<SucursalResponseDTO> cambiarEstado(@PathVariable Long id, @RequestParam Boolean activa) {
-        return ResponseEntity.ok(sucursalService.cambiarEstado(id, activa));
+    public ResponseEntity<SucursalResponseDTO> cambiarEstado(@RequestHeader(value = "X-Credencial-Id", defaultValue = "1") Long credencialId,
+                                                              @PathVariable Long id, @RequestParam Boolean activa) {
+        return ResponseEntity.ok(sucursalService.cambiarEstado(credencialId, id, activa));
     }
 }

@@ -12,7 +12,7 @@ import java.util.List;
  */
 public interface SucursalService {
 
-    SucursalResponseDTO crear(SucursalRequestDTO dto);
+    SucursalResponseDTO crear(Long credencialId, SucursalRequestDTO dto);
 
     SucursalResponseDTO getById(Long id);
 
@@ -20,7 +20,7 @@ public interface SucursalService {
 
     List<SucursalResponseDTO> listarTodas();
 
-    SucursalResponseDTO actualizar(Long id, SucursalRequestDTO dto);
+    SucursalResponseDTO actualizar(Long credencialId, Long id, SucursalRequestDTO dto);
 
-    SucursalResponseDTO cambiarEstado(Long id, Boolean activa);
+    SucursalResponseDTO cambiarEstado(Long credencialId, Long id, Boolean activa);
 }

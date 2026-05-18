@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch095-000",
+  "bookId": "node-js-es",
+  "chapterIndex": 95,
+  "chunkIndex": 0,
+  "title": "Capítulo 55:: Guía para principiantes de",
+  "start": 0,
+  "end": 52,
+  "words": 52,
+  "content": "# Capítulo 55:: Guía para principiantes de NodeJS Examples Hola Mundo ! Coloque el siguiente código en un nombre de archivo helloworld.js console.log(\"Hello World\"); Guarde el archivo y ejecútelo a través de Node.js: node helloworld.js Lea Guía para principiantes de NodeJS en línea: https://riptutorial.com/es/node-js/topic/7693/guia- para-principiantes-de-nodejs https://riptutorial.com/es/home 191 -- 219 of 423 --"
+}

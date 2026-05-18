@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch024-008",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 24,
+  "chunkIndex": 8,
+  "title": "2015. Cualquier función puede ser utilizada como constructor, y antes de 2015",
+  "start": 3600,
+  "end": 3868,
+  "words": 268,
+  "content": "supone que deben comunicarse con tu objeto solo a través de esa interfaz. El resto de los detalles que componen tu objeto están ahora encapsulados, escondidos detrás de la interfaz. Puedes usar propiedades privadas para ocultar una parte de tu objeto del mundo exterior. Más de un tipo puede implementar la misma interfaz. El código escrito para usar una interfaz automáticamente sabe cómo trabajar con cualquier número de objetos diferentes que proporcionen la interfaz. Esto se llama polimorfismo. Cuando se implementan múltiples clases que difieren solo en algunos detalles, puede ser útil escribir las nuevas clases como subclases de una clase existente, 113 -- 125 of 445 -- heredando parte de su comportamiento. Ejercicios Un tipo de vector Escribe una clase Vec que represente un vector en el espacio bidimensional. Toma los parámetros x e y (números), que debería guardar en propiedades del mismo nombre. Dale a la clase Vec dos métodos en su prototipo, plus y minus, que tomen otro vector como parámetro y devuelvan un nuevo vector que tenga la suma o la diferencia de los valores x e y de los dos vectores (this y el parámetro). Agrega una propiedad getter length al prototipo que calcule la longitud del vector, es decir, la distancia del punto (x, y) desde el origen (0, 0). Grupos El entorno estándar de JavaScript proporciona otra estructura de datos llamada Set. Al igual que una instancia de Map, un conjunto contiene una colección de valores. A diferencia de Map, no asocia otros valores con esos, solo realiza un seguimiento de qué valores forman parte del conjunto. Un valor puede formar"
+}

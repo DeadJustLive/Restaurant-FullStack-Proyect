@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch026-000",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 26,
+  "chunkIndex": 0,
+  "title": "ESPACIO_EN_BLANCO = ' '",
+  "start": 0,
+  "end": 29,
+  "words": 29,
+  "content": "# ESPACIO_EN_BLANCO = ' ' EJEMPLO En lenguaje C, y en nuestro pseudocódigo CEE, para representar el carácter comilla simple ('), se debe anteponer el carácter barra invertida (\\)."
+}

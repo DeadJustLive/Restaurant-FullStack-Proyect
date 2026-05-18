@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch012-000",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 12,
+  "chunkIndex": 0,
+  "title": "12 ÍNDICE GENERAL",
+  "start": 0,
+  "end": 500,
+  "words": 500,
+  "content": "# 12 ÍNDICE GENERAL 15.Montículos 187 15.1. ¾Qué son los Montículos? . . . . . . . . . . . . . . . . . . . . . 187 15.2. Representación en Memoria . . . . . . . . . . . . . . . . . . . 189 15.3. Inserción . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 192 15.4. Eliminación . . . . . . . . . . . . . . . . . . . . . . . . . . . . 192 16.Grafos 195 16.1. ¾Qué son los grafos? . . . . . . . . . . . . . . . . . . . . . . . 196 16.2. Propiedades Elementales de los Grafos . . . . . . . . . . . . . 198 16.3. Implementación . . . . . . . . . . . . . . . . . . . . . . . . . . 199 16.4. Recorridos en Grafos . . . . . . . . . . . . . . . . . . . . . . . 201 16.5. Conectividad . . . . . . . . . . . . . . . . . . . . . . . . . . . 205 16.6. Árboles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 206 16.7. Unión y Pertenencia . . . . . . . . . . . . . . . . . . . . . . . 212 16.8. Mejorando el Rendimiento de Unión-Pertenencia . . . . . . . . 214 16.9. Problemas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 218 16.9.1. Una Ciudad Unida . . . . . . . . . . . . . . . . . . . . 218 16.9.2. Abba . . . . . . . . . . . . . . . . . . . . . . . . . . . . 220 16.9.3. Códigos de Prüfer . . . . . . . . . . . . . . . . . . . . . 222 16.10.Sugerencias . . . . . . . . . . . . . . . . . . . . . . . . . . . . 224 V Algoritmos de Ordenamiento II 225 17.Árboles y Ordenamiento 229 17.1. Ordenamiento por Árboles Binarios de Búsqueda . . . ."
+}

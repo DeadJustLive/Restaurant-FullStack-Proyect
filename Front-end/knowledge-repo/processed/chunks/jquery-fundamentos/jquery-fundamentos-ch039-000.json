@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch039-000",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 39,
+  "chunkIndex": 0,
+  "title": "3. Cuando la petición devuelve una respuesta, utilizar el valor seleccionado en el select (ayuda:",
+  "start": 0,
+  "end": 26,
+  "words": 26,
+  "content": "# 3. Cuando la petición devuelve una respuesta, utilizar el valor seleccionado en el select (ayuda: $.fn.val) para buscar la información correspondiente en la respuesta JSON."
+}

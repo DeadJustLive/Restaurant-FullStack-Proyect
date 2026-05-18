@@ -1,0 +1,74 @@
+# Capítulo 0: - Introducción
+
+## Fuente
+Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile (Cap. 1)
+
+## Contenido
+# Capítulo 0: - Introducción
+
+www.guiaweb.gob.cl > 5
+Al respecto, es posible afirmar que en la actualidad existe una gran cantidad
+de información y funcionalidades disponibles a través de las tecnologías de
+información y comunicación y que ha aumentado de manera notable el acceso a
+ellas de los ciudadanos.
+De allí que se haya requerido no sólo considerar la actualización de la Guía Web
+inicial, sino que transformarla en un documento de referencia permanente para los
+encargados del desarrollo de los Sitios Web.
+> Capítulos de la Guía
+Como se ha indicado, este documento es
+una continuación de la Guía Web Versión
+1.0 y nace como su complemento. Mientras
+la 	primera 	versión 	buscaba 	explicar 	la
+forma de llevar adelante un proyecto para generar un Sitio Web, en este caso se
+busca entregar herramientas a los desarrolladores y encargados de contenidos para
+optimizar el Sitio Web que hayan construido. De allí que las secciones de esta
+nueva Guía tengan el propósito de aumentar el rendimiento del Sitio Web, apoyar
+su inserción en motores de búsqueda y utilizar los estándares para asegurar que
+cumplan con las normas vigentes.
+Por lo anterior, esta Guía se publica en conjunto con la versión anterior en el mismo
+Sitio Web, ya que se busca que ambas funcionen de manera complementaria para
+que le ofrezcan a sus lectores y usuarios un abanico completo de información que
+vaya desde la generación de un proyecto hasta la optimización de las funciones del
+Sitio Web que se haya desarrollado.
+Los contenidos de la Guía Web 2.0 están ordenados mediante cinco capítulos más un
+sitio web que complementa su contenido y amplía el alcance de sus aplicaciones.
+Es importante considerar que se ha decidido hacer una diferencia entre los
+nombres de los capítulos en esta versión impresa y los utilizados para efectos de
+navegación en el Sitio Web. Mientras en el impreso se emplean frases como
+nombres de capítulos, en el sitio web se ha referido el uso de palabras con el fin
+de facilitar el acceso a las diferentes secciones. En todo caso, dichas palabras son
+aquellas que permiten referenciar más directamente a los contenidos tratados en
+sus páginas.
+Los contenidos de la Guía
+Web 2.0 están ordenados
+mediante cinco capítulos
+más un sitio web.
+
+-- 5 of 122 --
+
+Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile
+6 < www.guiaweb.gob.cl
+La correspondencia entre ambos y el lugar que ocupan en ambas publicaciones se
+puede revisar en la siguiente tabla:
+A continuación se entrega una breve descripción de cada uno de ellos:
+>> 1. Normas que rigen los Sitios Web: se refiere a las normas oficiales del
+Gobierno que deben ser cumplidas por los Sitios Web, en las que se establecen
+los contenidos mínimos para su operación; en particular hace referencia al
+cumplimiento de los Instructivos Presidenciales más las normativas vigentes en
+estos aspectos.
+>> 	2. 	Aplicación 	de 	Estándares: se
+refiere a cuáles son los estándares que
+debe cumplir el sitio web, haciendo
+especial referencia a lo señalado en las
+normas 	que 	abarcan 	estos 	aspectos.
+Entre ellos se cuentan los referidos a las
+normas de estructura de documentos de
+acuerdo a los estándares para Sitios
+Web y de accesibilidad generados por el
+World Wide Web Consortium (W3C) y las relativas a interoperabilidad.
+>> 	3. Diseño de Interfaces e Interacción: se refiere a la forma en que se
+presentan los contenidos en los Sitios Web; el objetivo de este capítulo es
+explicar de manera práctica la forma de ejecutar la separación de presentación,
+estructura semántica y contenidos, en particular utilizando las tecnologías
+descritas en el Decreto Supremo 100.
+N° CAPÍTULO 	NOMBRE 	NOMBRE SECCIÓN

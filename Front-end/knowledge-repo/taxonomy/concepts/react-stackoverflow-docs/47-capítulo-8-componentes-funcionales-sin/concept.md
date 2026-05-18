@@ -1,0 +1,156 @@
+# Capítulo 8:: Componentes funcionales sin
+
+## Fuente
+react-stackoverflow-docs (Cap. 47)
+
+## Contenido
+# Capítulo 8:: Componentes funcionales sin
+
+estado
+Observaciones
+Los componentes funcionales sin estado en React son funciones puras de los props aprobados.
+Estos componentes no se basan en el estado y descartan el uso de los métodos del ciclo de vida
+de los componentes. Sin embargo, aún puede definir propTypes y defaultPropts .
+Consulte https://facebook.github.io/react/docs/reusable-components.html#stateless-functions para
+obtener más información sobre los componentes funcionales sin estado.
+Examples
+Componente funcional sin estado
+Los componentes le permiten dividir la interfaz de usuario en piezas independientes y reutilizables
+. Esta es la belleza de React; Podemos separar una página en muchos pequeños componentes
+reutilizables.
+Antes de React v14, podríamos crear un componente React con estado utilizando React.Component
+(en ES6) o React.createClass (en ES5), independientemente de si requiere algún estado para
+administrar los datos o no.
+React v14 introdujo una forma más sencilla de definir componentes, generalmente denominados
+componentes funcionales sin estado . Estos componentes utilizan funciones simples de
+JavaScript.
+Por ejemplo:
+function Welcome(props) {
+return <h1>Hello, {props.name}</h1>;
+}
+Esta función es un componente React válido porque acepta un único argumento de objeto de
+props con datos y devuelve un elemento React. Llamamos a estos componentes funcional
+porque son, literalmente, funciones de JavaScript.
+Los componentes funcionales sin estado típicamente se enfocan en la IU; el estado debe ser
+administrado por componentes de "contenedor" de nivel superior, o mediante Flux / Redux, etc.
+Los componentes funcionales sin estado no admiten los métodos de estado o ciclo de vida.
+Beneficios:
+Sin sobrecarga de clase	1.
+https://riptutorial.com/es/home 46
+
+-- 56 of 139 --
+
+No tiene que preocuparse por this palabra clave	2.
+Fácil de escribir y fácil de entender	3.
+No tienes que preocuparte por administrar valores estatales	4.
+Mejora del rendimiento	5.
+Resumen : si está escribiendo un componente React que no requiere estado y desea crear una
+interfaz de usuario reutilizable, en lugar de crear un componente React estándar, puede escribirlo
+como un componente funcional sin estado .
+Tomemos un ejemplo simple:
+Digamos que tenemos una página que puede registrar un usuario, buscar usuarios registrados o
+mostrar una lista de todos los usuarios registrados.
+Este es el punto de entrada de la aplicación, index.js :
+import React from 'react';
+import ReactDOM from 'react-dom';
+import HomePage from './homepage'
+ReactDOM.render(
+<HomePage/>,
+document.getElementById('app')
+);
+El componente HomePage proporciona la IU para registrarse y buscar usuarios. Tenga en cuenta
+que es un componente típico de React que incluye el estado, la IU y el código de comportamiento.
+Los datos para la lista de usuarios registrados se almacenan en la variable de state , pero nuestra
+List reutilizable (que se muestra a continuación) encapsula el código de UI para la lista.
+homepage.js :
+import React from 'react'
+import {Component} from 'react';
+import List from './list';
+export default class Temp extends Component{
+constructor(props) {
+super();
+this.state={users:[], showSearchResult: false, searchResult: []};
+}
+registerClick(){
+let users = this.state.users.slice();
+if(users.indexOf(this.refs.mail_id.value) == -1){
+users.push(this.refs.mail_id.value);
+this.refs.mail_id.value = '';
+this.setState({users});
+}else{
+alert('user already registered');
+}
+}
+https://riptutorial.com/es/home 47
+
+-- 57 of 139 --
+
+searchClick(){
+let users = this.state.users;
+let index = users.indexOf(this.refs.search.value);
+if(index >= 0){
+this.setState({searchResult: users[index], showSearchResult: true});
+}else{
+alert('no user found with this mail id');
+}
+}
+hideSearchResult(){
+this.setState({showSearchResult: false});
+}
+render() {
+return (
+<div>
+<input placeholder='email-id' ref='mail_id'/>
+<input type='submit' value='Click here to register'
+onClick={this.registerClick.bind(this)}/>
+<input style={{marginLeft: '100px'}} placeholder='search' ref='search'/>
+<input type='submit' value='Click here to register'
+onClick={this.searchClick.bind(this)}/>
+{this.state.showSearchResult ?
+<div>
+Search Result:
+<List users={[this.state.searchResult]}/>
+<p onClick={this.hideSearchResult.bind(this)}>Close this</p>
+</div>
+:
+<div>
+Registered users:
+<br/>
+{this.state.users.length ?
+<List users={this.state.users}/>
+:
+"no user is registered"
+}
+</div>
+}
+</div>
+);
+}
+}
+Finalmente, nuestra List componentes funcionales sin estado , que se utiliza muestra tanto la
+lista de usuarios registrados como los resultados de búsqueda, pero sin mantener ningún estado
+en sí.
+list.js :
+import React from 'react';
+var colors = ['#6A1B9A', '#76FF03', '#4527A0'];
+var List = (props) => {
+return(
+<div>
+{
+https://riptutorial.com/es/home 48
+
+-- 58 of 139 --
+
+props.users.map((user, i)=>{
+return(
+<div key={i} style={{color: colors[i%3]}}>
+{user}
+</div>
+);
+})
+}
+</div>
+);
+}
+export default List;
+Referencia: https://fac

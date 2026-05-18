@@ -1,0 +1,3681 @@
+{
+  "nodes": [
+    {
+      "id": "ch-react-aprendiz-maestro-01",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.139Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-02",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.139Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-03",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.139Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-04",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.139Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-05",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.139Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-06",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.139Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-07",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.139Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-08",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-09",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-10",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-11",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-12",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-13",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-14",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-15",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-16",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-17",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-18",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-19",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-20",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-21",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-22",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-23",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.140Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-24",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-25",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-26",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-27",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-28",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-29",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-30",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-31",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-32",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-33",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-34",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-35",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-36",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-37",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.141Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-38",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-39",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-40",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-41",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-42",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-43",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-44",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-45",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-46",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-47",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-48",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-49",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-50",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-51",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-52",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.142Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-53",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-54",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-55",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-56",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-57",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-58",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-59",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-60",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-61",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-62",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-63",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-64",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-65",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-66",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-67",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-68",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-69",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-70",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.143Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-71",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-72",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-73",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-74",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-75",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-76",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-77",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-78",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-79",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-80",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-81",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-82",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-83",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-84",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-85",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.144Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-86",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-87",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-88",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-89",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-90",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-91",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-92",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-93",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-94",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-95",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-96",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-97",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-98",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-99",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-100",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-101",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.145Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-102",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-103",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-104",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-105",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-106",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-107",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-108",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-109",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-110",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-111",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-112",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-113",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-114",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-115",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-116",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-117",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.146Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-118",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-119",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-120",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-121",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-122",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-123",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-124",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-125",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-126",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-127",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-128",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-129",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-130",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-131",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-132",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-133",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-134",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.147Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-135",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-136",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-137",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-138",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-139",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-140",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-141",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-142",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-143",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-144",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-145",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-146",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-147",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-148",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.148Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-149",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-150",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-151",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-152",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-153",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-154",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-155",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-156",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-157",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-158",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-159",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-160",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-161",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.149Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-162",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-163",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-164",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-165",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-166",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-167",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-168",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-169",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-170",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-171",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-172",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-173",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-174",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-175",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-176",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-177",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-178",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-179",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.150Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-180",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-181",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-182",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-183",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-184",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-185",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-186",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-187",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-188",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-189",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-190",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-191",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-192",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-193",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-194",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-195",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-196",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.151Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-197",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-198",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-199",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-200",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-201",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-202",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-203",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-204",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-205",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-206",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-207",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-208",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-209",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-210",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-211",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-212",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-213",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.152Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-214",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-215",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-216",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-217",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-218",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-219",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-220",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-221",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-222",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-223",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-224",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-225",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-226",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-227",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-228",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-229",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    },
+    {
+      "id": "ch-react-aprendiz-maestro-230",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:10.153Z"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-01",
+      "label": "cap. 1"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-02",
+      "label": "cap. 2"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-01",
+      "to": "ch-react-aprendiz-maestro-02",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-03",
+      "label": "cap. 3"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-02",
+      "to": "ch-react-aprendiz-maestro-03",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-04",
+      "label": "cap. 4"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-03",
+      "to": "ch-react-aprendiz-maestro-04",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-05",
+      "label": "cap. 5"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-04",
+      "to": "ch-react-aprendiz-maestro-05",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-06",
+      "label": "cap. 6"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-05",
+      "to": "ch-react-aprendiz-maestro-06",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-07",
+      "label": "cap. 7"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-06",
+      "to": "ch-react-aprendiz-maestro-07",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-08",
+      "label": "cap. 8"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-07",
+      "to": "ch-react-aprendiz-maestro-08",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-09",
+      "label": "cap. 9"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-08",
+      "to": "ch-react-aprendiz-maestro-09",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-10",
+      "label": "cap. 10"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-09",
+      "to": "ch-react-aprendiz-maestro-10",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-11",
+      "label": "cap. 11"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-10",
+      "to": "ch-react-aprendiz-maestro-11",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-12",
+      "label": "cap. 12"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-11",
+      "to": "ch-react-aprendiz-maestro-12",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-13",
+      "label": "cap. 13"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-12",
+      "to": "ch-react-aprendiz-maestro-13",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-14",
+      "label": "cap. 14"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-13",
+      "to": "ch-react-aprendiz-maestro-14",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-15",
+      "label": "cap. 15"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-14",
+      "to": "ch-react-aprendiz-maestro-15",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-16",
+      "label": "cap. 16"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-15",
+      "to": "ch-react-aprendiz-maestro-16",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-17",
+      "label": "cap. 17"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-16",
+      "to": "ch-react-aprendiz-maestro-17",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-18",
+      "label": "cap. 18"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-17",
+      "to": "ch-react-aprendiz-maestro-18",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-19",
+      "label": "cap. 19"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-18",
+      "to": "ch-react-aprendiz-maestro-19",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-20",
+      "label": "cap. 20"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-19",
+      "to": "ch-react-aprendiz-maestro-20",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-21",
+      "label": "cap. 21"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-20",
+      "to": "ch-react-aprendiz-maestro-21",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-22",
+      "label": "cap. 22"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-21",
+      "to": "ch-react-aprendiz-maestro-22",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-23",
+      "label": "cap. 23"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-22",
+      "to": "ch-react-aprendiz-maestro-23",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-24",
+      "label": "cap. 24"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-23",
+      "to": "ch-react-aprendiz-maestro-24",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-25",
+      "label": "cap. 25"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-24",
+      "to": "ch-react-aprendiz-maestro-25",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-26",
+      "label": "cap. 26"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-25",
+      "to": "ch-react-aprendiz-maestro-26",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-27",
+      "label": "cap. 27"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-26",
+      "to": "ch-react-aprendiz-maestro-27",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-28",
+      "label": "cap. 28"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-27",
+      "to": "ch-react-aprendiz-maestro-28",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-29",
+      "label": "cap. 29"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-28",
+      "to": "ch-react-aprendiz-maestro-29",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-30",
+      "label": "cap. 30"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-29",
+      "to": "ch-react-aprendiz-maestro-30",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-31",
+      "label": "cap. 31"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-30",
+      "to": "ch-react-aprendiz-maestro-31",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-32",
+      "label": "cap. 32"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-31",
+      "to": "ch-react-aprendiz-maestro-32",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-33",
+      "label": "cap. 33"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-32",
+      "to": "ch-react-aprendiz-maestro-33",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-34",
+      "label": "cap. 34"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-33",
+      "to": "ch-react-aprendiz-maestro-34",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-35",
+      "label": "cap. 35"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-34",
+      "to": "ch-react-aprendiz-maestro-35",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-36",
+      "label": "cap. 36"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-35",
+      "to": "ch-react-aprendiz-maestro-36",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-37",
+      "label": "cap. 37"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-36",
+      "to": "ch-react-aprendiz-maestro-37",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-38",
+      "label": "cap. 38"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-37",
+      "to": "ch-react-aprendiz-maestro-38",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-39",
+      "label": "cap. 39"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-38",
+      "to": "ch-react-aprendiz-maestro-39",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-40",
+      "label": "cap. 40"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-39",
+      "to": "ch-react-aprendiz-maestro-40",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-41",
+      "label": "cap. 41"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-40",
+      "to": "ch-react-aprendiz-maestro-41",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-42",
+      "label": "cap. 42"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-41",
+      "to": "ch-react-aprendiz-maestro-42",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-43",
+      "label": "cap. 43"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-42",
+      "to": "ch-react-aprendiz-maestro-43",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-44",
+      "label": "cap. 44"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-43",
+      "to": "ch-react-aprendiz-maestro-44",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-45",
+      "label": "cap. 45"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-44",
+      "to": "ch-react-aprendiz-maestro-45",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-46",
+      "label": "cap. 46"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-45",
+      "to": "ch-react-aprendiz-maestro-46",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-47",
+      "label": "cap. 47"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-46",
+      "to": "ch-react-aprendiz-maestro-47",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-48",
+      "label": "cap. 48"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-47",
+      "to": "ch-react-aprendiz-maestro-48",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-49",
+      "label": "cap. 49"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-48",
+      "to": "ch-react-aprendiz-maestro-49",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-50",
+      "label": "cap. 50"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-49",
+      "to": "ch-react-aprendiz-maestro-50",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-51",
+      "label": "cap. 51"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-50",
+      "to": "ch-react-aprendiz-maestro-51",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-52",
+      "label": "cap. 52"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-51",
+      "to": "ch-react-aprendiz-maestro-52",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-53",
+      "label": "cap. 53"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-52",
+      "to": "ch-react-aprendiz-maestro-53",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-54",
+      "label": "cap. 54"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-53",
+      "to": "ch-react-aprendiz-maestro-54",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-55",
+      "label": "cap. 55"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-54",
+      "to": "ch-react-aprendiz-maestro-55",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-56",
+      "label": "cap. 56"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-55",
+      "to": "ch-react-aprendiz-maestro-56",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-57",
+      "label": "cap. 57"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-56",
+      "to": "ch-react-aprendiz-maestro-57",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-58",
+      "label": "cap. 58"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-57",
+      "to": "ch-react-aprendiz-maestro-58",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-59",
+      "label": "cap. 59"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-58",
+      "to": "ch-react-aprendiz-maestro-59",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-60",
+      "label": "cap. 60"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-59",
+      "to": "ch-react-aprendiz-maestro-60",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-61",
+      "label": "cap. 61"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-60",
+      "to": "ch-react-aprendiz-maestro-61",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-62",
+      "label": "cap. 62"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-61",
+      "to": "ch-react-aprendiz-maestro-62",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-63",
+      "label": "cap. 63"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-62",
+      "to": "ch-react-aprendiz-maestro-63",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-64",
+      "label": "cap. 64"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-63",
+      "to": "ch-react-aprendiz-maestro-64",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-65",
+      "label": "cap. 65"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-64",
+      "to": "ch-react-aprendiz-maestro-65",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-66",
+      "label": "cap. 66"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-65",
+      "to": "ch-react-aprendiz-maestro-66",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-67",
+      "label": "cap. 67"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-66",
+      "to": "ch-react-aprendiz-maestro-67",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-68",
+      "label": "cap. 68"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-67",
+      "to": "ch-react-aprendiz-maestro-68",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-69",
+      "label": "cap. 69"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-68",
+      "to": "ch-react-aprendiz-maestro-69",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-70",
+      "label": "cap. 70"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-69",
+      "to": "ch-react-aprendiz-maestro-70",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-71",
+      "label": "cap. 71"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-70",
+      "to": "ch-react-aprendiz-maestro-71",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-72",
+      "label": "cap. 72"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-71",
+      "to": "ch-react-aprendiz-maestro-72",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-73",
+      "label": "cap. 73"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-72",
+      "to": "ch-react-aprendiz-maestro-73",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-74",
+      "label": "cap. 74"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-73",
+      "to": "ch-react-aprendiz-maestro-74",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-75",
+      "label": "cap. 75"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-74",
+      "to": "ch-react-aprendiz-maestro-75",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-76",
+      "label": "cap. 76"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-75",
+      "to": "ch-react-aprendiz-maestro-76",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-77",
+      "label": "cap. 77"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-76",
+      "to": "ch-react-aprendiz-maestro-77",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-78",
+      "label": "cap. 78"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-77",
+      "to": "ch-react-aprendiz-maestro-78",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-79",
+      "label": "cap. 79"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-78",
+      "to": "ch-react-aprendiz-maestro-79",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-80",
+      "label": "cap. 80"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-79",
+      "to": "ch-react-aprendiz-maestro-80",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-81",
+      "label": "cap. 81"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-80",
+      "to": "ch-react-aprendiz-maestro-81",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-82",
+      "label": "cap. 82"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-81",
+      "to": "ch-react-aprendiz-maestro-82",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-83",
+      "label": "cap. 83"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-82",
+      "to": "ch-react-aprendiz-maestro-83",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-84",
+      "label": "cap. 84"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-83",
+      "to": "ch-react-aprendiz-maestro-84",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-85",
+      "label": "cap. 85"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-84",
+      "to": "ch-react-aprendiz-maestro-85",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-86",
+      "label": "cap. 86"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-85",
+      "to": "ch-react-aprendiz-maestro-86",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-87",
+      "label": "cap. 87"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-86",
+      "to": "ch-react-aprendiz-maestro-87",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-88",
+      "label": "cap. 88"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-87",
+      "to": "ch-react-aprendiz-maestro-88",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-89",
+      "label": "cap. 89"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-88",
+      "to": "ch-react-aprendiz-maestro-89",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-90",
+      "label": "cap. 90"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-89",
+      "to": "ch-react-aprendiz-maestro-90",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-91",
+      "label": "cap. 91"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-90",
+      "to": "ch-react-aprendiz-maestro-91",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-92",
+      "label": "cap. 92"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-91",
+      "to": "ch-react-aprendiz-maestro-92",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-93",
+      "label": "cap. 93"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-92",
+      "to": "ch-react-aprendiz-maestro-93",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-94",
+      "label": "cap. 94"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-93",
+      "to": "ch-react-aprendiz-maestro-94",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-95",
+      "label": "cap. 95"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-94",
+      "to": "ch-react-aprendiz-maestro-95",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-96",
+      "label": "cap. 96"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-95",
+      "to": "ch-react-aprendiz-maestro-96",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-97",
+      "label": "cap. 97"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-96",
+      "to": "ch-react-aprendiz-maestro-97",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-98",
+      "label": "cap. 98"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-97",
+      "to": "ch-react-aprendiz-maestro-98",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-99",
+      "label": "cap. 99"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-98",
+      "to": "ch-react-aprendiz-maestro-99",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-100",
+      "label": "cap. 100"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-99",
+      "to": "ch-react-aprendiz-maestro-100",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-101",
+      "label": "cap. 101"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-100",
+      "to": "ch-react-aprendiz-maestro-101",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-102",
+      "label": "cap. 102"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-101",
+      "to": "ch-react-aprendiz-maestro-102",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-103",
+      "label": "cap. 103"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-102",
+      "to": "ch-react-aprendiz-maestro-103",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-104",
+      "label": "cap. 104"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-103",
+      "to": "ch-react-aprendiz-maestro-104",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-105",
+      "label": "cap. 105"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-104",
+      "to": "ch-react-aprendiz-maestro-105",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-106",
+      "label": "cap. 106"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-105",
+      "to": "ch-react-aprendiz-maestro-106",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-107",
+      "label": "cap. 107"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-106",
+      "to": "ch-react-aprendiz-maestro-107",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-108",
+      "label": "cap. 108"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-107",
+      "to": "ch-react-aprendiz-maestro-108",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-109",
+      "label": "cap. 109"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-108",
+      "to": "ch-react-aprendiz-maestro-109",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-110",
+      "label": "cap. 110"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-109",
+      "to": "ch-react-aprendiz-maestro-110",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-111",
+      "label": "cap. 111"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-110",
+      "to": "ch-react-aprendiz-maestro-111",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-112",
+      "label": "cap. 112"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-111",
+      "to": "ch-react-aprendiz-maestro-112",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-113",
+      "label": "cap. 113"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-112",
+      "to": "ch-react-aprendiz-maestro-113",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-114",
+      "label": "cap. 114"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-113",
+      "to": "ch-react-aprendiz-maestro-114",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-115",
+      "label": "cap. 115"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-114",
+      "to": "ch-react-aprendiz-maestro-115",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-116",
+      "label": "cap. 116"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-115",
+      "to": "ch-react-aprendiz-maestro-116",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-117",
+      "label": "cap. 117"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-116",
+      "to": "ch-react-aprendiz-maestro-117",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-118",
+      "label": "cap. 118"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-117",
+      "to": "ch-react-aprendiz-maestro-118",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-119",
+      "label": "cap. 119"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-118",
+      "to": "ch-react-aprendiz-maestro-119",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-120",
+      "label": "cap. 120"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-119",
+      "to": "ch-react-aprendiz-maestro-120",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-121",
+      "label": "cap. 121"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-120",
+      "to": "ch-react-aprendiz-maestro-121",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-122",
+      "label": "cap. 122"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-121",
+      "to": "ch-react-aprendiz-maestro-122",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-123",
+      "label": "cap. 123"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-122",
+      "to": "ch-react-aprendiz-maestro-123",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-124",
+      "label": "cap. 124"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-123",
+      "to": "ch-react-aprendiz-maestro-124",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-125",
+      "label": "cap. 125"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-124",
+      "to": "ch-react-aprendiz-maestro-125",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-126",
+      "label": "cap. 126"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-125",
+      "to": "ch-react-aprendiz-maestro-126",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-127",
+      "label": "cap. 127"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-126",
+      "to": "ch-react-aprendiz-maestro-127",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-128",
+      "label": "cap. 128"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-127",
+      "to": "ch-react-aprendiz-maestro-128",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-129",
+      "label": "cap. 129"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-128",
+      "to": "ch-react-aprendiz-maestro-129",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-130",
+      "label": "cap. 130"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-129",
+      "to": "ch-react-aprendiz-maestro-130",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-131",
+      "label": "cap. 131"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-130",
+      "to": "ch-react-aprendiz-maestro-131",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-132",
+      "label": "cap. 132"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-131",
+      "to": "ch-react-aprendiz-maestro-132",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-133",
+      "label": "cap. 133"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-132",
+      "to": "ch-react-aprendiz-maestro-133",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-134",
+      "label": "cap. 134"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-133",
+      "to": "ch-react-aprendiz-maestro-134",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-135",
+      "label": "cap. 135"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-134",
+      "to": "ch-react-aprendiz-maestro-135",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-136",
+      "label": "cap. 136"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-135",
+      "to": "ch-react-aprendiz-maestro-136",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-137",
+      "label": "cap. 137"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-136",
+      "to": "ch-react-aprendiz-maestro-137",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-138",
+      "label": "cap. 138"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-137",
+      "to": "ch-react-aprendiz-maestro-138",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-139",
+      "label": "cap. 139"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-138",
+      "to": "ch-react-aprendiz-maestro-139",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-140",
+      "label": "cap. 140"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-139",
+      "to": "ch-react-aprendiz-maestro-140",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-141",
+      "label": "cap. 141"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-140",
+      "to": "ch-react-aprendiz-maestro-141",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-142",
+      "label": "cap. 142"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-141",
+      "to": "ch-react-aprendiz-maestro-142",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-143",
+      "label": "cap. 143"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-142",
+      "to": "ch-react-aprendiz-maestro-143",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-144",
+      "label": "cap. 144"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-143",
+      "to": "ch-react-aprendiz-maestro-144",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-145",
+      "label": "cap. 145"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-144",
+      "to": "ch-react-aprendiz-maestro-145",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-146",
+      "label": "cap. 146"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-145",
+      "to": "ch-react-aprendiz-maestro-146",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-147",
+      "label": "cap. 147"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-146",
+      "to": "ch-react-aprendiz-maestro-147",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-148",
+      "label": "cap. 148"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-147",
+      "to": "ch-react-aprendiz-maestro-148",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-149",
+      "label": "cap. 149"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-148",
+      "to": "ch-react-aprendiz-maestro-149",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-150",
+      "label": "cap. 150"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-149",
+      "to": "ch-react-aprendiz-maestro-150",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-151",
+      "label": "cap. 151"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-150",
+      "to": "ch-react-aprendiz-maestro-151",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-152",
+      "label": "cap. 152"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-151",
+      "to": "ch-react-aprendiz-maestro-152",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-153",
+      "label": "cap. 153"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-152",
+      "to": "ch-react-aprendiz-maestro-153",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-154",
+      "label": "cap. 154"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-153",
+      "to": "ch-react-aprendiz-maestro-154",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-155",
+      "label": "cap. 155"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-154",
+      "to": "ch-react-aprendiz-maestro-155",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-156",
+      "label": "cap. 156"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-155",
+      "to": "ch-react-aprendiz-maestro-156",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-157",
+      "label": "cap. 157"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-156",
+      "to": "ch-react-aprendiz-maestro-157",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-158",
+      "label": "cap. 158"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-157",
+      "to": "ch-react-aprendiz-maestro-158",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-159",
+      "label": "cap. 159"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-158",
+      "to": "ch-react-aprendiz-maestro-159",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-160",
+      "label": "cap. 160"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-159",
+      "to": "ch-react-aprendiz-maestro-160",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-161",
+      "label": "cap. 161"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-160",
+      "to": "ch-react-aprendiz-maestro-161",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-162",
+      "label": "cap. 162"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-161",
+      "to": "ch-react-aprendiz-maestro-162",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-163",
+      "label": "cap. 163"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-162",
+      "to": "ch-react-aprendiz-maestro-163",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-164",
+      "label": "cap. 164"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-163",
+      "to": "ch-react-aprendiz-maestro-164",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-165",
+      "label": "cap. 165"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-164",
+      "to": "ch-react-aprendiz-maestro-165",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-166",
+      "label": "cap. 166"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-165",
+      "to": "ch-react-aprendiz-maestro-166",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-167",
+      "label": "cap. 167"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-166",
+      "to": "ch-react-aprendiz-maestro-167",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-168",
+      "label": "cap. 168"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-167",
+      "to": "ch-react-aprendiz-maestro-168",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-169",
+      "label": "cap. 169"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-168",
+      "to": "ch-react-aprendiz-maestro-169",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-170",
+      "label": "cap. 170"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-169",
+      "to": "ch-react-aprendiz-maestro-170",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-171",
+      "label": "cap. 171"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-170",
+      "to": "ch-react-aprendiz-maestro-171",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-172",
+      "label": "cap. 172"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-171",
+      "to": "ch-react-aprendiz-maestro-172",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-173",
+      "label": "cap. 173"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-172",
+      "to": "ch-react-aprendiz-maestro-173",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-174",
+      "label": "cap. 174"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-173",
+      "to": "ch-react-aprendiz-maestro-174",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-175",
+      "label": "cap. 175"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-174",
+      "to": "ch-react-aprendiz-maestro-175",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-176",
+      "label": "cap. 176"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-175",
+      "to": "ch-react-aprendiz-maestro-176",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-177",
+      "label": "cap. 177"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-176",
+      "to": "ch-react-aprendiz-maestro-177",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-178",
+      "label": "cap. 178"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-177",
+      "to": "ch-react-aprendiz-maestro-178",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-179",
+      "label": "cap. 179"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-178",
+      "to": "ch-react-aprendiz-maestro-179",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-180",
+      "label": "cap. 180"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-179",
+      "to": "ch-react-aprendiz-maestro-180",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-181",
+      "label": "cap. 181"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-180",
+      "to": "ch-react-aprendiz-maestro-181",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-182",
+      "label": "cap. 182"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-181",
+      "to": "ch-react-aprendiz-maestro-182",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-183",
+      "label": "cap. 183"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-182",
+      "to": "ch-react-aprendiz-maestro-183",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-184",
+      "label": "cap. 184"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-183",
+      "to": "ch-react-aprendiz-maestro-184",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-185",
+      "label": "cap. 185"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-184",
+      "to": "ch-react-aprendiz-maestro-185",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-186",
+      "label": "cap. 186"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-185",
+      "to": "ch-react-aprendiz-maestro-186",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-187",
+      "label": "cap. 187"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-186",
+      "to": "ch-react-aprendiz-maestro-187",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-188",
+      "label": "cap. 188"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-187",
+      "to": "ch-react-aprendiz-maestro-188",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-189",
+      "label": "cap. 189"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-188",
+      "to": "ch-react-aprendiz-maestro-189",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-190",
+      "label": "cap. 190"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-189",
+      "to": "ch-react-aprendiz-maestro-190",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-191",
+      "label": "cap. 191"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-190",
+      "to": "ch-react-aprendiz-maestro-191",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-192",
+      "label": "cap. 192"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-191",
+      "to": "ch-react-aprendiz-maestro-192",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-193",
+      "label": "cap. 193"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-192",
+      "to": "ch-react-aprendiz-maestro-193",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-194",
+      "label": "cap. 194"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-193",
+      "to": "ch-react-aprendiz-maestro-194",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-195",
+      "label": "cap. 195"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-194",
+      "to": "ch-react-aprendiz-maestro-195",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-196",
+      "label": "cap. 196"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-195",
+      "to": "ch-react-aprendiz-maestro-196",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-197",
+      "label": "cap. 197"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-196",
+      "to": "ch-react-aprendiz-maestro-197",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-198",
+      "label": "cap. 198"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-197",
+      "to": "ch-react-aprendiz-maestro-198",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-199",
+      "label": "cap. 199"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-198",
+      "to": "ch-react-aprendiz-maestro-199",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-200",
+      "label": "cap. 200"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-199",
+      "to": "ch-react-aprendiz-maestro-200",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-201",
+      "label": "cap. 201"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-200",
+      "to": "ch-react-aprendiz-maestro-201",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-202",
+      "label": "cap. 202"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-201",
+      "to": "ch-react-aprendiz-maestro-202",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-203",
+      "label": "cap. 203"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-202",
+      "to": "ch-react-aprendiz-maestro-203",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-204",
+      "label": "cap. 204"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-203",
+      "to": "ch-react-aprendiz-maestro-204",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-205",
+      "label": "cap. 205"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-204",
+      "to": "ch-react-aprendiz-maestro-205",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-206",
+      "label": "cap. 206"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-205",
+      "to": "ch-react-aprendiz-maestro-206",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-207",
+      "label": "cap. 207"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-206",
+      "to": "ch-react-aprendiz-maestro-207",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-208",
+      "label": "cap. 208"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-207",
+      "to": "ch-react-aprendiz-maestro-208",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-209",
+      "label": "cap. 209"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-208",
+      "to": "ch-react-aprendiz-maestro-209",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-210",
+      "label": "cap. 210"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-209",
+      "to": "ch-react-aprendiz-maestro-210",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-211",
+      "label": "cap. 211"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-210",
+      "to": "ch-react-aprendiz-maestro-211",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-212",
+      "label": "cap. 212"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-211",
+      "to": "ch-react-aprendiz-maestro-212",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-213",
+      "label": "cap. 213"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-212",
+      "to": "ch-react-aprendiz-maestro-213",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-214",
+      "label": "cap. 214"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-213",
+      "to": "ch-react-aprendiz-maestro-214",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-215",
+      "label": "cap. 215"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-214",
+      "to": "ch-react-aprendiz-maestro-215",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-216",
+      "label": "cap. 216"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-215",
+      "to": "ch-react-aprendiz-maestro-216",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-217",
+      "label": "cap. 217"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-216",
+      "to": "ch-react-aprendiz-maestro-217",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-218",
+      "label": "cap. 218"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-217",
+      "to": "ch-react-aprendiz-maestro-218",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-219",
+      "label": "cap. 219"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-218",
+      "to": "ch-react-aprendiz-maestro-219",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-220",
+      "label": "cap. 220"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-219",
+      "to": "ch-react-aprendiz-maestro-220",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-221",
+      "label": "cap. 221"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-220",
+      "to": "ch-react-aprendiz-maestro-221",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-222",
+      "label": "cap. 222"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-221",
+      "to": "ch-react-aprendiz-maestro-222",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-223",
+      "label": "cap. 223"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-222",
+      "to": "ch-react-aprendiz-maestro-223",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-224",
+      "label": "cap. 224"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-223",
+      "to": "ch-react-aprendiz-maestro-224",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-225",
+      "label": "cap. 225"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-224",
+      "to": "ch-react-aprendiz-maestro-225",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-226",
+      "label": "cap. 226"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-225",
+      "to": "ch-react-aprendiz-maestro-226",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-227",
+      "label": "cap. 227"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-226",
+      "to": "ch-react-aprendiz-maestro-227",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-228",
+      "label": "cap. 228"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-227",
+      "to": "ch-react-aprendiz-maestro-228",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-229",
+      "label": "cap. 229"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-228",
+      "to": "ch-react-aprendiz-maestro-229",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-react-aprendiz-maestro",
+      "to": "ch-react-aprendiz-maestro-230",
+      "label": "cap. 230"
+    },
+    {
+      "from": "ch-react-aprendiz-maestro-229",
+      "to": "ch-react-aprendiz-maestro-230",
+      "label": "siguiente"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch347-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 347,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 28,
+  "words": 28,
+  "content": "# OBSERVACIONES: * se estructura como un recorrido en la zona de n´umeros */ { IrAlBordeDeZonaDeNumeros(Este) while(puedeMoverEnZonaDeNumeroAl(Oeste)) { VaciarCelda() Mover(Oeste) } VaciarCelda() } //--------------------------------------------------- //---------------------------------------------------- procedure AgregarDigitoAZonaDeNumerosPorIzq(dig) /*"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch106-002",
+  "bookId": "node-js-es",
+  "chapterIndex": 106,
+  "chunkIndex": 2,
+  "title": "Capítulo 64:: Integración de pasaportes",
+  "start": 900,
+  "end": 1134,
+  "words": 234,
+  "content": "user); }); passport.deserializeUser(function (user, done) { done(null, user); }); google(); }; En el archivo google.js en la misma carpeta de configuración incluyen los siguientes var passport = require('passport'), GoogleStrategy = require('passport-google-oauth20').Strategy, User = require('./../model/user'); module.exports = function () { passport.use(new GoogleStrategy({ clientID: 'CLIENT ID', clientSecret: 'CLIENT SECRET', https://riptutorial.com/es/home 225 -- 253 of 423 -- callbackURL: \"http://localhost:3000/auth/google/callback\" }, function(accessToken, refreshToken, profile, cb) { User.findOne({ googleId : profile.id }, function (err, user) { if(err){ return cb(err, false, {message : err}); }else { if (user != '' && user != null) { return cb(null, user, {message : \"User \"}); } else { var username = profile.displayName.split(' '); var userData = new User({ name : profile.displayName, username : username[0], password : username[0], facebookId : '', googleId : profile.id, }); // send email to user just in case required to send the newly created // credentails to user for future login without using google login userData.save(function (err, newuser) { if (err) { return cb(null, false, {message : err + \" !!! Please try again\"}); }else{ return cb(null, newuser); } }); } } }); } )); }; Aquí, en este ejemplo, si el usuario no está en la base de datos, está creando un nuevo usuario en la base de datos para referencia local utilizando el nombre de campo googleId en el modelo de usuario. Lea Integración de pasaportes en línea: https://riptutorial.com/es/node-js/topic/7666/integracion- de-pasaportes https://riptutorial.com/es/home 226 -- 254 of 423 --"
+}

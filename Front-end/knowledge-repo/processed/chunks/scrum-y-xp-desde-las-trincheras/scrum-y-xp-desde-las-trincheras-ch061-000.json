@@ -1,0 +1,11 @@
+{
+  "id": "scrum-y-xp-desde-las-trincheras-ch061-000",
+  "bookId": "scrum-y-xp-desde-las-trincheras",
+  "chapterIndex": 61,
+  "chunkIndex": 0,
+  "title": "50 DÍAS-HOMBRE DISPONIBLES",
+  "start": 0,
+  "end": 97,
+  "words": 97,
+  "content": "# 50 DÍAS-HOMBRE DISPONIBLES …Tenemos 50 días-hombre disponibles en este Sprint. ¿Es esta nuestra velocidad estimada? ¡No! Porque nuestra unidad de estimación son puntos de historia lo que, en nuestro caso, corresponde más o menos a “días-hombre ideales”. Un día-hombre ideal es un día perfectamente efectivo, sin distracciones, lo cuál es raro. Lo que es más, debemos tener en cuenta cosas como trabajo no planificado que se añade al Sprint, gente que se pone enferma, etc. Así que nuestra velocidad estimada será sin duda menor de 50. ¿Pero cuanto menor? Para esto usamos el “factor de dedicación”."
+}

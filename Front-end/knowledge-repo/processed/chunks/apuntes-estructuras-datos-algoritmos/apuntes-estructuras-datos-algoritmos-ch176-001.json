@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch176-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 176,
+  "chunkIndex": 1,
+  "title": "6. \tOperaciones con datos cadena",
+  "start": 450,
+  "end": 582,
+  "words": 132,
+  "content": "el primero que visitamos (situación de no haber visitado ningún par).} existeSiguiente?: diccionario d -> booleano {Devuelve falso si ya se han visitado todos los pares de d, devuelve verdad en caso contrario} parcial siguienteClave: diccionario d -> clave {Devuelve la clave del siguiente par a visitar de d. Parcial: la operación no está definida si no existeSiguiente?(d)} parcial siguienteValor: diccionario d -> valor {Devuelve el valor del siguiente par a visitar de d. Parcial: la operación no está definida si no existeSiguiente?(d)} parcial avanza: diccionario d -> diccionario {Prepara el iterador para visitar el siguiente par del diccionario d. Parcial: la operación no está definida si ya se ha visitado el último par.} fespec En las implementaciones del TAD tabla, se suelen juntar en una única las operaciones “está?” y “obtenerValor”."
+}

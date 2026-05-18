@@ -1,0 +1,11 @@
+{
+  "id": "2-4-2-guia-de-desarrollo-software-servicios-publicos-ch005-000",
+  "bookId": "2-4-2-guia-de-desarrollo-software-servicios-publicos",
+  "chapterIndex": 5,
+  "chunkIndex": 0,
+  "title": "III. Consideraciones para un",
+  "start": 0,
+  "end": 38,
+  "words": 38,
+  "content": "# III. Consideraciones para un desarrollo seguro Las librerías y frameworks de terceros confiables que incorporan mecanismos de seguridad son fundamentales para evitar errores de implementación en áreas en las que el desarrollador no se encuentre tan familiarizado."
+}

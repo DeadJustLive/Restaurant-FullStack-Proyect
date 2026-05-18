@@ -1,0 +1,24 @@
+# Capítulo 18:: Código Node.js para STDIN y
+
+STDOUT sin usar ninguna biblioteca
+Introducción
+Este es un programa simple en node.js al cual toma información del usuario y la imprime en la
+consola.
+El objeto de proceso es un objeto global que proporciona información y control sobre el proceso
+Node.js actual. Como global, siempre está disponible para las aplicaciones Node.js sin usar
+require ().
+Examples
+Programa
+La propiedad process.stdin devuelve una secuencia legible equivalente o asociada a la entrada
+estándar.
+La propiedad process.stdout devuelve una secuencia de escritura equivalente o asociada a
+stdout.
+process.stdin.resume()
+console.log('Enter the data to be displayed ');
+process.stdin.on('data', function(data) { process.stdout.write(data) })
+Lea Código Node.js para STDIN y STDOUT sin usar ninguna biblioteca en línea:
+https://riptutorial.com/es/node-js/topic/8961/codigo-node-js-para-stdin-y-stdout-sin-usar-ninguna-
+biblioteca
+https://riptutorial.com/es/home 93
+
+-- 121 of 423 --

@@ -1,0 +1,401 @@
+{
+  "bookId": "2-3-6-guia-desarrollo-software-v2-0",
+  "totalChunks": 56,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.006Z",
+  "chunks": [
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "I. Introducción",
+      "words": 289
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "II. Consideraciones iniciales para",
+      "words": 56
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "1. Metodologías de desarrollo",
+      "words": 245
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "2. Ambientes de desarrollo",
+      "words": 128
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "III. Consideraciones para un",
+      "words": 38
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "1. Uso de librerías y frameworks",
+      "words": 114
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "2. Consultas seguras a las bases",
+      "words": 246
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "3. Codificar y escapar los datos",
+      "words": 313
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "4. Validación de datos",
+      "words": 253
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "5. Autenticación \tnivel \t1:",
+      "words": 281
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "6. Autenticación \tnivel \t2:",
+      "words": 117
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "7. Autenticación \tnivel \t3:",
+      "words": 45
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "8. Implementar mecanismos de",
+      "words": 87
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "9. Uso de cookies para manejo",
+      "words": 79
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "10. Uso de tokens de sesión",
+      "words": 168
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "11. Identificación de datos",
+      "words": 38
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "12. Datos en tránsito",
+      "words": 40
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "parte d: e la aplicación.",
+      "words": 83
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "14. Manejo de secretos",
+      "words": 81
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "15. Desarrollo \torientado \ta",
+      "words": 84
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "16. Calidad de código",
+      "words": 85
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "17. Detección preventiva",
+      "words": 82
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "18. Modelo inicial de datos",
+      "words": 57
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "19. Seeding de la base de datos",
+      "words": 89
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "20. Implementar mecanismos de",
+      "words": 94
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "21. Manejo seguro de errores y",
+      "words": 93
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "22. Compilación limpia",
+      "words": 80
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "IV. Aseguramiento y certificación",
+      "words": 163
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "V. Tecnologías de preferencia",
+      "words": 49
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "1. Lenguajes de programación",
+      "words": 132
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "VI. Uso de tecnologías",
+      "words": 35
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "1. Lenguaje",
+      "words": 81
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "2. Almacenamiento",
+      "words": 133
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "3. Tareas fuera de línea o",
+      "words": 84
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "4. Formateo de código",
+      "words": 111
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "5. Repositorios de código",
+      "words": 56
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "VII. Desarrollo y consumo de APIs",
+      "words": 41
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "1. Ley de Transformación Digital",
+      "words": 66
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "2. Desacoplar \tclientes \ty",
+      "words": 53
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "3. Uso de HTTP",
+      "words": 198
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "4. Exposición y autenticación de",
+      "words": 41
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "5. Definición de URI de recursos",
+      "words": 346
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "6. Uso del idioma en el código",
+      "words": 114
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "VIII. Uso de contenedores en el",
+      "words": 278
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "IX. Licencias",
+      "words": 114
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "1. GPLv2 y GPLv3",
+      "words": 122
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "3. Apache 2.0",
+      "words": 99
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "4. Dominio Público (Creative",
+      "words": 70
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "5. Casos de uso de licencia",
+      "words": 278
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "6. Buenas \tprácticas \tde",
+      "words": 224
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "X. Actualizaciones a esta guía",
+      "words": 229
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "1. Ejemplo Dockerfile aplicación",
+      "words": 47
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "2. Ejemplo Gitlab-ci.yml",
+      "words": 45
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "3. Ejemplo Github-action.yml",
+      "words": 214
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "- \tCLUSTER_NAME:",
+      "words": 117
+    },
+    {
+      "id": "2-3-6-guia-desarrollo-software-v2-0-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "T_SHA}",
+      "words": 44
+    }
+  ]
+}

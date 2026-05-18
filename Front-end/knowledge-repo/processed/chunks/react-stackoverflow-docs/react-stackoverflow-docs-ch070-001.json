@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch070-001",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 70,
+  "chunkIndex": 1,
+  "title": "Capítulo 26:: Soluciones de interfaz de",
+  "start": 450,
+  "end": 676,
+  "words": 226,
+  "content": "del panel utilizado por el script del controlador; • class - class panel. • No olvide configurar la propiedad activeTab al nombre de la pestaña necesaria. Aclaración https://riptutorial.com/es/home 113 -- 123 of 139 -- Cuando se pestaña hacia abajo, el panel se necesita es cada nombre de la clase active el elemento DOM (que significa que va a ser visible) y se centra ahora. Vista de ejemplo con `PanelGroup`s import React from 'react'; import Pane from './components/Pane.js'; import Panel from './components/Panel.js'; import PanelGroup from './components/PanelGroup.js'; class MainView extends React.Component { constructor(props) { super(props); } render() { return React.createElement( 'main', null, React.createElement( Pane, { id: 'common' }, React.createElement( PanelGroup, { panels: [ { name: 'console', panelClass: ConsolePanel }, { name: 'figures', panelClass: FiguresPanel } ], activeTab: 'console' } ) ), React.createElement( Pane, { id: 'side' }, React.createElement( PanelGroup, { panels: [ { name: 'properties', panelClass: PropertiesPanel } ], activeTab: 'properties' } ) ) ); } } class ConsolePanel extends Panel { constructor(props) { super(props); } https://riptutorial.com/es/home 114 -- 124 of 139 -- static title() { return 'Console'; } } class FiguresPanel extends Panel { constructor(props) { super(props); } static title() { return 'Figures'; } } class PropertiesPanel extends Panel { constructor(props) { super(props); } static title() { return 'Properties'; } } Lea Soluciones de interfaz de usuario en línea: https://riptutorial.com/es/reactjs/topic/8112/soluciones-de-interfaz-de-usuario https://riptutorial.com/es/home 115 -- 125 of 139 --"
+}

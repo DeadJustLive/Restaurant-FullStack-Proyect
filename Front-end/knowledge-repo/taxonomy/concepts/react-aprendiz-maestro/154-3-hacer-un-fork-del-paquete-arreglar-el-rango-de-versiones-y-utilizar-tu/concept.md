@@ -1,0 +1,67 @@
+# 3. Hacer un fork del paquete, arreglar el rango de versiones, y utilizar tu
+
+## Fuente
+react-aprendiz-maestro (Cap. 154)
+
+## Contenido
+# 3. Hacer un fork del paquete, arreglar el rango de versiones, y utilizar tu
+
+propia versión. En este caso necesitarás tener una declaración de este tipo
+"<paquete>": "<cuenta de github>/<proyecto>#<referencia>" en tus de-
+pendencias.
+Ten en cuenta que las dependencias se tratan de forma diferente a partir
+de npm 3. Tras esa versión, le toca al consumidor del paquete (es decir, a
+tí) lidiar con ello.
+Warning: setState(…): Cannot update during
+an existing state transition
+Puede que te salga esta advertencia mientras utilizas React. Es fácil que te salga
+si lanzas setState() dentro de métodos como render(). A veces puede ocurrir
+de forma indirecta. Una manera de provocar la advertencia es invocar un método
+en vez de enlazarlo. Por ejemplo: <input onKeyPress={this.checkEnter()} />. Si
+this.checkEnter utiliza setState(), este código fallará. En su lugar, deberías usar
+<input onKeyPress={this.checkEnter} />.
+
+-- 224 of 226 --
+
+Resolución de Problemas 207
+Warning: React attempted to reuse markup in
+a container but the checksum was invalid
+Esta advertencia te puede salir de varias formas. Algunas causas comunes son:
+• Has intentado montar React varias veces en el mismo contenedor. Comprueba
+su script de carga y asegúrate de que tu aplicación sólo se carga una vez.
+• El marcado de tu plantilla no encaja con la que renderiza React. Esto puede
+ocurrir especialmente si estás renderizando el lenguaje de marcado inicial en
+un servidor.
+Module parse failed
+Cuando utilizas Webpack puede salir un error como este:
+ERROR in ./app/components/Demo.jsx
+Module parse failed: .../app/components/Demo.jsx Line 16: Unexpected\
+token <
+Esto significa que hay algo que está impidiéndole a Webpack que interprete el
+fichero correctamente. Deberías comprobar la configuración del loader con cuidado.
+Asegúrate de que los cargadores correctos se aplican sobre los ficheros correctos.
+Si estás usando include deberías comprobar que el fichero que quieres cargar es
+alcanzable desde el include.
+El Proyecto Falla al Compilar
+Aún cuando todo en teoría debería funcionar, a veces los rangos de las versiones
+te pueden dificultar las cosas, a pesar de usar versionado semántico. Si un paquete
+principal se rompe, por ejemplo babel, y ejecutaste npm i en un mal momento, puede
+que acabes con un proyecto que no compila.
+
+-- 225 of 226 --
+
+Resolución de Problemas 208
+Un buen primer paso es ejecutar npm update. Comprobará tus dependencias y podrá
+las versiones más recientes. Si esto no arregla el problema puedes probar a eliminar
+node_modules (rm -rf node_modules) desde el directorio del proyecto y reinstalar
+las dependencias (npm i).
+A menudo no estás sólo con tu problema. Por eso puede que merezca la pena mirar
+en los gestores de incidencias de los proyectos a ver qué puede estar pasando. Puede
+que encuentres una manera alternativa o una solución allí. Estos problemas suelen
+solucionarse rápido en los proyectos más populares.
+En un entorno en producción, puede ser preferible bloquear las dependencias de
+producción usando npm shrinkwrap. La documentación oficial15 entra más al detalle
+en este asunto.
+15https://docs.npmjs.com/cli/shrinkwrap
+
+-- 226 of 226 --

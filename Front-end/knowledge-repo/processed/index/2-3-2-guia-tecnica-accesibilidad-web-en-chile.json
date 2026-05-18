@@ -1,0 +1,24 @@
+{
+  "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile",
+  "title": "Septiembre 2022",
+  "author": "",
+  "pages": 108,
+  "sourceFile": "source-pdfs/2-3-2-guia-tecnica-accesibilidad-web-en-chile.pdf",
+  "processedAt": "2026-05-17T07:11:12.749Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "WCAG",
+      "file": "chapters/2-3-2-guia-tecnica-accesibilidad-web-en-chile/01-wcag.md",
+      "words": 83
+    },
+    {
+      "index": 2,
+      "title": "parte d: el",
+      "file": "chapters/2-3-2-guia-tecnica-accesibilidad-web-en-chile/02-parte-d-el.md",
+      "words": 17741
+    }
+  ],
+  "learningIntegrated": true
+}

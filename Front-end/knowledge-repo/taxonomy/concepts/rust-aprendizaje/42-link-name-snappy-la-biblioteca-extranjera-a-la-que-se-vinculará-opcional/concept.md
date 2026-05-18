@@ -1,0 +1,30 @@
+# [link (name = "snappy")] // la biblioteca extranjera a la que se vinculará (opcional)
+
+## Fuente
+Capítulo 1: Empezando con Rust 2 (Cap. 42)
+
+## Contenido
+# [link (name = "snappy")] // la biblioteca extranjera a la que se vinculará (opcional)
+
+extern {...} // lista de firmas de funciones en la biblioteca extranjera
+•
+Examples
+Llamando a la función libc del óxido nocturno
+La jaula libc está ' característica cerrada ' y solo se puede acceder en las versiones nocturnas de
+Rust hasta que se considere estable.
+#![feature(libc)]
+extern crate libc;
+use libc::pid_t;
+#[link(name = "c")]
+extern {
+fn getpid() -> pid_t;
+}
+fn main() {
+let x = unsafe { getpid() };
+println!("Process PID is {}", x);
+}
+Lea Interfaz de función externa (FFI) en línea: https://riptutorial.com/es/rust/topic/6140/interfaz-de-
+funcion-externa--ffi-
+https://riptutorial.com/es/home 67
+
+-- 81 of 188 --

@@ -1,0 +1,40 @@
+# SCRUM Y XP DESDE LAS TRINCHERAS | 81
+
+13
+Cómo combinamos Scrum con XP
+Decir que Scrum y XP (Programación eXtrema) pueden combinarse de forma
+fructífera no es una afirmación muy controvertida. La mayoría del material que
+encuentro en la red apoya esta hipótesis, así que no voy a perder mucho tiempo
+argumentando por qué.
+Bueno, mencionaré una sola cosa. Scrum se enfoca en las prácticas de
+organización y gestión, mientras que XP se centra más en las prácticas de
+programación. Esa es la razón de que funcionen tan bien juntas: tratan de áreas
+diferentes y se complementan entre ellas.
+¡Desde estas líneas, añado mi voz a los que afirman que existe evidencia
+empírica de que Scrum y XP se pueden combinar fructíferamente!
+Voy a subrayar algunas de las prácticas de XP más valiosas y cómo se aplican a
+nuestro trabajo cotidiano. No todos nuestros equipos han logrado adoptar todas
+las prácticas, pero en conjunto hemos experimentado con casi todos los
+aspectos de la combinación Scrum/XP. Algunas de las prácticas de XP son
+tratadas directamente por Scrum y se podrían ver como una intersección entre
+ambas, como por ejemplo “Todo el equipo”, “Sentarse juntos”, “Historias” y
+“Juego de Planificación”. En esos casos simplemente nos hemos ceñido a
+Scrum.
+Programación por parejas
+Empezamos a hacer esto hace poco con uno de nuestros equipos. En realidad,
+funciona bastante bien. La mayoría de los demás equipos no hacen mucha
+programación por parejas, pero ahora que lo he probado en un equipo durante
+algunos Sprints estoy inspirado para animar a más equipos a probarlo.
+Algunas conclusiones hasta ahora respecto a la programación por parejas:
+• 	La programación por parejas realmente mejora la calidad del código.
+• 	La programación por parejas realmente mejora la concentración del
+equipo (por ejemplo cuando el tipo que está sentado contigo dice “hey,
+¿realmente necesitamos eso para este Sprint?”
+• 	Sorprendentemente, 	muchos 	de 	los 	desarrolladores 	que 	están 	en
+totalmente en contra de la programación por parejas ni siquiera la han
+probado, y aprenden rápidamente a apreciarla una vez que la prueban.
+Versión gratuita on-line.
+Apoya este trabajo, compra la copia impresa:
+http://infoq.com/minibooks/scrum-xp-from- the-trenches
+
+-- 81 of 122 --

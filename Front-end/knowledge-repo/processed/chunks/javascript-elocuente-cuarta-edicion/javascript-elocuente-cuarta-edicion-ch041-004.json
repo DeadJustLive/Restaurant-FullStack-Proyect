@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch041-004",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 41,
+  "chunkIndex": 4,
+  "title": "Chapter 14",
+  "start": 1800,
+  "end": 2100,
+  "words": 300,
+  "content": "nuevo y el nodo que se reemplazará. El nodo reemplazado debe ser un hijo del elemento en el que se llama el método. Ten en cuenta que tanto replaceChild como insertBefore esperan que el nodo nuevo sea su primer argumento. Creación de nodos Digamos que queremos escribir un script que reemplace todas las imágenes (etiquetas <img>) en el documento con el texto contenido en sus atributos alt, que especifica una representación textual alternativa de la imagen. Esto implica no solo eliminar las imágenes sino agregar un nuevo nodo de texto para reemplazarlas. <p>The <img src=\"img/cat.png\" alt=\"Cat\"> in the <img src=\"img/hat.png\" alt=\"Hat\">.</p> <p><button onclick=\"replaceImages()\">Replace</button></p> <script> function replaceImages() { let images = document.body.getElementsByTagName(\"img\"); for (let i = images.length - 1; i >= 0; i--) { let image = images[i]; if (image.alt) { let text = document.createTextNode(image.alt); image.parentNode.replaceChild(text, image); } } } </script> 228 -- 240 of 445 -- Dada una cadena, createTextNode nos da un nodo de texto que podemos in- sertar en el documento para que aparezca en la pantalla. El bucle que recorre las imágenes comienza al final de la lista. Esto es nece- sario porque la lista de nodos devuelta por un método como getElementsByTagName (o una propiedad como childNodes) es dinámica. Es decir, se actualiza a me- dida que el documento cambia. Si comenzáramos desde el principio, al quitar la primera imagen haría que la lista perdiera su primer elemento, por lo que la segunda vez que se repita el bucle, cuando i es 1, se detendría porque la longitud de la colección ahora también es 1. Si quieres tener una colección sólida de nodos, en lugar de una en vivo, puedes convertir la colección en un array real llamando a Array.from. let arrayish = {0: \"uno\", 1: \"dos\", length: 2}; let array = Array.from(arrayish); console.log(array.map(s => s.toUpperCase()));"
+}

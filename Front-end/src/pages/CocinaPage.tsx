@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { PageContainer } from '../layouts/PageContainer';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
@@ -7,6 +7,7 @@ import { CobrarPedidoModal } from '../components/features/CobrarPedidoModal';
 import { EntregarDeliveryModal } from '../components/features/EntregarDeliveryModal';
 import { Clock, ChefHat, CheckCircle, AlertTriangle, Receipt, Truck } from 'lucide-react';
 import { apiPedidos } from '../api/axios';
+import { useFetch } from '../hooks/useFetch';
 
 /**
  * @MOCK — Imports de datos simulados.
@@ -30,8 +31,13 @@ const TABS: { label: string; value: TabFilter; icon: React.ComponentType<{classN
   { label: 'Listos', value: 'LISTO', icon: CheckCircle },
 ];
 
-const getEstadoBadgeVariant = (estado: EstadoPedido) => {
-  const map: Record<string, string> = {
+import type { VariantProps } from 'class-variance-authority';
+
+type BadgeVariant = NonNullable<VariantProps<typeof badgeVariants>['variant']>;
+import { badgeVariants } from '../components/ui/Badge';
+
+const getEstadoBadgeVariant = (estado: EstadoPedido): BadgeVariant => {
+  const map: Record<string, BadgeVariant> = {
     PENDIENTE: 'warning',
     CONFIRMADO: 'warning',
     EN_PREPARACION: 'primary',
@@ -39,7 +45,7 @@ const getEstadoBadgeVariant = (estado: EstadoPedido) => {
     ENTREGADO: 'default',
     CANCELADO: 'error',
   };
-  return (map[estado] ?? 'default') as any;
+  return map[estado] ?? 'default';
 };
 
 /**
@@ -47,8 +53,16 @@ const getEstadoBadgeVariant = (estado: EstadoPedido) => {
  */
 const CocinaPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabFilter>('TODOS');
+  
+  const { data: fetchedPedidos } = useFetch<PedidoMock[]>(apiPedidos, '/sucursal/1/activos');
   /** @MOCK — Estado local que simula la lista de pedidos */
   const [pedidos, setPedidos] = useState<PedidoMock[]>(MOCK_PEDIDOS);
+
+  useEffect(() => {
+    if (fetchedPedidos) {
+      setPedidos(Array.isArray(fetchedPedidos) ? fetchedPedidos : MOCK_PEDIDOS);
+    }
+  }, [fetchedPedidos]);
 
   // Modal: Cobrar
   const [cobrarModalOpen, setCobrarModalOpen] = useState(false);
@@ -143,17 +157,17 @@ const CocinaPage: React.FC = () => {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h2 className="text-2xl font-bold tracking-tight text-surface-900">Cocina (KDS)</h2>
-          <p className="text-surface-500">Gestiona los pedidos en tiempo real</p>
+          <h2 className="text-2xl font-bold tracking-tight text-white">Cocina (KDS)</h2>
+          <p className="text-surface-400">Gestiona los pedidos en tiempo real</p>
         </div>
-        <div className="flex items-center gap-2 text-sm text-surface-500">
+        <div className="flex items-center gap-2 text-sm text-surface-400">
           <div className="h-2 w-2 rounded-full bg-green-500 animate-pulse" />
           <span>{filteredPedidos.length} pedidos activos</span>
         </div>
       </div>
 
       {/* Tabs */}
-      <div className="flex gap-1 bg-surface-100 p-1 rounded-xl w-fit">
+      <div className="flex gap-1 bg-surface-800 p-1 rounded-xl w-fit">
         {TABS.map(tab => {
           const Icon = tab.icon;
           const count = pedidos.filter(p =>
@@ -168,13 +182,13 @@ const CocinaPage: React.FC = () => {
               onClick={() => setActiveTab(tab.value)}
               className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                 activeTab === tab.value
-                  ? 'bg-white text-surface-900 shadow-sm'
-                  : 'text-surface-500 hover:text-surface-700'
+                  ? 'bg-surface-800 text-white'
+                  : 'text-surface-400 hover:text-surface-300'
               }`}
             >
               <Icon className="w-4 h-4" />
               <span className="hidden sm:inline">{tab.label}</span>
-              <span className="bg-surface-200 text-surface-700 text-xs font-semibold px-1.5 py-0.5 rounded-full">
+              <span className="bg-surface-700 text-surface-300 text-xs font-semibold px-1.5 py-0.5 rounded-full">
                 {count}
               </span>
             </button>
@@ -192,7 +206,7 @@ const CocinaPage: React.FC = () => {
       ) : (
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {filteredPedidos.map(pedido => (
-            <Card key={pedido.id} className={`transition-all hover:shadow-md ${
+            <Card key={pedido.id} className={`bg-surface-900/40 backdrop-blur-md border-white/5 text-white transition-all hover:shadow-md ${
               pedido.estado === 'LISTO' ? 'ring-2 ring-green-400 ring-offset-2' : ''
             }`}>
               <CardHeader className="pb-3">
@@ -200,13 +214,13 @@ const CocinaPage: React.FC = () => {
                   <CardTitle className="text-base font-bold">{pedido.numeroPedido}</CardTitle>
                   <Badge variant={getEstadoBadgeVariant(pedido.estado)}>{pedido.estado.replace('_', ' ')}</Badge>
                 </div>
-                <div className="flex items-center gap-3 text-xs text-surface-500 mt-1">
+                <div className="flex items-center gap-3 text-xs text-surface-400 mt-1">
                   <span className="flex items-center gap-1">
                     <Clock className="w-3 h-3" />
                     {tiempoTranscurrido(pedido.creadoEn)}
                   </span>
                   <span>{pedido.tipo === 'EN_LOCAL' ? `Mesa ${pedido.mesaId ?? '?'}` : '🚚 Delivery'}</span>
-                  <span className="font-medium text-surface-700">{formatPrecio(pedido.total)}</span>
+                  <span className="font-medium text-surface-300">{formatPrecio(pedido.total)}</span>
                 </div>
               </CardHeader>
 
@@ -217,16 +231,16 @@ const CocinaPage: React.FC = () => {
                       <div className="flex gap-2">
                         <span className="font-semibold text-primary-600 min-w-[20px]">{item.cantidad}x</span>
                         <div>
-                          <span className="text-surface-800">{item.nombreSnapshot}</span>
+                          <span className="text-surface-300">{item.nombreSnapshot}</span>
                           {item.notas && <p className="text-xs text-surface-400 italic">→ {item.notas}</p>}
                         </div>
                       </div>
-                      <span className="text-surface-500 text-xs">{formatPrecio(item.subtotal)}</span>
+                      <span className="text-surface-400 text-xs">{formatPrecio(item.subtotal)}</span>
                     </div>
                   ))}
                 </div>
                 {pedido.notas && (
-                  <div className="mt-3 p-2 bg-yellow-50 border border-yellow-200 rounded-lg text-xs text-yellow-800">
+                  <div className="mt-3 p-2 bg-yellow-500/10 border border-yellow-500/20 rounded-lg text-xs text-yellow-300">
                     📝 {pedido.notas}
                   </div>
                 )}

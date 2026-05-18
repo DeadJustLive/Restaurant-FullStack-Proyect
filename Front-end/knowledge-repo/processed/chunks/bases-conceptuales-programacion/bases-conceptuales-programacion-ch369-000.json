@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch369-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 369,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 29,
+  "words": 29,
+  "content": "# OBSERVACIONES: * la semilla se codifica en la zona de semillas, seg´un la codificaci´on de n´umeros en zonas */ { IrAlOrigenDeZonaDeSemilla() return(leerZonaDeNumeros()) } //---------------------------------------------------- //--------------------------------------------------- procedure BorrarZonaDeProximaPieza() /*"
+}

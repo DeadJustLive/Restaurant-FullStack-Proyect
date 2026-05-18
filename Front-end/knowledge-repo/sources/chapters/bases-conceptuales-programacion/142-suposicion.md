@@ -1,0 +1,53 @@
+# SUPOSICI´ON:
+
+* la celda al Norte se encuentra vac´ıa
+-}
+{
+cantVerdes := nroBolitas(Verde)
+-- Recuerda el nro de bolitas de la celda inicial
+Mover(Norte)
+-- Se mueve al Norte
+PonerN(cantVerdes, Verde)
+-- Pone en la nueva celda la cantidad recordada
+-- (observar que se supone que esta celda no
+-- tiene bolitas)
+Mover(Sur)
+}
+El valor que se asocia a cantVerdes es el n ´umero de bolitas que hay en la celda inicial,
+La celda inicial es la celda actual
+cuando inicia el procedimiento.
+e incluso despu ´es de que el cabezal se mueva, la variable seguir ´a teniendo el valor de la
+celda inicial, aunque la nueva celda no tenga dicha cantidad. En este ejemplo, suponemos
+que la celda al Norte no tiene bolitas, y que la inicial s´ı las tiene. Podemos observar el
+efecto de este procedimiento en el gr ´afico G.4.5.
+Actividad de Programaci ´on 20
+Copie el c ´odigo del procedimiento CopiarVerdesAlNorte en un programa,
+compl ´etelo con las definiciones faltantes, y pru ´ebelo con varias configuraciones
+de tableros diferentes.
+Las variables son ´utiles para recordar ciertos valores al moverse por el tablero. Por ejem-
+plo, en el siguiente ejercicio deber´ıan usarse variables cantRojas, cantVerdes, cantAzules
+y cantNegras.
+Actividad de Programaci ´on 21
+Realice el ejercicio 4.3.1 y pru ´ebelo con varias celdas con distinto n ´umero de
+bolitas de diversos colores.
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 158 of 312 --
+
+159
+(a). Tablero inicial (b). Tablero final
+G.4.5. Prueba del procedimiento CopiarVerdesAlNorte
+Ejercicio 4.3.1. Escribir un procedimiento CopiarCeldaAl que, dada una direcci ´on dir, y
+suponiendo que la celda lindante en esa direcci ´on no tiene bolitas, haga que dicha celda
+termine con el mismo n ´umero de bolitas de cada color que la celda inicial. El procedimiento
+debe realizar solo dos movimientos del cabezal, y debe dejar el cabezal en el lugar de
+inicio.
+Sugerencia: considerar el uso de cuatro variables que podr´ıan denominarse respec-
+tivamente cantRojas, cantVerdes, cantAzules y cantNegras.
+Las variables pueden nombrar valores de cualquier tipo. Por ejemplo, supongamos que
+las bolitas en una celda cuentan votos, y que queremos indicar en la celda de la esquina
+suroeste el ganador de la votaci ´on con una bolita del color correspondiente (suponemos
+adem ´as que en caso de empate, gana el color m ´as chico, o sea, el que est ´e m ´as cer-
+ca del inicio del alfabeto). Podr´ıa, entonces, usarse el procedimiento que se presenta a
+continuaci ´on
+procedure RecuentoDeVotos()

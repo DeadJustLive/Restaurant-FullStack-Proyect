@@ -1,0 +1,14 @@
+# 5. Vincular un evento blur en el input para restaurar el texto de sugerencia y la clase “hint” en
+
+## Fuente
+jquery-fundamentos (Cap. 26)
+
+## Contenido
+# 5. Vincular un evento blur en el input para restaurar el texto de sugerencia y la clase “hint” en
+
+caso que no se haya ingresado algún texto.
+¿Qué otras consideraciones debe considerar si se desea aplicar esta funcionalidad a un sitio real?
+Añadir una Navegación por Pestañas
+Abra el archivo /ejercicios/index.html en el navegador. Realice el ejercicio utilizando el archi-
+vo /ejercicios/js/tabs.js o trabaje directamente con Firebug. La tarea a realizar es crear una
+navegación por pestañas para los dos elementos div.module. Los pasos ha seguir son los siguientes:

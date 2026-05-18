@@ -1,0 +1,11 @@
+{
+  "id": "css3-javascript-avanzado-ch027-011",
+  "bookId": "css3-javascript-avanzado",
+  "chapterIndex": 27,
+  "chunkIndex": 11,
+  "title": "8. Librerías Javascript para canvas",
+  "start": 4950,
+  "end": 5249,
+  "words": 299,
+  "content": "minuto + \":\" + segundo; } $(document).bind('tiempo', tick); } var RaphaelVisor = function(object_id) { var t = this.t = this var pt = this.pt = new Raphael(document.getElementById(object_id), 200, 200); // dibujamos el reloj inicial var PX = 100; var PY = 100; var tick = function(event, d) { h = d.getHours(); if(h>12) h = h/2 m =d.getMinutes(); // añadimos a la hora la parte proporcional de minutos h += (m*100/60)/100 // transportamos hora a ángulos s = d.getSeconds(); -- 80 of 86 -- CC-BY-SA • PID_00176160 81 CSS3 y Javascript avanzado ah = (h*360)/12 am = (m*360)/60 as = (s*360)/60 neteja() //console.info(h,m,s,\">>> \", ah, am, as) t.hora = pinta_agulla( 50, ah) t.minut = pinta_agulla( 60, am) t.segon = pinta_agulla( 70, as) t.hora.attr( {'stroke-width': 7, 'stroke': '#ac360b' }) t.minut.attr( {'stroke-width': 5, 'stroke': '#a0573c' }) t.segon.attr( {'stroke-width': 3, 'stroke': '#666666' }) } var neteja = function() { if(t.hora) t.hora.remove(); if(t.minut) t.minut.remove(); if(t.segon) t.segon.remove(); } var pinta_agulla = function ( radio, an ) { // convertimos ángulo a radianes angle = (an-90)*(2*Math.PI/360); // calculamos coordenadas x, y x = PX + Math.cos(angle)*radi y = PY + Math.sin(angle)*radi svg = \"M\"+ PX + \" \" + PY + \" L\" + x + \" \" + y return pt.path(svg) } this.init=function() { fons = pt.circle(100,100, 90) fons.attr({'fill': '#fbf8e1'}) $(document).bind('tiempo', tick); } } // inicializamos reloj Rellotge(); // Este tercer visor conecta el reloj con la ventana del navegador. var vis3 = new TextVisor(); vis3.pinta = function(ev, extra){ $(document).attr('title', this.format_string(extra) ); } -- 81 of 86 -- CC-BY-SA • PID_00176160 82 CSS3 y Javascript avanzado // inicializamos reloj creado con librería Raphael vi = new RaphaelVisor('rellotge') vi.init() }); //--> </script> </head> <body> <div id=\"rellotge\" style=\"width:200px; border:1px solid grey\"> </div> </body> </html> -- 82 of 86 -- CC-BY-SA • PID_00176160 83 CSS3 y Javascript avanzado"
+}

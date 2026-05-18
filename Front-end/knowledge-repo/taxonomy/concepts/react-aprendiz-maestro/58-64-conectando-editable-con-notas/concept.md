@@ -1,0 +1,45 @@
+# 6.4 Conectando Editable con Notas
+
+## Fuente
+react-aprendiz-maestro (Cap. 58)
+
+## Contenido
+# 6.4 Conectando Editable con Notas
+
+Todavía necesitamos cambiar las partes relevantes del código para que apunten a
+Editable. Hay más propiedades que conectar:
+app/components/Notes.jsx
+import React from 'react';
+import Note from './Note';
+import Editable from './Editable';
+export default ({notes, onDelete=() => {}}) => (
+export default ({
+notes,
+onNoteClick=() => {}, onEdit=() => {}, onDelete=() => {}
+}) => (
+<ul>{notes.map(({id, task}) =>
+<li key={id}>
+<Note>
+<span>{task}</span>
+<button onClick={onDelete.bind(null, id)}>x</button>
+</Note>
+</li>
+)}</ul>
+<ul>{notes.map(({id, editing, task}) =>
+<li key={id}>
+<Note onClick={onNoteClick.bind(null, id)}>
+<Editable
+editing={editing}
+value={task}
+onEdit={onEdit.bind(null, id)} />
+<button onClick={onDelete.bind(null, id)}>x</button>
+</Note>
+</li>
+)}</ul>
+)
+
+-- 67 of 226 --
+
+Edición de Notas 50
+Si todo fue bien deberias ver algo como sigue:
+Editable conectado

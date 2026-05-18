@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch325-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 325,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 35,
+  "words": 35,
+  "content": "# PRECONDICIONES: * default <hay un tablero de Zilfost codificado> */ { while (puedeMoverEnZonaDeJuego(dir)) { Mover(dir) } } //---------------------------------------------------- procedure IrACoordenadaDeZonaDeJuego(x,y) /* PROP´OSITO: ir a la coordenada (x,y) en la zona de juego del SeudoTetris"
+}

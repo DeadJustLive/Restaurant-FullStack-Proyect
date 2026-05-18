@@ -1,0 +1,50 @@
+# 5.1 Métodos del Ciclo de Vida
+
+Métodos del ciclo de vida
+En la imagen superior puedes ver que cada componente de React tiene tres fases
+durante su ciclo de vida. Puede estar montándose, montado o desmontado. Cada
+una de esas tres fases tiene una serie de métodos relacionados.
+Durante la fase de montaje puedes acceder a los siguientes:
+
+-- 57 of 226 --
+
+Comprendiendo los Componentes de React 40
+• componentWillMount() se ejecutará una vez antes de renderizar nada. Una
+forma de utilizarlo puede ser cargar datos de forma asíncrona y forzar un
+renderizado a través de setState. render() verá que el estado ha sido
+actualizado y se ejecutará. La ejecución tendrá lugar durante el renderizado
+en el servidor.
+• componentDidMount() se ejecutará tras el renderizado inicial. Es en este punto
+donde puedes acceder al DOM. Puedes usar este método, por ejemplo, para
+utilizar jQuery en un componente. Esta ejecución no tendrá lugar cuando se
+está renderizando en el servidor.
+Una vez que un componente ha sido montado y está en funcionamiento puedes
+manipularlo con los siguientes métodos:
+• componentWillReceiveProps(object nextProps) se ejecuta cuando el com-
+ponente recibe propiedades nuevas. Puedes usarlo, por ejemplo, para modificar
+el estado de tu componente según estas propiedades que has recibido.
+• shouldComponentUpdate(object nextProps, object nextState) te permite
+optimizar el renderizado, ya que devuelve false si detecta que no hay ningún
+cambio que aplicar tras comprobar las propiedades y el estado. Es aquí donde
+Immutable.js1 y otras librerías similares te serán muy útiles a la hora de
+comprobar equidades. La documentación oficial2 entra en más detalles.
+• componentWillUpdate(object nextProps, object nextState) se ejecuta tras
+shouldComponentUpdate y antes de render(). No es posible utilizar setState
+aquí pero puedes, por ejemplo, cambiar propiedades de los estilos.
+• componentDidUpdate(object nextProps, object nextState) se ejecuta tras
+el renderizado. En este punto puedes modificar el DOM. Puede ser útil para
+hacer que otro código funcione con React.
+Para terminar, hay una enganche más que puedes utilizar cuando un componente
+está desmontándose:
+• componentWillUnmount() se ejecuta justo antes de que un componente se
+desconecte del DOM. Es el lugar perfecto para limpiar recursos (por ejemplo,
+borrar temporizadores, elementos DOM personalizados, y cosas así).
+1https://facebook.github.io/immutable-js/
+2https://facebook.github.io/react/docs/optimizing-performance.html#shouldcomponentupdate-in-action
+
+-- 58 of 226 --
+
+Comprendiendo los Componentes de React 41
+A menudo componentDidMount y componentWillUnmount van emparejados. Si confi-
+guras algo relacionado con el DOM o creas un listener en componentDidMount tendrás
+que recordar quitarlo con componentWillUnmount.

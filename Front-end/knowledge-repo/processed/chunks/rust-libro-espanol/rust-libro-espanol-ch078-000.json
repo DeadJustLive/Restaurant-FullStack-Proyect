@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch078-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 78,
+  "chunkIndex": 0,
+  "title": "panic!o nopanic!",
+  "start": 0,
+  "end": 38,
+  "words": 38,
+  "content": "# panic!o nopanic! ## panic!o nopanic! ### Ejemplos, código de prototipo y test ### Casos en los que tienes mas informacion que el compilador ### Pautas para el manejo de errores ### Creacion de tipos personalizados para validacion"
+}

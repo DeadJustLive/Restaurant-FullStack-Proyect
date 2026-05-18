@@ -1,0 +1,9 @@
+# COMO NOS PREPARAMOS PARA LA PLANIFICACIÓN DE SPRINT
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 10)
+
+## Contenido
+# COMO NOS PREPARAMOS PARA LA PLANIFICACIÓN DE SPRINT
+
+20

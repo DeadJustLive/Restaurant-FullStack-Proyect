@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch022-005",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 22,
+  "chunkIndex": 5,
+  "title": "Barra invertida",
+  "start": 2250,
+  "end": 2325,
+  "words": 75,
+  "content": "Python nos permite realizar variaciones en los caracteres de una cadena de texto para pasarlos a mayúsculas y/o minúsculas. Veamos las distintas opciones disponibles: >>> proverb = quien a buen árbol se arrima Buena Sombra le cobija >>> proverb quien a buen árbol se arrima Buena Sombra le cobija >>> proverb.capitalize() Quien a buen árbol se arrima buena sombra le cobija >>> proverb.title() Quien A Buen Árbol Se Arrima Buena Sombra Le Cobija >>> proverb.upper()"
+}

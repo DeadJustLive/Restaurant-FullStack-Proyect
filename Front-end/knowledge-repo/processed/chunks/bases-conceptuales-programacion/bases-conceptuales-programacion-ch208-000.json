@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch208-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 208,
+  "chunkIndex": 0,
+  "title": "19. Comentarios",
+  "start": 0,
+  "end": 10,
+  "words": 10,
+  "content": "# PRECONDICIONES: * default <hay un tablero de Zilfost codificado>"
+}

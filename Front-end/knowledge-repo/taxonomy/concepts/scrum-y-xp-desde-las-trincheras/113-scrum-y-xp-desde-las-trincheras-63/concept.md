@@ -1,0 +1,36 @@
+# SCRUM Y XP DESDE LAS TRINCHERAS | 63
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 113)
+
+## Contenido
+# SCRUM Y XP DESDE LAS TRINCHERAS | 63
+
+8
+Cómo hacemos Scrum diarios
+Nuestros Scrum diarios vienen a ser como describen las reglas. Empiezan
+exactamente a su hora, cada día en el mismo sitio. Al principio íbamos a alguna
+sala aparte para la planificación de Sprints (era cuando usábamos Pilas de Sprint
+electrónicas), pero en cualquier caso ahora hacemos Scrum diarios frente al
+tablón de tareas. No hay nada mejor que eso.
+Normalmente hacemos las reuniones de pie, ya que eso reduce el riesgo de
+sobrepasar los 15 minutos.
+Cómo actualizamos el tablón
+Normalmente actualizamos el tablón de tareas durante los Scrum diarios.
+Conforme cada persona describe lo que hizo el día anterior y lo que hará hoy,
+mueve los post-it en el tablón. Conforme describe elementos no planificados,
+pone 	un 	pos-it 	nuevo 	para 	cada 	uno 	de 	ellos. 	Conforme 	actualiza 	sus
+estimaciones, escribe una nueva estimación en el post-it correspondiente y tacha
+la anterior estimación. A veces el Scrum Master hace todo esto mientras los
+demás hablan.
+Algunos 	equipos 	tienen 	la 	política 	de 	que 	cada 	persona 	debe 	hacer 	la
+actualización del tablón que le corresponda antes del cada reunión. Eso también
+funciona bien. Simplemente decide qué política utilizar y cíñete a ella.
+Sea cual sea el formato de tu Pila de Sprint, intenta involucrar a todo el equipo en
+la labor de mantener la Pila de Sprint actualizada. Hemos intentado hacer Sprints
+en los que el Scrum Master es el único que mantiene la Pila de Sprint y debe
+Versión gratuita on-line.
+Apoya este trabajo, compra la copia impresa:
+http://infoq.com/minibooks/scrum-xp-from- the-trenches
+
+-- 63 of 122 --

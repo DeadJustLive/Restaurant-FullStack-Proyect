@@ -1,0 +1,35 @@
+# 7. Una palabra sin la letra e (o E)
+
+## Fuente
+javascript-elocuente-cuarta-edicion (Cap. 31)
+
+## Contenido
+# 7. Una palabra sin la letra e (o E)
+
+Consulta la tabla en el resumen del capítulo para obtener ayuda. Prueba
+cada solución con algunas cadenas de prueba.
+164
+
+-- 176 of 445 --
+
+Estilo de comillas
+Imagina que has escrito una historia y usaste comillas simples single-quote
+character para marcar piezas de diálogo. Ahora quieres reemplazar todas las
+comillas de diálogo con comillas dobles, manteniendo las comillas simples uti-
+lizadas en contracciones como aren’t.
+Piensa en un patrón que distinga estos dos tipos de uso de comillas y crea
+una llamada al método replace que realice el reemplazo adecuado.
+Números nuevamente
+Escribe una expresión que coincida solo con los números al estilo de JavaScript.
+Debe admitir un signo menos o más opcional delante del número, el punto dec-
+imal y la notación de exponente—5e-3 o 1E10—de nuevo con un signo opcional
+delante del exponente. También ten en cuenta que no es necesario que haya
+dígitos delante o después del punto, pero el número no puede ser solo un punto.
+Es decir, .5 y 5. son números de JavaScript válidos, pero un punto solitario no
+lo es.
+165
+
+-- 177 of 445 --
+
+“Escribe código que sea fácil de borrar, no fácil de extender”
+—Tef, La programación es terrible

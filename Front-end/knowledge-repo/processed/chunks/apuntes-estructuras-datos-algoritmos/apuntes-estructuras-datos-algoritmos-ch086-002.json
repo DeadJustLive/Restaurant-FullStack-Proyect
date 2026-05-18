@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch086-002",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 86,
+  "chunkIndex": 2,
+  "title": "módulo c: olaConPrioridadesDeMáximos",
+  "start": 900,
+  "end": 996,
+  "words": 96,
+  "content": "si ya se han visitado todos los elementos de c; devuelve cierto en caso contrario} principio devuelve c.iter≠nil fin procedimiento siguiente(e/s c:cola; sal e:elemento; sal error:booleano) {Si existe algún elemento de c pendiente de visitar, devuelve en e el siguiente elemento a visitar y error=falso, y además avanza el iterador para que a continuación se pueda visitar otro elemento de c. Si no quedan elementos pendientes de visitar devuelve error=verdad, e queda indefinido y c queda como estaba} principio si existeSiguiente(c) entonces error:=falso; -- 87 of 267 -- 80 e:=c.iter↑.dato; c.iter:=c.iter↑.sig sino error:=verdad fsi fin fin"
+}

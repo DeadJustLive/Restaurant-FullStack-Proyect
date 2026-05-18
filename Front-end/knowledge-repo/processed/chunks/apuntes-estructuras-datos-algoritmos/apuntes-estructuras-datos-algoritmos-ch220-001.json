@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch220-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 220,
+  "chunkIndex": 1,
+  "title": "TEMA II",
+  "start": 450,
+  "end": 510,
+  "words": 60,
+  "content": "= s cimaA1(ε) = 0; cimaA1 (si) = i vacía?A1(ε) = true; vacía?A1 (si) = false Una segunda interpretación: A 2 bool = {T,F,KK}; A 2 ent = Z; A 2 pila = {¡y_a_mi_qué!} Las operaciones internas sobre A 2 ent son las habituales. El resto son las siguientes (‘i’ denota un entero cualquiera): verdadA2 = T; falsoA2 = F"
+}

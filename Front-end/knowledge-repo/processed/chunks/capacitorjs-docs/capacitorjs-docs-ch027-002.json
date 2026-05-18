@@ -1,0 +1,11 @@
+{
+  "id": "capacitorjs-docs-ch027-002",
+  "bookId": "capacitorjs-docs",
+  "chapterIndex": 27,
+  "chunkIndex": 2,
+  "title": "Live reload",
+  "start": 900,
+  "end": 1023,
+  "words": 123,
+  "content": "Started - Configuring iOS - Custom Native iOS Code - Privacy Manifest - Deploying to App Store - Custom ViewController - Troubleshooting - Swift Package Manager - Getting Started - Configuration - Custom Native Code - Setting Target SDK - Deploying to Google Play - Troubleshooting - Getting Started - Building Progressive Web Apps - PWA Elements - Config - Capacitor iOS API - Capacitor Android API - Capacitor Web API - Capacitor Data Types - Persisting Plugin Calls - Plugin APIs - Support Policy - CLI - Community Hub - Forum - Blog - Twitter - Help Center - Customer Support - Enterprise Advisory - English - 日本語 - Capacitor Android Requirements - Android Target SDK Matrix - Custom Target SDK Versions"
+}

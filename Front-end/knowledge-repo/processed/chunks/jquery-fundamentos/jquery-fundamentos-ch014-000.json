@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch014-000",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 14,
+  "chunkIndex": 0,
+  "title": "3. Seleccionar el ítem que posee la clase “current” dentro de la lista #myList y remover dicha clase",
+  "start": 0,
+  "end": 33,
+  "words": 33,
+  "content": "# 3. Seleccionar el ítem que posee la clase “current” dentro de la lista #myList y remover dicha clase en el elemento; luego añadir la clase “current” al siguiente ítem de la lista."
+}

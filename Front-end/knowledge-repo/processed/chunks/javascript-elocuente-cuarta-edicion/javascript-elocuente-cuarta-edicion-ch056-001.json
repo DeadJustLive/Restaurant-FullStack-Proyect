@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch056-001",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 56,
+  "chunkIndex": 1,
+  "title": "Capítulo 13: , es el mecanismo a través del cual se solicita y proporciona datos",
+  "start": 450,
+  "end": 608,
+  "words": 158,
+  "content": "es más directa y más fácil de entender, la usaremos para ilustrar el protocolo. La respuesta del servidor comenzará también con una versión, seguida del estado de la respuesta, primero como un código de estado de tres dígitos y luego como una cadena legible por humanos. HTTP/1.1 200 OK Los códigos de estado que comienzan con 2 indican que la solicitud tuvo éxito. Los códigos que comienzan con 4 significan que hubo un problema con la solici- tud. El 404 es probablemente el código de estado de HTTP más famoso, lo que significa que el recurso no se pudo encontrar. Los códigos que comienzan con 5 indican que ocurrió un error en el servidor y la solicitud no es la responsable. La primera línea de una solicitud o respuesta puede ir seguida de cualquier número de cabeceras. Estas son líneas en la forma nombre: valor que especifi- can información adicional sobre la solicitud o respuesta. Estas cabeceras eran"
+}

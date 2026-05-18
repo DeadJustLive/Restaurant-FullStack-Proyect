@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch429-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 429,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 63,
+  "words": 63,
+  "content": "# OBSERVACIONES: * la celda actual ser´a el centro de la pieza codPieza * la pieza codPieza ser´a de tipo tipoPieza * la rotaci´on estar´a dada por rotPieza * la celda actual queda en el mismo lugar que empez´o */ { ColocarSeccionDePieza(codPieza) PonerN(Negro,tipoPieza) PonerN(Rojo,rotPieza) } //----------------------------------------------------- procedure ColocarSeccionDePiezaEn(codPieza,dir) /* PROP´OSITO: coloca una secci´on de la pieza codPieza en la celda lindante al dir"
+}

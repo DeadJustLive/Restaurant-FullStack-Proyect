@@ -1,0 +1,77 @@
+# 13.5 Añadiendo Acciones en el Movimiento
+
+La lógica de arrastrar y soltar funciona como sigue. Supón que tienes un carril que
+contiene las notas A, B y C. En caso de que sitúes A detrás de C el carríl contendrá
+B, C y A. Si tienes otra lista, por ejemplo D, E y F, y movemos A al comienzo de ésta
+lista, acabaremos teniendo B y C y A, D, E y F.
+En nuestro caso tendremos algo de complejidad extra al soltar notas de carril en
+carril. Cuando movamos una Nota sabremos su posición original y la posición que
+querramos que tenga al final. El Carril sabe qué Notas le pertenecen por sus ids.
+Vamos a necesitar decir al LaneStore de alguna forma que debe realizar algo de lógica
+sobre las notas que posee. Un buen punto de partida es definir LaneActions.move:
+app/actions/LaneActions.js
+import alt from '../libs/alt';
+export default alt.generateActions(
+'create', 'update', 'delete',
+'attachToLane', 'detachFromLane',
+'move'
+);
+Debemos conectar esta acción con el punto de enganche onMove que acabamos de
+definir:
+app/components/Notes.jsx
+
+-- 164 of 226 --
+
+Implementado Arrastrar y Soltar 147
+import React from 'react';
+import Note from './Note';
+import Editable from './Editable';
+import LaneActions from '../actions/LaneActions';
+export default ({
+notes,
+onNoteClick=() => {}, onEdit=() => {}, onDelete=() => {}
+}) => (
+<ul className="notes">{notes.map(({id, editing, task}) =>
+<li key={id}>
+<Note className="note" id={id}
+onClick={onNoteClick.bind(null, id)}
+onMove={({sourceId, targetId}) =>
+console.log('moving from', sourceId, 'to', targetId)}>
+onMove={LaneActions.move}>
+<Editable
+className="editable"
+editing={editing}
+value={task}
+onEdit={onEdit.bind(null, id)} />
+<button
+className="delete"
+onClick={onDelete.bind(null, id)}>x</button>
+</Note>
+</li>
+)}</ul>
+)
+Puede ser una buena idea refactorizar onMove y dejarla como propiedad
+para hacer que el sistema sea más flexible. En nuestra implementación
+el componente Notas está acoplado con LaneActions, lo cual no es
+particularmente útil si quieres poder usarlo en otro contexto.
+También debemos definir un esqueleto en LaneStore para ver que lo hemos cableado
+
+-- 165 of 226 --
+
+Implementado Arrastrar y Soltar 148
+todo correctamente:
+app/stores/LaneStore.js
+import LaneActions from '../actions/LaneActions';
+export default class LaneStore {
+...
+detachFromLane({laneId, noteId}) {
+...
+}
+move({sourceId, targetId}) {
+console.log(`source: ${sourceId}, target: ${targetId}`);
+}
+}
+Deberías ver los mismos mensajes de log de antes.
+A continuación vamos a añadir algo de lógica para conseguir que esto funcione. Hay
+dos casos de los que nos tenemos que preocupar: mover notas dentro de un mismo
+carril y mover notas entre distintos carriles.

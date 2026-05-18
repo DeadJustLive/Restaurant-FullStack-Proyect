@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch081-004",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 81,
+  "chunkIndex": 4,
+  "title": "IBM NEW YORK",
+  "start": 1800,
+  "end": 1923,
+  "words": 123,
+  "content": "sobre todas aquellas variables numéricas susceptibles: >>> df[ Revenue ] Company Apple 274515 Samsung Electronics 200734 Alphabet 182527 Foxconn 181945 Microsoft 143015 Huawei 129184 Dell Technologies 92224 Facebook 85965 Sony 84893 Hitachi 82345 Intel 77867 IBM 73620 Tencent 69864 Panasonic 63191 Lenovo 60742 HP Inc. 56639 LG Electronics 53625 Name: Revenue, dtype: int64 Tabla 3: Funciones estadísticas en pandas Función Resultado Descripción df[ Revenue ].count() 17 Número de observaciones no nulas df[ Revenue ].sum() 1912895 Suma de los valores df[ Revenue ].mean() 112523.23Media de los valores df[ Revenue ].mad() 51385.95 Desviación absoluta media continué en la próxima página 8.3. pandas 417 -- 421 of 516 -- Aprende Python Tabla 3 – proviene de la página anterior Función Resultado Descripción df[ Revenue ]. median()"
+}

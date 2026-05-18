@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch092-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 92,
+  "chunkIndex": 1,
+  "title": "Capítulo 52:: Gestión de errores Node.js",
+  "start": 450,
+  "end": 622,
+  "words": 172,
+  "content": "we handle the error caused in the try block } En el bloque de try b++ produce un error y ese error se pasa al bloque de catch que puede manejarse allí o incluso se puede lanzar el mismo error en el bloque de captura o hacer una pequeña modificación y luego lanzar. Veamos el siguiente ejemplo. try { var a = 1; b++; console.log(b); } catch (error) { error.message = \"b variable is undefined, so the undefined can't be incremented\" throw error; } https://riptutorial.com/es/home 182 -- 210 of 423 -- En el ejemplo anterior modificamos la propiedad de message del objeto de error y luego lanzamos el error modificado. Puede a través de cualquier error en su bloque try y manejarlo en el bloque catch: try { var a = 1; throw new Error(\"Some error message\"); console.log(a); //this line will not be executed; } catch (error) { console.log(error); //will be the above thrown error } Lea Gestión de errores Node.js en línea: https://riptutorial.com/es/node-js/topic/8590/gestion-de- errores-node-js https://riptutorial.com/es/home 183 -- 211 of 423 --"
+}

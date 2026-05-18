@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch010-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 10,
+  "chunkIndex": 1,
+  "title": "Capítulo 1: - Normas que rigen a los Sitios Web",
+  "start": 450,
+  "end": 749,
+  "words": 299,
+  "content": "desarrollados para garantizar la disponibilidad y la accesibilidad de la información, así como el debido resguardo a los derechos de los titulares de datos personales, asegurando al mismo tiempo la interoperabilidad de los contenidos, funciones y prestaciones ofrecidas por la respectiva institución. En su contenido se encuentra el conjunto más concreto sobre las características que deben tener los Sitios Web del Gobierno chileno, ya que se refiere directamente a sus contenidos, estándares que deben cumplir sus páginas y plazos para dar cumplimiento a dichas obligaciones. Se establecen dos niveles de cumplimiento, generando con ello un grupo de obligaciones que deben atenderse en forma precisa y en un marco de tiempo deter- minado. La forma de cumplir éstas será explicada en detalle en el Capítulo 2 de esta Guía. En el primer plazo, fijado a un año de la promulgación y al que se denomina Nivel I, se obliga a los Sitios Web a adoptar las siguientes características: Los Sitios Web deben utilizar para su identifica- ción los dominios .GOB y .GOV, registrados ante el Ministerio del Interior. Asimismo deben utilizar el icono del Gobierno, a menos que obtengan una autorización que los exceptúe (Artículo 3°) Los Sitios Web deben velar por la disponibilidad de la información, generando un acceso rápido y simple a contenido de utilidad. Además deben adherir a las recomendaciones de la Guía Web respecto del peso y acceso a contenidos de utilidad que deban contener los sitios (Artículo 4°) El código de despliegue del Sitio Web debe ser HTML o XML y cumplir con los estándares HTML 4.01 o XHTML 1.0, validar el HTML y las Hojas de Estilo en Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile Sobre los dominios .GOB y .GOV, visitar http://red.gob.cl/ -- 20 of 122 --"
+}

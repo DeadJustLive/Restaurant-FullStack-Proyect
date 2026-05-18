@@ -1,0 +1,246 @@
+{
+  "id": "guia-scrum-european",
+  "title": "guia-scrum-european",
+  "author": "",
+  "pages": 21,
+  "sourceFile": "source-pdfs/guia-scrum-european.pdf",
+  "processedAt": "2026-05-17T05:37:32.486Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "GUÍA SCRUM",
+      "file": "chapters/guia-scrum-european/01-guía-scrum.md",
+      "words": 21
+    },
+    {
+      "index": 2,
+      "title": "2.1 \tOBJETIVOS DE LA GUÍA...........................................................................................................................- 2 -",
+      "file": "chapters/guia-scrum-european/02-21-objetivos-de-la-guía--2--.md",
+      "words": 0
+    },
+    {
+      "index": 3,
+      "title": "2.2 \tORÍGENES Y EVOLUCIÓN DE SCRUM ..........................................................................................................- 2 -",
+      "file": "chapters/guia-scrum-european/03-22-orígenes-y-evolución-de-scrum---2--.md",
+      "words": 0
+    },
+    {
+      "index": 4,
+      "title": "2.3 \tDESARROLLO Y CONTRIBUCIONES CLAVE ...................................................................................................- 2 -",
+      "file": "chapters/guia-scrum-european/04-23-desarrollo-y-contribuciones-clave---2--.md",
+      "words": 8
+    },
+    {
+      "index": 5,
+      "title": "3.1 \tPRINCIPIOS Y VALORES DE SCRUM ............................................................................................................- 2 -",
+      "file": "chapters/guia-scrum-european/05-31-principios-y-valores-de-scrum---2--.md",
+      "words": 0
+    },
+    {
+      "index": 6,
+      "title": "3.2 \tCOMPONENTES BÁSICOS SCRUM ..............................................................................................................- 3 -",
+      "file": "chapters/guia-scrum-european/06-32-componentes-básicos-scrum---3--.md",
+      "words": 8
+    },
+    {
+      "index": 7,
+      "title": "4.1 \tSCRUM TEAM ......................................................................................................................................- 3 -",
+      "file": "chapters/guia-scrum-european/07-41-scrum-team---3--.md",
+      "words": 0
+    },
+    {
+      "index": 8,
+      "title": "4.2 \tSCRUM MASTER ...................................................................................................................................- 3 -",
+      "file": "chapters/guia-scrum-european/08-42-scrum-master---3--.md",
+      "words": 0
+    },
+    {
+      "index": 9,
+      "title": "4.3 \tPRODUCT OWNER.................................................................................................................................- 4 -",
+      "file": "chapters/guia-scrum-european/09-43-product-owner--4--.md",
+      "words": 0
+    },
+    {
+      "index": 10,
+      "title": "4.4 \tEQUIPO DE DESARROLLO ........................................................................................................................- 5 -",
+      "file": "chapters/guia-scrum-european/10-44-equipo-de-desarrollo---5--.md",
+      "words": 8
+    },
+    {
+      "index": 11,
+      "title": "5.1 \tPRODUCT BACKLOG...............................................................................................................................- 6 -",
+      "file": "chapters/guia-scrum-european/11-51-product-backlog--6--.md",
+      "words": 0
+    },
+    {
+      "index": 12,
+      "title": "5.2 \tSPRINT BACKLOG ..................................................................................................................................- 8 -",
+      "file": "chapters/guia-scrum-european/12-52-sprint-backlog---8--.md",
+      "words": 0
+    },
+    {
+      "index": 13,
+      "title": "5.3 \tEL INCREMENTO ...................................................................................................................................- 9 -",
+      "file": "chapters/guia-scrum-european/13-53-el-incremento---9--.md",
+      "words": 7
+    },
+    {
+      "index": 14,
+      "title": "6.1 \tSPRINT..............................................................................................................................................- 10 -",
+      "file": "chapters/guia-scrum-european/14-61-sprint--10--.md",
+      "words": 0
+    },
+    {
+      "index": 15,
+      "title": "6.2 \tSPRINT 0 O SPRINT INIT ........................................................................................................................- 12 -",
+      "file": "chapters/guia-scrum-european/15-62-sprint-0-o-sprint-init---12--.md",
+      "words": 0
+    },
+    {
+      "index": 16,
+      "title": "6.3 \tSPRINT PLANNING ...............................................................................................................................- 12 -",
+      "file": "chapters/guia-scrum-european/16-63-sprint-planning---12--.md",
+      "words": 0
+    },
+    {
+      "index": 17,
+      "title": "6.4 \tEL DAILY SCRUM O DAILY STAND-UP ......................................................................................................- 14 -",
+      "file": "chapters/guia-scrum-european/17-64-el-daily-scrum-o-daily-stand-up---14--.md",
+      "words": 0
+    },
+    {
+      "index": 18,
+      "title": "6.5 \tEL SPRINT REVIEW ..............................................................................................................................- 15 -",
+      "file": "chapters/guia-scrum-european/18-65-el-sprint-review---15--.md",
+      "words": 0
+    },
+    {
+      "index": 19,
+      "title": "6.6 \tSPRINT RETROSPECTIVE ........................................................................................................................- 16 -",
+      "file": "chapters/guia-scrum-european/19-66-sprint-retrospective---16--.md",
+      "words": 0
+    },
+    {
+      "index": 20,
+      "title": "6.7 \tBACKLOG REFINEMENT ........................................................................................................................- 17 -",
+      "file": "chapters/guia-scrum-european/20-67-backlog-refinement---17--.md",
+      "words": 11
+    },
+    {
+      "index": 21,
+      "title": "2.1 \tObjetivos de la Guía",
+      "file": "chapters/guia-scrum-european/21-21-objetivos-de-la-guía.md",
+      "words": 99
+    },
+    {
+      "index": 22,
+      "title": "2.2 \tOrígenes y Evolución de Scrum",
+      "file": "chapters/guia-scrum-european/22-22-orígenes-y-evolución-de-scrum.md",
+      "words": 147
+    },
+    {
+      "index": 23,
+      "title": "2.3 \tDesarrollo y Contribuciones Clave",
+      "file": "chapters/guia-scrum-european/23-23-desarrollo-y-contribuciones-clave.md",
+      "words": 124
+    },
+    {
+      "index": 24,
+      "title": "3.1 \tPrincipios y Valores de Scrum",
+      "file": "chapters/guia-scrum-european/24-31-principios-y-valores-de-scrum.md",
+      "words": 67
+    },
+    {
+      "index": 25,
+      "title": "3.2 \tComponentes básicos Scrum",
+      "file": "chapters/guia-scrum-european/25-32-componentes-básicos-scrum.md",
+      "words": 47
+    },
+    {
+      "index": 26,
+      "title": "4.1 \tScrum Team",
+      "file": "chapters/guia-scrum-european/26-41-scrum-team.md",
+      "words": 67
+    },
+    {
+      "index": 27,
+      "title": "4.2 \tScrum Master",
+      "file": "chapters/guia-scrum-european/27-42-scrum-master.md",
+      "words": 594
+    },
+    {
+      "index": 28,
+      "title": "4.3 \tProduct Owner",
+      "file": "chapters/guia-scrum-european/28-43-product-owner.md",
+      "words": 485
+    },
+    {
+      "index": 29,
+      "title": "4.4 \tEquipo de Desarrollo",
+      "file": "chapters/guia-scrum-european/29-44-equipo-de-desarrollo.md",
+      "words": 386
+    },
+    {
+      "index": 30,
+      "title": "5.1 \tProduct Backlog",
+      "file": "chapters/guia-scrum-european/30-51-product-backlog.md",
+      "words": 734
+    },
+    {
+      "index": 31,
+      "title": "5.2 \tSprint Backlog",
+      "file": "chapters/guia-scrum-european/31-52-sprint-backlog.md",
+      "words": 656
+    },
+    {
+      "index": 32,
+      "title": "5.3 \tEl Incremento",
+      "file": "chapters/guia-scrum-european/32-53-el-incremento.md",
+      "words": 606
+    },
+    {
+      "index": 33,
+      "title": "6.1 \tSprint",
+      "file": "chapters/guia-scrum-european/33-61-sprint.md",
+      "words": 613
+    },
+    {
+      "index": 34,
+      "title": "6.2 \tSprint 0 o Sprint Init",
+      "file": "chapters/guia-scrum-european/34-62-sprint-0-o-sprint-init.md",
+      "words": 292
+    },
+    {
+      "index": 35,
+      "title": "6.3 \tSprint Planning",
+      "file": "chapters/guia-scrum-european/35-63-sprint-planning.md",
+      "words": 739
+    },
+    {
+      "index": 36,
+      "title": "6.4 \tEl Daily Scrum o Daily Stand-up",
+      "file": "chapters/guia-scrum-european/36-64-el-daily-scrum-o-daily-stand-up.md",
+      "words": 492
+    },
+    {
+      "index": 37,
+      "title": "6.5 \tEl Sprint Review",
+      "file": "chapters/guia-scrum-european/37-65-el-sprint-review.md",
+      "words": 634
+    },
+    {
+      "index": 38,
+      "title": "6.6 \tSprint Retrospective",
+      "file": "chapters/guia-scrum-european/38-66-sprint-retrospective.md",
+      "words": 639
+    },
+    {
+      "index": 39,
+      "title": "6.7 \tBacklog Refinement",
+      "file": "chapters/guia-scrum-european/39-67-backlog-refinement.md",
+      "words": 836
+    }
+  ],
+  "learningIntegrated": true
+}

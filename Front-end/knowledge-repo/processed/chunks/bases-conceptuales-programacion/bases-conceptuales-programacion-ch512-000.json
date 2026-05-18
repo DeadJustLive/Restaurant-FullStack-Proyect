@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch512-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 512,
+  "chunkIndex": 0,
+  "title": "PROP´OSITO:",
+  "start": 0,
+  "end": 38,
+  "words": 38,
+  "content": "# PRECONDICIONES: * la celda actual tiene piso */ { SacarN(Azul,8) } B.5.5. Operaciones adicionales /*=SECCI´ON 5.5=======================================* * Operaciones adicionales * *===================================================* // procedure GenerarLogoZILFOST() // procedure VaciarZonaDeJuego() *===================================================*/ //---------------------------------------------------- procedure GenerarLogoZILFOST() /* PROP´OSITO: Dibuja ZILFOST con piezas"
+}

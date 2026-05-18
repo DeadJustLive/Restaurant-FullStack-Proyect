@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch140-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 140,
+  "chunkIndex": 0,
+  "title": "ESTRUCTURAS DE DATOS",
+  "start": 0,
+  "end": 83,
+  "words": 83,
+  "content": "# INGENIERIA DE SISTEMAS Fin(retornafilas) Método que Devuelve las filas de la matriz Entero retornacolumnas() Tripleta t=v[0] Return t.retornacolumnas() Fin(retornacolumnas) Método que devuelve las columnas de la matriz Entero retornanumerotripletas() Tripleta t=v[0] Return t.retornavalor() Fin(retornanumerotripletas) Método que devuelve el número de elementos diferentes de cero. Entero retornatripleta(entero i) Return v[i] Fin(retornatripleta) Retorna la tripleta que se halla en la posición i del vector v Void muestramatrizentripletas() Entero i=1 Tripleta t =retornatripleta(0) Entero datos=t.retornavalor() While(i<0datos) Imprima(v[i].retornafila(),v[i].retornacolumna(),v[i].retornavalor()) I=i+1 End(while) -- 47 of 64 -- 48"
+}

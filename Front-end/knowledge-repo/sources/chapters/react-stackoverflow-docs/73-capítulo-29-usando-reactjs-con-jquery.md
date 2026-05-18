@@ -1,0 +1,69 @@
+# Capítulo 29:: Usando ReactJS con jQuery
+
+Examples
+Reacciona con jQuery
+En primer lugar, tienes que importar la librería jquery. También necesitamos importar
+findDOmNode ya que vamos a manipular el dominio. Y obviamente también estamos importando
+React.
+import React from 'react';
+import { findDOMNode } from ‘react-dom’;
+import $ from ‘jquery’;
+Estamos configurando una función de flecha 'handleToggle' que se activará cuando se haga clic
+en un icono. Solo mostramos y escondemos un div con un nombre de referencia 'alternar' enHaga
+clic sobre un ícono.
+handleToggle = () => {
+const el = findDOMNode(this.refs.toggle);
+$(el).slideToggle();
+};
+Ahora vamos a establecer el nombre de referencia 'toggle'
+<ul className=”profile-info additional-profile-info-list” ref=”toggle”>
+<li>
+<span className=”info-email”>Office Email</span> me@shuvohabib.com
+</li>
+</ul>
+El elemento div donde dispararemos el 'handleToggle' en onClick.
+<div className=”ellipsis-click” onClick={this.handleToggle}>
+<i className=”fa-ellipsis-h”/>
+</div>
+Vamos a revisar el código completo a continuación, cómo se ve.
+import React from ‘react’;
+import { findDOMNode } from ‘react-dom’;
+import $ from ‘jquery’;
+export default class FullDesc extends React.Component {
+constructor() {
+super();
+}
+handleToggle = () => {
+const el = findDOMNode(this.refs.toggle);
+https://riptutorial.com/es/home 119
+
+-- 129 of 139 --
+
+$(el).slideToggle();
+};
+render() {
+return (
+<div className=”long-desc”>
+<ul className=”profile-info”>
+<li>
+<span className=”info-title”>User Name : </span> Shuvo Habib
+</li>
+</ul>
+<ul className=”profile-info additional-profile-info-list” ref=”toggle”>
+<li>
+<span className=”info-email”>Office Email</span> me@shuvohabib.com
+</li>
+</ul>
+<div className=”ellipsis-click” onClick={this.handleToggle}>
+<i className=”fa-ellipsis-h”/>
+</div>
+</div>
+);
+}
+}
+¡Hemos terminado! Así es, cómo podemos usar jQuery en el componente React .
+Lea Usando ReactJS con jQuery en línea: https://riptutorial.com/es/reactjs/topic/6009/usando-
+reactjs-con-jquery
+https://riptutorial.com/es/home 120
+
+-- 130 of 139 --

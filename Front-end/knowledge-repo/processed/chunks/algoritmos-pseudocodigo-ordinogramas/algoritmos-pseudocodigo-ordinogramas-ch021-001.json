@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch021-001",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 21,
+  "chunkIndex": 1,
+  "title": "2. El tipo de dato que puede almacenar cada una de ellas.",
+  "start": 450,
+  "end": 759,
+  "words": 309,
+  "content": "cualquier tipo de dato (simple o compuesto). El tipo de dato de una variable determina su tamaño en memoria, o dicho de otro modo, establece el tamaño del espacio de memoria que se reserva para ella. 3.2.2. Símbolos reservados Los símbolos reservados son aquellos caracteres que tienen un significado especial. En todos los lenguajes de programación existe un conjunto de símbolos reservados. Hasta ahora, solamente se han estudiado los símbolos utilizados en la sintaxis para declarar variables. Símbolos reservados Símbolo Descripción = Separador del identificador de una variable y de su expresión asignada en su declaración. , Separadora de los identificadores de varias variables en su declaración. -- 28 of 180 -- Libro de Algoritmos de “Abrirllave.com” 29 / 180 3.3. Constantes Una constante representa a un valor –dato almacenado en memoria– que no puede cambiar durante la ejecución de un programa. En lenguaje C, una constante puede ser de tipo entero, real, carácter, cadena o enumerado. Las constantes de tipo enumerado se van a estudiar en el capítulo siguiente. En cuanto a las demás, se pueden expresar de dos formas diferentes:  Por su valor.  Con un nombre (identificador). EJEMPLO Las siguientes constantes de tipo entero están expresadas por su valor: -5 10 Para expresar una constante con un nombre, la constante debe ser declarada previamente. Todas las constantes que se declaran en un programa son definidas de la misma forma, indicando de cada una de ellas:  Su nombre (mediante un identificador).  El valor que simboliza (mediante una expresión). En pseudocódigo, para declarar una constante, vamos a utilizar la sintaxis: <nombre_de_la_constante> = <expresión> Y para declarar más de una constante en una misma línea, las separaremos por medio de comas (,). EJEMPLO De modo que, si se quieren declarar las constantes de tipo entero del ejemplo anterior, asignándoles un identificador, se puede escribir, por ejemplo:"
+}

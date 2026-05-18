@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch443-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 443,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 31,
+  "words": 31,
+  "content": "# OBSERVACIONES: * la celda actual queda en el mismo lugar que empez´o */ { SacarN(Verde,codPieza) } //----------------------------------------------------- procedure QuitarPivote(codPieza, tipoPieza, rotPieza) /* PROP´OSITO: quita el pivote de la pieza codPieza"
+}

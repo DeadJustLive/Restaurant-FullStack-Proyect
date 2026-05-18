@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch045-022",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 45,
+  "chunkIndex": 22,
+  "title": "Parte VI",
+  "start": 9900,
+  "end": 10400,
+  "words": 500,
+  "content": "meter a la cola veri\u001cque que el estado no haya sido visitado y una vez metido a la cola lo marque como visitado: 1 void e n c o l a r ( int p , int f , int c , int w) { 2 i f ( Marca [ p ] [ f ] [ c]==−1){ 3 ColaP [ ColaFin ]=p ; 4 ColaF [ ColaFin ]= f ; -- 265 of 315 -- 266CAPÍTULO 19. ESTRUCTURA DE LA SOLUCIÓN Y ESPACIO DE BÚSQUEDA 5 ColaC [ ColaFin ]= c ; 6 Marca [ p ] [ f ] [ c ]=w; 7 ColaFin++; 8 } 9 } El patrón lo guardaremos en un arreglo llamado Patron: 1 int Patron [ 5 0 ] ; Como se puede apreciar, se pretende guardar datos a partir de la posición 0 y no a partir de la posición 1. Los índices basados en 0 son adecuados para este momento ya que si el índice de una posición del patrón fuera p entonces el índice de la siguiente posición sería (p+1) %P. Al igual que en el ejemplo anterior, este algoritmo habla de movimientos entre cuadros vecinos de una cuadrícula, por lo que es conveniente usar los vectores de dirección aquí también: 1 int Df [ ] = { 0 , −1, 0 , 1 } ; 2 int Dc [ ] = { 1 , 0 , −1, 0 } ; En este problema en particular, el procedimiento de meter en la cola sim- plifca las cosas si se implementa en una función aislada, pero el procedimiento de sacar de la cola puede implementarse dentro de la búsqueda sin que esto haga el código difícil de manejar. Como queremos que luego de dar el primer paso el estado esté ubicado en la primera posición del patrón, entonces antes de dar el primer paso vamos a considerar que el estado está ubicado en la última posición del patrón. Así que la búsqueda en amplitud se puede implementar de la siguiente manera: 1 e n c o l a r (P−1, 1 , i n i c i o C , 0) ; 2 while ( C o l a I n i c i o != ColaFin ) { 3 f=ColaF [ C o l a I n i c i o ] ; 4 c=ColaC [ C o l a I n i c i o ] ; 5 p=ColaP [ C o l a I n i c i o ] ; 6 C o l a I n i c i o ++; 7 for ( i =0; i <4; i ++){ 8 k=Mapa [ f+Df [ i ] ] [ c+Dc [ i ] ] ; 9 i f ( k==1 | | Patron [ ( p+1) %P]==k ) { 10 e n c o l a r ( ( p+1) %P , f+Df [ i ] , c+Dc [ i ] , Marca [ p ]"
+}

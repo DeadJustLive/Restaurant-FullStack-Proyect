@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch073-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 73,
+  "chunkIndex": 1,
+  "title": "Capítulo 5: - De la Usabilidad a la Utilidad",
+  "start": 450,
+  "end": 722,
+  "words": 272,
+  "content": "los principios descritos, no es necesario que éstas estén construidas para evaluarlas; en períodos previos al desarrollo pero cuando ya se cuente con las características gráficas operacionales que tendrá la interfaz, esta metodología también puede ser utilizada. Respecto del número de expertos que debe llevar a cabo el test heurístico para que éste tenga validez y un número adecuado de hallazgos, el autor sugiere que cinco es el número más adecuado ya que muchos de sus hallazgos serán equivalentes pero también habrá un número importante de ellos que serán únicos. Agrega que “el número exacto de evaluadores que se debería usar depende del costo-beneficio. Más evaluadores deberían ser usados en casos en que la usabilidad es crítica o cuando se pueden esperar grandes ahorros debido a la gran capacidad de un sistema de ser crítico para la misión de una empresa”. En el sitio web se entrega una Pauta de Evaluación Heurística que puede emplearse como modelo para este tipo de tests. Test de Usuario El “test de usuario” es un sistema de comprobación de la usabilidad que consiste en que un experto observa la forma en que un usuario emplea un sistema y a partir de eso, logra establecer los principales problemas que tiene su interfaz. En este sentido, la usabilidad se relaciona directamente con el nivel de desempeño que tiene el usuario observado. Las principales ventajas de este método radican en el hecho de que se ve al usuario actuando sobre una pantalla real, manipulando sus opciones de la manera que lo Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile -- 112 of 122 --"
+}

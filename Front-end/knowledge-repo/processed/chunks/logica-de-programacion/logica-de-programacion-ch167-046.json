@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch167-046",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 167,
+  "chunkIndex": 46,
+  "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+  "start": 20700,
+  "end": 20873,
+  "words": 173,
+  "content": "la n´omina del mes (m). • En la funci´on calcularNominaEmpleadoE ◦ Par´ametros: \u0005 matriz: la matriz con los salarios de los empleados. \u0005 numeroEmp: el n´umero del empleado que se quiere calcular. \u0005 maximoMeses: cantidad de meses. ◦ Variables locales: \u0005 i: controla el ciclo. \u0005 nominaEmpleadoE: acumula la n´omina del empleado (e). • En la funci´on mostrarResultados ◦ Par´ametros: \u0005 nominaMesM: contiene el total de la n´omina del mes analizado. \u0005 nominaEmpleadoE: contiene la n´omina del empleado analizado. De acuerdo al an´alisis planteado, se propone el Algoritmo 6.15. Algoritmo 6.15: SueldosEmpleados 1 Algoritmo SueldosEmpleados 2 Constante Entero MAX_EMPLEADOS = 10 3 Constante Entero MAX_MESES = 12 4 Real matrizSueldos [ ][ ], nominaMesM, nominaEmpleadoE 5 Entero numeroMes, numeroEmpleado -- 429 of 450 -- 428 Vectores y matrices 6 7 matrizSueldos = leerDatos( MAX_EMPLEADOS, MAX_MESES ) 8 9 imprimir( \"Numero del mes que desea totalizar: \" ) 10 leer( numeroMes ) 11 12 imprimir( \"N´umero del empleado que desea totalizar\" ) 13 leer( numeroEmpleado ) 14 15 nominaMesN = calcularNominaMesM( matrizSueldos, 16 numeroMes,"
+}

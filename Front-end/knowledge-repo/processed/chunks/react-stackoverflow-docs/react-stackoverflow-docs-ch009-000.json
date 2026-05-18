@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch009-000",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 9,
+  "chunkIndex": 0,
+  "title": "3. Anidar utilizando puntales. 33",
+  "start": 0,
+  "end": 60,
+  "words": 60,
+  "content": "# 3. Anidar utilizando puntales. 33 Pros 34 Contras 34 Bien si 34 Creando Componentes 34 Estructura basica 34 Componentes funcionales sin estado 35 -- 3 of 139 -- Componentes de estado 35 Componentes de orden superior 36 trampas setState 37 Accesorios 39 Estados del componente - Interfaz de usuario dinámica 40 Variaciones de los componentes funcionales sin estado 41"
+}

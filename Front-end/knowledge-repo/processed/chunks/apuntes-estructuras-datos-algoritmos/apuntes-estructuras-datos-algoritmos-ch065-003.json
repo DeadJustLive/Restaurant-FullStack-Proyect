@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch065-003",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 65,
+  "chunkIndex": 3,
+  "title": "Lección 12:: Árboles binarios ............................................................................................................... 103",
+  "start": 1350,
+  "end": 1449,
+  "words": 99,
+  "content": "“iguales”) para duplicar su representación (lo que habitualmente llamamos “asignación entre variables”) y para realizar la comparación de igualdad entre elementos, -- 67 of 267 -- 60 respectivamente. En ese caso, el inicio del módulo genérico de implementación de pilas sería el siguiente, exigiendo que el parámetro formal de tipo “elemento” disponga de esas dos operaciones: módulo genérico pilas parámetros tipo elemento con procedimiento duplicar(ent eEnt:elemento; sal eSal:elemento) {procedimiento que duplica la representación de eEnt en eSal} con función iguales(e1,e2:elemento) devuelve booleano {función que devuelve verdad si y sólo si e1 y e2 almacenan el mismo elemento} exporta ..."
+}

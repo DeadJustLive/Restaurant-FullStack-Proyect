@@ -1,0 +1,27 @@
+# SCRUM Y XP DESDE LAS TRINCHERAS | 93
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 143)
+
+## Contenido
+# SCRUM Y XP DESDE LAS TRINCHERAS | 93
+
+Tras el Sprint 1, se libera una versión 1.0.0 con errores (bugs). Durante el Sprint
+2, los informes de errores comienzan a llegar, el equipo pasa la mayor parte del
+tiempo corrigiendo y se le fuerza a liberar una versión 1.0.1 libre de errores a
+mitad de Sprint. Entonces al final del Sprint se entrega una versión 1.1.0 con
+nuevas funcionalidades, que por supuesto tiene incluso más errores ya que han
+tenido menos tiempo para hacerlo bien debido a todas las interrupciones
+recibidas a raíz de la primera versión. Etc., etc.
+Las líneas diagonales rojas en el Sprint 2 simbolizan el caos.
+No pinta muy bien, ¿verdad? Bueno, lo triste es que el problema permanece
+incluso aunque tengas un equipo de pruebas. La única diferencia es que la
+mayoría de los informes de errores vendrán del equipo de pruebas en lugar de
+proceder de clientes enfadados. Es una gran diferencia desde el punto de vista
+del negocio, pero para los desarrolladores es mas o menos lo mismo. Excepto
+que los encargados de pruebas normalmente son menos agresivos que los
+clientes finales. Normalmente.
+No hemos encontrado una solución simple para este problema. Pero hemos
+experimentado con varios modelos.
+
+-- 93 of 122 --

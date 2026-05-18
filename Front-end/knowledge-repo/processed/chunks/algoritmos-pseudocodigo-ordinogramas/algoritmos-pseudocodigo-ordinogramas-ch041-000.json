@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch041-000",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 41,
+  "chunkIndex": 0,
+  "title": "CONSONANTE = 'S'",
+  "start": 0,
+  "end": 19,
+  "words": 19,
+  "content": "# CONSONANTE = 'S' caracter letra = 'X' caracter opcion = '3' Algunas expresiones de carácter son: opcion letra"
+}

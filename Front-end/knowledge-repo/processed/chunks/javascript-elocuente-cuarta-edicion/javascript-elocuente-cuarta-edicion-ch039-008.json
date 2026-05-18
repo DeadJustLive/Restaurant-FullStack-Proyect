@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch039-008",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 39,
+  "chunkIndex": 8,
+  "title": "Chapter 12",
+  "start": 3600,
+  "end": 3769,
+  "words": 169,
+  "content": "Agrega una forma especial set, similar a define, que da un nuevo valor a un enlace, actualizando el enlace en un ámbito exterior si aún no existe en el ámbito interior. Si el enlace no está definido en absoluto, lanza un ReferenceError (otro tipo de error estándar). La técnica de representar los ámbitos como objetos simples, que hasta ahora ha sido conveniente, te causará un pequeño problema en este punto. Es posible que desees usar la función Object.getPrototypeOf, la cual devuelve el pro- totipo de un objeto. También recuerda que puedes utilizar Object.hasOwn para verificar si un objeto dado tiene una propiedad. 213 -- 225 of 445 -- “El sueño detrás de la Web es de un espacio de información común en el que nos comunicamos compartiendo información. Su universalidad es esencial: el hecho de que un enlace de hipertexto pueda apuntar a cualquier cosa, ya sea personal, local o global, ya sea un borrador o altamente pulido.” —Tim Berners-Lee, La World Wide Web: Una historia personal muy breve"
+}

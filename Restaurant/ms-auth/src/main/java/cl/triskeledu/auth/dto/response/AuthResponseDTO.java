@@ -32,7 +32,6 @@ import lombok.*;
  *
  * CAMPOS OMITIDOS INTENCIONALMENTE:
  *   - `password`: NUNCA incluir en ningún response.
- *   - `id` de UserCredential: ya está dentro del JWT como claim `sub`.
  *
  * =============================================================================
  */
@@ -41,6 +40,15 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AuthResponseDTO {
+
+    /**
+     * CAMPO: id
+     * Tipo: Long
+     * Rol: ID de la credencial del usuario. Necesario en el frontend para pasarlo
+     *      como X-Credencial-Id en llamadas a otros microservicios.
+     *      Equivale al claim `userId` dentro del JWT.
+     */
+    private Long id;
 
     /**
      * CAMPO: token

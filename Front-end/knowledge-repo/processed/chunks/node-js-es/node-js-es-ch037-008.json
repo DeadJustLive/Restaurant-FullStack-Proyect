@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch037-008",
+  "bookId": "node-js-es",
+  "chapterIndex": 37,
+  "chunkIndex": 8,
+  "title": "Capítulo 5:: Aplicaciones Web Con Express",
+  "start": 3600,
+  "end": 3750,
+  "words": 150,
+  "content": "Las funciones de middleware pueden ejecutar cualquier código, realizar cambios en los objetos de res y req , finalizar el ciclo de respuesta y llamar al middleware siguiente. Un ejemplo muy común de middleware es el módulo cors . Para agregar soporte CORS, simplemente instálelo, solicítelo y ponga esta línea: app.use(cors()); Antes de cualquier enrutador o funciones de enrutamiento. Hola Mundo Aquí creamos un servidor básico hello world usando Express. Rutas: '/' • '/ wiki' • Y para el descanso le dará \"404\", es decir, página no encontrada. 'use strict'; const port = process.env.PORT || 3000; var app = require('express')(); app.listen(port); app.get('/',(req,res)=>res.send('HelloWorld!')); app.get('/wiki',(req,res)=>res.send('This is wiki page.')); app.use((req,res)=>res.send('404-PageNotFound')); Nota: Hemos colocado la ruta 404 como la última ruta, ya que Express apila las rutas en orden y las procesa para cada solicitud de forma secuencial. Lea Aplicaciones Web Con Express en línea: https://riptutorial.com/es/node- js/topic/483/aplicaciones-web-con-express https://riptutorial.com/es/home 45 -- 73 of 423 --"
+}

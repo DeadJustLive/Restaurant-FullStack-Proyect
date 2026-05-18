@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch033-004",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 33,
+  "chunkIndex": 4,
+  "title": "2. El uso de paréntesis, en función del caso, puede aclarar la expresión de comparación.",
+  "start": 1800,
+  "end": 1945,
+  "words": 145,
+  "content": "* 3.14 * radius ... if perimeter < 100: ... print( Increase radius to reach minimum perimeter ) ... print( Actual perimeter: , perimeter) ... Increase radius to reach minimum perimeter Actual perimeter: 26.69 Versión con operador morsa >>> radius = 4.25 ... if (perimeter := 2 * 3.14 * radius) < 100: ... print( Increase radius to reach minimum perimeter ) ... print( Actual perimeter: , perimeter) ... Increase radius to reach minimum perimeter Actual perimeter: 26.69 Consejo: Como hemos comprobado, el operador morsa permite realizar asignaciones dentro de expresiones, lo que, en muchas ocasiones, permite obtener un código más compacto. Sería conveniente encontrar un equilibrio entre la expresividad y la legibilidad. 5 Se denomina así porque el operador := tiene similitud con los colmillos de una morsa. 116 Capítulo 4. Control de flujo -- 120 of 516 -- Aprende Python EJERCICIOS DE REPASO"
+}

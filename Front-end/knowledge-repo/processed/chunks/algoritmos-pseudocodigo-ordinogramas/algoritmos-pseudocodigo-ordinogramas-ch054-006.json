@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch054-006",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 54,
+  "chunkIndex": 6,
+  "title": "2. Si el valor de la <variable> es menor o igual que el <valor_final>, entonces,",
+  "start": 2700,
+  "end": 3051,
+  "words": 351,
+  "content": "usuario */ hacer escribir( \"Introduzca opción: \" ) leer( opcion ) mientras( opcion < 1 o opcion > 4 ) /* La opción solamente puede ser 1, 2, 3 ó 4 */ /* Inicio del anidamiento */ segun_sea ( opcion ) 1 : escribir( \"Introduzca un número entero:\" ) leer( numero ) escribir( \"El doble de \", numero, \" es \", numero * 2 ) 2 : escribir( \"Introduzca un número entero:\" ) leer( numero ) escribir( \"La mitad de \", numero, \" es \", numero / 2 ) 3 : escribir( \"Introduzca un número entero:\" ) leer( numero ) escribir( \"El cuadrado de \", numero, \" es \", numero * numero ) fin_segun_sea /* Fin del anidamiento */ mientras ( opcion <> 4 ) fin La variable opcion, también puede ser un dato de tipo carácter, en vez de tipo entero: -- 146 of 180 -- Libro de Algoritmos de “Abrirllave.com” 147 / 180 algoritmo Menu_de_opciones variables caracter opcion entero numero inicio hacer escribir( \"1. Calcular el doble de un número entero.\" ) escribir( \"2. Calcular la mitad de un número entero.\" ) escribir( \"3. Calcular el cuadrado de un número entero.\" ) escribir( \"4. Salir.\" ) /* Filtramos la opción elegida por el usuario */ hacer escribir( \"Introduzca opción: \" ) leer( opcion ) mientras( opcion < 1 o opcion > 4 ) /* La opción solamente puede ser 1, 2, 3 ó 4 */ /* Inicio del anidamiento */ segun_sea ( opcion ) '1' : escribir( \"Introduzca un número entero:\" ) leer( numero ) escribir( \"El doble de \", numero, \" es \", numero * 2 ) '2' : escribir( \"Introduzca un número entero:\" ) leer( numero ) escribir( \"La mitad de \", numero, \" es \", numero / 2 ) '3' : escribir( \"Introduzca un número entero:\" ) leer( numero ) escribir( \"El cuadrado de \", numero, \" es \", numero * numero ) fin_segun_sea /* Fin del anidamiento */ mientras ( opcion <> 4 ) fin Ejercicios resueltos  Ejercicios de instrucciones repetitivas -- 147 of 180 -- Libro de Algoritmos de “Abrirllave.com” 148 / 180"
+}

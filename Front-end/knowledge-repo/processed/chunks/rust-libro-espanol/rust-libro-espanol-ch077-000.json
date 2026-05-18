@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch077-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 77,
+  "chunkIndex": 0,
+  "title": "Errores recuperables conResult",
+  "start": 0,
+  "end": 43,
+  "words": 43,
+  "content": "# Errores recuperables conResult ## Errores recuperables conResult ### Haciendo coincidir diferentes errores #### Alternativas a usarmatchconResult<T, E> #### Atajos parapanicen caso de error:unwrapyexpect ### Propagación de errores #### Un atajo para propagar errores: El operador? #### Donde se puede usar el operador?"
+}

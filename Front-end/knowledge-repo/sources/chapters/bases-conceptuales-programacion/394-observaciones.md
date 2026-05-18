@@ -1,0 +1,18 @@
+# OBSERVACIONES:
+
+* en rotaci´on 1, L es
+Norte -> L
+X
+Sur -> LL <- Sur,Este
+donde la X representa al pivote y
+las Ls a las dem´as secciones
+*/
+{
+(dA,dB,dC1,dC2) := id(Norte,Sur,Sur,Este)
+(dA,dB,dC1,dC2) := ajustarDires(dA,dB,dC1,dC2,rotPieza)
+return (dA,dB,dC1,dC2)
+}
+//-----------------------------------------------------
+function diresDePiezaF(rotPieza)
+/*
+PROP´OSITO: devolver las direcciones de una F

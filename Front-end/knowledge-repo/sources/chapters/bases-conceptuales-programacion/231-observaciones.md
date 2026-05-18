@@ -1,0 +1,20 @@
+# OBSERVACIONES:
+
+* abstrae a la funci´on de Biblioteca que verifica
+si una celda est´a vac´ıa
+*/
+{ return (esCeldaVacia()) }
+La precondici ´on establece que la celda actual est ´a en la zona de juego, porque esta fun-
+ci ´on se utiliza para verificar si se puede colocar la pieza en esa celda, y las piezas solo se
+pueden colocar en la zona de juego.
+La funci ´on hayCeldaLibreAl debe indicar si en la direcci ´on dada existe una celda
+donde se pueda colocar la pieza y si dicha celda est ´a libre. Dado que para colocar la
+pieza la celda debe estar en la zona de juego, la funci ´on debe verificar que efectivamente
+hay una celda en la zona de juego y que la misma est ´e libre. Para esto se sigue una
+idea similar a la de la funci ´on hayCeldaVaciaAl, del ejercicio 4.1.3, pero adaptando la
+condici ´on para que realice la pregunta dentro de la zona de juego.
+function hayCeldaLibreAl(dir)
+/*
+PROP´OSITO: determinar si hay una celda libre en la
+zona de juego, en la direcci´on indicada
+por dir

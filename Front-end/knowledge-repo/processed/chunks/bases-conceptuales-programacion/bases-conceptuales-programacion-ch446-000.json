@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch446-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 446,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 15,
+  "words": 15,
+  "content": "# PRECONDICIONES: * la celda lindante al dir es una secci´on de la pieza codPieza"
+}

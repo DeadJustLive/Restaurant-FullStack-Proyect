@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch048-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 48,
+  "chunkIndex": 1,
+  "title": "2. \tInsertar el nuevo nodo hoja, con factor de equilibrio equilibrado.",
+  "start": 450,
+  "end": 697,
+  "words": 247,
+  "content": "concreto de ordenación para ese tipo. Algunos lenguajes imperativos (por ejemplo, Ada) soportan la genericidad. A continuación, y a título de ejemplo, se incluye un algoritmo genérico de ordenación rápida en Ada. -- 43 of 267 -- 36 generic –- módulo de declaración; este módulo genérico ofrece un procedimiento de -- ordenación de vectores genéricos type indice is (<>); -- cualquier tipo discreto (es un parámetro de tipo) type elemento is private; -- cualquier tipo (es otro parámetro de tipo) type vector is array(indice range <>) of elemento; with function \">\"(a,b:elemento) return boolean; package ordenacion_g is procedure ordena(v:in out vector); end; -- del módulo de declaración package body ordenacion_g is -– módulo de implementación procedure ordena(v:in out vector) is i,j:indice; m,t:elemento; n:integer; begin -- inicialización i:=v'first; j:=v'last; n:=indice'pos(i); n:=n+indice'pos(j); n:=n/2; m:=v(indice'val(n)); -- partición del vector en dos while i<=j loop while m>v(i) loop i:=indice'succ(i); end loop; while v(j)>m loop j:=indice'pred(j); end loop; if i<=j then t:=v(i); v(i):=v(j); v(j):=t; i:=indice'succ(i); j:=indice'pred(j); end if; end loop; -- recursión en los dos subvectores if v'first<j then ordena(v(v'first..j)); end if; if i<v'last then ordena(v(i..v'last)); end if; end ordena; end ordenacion_g; -- del módulo de implementación La utilización de un ejemplar concreto del algoritmo genérico anterior se puede realizar de la siguiente forma: with ordenacion_g; procedure titi is type color is (rojo,azul,gris); type dia is (lu,ma,mi,ju,vi,sa,do); type vect is array(dia range <>) of color; x:vect(ma..vi):=(gris,azul,rojo,gris); package o is new ordenacion_g(dia,color,vect,\">\"); begin ... o.ordena(x); ... end titi; -- 44 of 267 -- 37"
+}

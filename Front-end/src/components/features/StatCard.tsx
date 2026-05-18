@@ -28,22 +28,22 @@ export const StatCard: React.FC<StatCardProps> = ({
   className
 }) => {
   return (
-    <Card className={cn("hover:shadow-md transition-shadow", className)}>
+    <Card className={cn("bg-surface-900/40 backdrop-blur-md border-white/5 text-white hover:shadow-md transition-shadow", className)}>
       <CardHeader className="flex flex-row items-center justify-between pb-2">
-        <CardTitle className="text-sm font-medium text-surface-500">
+        <CardTitle className="text-sm font-medium text-surface-400">
           {title}
         </CardTitle>
         {icon && <div className="text-surface-400">{icon}</div>}
       </CardHeader>
       <CardContent>
-        <div className="text-2xl font-bold text-surface-900">{value}</div>
+        <div className="text-2xl font-bold text-white">{value}</div>
         
         {(description || trend) && (
-          <p className="text-xs text-surface-500 mt-1 flex items-center gap-1">
+          <p className="text-xs text-surface-400 mt-1 flex items-center gap-1">
             {trend && (
               <span className={cn(
                 "font-medium",
-                trend.isPositive ? "text-green-600" : "text-red-600"
+                trend.isPositive ? "text-green-400" : "text-red-400"
               )}>
                 {trend.isPositive ? '+' : '-'}{Math.abs(trend.value)}%
               </span>

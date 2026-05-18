@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch040-002",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 40,
+  "chunkIndex": 2,
+  "title": "Capítulo 20:: Guía de estilo de óxido",
+  "start": 900,
+  "end": 992,
+  "words": 92,
+  "content": "mut buffer: String = String::new(); // BAD: let mut buffer:String = String::new(); let mut buffer : String = String::new(); Referencias // The ampersand (&) of a reference should be 'touching' // the type it refers to. // GOOD: let x: &str = \"Hello, world.\"; // BAD: fn fooify(x: & str) { println!(\"{}\", x); } // Mutable references should be formatted like so: fn bar(buf: &mut String) { } https://riptutorial.com/es/home 62 -- 76 of 188 -- Lea Guía de estilo de óxido en línea: https://riptutorial.com/es/rust/topic/4620/guia-de-estilo-de- oxido https://riptutorial.com/es/home 63 -- 77 of 188 --"
+}

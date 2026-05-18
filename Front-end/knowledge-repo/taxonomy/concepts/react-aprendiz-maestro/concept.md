@@ -1,0 +1,240 @@
+# react-aprendiz-maestro
+
+## Resumen
+Documento procesado con openPrompt-Lang Knowledge.
+
+**Páginas:** 226
+**Método:** native
+**Procesado:** 2026-05-17
+
+## Capítulos
+- **1. Introducción a React . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2**
+- **1.2 DOM Virtual . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3**
+- **1.3 Renderizadores de React . . . . . . . . . . . . . . . . . . . . . . 5**
+- **1.4 React.createElement y JSX . . . . . . . . . . . . . . . . . . . . 6**
+- **1.5 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8**
+- **2. Configurando el Proyecto . . . . . . . . . . . . . . . . . . . . . . . . . 9**
+- **2.1 Configuración de Node.js y Git . . . . . . . . . . . . . . . . . . . 10**
+- **2.2 Ejecutando el Proyecto . . . . . . . . . . . . . . . . . . . . . . . 11**
+- **ÍNDICE GENERAL**
+- **2.4 Características del Lenguaje Presentes en el Esqueleto . . . . . . 14**
+- **16.2 Metodologías CSS . . . . . . . . . . . . . . . . . . . . . . . . . . 161**
+- **16.3 Procesadores CSS . . . . . . . . . . . . . . . . . . . . . . . . . . 164**
+- **16.4 Aproximaciones Basadas en React . . . . . . . . . . . . . . . . . 166**
+- **16.5 Módulos CSS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 173**
+- **16.6 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 175**
+- **17. Estructurando Proyectos con React . . . . . . . . . . . . . . . . . . . . 177**
+- **17.1 Un Directorio por Concepto . . . . . . . . . . . . . . . . . . . . 177**
+- **17.2 Un Directorio por Componente . . . . . . . . . . . . . . . . . . . 178**
+- **17.3 Un Directorio por Vista . . . . . . . . . . . . . . . . . . . . . . . 180**
+- **17.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 181**
+- **2.5 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16**
+- **ÍNDICE GENERAL**
+- **1. Introducción a React**
+- **1.2 DOM Virtual**
+- **1.3 Renderizadores de React**
+- **1.4 React.createElement y JSX**
+- **1.5 Conclusión**
+- **2. Configurando el Proyecto**
+- **2.1 Configuración de Node.js y Git**
+- **2.2 Ejecutando el Proyecto**
+- **2.4 Características del Lenguaje Presentes en**
+- **3. Implementando una Aplicación de Notas . . . . . . . . . . . . . . . . 17**
+- **2.5 Conclusión**
+- **3. Implementando una**
+- **3.1 Modelo de Datos Inicial**
+- **3.2 Renderizado de los Datos Iniciales**
+- **3.3 Generando los Ids**
+- **3.4 Añadiendo Nuevas Notas a la Lista**
+- **3.5 Conclusión**
+- **4. Borrado de Notas**
+- **4.1 Separación de Nota**
+- **4.2 Añadir un Esqueleto para la Llamada a**
+- **3.1 Modelo de Datos Inicial . . . . . . . . . . . . . . . . . . . . . . . 17**
+- **4.3 Comunicar el Borrado a App**
+- **4.4 Conclusión**
+- **parte d: el Kanban. La edición es la funcionalidad más difícil de todas. Una forma de**
+- **5. Comprendiendo los**
+- **5.1 Métodos del Ciclo de Vida**
+- **5.2 Refs**
+- **5.3 Propiedades y Métodos Propios**
+- **5.4 Convenciones de los Componentes de**
+- **5.5 Conclusión**
+- **6. Edición de Notas**
+- **3.2 Renderizado de los Datos Iniciales . . . . . . . . . . . . . . . . . 18**
+- **6.1 Implementación de Editable**
+- **6.2 Extrayendo el Renderizado de Nota**
+- **6.3 Inclusión del Esqueleto Editable**
+- **6.4 Conectando Editable con Notas**
+- **6.5 Haciendo un Seguimiento del Estado**
+- **6.6 Implementación de Edit**
+- **6.7 Sobre los Componentes y el Espacio de**
+- **6.8 Conclusión**
+- **7. Dando Estilo a la Aplicación**
+- **7.1 Aplicando Estilo sobre el Botón “Añadir**
+- **3.3 Generando los Ids . . . . . . . . . . . . . . . . . . . . . . . . . . 20**
+- **7.2 Aplicando estilos sobre Notas**
+- **7.3 Aplicando Estilos sobre Notas Individuales**
+- **7.4 Conclusión**
+- **8. React y Flux**
+- **8.1 Breve Introducción a Redux**
+- **8.2 Breve Introducción a MobX**
+- **8.4 Introducción a Flux**
+- **8.5 Migrando a Alt**
+- **1. Configurar una instancia de Alt para que siga las acciones, los almacenes y**
+- **2. Conectar Alt con las vistas.**
+- **3.4 Añadiendo Nuevas Notas a la Lista . . . . . . . . . . . . . . . . . 22**
+- **3. Dejar nuestros datos en un almacén.**
+- **4. Definir acciones que permitan manipular el almacén.**
+- **8.6 Entendiendo conectar**
+- **8.7 Usando el Dispatcher en Alt**
+- **8.8 Conclusión**
+- **9. Implementando NoteStore y**
+- **9.1 Configurando un NoteStore**
+- **9.2 Entendiendo las Acciones**
+- **9.3 Configurando NoteActions**
+- **9.4 Conectando NoteActions con NoteStore**
+- **3.5 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32**
+- **9.5 Migrando App.addNote a Flux**
+- **9.6 Migrando App.deleteNote a Flux**
+- **9.7 Migrando App.activateNoteEdit a Flux**
+- **9.8 Migrando App.editNote a Flux**
+- **1. Supón que quieres almacenar las notas en el localStorage. ¿Dónde imple-**
+- **9.9 Conclusión**
+- **10. Implementando**
+- **10.1 Entendiendo localStorage**
+- **10.2 Implementando un Envoltorio para**
+- **10.3 Persistiendo la Aplicación usando**
+- **4. Borrado de Notas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33**
+- **10.4 Implementando la Lógica de Persistencia**
+- **10.5 Conectando la Lógica de Persistencia con**
+- **10.6 Limpiando NoteStore**
+- **10.7 Implementaciones Alternativas**
+- **10.9 Conclusión**
+- **11. Gestionado Dependencias**
+- **11.1 Definiendo Carriles**
+- **11.2 Conectando Carriles con App**
+- **11.3 Modelando Carril**
+- **11.4 Haciendo que Carriles sea el Responsable**
+- **4.1 Separación de Nota . . . . . . . . . . . . . . . . . . . . . . . . . 33**
+- **11.5 Extrayendo LaneHeader (Cabecera de Carril)**
+- **11.6 Conclusión**
+- **12. Editando los Carriles**
+- **12.1 Implementando la Edición de Nombres**
+- **12.2 Implementando el Borrado de Carril**
+- **12.3 Dando Estilo al Tablero Kanban**
+- **capítulo D: ando Estilo a React para más información.**
+- **12.4 Conclusión**
+- **13. Implementado Arrastrar y**
+- **13.1 Configurando React DnD**
+- **4.2 Añadir un Esqueleto para la Llamada a onDelete . . . . . . . . . 34**
+- **13.2 Permitiendo que las Notas sean**
+- **13.3 Permitiendo a las Notas que Detecten**
+- **13.4 Desarrollando el API onMove para Notas**
+- **1. Capturar el identificador de Nota en beginDrag.**
+- **2. Capturar el identificador de la Nota objetivo hover.**
+- **3. Lanzar la llmada a hover cuando se ejecute onMove par que podamos incluir**
+- **13.5 Añadiendo Acciones en el Movimiento**
+- **13.6 Implementando la Lógica de Arrastrar y**
+- **13.7 Arrastrando Notas sobre Carriles Vacíos**
+- **13.8 Conclusión**
+- **4.3 Comunicar el Borrado a App . . . . . . . . . . . . . . . . . . . . 35**
+- **14. Probando React**
+- **14.1 TL;DR**
+- **15. Tipado con React**
+- **15.1 TL;DR**
+- **16. Aplicando Estilo a React**
+- **16.1 Estilo a la Vieja Usanza**
+- **16.2 Metodologías CSS**
+- **OOCSS y SMACSS**
+- **16.3 Procesadores CSS**
+- **16.4 Aproximaciones Basadas en React**
+- **4.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38**
+- **16.5 Módulos CSS**
+- **16.6 Conclusión**
+- **17. Estructurando Proyectos**
+- **17.1 Un Directorio por Concepto**
+- **17.2 Un Directorio por Componente**
+- **17.3 Un Directorio por Vista**
+- **17.4 Conclusión**
+- **EPEERINVALID**
+- **1. Avisar al autor del paquete del problema y confiar en que incremente el rango**
+- **2. Resolver el conflicto utilizando una versión que satisfaga la dependencia. En**
+- **5. Comprendiendo los Componentes de React . . . . . . . . . . . . . . . 39**
+- **3. Hacer un fork del paquete, arreglar el rango de versiones, y utilizar tu**
+- **5.1 Métodos del Ciclo de Vida . . . . . . . . . . . . . . . . . . . . . 39**
+- **5.2 Refs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41**
+- **5.3 Propiedades y Métodos Propios . . . . . . . . . . . . . . . . . . . 41**
+- **5.4 Convenciones de los Componentes de React . . . . . . . . . . . . 43**
+- **5.5 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44**
+- **6. Edición de Notas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45**
+- **6.1 Implementación de Editable . . . . . . . . . . . . . . . . . . . . 45**
+- **6.2 Extrayendo el Renderizado de Nota . . . . . . . . . . . . . . . . 46**
+- **6.3 Inclusión del Esqueleto Editable . . . . . . . . . . . . . . . . . . 48**
+- **6.4 Conectando Editable con Notas . . . . . . . . . . . . . . . . . . 49**
+- **6.5 Haciendo un Seguimiento del Estado editing de Nota . . . . . . 50**
+- **6.6 Implementación de Edit . . . . . . . . . . . . . . . . . . . . . . 53**
+- **6.7 Sobre los Componentes y el Espacio de Nombres . . . . . . . . . 55**
+- **6.8 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56**
+- **7. Dando Estilo a la Aplicación de Notas . . . . . . . . . . . . . . . . . . 57**
+- **7.1 Aplicando Estilo sobre el Botón “Añadir Nota” . . . . . . . . . . 57**
+- **ÍNDICE GENERAL**
+- **7.2 Aplicando estilos sobre Notas . . . . . . . . . . . . . . . . . . . . 58**
+- **7.3 Aplicando Estilos sobre Notas Individuales . . . . . . . . . . . . 60**
+- **7.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63**
+- **8. React y Flux . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66**
+- **8.1 Breve Introducción a Redux . . . . . . . . . . . . . . . . . . . . . 66**
+- **8.2 Breve Introducción a MobX . . . . . . . . . . . . . . . . . . . . . 67**
+- **8.4 Introducción a Flux . . . . . . . . . . . . . . . . . . . . . . . . . 68**
+- **8.5 Migrando a Alt . . . . . . . . . . . . . . . . . . . . . . . . . . . 70**
+- **8.6 Entendiendo conectar . . . . . . . . . . . . . . . . . . . . . . . 76**
+- **8.7 Usando el Dispatcher en Alt . . . . . . . . . . . . . . . . . . . . 81**
+- **8.8 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82**
+- **9. Implementando NoteStore y NoteActions . . . . . . . . . . . . . . . . 83**
+- **9.1 Configurando un NoteStore . . . . . . . . . . . . . . . . . . . . 83**
+- **9.2 Entendiendo las Acciones . . . . . . . . . . . . . . . . . . . . . . 86**
+- **9.3 Configurando NoteActions . . . . . . . . . . . . . . . . . . . . . 87**
+- **9.4 Conectando NoteActions con NoteStore . . . . . . . . . . . . . 88**
+- **9.5 Migrando App.addNote a Flux . . . . . . . . . . . . . . . . . . . 90**
+- **9.6 Migrando App.deleteNote a Flux . . . . . . . . . . . . . . . . . 92**
+- **9.7 Migrando App.activateNoteEdit a Flux . . . . . . . . . . . . . 94**
+- **9.8 Migrando App.editNote a Flux . . . . . . . . . . . . . . . . . . . 96**
+- **9.9 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98**
+- **10. Implementando Persistencia en localStorage . . . . . . . . . . . . . . 99**
+- **10.1 Entendiendo localStorage . . . . . . . . . . . . . . . . . . . . . 99**
+- **10.2 Implementando un Envoltorio para localStorage . . . . . . . . 100**
+- **10.3 Persistiendo la Aplicación usando FinalStore . . . . . . . . . . . 101**
+- **10.4 Implementando la Lógica de Persistencia . . . . . . . . . . . . . 101**
+- **10.5 Conectando la Lógica de Persistencia con la Aplicación . . . . . . 103**
+- **10.6 Limpiando NoteStore . . . . . . . . . . . . . . . . . . . . . . . . 104**
+- **10.7 Implementaciones Alternativas . . . . . . . . . . . . . . . . . . . 105**
+- **ÍNDICE GENERAL**
+- **10.9 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106**
+- **11. Gestionado Dependencias de Datos . . . . . . . . . . . . . . . . . . . . 107**
+- **11.1 Definiendo Carriles . . . . . . . . . . . . . . . . . . . . . . . . 107**
+- **11.2 Conectando Carriles con App . . . . . . . . . . . . . . . . . . . 110**
+- **11.3 Modelando Carril . . . . . . . . . . . . . . . . . . . . . . . . . 111**
+- **11.4 Haciendo que Carriles sea el Responsable de Notas . . . . . . . 114**
+- **11.5 Extrayendo LaneHeader (Cabecera de Carril) de Carril . . . . . 123**
+- **11.6 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126**
+- **12. Editando los Carriles . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127**
+- **12.1 Implementando la Edición de Nombres de Carril . . . . . . . . . 127**
+- **12.2 Implementando el Borrado de Carril . . . . . . . . . . . . . . . 130**
+- **12.3 Dando Estilo al Tablero Kanban . . . . . . . . . . . . . . . . . . 133**
+- **12.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136**
+- **13. Implementado Arrastrar y Soltar . . . . . . . . . . . . . . . . . . . . . 137**
+- **13.1 Configurando React DnD . . . . . . . . . . . . . . . . . . . . . . 137**
+- **13.2 Permitiendo que las Notas sean Arrastradas . . . . . . . . . . . . 139**
+- **13.3 Permitiendo a las Notas que Detecten Notas que Pasan por Encima 141**
+- **13.4 Desarrollando el API onMove para Notas . . . . . . . . . . . . . . 142**
+- **13.5 Añadiendo Acciones en el Movimiento . . . . . . . . . . . . . . 146**
+- **13.6 Implementando la Lógica de Arrastrar y Soltar Notas . . . . . . . 148**
+- **13.7 Arrastrando Notas sobre Carriles Vacíos . . . . . . . . . . . . . . 151**
+- **13.8 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 156**
+- **14. Probando React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 158**
+- **14.1 TL;DR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 158**
+- **15. Tipado con React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160**
+- **15.1 TL;DR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160**
+- **ÍNDICE GENERAL**
+- **16. Aplicando Estilo a React . . . . . . . . . . . . . . . . . . . . . . . . . . 161**
+- **16.1 Estilo a la Vieja Usanza . . . . . . . . . . . . . . . . . . . . . . . 161**

@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch063-009",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 63,
+  "chunkIndex": 9,
+  "title": "6.2 Objetos y Clases",
+  "start": 4050,
+  "end": 4310,
+  "words": 260,
+  "content": "esas clases: >>> SuperDroid.mro() [__main__.SuperDroid, __main__.ProtocolDroid, __main__.AstromechDroid, __main__.Droid, object] >>> HyperDroid.__mro__ (__main__.HyperDroid, __main__.AstromechDroid, __main__.ProtocolDroid, __main__.Droid, object) Veamos el resultado de la llamada a los métodos definidos: >>> super_droid = SuperDroid() >>> hyper_droid = HyperDroid() >>> super_droid.greet() Here a protocol droid >>> hyper_droid.greet() Here an astromech droid 274 Capítulo 6. Modularidad -- 278 of 516 -- Aprende Python Nota: Todos los objetos en Python heredan, en primera instancia, de object. Esto se puede comprobar con el mro() correspondiente: >>> int.mro() [int, object] >>> str.mro() [str, object] >>> float.mro() [float, object] >>> tuple.mro() [tuple, object] >>> list.mro() [list, object] >>> bool.mro() [bool, int, object] Mixins Hay situaciones en la que nos interesa incorporar una clase base «independiente» de la jerarquía establecida, y sólo a efectos de tareas auxiliares. Esta aproximación podría ayudar a evitar colisiones en métodos o atributos reduciendo la ambigüedad que añade la herencia múltiple. Estas clases auxiliares reciben el nombre de «mixins». Veamos un ejemplo en el que usamos un «mixin» para mostrar las variables de un objeto: >>> class Instrospection: ... def dig(self): ... print(vars(self)) # vars devuelve las variables del argumento ... ... class Droid(Instrospection): ... pass ... >>> droid = Droid() >>> droid.code = DN-LD >>> droid.num_feet = 2 >>> droid.type = Power Droid (continué en la próxima página) 6.2. Objetos y Clases 275 -- 279 of 516 -- Aprende Python (proviene de la página anterior) >>> droid.dig() { code : DN-LD , num_feet : 2, type : Power Droid } Ejercicio Dada la siguiente estructura/herencia que representa diferentes clases de ficheros: Se pide lo siguiente:"
+}

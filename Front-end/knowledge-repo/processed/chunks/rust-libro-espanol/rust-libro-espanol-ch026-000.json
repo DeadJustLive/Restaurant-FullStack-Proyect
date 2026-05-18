@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch026-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 26,
+  "chunkIndex": 0,
+  "title": "Usando Threads para Ejecutar Código Simultáneamente",
+  "start": 0,
+  "end": 33,
+  "words": 33,
+  "content": "# Usando Threads para Ejecutar Código Simultáneamente ## Usando Threads para Ejecutar Código Simultáneamente ### Creando un Nuevo Hilo conspawn ### Esperando a que todos los hilos terminen usandojoinHandles ### UsandomoveClosures con Threads"
+}

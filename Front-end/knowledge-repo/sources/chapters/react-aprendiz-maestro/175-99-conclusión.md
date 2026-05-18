@@ -1,0 +1,9 @@
+# 9.9 Conclusión
+
+Hemos visto en este capítulo cómo migrar una aplicación sencilla a una arquitectura
+Flux. Durante el proceso hemos aprendido más acerca de las acciones y los alma-
+cenes de Flux. Llegados a este punto estamos listos para añadir más funcionalidad
+a nuestra aplicación. Añadiremos persistencia basada en el localStorage a nuestra
+aplicación y realizaremos una pequeña limpieza por el camino.
+
+-- 116 of 226 --

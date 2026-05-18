@@ -1,0 +1,7 @@
+# 2. Recorrer el texto de referencia y, a medida que se encuentra un par clave/valor,
+
+traducir todas las ocurrencias de ese s´ımbolo.
+Esta soluci ´on tiene la dificultad de que una vez visitado el texto a traducir, hay que
+volver a la posici ´on del texto de referencia de donde hab´ıa partido el cabezal. Esto
+puede hacerse dejando marcas sobre el tablero. Sin embargo, esta soluci ´on es
+compleja.

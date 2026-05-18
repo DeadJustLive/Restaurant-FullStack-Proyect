@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch363-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 363,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 18,
+  "words": 18,
+  "content": "# PROP´OSITO: devuelve un n´umero codificado en la zona de pr´oxima pieza, si existe, o cero si no"
+}

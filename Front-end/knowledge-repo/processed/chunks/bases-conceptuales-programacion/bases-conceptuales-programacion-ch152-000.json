@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch152-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 152,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 19,
+  "words": 19,
+  "content": "# PRECONDICI´ON: * debe haber una celda al norte -} { cantRojas := nroBolitas(Rojo) Mover(Norte) CompletarDuplicarRojasAlNorteBien(cantRojas) } procedimiento CompletarDuplicarRojasAlNorteBien(cantAPoner)"
+}

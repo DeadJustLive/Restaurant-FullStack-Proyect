@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch048-002",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 48,
+  "chunkIndex": 2,
+  "title": "5.3 Diccionarios",
+  "start": 900,
+  "end": 983,
+  "words": 83,
+  "content": "caras , ... anarcoide : Que tiende al desorden , ... montuvio : Campesino de la costa ... } >>> rae[ anarcoide ] Que tiende al desorden Si intentamos acceder a una clave que no existe, obtendremos un error: >>> rae[ acceso ] Traceback (most recent call last): File \"<stdin>\", line 1, in <module> KeyError: acceso Usando get() Existe una función muy útil para «superar» los posibles errores de acceso por claves inexistentes. Se trata de get() y su comportamiento es el siguiente:"
+}

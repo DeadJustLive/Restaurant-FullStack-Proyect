@@ -1,0 +1,11 @@
+{
+  "id": "guia-scrum-european-ch033-001",
+  "bookId": "guia-scrum-european",
+  "chapterIndex": 33,
+  "chunkIndex": 1,
+  "title": "6.1 \tSprint",
+  "start": 450,
+  "end": 616,
+  "words": 166,
+  "content": "características para atraer y retener a los clientes. Implementación de MVP y MMP en Sprints Durante el desarrollo en Scrum, el equipo puede usar la estrategia de MVP para determinar las características más críticas que se incluirán en los primeros Sprints. A medida que el producto evoluciona y se recopila más información del usuario, el equipo puede comenzar a trabajar hacia un MMP, ampliando el producto para satisfacer un mercado más amplio. -- 12 of 21 -- www.europeanscrum.org - 12 - 6.1.6 Conclusión del Sprint El Sprint es un período de tiempo crítico durante el cual el equipo se esfuerza por convertir los ítems del Product Backlog en incrementos funcionales del producto. La elección de la duración del Sprint, así como el desarrollo y la implementación de un MVP o MMP, son decisiones estratégicas que dependen de múltiples factores y que tienen un impacto significativo en el éxito y la eficacia del desarrollo ágil. Propósito: Facilitar el desarrollo rápido y repetitivo de productos de alta calidad."
+}

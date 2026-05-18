@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch168-003",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 168,
+  "chunkIndex": 3,
+  "title": "1. Sintaxis para una especificación de TAD en lenguaje natural",
+  "start": 1350,
+  "end": 1411,
+  "words": 61,
+  "content": "igual que en todas las representaciones estáticas de TAD con número de valores no finito, únicamente se puede representar un subconjunto de los valores posibles (en este caso, el de los montículos con número de elementos menor o igual que maxNum). Este hecho se traduce en que la operación añadir se implementa como operación parcial. La implementación detallada es la siguiente."
+}

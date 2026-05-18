@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch515-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 515,
+  "chunkIndex": 0,
+  "title": "parte 3: , y combinarlo con alguna de las expresiones reci ´en presentadas.",
+  "start": 0,
+  "end": 45,
+  "words": 45,
+  "content": "# OBSERVACIONES: * se estructura como un recorrido sobre las celdas de la zona de juego, quitando todas las piezas */ { // Iniciar recorrido NE en la zona de juego IrAlOrigenDeZonaDeJuego() while (not esFinDelRecorridoNEDeZonaDeJuego()) { VaciarCelda() AvanzarEnRecorridoNEDeZonaDeJuego() } VaciarCelda() } B.6. Operaciones de interfaz"
+}

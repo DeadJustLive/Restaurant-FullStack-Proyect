@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch042-007",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 42,
+  "chunkIndex": 7,
+  "title": "// → [\"UNO\", \"DOS\"]",
+  "start": 3150,
+  "end": 3421,
+  "words": 271,
+  "content": "alinea a la derecha las celdas que contienen valores numéricos estableciendo su propiedad style.textAlign en \"right\". Elementos por nombre de etiqueta El método document.getElementsByTagName devuelve todos los elementos hijos con un nombre de etiqueta dado. Implementa tu propia versión de esto como una función que tome un nodo y un string (el nombre de la etiqueta) como argumentos y devuelva un array que contenga todos los nodos de elementos descendientes con el nombre de etiqueta dado. Tu función debe recorrer el documento en sí. No puede usar un método como querySelectorAll para hacer el trabajo. Para encontrar el nombre de etiqueta de un elemento, usa su propiedad nodeName. Pero ten en cuenta que esto devolverá el nombre de la etiqueta en mayúsculas. Usa los métodos de string toLowerCase o toUpperCase para compensar esto. El sombrero del gato Extiende la animación del gato definida anteriormente para que tanto el gato como su sombrero (<img src=\"img/hat.png\">) orbiten en lados opuestos de la elipse. 240 -- 252 of 445 -- O haz que el sombrero circule alrededor del gato. O altera la animación de alguna otra manera interesante. Para facilitar el posicionamiento de varios objetos, es probablemente una buena idea cambiar a posicionamiento absoluto. Esto significa que top y left se cuentan en relación al extremo superior izquierdo del documento. Para evitar usar coordenadas negativas, que harían que la imagen se salga de la página visible, puedes agregar un número fijo de píxeles a los valores de posición. 241 -- 253 of 445 -- “Tienes poder sobre tu mente, no sobre los eventos externos. Date cuenta de esto y encontrarás fuerza.” —Marco Aurelio, Meditaciones"
+}

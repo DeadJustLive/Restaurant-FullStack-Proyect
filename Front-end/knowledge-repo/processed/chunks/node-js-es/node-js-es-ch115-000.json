@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch115-000",
+  "bookId": "node-js-es",
+  "chapterIndex": 115,
+  "chunkIndex": 0,
+  "title": "Capítulo 72:: Lodash",
+  "start": 0,
+  "end": 130,
+  "words": 130,
+  "content": "# Capítulo 72:: Lodash Introducción Lodash es una útil biblioteca de utilidades de JavaScript. Examples Filtrar una colección El fragmento de código a continuación muestra las diversas formas en que puede filtrar en una matriz de objetos usando lodash. let lodash = require('lodash'); var countries = [ {\"key\": \"DE\", \"name\": \"Deutschland\", \"active\": false}, {\"key\": \"ZA\", \"name\": \"South Africa\", \"active\": true} ]; var filteredByFunction = lodash.filter(countries, function (country) { return country.key === \"DE\"; }); // => [{\"key\": \"DE\", \"name\": \"Deutschland\"}]; var filteredByObjectProperties = lodash.filter(countries, { \"key\": \"DE\" }); // => [{\"key\": \"DE\", \"name\": \"Deutschland\"}]; var filteredByProperties = lodash.filter(countries, [\"key\", \"ZA\"]); // => [{\"key\": \"ZA\", \"name\": \"South Africa\"}]; var filteredByProperty = lodash.filter(countries, \"active\"); // => [{\"key\": \"ZA\", \"name\": \"South Africa\"}]; Lea Lodash en línea: https://riptutorial.com/es/node-js/topic/9161/lodash https://riptutorial.com/es/home 240 -- 268 of 423 --"
+}

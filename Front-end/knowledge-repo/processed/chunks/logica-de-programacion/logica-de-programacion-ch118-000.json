@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch118-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 118,
+  "chunkIndex": 0,
+  "title": "9. Dado un n´umero menor o igual a 50, calcule su factorial mediante",
+  "start": 0,
+  "end": 16,
+  "words": 16,
+  "content": "# 9. Dado un n´umero menor o igual a 50, calcule su factorial mediante sumas sucesivas."
+}

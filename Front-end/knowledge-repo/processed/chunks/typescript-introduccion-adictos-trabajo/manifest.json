@@ -1,0 +1,58 @@
+{
+  "bookId": "typescript-introduccion-adictos-trabajo",
+  "totalChunks": 7,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.470Z",
+  "chunks": [
+    {
+      "id": "typescript-introduccion-adictos-trabajo-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "0. Índice de contenidos.",
+      "words": 29
+    },
+    {
+      "id": "typescript-introduccion-adictos-trabajo-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "1. Introducción",
+      "words": 209
+    },
+    {
+      "id": "typescript-introduccion-adictos-trabajo-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "2. Sintaxis",
+      "words": 487
+    },
+    {
+      "id": "typescript-introduccion-adictos-trabajo-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "3. Comunicación con código Javascript ya existente",
+      "words": 205
+    },
+    {
+      "id": "typescript-introduccion-adictos-trabajo-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "4. Compilador Typescript, Grunt y Gulp.",
+      "words": 365
+    },
+    {
+      "id": "typescript-introduccion-adictos-trabajo-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "5. Revisando el código generado",
+      "words": 160
+    },
+    {
+      "id": "typescript-introduccion-adictos-trabajo-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "6. Conclusiones",
+      "words": 109
+    }
+  ]
+}

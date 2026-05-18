@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch082-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 82,
+  "chunkIndex": 0,
+  "title": "PROP´OSITO:",
+  "start": 0,
+  "end": 206,
+  "words": 206,
+  "content": "# PROP´OSITO: * coloca en la celda actual la cantidad de bolitas rojas indicada (y ninguna si cantidad<=0) PRECONDICI´ON: ninguna (es una operaci´on total) -} { repeat(cantidad) { Poner(Rojo) } } Entonces, el comando PonerNRojas(3) pondr ´a 3 bolitas en la celda actual, y el comando PonerNRojas(10) pondr ´a 10 bolitas. Como se puede observar, utilizan- do este comando no es necesario copiar una y otra vez un comando en secuen- cia para repetir varias veces, y adem ´as podemos controlar la cantidad con un par ´ametro. Actividad de Programaci ´on 5 Realizar los procedimientos solicitados en el ejercicio 3.1.3. Utilizar el primero de ellos para colocar 17 bolitas azules y 42 bolitas negras en la celda actual. ¿Cu ´al es la precondici ´on del programa? Observar que ciertos datos son directamente dados como par ´ametro, indicando incluso el nombre que debe usarse para los mismos. Por ejemplo, el enunciado “que deposite cant bolitas” quiere decir que el procedimiento tendr ´a un par ´ametro de nombre cant que indique la cantidad en forma de n ´umero. Lo mismo con otros par ´ametros. Ejercicio 3.1.3. Escribir los procedimientos que se describen. Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 100 of 312 -- 101"
+}

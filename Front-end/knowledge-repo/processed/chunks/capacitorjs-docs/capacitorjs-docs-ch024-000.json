@@ -1,0 +1,11 @@
+{
+  "id": "capacitorjs-docs-ch024-000",
+  "bookId": "capacitorjs-docs",
+  "chapterIndex": 24,
+  "chunkIndex": 0,
+  "title": "Using SPM in an existing Capacitor Project​",
+  "start": 0,
+  "end": 39,
+  "words": 39,
+  "content": "# Using SPM in an existing Capacitor Project​ ## Using SPM in an existing Capacitor Project​ ### Deleting your iOS Directory​ ### Using our migration tool​ #### Adding debug.xcconfig to project​ ### Converting existing plugins to SPM​ ### Troubleshooting​"
+}

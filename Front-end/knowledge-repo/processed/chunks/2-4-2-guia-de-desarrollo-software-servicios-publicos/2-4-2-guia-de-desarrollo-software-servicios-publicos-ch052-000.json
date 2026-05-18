@@ -1,0 +1,11 @@
+{
+  "id": "2-4-2-guia-de-desarrollo-software-servicios-publicos-ch052-000",
+  "bookId": "2-4-2-guia-de-desarrollo-software-servicios-publicos",
+  "chapterIndex": 52,
+  "chunkIndex": 0,
+  "title": "1. Ejemplo Dockerfile aplicación",
+  "start": 0,
+  "end": 47,
+  "words": 47,
+  "content": "# 1. Ejemplo Dockerfile aplicación PHP El archivo Dockerfile es el que da el inicio a la construcción de la imagen que será cargada en un servicio de registry de imágenes para su posterior uso. A continuación se muestra un Dockerfile de ejemplo de una aplicación PHP."
+}

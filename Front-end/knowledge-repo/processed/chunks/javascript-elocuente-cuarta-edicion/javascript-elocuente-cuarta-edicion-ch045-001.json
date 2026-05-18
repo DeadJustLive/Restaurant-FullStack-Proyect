@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch045-001",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 45,
+  "chunkIndex": 1,
+  "title": "parte d: e la cuadrícula de fondo o un elemento móvil.",
+  "start": 450,
+  "end": 590,
+  "words": 140,
+  "content": "e y de un carácter dado. Las posiciones en el juego se almacenarán como pares de coordenadas, siendo la esquina superior izquierda 0,0 y cada cuadro de fondo siendo de 1 unidad de alto y ancho. Para interpretar los caracteres en el plan, el constructor de Level utiliza el objeto levelChars, que, para cada carácter utilizado en las descripciones de niveles, contiene una cadena si es un tipo de fondo, y una clase si produce un actor. Cuando type es una clase de actor, se utiliza su método estático create para crear un objeto, que se agrega a startActors, y la función de mapeo devuelve \"empty\" para este cuadro de fondo. La posición del actor se almacena como un objeto Vec. Este es un vector bidimensional, un objeto con propiedades x e y, como se ve en los ejercicios del"
+}

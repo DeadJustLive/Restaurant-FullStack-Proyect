@@ -1,0 +1,19 @@
+# 2. Vincular un evento click al titulo, el cual utilizará el método $.fn.load para cargar en cada
+
+div creado el contenido apropiado desde el archivo /ejercicios/data/blog.html. No olvide de
+deshabilitar el comportamiento predeterminado del evento click.
+Notar que cada titulo de artículo de blog en index.html incluye un enlace hacia el artículo. Necesi-
+tará aprovechar el atributo href de cada enlace para obtener el contenido propio de blog.html. Una
+vez obtenida el valor del atributo, puede utilizar la siguiente forma para procesar la información y
+convertirla en un selector para utilizar en conjunto con $.fn.load:
+var href = 'blog.html#post1';
+var tempArray = href.split('#');
+var id = '#' + tempArray[1];
+Recuerde utilizar console.log para asegurarse que esta realizando lo correcto.
+Cargar Contenido Utilizando JSON
+Abra el archivo /ejercicios/index.html en el navegador. Realice el ejercicio utilizando el archivo
+/ejercicios/js/specials.js. La tarea es mostrar los detalles del usuario para un día determinado
+cuando se selecciona desde la lista desplegable.
+61
+
+-- 62 of 107 --

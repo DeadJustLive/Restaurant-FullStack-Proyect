@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch032-009",
+  "bookId": "node-js-es",
+  "chapterIndex": 32,
+  "chunkIndex": 9,
+  "title": "Capítulo 1:: Empezando con Node.js",
+  "start": 4050,
+  "end": 4245,
+  "words": 195,
+  "content": "999 -passin \"pass:password\" -in csr.pem -CA ca- cert.pem -CAkey ca-key.pem -CAcreateserial -out cert.pem 8. Paso 2: instale su certificado como certificado raíz Copie su certificado a la carpeta de sus certificados raíz: sudo cp ca-crt.pem /usr/local/share/ca-certificates/ca-crt.pem 1. actualizar la tienda de CA: sudo update-ca-certificates 2. Paso 3: Iniciar su servidor de nodo Primero, desea crear un archivo server.js que contenga su código de servidor real. La configuración mínima para un servidor HTTPS en Node.js sería algo como esto: var https = require('https'); var fs = require('fs'); var httpsOptions = { key: fs.readFileSync('path/to/server-key.pem'), cert: fs.readFileSync('path/to/server-crt.pem') }; var app = function (req, res) { res.writeHead(200); res.end(\"hello world\\n\"); } https.createServer(httpsOptions, app).listen(4433); https://riptutorial.com/es/home 21 -- 49 of 423 -- Si también desea admitir solicitudes http, solo necesita hacer una pequeña modificación: var http = require('http'); var https = require('https'); var fs = require('fs'); var httpsOptions = { key: fs.readFileSync('path/to/server-key.pem'), cert: fs.readFileSync('path/to/server-crt.pem') }; var app = function (req, res) { res.writeHead(200); res.end(\"hello world\\n\"); } http.createServer(app).listen(8888); https.createServer(httpsOptions, app).listen(4433); vaya al directorio donde se encuentra su server.js : cd /path/to 1. ejecuta server.js : node server.js 2. Lea Empezando con Node.js en línea: https://riptutorial.com/es/node-js/topic/340/empezando-con- node-js https://riptutorial.com/es/home 22 -- 50 of 423 --"
+}

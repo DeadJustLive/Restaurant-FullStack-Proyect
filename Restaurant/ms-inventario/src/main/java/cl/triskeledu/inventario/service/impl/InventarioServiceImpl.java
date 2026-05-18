@@ -1,5 +1,6 @@
 package cl.triskeledu.inventario.service.impl;
 
+import cl.triskeledu.inventario.dto.event.StockEventDTO;
 import cl.triskeledu.inventario.dto.request.InsumoRequestDTO;
 import cl.triskeledu.inventario.dto.request.MovimientoRequestDTO;
 import cl.triskeledu.inventario.dto.response.InsumoResponseDTO;
@@ -11,12 +12,13 @@ import cl.triskeledu.inventario.repository.InsumoRepository;
 import cl.triskeledu.inventario.repository.MovimientoRepository;
 import cl.triskeledu.inventario.service.InventarioService;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 import cl.triskeledu.inventario.client.AuthFeignClient;
 import cl.triskeledu.inventario.dto.response.PermisoResponseDTO;
 import cl.triskeledu.inventario.exception.AccesoDenegadoException;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
@@ -33,21 +35,17 @@ import java.util.stream.Collectors;
 @Slf4j
 public class InventarioServiceImpl implements InventarioService {
 
+    private static final String TOPIC = "stock-events";
+
     private final AuthFeignClient authFeignClient;
-
-
-    @Autowired
-    private InsumoRepository insumoRepository;
-    
-    @Autowired
-    private MovimientoRepository movimientoRepository;
-    
-    @Autowired
-    private cl.triskeledu.inventario.mapper.InventarioMapper inventarioMapper;
+    private final KafkaTemplate<String, StockEventDTO> kafkaTemplate;
+    private final InsumoRepository insumoRepository;
+    private final MovimientoRepository movimientoRepository;
+    private final cl.triskeledu.inventario.mapper.InventarioMapper inventarioMapper;
 
     @Override
     @Transactional
-    public InsumoResponseDTO crearInsumo(InsumoRequestDTO dto) {
+    public InsumoResponseDTO crearInsumo(Long credencialId, InsumoRequestDTO dto) {
         /*
          * INTENCIÓN: Registrar un nuevo insumo en el catálogo de una sucursal.
          *
@@ -58,6 +56,11 @@ public class InventarioServiceImpl implements InventarioService {
          */
         log.info("Creando insumo {} en sucursal {}", dto.getNombre(), dto.getSucursalId());
         
+        PermisoResponseDTO permiso = validarAccesoConFallback(credencialId, "INVENTARIO", "ESCRITURA");
+        if (!permiso.isPermitido()) {
+            throw new AccesoDenegadoException("No tienes permisos para gestionar el inventario.");
+        }
+
         if (insumoRepository.existsBySucursalIdAndNombreIgnoreCase(dto.getSucursalId(), dto.getNombre())) {
             throw new cl.triskeledu.inventario.exception.InsumoDuplicadoException("El insumo ya existe en esta sucursal");
         }
@@ -71,12 +74,12 @@ public class InventarioServiceImpl implements InventarioService {
 
     @Override
     @Transactional
-    public InsumoResponseDTO actualizarInsumo(Long id, InsumoRequestDTO dto) {
-        /*
-         * INTENCIÓN: Modificar datos básicos del insumo (ej. stock_minimo).
-         * NOTA: Nunca modificar el stock_actual desde aquí, solo a través de registrarMovimiento().
-         */
+    public InsumoResponseDTO actualizarInsumo(Long credencialId, Long id, InsumoRequestDTO dto) {
         log.info("Actualizando insumo ID {}", id);
+        PermisoResponseDTO permiso = validarAccesoConFallback(credencialId, "INVENTARIO", "ESCRITURA");
+        if (!permiso.isPermitido()) {
+            throw new AccesoDenegadoException("No tienes permisos para gestionar el inventario.");
+        }
         Insumo insumo = insumoRepository.findById(id)
                 .orElseThrow(() -> new cl.triskeledu.inventario.exception.InsumoNotFoundException("Insumo no encontrado"));
                 
@@ -115,7 +118,7 @@ public class InventarioServiceImpl implements InventarioService {
 
     @Override
     @Transactional
-    public MovimientoResponseDTO registrarMovimiento(MovimientoRequestDTO dto) {
+    public MovimientoResponseDTO registrarMovimiento(Long credencialId, MovimientoRequestDTO dto) {
         /*
          * INTENCIÓN: Afectar el stock_actual y guardar registro en el Kardex.
          *
@@ -131,6 +134,11 @@ public class InventarioServiceImpl implements InventarioService {
          *   6. (Futuro) Evaluar si stock_actual <= stock_minimo y notificar a ms-notificaciones.
          */
         log.info("Registrando movimiento {} para insumo ID {} con cantidad {}", dto.getTipo(), dto.getInsumoId(), dto.getCantidad());
+        PermisoResponseDTO permiso = validarAccesoConFallback(credencialId, "INVENTARIO", "ESCRITURA");
+        if (!permiso.isPermitido()) {
+            throw new AccesoDenegadoException("No tienes permisos para gestionar el inventario.");
+        }
+
         Insumo insumo = insumoRepository.findById(dto.getInsumoId())
                 .orElseThrow(() -> new cl.triskeledu.inventario.exception.InsumoNotFoundException("Insumo no encontrado"));
                 
@@ -154,7 +162,16 @@ public class InventarioServiceImpl implements InventarioService {
                 
         MovimientoInventario savedMov = movimientoRepository.save(movimiento);
         
-        // TODO: Notificar si stock_actual <= stock_minimo
+        boolean stockBajo = insumo.getStockActual().compareTo(insumo.getStockMinimo()) <= 0;
+        log.info("[Kafka] Enviando evento STOCK_MOVEMENT para insumo {}", insumo.getId());
+        kafkaTemplate.send(TOPIC, String.valueOf(insumo.getId()), StockEventDTO.builder()
+                .insumoId(insumo.getId())
+                .sucursalId(insumo.getSucursalId())
+                .tipoMovimiento(dto.getTipo().name())
+                .cantidad(dto.getCantidad().doubleValue())
+                .stockActual(insumo.getStockActual().doubleValue())
+                .stockBajo(stockBajo)
+                .build());
         
         return inventarioMapper.toMovimientoResponseDTO(savedMov);
     }
@@ -167,6 +184,23 @@ public class InventarioServiceImpl implements InventarioService {
         return movimientoRepository.findByInsumoIdOrderByCreadoEnDesc(insumoId).stream()
                 .map(inventarioMapper::toMovimientoResponseDTO)
                 .collect(Collectors.toList());
+    }
+
+    private PermisoResponseDTO validarAccesoConFallback(Long credencialId, String modulo, String accion) {
+        try {
+            ResponseEntity<PermisoResponseDTO> response = authFeignClient.validarAcceso(credencialId, modulo, accion);
+            PermisoResponseDTO permiso = response.getBody();
+            if (permiso != null) {
+                return permiso;
+            }
+        } catch (Exception e) {
+            log.warn("{} - No se pudo validar acceso con ms-auth: {}. Operacion en modo degradado.",
+                     getClass().getSimpleName(), e.getMessage());
+        }
+        return PermisoResponseDTO.builder()
+                .permitido(true)
+                .mensaje("Validacion no disponible - modo degradado")
+                .build();
     }
     
 }

@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch029-000",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 29,
+  "chunkIndex": 0,
+  "title": "Capítulo 3:",
+  "start": 0,
+  "end": 264,
+  "words": 264,
+  "content": "# Capítulo 3: Diseño de Interfaces e Interacción La clave del éxito de un Sitio Web está dada por la forma en que se presenta la información a los visitantes. Debido a que el web es el resultado de la implementación de una serie de tecnologías que facilitan la transmisión de contenidos desde un computador central o servidor a una serie de clientes o usuarios, utilizando computadores conectados a la red Internet, es muy importante que la información ofrecida cum- pla con ciertas reglas y/o estándares, para que sus usuarios puedan sacarle todo el provecho posible. En este capítulo entonces, se abordan los elementos nece- sarios para que la creación de las interfaces de los Sitios Web (las pantallas que el usuario visita y utiliza) cumpla con dichos preceptos y la comunicación fluya más directamente entre el organismo y el usuario final. En el Sitio Web este capítulo es presentado en el menú con el nombre de \"Diseño Web\". Resumen -- 51 of 122 -- Introducción 53 Diseño web 53 ¿Qué es una interfaz? 54 Elementos de la interfaz 55 Uso de logotipos 56 Sistema de navegación 60 Áreas de contenidos 62 Áreas de interacción 63 Experiencia de usuario 64 Uso de botones 65 Uso de enlaces 66 Uso de elementos específicos 67 Desafíos de nuevas tecnologías 68 Uso de Flash 68 Uso de Ajax 70 Desarrollo con estándares XHTML y CSS 70 Separación de contenidos y presentación 72 Uso de elementos para diagramar 73 52 < www.guiaweb.gob.cl Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile Tabla de Contenidos"
+}

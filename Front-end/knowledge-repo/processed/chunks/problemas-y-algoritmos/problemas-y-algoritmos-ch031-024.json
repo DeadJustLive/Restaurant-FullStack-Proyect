@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch031-024",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 31,
+  "chunkIndex": 24,
+  "title": "6. La regla que le asigna un tiempo de ejecución a cada conjunto de en-",
+  "start": 10800,
+  "end": 11008,
+  "words": 208,
+  "content": "tanto, la complejidad de suma_dummy es O(nlog2n). Hay que hacer notar que en el análisis de complejidad no importa la base del logaritmo, ya que logab = lnb lna . Por lo que decir que un algorit- mo es de complejidad O(nlog2n) es lo mismo que decir que es de comple- jidad O( 1 ln2 (nlog2n)). Y como ln2 es una constante entonces O(nlog2n) = O(n ln n). \u0003 Nuevamente nos encontramos con una complejidad O(n log n). Como se había dicho anteriormente, esta complejidad aparece mucho en los algoritmos de ordenamiento. Pero no solamente aparece en esos algoritmos, sino que aparece por lo general en algoritmos que requieren realizar cortes. Generalizando el ejemplo anterior, si K y M son constantes, un algoritmo basado en la estrategia \u0010divide y vencerás\u0011 requiere un tiempo O(1) procesar una entrada de tamaño ≤ K y requiere un tiempo O(n) dividir una entrada tamaño n > K en M entradas de tamaño n M , la complejidad del algoritmo es O(n logM n). La demostración de esta propiedad es análoga al análisis de complejidad de la función suma_dummy. Se deja como ejercicio para el lector. -- 129 of 315 -- 130 CAPÍTULO 11. COMPLEJIDADES EN FUNCIONES RECURSIVAS -- 130 of 315 --"
+}

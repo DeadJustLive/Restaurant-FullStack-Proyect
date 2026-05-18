@@ -1,0 +1,77 @@
+# Capítulo 102:: Ruta-controlador-estructura de
+
+## Fuente
+Capítulo 1: Empezando con Node.js 2 (Cap. 160)
+
+## Contenido
+# Capítulo 102:: Ruta-controlador-estructura de
+
+servicio para ExpressJS
+Examples
+Estructura de directorios Modelo-Rutas-Controladores-Servicios
+├───models
+│ ├───user.model.js
+├───routes
+│ ├───user.route.js
+├───services
+│ ├───user.service.js
+├───controllers
+│ ├───user.controller.js
+Para la estructura de código modular, la lógica debe dividirse en estos directorios y archivos.
+Modelos - La definición de esquema del modelo.
+Rutas : la API enruta los mapas a los controladores
+Controladores : los controladores manejan toda la lógica detrás de los parámetros de
+solicitud de validación, consulta, envío de respuestas con los códigos correctos.
+Servicios : los servicios contienen las consultas de la base de datos y la devolución
+de objetos o errores de lanzamiento.
+Este codificador terminará escribiendo más códigos. Pero al final, los códigos serán mucho más
+mantenibles y separados.
+Estructura de código de Model-Routes-Controllers-Services
+usuario.model.js
+var mongoose = require('mongoose')
+const UserSchema = new mongoose.Schema({
+name: String
+})
+const User = mongoose.model('User', UserSchema)
+module.exports = User;
+https://riptutorial.com/es/home 351
+
+-- 379 of 423 --
+
+usuario.rutas.js
+var express = require('express');
+var router = express.Router();
+var UserController = require('../controllers/user.controller')
+router.get('/', UserController.getUsers)
+module.exports = router;
+user.controllers.js
+var UserService = require('../services/user.service')
+exports.getUsers = async function (req, res, next) {
+// Validate request parameters, queries using express-validator
+var page = req.params.page ? req.params.page : 1;
+var limit = req.params.limit ? req.params.limit : 10;
+try {
+var users = await UserService.getUsers({}, page, limit)
+return res.status(200).json({ status: 200, data: users, message: "Succesfully Users
+Retrieved" });
+} catch (e) {
+return res.status(400).json({ status: 400, message: e.message });
+}
+}
+user.services.js
+var User = require('../models/user.model')
+exports.getUsers = async function (query, page, limit) {
+try {
+var users = await User.find(query)
+return users;
+} catch (e) {
+// Log Errors
+throw Error('Error while Paginating Users')
+}
+}
+Lea Ruta-controlador-estructura de servicio para ExpressJS en línea:
+https://riptutorial.com/es/node-js/topic/10785/ruta-controlador-estructura-de-servicio-para-
+expressjs
+https://riptutorial.com/es/home 352
+
+-- 380 of 423 --

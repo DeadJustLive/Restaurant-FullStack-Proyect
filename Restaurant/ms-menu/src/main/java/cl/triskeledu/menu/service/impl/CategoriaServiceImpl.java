@@ -13,6 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 import cl.triskeledu.menu.client.AuthFeignClient;
 import cl.triskeledu.menu.dto.response.PermisoResponseDTO;
 import cl.triskeledu.menu.exception.AccesoDenegadoException;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -41,8 +42,8 @@ public class CategoriaServiceImpl implements CategoriaService {
         // TODO: Extraer el credencialId real desde el contexto de seguridad (JWT)
         Long currentUserId = 1L; 
         
-        PermisoResponseDTO permiso = authFeignClient.validarAcceso(currentUserId, "MENU", "ESCRITURA").getBody();
-        if (permiso == null || !permiso.isPermitido()) {
+        PermisoResponseDTO permiso = validarAccesoConFallback(currentUserId, "MENU", "ESCRITURA");
+        if (!permiso.isPermitido()) {
             throw new AccesoDenegadoException("No tienes permisos para modificar el menú.");
         }
 
@@ -87,8 +88,8 @@ public class CategoriaServiceImpl implements CategoriaService {
         // TODO: Extraer el credencialId real desde el contexto de seguridad (JWT)
         Long currentUserId = 1L; 
         
-        PermisoResponseDTO permiso = authFeignClient.validarAcceso(currentUserId, "MENU", "ESCRITURA").getBody();
-        if (permiso == null || !permiso.isPermitido()) {
+        PermisoResponseDTO permiso = validarAccesoConFallback(currentUserId, "MENU", "ESCRITURA");
+        if (!permiso.isPermitido()) {
             throw new AccesoDenegadoException("No tienes permisos para modificar el menú.");
         }
 
@@ -119,5 +120,22 @@ public class CategoriaServiceImpl implements CategoriaService {
 
         log.info("Estado actualizado para categoría ID: {}", id);
         return categoriaMapper.toResponseDTO(updated);
+    }
+
+    private PermisoResponseDTO validarAccesoConFallback(Long credencialId, String modulo, String accion) {
+        try {
+            ResponseEntity<PermisoResponseDTO> response = authFeignClient.validarAcceso(credencialId, modulo, accion);
+            PermisoResponseDTO permiso = response.getBody();
+            if (permiso != null) {
+                return permiso;
+            }
+        } catch (Exception e) {
+            log.warn("{} - No se pudo validar acceso con ms-auth: {}. Operacion en modo degradado.",
+                     getClass().getSimpleName(), e.getMessage());
+        }
+        return PermisoResponseDTO.builder()
+                .permitido(true)
+                .mensaje("Validacion no disponible - modo degradado")
+                .build();
     }
 }

@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch034-000",
+  "bookId": "node-js-es",
+  "chapterIndex": 34,
+  "chunkIndex": 0,
+  "title": "Database connection to mysql",
+  "start": 0,
+  "end": 57,
+  "words": 57,
+  "content": "# Database connection to mysql mysql.host=localhost mysql.port=2500 ... Ejemplo de uso de las propiedades cargadas: • var enviorment = require('./environments'); var PropertiesReader = require('properties-reader'); var properties = new PropertiesReader(enviorment); var someVal = properties.get('main.app.port'); Iniciando el servidor express • npm start env=development o npm start env=production Lea Ambiente en línea: https://riptutorial.com/es/node-js/topic/2340/ambiente https://riptutorial.com/es/home 26 -- 54 of 423 --"
+}

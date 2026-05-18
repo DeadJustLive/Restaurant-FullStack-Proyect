@@ -1,0 +1,4 @@
+# PRECONDICIONES:
+
+* default <hay un tablero de Zilfost codificado>
+* se encuentra en la zona de n´umeros a borrar

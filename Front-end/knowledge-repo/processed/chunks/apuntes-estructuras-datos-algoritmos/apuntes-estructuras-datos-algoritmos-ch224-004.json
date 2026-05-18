@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch224-004",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 224,
+  "chunkIndex": 4,
+  "title": "1. Concepto de pila y especificación",
+  "start": 1800,
+  "end": 2131,
+  "words": 331,
+  "content": "llama SIG-isomorfismo. Si existe un SIG-isomorfismo de A a B diremos que A y B son isomorfas, y se denota A ≈ B. ♦ Si existe un SIG-homomorfismo f de una SIG-álgebra A a otra B, se puede definir sobre los valores de A la siguiente relación de equivalencia: dos valores son equivalentes si y sólo si su imagen en B coincide. El álgebra cociente de A con respecto a esa relación de equivalencia es, de nuevo, una SIG-álgebra, y además es isomorfa a la imagen mediante f de A, f(A) ⊆ B. Es decir, los homomorfismos pueden identificar en la imagen valores que son distintos en el origen. Por tanto, es de esperar que un álgebra con más valores distintos tenga homomorfismos hacia otras con menos valores, pero no a la inversa. Dada una signatura SIG, la clase de todas las SIG-álgebras junto con todos los homomorfismos entre cada par de SIG- álgebras, denotada por ALG(SIG), es una estructura algebraica denominada categoría porque la composición de dos SIG- homomorfismos es otro SIG-homomorfismo y las aplicaciones identidad son SIG-homomorfismos. De forma análoga, dada una especificación ESPEC, la clase de todas las ESPEC-álgebras junto con todos los homomorfismos entre cada par de ESPEC-álgebras, denotada por ALG(ESPEC), es también una categoría. En una categoría, los isomorfismos entre objetos definen una relación de equivalencia en la clase de objetos. Por ejemplo, dos SIG-álgebras A y B de ALG(SIG) están relacionadas si entre ellas existe un SIG-isomorfismo (es decir, A ≈ B). Las clases de equivalencia así definidas se llaman clases de isomorfía. Definición (Álgebra inicial). Un álgebra I se dice inicial en una categoría si existe un único homomorfismo de I a cada una de las restantes álgebras de la categoría. ♦ Teorema. Si una categoría posee un álgebra inicial, ésta es única salvo isomorfismo. Es decir, en una categoría en la que existen álgebras iniciales, éstas forman una clase de isomorfía. ♦ Teorema. Dada una signatura SIG y una especificación ESPEC = (SIG,E):"
+}

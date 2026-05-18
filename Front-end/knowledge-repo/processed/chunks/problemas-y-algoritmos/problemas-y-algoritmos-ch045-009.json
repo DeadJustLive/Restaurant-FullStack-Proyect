@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch045-009",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 45,
+  "chunkIndex": 9,
+  "title": "Parte VI",
+  "start": 4050,
+  "end": 4550,
+  "words": 500,
+  "content": "i o =0; 4 int ColaFin =0; El arreglo para marcar los tableros ya formados puede ser usado también para guardar cuántos movimientos se necesitaron para formarlo, puede ser declarado asi: 1 int MinMov [ 9 ∗ 8 ∗ 7 ∗ 6 ∗ 5 ∗ 4 ∗ 3 ∗ 2 ∗ 1 ] ; MinMov valdrá 0 cuando la permutación no se haya visitado, y valdrá el número de movimientos más uno cuando la permutación se haya visita- do. Esto de sumarle 1 se debe a que la permutación inicial se forma con 0 movimientos. Resulta conveniente marcar el arreglo MinMov dentro de la función para encolar: 1 void e n c o l a r ( char perm [ ] , int movs ) { 2 int m=menores ( a c t u a l ) ; 3 i f (MinMov [m]==0){ 4 memcpy( ColaPerm [ ColaFin ] , perm , 9∗ s i z e o f ( int ) ) ; // Copiar a ColaPerm [ ColaFin ] e l c o n t e n i d o de perm 5 ColaMov [ ColaFin ]=movs ; 6 ColaFin++; 7 MinMov [m]=mov ; 8 } 9 } -- 251 of 315 -- 252CAPÍTULO 19. ESTRUCTURA DE LA SOLUCIÓN Y ESPACIO DE BÚSQUEDA Y para desencolar así: 1 int d e s e n c o l a r ( char perm [ ] ) { 2 memcpy( perm , ColaPerm [ C o l a I n i c i o ] , 9∗ s i z e o f ( int ) ) ; 3 return ColaMov [ C o l a I n i c i o ++]; 4 } La función para desencolar regresa el número de movimientos y copia la permutación a un arreglo dado. Notamos también que una rotación en sentido antihorario es equivalente a 3 rotaciones en sentido horario, por lo tanto solamente es necesario imple- mentar la rotación en sentido horario: 1 void r o t a ( char perm [ ] , int f i l a , int c o l ) { 2 char ∗a , ∗b , ∗c , ∗d ; // E s t a s v a r i a b l e s apuntaran a l a s p o s i c i o n e s de l a s 4 c a s i l l a s que s e van a r o t a r 3 char ta , tb , tc , td ; // E s t a s v a r i a b l e s guardarán l o s v a l o r e s i n i c i a l e s de l a s 4 c a s i l l a s 4 f i l a −−; c o l −−; //Cambia l a f i l a y columna de i n d i"
+}

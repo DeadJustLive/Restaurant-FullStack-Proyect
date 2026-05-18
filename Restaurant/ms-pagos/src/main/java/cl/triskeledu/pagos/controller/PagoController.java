@@ -27,16 +27,18 @@ public class PagoController {
     private final PagoService pagoService;
 
     @PostMapping
-    public ResponseEntity<PagoResponseDTO> iniciarPago(@Valid @RequestBody PagoRequestDTO dto) {
-        return ResponseEntity.status(HttpStatus.CREATED).body(pagoService.iniciarPago(dto));
+    public ResponseEntity<PagoResponseDTO> iniciarPago(@RequestHeader(value = "X-Credencial-Id", defaultValue = "1") Long credencialId,
+                                                       @Valid @RequestBody PagoRequestDTO dto) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(pagoService.iniciarPago(credencialId, dto));
     }
 
     @PatchMapping("/{id}/estado")
     public ResponseEntity<PagoResponseDTO> cambiarEstado(
+            @RequestHeader(value = "X-Credencial-Id", defaultValue = "1") Long credencialId,
             @PathVariable Long id,
             @RequestParam String transaccionId,
             @RequestParam EstadoPago estadoFinal) {
-        return ResponseEntity.ok(pagoService.confirmarPago(id, transaccionId, estadoFinal));
+        return ResponseEntity.ok(pagoService.confirmarPago(credencialId, id, transaccionId, estadoFinal));
     }
 
     @GetMapping("/{id}")

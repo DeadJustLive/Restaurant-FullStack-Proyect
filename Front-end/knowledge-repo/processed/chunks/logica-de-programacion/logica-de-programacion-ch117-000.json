@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch117-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 117,
+  "chunkIndex": 0,
+  "title": "8. Lea un n´umero entero positivo, descomp´ongalo en cada una de sus",
+  "start": 0,
+  "end": 35,
+  "words": 35,
+  "content": "# 8. Lea un n´umero entero positivo, descomp´ongalo en cada una de sus cifras y con ellas genere el n´umero invertido. Por ejemplo, si el n´umero a leer es el 5432, el resultado ser´a 2345."
+}

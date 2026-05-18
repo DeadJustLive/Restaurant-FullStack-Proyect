@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch073-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 73,
+  "chunkIndex": 0,
+  "title": "Almacenando listas de valores con vectores",
+  "start": 0,
+  "end": 49,
+  "words": 49,
+  "content": "# Almacenando listas de valores con vectores ## Almacenando listas de valores con vectores ### Creando un nuevo vector ### Actualizando un vector ### Leyendo elementos de vectores ### Iterando sobre los valores en un vector ### Usar unenumpara almacenar múltiples tipos ### Liberar un vector libera sus elementos"
+}

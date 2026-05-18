@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch326-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 326,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 16,
+  "words": 16,
+  "content": "# PRECONDICIONES: * (x,y) indica una coordenada v´alida dentro de la zona de juego de Zilfost"
+}

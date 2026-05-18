@@ -1,0 +1,46 @@
+# OBSERVACIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 119)
+
+## Contenido
+# OBSERVACIONES:
+
+* usa el algoritmo usual de incremento con carry
+("llevarme uno"), o sea un recorrido sobre los
+d´ıgitos a incrementar
+* puede fallar si excede el m´aximo representable
+*/
+{
+IrAlBordeDeZonaDeNumeros(Este)
+IncrementarDigitoDeCelda()
+carry := (leerDigito() == 0)
+while (carry && puedeMoverEnZonaDeNumeroAl(Oeste))
+{
+Mover(Oeste)
+IncrementarDigitoDeCelda()
+carry := (leerDigito() == 0)
+}
+if (carry) // Se excedi´o del m´aximo permitido de piezas!
+{
+BorrarZonaDeNumeros()
+IncrementarDigitoDeCelda()
+}
+}
+Observemos el uso de las operaciones de movimiento en la zona. Adem ´as, al finalizar se
+verifica que no haya carry; en caso de haberlo, significa que el n ´umero excedi ´o el m ´aximo
+representable en la zona. En ese caso, vuelve el n ´umero a 1.
+Al volver el n ´umero a 1, si la zo-
+na de c ´odigo de pr ´oxima pieza
+tuviese pocos d´ıgitos, podr´ıa su-
+ceder que apareciesen 2 piezas
+con el mismo c ´odigo en la zo-
+na de piezas. Esta situaci ´on es
+inv ´alida, por lo que se recomien-
+da no tener pocos d´ıgitos en es-
+ta zona.
+Esta ´ultima operaci ´on utiliza el procedimiento IncrementarDigitoDeCelda, cuyo com-
+portamiento es similar al del ejercicio 3.2.16 pero con una codificaci ´on levemente diferente.
+procedure IncrementarDigitoDeCelda()
+/*
+PROP´OSITO: incrementa el d´ıgito actual

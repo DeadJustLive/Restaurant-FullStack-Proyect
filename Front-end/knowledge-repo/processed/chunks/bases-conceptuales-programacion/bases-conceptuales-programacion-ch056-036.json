@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch056-036",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 56,
+  "chunkIndex": 36,
+  "title": "PRECONDICI´ON:",
+  "start": 16200,
+  "end": 16433,
+  "words": 233,
+  "content": "alguna combinaci ´on de comandos m ´as elementales, ya existentes (primitivos, o declarados previamente). La declaraci ´on de un procedimiento se indica con la palabra reservada procedure, y entonces para declarar el comando DibujarCuadradoNegroDeLado3() debe escribirse: procedure DibujarCuadradoNegroDeLado3() { Mover(Norte); Poner(Negro); Mover(Norte); Poner(Negro) Mover(Este); Poner(Negro); Mover(Este); Poner(Negro) Mover(Sur); Poner(Negro); Mover(Sur); Poner(Negro) Mover(Oeste); Poner(Negro); Mover(Oeste); Poner(Negro) } Las llaves que delimitan el bloque que se coloca luego del nombre del nuevo procedimiento determinan cu ´ales son los comandos elementales que ser ´an eje- cutados cuando el cabezal trate de ejecutar DibujarCuadradoNegroDeLado3(). Dicho de otra manera, el comando DibujarCuadradoNegroDeLado3() es simple- mente otra forma de nombrar a la combinaci ´on dada por esos 16 Mover y Poner. Identificadores Para nombrar elementos del lenguaje se utiliza una forma especial de nombres, llamados identificadores. Un identificador es un grupo de letras sin interrupciones (o sea, no contiene espacios ni signos de puntuaci ´on). Definici ´on 2.2.20. Un identificador es un nombre conformado exclusivamente por letras (may ´usculas o min ´usculas) o n ´umeros, que se utiliza para denotar (o identificar o referise a) alg ´un elemento. La idea de identificador es mayor que la idea de palabra a la que estamos acos- tumbrados en castellano. En la siguiente lista de ejemplos de identificadores, pueden observarse letras, palabras y combinaciones diversas, todas las cuales constituyen identificadores, pues son cadenas de letras sin separaci ´on. 1. x 2. sumar"
+}

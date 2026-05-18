@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch049-002",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 49,
+  "chunkIndex": 2,
+  "title": "2. Si la clave que buscamos no existe, nos devuelve None4 salvo que le indiquemos otro",
+  "start": 900,
+  "end": 1056,
+  "words": 156,
+  "content": "iterar sobre un diccionario. Iterar sobre claves: 5.3. Diccionarios 183 -- 187 of 516 -- Aprende Python >>> for word in rae.keys(): ... print(word) ... bifronte anarcoide montuvio enjuiciar Iterar sobre valores: >>> for meaning in rae.values(): ... print(meaning) ... De dos frentes o dos caras Que tiende al desorden Campesino de la costa Instruir, juzgar o sentenciar una causa Iterar sobre «clave-valor»: >>> for word, meaning in rae.items(): ... print(f {word}: {meaning} ) ... bifronte: De dos frentes o dos caras anarcoide: Que tiende al desorden montuvio: Campesino de la costa enjuiciar: Instruir, juzgar o sentenciar una causa Nota: En este último caso, recuerde el uso de los «f-strings» para formatear cadenas de texto. Ejercicio pycheck boot avg_population 184 Capítulo 5. Estructuras de datos -- 188 of 516 -- Aprende Python Combinar diccionarios Dados dos (o más) diccionarios, es posible «mezclarlos» para obtener una combinación de los mismos. Esta combinación se basa en dos premisas:"
+}

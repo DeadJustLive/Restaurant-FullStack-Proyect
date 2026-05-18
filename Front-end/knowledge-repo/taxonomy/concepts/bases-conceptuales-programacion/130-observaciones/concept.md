@@ -1,0 +1,22 @@
+# OBSERVACIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 130)
+
+## Contenido
+# OBSERVACIONES:
+
+* la semilla se codifica debajo de la zona
+de piezas, todo a lo ancho
+*/
+{
+IrAlOrigenDeZonaDeJuego()
+MoverN(Sur, 2)
+IrAlBordeDeZonaDeNumeros(Este)
+}
+La lectura de estas zonas es tan sencillo como ir al origen de la zona correspondiente
+(mediante las subtareas expresadas en los procedimientos anteriores), y retornar el re-
+sultado de leer la zona (con la operaci ´on de lectura de zona de n ´umeros definida en la
+secci ´on anterior). Por ejemplo, la lectura de la zona de pr ´oxima pieza ser ´a la siguiente
+function leerZonaDeProximaPieza()
+/*

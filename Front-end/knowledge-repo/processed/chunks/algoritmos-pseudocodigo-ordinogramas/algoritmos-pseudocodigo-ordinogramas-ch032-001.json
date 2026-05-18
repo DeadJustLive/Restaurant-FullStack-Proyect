@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch032-001",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 32,
+  "chunkIndex": 1,
+  "title": "EJEMPLO",
+  "start": 450,
+  "end": 621,
+  "words": 171,
+  "content": "un subrango. Y el símbolo reservado igual (=) ha vuelto a aparecer. = Separador del identificador de un tipo de dato subrango y del subrango asignado al mismo. 4.2.2. Variables de tipos subrangos Una variable de un tipo subrango representa a un espacio de memoria en donde se puede almacenar un dato de un tipo subrango. EJEMPLO Dadas las declaraciones: subrango calificaciones = 0..10 calificaciones matematicas matematicas es una variable del tipo subrango calificaciones. En consecuencia, en el espacio de memoria representado por la variable se podrá almacenar uno de los valores del conjunto { 0, 1, 2, ..., 8, 9, 10 }. EJEMPLO Las declaraciones del ejemplo anterior se pueden combinar de la forma siguiente: subrango calificaciones = 0..10 matematicas -- 43 of 180 -- Libro de Algoritmos de “Abrirllave.com” 44 / 180 EJEMPLO También, se pueden combinar prescindiendo del nombre –identificador– del tipo de dato subrango. subrango 0..10 matematicas Varias variables del mismo tipo de dato subrango se pueden declarar de diferentes formas. A continuación, se muestran algunos ejemplos."
+}

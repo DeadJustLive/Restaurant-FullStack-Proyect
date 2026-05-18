@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch098-003",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 98,
+  "chunkIndex": 3,
+  "title": "Lección 15:: Árboles n–arios ................................................................................................................ 139",
+  "start": 1350,
+  "end": 1547,
+  "words": 197,
+  "content": "escrita más arriba. procedimiento añadir(e/s d:diccionario; ent c:clave; ent v:valor) {Si en d no hay ningún par con clave c, añade a d el par (c,v); si en d hay un par (c,v’), entonces lo sustituye por el par (c,v)} variables pAux,nuevo:ptCelda; celdaAux:unaCelda; principio si d.primerPar=nil entonces {lista vacía} nuevoDato(d.primerPar); d.primerPar↑.laClave:=c; d.primerPar↑.elValor:=v; d.primerPar↑.sig:=nil; d.tamaño:=1; sino si c<d.primerPar↑.laClave entonces {inserción al principio} pAux:= d.primerPar; nuevoDato(d.primerPar); d.primerPar↑.laClave:=c; d.primerPar↑.elValor:=v; d.primerPar↑.sig:=pAux; d.tamaño:=d.tamaño+1 -- 102 of 267 -- 95 sino {buscar punto de inserción} pAux:= d.primerPar; mientrasQue pAux↑.laClave<c and pAux↑.sig≠nil hacer pAux:=pAux↑.sig fmq; si c<pAux↑.laClave entonces {inserción entre dos registros} celdaAux.laClave:=c; celdaAux.elValor:=v; nuevoDato(nuevo); nuevo↑:=pAux↑; pAux↑:=celdaAux; pAux↑.sig:=nuevo; d.tamaño:=d.tamaño+1 sino si c=pAux↑.laClave entonces {clave ya existe, cambiar valor} pAux↑.elValor:=v sino {inserción al final} nuevoDato(pAux↑.sig); pAux:=pAux↑.sig; pAux↑.laClave:=c; pAux↑.elValor:=v; pAux↑.sig:=nil; d.tamaño:=d.tamaño+1 fsi fsi fsi fsi fin En cuanto al coste asintótico en tiempo para el caso peor, puede deducirse con facilidad que las operaciones “crear”, “cardinal”, “esVacío”, “iniciarIterador”, “existeSiguiente” y “siguiente” tienen un coste en O(1), es decir, constante o independiente del cardinal del diccionario, mientras que todas las demás operaciones tienen un coste O(n) en el caso peor, siendo n el cardinal del diccionario. -- 103 of 267 -- 96 -- 104 of 267 --"
+}

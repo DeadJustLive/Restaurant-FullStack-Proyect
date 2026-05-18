@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch051-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 51,
+  "chunkIndex": 0,
+  "title": "Construyendo un servidor web de un solo hilo",
+  "start": 0,
+  "end": 56,
+  "words": 56,
+  "content": "# Construyendo un servidor web de un solo hilo ## Construyendo un servidor web de un solo hilo ### Escuchando la conexión TCP ### Leyendo la solicitud ### Una mirada más cercana a una solicitud HTTP ### Escribiendo una respuesta ### Devolviendo HTML real ### Validando la solicitud y respondiendo selectivamente ### Un toque de refactorización"
+}

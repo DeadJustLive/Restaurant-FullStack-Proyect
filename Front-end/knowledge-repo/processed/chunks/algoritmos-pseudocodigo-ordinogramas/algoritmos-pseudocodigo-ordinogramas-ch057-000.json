@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch057-000",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 57,
+  "chunkIndex": 0,
+  "title": "1. En vez de la palabra reservada procedimiento, se debe escribir la palabra",
+  "start": 0,
+  "end": 16,
+  "words": 16,
+  "content": "# 1. En vez de la palabra reservada procedimiento, se debe escribir la palabra reservada funcion."
+}

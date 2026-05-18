@@ -6,7 +6,7 @@ import { useAuth } from '../contexts/AuthContext';
 
 // Páginas existentes
 import LoginPage from '../pages/LoginPage';
-import DashboardPage from '../pages/DashboardPage';
+import { DashboardPage } from '../pages/DashboardPage';
 import ProfilePage from '../pages/ProfilePage';
 import SettingsPage from '../pages/SettingsPage';
 import CocinaPage from '../pages/CocinaPage';
@@ -15,13 +15,16 @@ import EntregasPage from '../pages/EntregasPage';
 
 // Nuevas Páginas Administrativas
 import UsersPage from '../pages/admin/UsersPage';
-// Placeholder para futuras implementaciones reales (comparten estructura CRUD)
-const PlaceholderPage = ({ title }: { title: string }) => (
-  <div className="p-8">
-    <h1 className="text-2xl font-bold">{title}</h1>
-    <p className="text-surface-500 mt-2">Módulo en proceso de conexión con microservicio real...</p>
-  </div>
-);
+import SucursalesPage from '../pages/admin/SucursalesPage';
+import CategoriasPage from '../pages/admin/CategoriasPage';
+import MenuPage from '../pages/admin/MenuPage';
+import InventarioPage from '../pages/admin/InventarioPage';
+import PagosPage from '../pages/admin/PagosPage';
+
+import CarritoPage from '../pages/admin/CarritoPage';
+import NotificacionesPage from '../pages/NotificacionesPage';
+import ReportesPage from '../pages/admin/ReportesPage';
+
 
 // Componente para proteger rutas según roles
 interface ProtectedRouteProps {
@@ -44,7 +47,7 @@ const ProtectedRoute: React.FC<ProtectedRouteProps> = ({
   return <>{children}</>;
 };
 
-const AppRouter: React.FC = () => {
+export const AppRouter: React.FC = () => {
   return (
     <Router>
       <Routes>
@@ -72,7 +75,7 @@ const AppRouter: React.FC = () => {
             path="/admin/sucursales"
             element={
               <ProtectedRoute roles={['ROLE_SA', 'ROLE_AD']}>
-                <PlaceholderPage title="Gestión de Sucursales" />
+                <SucursalesPage />
               </ProtectedRoute>
             }
           />
@@ -80,7 +83,15 @@ const AppRouter: React.FC = () => {
             path="/admin/categorias"
             element={
               <ProtectedRoute roles={['ROLE_SA', 'ROLE_AD']}>
-                <PlaceholderPage title="Gestión de Categorías" />
+                <CategoriasPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/admin/menu"
+            element={
+              <ProtectedRoute roles={['ROLE_SA', 'ROLE_AD']}>
+                <MenuPage />
               </ProtectedRoute>
             }
           />
@@ -88,7 +99,40 @@ const AppRouter: React.FC = () => {
             path="/admin/inventario"
             element={
               <ProtectedRoute roles={['ROLE_SA', 'ROLE_AD', 'ROLE_CO']}>
-                <PlaceholderPage title="Gestión de Inventario" />
+                <InventarioPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/admin/pagos"
+            element={
+              <ProtectedRoute roles={['ROLE_SA', 'ROLE_AD']}>
+                <PagosPage />
+              </ProtectedRoute>
+            }
+          />
+
+          <Route
+            path="/carrito"
+            element={
+              <ProtectedRoute roles={['ROLE_CL', 'ROLE_ME', 'ROLE_AD', 'ROLE_SA']}>
+                <CarritoPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/notificaciones"
+            element={
+              <ProtectedRoute roles={['ROLE_SA', 'ROLE_AD', 'ROLE_CO', 'ROLE_ME', 'ROLE_RP', 'ROLE_CL']}>
+                <NotificacionesPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/admin/reportes"
+            element={
+              <ProtectedRoute roles={['ROLE_SA', 'ROLE_AD']}>
+                <ReportesPage />
               </ProtectedRoute>
             }
           />
@@ -129,4 +173,3 @@ const AppRouter: React.FC = () => {
   );
 };
 
-export default AppRouter;

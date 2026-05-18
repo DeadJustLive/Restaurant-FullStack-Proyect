@@ -1,0 +1,11 @@
+{
+  "id": "javascript-asincronismo-ch006-000",
+  "bookId": "javascript-asincronismo",
+  "chapterIndex": 6,
+  "chunkIndex": 0,
+  "title": "6. Se desapila setTimeout(function callback() {...})",
+  "start": 0,
+  "end": 7,
+  "words": 7,
+  "content": "# 6. Se desapila setTimeout(function callback() {...})"
+}

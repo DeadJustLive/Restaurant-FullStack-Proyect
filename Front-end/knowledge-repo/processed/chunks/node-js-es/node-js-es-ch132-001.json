@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch132-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 132,
+  "chunkIndex": 1,
+  "title": "Capítulo 88:: Node.js Performance",
+  "start": 450,
+  "end": 575,
+  "words": 125,
+  "content": ". • Habilitar gzip const http = require('http') const fs = require('fs') const zlib = require('zlib') http.createServer((request, response) => { const stream = fs.createReadStream('index.html') const acceptsEncoding = request.headers['accept-encoding'] let encoder = { hasEncoder : false, contentEncoding: {}, createEncoder : () => throw 'There is no encoder' } if (!acceptsEncoding) { acceptsEncoding = '' } if (acceptsEncoding.match(/\\bdeflate\\b/)) { encoder = { hasEncoder : true, contentEncoding: { 'content-encoding': 'deflate' }, https://riptutorial.com/es/home 281 -- 309 of 423 -- createEncoder : zlib.createDeflate } } else if (acceptsEncoding.match(/\\bgzip\\b/)) { encoder = { hasEncoder : true, contentEncoding: { 'content-encoding': 'gzip' }, createEncoder : zlib.createGzip } } response.writeHead(200, encoder.contentEncoding) if (encoder.hasEncoder) { stream = stream.pipe(encoder.createEncoder()) } stream.pipe(response) }).listen(1337) Lea Node.js Performance en línea: https://riptutorial.com/es/node-js/topic/9410/node-js- performance https://riptutorial.com/es/home 282 -- 310 of 423 --"
+}

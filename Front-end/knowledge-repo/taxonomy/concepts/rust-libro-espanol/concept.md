@@ -1,0 +1,196 @@
+# El Lenguaje de Programación Rust (Libro Oficial en Español)
+
+## Resumen
+Documento procesado con openPrompt-Lang Knowledge.
+
+**Autor:** Rust Community
+**Páginas:** 285
+**Método:** web
+**Procesado:** 2026-05-17
+
+## Capítulos
+- **Appendix 00.html**
+- **Apéndice A: Palabras clave**
+- **Appendix 02 operators.html**
+- **Apéndice C: Traits derivables**
+- **Apéndice D - Herramientas de desarrollo útiles**
+- **Appendix 05 editions.html**
+- **Appendix 06 translation.html**
+- **Apéndice G - Cómo se hace Rust y “Rust Nightly”**
+- **Procesando una serie de elementos con Iteradores**
+- **Mejorando nuestro proyecto I/O**
+- **Ch13 04 performance.html**
+- **Ch14 00 more about cargo.html**
+- **Ch14 01 release profiles.html**
+- **Publicando un Crate a Crates.io**
+- **Cargo Workspaces**
+- **Ch14 04 installing binaries.html**
+- **Ch14 05 extending cargo.html**
+- **Ch15 00 smart pointers.html**
+- **UsandoBox<T>para Apuntar a Datos en el Heap**
+- **Tratando los Smart Pointers como Referencias Regulares con el TraitDeref**
+- **Ch15 03 drop.html**
+- **Rc<T>, el Smart Pointer de Conteo de Referencias**
+- **RefCell<T>y el Patrón de Mutabilidad Interior**
+- **Referencias Circulares Pueden Fugar Memoria**
+- **Ch16 00 concurrency.html**
+- **Usando Threads para Ejecutar Código Simultáneamente**
+- **Usando el Pasaje de Mensajes para Transferir Datos entre Hilos**
+- **Concurrencia con Estado Compartido**
+- **Concurrencia extensible con los traitsSyncySend**
+- **Fundamentos de la Programación Asíncrona: Async, Await, Futures y Streams**
+- **Ch17 01 futures and syntax.html**
+- **Ch17 02 concurrency with async.html**
+- **Ch17 04 streams.html**
+- **Profundizando en los rasgos para async**
+- **Ch17 06 futures tasks threads.html**
+- **Ch18 00 oop.html**
+- **Características de lenguajes orientados a objetos**
+- **Usando Trait Objects que permiten valores de diferentes tipos**
+- **Implementando un patrón de diseño orientado a objetos**
+- **Ch19 00 patterns.html**
+- **Todos los lugares donde se pueden usar Patterns**
+- **Ch19 02 refutability.html**
+- **Sintaxis de los Patterns**
+- **Ch20 00 advanced features.html**
+- **Unsafe Rust**
+- **Traits Avanzados**
+- **Tipos Avanzados**
+- **Ch20 04 advanced functions and closures.html**
+- **Macros**
+- **Ch21 00 final project a web server.html**
+- **Construyendo un servidor web de un solo hilo**
+- **Convirtiendo nuestro servidor de un solo hilo en un servidor multihilo**
+- **Apagado y limpieza eficientes**
+- **Para Quién Es Rust**
+- **Instalación**
+- **¡Hola, mundo!**
+- **¡Hola, Cargo!**
+- **Procesando una adivinanza**
+- **Generando un número secreto**
+- **Permitir múltiples adivinanzas con bucles**
+- **Tipos de datos**
+- **Flujo de Control**
+- **¿Qué es el Ownership?**
+- **Referencias y Prestamos**
+- **El Tipo Slice**
+- **Definiendo e Instanciando Structs**
+- **Un Programa de Ejemplo Usando Structs**
+- **Sintaxis de Métodos**
+- **El operador de control de flujomatch**
+- **Definiendo módulos para controlar el alcance y la privacidad**
+- **Rutas para referirse a un elemento en el árbol de módulos**
+- **Incluyendo rutas al ámbito con la palabra claveuse**
+- **Almacenando listas de valores con vectores**
+- **Almacenando texto codificado en UTF-8 con Strings**
+- **Almacenar Claves con Valores Asociados en HashMaps**
+- **Errores irrecuperables conpanic!**
+- **Errores recuperables conResult**
+- **panic!o nopanic!**
+- **Tipos de Datos Genéricos**
+- **Traits: Definiendo Comportamiento Compartido**
+- **Validando Referencias con Lifetimes**
+- **Como escribir tests**
+- **Controlando como los tests son ejecutados**
+- **Organización de los Tests**
+- **Aceptando argumentos de línea de comandos**
+- **Refactorizando para mejorar la modularidad y el manejo de errores**
+- **Desarrollando la funcionalidad de la biblioteca con T.D.D.**
+- **Trabajando con Variables de Entorno**
+- **Escribiendo mensajes de error estándar en lugar del output estándar**
+- **Closures: Funciones anónimas que capturan su entorno**
+- **Trabajando con cualquier número de futures**
+- **El Lenguaje de Programación Rust es 0.0.1.epub**
+- **Appendix 01 keywords.html**
+- **Appendix 03 derivable traits.html**
+- **Appendix 04 useful development tools.html**
+- **Appendix 07 nightly rust.html**
+- **Ch00 00 introduction.html**
+- **Ch01 00 getting started.html**
+- **Ch01 01 installation.html**
+- **Ch01 02 hello world.html**
+- **Ch01 03 hello cargo.html**
+- **Ch02 00 guessing game tutorial.html**
+- **Ch03 00 common programming concepts.html**
+- **Ch03 01 variables and mutability.html**
+- **Ch03 02 data types.html**
+- **Ch03 03 how functions work.html**
+- **Ch03 04 comments.html**
+- **Ch03 05 control flow.html**
+- **Ch04 00 understanding ownership.html**
+- **Ch04 01 what is ownership.html**
+- **Ch04 02 references and borrowing.html**
+- **Ch04 03 slices.html**
+- **Ch05 00 structs.html**
+- **Ch05 01 defining structs.html**
+- **Ch05 02 example structs.html**
+- **Ch05 03 method syntax.html**
+- **Ch06 00 enums.html**
+- **Ch06 01 defining an enum.html**
+- **Ch06 02 match.html**
+- **Ch06 03 if let.html**
+- **Ch07 00 managing growing projects with packages crates and modules.html**
+- **Ch07 01 packages and crates.html**
+- **Ch07 02 defining modules to control scope and privacy.html**
+- **Ch07 03 paths for referring to an item in the module tree.html**
+- **Ch07 04 bringing paths into scope with the use keyword.html**
+- **Ch07 05 separating modules into different files.html**
+- **Ch08 00 common collections.html**
+- **Ch08 01 vectors.html**
+- **Ch08 02 strings.html**
+- **Ch08 03 hash maps.html**
+- **Ch09 00 error handling.html**
+- **Ch09 01 unrecoverable errors with panic.html**
+- **Ch09 02 recoverable errors with result.html**
+- **Ch09 03 to panic or not to panic.html**
+- **Ch10 00 generics.html**
+- **Ch10 01 syntax.html**
+- **Ch10 02 traits.html**
+- **Ch10 03 lifetime syntax.html**
+- **Ch11 00 testing.html**
+- **Ch11 01 writing tests.html**
+- **Ch11 02 running tests.html**
+- **Ch11 03 test organization.html**
+- **Ch12 00 an io project.html**
+- **Ch12 01 accepting command line arguments.html**
+- **Ch12 02 reading a file.html**
+- **Ch12 03 improving error handling and modularity.html**
+- **Ch12 04 testing the librarys functionality.html**
+- **Ch12 05 working with environment variables.html**
+- **Ch12 06 writing to stderr instead of stdout.html**
+- **Ch13 00 functional features.html**
+- **Ch13 01 closures.html**
+- **Ch13 02 iterators.html**
+- **Ch13 03 improving our io project.html**
+- **Ch14 02 publishing to crates io.html**
+- **Ch14 03 cargo workspaces.html**
+- **Ch15 01 box.html**
+- **Ch15 02 deref.html**
+- **Ch15 04 rc.html**
+- **Ch15 05 interior mutability.html**
+- **Ch15 06 reference cycles.html**
+- **Ch16 01 threads.html**
+- **Ch16 02 message passing.html**
+- **Ch16 03 shared state.html**
+- **Ch16 04 extensible concurrency sync and send.html**
+- **Ch17 00 async await.html**
+- **Ch17 03 more futures.html**
+- **Ch18 01 what is oo.html**
+- **Ch18 02 trait objects.html**
+- **Ch18 03 oo design patterns.html**
+- **Ch19 01 all the places for patterns.html**
+- **Ch19 03 pattern syntax.html**
+- **Ch20 01 unsafe rust.html**
+- **Ch20 02 advanced traits.html**
+- **Ch20 03 advanced types.html**
+- **Ch20 05 macros.html**
+- **Ch21 01 single threaded.html**
+- **Ch21 02 multithreaded.html**
+- **Ch21 03 graceful shutdown and cleanup.html**
+- **External blocks.html#abi**
+- **Foreword.html**
+- **Print.html**
+- **Title page.html**
+- **Index.html**
+- **Ch17 05 traits for async.html**
+- **Index.html#other preludes**

@@ -1,0 +1,21 @@
+# 5.2 Refs
+
+## Fuente
+react-aprendiz-maestro (Cap. 49)
+
+## Contenido
+# 5.2 Refs
+
+Los refs3 de React te permiten acceder al DOM que hay por debajo fácilmente. Al
+utilizarlos podrás enlazar tu código a la página web.
+Las referencias necesitan una instancia que les dé soporte, lo que significa que
+sólo funcionan con React.createClass o con definiciones de clases basadas en
+componentes. La idea principal es la siguiente:
+<input type="text" ref="input" />
+...
+// Accede en cualquier lugar
+this.refs.input
+Aparte de a cadenas de texto, las referencias permiten que realices una llamada una
+vez que el componente sea montado. Puedes inicializar algo en este punto o capturar
+la referencia:
+<input type="text" ref={element => element.focus()} />

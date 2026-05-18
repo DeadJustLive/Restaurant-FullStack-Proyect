@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch046-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 46,
+  "chunkIndex": 0,
+  "title": "3. Crear un algoritmo que dado un n´umero entero entre 0 y 20 diga si",
+  "start": 0,
+  "end": 41,
+  "words": 41,
+  "content": "# 3. Crear un algoritmo que dado un n´umero entero entre 0 y 20 diga si es o no un n´umero primo. Recuerde que los n´umeros primos menores o iguales a 20 son: 2, 3, 5, 7, 11, 13, 17, 19."
+}

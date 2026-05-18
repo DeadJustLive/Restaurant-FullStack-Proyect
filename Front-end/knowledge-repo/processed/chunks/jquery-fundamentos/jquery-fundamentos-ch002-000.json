@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch002-000",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 2,
+  "chunkIndex": 0,
+  "title": "1. Si la función es invocada utilizando Function.call o Function.apply, this tendrá el valor del",
+  "start": 0,
+  "end": 39,
+  "words": 39,
+  "content": "# 1. Si la función es invocada utilizando Function.call o Function.apply, this tendrá el valor del primer argumento pasado al método. Si el argumento es nulo (null) o indefinido (undefined), this hará referencia el objeto global (el objeto window);"
+}

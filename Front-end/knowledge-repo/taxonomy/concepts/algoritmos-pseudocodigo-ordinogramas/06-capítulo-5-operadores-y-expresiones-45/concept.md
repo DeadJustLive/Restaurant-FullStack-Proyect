@@ -1,0 +1,15 @@
+# Capítulo 5.: Operadores y expresiones ............................................ 45
+
+## Fuente
+algoritmos-pseudocodigo-ordinogramas (Cap. 6)
+
+## Contenido
+# Capítulo 5.: Operadores y expresiones ............................................ 45
+
+5.1. Expresiones aritméticas ................................................................................................. 48
+5.1.1. Prioridad de los operadores aritméticos .............................................................. 51
+5.2. Expresiones lógicas ........................................................................................................ 53
+5.2.1. Prioridad de los operadores relacionales y lógicos .............................................. 57
+5.3. Expresiones de carácter ................................................................................................. 59
+5.4. Expresiones de cadena .................................................................................................. 59
+5.5. Prioridad de los operadores aritméticos, relacionales, lógicos y de cadena................. 60

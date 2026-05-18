@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch207-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 207,
+  "chunkIndex": 0,
+  "title": "PROP´OSITO:",
+  "start": 0,
+  "end": 31,
+  "words": 31,
+  "content": "# OBSERVACIONES: * 2 al Norte del origen de la zona de pr´oxima pieza */ { IrAlOrigenDeZonaDeProximaPieza() MoverN(Norte,2) } procedure IrAlOrigenDeZonaDeSemilla() /* PROP´OSITO: ir al origen de la zona de semilla"
+}

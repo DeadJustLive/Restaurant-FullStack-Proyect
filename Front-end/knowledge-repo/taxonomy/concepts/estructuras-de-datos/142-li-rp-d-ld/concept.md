@@ -1,0 +1,28 @@
+# LI RP D LD
+
+## Fuente
+estructuras-de-datos (Cap. 142)
+
+## Contenido
+# LI RP D LD
+
+LI, LD, D: Son la misma definición anterior y RP: Es la dirección del registro del padre para cada nodo
+representado. Si el registro es la raíz del árbol no tendrá RP. Esta representación es muy útil cuando se usan
+algoritmos donde con frecuencia debemos regresar al registro del padre de cualquiera de los nodos del árbol.
+La representación del árbol binario anterior con el registro del padre es:
+Explicación: La diferencia en la anterior representación es que cada registro exceptuando al padre
+tienen la dirección del registro padre como segundo campo del nodo representado.
+2.3.3.4 RECORRIDOS SOBRE ARBOLES BINARIOS
+Teniendo en cuenta que los recorridos sobre arboles binarios dan la posibilidad de moverse en la estructura de
+datos para realizar cualquier tipo de operación que permita su modificación o actualización. Se dan tres
+recorridos principales en los arboles binarios: (Se debe tener en cuenta que cuando se representan operaciones
+en un árbol binario la raíz siempre tiene al operador y los hijos son los operados)
+Recorrido Inorden: Los recorridos comienzan por la dirección de la raíz principal del árbol binario y
+consiste en visitar primero el hijo izquierdo, segundo imprimir el dato de la raíz y por ultimo visitar el hijo
+derecho, su forma de representación es: IRD (IZQUIERDO, RAIZ, DERECHO), es de anotar que los
+recorridos son recursivos como son también los árboles, es por eso que el llamado a los hijos izquierdo
+y derecho del árbol es llamar a otro subárbol binario. Un ejemplo para este recorrido:
+
+-- 17 of 64 --
+
+18

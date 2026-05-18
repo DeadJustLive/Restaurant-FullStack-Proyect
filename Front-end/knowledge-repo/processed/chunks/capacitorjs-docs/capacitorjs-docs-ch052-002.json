@@ -1,0 +1,11 @@
+{
+  "id": "capacitorjs-docs-ch052-002",
+  "bookId": "capacitorjs-docs",
+  "chapterIndex": 52,
+  "chunkIndex": 2,
+  "title": "Using plugins",
+  "start": 900,
+  "end": 1083,
+  "words": 183,
+  "content": "- Migrating Strategy - Cordova to Capacitor Migration - Ads - Angular - Autofill Credentials - Automated Configuration - CI/CD - Deep Links - Deploying and Updating - Environment Specific Configurations - Games - In App Purchases - Live Reload - Mocking Plugins - Push Notifications - Firebase - React Hooks - Screen Orientation - Security - Splash Screens and Icons - Storage - Community Guides - Getting Started - Configuring iOS - Custom Native iOS Code - Privacy Manifest - Deploying to App Store - Custom ViewController - Troubleshooting - Swift Package Manager - Getting Started - Configuration - Custom Native Code - Setting Target SDK - Deploying to Google Play - Troubleshooting - Getting Started - Building Progressive Web Apps - PWA Elements - Config - Capacitor iOS API - Capacitor Android API - Capacitor Web API - Capacitor Data Types - Persisting Plugin Calls - Plugin APIs - Support Policy - CLI - Community Hub - Forum - Blog - Twitter - Help Center - Customer Support - Enterprise Advisory - English - 日本語 - Project API - Configuration Tool"
+}

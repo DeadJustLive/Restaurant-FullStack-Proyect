@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch255-000",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 255,
+  "chunkIndex": 0,
+  "title": "3. Implementación con listas enlazadas ordenadas",
+  "start": 0,
+  "end": 59,
+  "words": 59,
+  "content": "# 11. Módulos módulo tablas importa <lista de módulos que necesita usar> exporta {parte pública: constantes, nombres de tipos, encabezamientos de proced. y func...} ... implementación {parte privada: se incluyen las def. de los tipos cuyos nombres aparecen en la parte pública, otros tipos privados, el código de procedimientos y funciones...} ... fin -- 262 of 267 -- 249"
+}

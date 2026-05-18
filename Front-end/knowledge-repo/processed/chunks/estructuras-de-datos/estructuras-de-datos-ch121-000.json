@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch121-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 121,
+  "chunkIndex": 0,
+  "title": "INGENIERIA DE SISTEMAS",
+  "start": 0,
+  "end": 18,
+  "words": 18,
+  "content": "# 1) Elabore un algoritmo que imprima el recorrido DFS de un grafo representado como matriz de adyacencia."
+}

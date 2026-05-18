@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch170-004",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 170,
+  "chunkIndex": 4,
+  "title": "PRECONDICIONES Y OBSERVACIONES:",
+  "start": 1800,
+  "end": 1990,
+  "words": 190,
+  "content": "conocido, que representa su traducci ´on. En cambio, cada posici ´on del texto a descifrar tendr ´a solamente un s´ımbolo desconocido, que es lo que se quiere traducir. Supondremos, de forma poco realista, que las traducciones se realizan s´ımbolo a s´ımbolo, y que un s´ımbolo se traduce siempre de la misma manera. Asumiremos tambi ´en que todos los s´ımbolos del texto a traducir ya figuran en el texto de referencia. En ambas partes del texto puede haber espacios, que no se traducen ni afectan la traducci ´on. Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 175 of 312 -- 176 (a). El visir negro est ´a a punto de moverse a la casilla marcada como destino. (b). El visir negro se ha movido, capturando a la torre roja y dando as´ı jaque al rey rojo. G.4.10. Visir negro movi ´endose Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 176 of 312 -- 177 Ejercicio 4.4.8. Escribir el procedimiento DescifrarJeroglificos que complete la tra- ducci ´on del texto a descifrar. Este ejercicio puede realizarse de tres maneras diferentes, cada una con su propia com- plejidad."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch488-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 488,
+  "chunkIndex": 0,
+  "title": "PRECONDICI´ON:",
+  "start": 0,
+  "end": 37,
+  "words": 37,
+  "content": "# OBSERVACIONES: * no cambia la celda actual */ { Mover(dir) TransformarCeldaEnPiso(marca) Mover(opuesto(dir)) } //----------------------------------------------------- procedure TransformarCeldaEnPisoAlY(dir1,dir2, marca) /* PROP´OSITO: transforma en piso la celda lindante al dir1 y dir2 si la misma es secci´on de pieza"
+}

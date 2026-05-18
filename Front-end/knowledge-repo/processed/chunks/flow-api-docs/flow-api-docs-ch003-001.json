@@ -1,0 +1,11 @@
+{
+  "id": "flow-api-docs-ch003-001",
+  "bookId": "flow-api-docs",
+  "chapterIndex": 3,
+  "chunkIndex": 1,
+  "title": "Flow Invoices.postman collection.json",
+  "start": 450,
+  "end": 546,
+  "words": 96,
+  "content": "\" }\", \" var sortedKeys = Array.from(params.keys()).sort();\", \" for (var param of sortedKeys) {\", \" console.log(param);\", \" textToSign += param + params.get(param);\", \" }\", \" return textToSign;\", \"}\", \"\", \"function getUrlVars(url) {\", \" var vars = {};\", \" var parts = url.replace(/[?&]+([^=&]+)=([^&]*)/gi, \", \" function(m,key,value) {\", \" vars[key] = value;\", \" });\", \" return vars;\", \" }\", \"\", \"function clearEnvironment(key) {\", \" return key.replace('{{','').replace('}}','')\", \"}\" ] } }, { \"listen\": \"test\", \"script\": { \"type\": \"text/javascript\", \"exec\": [ \"//Check response code\", \"pm.test(\\\"Status code is 200\\\", function () {\", \" pm.response.to.have.status(200);\", \"});\" ] } } ] } ```"
+}

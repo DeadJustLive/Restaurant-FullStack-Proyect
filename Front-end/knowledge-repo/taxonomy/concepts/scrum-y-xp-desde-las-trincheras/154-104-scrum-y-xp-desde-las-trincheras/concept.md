@@ -1,0 +1,19 @@
+# 104 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 154)
+
+## Contenido
+# 104 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+Es así como empezamos nosotros. No funciona muy bien, al menos no cuando
+las historias involucran múltiples componentes.
+Por ejemplo, digamos que hay una historia llamada “tablón de anuncios en el que
+los usuarios pueden colgar mensajes para los demás”. Esta funcionalidad de
+tablón de anuncios incluiría actualizar el interfaz de usuario en el cliente, añadir
+lógica al servidor y añadir algunas tablas a la base de datos.
+Esto significa que los tres equipos – el equipo cliente, el equipo servidor y el
+equipo base de datos – tienen que colaborar para conseguir terminar la historia.
+No parece buena idea.
+
+-- 104 of 122 --

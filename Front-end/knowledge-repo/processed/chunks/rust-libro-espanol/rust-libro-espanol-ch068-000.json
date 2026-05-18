@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch068-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 68,
+  "chunkIndex": 0,
+  "title": "Sintaxis de Métodos",
+  "start": 0,
+  "end": 26,
+  "words": 26,
+  "content": "# Sintaxis de Métodos ## Sintaxis de Métodos ### Definiendo Metodos ### ¿Donde esta el Operador->? ### Métodos con más parámetros ### Funciones asociadas ### Bloquesimplmúltiples"
+}

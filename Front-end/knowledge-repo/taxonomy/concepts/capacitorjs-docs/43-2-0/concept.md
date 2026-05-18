@@ -1,0 +1,188 @@
+# 2 0
+
+## Fuente
+CapacitorJS — Documentación Oficial (Cap. 43)
+
+## Contenido
+# 2 0
+
+## Products
+
+## Open Source
+
+# Screen Orientation
+
+## Screen Orientation in your Capacitor App​
+
+## Global Orientation Settings​
+
+### iOS Configuration​
+
+### Android Configuration​
+
+## Dynamic Orientation Settings​
+
+### iPad Orientation Lock​
+
+## Contents
+
+Many apps work well in portrait and landscape device orientations. However, many don't, and there are good reasons to require an app to function solely or occasionally in one mode or the other.
+
+To set a global setting for orientation in your Capacitor app, you'll set the configuration value necessary for the platform you're targeting.
+
+iOS allows for different screen orientations to be supported on iPhones and iPads. To limit the allowed orientations for iOS, open Xcode and open theInfo.plistfile. Find the following keys:Supported interface orientationandSupported interface orientation (iPad). Using these values, specify the different orientations you would like supported for iPhones and for iPads.
+
+If editting theInfo.plistfile directly look for the following keys:UISupportedInterfaceOrientationsandUISupportedInterfaceOrientations~ipad. For example, the following settings will limit the orientation to right-side-upPortraiton iPhones and either of theLandscapeorientations on iPads:
+
+On Android, orientation can be set by modifying theAndroidManifest.xmland settingandroid:screenOrientationon the<activity>entry for your main app activity. See theAndroid Manifest Documentationfor details on the possible entries.
+
+Many apps need to support multiple orientations, with the ability to lock orientations occasionally depending on the content.
+
+Capacitor supports this through the@capacitor/screen-orientationplugin:
+
+Then, use thelockandunlockmethods:
+
+See theOrientation Plugin Docsfor the full range of possible orientation values and configuration options.
+
+By default, an iPad allows Multitasking and its orientation cannot be locked. If you need to lock orientation on an iPad set the optionRequires Full ScreentoYESby adding the following toInfo.plist:
+
+Mobile CI/CD made easy. Build, publish, and update from the cloud.
+
+## Código
+
+```
+Info.plist
+```
+
+```
+Supported interface orientation
+```
+
+```
+Supported interface orientation (iPad)
+```
+
+```
+Info.plist
+```
+
+```
+UISupportedInterfaceOrientations
+```
+
+```
+UISupportedInterfaceOrientations~ipad
+```
+
+```
+Portrait
+```
+
+```
+Landscape
+```
+
+```
+<key>UISupportedInterfaceOrientations</key><array><string>UIInterfaceOrientationPortrait</string></array><key>UISupportedInterfaceOrientations~ipad</key><array><string>UIInterfaceOrientationLandscapeRight</string><string>UIInterfaceOrientationLandscapeLeft</string></array>
+```
+
+```
+<key>UISupportedInterfaceOrientations</key><array><string>UIInterfaceOrientationPortrait</string></array><key>UISupportedInterfaceOrientations~ipad</key><array><string>UIInterfaceOrientationLandscapeRight</string><string>UIInterfaceOrientationLandscapeLeft</string></array>
+```
+
+```
+AndroidManifest.xml
+```
+
+```
+android:screenOrientation
+```
+
+```
+<activity>
+```
+
+```
+@capacitor/screen-orientation
+```
+
+```
+npminstall@capacitor/screen-orientationnpx capsync
+```
+
+```
+npminstall@capacitor/screen-orientationnpx capsync
+```
+
+```
+unlock
+```
+
+```
+import{ScreenOrientation}from'@capacitor/screen-orientation';...awaitScreenOrientation.lock({orientation:'portrait'});awaitScreenOrientation.lock({orientation:'landscape'});// To unlock orientation which will default back to the global setting:awaitScreenOrientation.unlock();
+```
+
+```
+import{ScreenOrientation}from'@capacitor/screen-orientation';...awaitScreenOrientation.lock({orientation:'portrait'});awaitScreenOrientation.lock({orientation:'landscape'});// To unlock orientation which will default back to the global setting:awaitScreenOrientation.unlock();
+```
+
+```
+Requires Full Screen
+```
+
+```
+Info.plist
+```
+
+```
+<key>UIRequiresFullScreen</key><true/>
+```
+
+```
+<key>UIRequiresFullScreen</key><true/>
+```
+
+- v8
+- v7
+- v6
+- v5
+- v4
+- v3
+- v2
+
+- Appflow
+- Portals
+
+- Ionic Framework
+- Capacitor
+- Stencil
+
+- Getting StartedIntroductionEnvironment SetupInstalling CapacitorBuilding Your UIUsing with Ionic FrameworkVS Code ExtensionCapacitor TemplatesFAQs
+- Introduction
+- Environment Setup
+- Installing Capacitor
+- Building Your UI
+- Using with Ionic Framework
+- VS Code Extension
+- Capacitor Templates
+- FAQs
+- BasicsDevelopment WorkflowUsing PluginsConfiguring Your AppJavaScript API
+- Development Workflow
+- Using Plugins
+- Configuring Your App
+- JavaScript API
+- Upgrade GuidesUpdating to 8.0Updating plugins to 8.0Updating to 7.0Updating plugins to 7.0Updating to 6.0Updating plugins to 6.0Updating to 5.0Updating plugins to 5.0Updating to 4.0Updating to 3.0Updating to 2.0Updating to 1.1Updating plugins to 3.0
+- Updating to 8.0
+- Updating plugins to 8.0
+- Updating to 7.0
+- Updating plugins to 7.0
+- Updating to 6.0
+- Updating plugins to 6.0
+- Updating to 5.0
+- Updating plugins to 5.0
+- Updating to 4.0
+- Updating to 3.0
+- Updating to 2.0
+- Updating to 1.1
+- Updating plugins to 3.0
+- C

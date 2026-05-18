@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch315-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 315,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 20,
+  "words": 20,
+  "content": "# K_A, K_SPACE -> { OperacionRotarPieza(False) -- Sentido antihorario } _ -> { OperacionBajarPiezas() } } B.2. Operaciones sobre zonas"
+}

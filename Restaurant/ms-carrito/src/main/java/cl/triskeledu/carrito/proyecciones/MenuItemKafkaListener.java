@@ -1,6 +1,7 @@
 package cl.triskeledu.carrito.proyecciones;
 
 import cl.triskeledu.carrito.dto.event.MenuItemEventDTO;
+import cl.triskeledu.carrito.repository.MenuItemProyeccionRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
@@ -12,7 +13,7 @@ import org.springframework.stereotype.Component;
 public class MenuItemKafkaListener {
 
     private final MenuItemProyeccionRepository repository;
-    @KafkaListener(topics = "topico-menu", groupId = "ms-carrito-group")
+    @KafkaListener(topics = "menu-item-events", groupId = "ms-carrito-group")
     public void escucharCambiosMenu(MenuItemEventDTO evento) {
         log.info("Recibido evento de menú desde Kafka: Producto ID {}", evento.getId());
 

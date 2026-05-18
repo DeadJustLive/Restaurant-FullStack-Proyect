@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch071-001",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 71,
+  "chunkIndex": 1,
+  "title": "{- PROP´OSITO:",
+  "start": 450,
+  "end": 544,
+  "words": 94,
+  "content": "con Atenci ´on Un par ´ametro es un nombre que usamos para escribir un “agujero” den- tro de un (esquema de) procedimiento. Este “agujero” debe ser rellenado adecuadamente con un valor antes de poder utilizar dicho procedimien- to. En nuestro caso, un nombre adecuado para el agujero (el par ´ametro) ser´ıa, por ejemplo, colorDelCuadrado. As´ı, en lugar de escribir un agujero gr ´aficamente, usaremos ese nombre para indicar que ah´ı hay un agujero. Ese nombre apare- cer ´a en el encabezado del procedimiento, como se ve en el siguiente c ´odigo: procedure DibujarCuadradoDeLado3DeColor(colorDelCuadrado) /*"
+}

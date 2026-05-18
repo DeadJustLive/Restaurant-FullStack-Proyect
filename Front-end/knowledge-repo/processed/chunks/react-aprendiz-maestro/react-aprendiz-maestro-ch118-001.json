@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch118-001",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 118,
+  "chunkIndex": 1,
+  "title": "13. Implementado Arrastrar y",
+  "start": 450,
+  "end": 560,
+  "words": 110,
+  "content": "los ficheros y lanzará los tests cuando se detecten cambios, lo que te permititá ir más deprisa ya que te evitará tener que lanzar los tests manualmente. • npm run test:lint - Ejecuta ESLint10 contra el código. ESLint es capaz de capturar pequeños problemas. Puedes configurar tu entorno de desarrollo para que lo utilice y te permitirá capturar errores potenciales a medida que los cometas. 8https://pages.github.com/ 9http://survivejs.com/webpack/building-with-webpack/analyzing-build-statistics/ 10http://eslint.org/ -- 31 of 226 -- Configurando el Proyecto 14 Revisa la sección \"scripts\" del fichero package.json para entender mejor cómo funciona cada uno de ellos. Es casi como configuración. Echa un vistazo a SurviveJS - Webpack11 para saber más sobre este tema."
+}

@@ -1,0 +1,195 @@
+# scrum-y-xp-desde-las-trincheras
+
+## Resumen
+Documento procesado con openPrompt-Lang Knowledge.
+
+**Páginas:** 122
+**Método:** native
+**Procesado:** 2026-05-17
+
+## Capítulos
+- **SCRUM Y XP DESDE LAS**
+- **TRINCHERAS**
+- **VERSION GRATUITA ON-LINE**
+- **AGRADECIMIENTOS 	4**
+- **PRÓLOGO DE JEFF SUTHERLAND 	10**
+- **PRÓLOGO DE MIKE COHN 	12**
+- **PREFACIO - ¡HEY, SCRUM FUNCIONA! 	13**
+- **INTRODUCCIÓN 	14**
+- **COMO HACEMOS PILAS DE PRODUCTO 	17**
+- **COMO NOS PREPARAMOS PARA LA PLANIFICACIÓN DE SPRINT**
+- **COMO HACEMOS LA PLANIFICACIÓN DE SPRINT 	22**
+- **COMO COMUNICAMOS LOS SPRINTS 	48**
+- **COMO HACEMOS PILAS DE SPRINT 	50**
+- **COMO DISTRIBUIMOS LA SALA DEL EQUIPO 	59**
+- **CÓMO HACEMOS SCRUM DIARIOS 	63**
+- **CÓMO HACEMOS LA DEMO DE SPRINT 	66**
+- **CÓMO HACEMOS RETROSPECTIVAS DE SPRINT 	69**
+- **DESCANSOS ENTRE SPRINTS 	74**
+- **CÓMO COMBINAMOS SCRUM CON XP 	81**
+- **CÓMO HACEMOS PRUEBAS 	87**
+- **CÓMO MANEJAR MÚLTIPLES EQUIPOS SCRUM 	97**
+- **CÓMO GESTIONAMOS EQUIPOS DISTRIBUIDOS**
+- **GEOGRÁFICAMENTE 	116**
+- **LISTA DE COMPROBACIÓN DEL SCRUM MASTER 	119**
+- **EPÍLOGO 	120**
+- **LECTURAS RECOMENDADAS 	121**
+- **SOBRE EL AUTOR 	122**
+- **10 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 11**
+- **12 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 13**
+- **14 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 15**
+- **16 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 17**
+- **18 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 19**
+- **20 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 21**
+- **22 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 23**
+- **24 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 25**
+- **1) La gente no piensa que vayan a durar tanto…**
+- **26 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 27**
+- **28 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **PILA DE PRODUCTO 	PILA DE SPRINT 1**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 29**
+- **PILA DE PRODUCTO**
+- **VELOCIDAD ESTIMADA**
+- **30 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **1. A ojo de buen cubero**
+- **2. Cálculos de velocidad**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 31**
+- **1. Decidir la velocidad estimada**
+- **2. Calcular cuántas historias se pueden añadir sin sobrepasar la velocidad**
+- **32 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 33**
+- **DÍAS DISPONIBLES**
+- **50 DÍAS-HOMBRE DISPONIBLES**
+- **VELOCIDAD ESTIMADA DE ESTE SPRINT**
+- **(DÍAS-HOMBRE 	DISPONIBLES) 	X 	(FACTOR 	DE 	DEDICACIÓN) 	= 	VELOCIDAD**
+- **ESTIMADA**
+- **FACTOR DE DEDICACIÓN DEL ÚLTIMO SPRINT**
+- **(VELOCIDAD REAL)**
+- **(FACTOR DE DEDICACIÓN) = ---------------------------**
+- **(DIAS-HOMBRE DISPONIBLES)**
+- **34 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **FACTOR DE DEDICACIÓN DEL ÚLTIMO SPRINT**
+- **(18 PUNTOS HISTORIA)**
+- **(40%) = 	-------------------- 	50 DÍAS-HOMBRE X 40% = 20 PUNTOS-**
+- **HISTORIA**
+- **(45 DÍAS-HOMBRE)**
+- **COMIENZO DEL SPRINT**
+- **19 PUNTOS DE HISTORIA**
+- **INCLUIDOS EN SPRINT**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 35**
+- **36 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 37**
+- **38 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 39**
+- **40 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 41**
+- **42 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 43**
+- **44 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 45**
+- **1) Intentamos evitar las historias técnicas. Busca efusivamente formas de**
+- **46 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **2) Si no podemos transformar una historia técnica en una historia normal,**
+- **3) Si lo anterior falla, definirla como historia técnica y mantener una lista**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 47**
+- **1) El Dueño de Producto imprime los elementos de Jira más importantes, los trae**
+- **2) El Dueño de Producto crea historias que se refieren a los elementos de Jira.**
+- **3) La corrección de errores se considera algo fuera del Sprint. El equipo**
+- **4) Hacer la Pila de Producto en Jira (es decir, abandonar Excel). Tratar los**
+- **48 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 49**
+- **50 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 51**
+- **52 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 53**
+- **54 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 55**
+- **56 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 57**
+- **58 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 59**
+- **60 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 61**
+- **62 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 63**
+- **64 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 65**
+- **66 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 67**
+- **68 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 69**
+- **70 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 71**
+- **72 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 73**
+- **74 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 75**
+- **76 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 77**
+- **78 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 79**
+- **80 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 81**
+- **82 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 83**
+- **84 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 85**
+- **86 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 87**
+- **88 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 89**
+- **90 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 91**
+- **92 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 93**
+- **94 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 95**
+- **96 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 97**
+- **98 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 99**
+- **100 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 101**
+- **102 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 103**
+- **104 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 105**
+- **106 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 107**
+- **1) 	Todo el mundo en la mesa describe qué ha conseguido su equipo la**
+- **2) 	Cualquier otro asunto inter-equipos que necesite ser discutido, por**
+- **108 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **1) Noticias y actualizaciones del Jefe de Desarrollo. Información sobre eventos**
+- **2) Un turno por producto. Una persona de cada grupo de producto informa sobre**
+- **3) Cualquier persona es libre de añadir información o formular preguntas.**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 109**
+- **1. Personas como el Dueño de Producto o yo mismo podemos visitar todos los**
+- **2. Los equipos pueden visitar los Scrum diarios de otros equipos. No ocurre muy**
+- **1) 	Apagar fuegos**
+- **2) 	Proteger al equipo Scrum de todo tipo de distracciones, incluyendo cosas**
+- **110 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 111**
+- **112 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 113**
+- **114 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 115**
+- **116 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 117**
+- **1. Queremos que los miembros de cada equipo se conozcan bien entre si.**
+- **2. Queremos tener una infraestructura de comunicaciones excelente entre las**
+- **118 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **3. Al principio, el equipo offshore es demasiado pequeño como para formar un**
+- **4. Queremos un periodo de intercambio intensivo de conocimiento antes de que**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 119**
+- **120 | SCRUM Y XP DESDE LAS TRINCHERAS**
+- **SCRUM Y XP DESDE LAS TRINCHERAS | 121**
+- **122 | SCRUM Y XP DESDE LAS TRINCHERAS**

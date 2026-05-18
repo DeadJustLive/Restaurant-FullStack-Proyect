@@ -4,7 +4,7 @@ import { cn } from '../utils/utils';
 import { getNavItemsByRole, Role } from '../config/navigation';
 import { useAuth } from '../contexts/AuthContext';
 import { useDevTools } from '../contexts/DevToolsContext';
-import { Settings, LogOut, ChevronDown, Activity, LayoutGrid } from 'lucide-react';
+import { ChevronDown, Activity, LayoutGrid } from 'lucide-react';
 import { ModulesLauncherModal } from '../components/navigation/ModulesLauncherModal';
 
 export const AppShell: React.FC = () => {

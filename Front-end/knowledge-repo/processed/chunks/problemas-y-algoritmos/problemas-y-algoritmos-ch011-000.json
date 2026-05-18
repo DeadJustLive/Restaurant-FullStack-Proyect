@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch011-000",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 11,
+  "chunkIndex": 0,
+  "title": "ÍNDICE GENERAL 11",
+  "start": 0,
+  "end": 500,
+  "words": 500,
+  "content": "# ÍNDICE GENERAL 11 11.Complejidades en Funciones Recursivas 125 11.1. Estados . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 125 11.2. Cortes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127 III Algoritmos de Ordenamiento I 131 12.Ordenamiento 135 12.1. Función de comparación . . . . . . . . . . . . . . . . . . . . . 136 12.2. Conjunto con un Órden Total . . . . . . . . . . . . . . . . . . 137 12.3. Algoritmo de Selección . . . . . . . . . . . . . . . . . . . . . . 138 12.4. Algoritmo de Inserción . . . . . . . . . . . . . . . . . . . . . . 139 12.5. Análisis de los Algoritmos de Selección e Inserción . . . . . . . 140 12.6. El Odiado Burbuja . . . . . . . . . . . . . . . . . . . . . . . . 141 12.7. Ordenamiento en O(n log n) por Mezcla . . . . . . . . . . . . 142 12.8. Problemas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 147 12.8.1. Mediana . . . . . . . . . . . . . . . . . . . . . . . . . . 147 IV Estructuras de Datos 149 13.Pilas, Colas, Listas 153 13.1. Pilas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 153 13.2. Colas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 156 13.3. Listas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 159 13.4. Problemas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 162 13.4.1. Equilibrando Símbolos . . . . . . . . . . . . . . . . . . 162 13.4.2. Pirámides Relevantes . . . . . . . . . . . . ."
+}

@@ -1,0 +1,23 @@
+# 14. A un amigo que vive en el norte de la ciudad, su terapeuta le
+
+## Fuente
+logica-de-programacion (Cap. 144)
+
+## Contenido
+# 14. A un amigo que vive en el norte de la ciudad, su terapeuta le
+
+recomend´o caminar m´ınimo 3 d´ıas a la semana desde su apartamento
+hasta el centro, lo cual ´el hace sin falta alguna; el recorrido tiene
+aproximadamente 22 cuadras y debe hacerlo con ropa c´omoda. Este
+ejercicio lo debe realizar durante 4 meses.
+Al momento de volver a consulta, el amigo debe informarle a su
+terapeuta lo siguiente:
+
+-- 321 of 450 --
+
+320 Estructuras de repetici ´on
+Promedio de tiempo por semana, por mes y por los 4 meses.
+Adicionalmente, cu´al fue el menor y el mayor tiempo empleado en el
+recorrido.
+Para esta tarea, el amigo lleva un registro del tiempo que invierte en
+cada caminata.

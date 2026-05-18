@@ -1,0 +1,48 @@
+# SCRUM Y XP DESDE LAS TRINCHERAS | 79
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 129)
+
+## Contenido
+# SCRUM Y XP DESDE LAS TRINCHERAS | 79
+
+Esto significa que debemos decidir nuestro factor de dedicación. Lee “Como
+decide el equipo qué historias incluir en el Sprint”.
+El factor de dedicación significa, básicamente, “cuanto del tiempo del equipo se
+emplea en las historias a las que se ha comprometido”. Nuca es el 100%, ya que
+el equipo gasta tiempo en elementos no planificados, haciendo cambios de
+contexto, ayudando a otros equipos, chequeando el correo, arreglando sus
+ordenadores rotos, discutiendo de política en la cocina, etc.
+Digamos que determinamos que el factor de dedicación del equipo es del 50%
+(bastante bajo, normalmente oscilamos en torno al 70%). Y digamos que la
+duración del Sprint es de 3 semanas (15 días) y el tamaño del equipo es 6
+personas.
+Así que cada Sprint tendría 90 días-hombre ideales, pero solo podemos
+pretender producir el equivalente a 45 días-hombre ideales (debido al factor del
+50%).
+Así que nuestra velocidad estimada es 45 puntos de historia.
+Si cada historia tiene una estimación de tiempo de 5 días (que no es así),
+entonces este equipo podría producir aproximadamente 9 historias por Sprint.
+Uniéndolo todo en un plan de entregas (release plan)
+Ahora que tenemos estimaciones de tiempo y una velocidad (45) podemos dividir
+fácilmente la Pila de Producto en Sprints.
+Importancia Historia 	Estimación
+Sprint 1
+130 	Plátano 	12
+120 	Manzana 	9
+115 	Naranja 	20
+Sprint 2
+110 	Guayaba 	8
+100 	Pera 	20
+95 	Pasa 	12
+Sprint 3
+80 	Cacahuete 10
+70 	Donut 	8
+60 	Cebolla 	10
+40 	Uva 	14
+Sprint 4
+35 	Papaya 	4
+10 	Arándano
+10 	Melocotón
+
+-- 79 of 122 --

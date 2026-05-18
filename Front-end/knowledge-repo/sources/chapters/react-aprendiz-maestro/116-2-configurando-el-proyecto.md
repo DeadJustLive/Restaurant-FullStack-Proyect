@@ -1,0 +1,27 @@
+# 2. Configurando el Proyecto
+
+Para que comenzar sea más sencillo he configurado una esqueleto basado en
+Webpack que nos permitirá adentrarnos en React de forma directa. Este esqueleto
+incluye un modo de desarrollo con una característica conocida como recarga en
+caliente.
+La recarga en caliente le permite a Webpack a cambiar el código que se está ejecutan-
+do en el navegador sin tener que recargarlo todo. Funciona genial, especialmente a la
+hora de trabajar con estilos, aunque el soporte de React es también bastante bueno.
+Por desgracia no es una tecnología a prueba de fallos y no siempre es capaz de
+detectar todos los cambios que se hayan hecho en el código, lo que significa que
+habrá veces que tendrás que recargar el navegador a mano para que éste tenga los
+últimos cambios.
+Los editores de texto más comunes (Sublime Text, Visual Studio Code,
+vim, emacs, Atom, etc) tienen un buen soporte para React. Incluso los
+IDEs, como WebStorm1, tienen soporte hasta cierto punto. Nuclide2, un
+IDE basado en Atom, ha sido desarrollado con React en mente. Asegúrate
+de que tienes los plugins de React instalados y funcionando.
+Si utilizas un IDE, deshabilita una característica conocida como escritura
+segura. Se sabe que causa problemas con la configuración que vamos a
+utilizar en este libro.
+1https://www.jetbrains.com/webstorm/
+2http://nuclide.io/
+
+-- 27 of 226 --
+
+Configurando el Proyecto 10

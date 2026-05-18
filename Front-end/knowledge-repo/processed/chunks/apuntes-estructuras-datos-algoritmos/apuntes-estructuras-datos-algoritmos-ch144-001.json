@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch144-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 144,
+  "chunkIndex": 1,
+  "title": "¬ (T) = F; \t¬ (F) = T; \t¬ (KK) = KK",
+  "start": 450,
+  "end": 568,
+  "words": 118,
+  "content": "del árbol a} elBosque: árbol a -> bosque {Devuelve un bosque igual al bosque de los subárboles del árbol a} numHijos: árbol a -> natural {Devuelve el número de subárboles de a, es decir long(elBosque(a))} parcial subÁrbol: árbol a , natural n  árbol {Devuelve un árbol igual al n-ésimo subárbol de a. Parcial: sólo está definida si 1 ≤ n ≤ numHijos(a)} esHoja?: árbol a -> booleano {Devuelve verdad si y sólo si a no tiene subárboles, es decir, numHijos(a) = 0} alturaBosque: bosque b -> natural {Si long(b) > 0, devuelve la altura del árbol más alto de b. Si long(b) = 0, devuelve 0} alturaÁrbol: árbol a -> natural {Devuelve la altura de a} fespec"
+}

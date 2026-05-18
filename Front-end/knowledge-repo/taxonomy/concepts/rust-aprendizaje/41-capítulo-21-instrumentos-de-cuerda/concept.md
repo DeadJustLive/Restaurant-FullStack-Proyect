@@ -1,0 +1,108 @@
+# Capítulo 21:: Instrumentos de cuerda
+
+## Fuente
+Capítulo 1: Empezando con Rust 2 (Cap. 41)
+
+## Contenido
+# Capítulo 21:: Instrumentos de cuerda
+
+Introducción
+A diferencia de muchos otros idiomas, Rust tiene dos tipos de cadena principales: String (un tipo
+de cadena asignada al montón) y &str (una cadena prestada , que no usa memoria adicional).
+Saber la diferencia y cuándo usar cada uno es vital para entender cómo funciona Rust.
+Examples
+Manipulación básica de cuerdas.
+fn main() {
+// Statically allocated string slice
+let hello = "Hello world";
+// This is equivalent to the previous one
+let hello_again: &'static str = "Hello world";
+// An empty String
+let mut string = String::new();
+// An empty String with a pre-allocated initial buffer
+let mut capacity = String::with_capacity(10);
+// Add a string slice to a String
+string.push_str("foo");
+// From a string slice to a String
+// Note: Prior to Rust 1.9.0 the to_owned method was faster
+// than to_string. Nowadays, they are equivalent.
+let bar = "foo".to_owned();
+let qux = "foo".to_string();
+// The String::from method is another way to convert a
+// string slice to an owned String.
+let baz = String::from("foo");
+// Coerce a String into &str with &
+let baz: &str = &bar;
+}
+Nota: Tanto los métodos String::new como String::with_capacity crearán cadenas vacías. Sin
+embargo, este último asigna un búfer inicial, haciéndolo inicialmente más lento, pero ayudando a
+reducir las asignaciones posteriores. Si se conoce el tamaño final de la Cadena, se debe preferir
+String::with_capacity .
+Rebanar cuerdas
+fn main() {
+let english = "Hello, World!";
+https://riptutorial.com/es/home 64
+
+-- 78 of 188 --
+
+println!("{}", &english[0..5]); // Prints "Hello"
+println!("{}", &english[7..]); // Prints "World!"
+}
+Tenga en cuenta que necesitamos usar el operador & aquí. Toma una referencia y, por lo tanto,
+proporciona al compilador información sobre el tamaño del tipo de sector, que necesita para
+imprimirlo. Sin la referencia, los dos se println! Las llamadas serían un error en tiempo de
+compilación.
+Advertencia: el corte funciona por desplazamiento de byte , no por desplazamiento de
+caracteres, y se producirá un error de pánico cuando los límites no estén en un límite de
+caracteres:
+fn main() {
+let icelandic = "Halló, heimur!"; // note that “ó” is two-byte long in UTF-8
+println!("{}", &icelandic[0..6]); // Prints "Halló", “ó” lies on two bytes 5 and 6
+println!("{}", &icelandic[8..]); // Prints "heimur!", the “h” is the 8th byte, but the
+7th char
+println!("{}", &icelandic[0..5]); // Panics!
+}
+Esta es también la razón por la que las cadenas no admiten la indexación simple (por ejemplo,
+icelandic[5] ).
+Dividir una cadena
+let strings = "bananas,apples,pear".split(",");
+split devuelve un iterador.
+for s in strings {
+println!("{}", s)
+}
+Y se puede "recopilar" en un Vec con el método Iterator::collect .
+let strings: Vec<&str> = "bananas,apples,pear".split(",").collect(); // ["bananas", "apples",
+"pear"]
+De prestado a propiedad
+// all variables `s` have the type `String`
+let s = "hi".to_string(); // Generic way to convert into `String`. This works
+// for all types that implement `Display`.
+let s = "hi".to_owned(); // Clearly states the intend of obtaining an owned object
+let s: String = "hi".into(); // Generic conversion, type annotation required
+let s: String = From::from("hi"); // in both cases!
+https://riptutorial.com/es/home 65
+
+-- 79 of 188 --
+
+let s = String::from("hi"); // Calling the `from` impl explicitly -- the `From`
+// trait has to be in scope!
+let s = format!("hi"); // Using the formatting functionality (this has some
+// overhead)
+Aparte del format!() , Todos los métodos anteriores son igualmente rápidos.
+Romper los literales de cuerda larga.
+Romper las cadenas literales regulares con el \ carácter
+let a = "foobar";
+let b = "foo\
+bar";
+// `a` and `b` are equal.
+assert_eq!(a,b);
+¡Rompe los literales de cuerdas en bruto para separar cadenas y concat! la concat! macro
+let c = r"foo\bar";
+let d = concat!(r"foo\", r"bar");
+// `c` and `d` are equal.
+assert_eq!(c, d);
+Lea Instrumentos de cuerda en línea: https://riptutorial.com/es/rust/topic/998/instrumentos-de-
+cuerda
+https://riptutorial.com/es/home 66
+
+-- 80 of 188 --

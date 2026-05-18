@@ -1,0 +1,11 @@
+{
+  "id": "capacitorjs-docs-ch018-000",
+  "bookId": "capacitorjs-docs",
+  "chapterIndex": 18,
+  "chunkIndex": 0,
+  "title": "WebView-Accessible Native Code​",
+  "start": 0,
+  "end": 25,
+  "words": 25,
+  "content": "# WebView-Accessible Native Code​ ## WebView-Accessible Native Code​ ### EchoPlugin.swift​ ### Register the Plugin​ #### MyViewController.swift​ #### JavaScript​ ### Use the Plugin​ ### Next Steps​"
+}

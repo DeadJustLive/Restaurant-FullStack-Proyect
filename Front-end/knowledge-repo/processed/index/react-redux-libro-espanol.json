@@ -1,0 +1,192 @@
+{
+  "id": "react-redux-libro-espanol",
+  "title": "Desarrollo de Apps Web con React.js y Redux.js",
+  "author": "Sergio Daniel Xalambri",
+  "pages": 30,
+  "sourceFile": "web/react-redux-libro-espanol",
+  "processedAt": "2026-05-17T03:11:43.788860",
+  "method": "web",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/authors-create-book.md",
+      "words": 5959
+    },
+    {
+      "index": 2,
+      "title": "ERROR: The request could not be satisfied",
+      "file": "chapters/web/react-redux-libro-espanol/definition.md",
+      "words": 20
+    },
+    {
+      "index": 3,
+      "title": "Leanpub Author FAQ | Leanpub Help Center",
+      "file": "chapters/web/react-redux-libro-espanol/en-articles-4405350-leanpub-author-faq.md",
+      "words": 497
+    },
+    {
+      "index": 4,
+      "title": "Home | Leanpub Help Center",
+      "file": "chapters/web/react-redux-libro-espanol/en.md",
+      "words": 152
+    },
+    {
+      "index": 5,
+      "title": "Book Workshop - Leanpub",
+      "file": "chapters/web/react-redux-libro-espanol/events-book_workshop.md",
+      "words": 2525
+    },
+    {
+      "index": 6,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/organizations.md",
+      "words": 8799
+    },
+    {
+      "index": 7,
+      "title": "ERROR: The request could not be satisfied",
+      "file": "chapters/web/react-redux-libro-espanol/privacy.md",
+      "words": 20
+    },
+    {
+      "index": 8,
+      "title": "Desarrollo de Aplicaciones Web con React.js y… [PDF/iPad/Kindle]",
+      "file": "chapters/web/react-redux-libro-espanol/react-redux.md",
+      "words": 1320
+    },
+    {
+      "index": 9,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-lfm.md",
+      "words": 1254
+    },
+    {
+      "index": 10,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-acciones-asncronas-en-reduxjs.md",
+      "words": 2419
+    },
+    {
+      "index": 11,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-combinando-reactjs-y-reduxjs.md",
+      "words": 2419
+    },
+    {
+      "index": 12,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-componentes-de-alto-orden-en-reactjs.md",
+      "words": 2419
+    },
+    {
+      "index": 13,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-creando-cdigo-modular-con-ducks-de-redux.md",
+      "words": 2419
+    },
+    {
+      "index": 14,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-estado-inmutable-con-redux-e-immutablejs.md",
+      "words": 2419
+    },
+    {
+      "index": 15,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-estructura-de-archivos-ducks-para-reduxjs.md",
+      "words": 2419
+    },
+    {
+      "index": 16,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-glosario-de-trminos.md",
+      "words": 2419
+    },
+    {
+      "index": 17,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-introduccin-a-reduxjs.md",
+      "words": 2419
+    },
+    {
+      "index": 18,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-manejo-de-errores-en-reduxjs.md",
+      "words": 2419
+    },
+    {
+      "index": 19,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-middlewares-en-reduxjs.md",
+      "words": 2419
+    },
+    {
+      "index": 20,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-migrando-a-redux.md",
+      "words": 2419
+    },
+    {
+      "index": 21,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-obteniendo-datos-en-aplicaciones-de-redux.md",
+      "words": 2419
+    },
+    {
+      "index": 22,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-pruebas-unitarias-en-reduxjs.md",
+      "words": 2419
+    },
+    {
+      "index": 23,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-renderizando-aplicaciones-de-redux-en-el-servidor.md",
+      "words": 2419
+    },
+    {
+      "index": 24,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux-leanpub-auto-usando-redux-en-el-servidor-con-socketio.md",
+      "words": 2419
+    },
+    {
+      "index": 25,
+      "title": "Leanpub: Publish Early, Publish Often",
+      "file": "chapters/web/react-redux-libro-espanol/read-react-redux.md",
+      "words": 802
+    },
+    {
+      "index": 26,
+      "title": "CourseAI: Unlock Corporate Training Budgets",
+      "file": "chapters/web/react-redux-libro-espanol/services-course_ai.md",
+      "words": 3519
+    },
+    {
+      "index": 27,
+      "title": "GlobalAuthor: 31 Translations, a Course, and More!",
+      "file": "chapters/web/react-redux-libro-espanol/services-index_ai.md",
+      "words": 2827
+    },
+    {
+      "index": 28,
+      "title": "ERROR: The request could not be satisfied",
+      "file": "chapters/web/react-redux-libro-espanol/store-books.md",
+      "words": 20
+    },
+    {
+      "index": 29,
+      "title": "ERROR: The request could not be satisfied",
+      "file": "chapters/web/react-redux-libro-espanol/takedown.md",
+      "words": 20
+    },
+    {
+      "index": 30,
+      "title": "ERROR: The request could not be satisfied",
+      "file": "chapters/web/react-redux-libro-espanol/u-sergiodxa.md",
+      "words": 20
+    }
+  ],
+  "learningIntegrated": true
+}

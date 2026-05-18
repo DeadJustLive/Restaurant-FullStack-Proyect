@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch066-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 66,
+  "chunkIndex": 1,
+  "title": "Capítulo 39:: Punteros en bruto",
+  "start": 450,
+  "end": 644,
+  "words": 194,
+  "content": "*const &str; // This can go on... let planet_ptr_ptr_ptr = &planet_ptr_ptr as *const *const *const &str; unsafe { // Direct usage println!(\"The name of our planet is: {}\", planet); // Single dereference println!(\"The name of our planet is: {}\", *planet_ptr); // Double dereference println!(\"The name of our planet is: {}\", **planet_ptr_ptr); // Triple dereference println!(\"The name of our planet is: {}\", ***planet_ptr_ptr_ptr); } Esto dará como resultado: The name of our planet is: Earth cuatro veces. Mostrando punteros en bruto https://riptutorial.com/es/home 128 -- 142 of 188 -- Rust tiene un formateador predeterminado para los tipos de punteros que se pueden usar para mostrar punteros. use std::ptr; // Create some data, a raw pointer pointing to it and a null pointer let data: u32 = 42; let raw_ptr = &data as *const u32; let null_ptr = ptr::null() as *const u32; // the {:p} mapping shows pointer values as hexadecimal memory addresses println!(\"Data address: {:p}\", &data); println!(\"Raw pointer address: {:p}\", raw_ptr); println!(\"Null pointer address: {:p}\", null_ptr); Esto producirá algo como esto: Data address: 0x7fff59f6bcc0 Raw pointer address: 0x7fff59f6bcc0 Null pointer address: 0x0 Lea Punteros en bruto en línea: https://riptutorial.com/es/rust/topic/7270/punteros-en-bruto https://riptutorial.com/es/home 129 -- 143 of 188 --"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch171-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 171,
+  "chunkIndex": 0,
+  "title": "ÍNDICE GENERAL",
+  "start": 0,
+  "end": 173,
+  "words": 173,
+  "content": "# 9.6 Migrando App.deleteNote a Flux El proceso es exáctamente el mismo para App.deleteNote. Necesitamos conectarlo con nuestra acción y adaptar el código. He aquí la parte de App: app/components/App.jsx -- 110 of 226 -- Implementando NoteStore y NoteActions 93 ... class App extends React.Component { ... deleteNote = (id, e) => { // Avoid bubbling to edit e.stopPropagation(); this.setState({ notes: this.state.notes.filter(note => note.id !== id) }); this.props.NoteActions.delete(id); } ... } ... Si refrescas y tratas de borrar una nota verás un mensaje como el siguiente en la consola del navegador: delete note 501c13e0-40cb-47a3-b69a-b1f2f69c4c55 Para finalizar la migración necesitamos mostrar la lógica de setState al méto- do delete. Recuerda borrar this.state.notes y reemplazarlo simplemente por this.notes: app/stores/NoteStore.js -- 111 of 226 -- Implementando NoteStore y NoteActions 94 import uuid from 'uuid'; import NoteActions from '../actions/NoteActions'; export default class NoteStore { ... delete(id) { console.log('delete note', id); this.setState({ notes: this.notes.filter(note => note.id !== id) }); } } Tras este cambio deberías poder borrar notas como antes. Todavía hay un par de métodos que migrar."
+}

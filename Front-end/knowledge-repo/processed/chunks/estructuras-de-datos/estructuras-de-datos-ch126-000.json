@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch126-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 126,
+  "chunkIndex": 0,
+  "title": "SW DATO LIGA",
+  "start": 0,
+  "end": 52,
+  "words": 52,
+  "content": "# 3.3 MATRICES DISPERSAS Una aplicación de matrices que poseen muchos de sus elementos en ceros se muestra en las estructuras de datos como las matrices dispersas es algo que normalmente puede rebajar el procesamiento de algoritmos relacionados con métodos aplicados a este tipo de matrices. -- 40 of 64 -- 41"
+}

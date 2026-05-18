@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch047-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 47,
+  "chunkIndex": 0,
+  "title": "Tipos Avanzados",
+  "start": 0,
+  "end": 38,
+  "words": 38,
+  "content": "# Tipos Avanzados ## Tipos Avanzados ### Usando el Newtype Pattern para Seguridad de Tipos y Abstracción ### Creando Type Synonyms con Type Aliases ### El tipo que nunca retorna ### Tipos de tamano dinamico y el traitSized"
+}

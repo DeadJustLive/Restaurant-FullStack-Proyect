@@ -1,0 +1,11 @@
+{
+  "id": "capacitorjs-docs-ch019-002",
+  "bookId": "capacitorjs-docs",
+  "chapterIndex": 19,
+  "chunkIndex": 2,
+  "title": "Autofill credentials",
+  "start": 900,
+  "end": 1242,
+  "words": 342,
+  "content": "Installing Capacitor - Building Your UI - Using with Ionic Framework - VS Code Extension - Capacitor Templates - FAQs - Development Workflow - Using Plugins - Configuring Your App - JavaScript API - Updating to 8.0 - Updating plugins to 8.0 - Updating to 7.0 - Updating plugins to 7.0 - Updating to 6.0 - Updating plugins to 6.0 - Updating to 5.0 - Updating plugins to 5.0 - Updating to 4.0 - Updating to 3.0 - Updating to 2.0 - Updating to 1.1 - Updating plugins to 3.0 - Overview - Migrating Strategy - Cordova to Capacitor Migration - Ads - Angular - Autofill Credentials - Automated Configuration - CI/CD - Deep Links - Deploying and Updating - Environment Specific Configurations - Games - In App Purchases - Live Reload - Mocking Plugins - Push Notifications - Firebase - React Hooks - Screen Orientation - Security - Splash Screens and Icons - Storage - Community Guides - Getting Started - Configuring iOS - Custom Native iOS Code - Privacy Manifest - Deploying to App Store - Custom ViewController - Troubleshooting - Swift Package Manager - Getting Started - Configuration - Custom Native Code - Setting Target SDK - Deploying to Google Play - Troubleshooting - Getting Started - Building Progressive Web Apps - PWA Elements - Config - Capacitor iOS API - Capacitor Android API - Capacitor Web API - Capacitor Data Types - Persisting Plugin Calls - Plugin APIs - Support Policy - CLI - Community Hub - Forum - Blog - Twitter - Help Center - Customer Support - Enterprise Advisory - English - 日本語 - Update Capacitor to: a.>= 7.0.0for Capacitor 7 b.>= 6.0.0for Capacitor 6 c.>= 5.7.4for Capacitor 5 d.>= 4.8.2for Capacitor 4 e. Capacitor <= 3 is not supported - Use either the VS Code Extension to create the privacy manifest file for your app or create it manually. - Steps to Meet RequirementsVS Code ExtensionManual Steps - VS Code Extension - Manual Steps - Before Store Submission - VS Code Extension - Manual Steps"
+}

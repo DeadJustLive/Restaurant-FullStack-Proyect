@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch040-003",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 40,
+  "chunkIndex": 3,
+  "title": "3. Inserción en AVL",
+  "start": 1350,
+  "end": 1527,
+  "words": 177,
+  "content": "es decir, que no contiene datos para ningún número entero} añadir: tabla t, entero e -> tabla {Si e no está t, devuelve la tabla resultante de añadir e a t con número de apariciones igual a 1. Si e está en t, devuelve la tabla resultante de incrementar en 1 el número de apariciones de e (su frecuencia) en t} total: tabla t -> natural {Devuelve el número total de enteros para los que t contiene información} parcial infoEnt: tabla t, natural n -> entero {Devuelve el entero que corresponde al n-ésimo entero en la tabla t según el orden en número de apariciones decreciente. Parcial: la operación no está definida si n=0 OR n>total(t)} parcial infoFrec: tabla t, natural n -> natural {Devuelve el natural que corresponde al número de apariciones del n-ésimo entero en la tabla t según el orden en número de apariciones decreciente. Parcial: la operación no está definida si n=0 OR n>total(t)} fespec -- 31 of 267 -- 24 -- 32 of 267 -- 25 Lección 3 Implementación de TAD Indice"
+}

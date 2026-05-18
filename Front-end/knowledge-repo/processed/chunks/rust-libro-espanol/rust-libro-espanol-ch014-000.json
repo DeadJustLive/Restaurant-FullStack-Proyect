@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch014-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 14,
+  "chunkIndex": 0,
+  "title": "Publicando un Crate a Crates.io",
+  "start": 0,
+  "end": 73,
+  "words": 73,
+  "content": "# Publicando un Crate a Crates.io ## Publicando un Crate a Crates.io ### Haciendo comentarios de documentación útiles #### Secciones comúnmente usadas #### Comentarios de documentacion como Tests #### Comentando items contenidos ### Exportando una API publica conveniente conpub use ### Configurando una cuenta de Crates.io ### Agregando metadata a un nuevo crate ### Publicando en Crates.io ### Publicando una Nueva Versión de un Crate Existente ### Deprecando Versiones de Crates.io concargo yank"
+}

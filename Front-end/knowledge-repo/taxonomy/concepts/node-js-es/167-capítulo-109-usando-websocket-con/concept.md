@@ -1,0 +1,47 @@
+# Capítulo 109:: Usando WebSocket con
+
+## Fuente
+Capítulo 1: Empezando con Node.js 2 (Cap. 167)
+
+## Contenido
+# Capítulo 109:: Usando WebSocket con
+
+Node.JS
+Examples
+Instalación de WebSocket
+Hay algunas formas de instalar WebSocket en tu proyecto. Aquí hay unos ejemplos:
+npm install --save ws
+o dentro de tu package.json usando:
+"dependencies": {
+"ws": "*"
+},
+Agregando WebSocket a tus archivos
+Para agregar ws a su archivo simplemente use:
+var ws = require('ws');
+Usando WebSocket's y WebSocket Server's
+Para abrir un nuevo WebSocket, simplemente agregue algo como:
+var WebSocket = require("ws");
+var ws = new WebSocket("ws://host:8080/OptionalPathName);
+// Continue on with your code...
+O para abrir un servidor, use:
+var WebSocketServer = require("ws").Server;
+var ws = new WebSocketServer({port: 8080, path: "OptionalPathName"});
+Un ejemplo simple de servidor webSocket
+var WebSocketServer = require('ws').Server
+, wss = new WebSocketServer({ port: 8080 }); // If you want to add a path as well, use path:
+"PathName"
+wss.on('connection', function connection(ws) {
+ws.on('message', function incoming(message) {
+console.log('received: %s', message);
+});
+https://riptutorial.com/es/home 378
+
+-- 406 of 423 --
+
+ws.send('something');
+});
+Lea Usando WebSocket con Node.JS en línea: https://riptutorial.com/es/node-
+js/topic/6106/usando-websocket-con-node-js
+https://riptutorial.com/es/home 379
+
+-- 407 of 423 --

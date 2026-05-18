@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch109-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 109,
+  "chunkIndex": 0,
+  "title": "10. Mensajes de error",
+  "start": 0,
+  "end": 24,
+  "words": 24,
+  "content": "# PRECONDICI´ON: * hay una celda al Este -} { Mover(Este) if (not hayEnemigosAca()) { ArmarTrinchera() } else { Atacar() } } procedure HuirOEsconderse()"
+}

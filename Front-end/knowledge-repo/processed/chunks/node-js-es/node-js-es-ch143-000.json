@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch143-000",
+  "bookId": "node-js-es",
+  "chapterIndex": 143,
+  "chunkIndex": 0,
+  "title": "or",
+  "start": 0,
+  "end": 98,
+  "words": 98,
+  "content": "# or npm i -D <name> Instalacion de dependencias Algunos módulos no solo proporcionan una biblioteca para su uso, sino que también proporcionan uno o más archivos binarios que están diseñados para usarse a través de la línea de comandos. Aunque todavía puede instalar esos paquetes localmente, a menudo se prefiere instalarlos globalmente para que las herramientas de línea de comandos puedan habilitarse. En ese caso, npm vinculará automáticamente los binarios a las rutas apropiadas (por ejemplo, /usr/local/bin/<name> ) para que puedan usarse desde la línea de comandos. Para instalar un paquete globalmente, use: npm install --global <name>"
+}

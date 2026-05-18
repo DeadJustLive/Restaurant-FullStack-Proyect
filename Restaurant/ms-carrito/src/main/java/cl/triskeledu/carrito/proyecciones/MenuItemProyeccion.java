@@ -23,7 +23,7 @@ public class MenuItemProyeccion {
     private String nombre;
 
     @Column(name = "precio_actual", nullable = false)
-    private Integer precio;
+    private Double precio;
 
     // 3. Bandera para saber si el plato sigue disponible o si lo sacaron del menú.
     @Column(name = "disponible")

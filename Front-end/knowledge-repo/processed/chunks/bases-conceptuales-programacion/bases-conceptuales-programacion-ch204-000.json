@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch204-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 204,
+  "chunkIndex": 0,
+  "title": "PROP´OSITO:",
+  "start": 0,
+  "end": 30,
+  "words": 30,
+  "content": "# OBSERVACIONES: * esta zona est´a 2 al Oeste del origen de la zona de juego y 1 al Norte */ { IrAlOrigenDeZonaDeJuego() MoverN(Oeste,2); MoverN(Norte, 1) } procedure IrAlOrigenDeZonaDeSeleccion() /*"
+}

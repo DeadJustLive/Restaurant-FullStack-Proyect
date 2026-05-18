@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import cl.triskeledu.carrito.service.CarritoService;
 import lombok.RequiredArgsConstructor;
+import java.util.Map;
 
 /**
  * =============================================================================
@@ -22,6 +23,12 @@ import lombok.RequiredArgsConstructor;
 public class CarritoController {
 
     private final CarritoService carritoService;
+
+    @GetMapping("/health")
+    public ResponseEntity<Map<String, String>> health() {
+        log.info("[CarritoController] GET /health");
+        return ResponseEntity.ok(Map.of("status", "UP", "service", "ms-carrito"));
+    }
 
     @GetMapping("/usuario/{usuarioId}")
     public ResponseEntity<CarritoResponseDTO> obtenerCarrito(@PathVariable Long usuarioId) {
@@ -46,10 +53,8 @@ public class CarritoController {
             @PathVariable Long usuarioId,
             @PathVariable Long itemId,
             @RequestParam Integer cantidad) {
-        /*
-         * INTENCIÓN: Aumentar o disminuir la cantidad de un plato.
-         */
-        throw new UnsupportedOperationException("Scaffolding: Controlador pendiente de implementación.");
+        log.info("REST request to update item {} quantity to {} for usuarioId: {}", itemId, cantidad, usuarioId);
+        return ResponseEntity.ok(carritoService.actualizarCantidadItem(usuarioId, itemId, cantidad));
     }
 
     @DeleteMapping("/usuario/{usuarioId}/items/{itemId}")

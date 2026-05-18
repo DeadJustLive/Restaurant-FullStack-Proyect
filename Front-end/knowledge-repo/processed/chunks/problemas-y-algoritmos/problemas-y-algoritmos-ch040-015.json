@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch040-015",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 40,
+  "chunkIndex": 15,
+  "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+  "start": 6750,
+  "end": 7250,
+  "words": 500,
+  "content": "unir dos componentes conexas A y B, basta con hacer que la raíz de A apunte a la raíz de B(o viceversa), de esa manera todos los nodos A estarán conectados con la misma raíz que todos los nodos de B. -- 213 of 315 -- 214 CAPÍTULO 16. GRAFOS Nuestro procedimiento de unión queda de la siguiente manera: 1 void union ( int a , int b ) { 2 int ra , rb ; 3 ra=e n c u e n t r a _ r a i z ( a ) ; 4 rb=e n c u e n t r a _ r a i z ( b ) ; 5 P [ ra ]= rb ; 6 } La \u001cgura 16.3 muestra un ejemplo de la ejecución de la funcion union cuando es llamada varias veces. Y como dos vértices estan conectados sí y solo sí estan conectados con la misma raíz entonces nuestro procedimiento de pertenencia queda de la siguiente manera: 1 bool p e r t e n e n c i a ( int a , int b ) { 2 i f ( e n c u e n t r a _ r a i z ( a )==e n c u e n t r a _ r a i z ( b ) ) { 3 return true ; 4 } e l s e { 5 return f a l s e ; 6 } 7 } No hay que olvidarse de que también el grafo necesita ser inicializado. Para este problema normalmente se considera que al inicio el grafo contiene solo vértices y no tiene aristas, por lo cual debe de haber |V | componentes conexas y cada vértice es la raíz de su propia componente conexa. El siguiente código inicializa un grafo con n vértices, como ya lo debes imaginar, este código debe de ser llamado antes de usar unión o pertenencia. 1 void i n i c i a l i z a ( int n ) { 2 int i ; 3 for ( i =0; i <n ; i ++){ 4 P [ i ]= i ; 5 } 6 } Es claro que este algoritmo es bastante mas rápido que hacer búsquedas, sin embargo, aún no lo analizamos adecuadamente. 16.8. Mejorando el Rendimiento de Unión-Pertenencia Cómo recordará el lector, el algoritmo para resolver el problema de unión- pertenencia se basa en tener varios árboles con raíces asignadas, donde cada -- 214 of 315 -- 16.8. MEJORANDO EL RENDIMIENTO DE UNIÓN-PERTENENCIA215 Con\u001cguración inicial 0 1 2 3 4 5 0 1 2 3 4 5 union(0, 2) 2 1 2 3 4 5 0 1 2 3 4 5 union(4, 3) 2 1 2 3 3 5 0 1 2 3 4 5 union(1, 3) 2 3 2 3 3 5 0 1 2 3 4 5 union(5, 0) 2 3 2 3 3 2 0 1 2 3 4 5 union(0,"
+}

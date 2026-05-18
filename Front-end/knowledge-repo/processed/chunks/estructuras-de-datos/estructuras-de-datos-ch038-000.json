@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch038-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 38,
+  "chunkIndex": 0,
+  "title": "5) Elabore un algoritmo que imprima el recorrido BFS de un grafo representado como matriz de incidencia.",
+  "start": 0,
+  "end": 19,
+  "words": 19,
+  "content": "# LIGA1 LIGA2 LIGA3 DATO Ejemplo: La representación del árbol para el ejemplo de arriba con listas ligadas será:"
+}

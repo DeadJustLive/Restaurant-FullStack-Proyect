@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch307-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 307,
+  "chunkIndex": 0,
+  "title": "6. Repetici ´on simple",
+  "start": 0,
+  "end": 38,
+  "words": 38,
+  "content": "# PRECONDICI´ON: * tiene que haber un juego de Zilfost v´alido codificado en el tablero con una zona de juego de ancho m´ınimo 9 */ { GenerarLogoZILFOST() } -} /*==================================================*/ /* Programa interactivo */ /*==================================================*/ interactive program /*"
+}

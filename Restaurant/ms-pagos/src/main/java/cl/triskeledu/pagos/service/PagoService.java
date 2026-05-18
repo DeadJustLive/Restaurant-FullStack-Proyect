@@ -13,9 +13,9 @@ import java.util.List;
  */
 public interface PagoService {
 
-    PagoResponseDTO iniciarPago(PagoRequestDTO dto);
+    PagoResponseDTO iniciarPago(Long credencialId, PagoRequestDTO dto);
 
-    PagoResponseDTO confirmarPago(Long id, String transaccionId, EstadoPago estadoFinal);
+    PagoResponseDTO confirmarPago(Long credencialId, Long id, String transaccionId, EstadoPago estadoFinal);
 
     PagoResponseDTO getById(Long id);
 

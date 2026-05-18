@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch119-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 119,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 25,
+  "words": 25,
+  "content": "# {- PROP´OSITO: * ilustrar el uso de precondiciones para evitar no terminaci´on * moverse simultaneamente en dos direcciones, hasta alcanzar una esquina del tablero"
+}

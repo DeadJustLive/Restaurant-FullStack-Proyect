@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {
+      "id": "ch-2-3-2-guia-tecnica-accesibilidad-web-en-chile-01",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:09.914Z"
+    },
+    {
+      "id": "ch-2-3-2-guia-tecnica-accesibilidad-web-en-chile-02",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T21:05:09.915Z"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pdf-2-3-2-guia-tecnica-accesibilidad-web-en-chile",
+      "to": "ch-2-3-2-guia-tecnica-accesibilidad-web-en-chile-01",
+      "label": "cap. 1"
+    },
+    {
+      "from": "pdf-2-3-2-guia-tecnica-accesibilidad-web-en-chile",
+      "to": "ch-2-3-2-guia-tecnica-accesibilidad-web-en-chile-02",
+      "label": "cap. 2"
+    },
+    {
+      "from": "ch-2-3-2-guia-tecnica-accesibilidad-web-en-chile-01",
+      "to": "ch-2-3-2-guia-tecnica-accesibilidad-web-en-chile-02",
+      "label": "siguiente"
+    }
+  ]
+}

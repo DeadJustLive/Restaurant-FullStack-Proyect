@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch031-011",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 31,
+  "chunkIndex": 11,
+  "title": "Ch17 01 futures and syntax.html",
+  "start": 4950,
+  "end": 5269,
+  "words": 319,
+  "content": "se hace Rust y “Rust Nightly” - Light (default) - Rust - Coal - Navy - Ayu - Latte - Frappé - Macchiato - Mocha - El cratefutureses un hogar oficial para la experimentación de Rust para el código asíncrono, y es en realidad donde el tipoFuturefue diseñado originalmente. - Tokio es el runtime asíncrono más utilizado en Rust hoy en día, especialmente (¡pero no solo!) para aplicaciones web. Hay otros runtimes geniales por ahí, y pueden ser más adecuados para tus propósitos. Usamos Tokio bajo el capó paratrplporque está bien probado y ampliamente utilizado. - Utiliza la sintaxisimpl Traitque discutimos en la sección“Traits como parámetros”en el Capítulo 10. - El trait devuelto es unFuture, con un tipo asociado deOutput. Observa que el tipoOutputesOption<String>, que es el mismo que el tipo de retorno original de la versiónasync fndepage_title. - Todo el código llamado en el cuerpo de la función original está envuelto en un bloqueasync move. Recuerda que los bloques son expresiones. Todo este bloque es la expresión devuelta por la función. - Este bloque asíncrono produce un valor con el tipoOption<String>, como se describió anteriormente. Ese valor coincide con el tipoOutputen el tipo de retorno. Esto es igual que otros bloques que has visto. - El nuevo cuerpo de la función es un bloqueasync movedebido a cómo usa el parámetrourl. (Hablaremos mucho más sobreasyncvs.async movemás adelante en el capítulo.) - La nueva versión de la función tiene un tipo de duración que no hemos visto antes en el tipo de salida:'_. Debido a que la función devuelve unFutureque se refiere a una referencia —en este caso, la referencia del parámetrourl— necesitamos decirle a Rust que queremos que esa referencia esté incluida. No tenemos que nombrar la duración aquí, porque Rust es lo suficientemente inteligente como para saber que solo hay una referencia que podría estar involucrada, perosítenemos que ser explícitos en que elFutureresultante está vinculado por esa duración."
+}

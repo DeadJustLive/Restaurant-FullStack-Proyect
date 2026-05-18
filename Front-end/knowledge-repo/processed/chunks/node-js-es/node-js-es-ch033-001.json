@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch033-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 33,
+  "chunkIndex": 1,
+  "title": "Capítulo 2:: Ambiente",
+  "start": 450,
+  "end": 505,
+  "words": 55,
+  "content": "env para almacenar tus archivos de propiedades: • mkdir env Crear ambientes.js : • process.argv.forEach(function (val, index, array) { var arg = val.split(\"=\"); if (arg.length > 0) { if (arg[0] === 'env') { var env = require('./env/' + arg[1] + '.properties'); module.exports = env; } } }); Ejemplo de archivo de propiedades development.properties : •"
+}

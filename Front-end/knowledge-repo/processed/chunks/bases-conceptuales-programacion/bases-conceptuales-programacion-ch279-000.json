@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch279-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 279,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 21,
+  "words": 21,
+  "content": "# PROP´OSITO: bajar todas las filas de piso sobre la actual, sobreescribiendo la fila actual, solo en la zona de juego"
+}

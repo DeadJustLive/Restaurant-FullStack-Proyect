@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch157-005",
+  "bookId": "node-js-es",
+  "chapterIndex": 157,
+  "chunkIndex": 5,
+  "title": "Capítulo 99:: Programación asíncrona",
+  "start": 2250,
+  "end": 2305,
+  "words": 55,
+  "content": "luego se registra al usuario. En el mismo sentido, puede ajustar la función asíncrona setTimeout, que requiere una devolución de llamada, puede envolver cualquier acción asíncrona singular con una promesa. Lea más sobre promesas en la documentación de JavaScript Promesas . Lea Programación asíncrona en línea: https://riptutorial.com/es/node-js/topic/8813/programacion- asincrona https://riptutorial.com/es/home 347 -- 375 of 423 --"
+}

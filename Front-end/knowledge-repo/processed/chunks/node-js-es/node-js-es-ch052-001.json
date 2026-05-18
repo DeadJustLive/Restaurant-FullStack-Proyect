@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch052-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 52,
+  "chunkIndex": 1,
+  "title": "Capítulo 17:: CLI",
+  "start": 450,
+  "end": 728,
+  "words": 278,
+  "content": "ruta real, lo que permite que se encuentren dependencias entre iguales simbólicamente vinculadas. Tenga en cuenta, sin embargo, que el uso de --preserve-symlinks puede tener otros efectos secundarios. Específicamente, los módulos nativos vinculados simbólicamente pueden no cargarse si están vinculados desde más de una ubicación en el árbol de dependencias (Node.js los vería como dos módulos separados e intentaría cargar el módulo varias veces, lo que provocaría una excepción) ). --track-heap-objects Añadido en: v2.4.0 Rastrear las asignaciones de objetos del montón para las instantáneas del montón. --prof-process Añadido en: v6.0.0 Procesar la salida del generador de perfiles de v8 generada mediante la opción v8 --prof. --v8-options Añadido en: v0.1.3 Imprimir v8 opciones de línea de comando. Nota: las opciones de v8 permiten que las palabras estén separadas por guiones (-) o guiones bajos (_). Por ejemplo, --stack-trace-limit es equivalente a --stack_trace_limit. --tls-cipher-list=list Añadido en: v4.0.0 Especifique una lista de cifrado TLS predeterminada alternativa. (Requiere que Node.js sea creado con soporte criptográfico. (Predeterminado)) --enable-fips Añadido en: v6.0.0 Habilitar criptografía compatible con FIPS en el inicio. (Requiere que Node.js sea construido con ./configure --openssl-fips) --force-fips Añadido en: v6.0.0 Forzar el cifrado compatible con FIPS en el inicio. (No se puede desactivar https://riptutorial.com/es/home 91 -- 119 of 423 -- desde el código del script). (Los mismos requisitos que --enable-fips) --icu-data-dir=file Añadido en: v0.11.15 Especifique la ruta de carga de datos de ICU. (anula NODE_ICU_DATA) Environment Variables NODE_DEBUG=module[,…] Agregado en: v0.1.32 ',' - lista separada de módulos principales que deberían imprimir información de depuración. NODE_PATH=path[:…] Agregado en: v0.1.32 ':' - lista separada de directorios prefijados a la ruta de búsqueda del módulo. Nota: en Windows, esta es una lista separada por ';'."
+}

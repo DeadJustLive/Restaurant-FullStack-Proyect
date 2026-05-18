@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { PageContainer } from '../layouts/PageContainer';
 import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
@@ -6,6 +6,9 @@ import { Button } from '../components/ui/Button';
 import { NuevoPedidoModal } from '../components/features/NuevoPedidoModal';
 import { CobrarPedidoModal } from '../components/features/CobrarPedidoModal';
 import { Plus, Users, Clock, Receipt } from 'lucide-react';
+import { useFetch } from '../hooks/useFetch';
+import { apiPedidos } from '../api/axios';
+import { useAuth } from '../contexts/AuthContext';
 
 /**
  * @MOCK — Imports de datos simulados.
@@ -14,8 +17,16 @@ import { Plus, Users, Clock, Receipt } from 'lucide-react';
 import { MOCK_MESAS, formatPrecio, tiempoTranscurrido, type MesaMock, type PedidoMock } from '../mocks/data';
 
 const WaiterDashboard: React.FC = () => {
+  const { user } = useAuth();
+  const { data: fetchedMesas } = useFetch<MesaMock[]>(apiPedidos, '/mesas');
   /** @MOCK — Estado local simulando las mesas */
   const [mesas, setMesas] = useState<MesaMock[]>(MOCK_MESAS);
+
+  useEffect(() => {
+    if (fetchedMesas) {
+      setMesas(Array.isArray(fetchedMesas) ? fetchedMesas : MOCK_MESAS);
+    }
+  }, [fetchedMesas]);
 
   // Modal: Nuevo Pedido
   const [modalOpen, setModalOpen] = useState(false);
@@ -59,8 +70,8 @@ const WaiterDashboard: React.FC = () => {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h2 className="text-2xl font-bold tracking-tight text-surface-900">Mesas y Pedidos</h2>
-          <p className="text-surface-500">
+          <h2 className="text-2xl font-bold tracking-tight text-white">Mesas y Pedidos</h2>
+          <p className="text-surface-400">
             Sucursal Central — {mesasOcupadas}/{totalMesas} mesas ocupadas
           </p>
         </div>
@@ -75,7 +86,7 @@ const WaiterDashboard: React.FC = () => {
         {mesas.map((mesa) => (
           <Card
             key={mesa.id}
-            className={`transition-all duration-200 hover:-translate-y-1 hover:shadow-md cursor-pointer border-l-4 ${
+            className={`bg-surface-900/40 backdrop-blur-md border-white/5 text-white transition-all duration-200 hover:-translate-y-1 hover:shadow-md cursor-pointer border-l-4 ${
               mesa.ocupada ? 'border-l-red-500' : 'border-l-green-500'
             }`}
           >
@@ -94,13 +105,13 @@ const WaiterDashboard: React.FC = () => {
             <CardContent>
               {mesa.ocupada && mesa.pedidoActivo ? (
                 <div className="space-y-3">
-                  <div className="text-xs text-surface-500 flex items-center gap-1">
+                  <div className="text-xs text-surface-400 flex items-center gap-1">
                     <Clock className="w-3 h-3" />
                     {tiempoTranscurrido(mesa.pedidoActivo.creadoEn)}
                   </div>
                   <div className="space-y-1">
                     {mesa.pedidoActivo.items.slice(0, 3).map(item => (
-                      <p key={item.id} className="text-xs text-surface-600 truncate">
+                      <p key={item.id} className="text-xs text-surface-400 truncate">
                         {item.cantidad}x {item.nombreSnapshot}
                       </p>
                     ))}
@@ -108,8 +119,8 @@ const WaiterDashboard: React.FC = () => {
                       <p className="text-xs text-surface-400">+{mesa.pedidoActivo.items.length - 3} más...</p>
                     )}
                   </div>
-                  <div className="flex items-center justify-between pt-2 border-t border-surface-100">
-                    <span className="text-sm font-bold text-surface-900">
+                  <div className="flex items-center justify-between pt-2 border-t border-white/5">
+                    <span className="text-sm font-bold text-white">
                       {formatPrecio(mesa.pedidoActivo.total)}
                     </span>
                     <Button variant="default" size="sm" onClick={() => handleCobrar(mesa)}>
@@ -137,9 +148,29 @@ const WaiterDashboard: React.FC = () => {
         onClose={() => setModalOpen(false)}
         mesaId={selectedMesa?.id}
         mesaNombre={selectedMesa?.nombre}
-        onConfirm={(items, notas) => {
-          /** @MOCK — Simula creación del pedido */
-          console.log('[MOCK] Pedido creado:', { mesaId: selectedMesa?.id, items, notas });
+        onConfirm={async (items, notas) => {
+          try {
+            const payload = {
+              usuarioId: user?.id ? Number(user.id) : 1,
+              sucursalId: 1,
+              tipo: 'EN_LOCAL',
+              notas,
+              items: items.map(ci => ({
+                menuItemId: ci.menuItem.id,
+                cantidad: ci.cantidad,
+              })),
+            };
+            await apiPedidos.post('/', payload);
+            setMesas(prev =>
+              prev.map(m =>
+                m.id === selectedMesa?.id
+                  ? { ...m, ocupada: true }
+                  : m
+              )
+            );
+          } catch (error) {
+            console.error('Error creating order:', error);
+          }
         }}
       />
 

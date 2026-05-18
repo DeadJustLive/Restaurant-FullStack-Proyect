@@ -1,0 +1,48 @@
+# SCRUM Y XP DESDE LAS TRINCHERAS | 67
+
+amarga medicina. En el próximo Sprint, el equipo intentará por todos los
+medios tener cosas terminadas. Sentirán algo como “bueno, puede que
+sólo podamos demostrar dos historias el próximo Sprint en vez de cinco,
+pero maldita sea, ¡esta vez VA A FUNCIONAR!”. El equipo sabe que
+tendrán que hacer una demo pase lo que pase, lo que incrementa
+significativamente las posibilidades de que haya algo útil que demostrar.
+He visto como esto ocurría varias veces.
+Lista de comprobación para demos de Sprint
+• 	Asegúrate de presentar claramente el objetivo del Sprint. Si hay personas
+en la demo que no saben nada sobre tu producto, tomate un par de
+minutos para describirlo.
+• 	No 	pierdas 	mucho 	tiempo 	preparando 	la 	demo, 	especialmente 	en
+llamativas presentaciones. Déjate de milongas y concéntrate mostrar
+código funcionando.
+• 	Mantén el paso rápido, es decir, concentra tu preparación en hacer que la
+demo sea rápida en lugar de bonita.
+• 	Mantén la demo a nivel de negocio, deja los detalles técnicos aparte.
+Concéntrate en “qué hemos hecho” en lugar de “cómo lo hemos hecho”.
+• 	En la medida de lo posible, deja que la audiencia pruebe el producto por
+si misma.
+• 	No 	muestres 	un 	montón 	de 	pequeños 	errores 	solucionados 	y
+funcionalidades triviales. Menciónalos, pero no los muestres, 	ya que
+normalmente se tarda mucho y desvía la atención de las historias más
+importantes.
+Tratando con historias “indemostrables”
+Miembro del equipo: “No voy a demostrar esta historia porque no puede
+demostrarse. La historia es ‘mejorar la escalabilidad de forma que el sistema
+pueda aguantar 10.000 usuarios simultáneos’. A ver como leches invito a 10.000
+usuarios simultáneos a la demo.”
+Scrum Master: “¿Has terminado la historia?”
+Miembro del equipo: “Sí, por supuesto”
+Scrum Master: “¿Cómo lo sabes?”
+Miembro 	del 	equipo: 	“Monté 	el 	sistema 	en 	un 	entorno 	de 	pruebas 	de
+rendimiento, arranqué ocho servidores de carga y le di caña al sistema con
+solicitudes simultáneas”.
+Scrum Master: “Pero no tienes ninguna indicación de que el sistema pueda
+aguantar 10.000 usuarios simultáneos”
+Miembro del equipo: “Sí. Las máquinas de pruebas están echas polvo, pero
+aun así pudieron aguantar 50.000 solicitudes simultáneas durante el test”.
+Scrum Master: “¿Cómo lo sabes?”
+Miembro del equipo: (frustrado) “¡Bueno, tengo este informe! ¡Puedes verlo por
+ti mismo, muestra cómo se montó la prueba y cuántas solicitudes se enviaron!”
+Scrum Master: “¡Oh, excelente! Entonces ahí tienes tu ‘demo’. Simplemente
+muestra el informe y coméntaselo a la audiencia. Mejor que nada, ¿no?”
+
+-- 67 of 122 --

@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch133-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 133,
+  "chunkIndex": 1,
+  "title": "Capítulo 89:: Node.js v6 Nuevas",
+  "start": 450,
+  "end": 645,
+  "words": 195,
+  "content": "console.log(this); // refers to service object as arrow function defined in function which is called using instance object. fn(); } } // calling defined functions constructorFn(); arrowFn(); service.constructorFn(); service.arrowFn(); En la función de flecha, este es el ámbito léxico que es el ámbito de la función donde se define la función de flecha. El primer ejemplo es la forma tradicional de la definición de funciones y por lo tanto, esto se refiere a objeto global / ventana. En el segundo ejemplo, esto se usa dentro de la función de flecha, por lo tanto, se refiere al alcance donde se define (que es ventanas u objeto global). En el tercer ejemplo, este es el objeto de servicio, ya que el objeto de servicio se usa para llamar a la función. En el cuarto ejemplo, la función de flecha está definida y se llama desde la función cuyo ámbito es el servicio , por lo tanto, imprime el objeto de servicio . Nota: - el objeto global se imprime en Node.Js y el objeto de Windows en el navegador. Lea Node.js v6 Nuevas características y mejoras en línea: https://riptutorial.com/es/node- js/topic/8593/node-js-v6-nuevas-caracteristicas-y-mejoras https://riptutorial.com/es/home 285 -- 313 of 423 --"
+}

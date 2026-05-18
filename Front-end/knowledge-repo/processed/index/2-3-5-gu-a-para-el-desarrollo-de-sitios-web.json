@@ -1,0 +1,468 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "title": "Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile",
+  "author": "",
+  "pages": 122,
+  "sourceFile": "source-pdfs/2-3-5-gu-a-para-el-desarrollo-de-sitios-web.pdf",
+  "processedAt": "2026-05-17T07:11:13.706Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Capítulo 0: - Introducción",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/01-capítulo-0---introducción.md",
+      "words": 602
+    },
+    {
+      "index": 2,
+      "title": "CAPÍTULO IM: PRESO \tEN SITIO WEB",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/02-capítulo-im-preso-en-sitio-web.md",
+      "words": 315
+    },
+    {
+      "index": 3,
+      "title": "EN ESTE DOCUMENTO:",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/03-en-este-documento.md",
+      "words": 166
+    },
+    {
+      "index": 4,
+      "title": "Capítulo 1:",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/04-capítulo-1.md",
+      "words": 100
+    },
+    {
+      "index": 5,
+      "title": "Capítulo 1: - Normas que rigen a los Sitios Web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/05-capítulo-1---normas-que-rigen-a-los-sitios-web.md",
+      "words": 130
+    },
+    {
+      "index": 6,
+      "title": "Capítulo 1: - Normas que rigen a los Sitios Web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/06-capítulo-1---normas-que-rigen-a-los-sitios-web.md",
+      "words": 761
+    },
+    {
+      "index": 7,
+      "title": "Capítulo 1: - Normas que rigen a los Sitios Web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/07-capítulo-1---normas-que-rigen-a-los-sitios-web.md",
+      "words": 712
+    },
+    {
+      "index": 8,
+      "title": "Capítulo 1: - Normas que rigen a los Sitios Web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/08-capítulo-1---normas-que-rigen-a-los-sitios-web.md",
+      "words": 716
+    },
+    {
+      "index": 9,
+      "title": "Capítulo 1: - Normas que rigen a los Sitios Web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/09-capítulo-1---normas-que-rigen-a-los-sitios-web.md",
+      "words": 723
+    },
+    {
+      "index": 10,
+      "title": "Capítulo 1: - Normas que rigen a los Sitios Web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/10-capítulo-1---normas-que-rigen-a-los-sitios-web.md",
+      "words": 738
+    },
+    {
+      "index": 11,
+      "title": "Capítulo 1: - Normas que rigen a los Sitios Web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/11-capítulo-1---normas-que-rigen-a-los-sitios-web.md",
+      "words": 718
+    },
+    {
+      "index": 12,
+      "title": "Capítulo 1: - Normas que rigen a los Sitios Web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/12-capítulo-1---normas-que-rigen-a-los-sitios-web.md",
+      "words": 348
+    },
+    {
+      "index": 13,
+      "title": "Capítulo 2:",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/13-capítulo-2.md",
+      "words": 294
+    },
+    {
+      "index": 14,
+      "title": "Capítulo 2: - Aplicación de Estándares",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/14-capítulo-2---aplicación-de-estándares.md",
+      "words": 746
+    },
+    {
+      "index": 15,
+      "title": "Capítulo 2: - Aplicación de Estándares",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/15-capítulo-2---aplicación-de-estándares.md",
+      "words": 718
+    },
+    {
+      "index": 16,
+      "title": "Capítulo 2: - Aplicación de Estándares",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/16-capítulo-2---aplicación-de-estándares.md",
+      "words": 735
+    },
+    {
+      "index": 17,
+      "title": "Capítulo 2: - Aplicación de Estándares",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/17-capítulo-2---aplicación-de-estándares.md",
+      "words": 685
+    },
+    {
+      "index": 18,
+      "title": "Capítulo 4: - Cómo se llega al sitio web).",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/18-capítulo-4---cómo-se-llega-al-sitio-web.md",
+      "words": 114
+    },
+    {
+      "index": 19,
+      "title": "Capítulo 2: - Aplicación de Estándares",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/19-capítulo-2---aplicación-de-estándares.md",
+      "words": 118
+    },
+    {
+      "index": 20,
+      "title": "Capítulo III:: Diseño Web y Estándares de la Guía Web Versión 1.011, donde se aborda",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/20-capítulo-iii-diseño-web-y-estándares-de-la-guía-web-versión-1011-donde-se-aborda.md",
+      "words": 515
+    },
+    {
+      "index": 21,
+      "title": "Capítulo 2: - Aplicación de Estándares",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/21-capítulo-2---aplicación-de-estándares.md",
+      "words": 742
+    },
+    {
+      "index": 22,
+      "title": "Capítulo 2: - Aplicación de Estándares",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/22-capítulo-2---aplicación-de-estándares.md",
+      "words": 998
+    },
+    {
+      "index": 23,
+      "title": "Capítulo 2: - Aplicación de Estándares",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/23-capítulo-2---aplicación-de-estándares.md",
+      "words": 423
+    },
+    {
+      "index": 24,
+      "title": "Capítulo 2: - Aplicación de Estándares",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/24-capítulo-2---aplicación-de-estándares.md",
+      "words": 71
+    },
+    {
+      "index": 25,
+      "title": "parte d: el mismo, como un título, un enlace o una imagen. Lo importante, es que",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/25-parte-d-el-mismo-como-un-título-un-enlace-o-una-imagen-lo-importante-es-que.md",
+      "words": 573
+    },
+    {
+      "index": 26,
+      "title": "Capítulo 2: - Aplicación de Estándares",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/26-capítulo-2---aplicación-de-estándares.md",
+      "words": 614
+    },
+    {
+      "index": 27,
+      "title": "Capítulo 2: - Aplicación de Estándares",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/27-capítulo-2---aplicación-de-estándares.md",
+      "words": 580
+    },
+    {
+      "index": 28,
+      "title": "Capítulo 2: - Aplicación de Estándares",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/28-capítulo-2---aplicación-de-estándares.md",
+      "words": 425
+    },
+    {
+      "index": 29,
+      "title": "Capítulo 3:",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/29-capítulo-3.md",
+      "words": 261
+    },
+    {
+      "index": 30,
+      "title": "Capítulo 3: - Diseño de Interfaces e Interacción",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/30-capítulo-3---diseño-de-interfaces-e-interacción.md",
+      "words": 698
+    },
+    {
+      "index": 31,
+      "title": "1. Dejar claro el propósito del sitio: se refiere a que el sitio debe explicar a",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/31-1-dejar-claro-el-propósito-del-sitio-se-refiere-a-que-el-sitio-debe-explicar-a.md",
+      "words": 98
+    },
+    {
+      "index": 32,
+      "title": "2. Ayudar a los usuarios a encontrar lo que necesitan: implica que debe contar",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/32-2-ayudar-a-los-usuarios-a-encontrar-lo-que-necesitan-implica-que-debe-contar.md",
+      "words": 40
+    },
+    {
+      "index": 33,
+      "title": "3. Demostrar el contenido del sitio: significa que el contenido se debe mostrar",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/33-3-demostrar-el-contenido-del-sitio-significa-que-el-contenido-se-debe-mostrar.md",
+      "words": 50
+    },
+    {
+      "index": 34,
+      "title": "4. Usar diseño visual para mejorar y no para definir la interacción del sitio",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/34-4-usar-diseño-visual-para-mejorar-y-no-para-definir-la-interacción-del-sitio.md",
+      "words": 584
+    },
+    {
+      "index": 35,
+      "title": "Capítulo 3: - Diseño de Interfaces e Interacción",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/35-capítulo-3---diseño-de-interfaces-e-interacción.md",
+      "words": 294
+    },
+    {
+      "index": 36,
+      "title": "Capítulo 3: - Diseño de Interfaces e Interacción",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/36-capítulo-3---diseño-de-interfaces-e-interacción.md",
+      "words": 539
+    },
+    {
+      "index": 37,
+      "title": "Capítulo 3: - Diseño de Interfaces e Interacción",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/37-capítulo-3---diseño-de-interfaces-e-interacción.md",
+      "words": 804
+    },
+    {
+      "index": 38,
+      "title": "Capítulo 3: - Diseño de Interfaces e Interacción",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/38-capítulo-3---diseño-de-interfaces-e-interacción.md",
+      "words": 721
+    },
+    {
+      "index": 39,
+      "title": "Capítulo 3: - Diseño de Interfaces e Interacción",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/39-capítulo-3---diseño-de-interfaces-e-interacción.md",
+      "words": 404
+    },
+    {
+      "index": 40,
+      "title": "1. Deben ser diferentes al texto: los enlaces se deben diferenciar del texto que",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/40-1-deben-ser-diferentes-al-texto-los-enlaces-se-deben-diferenciar-del-texto-que.md",
+      "words": 49
+    },
+    {
+      "index": 41,
+      "title": "2. Su estado debe ser visual: los enlaces tienen cuatro estados posibles los que",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/41-2-su-estado-debe-ser-visual-los-enlaces-tienen-cuatro-estados-posibles-los-que.md",
+      "words": 119
+    },
+    {
+      "index": 42,
+      "title": "3. Su contenido debe ser explicativo: los enlaces deben contener palabras que",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/42-3-su-contenido-debe-ser-explicativo-los-enlaces-deben-contener-palabras-que.md",
+      "words": 313
+    },
+    {
+      "index": 43,
+      "title": "Capítulo 3: - Diseño de Interfaces e Interacción",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/43-capítulo-3---diseño-de-interfaces-e-interacción.md",
+      "words": 361
+    },
+    {
+      "index": 44,
+      "title": "1. Utilizar equivalentes de texto para los elementos gráficos que se incluyan",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/44-1-utilizar-equivalentes-de-texto-para-los-elementos-gráficos-que-se-incluyan.md",
+      "words": 52
+    },
+    {
+      "index": 45,
+      "title": "5. Asegurar el contraste de colores: personas con problemas visuales tienen",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/45-5-asegurar-el-contraste-de-colores-personas-con-problemas-visuales-tienen.md",
+      "words": 619
+    },
+    {
+      "index": 46,
+      "title": "Capítulo 3: - Diseño de Interfaces e Interacción",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/46-capítulo-3---diseño-de-interfaces-e-interacción.md",
+      "words": 460
+    },
+    {
+      "index": 47,
+      "title": "Capítulo 3: - Diseño de Interfaces e Interacción",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/47-capítulo-3---diseño-de-interfaces-e-interacción.md",
+      "words": 470
+    },
+    {
+      "index": 48,
+      "title": "Capítulo 4:",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/48-capítulo-4.md",
+      "words": 356
+    },
+    {
+      "index": 49,
+      "title": "Capítulo 4: - Cómo se llega al sitio web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/49-capítulo-4---cómo-se-llega-al-sitio-web.md",
+      "words": 324
+    },
+    {
+      "index": 50,
+      "title": "1. Generación de los contenidos: se refiere a que los contenidos del Sitio Web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/50-1-generación-de-los-contenidos-se-refiere-a-que-los-contenidos-del-sitio-web.md",
+      "words": 106
+    },
+    {
+      "index": 51,
+      "title": "2. Presentación de los contenidos: se refiere a que las páginas del sitio web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/51-2-presentación-de-los-contenidos-se-refiere-a-que-las-páginas-del-sitio-web.md",
+      "words": 40
+    },
+    {
+      "index": 52,
+      "title": "3. Apoyo a los robots de búsqueda: se refiere",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/52-3-apoyo-a-los-robots-de-búsqueda-se-refiere.md",
+      "words": 44
+    },
+    {
+      "index": 53,
+      "title": "4. Monitoreo de sistemas de búsqueda: se refiere que se debe prestar atención",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/53-4-monitoreo-de-sistemas-de-búsqueda-se-refiere-que-se-debe-prestar-atención.md",
+      "words": 144
+    },
+    {
+      "index": 54,
+      "title": "2. El grado en el que un objeto determinado es fácil de descubrir o ubicar.",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/54-2-el-grado-en-el-que-un-objeto-determinado-es-fácil-de-descubrir-o-ubicar.md",
+      "words": 53
+    },
+    {
+      "index": 55,
+      "title": "3. El grado en el que un sistema o ambiente apoya la navegación y recuperación",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/55-3-el-grado-en-el-que-un-sistema-o-ambiente-apoya-la-navegación-y-recuperación.md",
+      "words": 756
+    },
+    {
+      "index": 56,
+      "title": "Capítulo 4: - Cómo se llega al sitio web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/56-capítulo-4---cómo-se-llega-al-sitio-web.md",
+      "words": 630
+    },
+    {
+      "index": 57,
+      "title": "Capítulo 4: - Cómo se llega al sitio web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/57-capítulo-4---cómo-se-llega-al-sitio-web.md",
+      "words": 648
+    },
+    {
+      "index": 58,
+      "title": "Capítulo 4: - Cómo se llega al sitio web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/58-capítulo-4---cómo-se-llega-al-sitio-web.md",
+      "words": 744
+    },
+    {
+      "index": 59,
+      "title": "Capítulo 4: - Cómo se llega al sitio web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/59-capítulo-4---cómo-se-llega-al-sitio-web.md",
+      "words": 759
+    },
+    {
+      "index": 60,
+      "title": "Capítulo 4: - Cómo se llega al sitio web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/60-capítulo-4---cómo-se-llega-al-sitio-web.md",
+      "words": 831
+    },
+    {
+      "index": 61,
+      "title": "Capítulo 4: - Cómo se llega al sitio web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/61-capítulo-4---cómo-se-llega-al-sitio-web.md",
+      "words": 369
+    },
+    {
+      "index": 62,
+      "title": "Capítulo 4: - Cómo se llega al sitio web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/62-capítulo-4---cómo-se-llega-al-sitio-web.md",
+      "words": 798
+    },
+    {
+      "index": 63,
+      "title": "Capítulo 4: - Cómo se llega al sitio web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/63-capítulo-4---cómo-se-llega-al-sitio-web.md",
+      "words": 834
+    },
+    {
+      "index": 64,
+      "title": "Capítulo 4: - Cómo se llega al sitio web",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/64-capítulo-4---cómo-se-llega-al-sitio-web.md",
+      "words": 199
+    },
+    {
+      "index": 65,
+      "title": "A B C D E F",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/65-a-b-c-d-e-f.md",
+      "words": 142
+    },
+    {
+      "index": 66,
+      "title": "Capítulo 5:",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/66-capítulo-5.md",
+      "words": 219
+    },
+    {
+      "index": 67,
+      "title": "Capítulo 5: - De la Usabilidad a la Utilidad",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/67-capítulo-5---de-la-usabilidad-a-la-utilidad.md",
+      "words": 792
+    },
+    {
+      "index": 68,
+      "title": "Capítulo 5: - De la Usabilidad a la Utilidad",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/68-capítulo-5---de-la-usabilidad-a-la-utilidad.md",
+      "words": 723
+    },
+    {
+      "index": 69,
+      "title": "Capítulo 5: - De la Usabilidad a la Utilidad",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/69-capítulo-5---de-la-usabilidad-a-la-utilidad.md",
+      "words": 296
+    },
+    {
+      "index": 70,
+      "title": "tema d: e la usabilidad9",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/70-tema-d-e-la-usabilidad9.md",
+      "words": 223
+    },
+    {
+      "index": 71,
+      "title": "Capítulo 5: - De la Usabilidad a la Utilidad",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/71-capítulo-5---de-la-usabilidad-a-la-utilidad.md",
+      "words": 566
+    },
+    {
+      "index": 72,
+      "title": "Capítulo 5: - De la Usabilidad a la Utilidad",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/72-capítulo-5---de-la-usabilidad-a-la-utilidad.md",
+      "words": 711
+    },
+    {
+      "index": 73,
+      "title": "Capítulo 5: - De la Usabilidad a la Utilidad",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/73-capítulo-5---de-la-usabilidad-a-la-utilidad.md",
+      "words": 712
+    },
+    {
+      "index": 74,
+      "title": "Capítulo 5: - De la Usabilidad a la Utilidad",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/74-capítulo-5---de-la-usabilidad-a-la-utilidad.md",
+      "words": 1138
+    },
+    {
+      "index": 75,
+      "title": "Capítulo 5: - De la Usabilidad a la Utilidad",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/75-capítulo-5---de-la-usabilidad-a-la-utilidad.md",
+      "words": 390
+    },
+    {
+      "index": 76,
+      "title": "Capítulo 5: - De la Usabilidad a la Utilidad",
+      "file": "chapters/2-3-5-gu-a-para-el-desarrollo-de-sitios-web/76-capítulo-5---de-la-usabilidad-a-la-utilidad.md",
+      "words": 1392
+    }
+  ],
+  "learningIntegrated": true
+}

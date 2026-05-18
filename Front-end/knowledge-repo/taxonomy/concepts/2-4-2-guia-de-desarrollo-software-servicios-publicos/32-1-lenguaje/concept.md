@@ -1,0 +1,24 @@
+# 1. Lenguaje
+
+## Fuente
+2.4.2 Guia de Desarrollo Software Servicios Publicos (Cap. 32)
+
+## Contenido
+# 1. Lenguaje
+
+Al escoger el lenguaje de programación,
+se recomienda hacer uso de un
+framework para desarrollar bajo el
+paradigma de 	la programación
+orientada a objetos y utilizar un
+patrón de arquitectura tales como
+Modelo-Vista-Controlador 	(MVC),
+Microservicios u orientada al dominio (
+Hexagonal, Onion o Clean), según las
+necesidades del negocio y los atributos
+de calidad del software.
+Algunos ejemplos de frameworks que
+soportan este paradigma en diversos
+lenguajes son: Laravel, Symfony,
+CodeIgniter, Flask, Django, Beego, Revel,
+Spring Boot, etc.

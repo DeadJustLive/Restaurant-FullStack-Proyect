@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch198-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 198,
+  "chunkIndex": 0,
+  "title": "10.5 Conectando la Lógica de Persistencia con la Aplicación . . . . . . 103",
+  "start": 0,
+  "end": 73,
+  "words": 73,
+  "content": "# 13. Implementado Arrastrar y Soltar Nuestra aplicación de Kanban es casi utilizable. Tiene un buen aspecto y cierta funcionalidad básica. En este capítulo integraremos la funcionalidad de arrastrar y soltar utilizando React DnD1. Al terminar este capítulo deberías ser capaz de arrastrar notas entre carriles. Aunque parezca sencillo implica realizar algo de trabajo por nuestra parte ya que tendremos que anotar los componentes de la forma correcta y crear la lógica necesaria."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch140-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 140,
+  "chunkIndex": 0,
+  "title": "16.3 Procesadores CSS",
+  "start": 0,
+  "end": 288,
+  "words": 288,
+  "content": "# 6.1 Implementación de Editable Vamos a mantener este comportamiento dentro de un componente conocido como Editable con el fin de mantener la aplicación limpia. El componente nos dará un API como el siguiente: <Editable editing={editing} value={task} onEdit={onEdit.bind(null, id)} /> Este es un ejemplo de componente controlado. Controlaremos explícitamente el estado de la edición desde el exterior del componente, lo cual no sólo nos dará más poder sobre él, sino que nos permitirá que Editable sea más sencillo de utilizar. -- 63 of 226 -- Edición de Notas 46 Suele ser buena idea nombrar las llamadas con el prefijo on. Esto nos permitirá distinguirlas de otras propiedades y mantener el código un poco más limpio. Diseño Controlado vs. Diseño no Controlado Una forma alternativa de gestionar esto es dejar el control del estado editing a Editable. Esta forma no controlada de diseño puede ser válida si no quieres que el estado de componente pueda ser modificado desde fuera. Utilizar ambos diseños es posible. Puedes tener un componente controlado que tenga elementos no controlados dentro. En nuestro caso tendremos un diseño no controlado para la caja de texto que Editable contendrá en este ejemplo. Editable estará formado por dos partes bien separadas. Por un lado necesitamos mostrar el valor mientras no estamos editando, pero por otro querremos mostrar un componente de Edición en caso de que estemos editando. Antes de entrar en detalles podemos implementar un pequeño esqueleto y conectarlo con la aplicación, lo que nos dará la estructura básica que necesitaremos para hacer crecer el resto. Para comenzar, haremos una marca en la jerarquía de componentes para hacer que sea más fácil implementar el esqueleto. La documentación oficial de React entra en los componentes controlados1 en más detalle."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch005-002",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 5,
+  "chunkIndex": 2,
+  "title": "5. Un ejemplo completo: ZILFOST 179",
+  "start": 900,
+  "end": 1400,
+  "words": 500,
+  "content": ". . . . . . . . . . . . . . . . . . . . . . . 241 A.1.1. La herramienta . . . . . . . . . . . . . . . . . . . . . . . . . 241 A.1.2. Usuarios de WINDOWS . . . . . . . . . . . . . . . . . . . . 241 A.1.3. Usuarios de GNU/LINUX . . . . . . . . . . . . . . . . . . . . 242 A.2. Primeros pasos en PYGOBSTONES . . . . . . . . . . . . . . . . . . 244 A.2.1. Barra de men ´ues . . . . . . . . . . . . . . . . . . . . . . . . 244 A.2.2. Editor de textos de programa y biblioteca . . . . . . . . . . 245 A.2.3. Ejecutar un programa y ver su resultado . . . . . . . . . . . 245 A.2.4. Visualizar informaci ´on adicional . . . . . . . . . . . . . . . . 247 A.2.5. Chequear un programa . . . . . . . . . . . . . . . . . . . . 247 A.2.6. Opciones de Tablero . . . . . . . . . . . . . . . . . . . . . . 247 A.3. Otras funcionalidades de PYGOBSTONES . . . . . . . . . . . . . . 249 A.3.1. Guardar y cargar tableros . . . . . . . . . . . . . . . . . . . 249 A.3.2. Editor de Tableros . . . . . . . . . . . . . . . . . . . . . . . 250 A.3.3. Vestimentas . . . . . . . . . . . . . . . . . . . . . . . . . . . 250 A.3.4. Interactivo . . . . . . . . . . . . . . . . . . . . . . . . . . . . 252 B. C ´odigo completo del Zilfost 257 B.1. C ´odigo principal . . . . . . . . . . . . . . . . . . . . . . . . . . . . 257 B.2. Operaciones sobre zonas . . . . . . . . . . . . . . . . . . . . . . . 259 B.2.1. Operaciones sobre la zona de juego . . . . . . . . . . . . . 260 B.2.2. Operaciones sobre zonas de n ´umeros"
+}

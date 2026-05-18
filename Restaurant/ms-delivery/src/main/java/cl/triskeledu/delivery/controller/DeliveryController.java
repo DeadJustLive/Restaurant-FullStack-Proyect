@@ -4,8 +4,11 @@ import cl.triskeledu.delivery.dto.request.AsignarRepartidorDTO;
 import cl.triskeledu.delivery.dto.request.DeliveryRequestDTO;
 import cl.triskeledu.delivery.dto.response.DeliveryResponseDTO;
 import cl.triskeledu.delivery.entity.enums.EstadoDelivery;
+import cl.triskeledu.delivery.service.DeliveryService;
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,15 +19,16 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("/api/v1/delivery")
+@RequiredArgsConstructor
 @Slf4j
 public class DeliveryController {
 
-    @org.springframework.beans.factory.annotation.Autowired
-    private cl.triskeledu.delivery.service.DeliveryService deliveryService;
+    private final DeliveryService deliveryService;
 
     @PostMapping
-    public ResponseEntity<DeliveryResponseDTO> crearDelivery(@Valid @RequestBody DeliveryRequestDTO dto) {
-        return ResponseEntity.status(org.springframework.http.HttpStatus.CREATED).body(deliveryService.crearDelivery(dto));
+    public ResponseEntity<DeliveryResponseDTO> crearDelivery(@RequestHeader(value = "X-Credencial-Id", defaultValue = "1") Long credencialId,
+                                                              @Valid @RequestBody DeliveryRequestDTO dto) {
+        return ResponseEntity.status(HttpStatus.CREATED).body(deliveryService.crearDelivery(credencialId, dto));
     }
 
     @GetMapping("/pedido/{pedidoId}")
@@ -43,15 +47,17 @@ public class DeliveryController {
     }
 
     @PatchMapping("/{id}/asignar")
-    public ResponseEntity<DeliveryResponseDTO> asignarRepartidor(@PathVariable Long id, @Valid @RequestBody AsignarRepartidorDTO dto) {
-        return ResponseEntity.ok(deliveryService.asignarRepartidor(id, dto));
+    public ResponseEntity<DeliveryResponseDTO> asignarRepartidor(@RequestHeader(value = "X-Credencial-Id", defaultValue = "1") Long credencialId,
+                                                                  @PathVariable Long id, @Valid @RequestBody AsignarRepartidorDTO dto) {
+        return ResponseEntity.ok(deliveryService.asignarRepartidor(credencialId, id, dto));
     }
 
     @PatchMapping("/{id}/estado")
     public ResponseEntity<DeliveryResponseDTO> actualizarEstado(
-            @PathVariable Long id, 
-            @RequestParam EstadoDelivery estado, 
+            @RequestHeader(value = "X-Credencial-Id", defaultValue = "1") Long credencialId,
+            @PathVariable Long id,
+            @RequestParam EstadoDelivery estado,
             @RequestParam(required = false) String observaciones) {
-        return ResponseEntity.ok(deliveryService.actualizarEstado(id, estado, observaciones));
+        return ResponseEntity.ok(deliveryService.actualizarEstado(credencialId, id, estado, observaciones));
     }
 }

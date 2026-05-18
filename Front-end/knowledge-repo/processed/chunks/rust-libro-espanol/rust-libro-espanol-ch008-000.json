@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch008-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 8,
+  "chunkIndex": 0,
+  "title": "Apéndice G - Cómo se hace Rust y “Rust Nightly”",
+  "start": 0,
+  "end": 40,
+  "words": 40,
+  "content": "# Apéndice G - Cómo se hace Rust y “Rust Nightly” ## Apéndice G - Cómo se hace Rust y “Rust Nightly” ### Estabilidad sin estancamiento ### ¡Choo, Choo! Canales de lanzamiento y montando los trenes ### Tiempo de Mantenimiento"
+}

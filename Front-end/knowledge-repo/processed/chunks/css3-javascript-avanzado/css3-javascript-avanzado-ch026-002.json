@@ -1,0 +1,11 @@
+{
+  "id": "css3-javascript-avanzado-ch026-002",
+  "bookId": "css3-javascript-avanzado",
+  "chapterIndex": 26,
+  "chunkIndex": 2,
+  "title": "7. MooTools",
+  "start": 900,
+  "end": 1176,
+  "words": 276,
+  "content": "un objeto, un nodo con propiedades ab- soultas CSS, con las funciones $('#exemple').position({￿x:￿150,￿y:￿10￿}), y tam- bién podemos consultar la posición actual con el.getPosition(), que devuelve un objeto de {x,y}. Conseguiremos hacer animaciones con el módulo Fx.Tween: var myFx = new Fx.Tween('myElement', { duration: 'long', transition: 'bounce:out', property: 'height' }); -- 56 of 86 -- CC-BY-SA • PID_00176160 57 CSS3 y Javascript avanzado myFx.start('left', 0, 300) Generamos una nueva instancia de animación, le damos los parámetros de duración y el método de interpolación del movimiento, después utilizamos el método start para dirigir la animación desde la coordenada x:0 hasta la cordenada x:300. Pero también existe un acceso directo a la función y que cuelga de la Class Element. Recordemos que la función $() devuelve instancias. $('myElement').tween('width', '100'). addEvent('onComplete', function() { alert('fi'); }); Las animaciones también responden a eventos. En este último ejemplo, cuan- do acabe la animación, ejecutamos una alerta de sistema. Otra funcionalidad importante es la posibilidad de encadenar animaciones con el método chain(): $('myElement').tween('left', '100') .chain(function() { $('myElement').tween('top', '200') }) Primero movemos el objeto hasta la coordenada 100, después lo reposiciona- mos hasta la 200 vertical. 7.5. Componentes (widgets) Del mismo modo que en la biblioteca jQuery, en su núcleo no existen compo- nentes, pero su naturaleza compacta y modular y la posibilidad de exhibirlos en la propia página de la librería ha provocado que haya muchos desarrolla- dores programando componentes para la librería. Personalmente destacaría el árbol de archivos, un sistema de plantillas, un sistema para recortar imágenes y otro para hacer los zoom. Web recomendada Podemos ver ejemplos aquí: http://mootools.net/forge/ -- 57 of 86 -- CC-BY-SA • PID_00176160 58 CSS3 y Javascript avanzado"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch375-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 375,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 39,
+  "words": 39,
+  "content": "# OBSERVACIONES: * se estructura como un recorrido en la zona de selecci´on */ { Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 269 of 312 -- 270 IrAlOrigenDeZonaDeSeleccion() BorrarZonaDeNumeros() } //--------------------------------------------------- //---------------------------------------------------- procedure AgregarDigitoASeleccion(dig) /*"
+}

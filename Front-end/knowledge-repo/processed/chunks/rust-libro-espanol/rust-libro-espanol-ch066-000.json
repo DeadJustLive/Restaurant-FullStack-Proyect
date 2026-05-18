@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch066-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 66,
+  "chunkIndex": 0,
+  "title": "Definiendo e Instanciando Structs",
+  "start": 0,
+  "end": 52,
+  "words": 52,
+  "content": "# Definiendo e Instanciando Structs ## Definiendo e Instanciando Structs ### Usando la abreviatura Field Init ### Creando Instancias de Otras Instancias con Sintaxis de Struct Update ### Usando Structs de Tuplas sin Campos Nombrados para Crear Diferentes Tipos ### Structs de Unidad sin Campos ### Ownership de los datos de Struct"
+}

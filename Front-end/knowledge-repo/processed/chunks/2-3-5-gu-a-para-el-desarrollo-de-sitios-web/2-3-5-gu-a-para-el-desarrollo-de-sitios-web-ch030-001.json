@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch030-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 30,
+  "chunkIndex": 1,
+  "title": "Capítulo 3: - Diseño de Interfaces e Interacción",
+  "start": 450,
+  "end": 707,
+  "words": 257,
+  "content": "tales. Por lo mismo, este capítulo aborda todos estos elementos y se podrán encontrar a continuación las recomendaciones de buenas prácticas para cada uno de estos aspectos, con el fin de que el encargado del sitio web pueda adoptarlas de acuerdo a la realidad de su propia organización. Es importante tener en cuenta que los aspectos relacionados con el desarrollo de un proyecto web propiamente tal no son tratados en este capítulo, ya fueron abordados en la versión 1.0 de la Guía Web a través del Capítulo II: Definición del Sitio Web y Capítulo III: Diseño Web y Estándares4 . > ¿Qué es una interfaz? Cuando se habla de Sitios Web, se denomina interfaz5 al conjunto de elementos de la pantalla que permiten al usuario realizar acciones sobre el sitio web que está visitando. Por lo mismo, se considera parte de la interfaz a sus elementos de identificación, de navegación, de contenidos y de acción. Todos ellos deben estar preparados para ofrecer servicios determinados al usuario, con el fin de que éste obtenga lo que vino a buscar cuando visitó el sitio web. Por lo anterior, cada uno de los elementos que sean integrados dentro de la interfaz debe estar pensado para causar un efecto sobre el usuario y deben ser utilizados con un propósito. En este sentido, es importante considerar que uno de los autores más citados6 en cuanto a la usabilidad de los Sitios Web, destaca que los elementos más importantes de la portada de todo sitio web se pueden resumir en cuatro postulados generales:"
+}

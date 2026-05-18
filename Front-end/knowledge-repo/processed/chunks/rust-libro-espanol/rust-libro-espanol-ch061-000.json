@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch061-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 61,
+  "chunkIndex": 0,
+  "title": "Tipos de datos",
+  "start": 0,
+  "end": 43,
+  "words": 43,
+  "content": "# Tipos de datos ## Tipos de datos ### Tipos Escalares #### Tipos de Enteros #### Tipos de punto flotante #### Operaciones numéricas #### El tipo booleano #### El tipo de carácter ### Tipos compuestos #### El Tipo Tupla #### El Tipo Arreglo"
+}

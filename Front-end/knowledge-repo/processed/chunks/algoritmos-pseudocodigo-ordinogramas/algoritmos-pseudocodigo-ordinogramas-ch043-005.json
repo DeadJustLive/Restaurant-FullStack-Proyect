@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch043-005",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 43,
+  "chunkIndex": 5,
+  "title": "OLIMPIADA + PUNTO",
+  "start": 2250,
+  "end": 2417,
+  "words": 167,
+  "content": "reducir más el código del algoritmo, escribiendo: inicio escribir( \"Introduzca radio: \" ) leer( radio ) escribir( \"El área de la circunferencia es: \", 3.141592 * radio ** 2 ) fin -- 73 of 180 -- Libro de Algoritmos de “Abrirllave.com” 74 / 180 Así que, tampoco es necesario declarar la constante PI, reduciéndose todavía más el código. En resumen, el algoritmo completo es: algoritmo Area_de_una_circunferencia variables real radio inicio escribir( \"Introduzca radio: \" ) leer( radio ) escribir( \"El área de la circunferencia es: \", 3.141592 * radio ** 2 ) fin La sintaxis completa para escribir un algoritmo en pseudocódigo es: algoritmo <nombre_del_algoritmo> [ constantes <declaraciones_de_constantes> ] [ tipos_de_datos <declaraciones_de_tipos_de_datos> ] [ variables <declaraciones_de_variables> ] inicio <bloque_de_instrucciones> fin Han aparecido seis nuevas palabras reservadas: algoritmo, constantes, fin, inicio, tipos_de_datos y variables. Las instrucciones de los algoritmos vistos hasta ahora se ejecutan secuencialmente, una detrás de otra. Además, también el código de la sección de declaraciones se ejecuta en orden. Por ejemplo, dados los siguientes algoritmos:"
+}

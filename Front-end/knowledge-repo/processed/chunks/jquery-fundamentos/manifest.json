@@ -1,0 +1,660 @@
+{
+  "bookId": "jquery-fundamentos",
+  "totalChunks": 93,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.224Z",
+  "chunks": [
+    {
+      "id": "jquery-fundamentos-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "0. Éstos son una forma práctica de almacenar un conjunto de datos relacionados (como cadenas de",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch001-001",
+      "chapterIndex": 1,
+      "chunkIndex": 1,
+      "title": "0. Éstos son una forma práctica de almacenar un conjunto de datos relacionados (como cadenas de",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch001-002",
+      "chapterIndex": 1,
+      "chunkIndex": 2,
+      "title": "0. Éstos son una forma práctica de almacenar un conjunto de datos relacionados (como cadenas de",
+      "words": 153
+    },
+    {
+      "id": "jquery-fundamentos-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "1. Si la función es invocada utilizando Function.call o Function.apply, this tendrá el valor del",
+      "words": 39
+    },
+    {
+      "id": "jquery-fundamentos-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "2. Si la función a invocar es creada utilizando Function.bind, this será el primer argumento que",
+      "words": 30
+    },
+    {
+      "id": "jquery-fundamentos-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "3. Si la función es invocada como un método de un objeto, this referenciará a dicho objeto;",
+      "words": 18
+    },
+    {
+      "id": "jquery-fundamentos-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch005-001",
+      "chapterIndex": 5,
+      "chunkIndex": 1,
+      "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch005-002",
+      "chapterIndex": 5,
+      "chunkIndex": 2,
+      "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch005-003",
+      "chapterIndex": 5,
+      "chunkIndex": 3,
+      "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch005-004",
+      "chapterIndex": 5,
+      "chunkIndex": 4,
+      "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch005-005",
+      "chapterIndex": 5,
+      "chunkIndex": 5,
+      "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch005-006",
+      "chapterIndex": 5,
+      "chunkIndex": 6,
+      "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch005-007",
+      "chapterIndex": 5,
+      "chunkIndex": 7,
+      "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch005-008",
+      "chapterIndex": 5,
+      "chunkIndex": 8,
+      "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch005-009",
+      "chapterIndex": 5,
+      "chunkIndex": 9,
+      "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch005-010",
+      "chapterIndex": 5,
+      "chunkIndex": 10,
+      "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch005-011",
+      "chapterIndex": 5,
+      "chunkIndex": 11,
+      "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+      "words": 190
+    },
+    {
+      "id": "jquery-fundamentos-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "1. Seleccionar todos los elementos div que poseen la clase “module”.",
+      "words": 12
+    },
+    {
+      "id": "jquery-fundamentos-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "2. Especificar tres selecciones que puedan seleccionar el tercer ítem de la lista desordenada #myList.",
+      "words": 23
+    },
+    {
+      "id": "jquery-fundamentos-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "3. Seleccionar el elemento label del elemento input utilizando un selector de atributo.",
+      "words": 14
+    },
+    {
+      "id": "jquery-fundamentos-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "4. Averiguar cuantos elementos en la página están ocultos (ayuda: .length).",
+      "words": 12
+    },
+    {
+      "id": "jquery-fundamentos-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "5. Averiguar cuantas imágenes en la página poseen el atributo alt.",
+      "words": 12
+    },
+    {
+      "id": "jquery-fundamentos-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "6. Seleccionar todas las filas impares del cuerpo de la tabla.",
+      "words": 39
+    },
+    {
+      "id": "jquery-fundamentos-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "1. Seleccionar todas las imágenes en la página; registrar en la consola el atributo alt de cada",
+      "words": 19
+    },
+    {
+      "id": "jquery-fundamentos-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "2. Seleccionar el elemento input, luego dirigirse hacia el formulario y añadirle una clase al mismo.",
+      "words": 17
+    },
+    {
+      "id": "jquery-fundamentos-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "3. Seleccionar el ítem que posee la clase “current” dentro de la lista #myList y remover dicha clase",
+      "words": 33
+    },
+    {
+      "id": "jquery-fundamentos-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "4. Seleccionar el elemento select dentro de #specials; luego dirigirse hacia el botón submit.",
+      "words": 15
+    },
+    {
+      "id": "jquery-fundamentos-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "5. Seleccionar el primer ítem de la lista en el elemento #slideshow; añadirle la clase “current” al",
+      "words": 60
+    },
+    {
+      "id": "jquery-fundamentos-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "1. Añadir 5 nuevos ítems al final de la lista desordenada #myList. Ayuda:",
+      "words": 24
+    },
+    {
+      "id": "jquery-fundamentos-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "2. Remover los ítems impares de la lista.",
+      "words": 9
+    },
+    {
+      "id": "jquery-fundamentos-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "3. Añadir otro elemento h2 y otro párrafo al último div.module.",
+      "words": 12
+    },
+    {
+      "id": "jquery-fundamentos-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "4. Añadir otra opción al elemento select; darle a la opción añadida el valor “Wednesday”.",
+      "words": 16
+    },
+    {
+      "id": "jquery-fundamentos-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "5. Añadir un nuevo div.module a la página después del último; luego añadir una copia de una de",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch021-001",
+      "chapterIndex": 21,
+      "chunkIndex": 1,
+      "title": "5. Añadir un nuevo div.module a la página después del último; luego añadir una copia de una de",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch021-002",
+      "chapterIndex": 21,
+      "chunkIndex": 2,
+      "title": "5. Añadir un nuevo div.module a la página después del último; luego añadir una copia de una de",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch021-003",
+      "chapterIndex": 21,
+      "chunkIndex": 3,
+      "title": "5. Añadir un nuevo div.module a la página después del último; luego añadir una copia de una de",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch021-004",
+      "chapterIndex": 21,
+      "chunkIndex": 4,
+      "title": "5. Añadir un nuevo div.module a la página después del último; luego añadir una copia de una de",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch021-005",
+      "chapterIndex": 21,
+      "chunkIndex": 5,
+      "title": "5. Añadir un nuevo div.module a la página después del último; luego añadir una copia de una de",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch021-006",
+      "chapterIndex": 21,
+      "chunkIndex": 6,
+      "title": "5. Añadir un nuevo div.module a la página después del último; luego añadir una copia de una de",
+      "words": 175
+    },
+    {
+      "id": "jquery-fundamentos-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "1. Establecer el valor del elemento input igual al valor del elemento label.",
+      "words": 14
+    },
+    {
+      "id": "jquery-fundamentos-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "2. Añadir la clase “hint” al elemento input.",
+      "words": 9
+    },
+    {
+      "id": "jquery-fundamentos-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "3. Remover el elemento label.",
+      "words": 6
+    },
+    {
+      "id": "jquery-fundamentos-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "4. Vincular un evento focus en el input para remover el texto de sugerencia y la clase “hint”.",
+      "words": 19
+    },
+    {
+      "id": "jquery-fundamentos-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "5. Vincular un evento blur en el input para restaurar el texto de sugerencia y la clase “hint” en",
+      "words": 90
+    },
+    {
+      "id": "jquery-fundamentos-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "1. Ocultar todos los elementos div.module.",
+      "words": 7
+    },
+    {
+      "id": "jquery-fundamentos-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "2. Crear una lista desordenada antes del primer div.module para utilizar como pestañas.",
+      "words": 14
+    },
+    {
+      "id": "jquery-fundamentos-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "3. Interactuar con cada div utilizando $.fn.each. Por cada uno, utilizar el texto del elemento h2",
+      "words": 27
+    },
+    {
+      "id": "jquery-fundamentos-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "4. Vincular un evento click a cada ítem de la lista de forma que:",
+      "words": 40
+    },
+    {
+      "id": "jquery-fundamentos-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "5. Finalmente, mostrar la primera pestaña.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch031-001",
+      "chapterIndex": 31,
+      "chunkIndex": 1,
+      "title": "5. Finalmente, mostrar la primera pestaña.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch031-002",
+      "chapterIndex": 31,
+      "chunkIndex": 2,
+      "title": "5. Finalmente, mostrar la primera pestaña.",
+      "words": 138
+    },
+    {
+      "id": "jquery-fundamentos-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "1. Mover el elemento #slideshow a la parte superior de la página.",
+      "words": 13
+    },
+    {
+      "id": "jquery-fundamentos-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "2. Escribir un código que permita mostrar los ítems de forma cíclica, mostrando un ítem por unos",
+      "words": 35
+    },
+    {
+      "id": "jquery-fundamentos-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "3. Una vez llegado al último ítem de la lista, comenzar de nuevo con el primero.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch034-001",
+      "chapterIndex": 34,
+      "chunkIndex": 1,
+      "title": "3. Una vez llegado al último ítem de la lista, comenzar de nuevo con el primero.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch034-002",
+      "chapterIndex": 34,
+      "chunkIndex": 2,
+      "title": "3. Una vez llegado al último ítem de la lista, comenzar de nuevo con el primero.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch034-003",
+      "chapterIndex": 34,
+      "chunkIndex": 3,
+      "title": "3. Una vez llegado al último ítem de la lista, comenzar de nuevo con el primero.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch034-004",
+      "chapterIndex": 34,
+      "chunkIndex": 4,
+      "title": "3. Una vez llegado al último ítem de la lista, comenzar de nuevo con el primero.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch034-005",
+      "chapterIndex": 34,
+      "chunkIndex": 5,
+      "title": "3. Una vez llegado al último ítem de la lista, comenzar de nuevo con el primero.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch034-006",
+      "chapterIndex": 34,
+      "chunkIndex": 6,
+      "title": "3. Una vez llegado al último ítem de la lista, comenzar de nuevo con el primero.",
+      "words": 202
+    },
+    {
+      "id": "jquery-fundamentos-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "1. Crear un elementos div después del titulo de cada titulo de artículo de blog y guardar una",
+      "words": 29
+    },
+    {
+      "id": "jquery-fundamentos-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "2. Vincular un evento click al titulo, el cual utilizará el método $.fn.load para cargar en cada",
+      "words": 163
+    },
+    {
+      "id": "jquery-fundamentos-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "1. Añadir un elemento div después del formulario que se encuentra dentro del elemento #specials;",
+      "words": 28
+    },
+    {
+      "id": "jquery-fundamentos-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "2. Vincular el evento change en el elemento select; cuando se realiza un cambio en la selección,",
+      "words": 24
+    },
+    {
+      "id": "jquery-fundamentos-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "3. Cuando la petición devuelve una respuesta, utilizar el valor seleccionado en el select (ayuda:",
+      "words": 26
+    },
+    {
+      "id": "jquery-fundamentos-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "4. Añadir algún HTML con la información obtenida en el div creado anteriormente.",
+      "words": 14
+    },
+    {
+      "id": "jquery-fundamentos-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "5. Finalmente remover el botón submit del formulario.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch041-001",
+      "chapterIndex": 41,
+      "chunkIndex": 1,
+      "title": "5. Finalmente remover el botón submit del formulario.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch041-002",
+      "chapterIndex": 41,
+      "chunkIndex": 2,
+      "title": "5. Finalmente remover el botón submit del formulario.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch041-003",
+      "chapterIndex": 41,
+      "chunkIndex": 3,
+      "title": "5. Finalmente remover el botón submit del formulario.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch041-004",
+      "chapterIndex": 41,
+      "chunkIndex": 4,
+      "title": "5. Finalmente remover el botón submit del formulario.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch041-005",
+      "chapterIndex": 41,
+      "chunkIndex": 5,
+      "title": "5. Finalmente remover el botón submit del formulario.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch041-006",
+      "chapterIndex": 41,
+      "chunkIndex": 6,
+      "title": "5. Finalmente remover el botón submit del formulario.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch041-007",
+      "chapterIndex": 41,
+      "chunkIndex": 7,
+      "title": "5. Finalmente remover el botón submit del formulario.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch041-008",
+      "chapterIndex": 41,
+      "chunkIndex": 8,
+      "title": "5. Finalmente remover el botón submit del formulario.",
+      "words": 144
+    },
+    {
+      "id": "jquery-fundamentos-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "parte i: zquierda.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch042-001",
+      "chapterIndex": 42,
+      "chunkIndex": 1,
+      "title": "parte i: zquierda.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch042-002",
+      "chapterIndex": 42,
+      "chunkIndex": 2,
+      "title": "parte i: zquierda.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch042-003",
+      "chapterIndex": 42,
+      "chunkIndex": 3,
+      "title": "parte i: zquierda.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch042-004",
+      "chapterIndex": 42,
+      "chunkIndex": 4,
+      "title": "parte i: zquierda.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch042-005",
+      "chapterIndex": 42,
+      "chunkIndex": 5,
+      "title": "parte i: zquierda.",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch042-006",
+      "chapterIndex": 42,
+      "chunkIndex": 6,
+      "title": "parte i: zquierda.",
+      "words": 223
+    },
+    {
+      "id": "jquery-fundamentos-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "para sistemas que no son windows",
+      "words": 9
+    },
+    {
+      "id": "jquery-fundamentos-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "para sistemas windows",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch044-001",
+      "chapterIndex": 44,
+      "chunkIndex": 1,
+      "title": "para sistemas windows",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch044-002",
+      "chapterIndex": 44,
+      "chunkIndex": 2,
+      "title": "para sistemas windows",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch044-003",
+      "chapterIndex": 44,
+      "chunkIndex": 3,
+      "title": "para sistemas windows",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch044-004",
+      "chapterIndex": 44,
+      "chunkIndex": 4,
+      "title": "para sistemas windows",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch044-005",
+      "chapterIndex": 44,
+      "chunkIndex": 5,
+      "title": "para sistemas windows",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch044-006",
+      "chapterIndex": 44,
+      "chunkIndex": 6,
+      "title": "para sistemas windows",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch044-007",
+      "chapterIndex": 44,
+      "chunkIndex": 7,
+      "title": "para sistemas windows",
+      "words": 500
+    },
+    {
+      "id": "jquery-fundamentos-ch044-008",
+      "chapterIndex": 44,
+      "chunkIndex": 8,
+      "title": "para sistemas windows",
+      "words": 443
+    }
+  ]
+}

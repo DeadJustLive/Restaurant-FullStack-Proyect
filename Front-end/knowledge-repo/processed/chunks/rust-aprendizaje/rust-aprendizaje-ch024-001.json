@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch024-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 24,
+  "chunkIndex": 1,
+  "title": "Capítulo 5:: Arreglos, vectores y cortes",
+  "start": 450,
+  "end": 618,
+  "words": 168,
+  "content": "is 5'. println!(\"Non existant element of array: {}\", till_five[5]); } Rebanadas Las divisiones son vistas en una lista de objetos y tienen el tipo [T] , que indica una porción de objetos con el tipo T Una porción es un tipo sin tamaño y, por lo tanto, solo se puede usar detrás de un puntero. (La analogía de String World: str , llamada segmento de cadena, también no tiene tamaño.) Las matrices se convierten en cortes y los vectores se pueden eliminar de referencia en los cortes. Por lo tanto, los métodos de división se pueden aplicar a ambos. (String world analogy: str es String , lo que [T] es Vec<T> .) fn main() { let vector = vec![1, 2, 3, 4, 5, 6, 7, 8]; let slice = &vector[3..6]; println!(\"length of slice: {}\", slice.len()); // 3 https://riptutorial.com/es/home 15 -- 29 of 188 -- println!(\"slice: {:?}\", slice); // [4, 5, 6] } Lea Arreglos, vectores y cortes en línea: https://riptutorial.com/es/rust/topic/5004/arreglos-- vectores-y-cortes https://riptutorial.com/es/home 16 -- 30 of 188 --"
+}

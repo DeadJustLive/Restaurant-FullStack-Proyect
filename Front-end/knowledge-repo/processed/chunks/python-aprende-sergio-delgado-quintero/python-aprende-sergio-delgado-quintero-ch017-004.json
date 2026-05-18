@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch017-004",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 17,
+  "chunkIndex": 4,
+  "title": "3.2 Números",
+  "start": 1800,
+  "end": 1959,
+  "words": 159,
+  "content": "caso del 0 al 9. Pero también es posible representar números en otras bases. Python nos ofrece una serie de prefijos y funciones para este cometido. Base binaria Cuenta con 2 símbolos para representar los valores: 0 y 1. Prefijo: 0b >>> 0b1001 9 >>> 0b1100 12 Función: bin() >>> bin(9) 0b1001 >>> bin(12) 0b1100 Base octal Cuenta con 8 símbolos para representar los valores: 0, 1, 2, 3, 4, 5, 6 y 7. Prefijo: 0o >>> 0o6243 3235 >>> 0o1257 687 Función: oct() >>> oct(3235) 0o6243 >>> oct(687) 0o1257 70 Capítulo 3. Tipos de datos -- 74 of 516 -- Aprende Python Base hexadecimal Cuenta con 16 símbolos para representar los valores: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E y F. Prefijo: 0x >>> 0x7F2A 32554 >>> 0x48FF 18687 Función: hex() >>> hex(32554) 0x7f2a >>> hex(18687) 0x48ff Nota: Las letras para la representación hexadecimal no atienden a mayúsculas y minúsculas."
+}

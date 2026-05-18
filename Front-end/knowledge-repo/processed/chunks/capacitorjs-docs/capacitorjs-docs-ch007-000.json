@@ -1,0 +1,11 @@
+{
+  "id": "capacitorjs-docs-ch007-000",
+  "bookId": "capacitorjs-docs",
+  "chapterIndex": 7,
+  "chunkIndex": 0,
+  "title": "API​",
+  "start": 0,
+  "end": 30,
+  "words": 30,
+  "content": "# API​ ## API​ ### impact(...)​ ### notification(...)​ ### vibrate(...)​ ### selectionStart()​ ### selectionChanged()​ ### selectionEnd()​ ### Interfaces​ #### ImpactOptions​ #### NotificationOptions​ #### VibrateOptions​ ### Enums​ #### ImpactStyle​ #### NotificationType​"
+}

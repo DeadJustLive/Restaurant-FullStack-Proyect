@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch139-003",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 139,
+  "chunkIndex": 3,
+  "title": "PRECONDICIONES:",
+  "start": 1350,
+  "end": 1637,
+  "words": 287,
+  "content": "forma es < variable > := < expresion > siendo < variable > un identificador con min ´usculas, y < expresion > una expresi ´on cual- quiera que describe (o denota) al valor que se quiere asociar (asignar) al nombre de la variable. El efecto de la acci ´on descrita por un comando de asignaci ´on es la de “recordar” que el nombre de la variable se usar ´a para denotar al valor descrito por la expresi ´on. Debe destacarse que la expresi ´on puede ser cualquiera de las vistas, de cualquier complejidad. Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 157 of 312 -- 158 Leer con Atenci ´on Una cuesti ´on importante sobre la forma de hablar de variables es que usaremos como sin ´onimos “el valor descrito por la variable” y “el valor de la variable”, y tambi ´en “la variable describe a un valor” y “la variable toma un valor”. Si bien las segundas formas en cada caso no son totalmente correctas desde el punto de vista del castellano, son terminolog´ıas ampliamente difundidas y utilizadas. Es importante no tomar literalmente estas formas descuidadas de hablar de varia- bles, pues pueden conducir a confusiones. Para efectivizar la acci ´on descrita por un comando de asignaci ´on, el cabezal primero cal- cula el valor de la expresi ´on, y luego establece la correspondencia entre la variable y ese valor. Es importante volver a remarcar que el valor que la variable nombra ser ´a el mismo aun si el valor de la expresi ´on cambia a posteriori de la asignaci ´on (a menos que se reali- ce una nueva asignaci ´on). Para observar este fen ´omeno, puede estudiarse el siguiente ejemplo: procedure CopiarVerdesAlNorte()"
+}

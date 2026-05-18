@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch116-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 116,
+  "chunkIndex": 0,
+  "title": "INGENIERIA DE SISTEMAS",
+  "start": 0,
+  "end": 252,
+  "words": 252,
+  "content": "# INGENIERIA DE SISTEMAS El algoritmo para hacer un recorrido BFS sobre grafos en forma general es: void BFS(entero v) //recibe como parámetro el vértice donde inicia visitado[v]=1 // marca el vértice como visitado cola.encolar(v) // encola el vértice en los visitados while ( cola.esvacia<>vacia) do // ciclo para preguntar por visitados v=cola.desencolar() // desencola el vértice v imprima(v) // imprime el vértice en el recorrido para todo vértice w adyacente a v haga // ciclo para recorrer vértices adyacentes a v if(visitado(w)==0) then // pregunta si w fue visitado o no visitado(w)=1 // marca como visitado a w cola.encolar(w) // lleva el vértice a la cola fis(si) fin(para) fin(while) fin(BFS) La determinación de los vértices w adyacentes a un vértice v dependerá de la forma como se tenga representado el grafo. A continuación se muestra un recorrido BFS con el grafo representado como matriz de adyacencia: void BFS(entero v) //recibe como parámetro el vértice donde inicia visitado[v]=1 // marca el vértice como visitado cola.encolar(v) // encola el vértice en los visitados while ( cola.esvacia<>vacia) do // ciclo para preguntar por visitados v=cola.desencolar() // desencola el vértice v imprima(v) // imprime el vértice en el recorrido para (w=1;w<=n;w++) haga // ciclo para recorrer adyacentes if(adya(v)(w)==1) then // pregunta por vector de adyacentes if(visitado(w)=0) then // pregunta si w fue visitado o no visitado(w)=1 // marca w como visitado cola.encolar(w) // encola el visitado fin(si) fis(si) fin(para) fin(while) fin(BFS) Revisar implementación de grafos en Java Caminos mínimos: -- 38 of 64 -- 39"
+}

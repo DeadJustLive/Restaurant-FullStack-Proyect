@@ -4,12 +4,13 @@ interface IUser {
   id: string;
   username: string;
   roles: string[];
+  enabledModules?: string[];
 }
 
 interface AuthContextType {
   user: IUser | null;
   isAuthenticated: boolean;
-  login: (token: string, userData: IUser) => void;
+  login: (token: string, userData: IUser, credencialId?: string) => void;
   logout: () => void;
   hasRole: (role: string) => boolean;
 }
@@ -26,9 +27,12 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
   }, []);
 
-  const login = (token: string, userData: IUser) => {
+  const login = (token: string, userData: IUser, credencialId?: string) => {
     localStorage.setItem('token', token);
     localStorage.setItem('user', JSON.stringify(userData));
+    if (credencialId) {
+      localStorage.setItem('credencialId', credencialId);
+    }
     setUser(userData);
   };
 

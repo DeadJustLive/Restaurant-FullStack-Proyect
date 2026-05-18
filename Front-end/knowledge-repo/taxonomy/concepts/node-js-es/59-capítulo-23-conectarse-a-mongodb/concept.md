@@ -1,0 +1,43 @@
+# Capítulo 23:: Conectarse a Mongodb
+
+## Fuente
+Capítulo 1: Empezando con Node.js 2 (Cap. 59)
+
+## Contenido
+# Capítulo 23:: Conectarse a Mongodb
+
+Introducción
+MongoDB es un programa de base de datos orientado a documentos y multiplataforma gratuito y
+de código abierto. Clasificado como un programa de base de datos NoSQL, MongoDB usa
+documentos similares a JSON con esquemas.
+Para más detalles, vaya a https://www.mongodb.com/
+Sintaxis
+MongoClient.connect ('mongodb: //127.0.0.1: 27017 / crud', function (err, db) {// do
+womething here});
+•
+Examples
+Ejemplo simple para conectar mongoDB desde Node.JS
+MongoClient.connect('mongodb://localhost:27017/myNewDB',function (err,db) {
+if(err)
+console.log("Unable to connect DB. Error: " + err)
+else
+console.log('Connected to DB');
+db.close();
+});
+myNewDB es el nombre de la base de datos, si no existe en la base de datos, se creará
+automáticamente con esta llamada.
+Una forma sencilla de conectar mongoDB con núcleo Node.JS
+var MongoClient = require('mongodb').MongoClient;
+//connection with mongoDB
+MongoClient.connect("mongodb://localhost:27017/MyDb", function (err, db) {
+//check the connection
+if(err){
+console.log("connection failed.");
+}else{
+console.log("successfully connected to mongoDB.");
+});
+Lea Conectarse a Mongodb en línea: https://riptutorial.com/es/node-js/topic/6280/conectarse-a-
+mongodb
+https://riptutorial.com/es/home 102
+
+-- 130 of 423 --

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch511-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 511,
+  "chunkIndex": 0,
+  "title": "3. SacarN que quite cant bolitas de color color de la celda actual, suponiendo",
+  "start": 0,
+  "end": 46,
+  "words": 46,
+  "content": "# OBSERVACIONES: * se estructura como un recorrido sobre las celdas de la fila actual */ { IrAlBordeDeZonaDeJuego(Oeste) while (puedeMoverEnZonaDeJuego(Este)) { if (esPiso()) { QuitarPiso() } Mover(Este) } if (esPiso()) { QuitarPiso() } } //----------------------------------------------------- procedure QuitarPiso() /* PROP´OSITO: quita el piso de la celda actual"
+}

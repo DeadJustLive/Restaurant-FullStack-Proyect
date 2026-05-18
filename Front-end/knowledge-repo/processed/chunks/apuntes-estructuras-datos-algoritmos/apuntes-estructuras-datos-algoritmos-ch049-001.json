@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch049-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 49,
+  "chunkIndex": 1,
+  "title": "3. \tDesandar \tel \tcamino \tde \tbúsqueda, \tverificando \tel \tequilibrio \tde \tlos \tnodos \tdel \tcamino, \ty",
+  "start": 450,
+  "end": 655,
+  "words": 205,
+  "content": "una moneda} -- 45 of 267 -- 38 operaciones c1: -> moneda {devuelve una moneda de 1 céntimo} c10: -> moneda {devuelve una moneda de 10 céntimos} c50: -> moneda {devuelve una moneda de 50 céntimos} e1: -> moneda {devuelve una moneda de 1 euro} precio: moneda m -> natural {devuelve el valor de la moneda m en céntimos} fespec Para, a continuación, especificar las colecciones de monedas con las operaciones que se ha decidido definir: espec monederos usa monedas, naturales género monedero {Los valores del TAD monedero representan valores posibles de un multiconjunto (saco) de monedas} operaciones vacio: -> monedero {devuelve un monedero vacío, sin monedas} meter: monedero s, moneda m -> monedero {devuelve el monedero resultante de añadir la moneda m a s} sacar: monedero s, moneda m -> monedero {devuelve el monedero resultante de extraer la moneda m de s; si no hay ninguna moneda m en s, devuelve un monedero igual a s} cuántas: monedero s, moneda m -> natural {devuelve el nº de monedas de valor m en s} valor: monedero s -> natural {devuelve la suma de los valores de todas las monedas de s} fespec El pseudocódigo resultante (una posible implementación de los TAD moneda y monedero) sería:"
+}

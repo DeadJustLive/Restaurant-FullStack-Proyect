@@ -1,0 +1,72 @@
+{
+  "id": "2-3-7-tips-on-designing-for-web-accessibility",
+  "title": "4/2/2018 Tips on Designing for Web Accessibility • Tips for Getting Started • WAI",
+  "author": "",
+  "pages": 13,
+  "sourceFile": "source-pdfs/2-3-7-tips-on-designing-for-web-accessibility.pdf",
+  "processedAt": "2026-05-17T07:11:14.911Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "WCAG",
+      "file": "chapters/2-3-7-tips-on-designing-for-web-accessibility/01-wcag.md",
+      "words": 270
+    },
+    {
+      "index": 2,
+      "title": "WCAG",
+      "file": "chapters/2-3-7-tips-on-designing-for-web-accessibility/02-wcag.md",
+      "words": 180
+    },
+    {
+      "index": 3,
+      "title": "WCAG",
+      "file": "chapters/2-3-7-tips-on-designing-for-web-accessibility/03-wcag.md",
+      "words": 88
+    },
+    {
+      "index": 4,
+      "title": "WCAG",
+      "file": "chapters/2-3-7-tips-on-designing-for-web-accessibility/04-wcag.md",
+      "words": 118
+    },
+    {
+      "index": 5,
+      "title": "WCAG",
+      "file": "chapters/2-3-7-tips-on-designing-for-web-accessibility/05-wcag.md",
+      "words": 139
+    },
+    {
+      "index": 6,
+      "title": "2. \tA Comment is required",
+      "file": "chapters/2-3-7-tips-on-designing-for-web-accessibility/06-2-a-comment-is-required.md",
+      "words": 45
+    },
+    {
+      "index": 7,
+      "title": "WCAG",
+      "file": "chapters/2-3-7-tips-on-designing-for-web-accessibility/07-wcag.md",
+      "words": 116
+    },
+    {
+      "index": 8,
+      "title": "WCAG",
+      "file": "chapters/2-3-7-tips-on-designing-for-web-accessibility/08-wcag.md",
+      "words": 296
+    },
+    {
+      "index": 9,
+      "title": "WCAG",
+      "file": "chapters/2-3-7-tips-on-designing-for-web-accessibility/09-wcag.md",
+      "words": 83
+    },
+    {
+      "index": 10,
+      "title": "WCAG",
+      "file": "chapters/2-3-7-tips-on-designing-for-web-accessibility/10-wcag.md",
+      "words": 172
+    }
+  ],
+  "learningIntegrated": true
+}

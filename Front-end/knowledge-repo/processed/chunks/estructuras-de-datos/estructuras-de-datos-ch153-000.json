@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch153-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 153,
+  "chunkIndex": 0,
+  "title": "ESTRUCTURAS DE DATOS",
+  "start": 0,
+  "end": 98,
+  "words": 98,
+  "content": "# INGENIERIA DE SISTEMAS end (for) for(i=1;;i<=p;i++) do ti=retornatripleta(i) s[ti.retornacolumna()]=s[ti.retornacolumna()]+1 end (for) t[1]=1 for(i=2;i<=n;i++) t[i]=t[i-1]+s[i-1] end(for) for(i=1;;i<=p;i++) do ti=retornatripleta(i) j=ti.retornacolumna() tx= new tripleta(j, ti.retornafila(), ti.retornavalor()) b.asignatripleta(tx,t(j)) t[j]=t[j] +1 end (for) return b fin(transpuestar) El algoritmo anterior usa dos vectores para realizar dentro del método menos repeticiones en las instrucciones de los ciclos, lo cual mejora el rendimiento del algoritmo. Si aplicamos análisis de algoritmos a esta última propuesta el orden de magnitud es O(m+n) y en el peor de los casos seria: =O(m*n), que en la mayoría de los casos mejora la eficiencia de un algoritmo con cuadriculas."
+}

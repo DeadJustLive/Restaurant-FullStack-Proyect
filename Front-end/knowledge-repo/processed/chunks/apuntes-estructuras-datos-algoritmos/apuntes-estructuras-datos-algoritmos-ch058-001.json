@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch058-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 58,
+  "chunkIndex": 1,
+  "title": "4. Ideas sobre implementación estática",
+  "start": 450,
+  "end": 567,
+  "words": 117,
+  "content": "sal error:booleano) {Si no ¿existeSiguente?(c) entonces devuelve el valor verdad en el parámetro error; En caso contrario: 1. devuelve falso en el parámetro error; 2. devuelve el valor del elemento señalado por el cursor en el parámetro e; 3. avanza el cursor para señalar a otro elemento del contenedor que todavía no se haya visitado} Un uso típico para el que el iterador está diseñado es el siguiente (recorrido de los datos del contenedor): iniciarIterador(c); mientrasQue existeSiguiente(c) hacer siguiente(c,e,error); <utilizar el valor de e para algo> fmq Nunca se debe modificar el contenedor de datos (con las operaciones de añadir, borrar o modificar de que disponga) mientras se recorren sus elementos con las operaciones de un iterador."
+}

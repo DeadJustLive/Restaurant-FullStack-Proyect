@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch194-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 194,
+  "chunkIndex": 1,
+  "title": "4. Ventajas de la programación con TAD",
+  "start": 450,
+  "end": 685,
+  "words": 235,
+  "content": "vértices u y v son equivalentes si y sólo si existe un camino de u a v y otro de v a u. Sea Ai, 1 ≤ i ≤ r, el conjunto de las aristas con origen y destino en Vi. Los grafos Gi = (Vi,Ai) se llaman componentes fuertemente conexas de G. Un grafo dirigido con una sola componente fuertemente conexa se dice grafo fuertemente conexo. Un árbol libre es un grafo no dirigido, conexo y acíclico. Si en un árbol libre se destaca un vértice, denominado raíz, el grafo se denomina árbol (ver la lección 11). Un árbol de recubrimiento de un grafo no dirigido (o árbol abarcador o árbol de expansión, según distintas traducciones del término inglés spanning tree) es un árbol libre que es subgrafo del grafo original y que incluye todos sus vértices. En un grafo no dirigido y con pesos, el cálculo del árbol de recubrimiento de peso mínimo (o árbol de expansión mínimo, que es el árbol de recubrimiento cuya suma de pesos es mínima) es un problema de especial interés. Si, por ejemplo, -- 207 of 267 -- 194 los vértices representan ciudades; las aristas, las posibles líneas de comunicación entre ellas; y el peso de una arista, el coste de seleccionar esa línea de comunicación, un árbol de recubrimiento de peso mínimo representa una red de comunicaciones entre todas las ciudades que minimiza el coste total."
+}

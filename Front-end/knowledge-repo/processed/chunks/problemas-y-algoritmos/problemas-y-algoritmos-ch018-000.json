@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch018-000",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 18,
+  "chunkIndex": 0,
+  "title": "1. Para n ≥ 1 cualquier tablero de ajedrez de 2n × 2n, con un cuadro",
+  "start": 0,
+  "end": 31,
+  "words": 31,
+  "content": "# 1. Para n ≥ 1 cualquier tablero de ajedrez de 2n × 2n, con un cuadro faltante, puede ser cubierto con triminos, sin importar en dónde esté el cuadro faltante."
+}

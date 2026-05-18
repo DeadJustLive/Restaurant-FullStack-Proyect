@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch212-001",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 212,
+  "chunkIndex": 1,
+  "title": "PRECONDICIONES:",
+  "start": 450,
+  "end": 524,
+  "words": 74,
+  "content": "est ´a directamente relacionada con las piezas, sino que concierne exclusivamente a la rotaci ´on. Dado que las rotaciones se representan con n ´umeros de 1 a 4, cuando queremos rotar una pieza debemos calcular el c ´odigo de la nueva rotaci ´on. Lo que hace la funci ´on rotar es justamente este c ´alculo. function rotar(rotacionBase,sentidoHorario) /* PROP´OSITO: calcular la rotacion siguiente en sentido horario o antihorario, seg´un lo indique el booleano sentidoHorario"
+}

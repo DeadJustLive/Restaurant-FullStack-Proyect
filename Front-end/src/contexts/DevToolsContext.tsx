@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useCallback, useRef } from 'react';
+import React, { createContext, useContext, useState, useCallback } from 'react';
 
 // ─── Tipos ───────────────────────────────────────────────────────
 
@@ -49,11 +49,15 @@ const DevToolsContext = createContext<DevToolsContextType | undefined>(undefined
 
 const SERVICES_CONFIG: Omit<ServiceHealth, 'status'>[] = [
   { name: 'ms-auth',           baseUrl: import.meta.env.VITE_API_AUTH_URL || 'http://localhost:9001' },
+  { name: 'ms-sucursales',     baseUrl: import.meta.env.VITE_API_SUCURSALES_URL || 'http://localhost:9003' },
   { name: 'ms-menu',           baseUrl: import.meta.env.VITE_API_MENU_URL || 'http://localhost:9004' },
+  { name: 'ms-carrito',        baseUrl: import.meta.env.VITE_API_CARRITO_URL || 'http://localhost:9006' },
   { name: 'ms-pedidos',        baseUrl: import.meta.env.VITE_API_PEDIDOS_URL || 'http://localhost:9007' },
   { name: 'ms-pagos',          baseUrl: import.meta.env.VITE_API_PAGOS_URL || 'http://localhost:9008' },
   { name: 'ms-delivery',       baseUrl: import.meta.env.VITE_API_DELIVERY_URL || 'http://localhost:9009' },
   { name: 'ms-inventario',     baseUrl: import.meta.env.VITE_API_INVENTARIO_URL || 'http://localhost:9010' },
+  { name: 'ms-notificaciones',  baseUrl: import.meta.env.VITE_API_NOTIFICACIONES_URL || 'http://localhost:9011' },
+  { name: 'ms-reportes',        baseUrl: import.meta.env.VITE_API_REPORTES_URL || 'http://localhost:9012' },
 ];
 
 // ─── Provider ────────────────────────────────────────────────────
@@ -61,7 +65,7 @@ const SERVICES_CONFIG: Omit<ServiceHealth, 'status'>[] = [
 export const DevToolsProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [mockMode, setMockModeState] = useState<boolean>(() => {
     const saved = localStorage.getItem('devtools_mockMode');
-    return saved !== null ? JSON.parse(saved) : true; // Mock activado por defecto
+    return saved !== null ? JSON.parse(saved) : false;
   });
 
   const [panelVisible, setPanelVisible] = useState(false);
@@ -70,7 +74,7 @@ export const DevToolsProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     SERVICES_CONFIG.map(s => ({ ...s, status: 'offline' as const }))
   );
 
-  const logCounter = useRef(0);
+
 
 
 
@@ -99,7 +103,14 @@ export const DevToolsProvider: React.FC<{ children: React.ReactNode }> = ({ chil
             resolve({ ...service, status: 'offline' as const, lastCheck: new Date() });
           }, 3000);
 
-          xhr.open('GET', `${service.baseUrl}/actuator/health`, true);
+          // Extraer protocolo y host para garantizar consulta en la raíz del puerto del microservicio
+          const getRootUrl = (urlStr: string): string => {
+            const match = urlStr.match(/^(https?:\/\/[^\/]+)/);
+            return match ? match[1] : urlStr;
+          };
+          const rootUrl = getRootUrl(service.baseUrl);
+
+          xhr.open('GET', `${rootUrl}/actuator/health`, true);
           xhr.onload = () => {
             clearTimeout(timer);
             // 200 = healthy, 503 = unhealthy but reachable, any response = service exists

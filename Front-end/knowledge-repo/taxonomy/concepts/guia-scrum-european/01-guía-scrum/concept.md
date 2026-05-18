@@ -1,0 +1,17 @@
+# GUÍA SCRUM
+
+## Fuente
+guia-scrum-european (Cap. 1)
+
+## Contenido
+# GUÍA SCRUM
+
+2024
+v.1.0
+
+-- 1 of 21 --
+
+www.europeanscrum.org
+- 1 -
+1 	Table of Contents
+2 	INTRODUCCIÓN ................................................................................................................................ - 2 -

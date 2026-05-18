@@ -105,7 +105,7 @@ INSERT INTO carritos (usuario_id, sucursal_id, total)
 VALUES (6, 1, 15000.00); 
 
 -- Agregamos los ítems vinculados de forma íntegra a las proyecciones:
-INSERT INTO carrito_items (carrito_id, menu_item_id, precio_unitario, quantity_or_cantidad, cantidad, subtotal)
+INSERT INTO carrito_items (carrito_id, menu_item_id, precio_unitario, cantidad, subtotal)
 VALUES 
 -- Valentina pidió 1 Pizza Italiana Familiar (ID 3 de la proyección)
 (1, 3, 10000.00, 1, 10000.00),

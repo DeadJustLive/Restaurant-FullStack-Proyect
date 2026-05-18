@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch038-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 38,
+  "chunkIndex": 1,
+  "title": "Capítulo 3: - Diseño de Interfaces e Interacción",
+  "start": 450,
+  "end": 730,
+  "words": 280,
+  "content": "último tiempo gracias a la introducción de tecnologías de seguimiento de las acciones del usua- rio en un sitio web, tales como las de “eyetracking” mencionada antes que han per- mitido entender de manera real y concreta la manera en que los usuarios emple- an los espacios digitales. En este sentido, se ha observado que los usuarios necesitan confirmaciones visuales de las percepciones que tienen de los contenidos que revisan. Por ejemplo, la utilización de un lenguaje claro genera una tasa de respuesta más alta que cuando el lenguaje utiliza palabras que no son tan conocidas para el usuario. Lo mismo ocurre cuando los elementos interactivos como enlaces, botones y zonas de ingreso de información no se presentan con las formas a las que el usuario está acostumbrado. Debido a lo anterior, a continuación se entregarán recomendaciones acerca de tres elementos que son claves en la experiencia que tiene el usuario y que se utilizan con gran frecuencia: nos referimos a los enlaces, botones y formularios. Uso de botones Los botones son los elementos que permiten que el usuario realice o confirme acciones solicitadas en las pantallas del sitio web. Por lo mismo, su forma debe ser estándar, similar en todo el sitio y no ofrecer dudas acerca de su presencia o de la acción a la que invita. Para ello es necesario que se cuide tanto su aspecto físico como la palabra que contiene, ya que ambos permitirán que el usuario entienda, sin lugar a dudas, qué ocurrirá si lo presiona. Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile Figura 10. El buscador siempre debe tener una forma estándar. -- 64 of 122 --"
+}

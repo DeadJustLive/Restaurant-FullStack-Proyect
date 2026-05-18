@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch301-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 301,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 7,
+  "words": 7,
+  "content": "# K_I, K_ARROW_UP -> { OperacionColocarNuevaPieza() }"
+}

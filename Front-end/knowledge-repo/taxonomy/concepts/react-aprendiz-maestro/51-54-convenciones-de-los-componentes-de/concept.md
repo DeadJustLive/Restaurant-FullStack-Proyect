@@ -1,0 +1,29 @@
+# 5.4 Convenciones de los Componentes de
+
+## Fuente
+react-aprendiz-maestro (Cap. 51)
+
+## Contenido
+# 5.4 Convenciones de los Componentes de
+
+React
+Prefiero tener el contructor primero, seguido de los métodos del ciclo de vida,
+render() y, finalmente, los métodos usados por render(). Esta aproximación de
+arriba a abajo me hace más sencillo leer el código. Hay una convención opuesta
+que deja render como último método. Las convenciones con respecto a los nombres
+también varían. Tendrás que encontrar aquellas convenciones que te hagan sentir
+más cómodo.
+
+-- 61 of 226 --
+
+Comprendiendo los Componentes de React 44
+Puedes obligarte a utilizar una convención utilizando un linter (un analizador de
+código) como ESLint6. El uso de linters decrementa la cantidad fricción que puede
+aparecer al trabajar sobre el código de otros. Incluso en proyectos personales, el uso
+de herramientas que te permitan verificar la sintaxis y los estándares son muy útiles.
+No sólo reduce la cantidad y la gravedad de los errores sino que además te permite
+encontrarlos cuanto antes.
+Si configuras un sistema de integración contínua podrás realizar pruebas contra
+muchas plataformas y detectar errores de regresión pronto. Esto es especialmente
+importante si estás utilizando rangos de versiones no muy definidos, ya que a veces
+la gestioń de dependencias pueden acarrear problemas y es bueno detectarlos.

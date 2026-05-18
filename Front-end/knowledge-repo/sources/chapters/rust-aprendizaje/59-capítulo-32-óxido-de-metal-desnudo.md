@@ -1,0 +1,35 @@
+# Capítulo 32:: Óxido de metal desnudo
+
+Introducción
+La biblioteca estándar de Rust ( std ) se compila contra solo un puñado de arquitecturas. Por lo
+tanto, para compilar en otras arquitecturas (que soporta LLVM), los programas Rust podrían optar
+por no usar todo el std , y en su lugar usar solo el subconjunto portátil, conocido como The Core
+Library ( core ).
+Examples
+#! [no_std] Hola, Mundo!
+#![feature(start, libc, lang_items)]
+#![no_std]
+#![no_main]
+// The libc crate allows importing functions from C.
+extern crate libc;
+// A list of C functions that are being imported
+extern {
+pub fn printf(format: *const u8, ...) -> i32;
+}
+#[no_mangle]
+// The main function, with its input arguments ignored, and an exit status is returned
+pub extern fn main(_nargs: i32, _args: *const *const u8) -> i32 {
+// Print "Hello, World" to stdout using printf
+unsafe {
+printf(b"Hello, World!\n" as *const u8);
+}
+// Exit with a return status of 0.
+0
+}
+#[lang = "eh_personality"] extern fn eh_personality() {}
+#[lang = "panic_fmt"] extern fn panic_fmt() -> ! { panic!() }
+Lea Óxido de metal desnudo en línea: https://riptutorial.com/es/rust/topic/8344/oxido-de-metal-
+desnudo
+https://riptutorial.com/es/home 106
+
+-- 120 of 188 --

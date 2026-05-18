@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch321-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 321,
+  "chunkIndex": 0,
+  "title": "/*=SECCI´ON 3=======================================*",
+  "start": 0,
+  "end": 58,
+  "words": 58,
+  "content": "# PRECONDICIONES: * default <hay un tablero de Zilfost codificado> */ { IrAlOrigenDeZonaDeJuego() // Contar la distancia hasta el otro borde de la zona anchoActual := 0 while (not nroBolitas(Azul)==5) { anchoActual := anchoActual + 1 Mover(Este) } return (anchoActual) } //----------------------------------------------------- function altoDeZonaDeJuego() /* PROP´OSITO: retorna la cantidad de celdas de alto de la zona de juego"
+}

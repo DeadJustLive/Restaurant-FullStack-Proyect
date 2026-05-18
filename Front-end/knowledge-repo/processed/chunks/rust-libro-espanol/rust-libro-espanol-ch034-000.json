@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch034-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 34,
+  "chunkIndex": 0,
+  "title": "Profundizando en los rasgos para async",
+  "start": 0,
+  "end": 28,
+  "words": 28,
+  "content": "# Profundizando en los rasgos para async ## Profundizando en los rasgos para async ### Futuro ### Pinning y los traits Pin y Unpin ### El trait Stream"
+}

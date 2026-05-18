@@ -1,0 +1,81 @@
+# Capítulo 10:: Cierres y expresiones lambda.
+
+## Fuente
+Capítulo 1: Empezando con Rust 2 (Cap. 29)
+
+## Contenido
+# Capítulo 10:: Cierres y expresiones lambda.
+
+Examples
+Expresiones lambda simples
+// A simple adder function defined as a lambda expression.
+// Unlike with regular functions, parameter types often may be omitted because the
+// compiler can infer their types
+let adder = |a, b| a + b;
+// Lambdas can span across multiple lines, like normal functions.
+let multiplier = |a: i32, b: i32| {
+let c = b;
+let b = a;
+let a = c;
+a * b
+};
+// Since lambdas are anonymous functions, they can be called like other functions
+println!("{}", adder(3, 5));
+println!("{}", multiplier(3, 5));
+Esto muestra:
+8
+15
+Cierres simples
+A diferencia de las funciones regulares, las expresiones lambda pueden capturar sus entornos.
+Tales lambdas se llaman cierres.
+// variable definition outside the lambda expression...
+let lucky_number: usize = 663;
+// but the our function can access it anyway, thanks to the closures
+let print_lucky_number = || println!("{}", lucky_number);
+// finally call the closure
+print_lucky_number();
+Esto imprimirá:
+663
+Lambdas con tipos de retorno explícitos.
+// lambda expressions can have explicitly annotated return types
+https://riptutorial.com/es/home 31
+
+-- 45 of 188 --
+
+let floor_func = |x: f64| -> i64 { x.floor() as i64 };
+Pasando lambdas alrededor
+Como las funciones lambda son valores en sí mismas, las almacena en colecciones, las pasa a
+funciones, etc. como lo haría con otros valores.
+// This function takes two integers and a function that performs some operation on the two
+arguments
+fn apply_function<T>(a: i32, b: i32, func: T) -> i32 where T: Fn(i32, i32) -> i32 {
+// apply the passed function to arguments a and b
+func(a, b)
+}
+// let's define three lambdas, each operating on the same parameters
+let sum = |a, b| a + b;
+let product = |a, b| a * b;
+let diff = |a, b| a - b;
+// And now let's pass them to apply_function along with some arbitary values
+println!("3 + 6 = {}", apply_function(3, 6, sum));
+println!("-4 * 9 = {}", apply_function(-4, 9, product));
+println!("7 - (-3) = {}", apply_function(7, -3, diff));
+Esto imprimirá:
+3 + 6 = 9
+-4 * 9 = -36
+7 - (-3) = 10
+Devolviendo lambdas de funciones
+Devolver lambdas (o cierres) de funciones puede ser complicado porque implementan rasgos y,
+por lo tanto, rara vez se conoce su tamaño exacto.
+// Box in the return type moves the function from the stack to the heap
+fn curried_adder(a: i32) -> Box<Fn(i32) -> i32> {
+// 'move' applies move semantics to a, so it can outlive this function call
+Box::new(move |b| a + b)
+}
+println!("3 + 4 = {}", curried_adder(3)(4));
+Esto muestra: 3 + 4 = 7
+Lea Cierres y expresiones lambda. en línea: https://riptutorial.com/es/rust/topic/1815/cierres-y-
+expresiones-lambda-
+https://riptutorial.com/es/home 32
+
+-- 46 of 188 --

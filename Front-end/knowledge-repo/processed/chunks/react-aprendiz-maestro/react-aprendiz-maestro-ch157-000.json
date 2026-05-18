@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch157-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 157,
+  "chunkIndex": 0,
+  "title": "5.3 Propiedades y Métodos Propios . . . . . . . . . . . . . . . . . . . 41",
+  "start": 0,
+  "end": 78,
+  "words": 78,
+  "content": "# 8.5 Migrando a Alt Alt En Alt trabajarás con acciones y almacenes. El dispatcher está oculto, pero puedes acceder a él si lo necesitas. Comparado con otras implementaciones, Alt oculta mucho código reutilizable. Tiene algunas ceracterísticas especiales que te permitirán guardar y recuperar el estado de la aplicación, lo cual es útil para implementar tanto persistencia como renderizado universal. Hay un par de pasos que debemos seguir para permitir que Alt gestione el estado de nuestra aplicación:"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch014-008",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 14,
+  "chunkIndex": 8,
+  "title": "14 ÍNDICE GENERAL",
+  "start": 3600,
+  "end": 3718,
+  "words": 118,
+  "content": "de una manera mas formal, es un método para demostrar una sucesión in\u001cnita de proposiciones P0, P1, P2, ... demostrando que P0 es cierta y posteriormente demostrando que si Pk es cierta entonces Pk+1 también lo es. -- 28 of 315 -- 1.4. PROBLEMAS 29 1.4. Problemas 1.4.1. Sumas Demuestra por inducción que: 1. 1 + 22 + 32 + 42 + ... + n2 = n(n + 1)(2n + 1) 6 2. 1 + 3 + 5 + ... + (2n − 1) = n2 3. 1 − 2 + 3 − 4 + 5 − 6 + ...n = (−1)n+1dn 2 e 4. 1 + 2 + 4 + ... + 2n = 2n+1 − 1"
+}

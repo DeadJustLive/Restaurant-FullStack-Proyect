@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch112-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 112,
+  "chunkIndex": 0,
+  "title": "3. Usando la instrucci´on Para, represente los siguientes enunciados:",
+  "start": 0,
+  "end": 62,
+  "words": 62,
+  "content": "# 3. Usando la instrucci´on Para, represente los siguientes enunciados: a) La variable x con un valor inicial de 4, un valor final de 40 e incrementos de a 1. b) La variable x que va desde 100 a 20, disminuyendo de 1 en 1. c) La variable x que inicia en 10, incrementando de 5 en 5, hasta llegar a 200."
+}

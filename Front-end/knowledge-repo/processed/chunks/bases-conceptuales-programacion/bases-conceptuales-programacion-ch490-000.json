@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch490-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 490,
+  "chunkIndex": 0,
+  "title": "PRECONDICI´ON:",
+  "start": 0,
+  "end": 55,
+  "words": 55,
+  "content": "# OBSERVACIONES: * no cambia la celda actual */ { Mover(dir1);Mover(dir2) TransformarCeldaEnPiso(marca) Mover(opuesto(dir1));Mover(opuesto(dir2)) } B.5.4. Operaciones para eliminar filas llenas /*=SECCI´ON 5.4=====================================* * Procesamiento del juego (EliminarFilasLlenas) * *=================================================* // procedure EliminarFilasLlenas() // procedure EliminarMientrasSigaLlena() // function esFilaLlena() // procedure BajarFilasSobreEsta() // procedure BajarFilaSuperior() // procedure VaciarDePisoLaFilaActual() // procedure QuitarPiso() *=================================================*/ //---------------------------------------------------- procedure EliminarFilasLlenas() /*"
+}

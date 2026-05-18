@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch318-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 318,
+  "chunkIndex": 0,
+  "title": "7. Repetici ´on indexada",
+  "start": 0,
+  "end": 56,
+  "words": 56,
+  "content": "# OBSERVACIONES: * El origen esta al Este de la primer celda de 5 bolitas en un recorrido NE de las celdas */ { IrAPrimerCeldaNEConBolitas(Azul,5); Mover(Este) } //---------------------------------------------------- function desplazamientoXDeZonaDeJuego() /* PROP´OSITO: retorna la cantidad de celdas al Este a moverse desde la esquina suroeste para ubicarse en la 1era columna de la zona de juego"
+}

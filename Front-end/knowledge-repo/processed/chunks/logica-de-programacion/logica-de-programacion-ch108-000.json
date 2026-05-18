@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch108-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 108,
+  "chunkIndex": 0,
+  "title": "1. Se pueden definir 6 variables para almacenar la nota definitiva",
+  "start": 0,
+  "end": 23,
+  "words": 23,
+  "content": "# 1. Se pueden definir 6 variables para almacenar la nota definitiva de cada materia, se calcula su sumatoria y luego su promedio."
+}

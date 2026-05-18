@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch047-002",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 47,
+  "chunkIndex": 2,
+  "title": "5.2 Tuplas",
+  "start": 900,
+  "end": 1171,
+  "words": 271,
+  "content": "sea iterable. Veamos algunos ejemplos de ello. Sobre cadenas de texto: >>> oxygen = O2 >>> first, last = oxygen >>> first, last ( O , 2 ) >>> text = Hello, World! >>> head, *body, tail = text >>> head, body, tail ( H , [ e , l , l , o , , , , W , o , r , l , d ], ! ) Sobre listas: >>> writer1, writer2, writer3 = [ Virginia Woolf , Jane Austen , Mary Shelley ] >>> writer1, writer2, writer3 ( Virginia Woolf , Jane Austen , Mary Shelley ) >>> text = Hello, World! >>> word1, word2 = text.split() >>> word1, word2 ( Hello, , World! ) 5.2.6 ¿Tuplas por comprensión? Los tipos de datos mutables (listas, diccionarios y conjuntos) sí permiten comprensiones pero no así los tipos de datos inmutables como cadenas de texto y tuplas. Si intentamos crear una tupla por comprensión utilizando paréntesis alrededor de la expresión, vemos que no obtenemos ningún error al ejecutarlo: >>> myrange = (number for number in range(1, 6)) Sin embargo no hemos conseguido una tupla por comprensión sino un generador: >>> myrange <generator object <genexpr> at 0x10b3732e0> 5.2. Tuplas 173 -- 177 of 516 -- Aprende Python 5.2.7 Tuplas vs Listas Aunque puedan parecer estructuras de datos muy similares, sabemos que las tuplas carecen de ciertas operaciones, especialmente las que tienen que ver con la modificación de sus valores, ya que no son inmutables. Si las listas son más flexibles y potentes, ¿por qué íbamos a necesitar tuplas? Veamos 4 potenciales ventajas del uso de tuplas frente a las listas:"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch045-014",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 45,
+  "chunkIndex": 14,
+  "title": "Parte VI",
+  "start": 6300,
+  "end": 6800,
+  "words": 500,
+  "content": "t e n C a s i l l a ( int f i l a , int columna ) { 2 return 7∗ f i l a +columna ; 3 } Usaremos un arreglo llamado Mejor para guardar la longitud de la sub- solución mas corta para generar cada estado. La cola, como ya se había -- 256 of 315 -- 19.3. EMPUJANDO CAJAS 257 mencionado, debe de guardar un estado y la longitud de la subsolución, es decir, tres enteros. Para representar los movimientos al norte, sur, este y oeste, vamos a usar un par de vectores de dirección, es decir, dos arreglos Df y Dc tales que para alguna casilla en \u001cla f y columna c, f + Df [i] y c + Dc[i] representen una casilla vecina a la casilla original, indicando i la dirección con un entero de 0 a 4. Así que estas son las estructuras que se de\u001cnirán en el problema: 1 int Mejor [ 4 9 ] [ 4 9 ] ; 2 3 int ColaA [ 4 9 ∗ 4 9 ] ; 4 int ColaB [ 4 9 ∗ 4 9 ] ; 5 int ColaTam [ 4 9 ∗ 4 9 ] ; 6 int C o l a I n i c i o ; 7 int ColaFin ; 8 9 int Df [ ] = { 0 , 1 , 0 , −1}; 10 int Dc [ ] = { 1 , 0 , −1, 0 } ; Para encolar un estado, en lugar de usar como parámetros las dos casillas y la longitud de la subsolución, resulta mas cómodo pasar la \u001cla y la columna de cada una de las casillas. 1 void e n c o l a r ( int f1 , int c1 , int f2 , int c2 , int l e n ) { 2 int a , b ; 3 a=o b t e n C a s i l l a ( f1 , c1 ) ; 4 b=o b t e n C a s i l l a ( f2 , c2 ) ; 5 i f ( Mejor [ a ] [ b]==0){ // S i e l e s t a d o no h a b í a s i d o e n c o n t r a d o a n t e s 6 Mejor [ a ] [ b]= l e n ; 7 ColaA [ ColaFin ]=a ; 8 ColaB [ ColaFin ]=b ; 9 ColaTam [ ColaFin ]= l e n +1; 10 ColaFin++; 11 } 12 } Al \u001cnal la búsqueda en amplitud queda de esta manera: 1 void amplitud ( int O, int C) { 2 int f1 , c1 , f2 , c2 , l e n ; 3 int f , c ; 4 int a , i ; -- 257 of 315 -- 258CAPÍTULO 19. ESTRUCTURA DE LA SOLUCIÓN Y ESPACIO DE"
+}

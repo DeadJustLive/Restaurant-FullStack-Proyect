@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch165-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 165,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES Y OBSERVACIONES:",
+  "start": 0,
+  "end": 20,
+  "words": 20,
+  "content": "# PROP´OSITO: * marcar con bolitas azules la celda con el m´aximo n´umero de bolitas rojas en la columna actual"
+}

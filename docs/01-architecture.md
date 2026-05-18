@@ -26,6 +26,7 @@ graph TD
 *   **Database per Service:** Cada microservicio tiene su propia instancia/base de datos PostgreSQL. No existe acceso compartido a nivel de datos.
 *   **Aislamiento de Dominio:** Los servicios solo se comunican vía APIs REST. Las relaciones entre servicios se manejan mediante IDs lógicos (`Long productId`), no por claves foráneas de BD.
 *   **Comunicación Síncrona:** Uso de OpenFeign para llamadas entre servicios (ej: Pedidos valida stock en Inventario).
+*   **Gestión Eficiente de Conexiones (HikariCP):** Para evitar la saturación del motor de bases de datos (PostgreSQL), cada microservicio debe limitar estrictamente el tamaño de su pool de conexiones. En entornos de desarrollo local, el pool se limita a un máximo de 3 (`maximum-pool-size: 3`) para evitar superar las 100 conexiones globales de PostgreSQL. En entornos de producción, se implementa un proxy de base de datos como **PgBouncer** o **AWS RDS Proxy** como "Singleton de Red" para multiplexar transacciones entre las réplicas y el motor físico.
 
 ## 3. Estándar de Capas (SOP)
 Todos los microservicios deben seguir estrictamente la siguiente estructura de paquetes:

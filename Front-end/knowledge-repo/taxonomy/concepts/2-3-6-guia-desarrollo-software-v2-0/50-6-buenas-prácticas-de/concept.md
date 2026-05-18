@@ -1,0 +1,48 @@
+# 6. Buenas 	prácticas 	de
+
+## Fuente
+2.3.6 Guia Desarrollo Software v2.0 (Cap. 50)
+
+## Contenido
+# 6. Buenas 	prácticas 	de
+
+licenciamiento
+Al momento de licenciar el software es
+necesario agregar el texto exacto de la
+licencia usada en un archivo llamado
+LICENSE, COPYING, LICENSE.TXT o
+COPYING.TXT. Este texto no debe ser
+modificado ni alterado de forma alguna,
+ya que vivirá con el código y será
+transportado por todo medio al
+momento de desplegar el mismo.
+Es deseable, pero no mandatorio, incluir
+al principio de cada archivo del código
+un aviso de licenciamiento (copyright
+notice) con un extracto sugerido en la
+licencia. En el caso de la licencia GPLv3,
+debe ser de la siguiente forma:
+Nombre de aplicación
+Copyright (C) 2021 División de Gobierno
+Digital
+This program is free software: you can
+redistribute it and/or modify it under the
+terms of the GNU General Public License
+as published by the Free Software
+Foundation, either version 3 of the
+License, or (at your option) any later
+version.
+This program is distributed in the hope
+that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied
+warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for
+more details.
+You should have received a copy of the
+GNU General Public License along with
+this 	program. 	If 	not, 	see
+<https://www.gnu.org/licenses/>.
+División de Gobierno Digital | Lineamientos para desarrollo de software 	28
+
+-- 28 of 33 --

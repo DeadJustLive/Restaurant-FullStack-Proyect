@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch169-007",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 169,
+  "chunkIndex": 7,
+  "title": "21 MAX_MESES )",
+  "start": 3150,
+  "end": 3346,
+  "words": 196,
+  "content": "tamanio. Dentro del ciclo, la variable i se va incrementando para pasar a las siguientes filas en cada iteraci´on, mientras que la expresi´on columna=columna - 1 va decrementando esta variable para ubicarse en una columna anterior. -- 441 of 450 -- 440 Vectores y matrices De esta manera, se van recorriendo las celdas que est´an ubicadas en la diagonal secundaria; los valores almacenados en estas celdas se acumulan en la variable suma que ser´a lo que retornar´a la funci´on. 42 Funcion Entero sumarDiagSecundaria( Entero matriz[ ][ ], 43 Entero tamanio ) 44 Entero suma, i, columna 45 46 columna = tamanio 47 suma = 0 48 Para i = 1 Hasta tamanio Incremento 1 49 suma = suma + matriz[ i ][ columna ] 50 columna = columna - 1 51 FinPara 52 53 Retornar suma 54 FinFuncion Los resultados de las dos funciones anteriores se enviar´an al procedimiento mostrarResultados() con el fin de que este determine y muestre si las sumas son iguales o alguna es mayor (l´ıneas 13 y 14, as´ı como las l´ıneas 56 a la 69). 6.3. Ejercicios propuestos Para los siguientes ejercicios propuestos, utilice funciones y procedi- mientos en su soluci´on."
+}

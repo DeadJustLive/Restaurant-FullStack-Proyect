@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch067-002",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 67,
+  "chunkIndex": 2,
+  "title": "Capítulo 23:: React Boilerplate [React + Babel",
+  "start": 900,
+  "end": 1073,
+  "words": 173,
+  "content": "la ruta del proyecto a través del terminal y escriba node server.js . Luego verá * console.log ('El servidor Express está usando el puerto: 3000'); *. Vaya al navegador y escriba http: // localhost: 3000 en la barra de navegación, verá Hola Mundo . Ahora ve dentro de la carpeta pública y crea un nuevo archivo app.jsx . JSX es un paso de preprocesador que agrega sintaxis XML a tu JavaScript. Definitivamente puedes usar React sin JSX, pero JSX hace que React sea mucho más elegante. Aquí está el código de ejemplo para app.jsx https://riptutorial.com/es/home 93 -- 103 of 139 -- ReactDOM.render( <h1>Hello World!!!</h1>, document.getElementById('app') ); Ahora ve a index.html y modifica el código, debería tener este aspecto <!DOCTYPE html> <html> <head> <meta charset=\"UTF-8\"/> <script src=\"https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23 /browser.min.js\"></script> <script src=\"https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.js\"> </script> <script src=\"https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.js\"> </script> </head> <body> <div id=\"app\"></div> <script type=\"text/babel\" src=\"app.jsx\"></script> </body> </html> Con esto en su lugar, todo está listo, espero que lo encuentre simple. Lea React Boilerplate [React + Babel + Webpack] en línea: https://riptutorial.com/es/reactjs/topic/5969/react-boilerplate--react-plus-babel-plus-webpack- https://riptutorial.com/es/home 94 -- 104 of 139 --"
+}

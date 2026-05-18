@@ -1,0 +1,3162 @@
+{
+  "id": "bases-conceptuales-programacion",
+  "title": "bases-conceptuales-programacion",
+  "author": "",
+  "pages": 312,
+  "sourceFile": "source-pdfs/bases-conceptuales-programacion.pdf",
+  "processedAt": "2026-05-17T05:38:52.606Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "1. La disciplina de la programaci ´on 23",
+      "file": "chapters/bases-conceptuales-programacion/01-1-la-disciplina-de-la-programaci-on-23.md",
+      "words": 247
+    },
+    {
+      "index": 2,
+      "title": "2. Primeros elementos de programaci ´on 39",
+      "file": "chapters/bases-conceptuales-programacion/02-2-primeros-elementos-de-programaci-on-39.md",
+      "words": 530
+    },
+    {
+      "index": 3,
+      "title": "3. Procedimientos, funciones y parametrizaci ´on 89",
+      "file": "chapters/bases-conceptuales-programacion/03-3-procedimientos-funciones-y-parametrizaci-on-89.md",
+      "words": 346
+    },
+    {
+      "index": 4,
+      "title": "4. Alternativa, repetici ´on y memoria 131",
+      "file": "chapters/bases-conceptuales-programacion/04-4-alternativa-repetici-on-y-memoria-131.md",
+      "words": 313
+    },
+    {
+      "index": 5,
+      "title": "5. Un ejemplo completo: ZILFOST 179",
+      "file": "chapters/bases-conceptuales-programacion/05-5-un-ejemplo-completo-zilfost-179.md",
+      "words": 3238
+    },
+    {
+      "index": 6,
+      "title": "1) Elementos del lenguaje",
+      "file": "chapters/bases-conceptuales-programacion/06-1-elementos-del-lenguaje.md",
+      "words": 108
+    },
+    {
+      "index": 7,
+      "title": "2) Elementos de abstracci ´on",
+      "file": "chapters/bases-conceptuales-programacion/07-2-elementos-de-abstracci-on.md",
+      "words": 39
+    },
+    {
+      "index": 8,
+      "title": "3) Elementos de estilo",
+      "file": "chapters/bases-conceptuales-programacion/08-3-elementos-de-estilo.md",
+      "words": 31
+    },
+    {
+      "index": 9,
+      "title": "4) Otros conceptos",
+      "file": "chapters/bases-conceptuales-programacion/09-4-otros-conceptos.md",
+      "words": 124
+    },
+    {
+      "index": 10,
+      "title": "1. Universo de discurso (tablero, bolitas, cabezal)",
+      "file": "chapters/bases-conceptuales-programacion/10-1-universo-de-discurso-tablero-bolitas-cabezal.md",
+      "words": 8
+    },
+    {
+      "index": 11,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/100-precondicion.md",
+      "words": 297
+    },
+    {
+      "index": 12,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/101-proposito.md",
+      "words": 24
+    },
+    {
+      "index": 13,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/102-precondicion.md",
+      "words": 250
+    },
+    {
+      "index": 14,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/103-proposito.md",
+      "words": 19
+    },
+    {
+      "index": 15,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/104-precondicion.md",
+      "words": 123
+    },
+    {
+      "index": 16,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/105-proposito.md",
+      "words": 19
+    },
+    {
+      "index": 17,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/106-precondicion.md",
+      "words": 2270
+    },
+    {
+      "index": 18,
+      "title": "parte 2: , vemos que la misma tiene como precondici ´on que haya tantas celdas en",
+      "file": "chapters/bases-conceptuales-programacion/107-parte-2-vemos-que-la-misma-tiene-como-precondici-on-que-haya-tantas-celdas-en.md",
+      "words": 817
+    },
+    {
+      "index": 19,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/108---proposito.md",
+      "words": 25
+    },
+    {
+      "index": 20,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/109-precondicion.md",
+      "words": 24
+    },
+    {
+      "index": 21,
+      "title": "2. Programas",
+      "file": "chapters/bases-conceptuales-programacion/11-2-programas.md",
+      "words": 3
+    },
+    {
+      "index": 22,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/110---proposito.md",
+      "words": 19
+    },
+    {
+      "index": 23,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/111-precondicion.md",
+      "words": 1916
+    },
+    {
+      "index": 24,
+      "title": "SUPOSICION:",
+      "file": "chapters/bases-conceptuales-programacion/112-suposicion.md",
+      "words": 781
+    },
+    {
+      "index": 25,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/113-proposito.md",
+      "words": 19
+    },
+    {
+      "index": 26,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/114-precondicion.md",
+      "words": 2324
+    },
+    {
+      "index": 27,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/115---proposito.md",
+      "words": 21
+    },
+    {
+      "index": 28,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/116-precondicion.md",
+      "words": 309
+    },
+    {
+      "index": 29,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/117---proposito.md",
+      "words": 11
+    },
+    {
+      "index": 30,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/118-precondicion.md",
+      "words": 154
+    },
+    {
+      "index": 31,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/119---proposito.md",
+      "words": 25
+    },
+    {
+      "index": 32,
+      "title": "3. Comandos",
+      "file": "chapters/bases-conceptuales-programacion/12-3-comandos.md",
+      "words": 3
+    },
+    {
+      "index": 33,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/120-precondicion.md",
+      "words": 351
+    },
+    {
+      "index": 34,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/121---proposito.md",
+      "words": 12
+    },
+    {
+      "index": 35,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/122-precondicion.md",
+      "words": 8
+    },
+    {
+      "index": 36,
+      "title": "OBSERVACI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/123-observacion.md",
+      "words": 413
+    },
+    {
+      "index": 37,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/124---proposito.md",
+      "words": 12
+    },
+    {
+      "index": 38,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/125-precondicion.md",
+      "words": 8
+    },
+    {
+      "index": 39,
+      "title": "OBSERVACI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/126-observacion.md",
+      "words": 405
+    },
+    {
+      "index": 40,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/127---proposito.md",
+      "words": 19
+    },
+    {
+      "index": 41,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/128-precondicion.md",
+      "words": 615
+    },
+    {
+      "index": 42,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/129---proposito.md",
+      "words": 28
+    },
+    {
+      "index": 43,
+      "title": "4. Comandos primitivos (Poner)",
+      "file": "chapters/bases-conceptuales-programacion/13-4-comandos-primitivos-poner.md",
+      "words": 5
+    },
+    {
+      "index": 44,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/130-precondicion.md",
+      "words": 8
+    },
+    {
+      "index": 45,
+      "title": "OBSERVACI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/131-observacion.md",
+      "words": 137
+    },
+    {
+      "index": 46,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/132---proposito.md",
+      "words": 18
+    },
+    {
+      "index": 47,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/133-precondicion.md",
+      "words": 358
+    },
+    {
+      "index": 48,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/134---proposito.md",
+      "words": 15
+    },
+    {
+      "index": 49,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/135-precondicion.md",
+      "words": 661
+    },
+    {
+      "index": 50,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/136-precondicion.md",
+      "words": 206
+    },
+    {
+      "index": 51,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/137---proposito.md",
+      "words": 14
+    },
+    {
+      "index": 52,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/138-precondicion.md",
+      "words": 253
+    },
+    {
+      "index": 53,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/139-precondicion.md",
+      "words": 1637
+    },
+    {
+      "index": 54,
+      "title": "5. Expresiones",
+      "file": "chapters/bases-conceptuales-programacion/14-5-expresiones.md",
+      "words": 3
+    },
+    {
+      "index": 55,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/140---proposito.md",
+      "words": 27
+    },
+    {
+      "index": 56,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/141-precondicion.md",
+      "words": 9
+    },
+    {
+      "index": 57,
+      "title": "SUPOSICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/142-suposicion.md",
+      "words": 418
+    },
+    {
+      "index": 58,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/143---proposito.md",
+      "words": 413
+    },
+    {
+      "index": 59,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/144-precondicion.md",
+      "words": 679
+    },
+    {
+      "index": 60,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/145---proposito.md",
+      "words": 10
+    },
+    {
+      "index": 61,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/146-precondicion.md",
+      "words": 14
+    },
+    {
+      "index": 62,
+      "title": "OBSERVACI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/147-observacion.md",
+      "words": 20
+    },
+    {
+      "index": 63,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/148---proposito.md",
+      "words": 26
+    },
+    {
+      "index": 64,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/149-precondicion.md",
+      "words": 15
+    },
+    {
+      "index": 65,
+      "title": "6. Expresiones literales",
+      "file": "chapters/bases-conceptuales-programacion/15-6-expresiones-literales.md",
+      "words": 4
+    },
+    {
+      "index": 66,
+      "title": "OBSERVACI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/150-observacion.md",
+      "words": 118
+    },
+    {
+      "index": 67,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/151---proposito.md",
+      "words": 12
+    },
+    {
+      "index": 68,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/152-precondicion.md",
+      "words": 19
+    },
+    {
+      "index": 69,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/153---proposito.md",
+      "words": 12
+    },
+    {
+      "index": 70,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/154-precondicion.md",
+      "words": 144
+    },
+    {
+      "index": 71,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/155---proposito.md",
+      "words": 17
+    },
+    {
+      "index": 72,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/156-precondicion.md",
+      "words": 335
+    },
+    {
+      "index": 73,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/157-proposito.md",
+      "words": 19
+    },
+    {
+      "index": 74,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/158-precondicion.md",
+      "words": 773
+    },
+    {
+      "index": 75,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/159-proposito.md",
+      "words": 15
+    },
+    {
+      "index": 76,
+      "title": "7. Secuencia de comandos",
+      "file": "chapters/bases-conceptuales-programacion/16-7-secuencia-de-comandos.md",
+      "words": 5
+    },
+    {
+      "index": 77,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/160-precondicion.md",
+      "words": 867
+    },
+    {
+      "index": 78,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/161-proposito.md",
+      "words": 25
+    },
+    {
+      "index": 79,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/162-precondicion.md",
+      "words": 430
+    },
+    {
+      "index": 80,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/163-proposito.md",
+      "words": 17
+    },
+    {
+      "index": 81,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/164-precondicion.md",
+      "words": 199
+    },
+    {
+      "index": 82,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/165-proposito.md",
+      "words": 20
+    },
+    {
+      "index": 83,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/166-precondicion.md",
+      "words": 8
+    },
+    {
+      "index": 84,
+      "title": "SUPOSICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/167-suposicion.md",
+      "words": 592
+    },
+    {
+      "index": 85,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/168---proposito.md",
+      "words": 22
+    },
+    {
+      "index": 86,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/169-precondicion.md",
+      "words": 9
+    },
+    {
+      "index": 87,
+      "title": "8. Bloques",
+      "file": "chapters/bases-conceptuales-programacion/17-8-bloques.md",
+      "words": 3
+    },
+    {
+      "index": 88,
+      "title": "OBSERVACI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/170-observacion.md",
+      "words": 1990
+    },
+    {
+      "index": 89,
+      "title": "1. Recorrer primero el texto de referencia, recordando la traducci ´on de cada s´ımbolo",
+      "file": "chapters/bases-conceptuales-programacion/171-1-recorrer-primero-el-texto-de-referencia-recordando-la-traducci-on-de-cada-smbolo.md",
+      "words": 107
+    },
+    {
+      "index": 90,
+      "title": "2. Recorrer el texto de referencia y, a medida que se encuentra un par clave/valor,",
+      "file": "chapters/bases-conceptuales-programacion/172-2-recorrer-el-texto-de-referencia-y-a-medida-que-se-encuentra-un-par-clavevalor.md",
+      "words": 70
+    },
+    {
+      "index": 91,
+      "title": "3. Esta posibilidad es la m ´as simple de programar (y quiz ´as la m ´as “natural” en alg ´un",
+      "file": "chapters/bases-conceptuales-programacion/173-3-esta-posibilidad-es-la-m-as-simple-de-programar-y-quiz-as-la-m-as-natural-en-alg-un.md",
+      "words": 2252
+    },
+    {
+      "index": 92,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/174-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 93,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/175-observaciones.md",
+      "words": 316
+    },
+    {
+      "index": 94,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/176-precondiciones.md",
+      "words": 272
+    },
+    {
+      "index": 95,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/177-precondiciones.md",
+      "words": 168
+    },
+    {
+      "index": 96,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/178-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 97,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/179-observaciones.md",
+      "words": 254
+    },
+    {
+      "index": 98,
+      "title": "9. Ejecuci ´on de programas",
+      "file": "chapters/bases-conceptuales-programacion/18-9-ejecuci-on-de-programas.md",
+      "words": 6
+    },
+    {
+      "index": 99,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/180-precondiciones.md",
+      "words": 84
+    },
+    {
+      "index": 100,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/181-precondiciones.md",
+      "words": 16
+    },
+    {
+      "index": 101,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/182-observaciones.md",
+      "words": 644
+    },
+    {
+      "index": 102,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/183-proposito.md",
+      "words": 16
+    },
+    {
+      "index": 103,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/184-precondiciones.md",
+      "words": 48
+    },
+    {
+      "index": 104,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/185-observaciones.md",
+      "words": 115
+    },
+    {
+      "index": 105,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/186-proposito.md",
+      "words": 12
+    },
+    {
+      "index": 106,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/187-precondiciones.md",
+      "words": 175
+    },
+    {
+      "index": 107,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/188-proposito.md",
+      "words": 20
+    },
+    {
+      "index": 108,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/189-precondiciones.md",
+      "words": 23
+    },
+    {
+      "index": 109,
+      "title": "10. Mensajes de error",
+      "file": "chapters/bases-conceptuales-programacion/19-10-mensajes-de-error.md",
+      "words": 5
+    },
+    {
+      "index": 110,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/190-observaciones.md",
+      "words": 451
+    },
+    {
+      "index": 111,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/191-precondiciones.md",
+      "words": 228
+    },
+    {
+      "index": 112,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/192-proposito.md",
+      "words": 11
+    },
+    {
+      "index": 113,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/193-precondiciones.md",
+      "words": 20
+    },
+    {
+      "index": 114,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/194-observaciones.md",
+      "words": 255
+    },
+    {
+      "index": 115,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/195-proposito.md",
+      "words": 13
+    },
+    {
+      "index": 116,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/196-precondiciones.md",
+      "words": 32
+    },
+    {
+      "index": 117,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/197-observaciones.md",
+      "words": 406
+    },
+    {
+      "index": 118,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/198-precondiciones.md",
+      "words": 32
+    },
+    {
+      "index": 119,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/199-observaciones.md",
+      "words": 206
+    },
+    {
+      "index": 120,
+      "title": "11. M ´as comandos primitivos (Mover, Sacar, etc.)",
+      "file": "chapters/bases-conceptuales-programacion/20-11-m-as-comandos-primitivos-mover-sacar-etc.md",
+      "words": 9
+    },
+    {
+      "index": 121,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/200-precondiciones.md",
+      "words": 26
+    },
+    {
+      "index": 122,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/201-observaciones.md",
+      "words": 348
+    },
+    {
+      "index": 123,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/202-proposito.md",
+      "words": 11
+    },
+    {
+      "index": 124,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/203-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 125,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/204-observaciones.md",
+      "words": 30
+    },
+    {
+      "index": 126,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/205-proposito.md",
+      "words": 10
+    },
+    {
+      "index": 127,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/206-precondiciones.md",
+      "words": 26
+    },
+    {
+      "index": 128,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/207-observaciones.md",
+      "words": 31
+    },
+    {
+      "index": 129,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/208-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 130,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/209-observaciones.md",
+      "words": 92
+    },
+    {
+      "index": 131,
+      "title": "12. Procedimientos simples",
+      "file": "chapters/bases-conceptuales-programacion/21-12-procedimientos-simples.md",
+      "words": 4
+    },
+    {
+      "index": 132,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/210-proposito.md",
+      "words": 18
+    },
+    {
+      "index": 133,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/211-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 134,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/212-observaciones.md",
+      "words": 524
+    },
+    {
+      "index": 135,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/213-precondiciones.md",
+      "words": 18
+    },
+    {
+      "index": 136,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/214-observaciones.md",
+      "words": 783
+    },
+    {
+      "index": 137,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/215-precondiciones.md",
+      "words": 14
+    },
+    {
+      "index": 138,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/216-observaciones.md",
+      "words": 85
+    },
+    {
+      "index": 139,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/217-precondiciones.md",
+      "words": 14
+    },
+    {
+      "index": 140,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/218-observaciones.md",
+      "words": 303
+    },
+    {
+      "index": 141,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/219-proposito.md",
+      "words": 9
+    },
+    {
+      "index": 142,
+      "title": "13. Invocaci ´on de procedimientos simples",
+      "file": "chapters/bases-conceptuales-programacion/22-13-invocaci-on-de-procedimientos-simples.md",
+      "words": 7
+    },
+    {
+      "index": 143,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/220-precondiciones.md",
+      "words": 7
+    },
+    {
+      "index": 144,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/221-observaciones.md",
+      "words": 135
+    },
+    {
+      "index": 145,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/222-proposito.md",
+      "words": 9
+    },
+    {
+      "index": 146,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/223-precondiciones.md",
+      "words": 7
+    },
+    {
+      "index": 147,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/224-observaciones.md",
+      "words": 308
+    },
+    {
+      "index": 148,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/225-precondiciones.md",
+      "words": 1056
+    },
+    {
+      "index": 149,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/226-precondiciones.md",
+      "words": 16
+    },
+    {
+      "index": 150,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/227-observaciones.md",
+      "words": 124
+    },
+    {
+      "index": 151,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/228-precondiciones.md",
+      "words": 58
+    },
+    {
+      "index": 152,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/229-precondiciones.md",
+      "words": 170
+    },
+    {
+      "index": 153,
+      "title": "14. Divisi ´on en subtareas",
+      "file": "chapters/bases-conceptuales-programacion/23-14-divisi-on-en-subtareas.md",
+      "words": 6
+    },
+    {
+      "index": 154,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/230-precondiciones.md",
+      "words": 13
+    },
+    {
+      "index": 155,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/231-observaciones.md",
+      "words": 185
+    },
+    {
+      "index": 156,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/232-precondiciones.md",
+      "words": 13
+    },
+    {
+      "index": 157,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/233-observaciones.md",
+      "words": 266
+    },
+    {
+      "index": 158,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/234-precondiciones.md",
+      "words": 32
+    },
+    {
+      "index": 159,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/235-observaciones.md",
+      "words": 307
+    },
+    {
+      "index": 160,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/236-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 161,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/237-observaciones.md",
+      "words": 246
+    },
+    {
+      "index": 162,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/238-precondiciones.md",
+      "words": 30
+    },
+    {
+      "index": 163,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/239-observaciones.md",
+      "words": 120
+    },
+    {
+      "index": 164,
+      "title": "15. Biblioteca de operaciones",
+      "file": "chapters/bases-conceptuales-programacion/24-15-biblioteca-de-operaciones.md",
+      "words": 5
+    },
+    {
+      "index": 165,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/240-precondiciones-y-observaciones.md",
+      "words": 57
+    },
+    {
+      "index": 166,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/241-precondiciones-y-observaciones.md",
+      "words": 76
+    },
+    {
+      "index": 167,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/242-precondiciones-y-observaciones.md",
+      "words": 28
+    },
+    {
+      "index": 168,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/243-precondiciones-y-observaciones.md",
+      "words": 34
+    },
+    {
+      "index": 169,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/244-precondiciones-y-observaciones.md",
+      "words": 52
+    },
+    {
+      "index": 170,
+      "title": "PRECONDICIONES Y OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/245-precondiciones-y-observaciones.md",
+      "words": 195
+    },
+    {
+      "index": 171,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/246-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 172,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/247-observaciones.md",
+      "words": 238
+    },
+    {
+      "index": 173,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/248-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 174,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/249-observaciones.md",
+      "words": 236
+    },
+    {
+      "index": 175,
+      "title": "16. Elementos de estilo",
+      "file": "chapters/bases-conceptuales-programacion/25-16-elementos-de-estilo.md",
+      "words": 5
+    },
+    {
+      "index": 176,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/250-precondiciones.md",
+      "words": 13
+    },
+    {
+      "index": 177,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/251-observaciones.md",
+      "words": 232
+    },
+    {
+      "index": 178,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/252-precondiciones.md",
+      "words": 13
+    },
+    {
+      "index": 179,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/253-observaciones.md",
+      "words": 339
+    },
+    {
+      "index": 180,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/254-precondiciones.md",
+      "words": 31
+    },
+    {
+      "index": 181,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/255-observaciones.md",
+      "words": 344
+    },
+    {
+      "index": 182,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/256-observaciones.md",
+      "words": 198
+    },
+    {
+      "index": 183,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/257-observaciones.md",
+      "words": 349
+    },
+    {
+      "index": 184,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/258-observaciones.md",
+      "words": 187
+    },
+    {
+      "index": 185,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/259-observaciones.md",
+      "words": 104
+    },
+    {
+      "index": 186,
+      "title": "17. Indentaci ´on",
+      "file": "chapters/bases-conceptuales-programacion/26-17-indentaci-on.md",
+      "words": 4
+    },
+    {
+      "index": 187,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/260-precondiciones.md",
+      "words": 18
+    },
+    {
+      "index": 188,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/261-observaciones.md",
+      "words": 55
+    },
+    {
+      "index": 189,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/262-observaciones.md",
+      "words": 94
+    },
+    {
+      "index": 190,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/263-observaciones.md",
+      "words": 321
+    },
+    {
+      "index": 191,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/264-observaciones.md",
+      "words": 372
+    },
+    {
+      "index": 192,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/265-observaciones.md",
+      "words": 429
+    },
+    {
+      "index": 193,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/266-observaciones.md",
+      "words": 295
+    },
+    {
+      "index": 194,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/267-observaciones.md",
+      "words": 131
+    },
+    {
+      "index": 195,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/268-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 196,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/269-observaciones.md",
+      "words": 231
+    },
+    {
+      "index": 197,
+      "title": "18. Elecci ´on de nombres",
+      "file": "chapters/bases-conceptuales-programacion/27-18-elecci-on-de-nombres.md",
+      "words": 6
+    },
+    {
+      "index": 198,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/270-proposito.md",
+      "words": 24
+    },
+    {
+      "index": 199,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/271-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 200,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/272-observaciones.md",
+      "words": 71
+    },
+    {
+      "index": 201,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/273-proposito.md",
+      "words": 27
+    },
+    {
+      "index": 202,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/274-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 203,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/275-observaciones.md",
+      "words": 143
+    },
+    {
+      "index": 204,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/276-proposito.md",
+      "words": 11
+    },
+    {
+      "index": 205,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/277-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 206,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/278-observaciones.md",
+      "words": 235
+    },
+    {
+      "index": 207,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/279-proposito.md",
+      "words": 21
+    },
+    {
+      "index": 208,
+      "title": "19. Comentarios",
+      "file": "chapters/bases-conceptuales-programacion/28-19-comentarios.md",
+      "words": 3
+    },
+    {
+      "index": 209,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/280-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 210,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/281-observaciones.md",
+      "words": 160
+    },
+    {
+      "index": 211,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/282-proposito.md",
+      "words": 12
+    },
+    {
+      "index": 212,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/283-precondiciones.md",
+      "words": 11
+    },
+    {
+      "index": 213,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/284-observaciones.md",
+      "words": 389
+    },
+    {
+      "index": 214,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/285-precondiciones.md",
+      "words": 790
+    },
+    {
+      "index": 215,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/286-observaciones.md",
+      "words": 100
+    },
+    {
+      "index": 216,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/287-observaciones.md",
+      "words": 520
+    },
+    {
+      "index": 217,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/288-observaciones.md",
+      "words": 586
+    },
+    {
+      "index": 218,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/289-proposito.md",
+      "words": 241
+    },
+    {
+      "index": 219,
+      "title": "20. Elementos de “contrato”",
+      "file": "chapters/bases-conceptuales-programacion/29-20-elementos-de-contrato.md",
+      "words": 5
+    },
+    {
+      "index": 220,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/290-proposito.md",
+      "words": 193
+    },
+    {
+      "index": 221,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/291-proposito.md",
+      "words": 20
+    },
+    {
+      "index": 222,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/292-observaciones.md",
+      "words": 168
+    },
+    {
+      "index": 223,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/293-proposito.md",
+      "words": 484
+    },
+    {
+      "index": 224,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/294-precondicion.md",
+      "words": 621
+    },
+    {
+      "index": 225,
+      "title": "K BACKSPACE; y",
+      "file": "chapters/bases-conceptuales-programacion/295-k-backspace-y.md",
+      "words": 197
+    },
+    {
+      "index": 226,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/296-precondicion.md",
+      "words": 17
+    },
+    {
+      "index": 227,
+      "title": "K_B, K_ESCAPE, K_DELETE, K_BACKSPACE",
+      "file": "chapters/bases-conceptuales-programacion/297-kb-kescape-kdelete-kbackspace.md",
+      "words": 59
+    },
+    {
+      "index": 228,
+      "title": "K_J, K_ARROW_LEFT",
+      "file": "chapters/bases-conceptuales-programacion/298-kj-karrowleft.md",
+      "words": 23
+    },
+    {
+      "index": 229,
+      "title": "K_L, K_ARROW_RIGHT",
+      "file": "chapters/bases-conceptuales-programacion/299-kl-karrowright.md",
+      "words": 7
+    },
+    {
+      "index": 230,
+      "title": "21. Prop ´osito de una operaci ´on",
+      "file": "chapters/bases-conceptuales-programacion/30-21-prop-osito-de-una-operaci-on.md",
+      "words": 8
+    },
+    {
+      "index": 231,
+      "title": "K_K, K_ARROW_DOWN",
+      "file": "chapters/bases-conceptuales-programacion/300-kk-karrowdown.md",
+      "words": 7
+    },
+    {
+      "index": 232,
+      "title": "K_I, K_ARROW_UP",
+      "file": "chapters/bases-conceptuales-programacion/301-ki-karrowup.md",
+      "words": 7
+    },
+    {
+      "index": 233,
+      "title": "K_D, K_ENTER",
+      "file": "chapters/bases-conceptuales-programacion/302-kd-kenter.md",
+      "words": 10
+    },
+    {
+      "index": 234,
+      "title": "K_A, K_SPACE",
+      "file": "chapters/bases-conceptuales-programacion/303-ka-kspace.md",
+      "words": 10412
+    },
+    {
+      "index": 235,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/304-observaciones.md",
+      "words": 586
+    },
+    {
+      "index": 236,
+      "title": "(1-Z,2-I,3-L,4-F,5-O,6-S,7-T)",
+      "file": "chapters/bases-conceptuales-programacion/305-1-z2-i3-l4-f5-o6-s7-t.md",
+      "words": 122
+    },
+    {
+      "index": 237,
+      "title": "/*=SECCI´ON 1=======================================*",
+      "file": "chapters/bases-conceptuales-programacion/306-seccion-1.md",
+      "words": 16
+    },
+    {
+      "index": 238,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/307-precondicion.md",
+      "words": 38
+    },
+    {
+      "index": 239,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/308-precondicion.md",
+      "words": 17
+    },
+    {
+      "index": 240,
+      "title": "K_B, K_ESCAPE, K_DELETE, K_BACKSPACE",
+      "file": "chapters/bases-conceptuales-programacion/309-kb-kescape-kdelete-kbackspace.md",
+      "words": 59
+    },
+    {
+      "index": 241,
+      "title": "22. Precondiciones de una operaci ´on",
+      "file": "chapters/bases-conceptuales-programacion/31-22-precondiciones-de-una-operaci-on.md",
+      "words": 9
+    },
+    {
+      "index": 242,
+      "title": "K_J, K_ARROW_LEFT",
+      "file": "chapters/bases-conceptuales-programacion/310-kj-karrowleft.md",
+      "words": 7
+    },
+    {
+      "index": 243,
+      "title": "K_L, K_ARROW_RIGHT",
+      "file": "chapters/bases-conceptuales-programacion/311-kl-karrowright.md",
+      "words": 7
+    },
+    {
+      "index": 244,
+      "title": "K_K, K_ARROW_DOWN",
+      "file": "chapters/bases-conceptuales-programacion/312-kk-karrowdown.md",
+      "words": 7
+    },
+    {
+      "index": 245,
+      "title": "K_I, K_ARROW_UP",
+      "file": "chapters/bases-conceptuales-programacion/313-ki-karrowup.md",
+      "words": 7
+    },
+    {
+      "index": 246,
+      "title": "K_D, K_ENTER",
+      "file": "chapters/bases-conceptuales-programacion/314-kd-kenter.md",
+      "words": 10
+    },
+    {
+      "index": 247,
+      "title": "K_A, K_SPACE",
+      "file": "chapters/bases-conceptuales-programacion/315-ka-kspace.md",
+      "words": 20
+    },
+    {
+      "index": 248,
+      "title": "/*=SECCI´ON 2=======================================*",
+      "file": "chapters/bases-conceptuales-programacion/316-seccion-2.md",
+      "words": 196
+    },
+    {
+      "index": 249,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/317-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 250,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/318-observaciones.md",
+      "words": 56
+    },
+    {
+      "index": 251,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/319-precondiciones.md",
+      "words": 61
+    },
+    {
+      "index": 252,
+      "title": "1. Par ´ametros",
+      "file": "chapters/bases-conceptuales-programacion/32-1-par-ametros.md",
+      "words": 4
+    },
+    {
+      "index": 253,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/320-precondiciones.md",
+      "words": 33
+    },
+    {
+      "index": 254,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/321-precondiciones.md",
+      "words": 58
+    },
+    {
+      "index": 255,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/322-precondiciones.md",
+      "words": 65
+    },
+    {
+      "index": 256,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/323-precondiciones.md",
+      "words": 37
+    },
+    {
+      "index": 257,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/324-observaciones.md",
+      "words": 142
+    },
+    {
+      "index": 258,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/325-precondiciones.md",
+      "words": 35
+    },
+    {
+      "index": 259,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/326-precondiciones.md",
+      "words": 16
+    },
+    {
+      "index": 260,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/327-observaciones.md",
+      "words": 210
+    },
+    {
+      "index": 261,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/328-proposito.md",
+      "words": 16
+    },
+    {
+      "index": 262,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/329-precondiciones.md",
+      "words": 48
+    },
+    {
+      "index": 263,
+      "title": "2. Procedimientos con par ´ametros",
+      "file": "chapters/bases-conceptuales-programacion/33-2-procedimientos-con-par-ametros.md",
+      "words": 6
+    },
+    {
+      "index": 264,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/330-observaciones.md",
+      "words": 37
+    },
+    {
+      "index": 265,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/331-proposito.md",
+      "words": 12
+    },
+    {
+      "index": 266,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/332-precondiciones.md",
+      "words": 53
+    },
+    {
+      "index": 267,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/333-proposito.md",
+      "words": 20
+    },
+    {
+      "index": 268,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/334-precondiciones.md",
+      "words": 23
+    },
+    {
+      "index": 269,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/335-observaciones.md",
+      "words": 121
+    },
+    {
+      "index": 270,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/336-proposito.md",
+      "words": 11
+    },
+    {
+      "index": 271,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/337-precondiciones.md",
+      "words": 26
+    },
+    {
+      "index": 272,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/338-observaciones.md",
+      "words": 29
+    },
+    {
+      "index": 273,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/339-proposito.md",
+      "words": 10
+    },
+    {
+      "index": 274,
+      "title": "3. Invocaci ´on de procedimientos con argumentos",
+      "file": "chapters/bases-conceptuales-programacion/34-3-invocaci-on-de-procedimientos-con-argumentos.md",
+      "words": 8
+    },
+    {
+      "index": 275,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/340-precondiciones.md",
+      "words": 19
+    },
+    {
+      "index": 276,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/341-observaciones.md",
+      "words": 34
+    },
+    {
+      "index": 277,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/342-precondiciones.md",
+      "words": 47
+    },
+    {
+      "index": 278,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/343-proposito.md",
+      "words": 11
+    },
+    {
+      "index": 279,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/344-precondiciones.md",
+      "words": 42
+    },
+    {
+      "index": 280,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/345-proposito.md",
+      "words": 11
+    },
+    {
+      "index": 281,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/346-precondiciones.md",
+      "words": 36
+    },
+    {
+      "index": 282,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/347-observaciones.md",
+      "words": 28
+    },
+    {
+      "index": 283,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/348-proposito.md",
+      "words": 13
+    },
+    {
+      "index": 284,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/349-precondiciones.md",
+      "words": 32
+    },
+    {
+      "index": 285,
+      "title": "4. Uso de par ´ametros",
+      "file": "chapters/bases-conceptuales-programacion/35-4-uso-de-par-ametros.md",
+      "words": 6
+    },
+    {
+      "index": 286,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/350-observaciones.md",
+      "words": 101
+    },
+    {
+      "index": 287,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/351-precondiciones.md",
+      "words": 32
+    },
+    {
+      "index": 288,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/352-observaciones.md",
+      "words": 92
+    },
+    {
+      "index": 289,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/353-precondiciones.md",
+      "words": 26
+    },
+    {
+      "index": 290,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/354-observaciones.md",
+      "words": 125
+    },
+    {
+      "index": 291,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/355-proposito.md",
+      "words": 11
+    },
+    {
+      "index": 292,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/356-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 293,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/357-observaciones.md",
+      "words": 31
+    },
+    {
+      "index": 294,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/358-proposito.md",
+      "words": 10
+    },
+    {
+      "index": 295,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/359-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 296,
+      "title": "5. Requisitos a los par ´ametros",
+      "file": "chapters/bases-conceptuales-programacion/36-5-requisitos-a-los-par-ametros.md",
+      "words": 7
+    },
+    {
+      "index": 297,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/360-observaciones.md",
+      "words": 32
+    },
+    {
+      "index": 298,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/361-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 299,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/362-observaciones.md",
+      "words": 29
+    },
+    {
+      "index": 300,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/363-proposito.md",
+      "words": 18
+    },
+    {
+      "index": 301,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/364-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 302,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/365-observaciones.md",
+      "words": 41
+    },
+    {
+      "index": 303,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/366-proposito.md",
+      "words": 17
+    },
+    {
+      "index": 304,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/367-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 305,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/368-observaciones.md",
+      "words": 33
+    },
+    {
+      "index": 306,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/369-observaciones.md",
+      "words": 29
+    },
+    {
+      "index": 307,
+      "title": "6. Repetici ´on simple",
+      "file": "chapters/bases-conceptuales-programacion/37-6-repetici-on-simple.md",
+      "words": 21
+    },
+    {
+      "index": 308,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/370-proposito.md",
+      "words": 10
+    },
+    {
+      "index": 309,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/371-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 310,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/372-observaciones.md",
+      "words": 22
+    },
+    {
+      "index": 311,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/373-proposito.md",
+      "words": 10
+    },
+    {
+      "index": 312,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/374-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 313,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/375-observaciones.md",
+      "words": 39
+    },
+    {
+      "index": 314,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/376-proposito.md",
+      "words": 12
+    },
+    {
+      "index": 315,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/377-precondiciones.md",
+      "words": 19
+    },
+    {
+      "index": 316,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/378-observaciones.md",
+      "words": 54
+    },
+    {
+      "index": 317,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/379-precondiciones.md",
+      "words": 22
+    },
+    {
+      "index": 318,
+      "title": "7. Repetici ´on indexada",
+      "file": "chapters/bases-conceptuales-programacion/38-7-repetici-on-indexada.md",
+      "words": 7
+    },
+    {
+      "index": 319,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/380-observaciones.md",
+      "words": 29
+    },
+    {
+      "index": 320,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/381-observaciones.md",
+      "words": 28
+    },
+    {
+      "index": 321,
+      "title": "/*=SECCI´ON 3=======================================*",
+      "file": "chapters/bases-conceptuales-programacion/382-seccion-3.md",
+      "words": 315
+    },
+    {
+      "index": 322,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/383-precondiciones.md",
+      "words": 34
+    },
+    {
+      "index": 323,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/384-observaciones.md",
+      "words": 219
+    },
+    {
+      "index": 324,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/385-precondiciones.md",
+      "words": 14
+    },
+    {
+      "index": 325,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/386-observaciones.md",
+      "words": 101
+    },
+    {
+      "index": 326,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/387-precondiciones.md",
+      "words": 14
+    },
+    {
+      "index": 327,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/388-observaciones.md",
+      "words": 43
+    },
+    {
+      "index": 328,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/389-precondiciones.md",
+      "words": 7
+    },
+    {
+      "index": 329,
+      "title": "9. Uso de ´ındices",
+      "file": "chapters/bases-conceptuales-programacion/39-9-uso-de-ndices.md",
+      "words": 5
+    },
+    {
+      "index": 330,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/390-observaciones.md",
+      "words": 51
+    },
+    {
+      "index": 331,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/391-precondiciones.md",
+      "words": 7
+    },
+    {
+      "index": 332,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/392-observaciones.md",
+      "words": 69
+    },
+    {
+      "index": 333,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/393-precondiciones.md",
+      "words": 7
+    },
+    {
+      "index": 334,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/394-observaciones.md",
+      "words": 52
+    },
+    {
+      "index": 335,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/395-precondiciones.md",
+      "words": 7
+    },
+    {
+      "index": 336,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/396-observaciones.md",
+      "words": 52
+    },
+    {
+      "index": 337,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/397-precondiciones.md",
+      "words": 7
+    },
+    {
+      "index": 338,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/398-observaciones.md",
+      "words": 67
+    },
+    {
+      "index": 339,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/399-precondiciones.md",
+      "words": 7
+    },
+    {
+      "index": 340,
+      "title": "10. Tipos de datos",
+      "file": "chapters/bases-conceptuales-programacion/40-10-tipos-de-datos.md",
+      "words": 5
+    },
+    {
+      "index": 341,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/400-observaciones.md",
+      "words": 51
+    },
+    {
+      "index": 342,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/401-precondiciones.md",
+      "words": 7
+    },
+    {
+      "index": 343,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/402-observaciones.md",
+      "words": 95
+    },
+    {
+      "index": 344,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/403-precondiciones.md",
+      "words": 309
+    },
+    {
+      "index": 345,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/404-precondiciones.md",
+      "words": 29
+    },
+    {
+      "index": 346,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/405-precondiciones.md",
+      "words": 29
+    },
+    {
+      "index": 347,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/406-precondiciones.md",
+      "words": 63
+    },
+    {
+      "index": 348,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/407-precondiciones.md",
+      "words": 16
+    },
+    {
+      "index": 349,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/408-observaciones.md",
+      "words": 65
+    },
+    {
+      "index": 350,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/409-precondiciones.md",
+      "words": 51
+    },
+    {
+      "index": 351,
+      "title": "11. Utilidad de los tipos",
+      "file": "chapters/bases-conceptuales-programacion/41-11-utilidad-de-los-tipos.md",
+      "words": 6
+    },
+    {
+      "index": 352,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/410-precondiciones.md",
+      "words": 65
+    },
+    {
+      "index": 353,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/411-precondiciones.md",
+      "words": 13
+    },
+    {
+      "index": 354,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/412-observaciones.md",
+      "words": 43
+    },
+    {
+      "index": 355,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/413-precondiciones.md",
+      "words": 13
+    },
+    {
+      "index": 356,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/414-observaciones.md",
+      "words": 45
+    },
+    {
+      "index": 357,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/415-precondiciones.md",
+      "words": 32
+    },
+    {
+      "index": 358,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/416-observaciones.md",
+      "words": 73
+    },
+    {
+      "index": 359,
+      "title": "/*=SECCI´ON 4=======================================*",
+      "file": "chapters/bases-conceptuales-programacion/417-seccion-4.md",
+      "words": 70
+    },
+    {
+      "index": 360,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/418-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 361,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/419-observaciones.md",
+      "words": 118
+    },
+    {
+      "index": 362,
+      "title": "12. Operaciones primitivas de expresiones (por tipo)",
+      "file": "chapters/bases-conceptuales-programacion/42-12-operaciones-primitivas-de-expresiones-por-tipo.md",
+      "words": 8
+    },
+    {
+      "index": 363,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/420-precondiciones.md",
+      "words": 30
+    },
+    {
+      "index": 364,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/421-observaciones.md",
+      "words": 85
+    },
+    {
+      "index": 365,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/422-precondiciones.md",
+      "words": 39
+    },
+    {
+      "index": 366,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/423-observaciones.md",
+      "words": 37
+    },
+    {
+      "index": 367,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/424-precondiciones.md",
+      "words": 55
+    },
+    {
+      "index": 368,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/425-observaciones.md",
+      "words": 32
+    },
+    {
+      "index": 369,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/426-precondiciones.md",
+      "words": 17
+    },
+    {
+      "index": 370,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/427-observaciones.md",
+      "words": 31
+    },
+    {
+      "index": 371,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/428-precondiciones.md",
+      "words": 29
+    },
+    {
+      "index": 372,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/429-observaciones.md",
+      "words": 63
+    },
+    {
+      "index": 373,
+      "title": "13. Alternativa condicional",
+      "file": "chapters/bases-conceptuales-programacion/43-13-alternativa-condicional.md",
+      "words": 4
+    },
+    {
+      "index": 374,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/430-precondiciones.md",
+      "words": 21
+    },
+    {
+      "index": 375,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/431-observaciones.md",
+      "words": 55
+    },
+    {
+      "index": 376,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/432-precondiciones.md",
+      "words": 20
+    },
+    {
+      "index": 377,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/433-observaciones.md",
+      "words": 76
+    },
+    {
+      "index": 378,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/434-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 379,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/435-observaciones.md",
+      "words": 47
+    },
+    {
+      "index": 380,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/436-precondiciones.md",
+      "words": 18
+    },
+    {
+      "index": 381,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/437-observaciones.md",
+      "words": 68
+    },
+    {
+      "index": 382,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/438-precondiciones.md",
+      "words": 37
+    },
+    {
+      "index": 383,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/439-observaciones.md",
+      "words": 37
+    },
+    {
+      "index": 384,
+      "title": "14. Funciones simples",
+      "file": "chapters/bases-conceptuales-programacion/44-14-funciones-simples.md",
+      "words": 4
+    },
+    {
+      "index": 385,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/440-precondiciones.md",
+      "words": 53
+    },
+    {
+      "index": 386,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/441-observaciones.md",
+      "words": 32
+    },
+    {
+      "index": 387,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/442-precondiciones.md",
+      "words": 12
+    },
+    {
+      "index": 388,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/443-observaciones.md",
+      "words": 31
+    },
+    {
+      "index": 389,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/444-precondiciones.md",
+      "words": 30
+    },
+    {
+      "index": 390,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/445-observaciones.md",
+      "words": 37
+    },
+    {
+      "index": 391,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/446-precondiciones.md",
+      "words": 15
+    },
+    {
+      "index": 392,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/447-observaciones.md",
+      "words": 55
+    },
+    {
+      "index": 393,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/448-precondiciones.md",
+      "words": 17
+    },
+    {
+      "index": 394,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/449-observaciones.md",
+      "words": 71
+    },
+    {
+      "index": 395,
+      "title": "15. Invocaci ´on de funciones simples",
+      "file": "chapters/bases-conceptuales-programacion/45-15-invocaci-on-de-funciones-simples.md",
+      "words": 7
+    },
+    {
+      "index": 396,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/450-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 397,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/451-observaciones.md",
+      "words": 111
+    },
+    {
+      "index": 398,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/452-precondiciones.md",
+      "words": 13
+    },
+    {
+      "index": 399,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/453-observaciones.md",
+      "words": 109
+    },
+    {
+      "index": 400,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/454-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 401,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/455-observaciones.md",
+      "words": 51
+    },
+    {
+      "index": 402,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/456-precondiciones.md",
+      "words": 19
+    },
+    {
+      "index": 403,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/457-observaciones.md",
+      "words": 80
+    },
+    {
+      "index": 404,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/458-precondiciones.md",
+      "words": 13
+    },
+    {
+      "index": 405,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/459-observaciones.md",
+      "words": 67
+    },
+    {
+      "index": 406,
+      "title": "16. Funciones con par ´ametros",
+      "file": "chapters/bases-conceptuales-programacion/46-16-funciones-con-par-ametros.md",
+      "words": 6
+    },
+    {
+      "index": 407,
+      "title": "/*=SECCI´ON 5=======================================*",
+      "file": "chapters/bases-conceptuales-programacion/460-seccion-5.md",
+      "words": 76
+    },
+    {
+      "index": 408,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/461-precondiciones.md",
+      "words": 31
+    },
+    {
+      "index": 409,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/462-observaciones.md",
+      "words": 164
+    },
+    {
+      "index": 410,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/463-observaciones.md",
+      "words": 42
+    },
+    {
+      "index": 411,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/464-observaciones.md",
+      "words": 161
+    },
+    {
+      "index": 412,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/465-observaciones.md",
+      "words": 105
+    },
+    {
+      "index": 413,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/466-observaciones.md",
+      "words": 53
+    },
+    {
+      "index": 414,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/467-precondiciones.md",
+      "words": 18
+    },
+    {
+      "index": 415,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/468-observaciones.md",
+      "words": 34
+    },
+    {
+      "index": 416,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/469-observaciones.md",
+      "words": 75
+    },
+    {
+      "index": 417,
+      "title": "17. Invocaci ´on de funciones con argumentos",
+      "file": "chapters/bases-conceptuales-programacion/47-17-invocaci-on-de-funciones-con-argumentos.md",
+      "words": 8
+    },
+    {
+      "index": 418,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/470-observaciones.md",
+      "words": 145
+    },
+    {
+      "index": 419,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/471-observaciones.md",
+      "words": 112
+    },
+    {
+      "index": 420,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/472-observaciones.md",
+      "words": 76
+    },
+    {
+      "index": 421,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/473-observaciones.md",
+      "words": 228
+    },
+    {
+      "index": 422,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/474-precondiciones.md",
+      "words": 60
+    },
+    {
+      "index": 423,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/475-precondiciones.md",
+      "words": 27
+    },
+    {
+      "index": 424,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/476-observaciones.md",
+      "words": 78
+    },
+    {
+      "index": 425,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/477-observaciones.md",
+      "words": 37
+    },
+    {
+      "index": 426,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/478-precondiciones.md",
+      "words": 12
+    },
+    {
+      "index": 427,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/479-observaciones.md",
+      "words": 68
+    },
+    {
+      "index": 428,
+      "title": "18. Funciones con procesamiento",
+      "file": "chapters/bases-conceptuales-programacion/48-18-funciones-con-procesamiento.md",
+      "words": 7
+    },
+    {
+      "index": 429,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/480-precondiciones.md",
+      "words": 31
+    },
+    {
+      "index": 430,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/481-observaciones.md",
+      "words": 53
+    },
+    {
+      "index": 431,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/482-precondiciones.md",
+      "words": 31
+    },
+    {
+      "index": 432,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/483-observaciones.md",
+      "words": 40
+    },
+    {
+      "index": 433,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/484-precondiciones.md",
+      "words": 31
+    },
+    {
+      "index": 434,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/485-precondiciones.md",
+      "words": 7
+    },
+    {
+      "index": 435,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/486-observaciones.md",
+      "words": 52
+    },
+    {
+      "index": 436,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/487-precondiciones.md",
+      "words": 15
+    },
+    {
+      "index": 437,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/488-observaciones.md",
+      "words": 37
+    },
+    {
+      "index": 438,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/489-precondiciones.md",
+      "words": 18
+    },
+    {
+      "index": 439,
+      "title": "1. Alternativa indexada",
+      "file": "chapters/bases-conceptuales-programacion/49-1-alternativa-indexada.md",
+      "words": 4
+    },
+    {
+      "index": 440,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/490-observaciones.md",
+      "words": 55
+    },
+    {
+      "index": 441,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/491-proposito.md",
+      "words": 24
+    },
+    {
+      "index": 442,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/492-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 443,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/493-observaciones.md",
+      "words": 56
+    },
+    {
+      "index": 444,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/494-proposito.md",
+      "words": 27
+    },
+    {
+      "index": 445,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/495-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 446,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/496-observaciones.md",
+      "words": 41
+    },
+    {
+      "index": 447,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/497-proposito.md",
+      "words": 11
+    },
+    {
+      "index": 448,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/498-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 449,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/499-observaciones.md",
+      "words": 63
+    },
+    {
+      "index": 450,
+      "title": "2. Repetici ´on condicional",
+      "file": "chapters/bases-conceptuales-programacion/50-2-repetici-on-condicional.md",
+      "words": 5
+    },
+    {
+      "index": 451,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/500-proposito.md",
+      "words": 21
+    },
+    {
+      "index": 452,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/501-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 453,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/502-observaciones.md",
+      "words": 101
+    },
+    {
+      "index": 454,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/503-proposito.md",
+      "words": 24
+    },
+    {
+      "index": 455,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/504-precondiciones.md",
+      "words": 11
+    },
+    {
+      "index": 456,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/505-observaciones.md",
+      "words": 65
+    },
+    {
+      "index": 457,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/506-proposito.md",
+      "words": 12
+    },
+    {
+      "index": 458,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/507-precondiciones.md",
+      "words": 11
+    },
+    {
+      "index": 459,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/508-observaciones.md",
+      "words": 122
+    },
+    {
+      "index": 460,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/509-proposito.md",
+      "words": 13
+    },
+    {
+      "index": 461,
+      "title": "3. Esquemas de recorrido",
+      "file": "chapters/bases-conceptuales-programacion/51-3-esquemas-de-recorrido.md",
+      "words": 5
+    },
+    {
+      "index": 462,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/510-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 463,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/511-observaciones.md",
+      "words": 46
+    },
+    {
+      "index": 464,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/512-precondiciones.md",
+      "words": 38
+    },
+    {
+      "index": 465,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/513-precondiciones.md",
+      "words": 65
+    },
+    {
+      "index": 466,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/514-precondiciones.md",
+      "words": 10
+    },
+    {
+      "index": 467,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/515-observaciones.md",
+      "words": 45
+    },
+    {
+      "index": 468,
+      "title": "/*=SECCI´ON 6=======================================*",
+      "file": "chapters/bases-conceptuales-programacion/516-seccion-6.md",
+      "words": 79
+    },
+    {
+      "index": 469,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/517-observaciones.md",
+      "words": 79
+    },
+    {
+      "index": 470,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/518-proposito.md",
+      "words": 45
+    },
+    {
+      "index": 471,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/519-proposito.md",
+      "words": 49
+    },
+    {
+      "index": 472,
+      "title": "4. Variables",
+      "file": "chapters/bases-conceptuales-programacion/52-4-variables.md",
+      "words": 3
+    },
+    {
+      "index": 473,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/520-proposito.md",
+      "words": 33
+    },
+    {
+      "index": 474,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/521-proposito.md",
+      "words": 20
+    },
+    {
+      "index": 475,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/522-observaciones.md",
+      "words": 65
+    },
+    {
+      "index": 476,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/523-proposito.md",
+      "words": 469
+    },
+    {
+      "index": 477,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/524-observaciones.md",
+      "words": 84
+    },
+    {
+      "index": 478,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/525-observaciones.md",
+      "words": 638
+    },
+    {
+      "index": 479,
+      "title": "5. Asignaci ´on",
+      "file": "chapters/bases-conceptuales-programacion/53-5-asignaci-on.md",
+      "words": 4
+    },
+    {
+      "index": 480,
+      "title": "6. Uso de variables",
+      "file": "chapters/bases-conceptuales-programacion/54-6-uso-de-variables.md",
+      "words": 3498
+    },
+    {
+      "index": 481,
+      "title": "1957. Realiz ´o nu-",
+      "file": "chapters/bases-conceptuales-programacion/55-1957-realiz-o-nu-.md",
+      "words": 929
+    },
+    {
+      "index": 482,
+      "title": "2007. Gan ´o diver-",
+      "file": "chapters/bases-conceptuales-programacion/56-2007-gan-o-diver-.md",
+      "words": 16433
+    },
+    {
+      "index": 483,
+      "title": "3. Dibujar",
+      "file": "chapters/bases-conceptuales-programacion/57-3-dibujar.md",
+      "words": 5
+    },
+    {
+      "index": 484,
+      "title": "5. UnIdentificadorMasEntendible",
+      "file": "chapters/bases-conceptuales-programacion/58-5-unidentificadormasentendible.md",
+      "words": 19
+    },
+    {
+      "index": 485,
+      "title": "6. UnIdentificadorTanLargoQueNoValeLaPenaNiPensarEnEscribirlo",
+      "file": "chapters/bases-conceptuales-programacion/59-6-unidentificadortanlargoquenovalelapenanipensarenescribirlo.md",
+      "words": 3
+    },
+    {
+      "index": 486,
+      "title": "7. DibujarCuadradoNegroDeLado3",
+      "file": "chapters/bases-conceptuales-programacion/60-7-dibujarcuadradonegrodelado3.md",
+      "words": 7278
+    },
+    {
+      "index": 487,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/61-proposito.md",
+      "words": 32
+    },
+    {
+      "index": 488,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/62-precondicion.md",
+      "words": 263
+    },
+    {
+      "index": 489,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/63-proposito.md",
+      "words": 16
+    },
+    {
+      "index": 490,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/64-precondicion.md",
+      "words": 1028
+    },
+    {
+      "index": 491,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/65-proposito.md",
+      "words": 45
+    },
+    {
+      "index": 492,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/66-precondiciones.md",
+      "words": 117
+    },
+    {
+      "index": 493,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/67-precondiciones.md",
+      "words": 3895
+    },
+    {
+      "index": 494,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/68-proposito.md",
+      "words": 12
+    },
+    {
+      "index": 495,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/69-precondiciones.md",
+      "words": 38
+    },
+    {
+      "index": 496,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/70-proposito.md",
+      "words": 12
+    },
+    {
+      "index": 497,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/71-precondiciones.md",
+      "words": 544
+    },
+    {
+      "index": 498,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/72-proposito.md",
+      "words": 14
+    },
+    {
+      "index": 499,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/73-precondiciones.md",
+      "words": 1413
+    },
+    {
+      "index": 500,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/74-proposito.md",
+      "words": 19
+    },
+    {
+      "index": 501,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/75-precondiciones.md",
+      "words": 68
+    },
+    {
+      "index": 502,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/76-proposito.md",
+      "words": 14
+    },
+    {
+      "index": 503,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/77-precondiciones.md",
+      "words": 16
+    },
+    {
+      "index": 504,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/78-observaciones.md",
+      "words": 390
+    },
+    {
+      "index": 505,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/79-proposito.md",
+      "words": 16
+    },
+    {
+      "index": 506,
+      "title": "PRECONDICIONES:",
+      "file": "chapters/bases-conceptuales-programacion/80-precondiciones.md",
+      "words": 16
+    },
+    {
+      "index": 507,
+      "title": "OBSERVACIONES:",
+      "file": "chapters/bases-conceptuales-programacion/81-observaciones.md",
+      "words": 930
+    },
+    {
+      "index": 508,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/82-proposito.md",
+      "words": 206
+    },
+    {
+      "index": 509,
+      "title": "1. PonerN que deposite cant bolitas de color color en la celda actual, supo-",
+      "file": "chapters/bases-conceptuales-programacion/83-1-ponern-que-deposite-cant-bolitas-de-color-color-en-la-celda-actual-supo-.md",
+      "words": 29
+    },
+    {
+      "index": 510,
+      "title": "2. MoverN que se mueva cant celdas en la direcci ´on dir desde la celda actual,",
+      "file": "chapters/bases-conceptuales-programacion/84-2-movern-que-se-mueva-cant-celdas-en-la-direcci-on-dir-desde-la-celda-actual.md",
+      "words": 31
+    },
+    {
+      "index": 511,
+      "title": "3. SacarN que quite cant bolitas de color color de la celda actual, suponiendo",
+      "file": "chapters/bases-conceptuales-programacion/85-3-sacarn-que-quite-cant-bolitas-de-color-color-de-la-celda-actual-suponiendo.md",
+      "words": 1654
+    },
+    {
+      "index": 512,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/86-proposito.md",
+      "words": 10
+    },
+    {
+      "index": 513,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/87-precondicion.md",
+      "words": 16
+    },
+    {
+      "index": 514,
+      "title": "OBSERVACI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/88-observacion.md",
+      "words": 4491
+    },
+    {
+      "index": 515,
+      "title": "parte 3: , y combinarlo con alguna de las expresiones reci ´en presentadas.",
+      "file": "chapters/bases-conceptuales-programacion/89-parte-3-y-combinarlo-con-alguna-de-las-expresiones-reci-en-presentadas.md",
+      "words": 1273
+    },
+    {
+      "index": 516,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/90---proposito.md",
+      "words": 20
+    },
+    {
+      "index": 517,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/91-precondicion.md",
+      "words": 369
+    },
+    {
+      "index": 518,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/92---proposito.md",
+      "words": 13
+    },
+    {
+      "index": 519,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/93-precondicion.md",
+      "words": 67
+    },
+    {
+      "index": 520,
+      "title": "{- PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/94---proposito.md",
+      "words": 26
+    },
+    {
+      "index": 521,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/95-precondicion.md",
+      "words": 9
+    },
+    {
+      "index": 522,
+      "title": "OBSERVACI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/96-observacion.md",
+      "words": 1971
+    },
+    {
+      "index": 523,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/97-proposito.md",
+      "words": 19
+    },
+    {
+      "index": 524,
+      "title": "PRECONDICI´ON:",
+      "file": "chapters/bases-conceptuales-programacion/98-precondicion.md",
+      "words": 500
+    },
+    {
+      "index": 525,
+      "title": "PROP´OSITO:",
+      "file": "chapters/bases-conceptuales-programacion/99-proposito.md",
+      "words": 19
+    }
+  ],
+  "learningIntegrated": true
+}

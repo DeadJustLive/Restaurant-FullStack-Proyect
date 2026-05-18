@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch053-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 53,
+  "chunkIndex": 0,
+  "title": "Apagado y limpieza eficientes",
+  "start": 0,
+  "end": 25,
+  "words": 25,
+  "content": "# Apagado y limpieza eficientes ## Apagado y limpieza eficientes ### Implementando el TraitDropenThreadPool ### Señalando a los threads que dejen de escuchar por jobs"
+}

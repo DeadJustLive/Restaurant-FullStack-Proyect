@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch016-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 16,
+  "chunkIndex": 1,
+  "title": "Capítulo 2: - Aplicación de Estándares",
+  "start": 450,
+  "end": 742,
+  "words": 292,
+  "content": "dar a conocer públicamente que un sitio web ha pasado las vali- daciones, el propio sistema entrega un icono que destaca esta calidad (ver Figura 1). 32 < www.guiaweb.gob.cl Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile Figura 1. – El sitio web de validación entrega la información para crear una imagen que dé a conocer el cumplimiento del estándar. 5.- La Validación de CSS se realiza en http://jigsaw.w3.org/css-validator/ 6.- Dicho Comité fue creado a través del Decreto Supremo 181 (2002) del Ministerio de Economía. Naturalmente la inclusión de este u otro tipo de imágenes que den a conocer el cumplimiento de estos estándares es voluntaria y su objetivo es dar a conocer esta información de manera pública. > Normas y Estándares incluidos en el DS 100/2006 Aunque como se ha reseñado hasta ahora, diversas son las normas que determinan los estándares que deben cumplir los Sitios Web, existe una de ellas que es la que determina la mayor cantidad de exigencias. Se trata del Decreto Supremo 100/2006 del Ministerio Secretaría General de la Presidencia (que en adelante será mencionado sólo como DS100/2006), en cuyo arti- culado se han incorporado todos los elementos que estos deben incluir y que por lo tanto, es la norma por excelencia para los Sitios Web. Respecto de su contenido, se debe señalar que si bien establece una serie de mandatos que tienen relación con el avance tecnológico conseguido hasta el año en que fue dictado el decreto, también estipula en su artículo final que “a lo menos cada dos años\" se hará una normaliza- ción y actualización de sus contenidos, dejando la coordinación de esta tarea en manos del Comité de Normas para el Documento Electrónico.6 -- 32 of 122 --"
+}

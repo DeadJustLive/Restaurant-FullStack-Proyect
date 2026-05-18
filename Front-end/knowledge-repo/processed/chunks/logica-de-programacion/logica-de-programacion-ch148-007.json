@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch148-007",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 148,
+  "chunkIndex": 7,
+  "title": "parte c: entral del algoritmo o de otros procedimientos.",
+  "start": 3150,
+  "end": 3356,
+  "words": 206,
+  "content": "ellos, as´ı, al invocar tres veces la funci´on con la informaci´on apropiada (l´ıneas de la 36 a la 38) es posible calcular todas las distancias necesarias. 45 Funcion Real calcularDistancia( Real x1, Real Y1, 46 Real X2, Real Y2 ) 47 Real d 48 d = raizCuadrada( (x2 - x1)ˆ2 + (y2 - y1)ˆ2 ) 49 Retornar d 50 FinFuncion Aclaraci´on: Aunque en apariencia los algoritmos se vuelven m´as largos, el hacer uso de procedimientos / funciones permite la soluci´on de problemas cada vez m´as complejos, al permitir atacar la complejidad del problema al dividi´endolos en componentes m´as peque˜nos y f´aciles de manejar. -- 348 of 450 -- Introducci ´on a la L ´ogica de Programaci ´on 347 Buenas pr´acticas: Dejar lo m´as claro posible cada elemento del algoritmo: Documente cuando sea conveniente y sin abusar de este recurso. Definida cual es la responsabilidad de cada funci´on / procedimiento. Evite que ellas tengan m´as de una responsabilidad. Use nombre para las funciones / procedimiento acordes con la responsabilidad asociada. Evite exagerar en la cantidad de par´ametros de un funci´on / procedimiento necesita. Controle la longitud de todas y cada una de las funciones / procedimiento para evitar que superen una p´agina, de ser el caso, delegue"
+}

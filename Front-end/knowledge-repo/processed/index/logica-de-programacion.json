@@ -1,0 +1,1122 @@
+{
+  "id": "logica-de-programacion",
+  "title": "logica-de-programacion",
+  "author": "",
+  "pages": 450,
+  "sourceFile": "source-pdfs/logica-de-programacion.pdf",
+  "processedAt": "2026-05-17T05:38:52.911Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "4 ´INDICE GENERAL",
+      "file": "chapters/logica-de-programacion/01-4-indice-general.md",
+      "words": 10620
+    },
+    {
+      "index": 2,
+      "title": "1. Posee la tarjeta y la clave de ella, podr´a realizar transacciones.",
+      "file": "chapters/logica-de-programacion/02-1-posee-la-tarjeta-y-la-clave-de-ella-podra-realizar-transacciones.md",
+      "words": 0
+    },
+    {
+      "index": 3,
+      "title": "2. Posee la tarjeta, pero no la clave, por lo tanto, no podr´a realizar",
+      "file": "chapters/logica-de-programacion/03-2-posee-la-tarjeta-pero-no-la-clave-por-lo-tanto-no-podra-realizar.md",
+      "words": 1
+    },
+    {
+      "index": 4,
+      "title": "3. No posee la tarjeta y posee la clave, no podr´a realizar transacciones.",
+      "file": "chapters/logica-de-programacion/04-3-no-posee-la-tarjeta-y-posee-la-clave-no-podra-realizar-transacciones.md",
+      "words": 0
+    },
+    {
+      "index": 5,
+      "title": "4. No posee la tarjeta, ni la clave, por consiguiente, no podr´a realizar",
+      "file": "chapters/logica-de-programacion/05-4-no-posee-la-tarjeta-ni-la-clave-por-consiguiente-no-podra-realizar.md",
+      "words": 224
+    },
+    {
+      "index": 6,
+      "title": "1. Le regalo tanto el perro como el gato, estar´ıa feliz.",
+      "file": "chapters/logica-de-programacion/06-1-le-regalo-tanto-el-perro-como-el-gato-estara-feliz.md",
+      "words": 0
+    },
+    {
+      "index": 7,
+      "title": "2. Solamente le doy el perro, estar´ıa feliz.",
+      "file": "chapters/logica-de-programacion/07-2-solamente-le-doy-el-perro-estara-feliz.md",
+      "words": 0
+    },
+    {
+      "index": 8,
+      "title": "3. Solamente le regalo el gato, estar´ıa feliz.",
+      "file": "chapters/logica-de-programacion/08-3-solamente-le-regalo-el-gato-estara-feliz.md",
+      "words": 0
+    },
+    {
+      "index": 9,
+      "title": "4. Pens´andolo bien, ella est´a muy ni˜na para hacerse cargo de una",
+      "file": "chapters/logica-de-programacion/09-4-pensandolo-bien-ella-esta-muy-nina-para-hacerse-cargo-de-una.md",
+      "words": 1485
+    },
+    {
+      "index": 10,
+      "title": "1. Descripci´on narrada.",
+      "file": "chapters/logica-de-programacion/10-1-descripcion-narrada.md",
+      "words": 0
+    },
+    {
+      "index": 11,
+      "title": "2. Diagramas de flujo.",
+      "file": "chapters/logica-de-programacion/11-2-diagramas-de-flujo.md",
+      "words": 0
+    },
+    {
+      "index": 12,
+      "title": "3. Pseudoc´odigo.",
+      "file": "chapters/logica-de-programacion/12-3-pseudocodigo.md",
+      "words": 3210
+    },
+    {
+      "index": 13,
+      "title": "1. De una sola l´ınea. Para ello se usan dos barras (//).",
+      "file": "chapters/logica-de-programacion/13-1-de-una-sola-lnea-para-ello-se-usan-dos-barras-.md",
+      "words": 25
+    },
+    {
+      "index": 14,
+      "title": "2. De varias l´ıneas. En este caso se usa la pareja de caracteres /* para",
+      "file": "chapters/logica-de-programacion/14-2-de-varias-lneas-en-este-caso-se-usa-la-pareja-de-caracteres-para.md",
+      "words": 510
+    },
+    {
+      "index": 15,
+      "title": "1. Definici´on del problema.",
+      "file": "chapters/logica-de-programacion/15-1-definicion-del-problema.md",
+      "words": 0
+    },
+    {
+      "index": 16,
+      "title": "2. An´alisis del problema.",
+      "file": "chapters/logica-de-programacion/16-2-analisis-del-problema.md",
+      "words": 0
+    },
+    {
+      "index": 17,
+      "title": "3. Dise˜no del algoritmo.",
+      "file": "chapters/logica-de-programacion/17-3-diseno-del-algoritmo.md",
+      "words": 0
+    },
+    {
+      "index": 18,
+      "title": "4. Codificaci´on (implementaci´on).",
+      "file": "chapters/logica-de-programacion/18-4-codificacion-implementacion.md",
+      "words": 0
+    },
+    {
+      "index": 19,
+      "title": "5. Compilaci´on y ejecuci´on.",
+      "file": "chapters/logica-de-programacion/19-5-compilacion-y-ejecucion.md",
+      "words": 0
+    },
+    {
+      "index": 20,
+      "title": "6. Verificaci´on y depuraci´on.",
+      "file": "chapters/logica-de-programacion/20-6-verificacion-y-depuracion.md",
+      "words": 0
+    },
+    {
+      "index": 21,
+      "title": "7. Mantenimiento.",
+      "file": "chapters/logica-de-programacion/21-7-mantenimiento.md",
+      "words": 0
+    },
+    {
+      "index": 22,
+      "title": "8. Documentaci´on.",
+      "file": "chapters/logica-de-programacion/22-8-documentacion.md",
+      "words": 1906
+    },
+    {
+      "index": 23,
+      "title": "1. Imagine que se desea declarar variables para almacenar datos de",
+      "file": "chapters/logica-de-programacion/23-1-imagine-que-se-desea-declarar-variables-para-almacenar-datos-de.md",
+      "words": 108
+    },
+    {
+      "index": 24,
+      "title": "2. Para las variables que se declaran en la Tabla 1.17, diga si el",
+      "file": "chapters/logica-de-programacion/24-2-para-las-variables-que-se-declaran-en-la-tabla-117-diga-si-el.md",
+      "words": 21
+    },
+    {
+      "index": 25,
+      "title": "#CEDULA",
+      "file": "chapters/logica-de-programacion/25-cedula.md",
+      "words": 12
+    },
+    {
+      "index": 26,
+      "title": "3. Describa, de acuerdo a la precedencia de los operadores, en cu´al orden",
+      "file": "chapters/logica-de-programacion/26-3-describa-de-acuerdo-a-la-precedencia-de-los-operadores-en-cual-orden.md",
+      "words": 78
+    },
+    {
+      "index": 27,
+      "title": "4. Resuelva paso a paso las siguientes expresiones, teniendo en cuenta",
+      "file": "chapters/logica-de-programacion/27-4-resuelva-paso-a-paso-las-siguientes-expresiones-teniendo-en-cuenta.md",
+      "words": 89
+    },
+    {
+      "index": 28,
+      "title": "5. Suponga que se requieren las variables: a, b, c, d de tipo real.",
+      "file": "chapters/logica-de-programacion/28-5-suponga-que-se-requieren-las-variables-a-b-c-d-de-tipo-real.md",
+      "words": 91
+    },
+    {
+      "index": 29,
+      "title": "6. Se tienen las variables: a, b, c y d de tipo entero. A partir de",
+      "file": "chapters/logica-de-programacion/29-6-se-tienen-las-variables-a-b-c-y-d-de-tipo-entero-a-partir-de.md",
+      "words": 183
+    },
+    {
+      "index": 30,
+      "title": "7. Escriba en notaci´on algor´ıtmica las siguientes expresiones",
+      "file": "chapters/logica-de-programacion/30-7-escriba-en-notacion-algortmica-las-siguientes-expresiones.md",
+      "words": 55
+    },
+    {
+      "index": 31,
+      "title": "8. Preguntas sobre los conceptos vistos",
+      "file": "chapters/logica-de-programacion/31-8-preguntas-sobre-los-conceptos-vistos.md",
+      "words": 56
+    },
+    {
+      "index": 32,
+      "title": "9. Algoritmos.",
+      "file": "chapters/logica-de-programacion/32-9-algoritmos.md",
+      "words": 9076
+    },
+    {
+      "index": 33,
+      "title": "1. Suponga que, para el algoritmo del c´alculo de la nota definitiva",
+      "file": "chapters/logica-de-programacion/33-1-suponga-que-para-el-algoritmo-del-calculo-de-la-nota-definitiva.md",
+      "words": 101
+    },
+    {
+      "index": 34,
+      "title": "2. Imagine que se conoce el valor del lado de un cubo. Elabore un",
+      "file": "chapters/logica-de-programacion/34-2-imagine-que-se-conoce-el-valor-del-lado-de-un-cubo-elabore-un.md",
+      "words": 52
+    },
+    {
+      "index": 35,
+      "title": "3. Un empleado fue contratado durante un periodo espec´ıfico en d´ıas",
+      "file": "chapters/logica-de-programacion/35-3-un-empleado-fue-contratado-durante-un-periodo-especfico-en-das.md",
+      "words": 69
+    },
+    {
+      "index": 36,
+      "title": "4. Dise˜ne un algoritmo que, al ingresarle el costo de un producto y la",
+      "file": "chapters/logica-de-programacion/36-4-disene-un-algoritmo-que-al-ingresarle-el-costo-de-un-producto-y-la.md",
+      "words": 45
+    },
+    {
+      "index": 37,
+      "title": "5. Construya un algoritmo al que se le ingresa el valor de un n´umero",
+      "file": "chapters/logica-de-programacion/37-5-construya-un-algoritmo-al-que-se-le-ingresa-el-valor-de-un-numero.md",
+      "words": 44
+    },
+    {
+      "index": 38,
+      "title": "6. Un agente inmobiliario necesita un algoritmo con el que pueda saber",
+      "file": "chapters/logica-de-programacion/38-6-un-agente-inmobiliario-necesita-un-algoritmo-con-el-que-pueda-saber.md",
+      "words": 74
+    },
+    {
+      "index": 39,
+      "title": "7. Construya un algoritmo que reciba como entrada un ´angulo",
+      "file": "chapters/logica-de-programacion/39-7-construya-un-algoritmo-que-reciba-como-entrada-un-angulo.md",
+      "words": 17
+    },
+    {
+      "index": 40,
+      "title": "8. Un artesano se enfrenta diariamente al problema de determinar cu´al",
+      "file": "chapters/logica-de-programacion/40-8-un-artesano-se-enfrenta-diariamente-al-problema-de-determinar-cual.md",
+      "words": 90
+    },
+    {
+      "index": 41,
+      "title": "9. Construir un algoritmo que permita determinar cu´al es la altura de",
+      "file": "chapters/logica-de-programacion/41-9-construir-un-algoritmo-que-permita-determinar-cual-es-la-altura-de.md",
+      "words": 73
+    },
+    {
+      "index": 42,
+      "title": "10. Dada una temperatura en grados cent´ıgrados, construya un algoritmo",
+      "file": "chapters/logica-de-programacion/42-10-dada-una-temperatura-en-grados-centgrados-construya-un-algoritmo.md",
+      "words": 254
+    },
+    {
+      "index": 43,
+      "title": "parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la",
+      "file": "chapters/logica-de-programacion/43-parte-v-erdadera-de-la-decision-es-decir-la-parte-que-se-ejecutan-cuando-la.md",
+      "words": 11192
+    },
+    {
+      "index": 44,
+      "title": "1. Crear un algoritmo que indique el valor del descuento de un art´ıculo",
+      "file": "chapters/logica-de-programacion/44-1-crear-un-algoritmo-que-indique-el-valor-del-descuento-de-un-artculo.md",
+      "words": 15
+    },
+    {
+      "index": 45,
+      "title": "2. Crear un algoritmo que indique si la llave de un tanque de agua debe",
+      "file": "chapters/logica-de-programacion/45-2-crear-un-algoritmo-que-indique-si-la-llave-de-un-tanque-de-agua-debe.md",
+      "words": 14
+    },
+    {
+      "index": 46,
+      "title": "3. Crear un algoritmo que dado un n´umero entero entre 0 y 20 diga si",
+      "file": "chapters/logica-de-programacion/46-3-crear-un-algoritmo-que-dado-un-numero-entero-entre-0-y-20-diga-si.md",
+      "words": 25
+    },
+    {
+      "index": 47,
+      "title": "4. Crear un algoritmo que indique si un estudiante gan´o o perdi´o un",
+      "file": "chapters/logica-de-programacion/47-4-crear-un-algoritmo-que-indique-si-un-estudiante-gano-o-perdio-un.md",
+      "words": 37
+    },
+    {
+      "index": 48,
+      "title": "5. Crear un algoritmo que permita saber si una ecuaci´on cuadr´atica",
+      "file": "chapters/logica-de-programacion/48-5-crear-un-algoritmo-que-permita-saber-si-una-ecuacion-cuadratica.md",
+      "words": 58
+    },
+    {
+      "index": 49,
+      "title": "6. Crear un algoritmo que indique si un n´umero entero x, ingresado por",
+      "file": "chapters/logica-de-programacion/49-6-crear-un-algoritmo-que-indique-si-un-numero-entero-x-ingresado-por.md",
+      "words": 66
+    },
+    {
+      "index": 50,
+      "title": "7. Crear un algoritmo que indique si un n´umero entero x se encuentra",
+      "file": "chapters/logica-de-programacion/50-7-crear-un-algoritmo-que-indique-si-un-numero-entero-x-se-encuentra.md",
+      "words": 24
+    },
+    {
+      "index": 51,
+      "title": "8. Crear un algoritmo que indique el valor del descuento de un art´ıculo",
+      "file": "chapters/logica-de-programacion/51-8-crear-un-algoritmo-que-indique-el-valor-del-descuento-de-un-artculo.md",
+      "words": 32
+    },
+    {
+      "index": 52,
+      "title": "9. Crear un algoritmo que indique el valor del descuento de un art´ıculo",
+      "file": "chapters/logica-de-programacion/52-9-crear-un-algoritmo-que-indique-el-valor-del-descuento-de-un-artculo.md",
+      "words": 861
+    },
+    {
+      "index": 53,
+      "title": "0. De igual manera si se trabaja con divisiones, la",
+      "file": "chapters/logica-de-programacion/53-0-de-igual-manera-si-se-trabaja-con-divisiones-la.md",
+      "words": 4253
+    },
+    {
+      "index": 54,
+      "title": "41. De esta forma, al calcular el promedio general del grupo se evita un",
+      "file": "chapters/logica-de-programacion/54-41-de-esta-forma-al-calcular-el-promedio-general-del-grupo-se-evita-un.md",
+      "words": 3024
+    },
+    {
+      "index": 55,
+      "title": "1. Se divide a entre b y se obtiene el cociente c1 y el resto r1. Los",
+      "file": "chapters/logica-de-programacion/55-1-se-divide-a-entre-b-y-se-obtiene-el-cociente-c1-y-el-resto-r1-los.md",
+      "words": 13
+    },
+    {
+      "index": 56,
+      "title": "2. Si r1 es diferente de 0, se divide b entre r1, obteni´endose el cociente",
+      "file": "chapters/logica-de-programacion/56-2-si-r1-es-diferente-de-0-se-divide-b-entre-r1-obteniendose-el-cociente.md",
+      "words": 5
+    },
+    {
+      "index": 57,
+      "title": "3. Si r2 es diferente de 0, se divide r1 entre r2, obteni´endose un nuevo",
+      "file": "chapters/logica-de-programacion/57-3-si-r2-es-diferente-de-0-se-divide-r1-entre-r2-obteniendose-un-nuevo.md",
+      "words": 5
+    },
+    {
+      "index": 58,
+      "title": "4. Estos pasos se repiten mientras que rn sea diferente de 0.",
+      "file": "chapters/logica-de-programacion/58-4-estos-pasos-se-repiten-mientras-que-rn-sea-diferente-de-0.md",
+      "words": 0
+    },
+    {
+      "index": 59,
+      "title": "5. El resto anterior (rn−1), es decir, el ´ultimo divisor es el MCD de a",
+      "file": "chapters/logica-de-programacion/59-5-el-resto-anterior-rn1-es-decir-el-ultimo-divisor-es-el-mcd-de-a.md",
+      "words": 191
+    },
+    {
+      "index": 60,
+      "title": "1. Sea a = 532 y b = 112. La primera operaci´on a realizar es",
+      "file": "chapters/logica-de-programacion/60-1-sea-a-532-y-b-112-la-primera-operacion-a-realizar-es.md",
+      "words": 12
+    },
+    {
+      "index": 61,
+      "title": "2. El primer resto (r1) es diferente de 0, entonces se divide b entre",
+      "file": "chapters/logica-de-programacion/61-2-el-primer-resto-r1-es-diferente-de-0-entonces-se-divide-b-entre.md",
+      "words": 9
+    },
+    {
+      "index": 62,
+      "title": "3. El segundo resto (r2) es diferente de 0, se procede a una nueva",
+      "file": "chapters/logica-de-programacion/62-3-el-segundo-resto-r2-es-diferente-de-0-se-procede-a-una-nueva.md",
+      "words": 12
+    },
+    {
+      "index": 63,
+      "title": "4. El nuevo resto (r3) ya no es diferente de 0, por lo tanto, no se",
+      "file": "chapters/logica-de-programacion/63-4-el-nuevo-resto-r3-ya-no-es-diferente-de-0-por-lo-tanto-no-se.md",
+      "words": 3
+    },
+    {
+      "index": 64,
+      "title": "5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima",
+      "file": "chapters/logica-de-programacion/64-5-el-resto-anterior-rn1-es-decir-r2-o-el-divisor-de-la-ultima.md",
+      "words": 8102
+    },
+    {
+      "index": 65,
+      "title": "1. Pedir el dato",
+      "file": "chapters/logica-de-programacion/65-1-pedir-el-dato.md",
+      "words": 0
+    },
+    {
+      "index": 66,
+      "title": "2. Escribir la instrucci´on Haga",
+      "file": "chapters/logica-de-programacion/66-2-escribir-la-instruccion-haga.md",
+      "words": 0
+    },
+    {
+      "index": 67,
+      "title": "3. Leer el dato",
+      "file": "chapters/logica-de-programacion/67-3-leer-el-dato.md",
+      "words": 0
+    },
+    {
+      "index": 68,
+      "title": "4. Escribir la instrucci´on MientrasQue y su condici´on.",
+      "file": "chapters/logica-de-programacion/68-4-escribir-la-instruccion-mientrasque-y-su-condicion.md",
+      "words": 908
+    },
+    {
+      "index": 69,
+      "title": "0. Si el resultado es verdadero, significa que se est´a frente a un dato vac´ıo,",
+      "file": "chapters/logica-de-programacion/69-0-si-el-resultado-es-verdadero-significa-que-se-esta-frente-a-un-dato-vaco.md",
+      "words": 1689
+    },
+    {
+      "index": 70,
+      "title": "Parte d: e las estructuras Haga-MientrasQue se destinaron a la",
+      "file": "chapters/logica-de-programacion/70-parte-d-e-las-estructuras-haga-mientrasque-se-destinaron-a-la.md",
+      "words": 3529
+    },
+    {
+      "index": 71,
+      "title": "1. Se inicializa la variable numero en 1.",
+      "file": "chapters/logica-de-programacion/71-1-se-inicializa-la-variable-numero-en-1.md",
+      "words": 0
+    },
+    {
+      "index": 72,
+      "title": "2. Se eval´ua la condici´on del Hasta, que para este caso se interpreta",
+      "file": "chapters/logica-de-programacion/72-2-se-evalua-la-condicion-del-hasta-que-para-este-caso-se-interpreta.md",
+      "words": 4
+    },
+    {
+      "index": 73,
+      "title": "3. Luego de que se ejecute el cuerpo del ciclo, se incrementa la variable",
+      "file": "chapters/logica-de-programacion/73-3-luego-de-que-se-ejecute-el-cuerpo-del-ciclo-se-incrementa-la-variable.md",
+      "words": 2732
+    },
+    {
+      "index": 74,
+      "title": "Z Y X W V U",
+      "file": "chapters/logica-de-programacion/74-z-y-x-w-v-u.md",
+      "words": 0
+    },
+    {
+      "index": 75,
+      "title": "Z Y X W V U T",
+      "file": "chapters/logica-de-programacion/75-z-y-x-w-v-u-t.md",
+      "words": 0
+    },
+    {
+      "index": 76,
+      "title": "Z Y X W V U T S",
+      "file": "chapters/logica-de-programacion/76-z-y-x-w-v-u-t-s.md",
+      "words": 0
+    },
+    {
+      "index": 77,
+      "title": "Z Y X W V U T S R",
+      "file": "chapters/logica-de-programacion/77-z-y-x-w-v-u-t-s-r.md",
+      "words": 0
+    },
+    {
+      "index": 78,
+      "title": "Z Y X W V U T S R Q",
+      "file": "chapters/logica-de-programacion/78-z-y-x-w-v-u-t-s-r-q.md",
+      "words": 0
+    },
+    {
+      "index": 79,
+      "title": "Z Y X W V U T S R Q P",
+      "file": "chapters/logica-de-programacion/79-z-y-x-w-v-u-t-s-r-q-p.md",
+      "words": 0
+    },
+    {
+      "index": 80,
+      "title": "Z Y X W V U T S R Q P O",
+      "file": "chapters/logica-de-programacion/80-z-y-x-w-v-u-t-s-r-q-p-o.md",
+      "words": 0
+    },
+    {
+      "index": 81,
+      "title": "Z Y X W V U T S R Q P O N",
+      "file": "chapters/logica-de-programacion/81-z-y-x-w-v-u-t-s-r-q-p-o-n.md",
+      "words": 0
+    },
+    {
+      "index": 82,
+      "title": "Z Y X W V U T S R Q P O N M",
+      "file": "chapters/logica-de-programacion/82-z-y-x-w-v-u-t-s-r-q-p-o-n-m.md",
+      "words": 0
+    },
+    {
+      "index": 83,
+      "title": "Z Y X W V U T S R Q P O N M L",
+      "file": "chapters/logica-de-programacion/83-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l.md",
+      "words": 0
+    },
+    {
+      "index": 84,
+      "title": "Z Y X W V U T S R Q P O N M L K",
+      "file": "chapters/logica-de-programacion/84-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k.md",
+      "words": 0
+    },
+    {
+      "index": 85,
+      "title": "Z Y X W V U T S R Q P O N M L K J",
+      "file": "chapters/logica-de-programacion/85-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j.md",
+      "words": 0
+    },
+    {
+      "index": 86,
+      "title": "Z Y X W V U T S R Q P O N M L K J I",
+      "file": "chapters/logica-de-programacion/86-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i.md",
+      "words": 0
+    },
+    {
+      "index": 87,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H",
+      "file": "chapters/logica-de-programacion/87-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h.md",
+      "words": 0
+    },
+    {
+      "index": 88,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G",
+      "file": "chapters/logica-de-programacion/88-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g.md",
+      "words": 0
+    },
+    {
+      "index": 89,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F",
+      "file": "chapters/logica-de-programacion/89-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f.md",
+      "words": 0
+    },
+    {
+      "index": 90,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E",
+      "file": "chapters/logica-de-programacion/90-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e.md",
+      "words": 0
+    },
+    {
+      "index": 91,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E D",
+      "file": "chapters/logica-de-programacion/91-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d.md",
+      "words": 0
+    },
+    {
+      "index": 92,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E D C",
+      "file": "chapters/logica-de-programacion/92-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c.md",
+      "words": 0
+    },
+    {
+      "index": 93,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E D C B",
+      "file": "chapters/logica-de-programacion/93-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b.md",
+      "words": 0
+    },
+    {
+      "index": 94,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/94-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 886
+    },
+    {
+      "index": 95,
+      "title": "SALTO LINEA",
+      "file": "chapters/logica-de-programacion/95-salto-linea.md",
+      "words": 903
+    },
+    {
+      "index": 96,
+      "title": "10. Igualmente, mostrar´a un mensaje de acuerdo a la respuesta del",
+      "file": "chapters/logica-de-programacion/96-10-igualmente-mostrara-un-mensaje-de-acuerdo-a-la-respuesta-del.md",
+      "words": 1618
+    },
+    {
+      "index": 97,
+      "title": "1. Todo estudiante de primer semestre debe cursar 6 espacios",
+      "file": "chapters/logica-de-programacion/97-1-todo-estudiante-de-primer-semestre-debe-cursar-6-espacios.md",
+      "words": 3
+    },
+    {
+      "index": 98,
+      "title": "2. La nota m´ınima es de 0.0 y la nota m´axima es de 5.0.",
+      "file": "chapters/logica-de-programacion/98-2-la-nota-mnima-es-de-00-y-la-nota-maxima-es-de-50.md",
+      "words": 0
+    },
+    {
+      "index": 99,
+      "title": "3. Se considera que un espacio acad´emico se aprueba si su nota",
+      "file": "chapters/logica-de-programacion/99-3-se-considera-que-un-espacio-academico-se-aprueba-si-su-nota.md",
+      "words": 7
+    },
+    {
+      "index": 100,
+      "title": "4. Un periodo acad´emico se considera aprobado, si al promediar las",
+      "file": "chapters/logica-de-programacion/100-4-un-periodo-academico-se-considera-aprobado-si-al-promediar-las.md",
+      "words": 35
+    },
+    {
+      "index": 101,
+      "title": "5. Al finalizar el semestre, el estudiante ser´a clasificado en una de las",
+      "file": "chapters/logica-de-programacion/101-5-al-finalizar-el-semestre-el-estudiante-sera-clasificado-en-una-de-las.md",
+      "words": 25
+    },
+    {
+      "index": 102,
+      "title": "6. Un estudiante quedar´a excluido por bajo rendimiento, si cumple una",
+      "file": "chapters/logica-de-programacion/102-6-un-estudiante-quedara-excluido-por-bajo-rendimiento-si-cumple-una.md",
+      "words": 28
+    },
+    {
+      "index": 103,
+      "title": "7. Se considera que un estudiante queda en situaci´on condicional, si",
+      "file": "chapters/logica-de-programacion/103-7-se-considera-que-un-estudiante-queda-en-situacion-condicional-si.md",
+      "words": 18
+    },
+    {
+      "index": 104,
+      "title": "8. Si el estudiante no presenta ninguna de las dos anteriores",
+      "file": "chapters/logica-de-programacion/104-8-si-el-estudiante-no-presenta-ninguna-de-las-dos-anteriores.md",
+      "words": 299
+    },
+    {
+      "index": 105,
+      "title": "1. Por estudiante.",
+      "file": "chapters/logica-de-programacion/105-1-por-estudiante.md",
+      "words": 0
+    },
+    {
+      "index": 106,
+      "title": "2. Por grupo.",
+      "file": "chapters/logica-de-programacion/106-2-por-grupo.md",
+      "words": 0
+    },
+    {
+      "index": 107,
+      "title": "3. General, es decir, del total de los estudiantes.",
+      "file": "chapters/logica-de-programacion/107-3-general-es-decir-del-total-de-los-estudiantes.md",
+      "words": 28
+    },
+    {
+      "index": 108,
+      "title": "1. Se pueden definir 6 variables para almacenar la nota definitiva",
+      "file": "chapters/logica-de-programacion/108-1-se-pueden-definir-6-variables-para-almacenar-la-nota-definitiva.md",
+      "words": 11
+    },
+    {
+      "index": 109,
+      "title": "2. Se define una sola variable para leer la nota definitiva de cada",
+      "file": "chapters/logica-de-programacion/109-2-se-define-una-sola-variable-para-leer-la-nota-definitiva-de-cada.md",
+      "words": 3481
+    },
+    {
+      "index": 110,
+      "title": "1. Responda las siguientes preguntas:",
+      "file": "chapters/logica-de-programacion/110-1-responda-las-siguientes-preguntas.md",
+      "words": 213
+    },
+    {
+      "index": 111,
+      "title": "2. Tome cada uno de los ejemplos de este cap´ıtulo y reescr´ıbalos usando",
+      "file": "chapters/logica-de-programacion/111-2-tome-cada-uno-de-los-ejemplos-de-este-captulo-y-reescrbalos-usando.md",
+      "words": 16
+    },
+    {
+      "index": 112,
+      "title": "3. Usando la instrucci´on Para, represente los siguientes enunciados:",
+      "file": "chapters/logica-de-programacion/112-3-usando-la-instruccion-para-represente-los-siguientes-enunciados.md",
+      "words": 52
+    },
+    {
+      "index": 113,
+      "title": "4. Dado los extremos de un intervalo [M, N], halle la sumatoria de los",
+      "file": "chapters/logica-de-programacion/113-4-dado-los-extremos-de-un-intervalo-m-n-halle-la-sumatoria-de-los.md",
+      "words": 10
+    },
+    {
+      "index": 114,
+      "title": "5. Dada una poblaci´on, m´aximo de 500 habitantes, determinar cu´antos",
+      "file": "chapters/logica-de-programacion/114-5-dada-una-poblacion-maximo-de-500-habitantes-determinar-cuantos.md",
+      "words": 18
+    },
+    {
+      "index": 115,
+      "title": "6. Genere e imprima los m´ultiplos de 3 que se encuentren entre 6 y n,",
+      "file": "chapters/logica-de-programacion/115-6-genere-e-imprima-los-multiplos-de-3-que-se-encuentren-entre-6-y-n.md",
+      "words": 8
+    },
+    {
+      "index": 116,
+      "title": "7. En 1937, el matem´atico alem´an Lothar Collatz, enunci´o la conjetura",
+      "file": "chapters/logica-de-programacion/116-7-en-1937-el-matematico-aleman-lothar-collatz-enuncio-la-conjetura.md",
+      "words": 177
+    },
+    {
+      "index": 117,
+      "title": "8. Lea un n´umero entero positivo, descomp´ongalo en cada una de sus",
+      "file": "chapters/logica-de-programacion/117-8-lea-un-numero-entero-positivo-descompongalo-en-cada-una-de-sus.md",
+      "words": 22
+    },
+    {
+      "index": 118,
+      "title": "9. Dado un n´umero menor o igual a 50, calcule su factorial mediante",
+      "file": "chapters/logica-de-programacion/118-9-dado-un-numero-menor-o-igual-a-50-calcule-su-factorial-mediante.md",
+      "words": 2
+    },
+    {
+      "index": 119,
+      "title": "10. El cajero de un restaurante desea controlar el flujo de caja en un",
+      "file": "chapters/logica-de-programacion/119-10-el-cajero-de-un-restaurante-desea-controlar-el-flujo-de-caja-en-un.md",
+      "words": 171
+    },
+    {
+      "index": 120,
+      "title": "11. En el Ejemplo 4.15 se hizo un algoritmo que informaba si un n´umero",
+      "file": "chapters/logica-de-programacion/120-11-en-el-ejemplo-415-se-hizo-un-algoritmo-que-informaba-si-un-numero.md",
+      "words": 26
+    },
+    {
+      "index": 121,
+      "title": "12. Simule el funcionamiento de un temporizador, que reciba como",
+      "file": "chapters/logica-de-programacion/121-12-simule-el-funcionamiento-de-un-temporizador-que-reciba-como.md",
+      "words": 38
+    },
+    {
+      "index": 122,
+      "title": "13. Usando estructuras repetitivas, elabore un algoritmo, que genere e",
+      "file": "chapters/logica-de-programacion/122-13-usando-estructuras-repetitivas-elabore-un-algoritmo-que-genere-e.md",
+      "words": 9
+    },
+    {
+      "index": 123,
+      "title": "Z Y X W V U T S R Q P O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/123-z-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 124,
+      "title": "Y X W V U T S R Q P O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/124-y-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 125,
+      "title": "X W V U T S R Q P O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/125-x-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 126,
+      "title": "W V U T S R Q P O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/126-w-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 127,
+      "title": "V U T S R Q P O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/127-v-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 128,
+      "title": "U T S R Q P O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/128-u-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 129,
+      "title": "T S R Q P O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/129-t-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 130,
+      "title": "S R Q P O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/130-s-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 131,
+      "title": "R Q P O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/131-r-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 132,
+      "title": "Q P O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/132-q-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 133,
+      "title": "P O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/133-p-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 134,
+      "title": "O N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/134-o-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 135,
+      "title": "N M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/135-n-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 136,
+      "title": "M L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/136-m-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 137,
+      "title": "L K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/137-l-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 138,
+      "title": "K J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/138-k-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 139,
+      "title": "J I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/139-j-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 140,
+      "title": "I H G F E D C B A",
+      "file": "chapters/logica-de-programacion/140-i-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 141,
+      "title": "H G F E D C B A",
+      "file": "chapters/logica-de-programacion/141-h-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 142,
+      "title": "G F E D C B A",
+      "file": "chapters/logica-de-programacion/142-g-f-e-d-c-b-a.md",
+      "words": 0
+    },
+    {
+      "index": 143,
+      "title": "F E D C B A",
+      "file": "chapters/logica-de-programacion/143-f-e-d-c-b-a.md",
+      "words": 15
+    },
+    {
+      "index": 144,
+      "title": "14. A un amigo que vive en el norte de la ciudad, su terapeuta le",
+      "file": "chapters/logica-de-programacion/144-14-a-un-amigo-que-vive-en-el-norte-de-la-ciudad-su-terapeuta-le.md",
+      "words": 106
+    },
+    {
+      "index": 145,
+      "title": "15. Imprima los 10 m´ultiplos sucesivos de 3 en orden descendente, a",
+      "file": "chapters/logica-de-programacion/145-15-imprima-los-10-multiplos-sucesivos-de-3-en-orden-descendente-a.md",
+      "words": 74
+    },
+    {
+      "index": 146,
+      "title": "16. En una compa˜n´ıa que tiene varias sucursales a nivel nacional, una o",
+      "file": "chapters/logica-de-programacion/146-16-en-una-compana-que-tiene-varias-sucursales-a-nivel-nacional-una-o.md",
+      "words": 119
+    },
+    {
+      "index": 147,
+      "title": "17. Para los siguientes algoritmos, realice la respectiva prueba de",
+      "file": "chapters/logica-de-programacion/147-17-para-los-siguientes-algoritmos-realice-la-respectiva-prueba-de.md",
+      "words": 2354
+    },
+    {
+      "index": 148,
+      "title": "parte c: entral del algoritmo o de otros procedimientos.",
+      "file": "chapters/logica-de-programacion/148-parte-c-entral-del-algoritmo-o-de-otros-procedimientos.md",
+      "words": 3346
+    },
+    {
+      "index": 149,
+      "title": "parte d: e la responsabilidad en otras funciones",
+      "file": "chapters/logica-de-programacion/149-parte-d-e-la-responsabilidad-en-otras-funciones.md",
+      "words": 55
+    },
+    {
+      "index": 150,
+      "title": "1. Dise˜ne un algoritmos con funciones y procedimientos que permita",
+      "file": "chapters/logica-de-programacion/150-1-disene-un-algoritmos-con-funciones-y-procedimientos-que-permita.md",
+      "words": 6
+    },
+    {
+      "index": 151,
+      "title": "2. Dise˜ne un algoritmos con funciones y procedimientos que permita",
+      "file": "chapters/logica-de-programacion/151-2-disene-un-algoritmos-con-funciones-y-procedimientos-que-permita.md",
+      "words": 79
+    },
+    {
+      "index": 152,
+      "title": "3. Dise˜ne un algoritmos con funciones y procedimientos que permita",
+      "file": "chapters/logica-de-programacion/152-3-disene-un-algoritmos-con-funciones-y-procedimientos-que-permita.md",
+      "words": 18
+    },
+    {
+      "index": 153,
+      "title": "4. Dise˜ne un algoritmos con funciones y procedimientos que indique el",
+      "file": "chapters/logica-de-programacion/153-4-disene-un-algoritmos-con-funciones-y-procedimientos-que-indique-el.md",
+      "words": 21
+    },
+    {
+      "index": 154,
+      "title": "5. Dise˜ne un algoritmos con funciones y procedimientos que indique si",
+      "file": "chapters/logica-de-programacion/154-5-disene-un-algoritmos-con-funciones-y-procedimientos-que-indique-si.md",
+      "words": 22
+    },
+    {
+      "index": 155,
+      "title": "6. Dise˜ne un algoritmos con funciones y procedimientos que dado un",
+      "file": "chapters/logica-de-programacion/155-6-disene-un-algoritmos-con-funciones-y-procedimientos-que-dado-un.md",
+      "words": 33
+    },
+    {
+      "index": 156,
+      "title": "7. Dise˜ne un algoritmos con funciones y procedimientos que indique si",
+      "file": "chapters/logica-de-programacion/156-7-disene-un-algoritmos-con-funciones-y-procedimientos-que-indique-si.md",
+      "words": 43
+    },
+    {
+      "index": 157,
+      "title": "8. Dise˜ne un algoritmos con funciones y procedimientos que permita",
+      "file": "chapters/logica-de-programacion/157-8-disene-un-algoritmos-con-funciones-y-procedimientos-que-permita.md",
+      "words": 54
+    },
+    {
+      "index": 158,
+      "title": "9. Dise˜ne un algoritmos con funciones y procedimientos que indique si",
+      "file": "chapters/logica-de-programacion/158-9-disene-un-algoritmos-con-funciones-y-procedimientos-que-indique-si.md",
+      "words": 47
+    },
+    {
+      "index": 159,
+      "title": "10. Dise˜ne un algoritmos con funciones y procedimientos que indique",
+      "file": "chapters/logica-de-programacion/159-10-disene-un-algoritmos-con-funciones-y-procedimientos-que-indique.md",
+      "words": 863
+    },
+    {
+      "index": 160,
+      "title": "1. Se declara una variable suscrita llamada edadEstudiante y se",
+      "file": "chapters/logica-de-programacion/160-1-se-declara-una-variable-suscrita-llamada-edadestudiante-y-se.md",
+      "words": 35
+    },
+    {
+      "index": 161,
+      "title": "2. Se declara una variable suscrita llamada estaturaPersona y se le",
+      "file": "chapters/logica-de-programacion/161-2-se-declara-una-variable-suscrita-llamada-estaturapersona-y-se-le.md",
+      "words": 32
+    },
+    {
+      "index": 162,
+      "title": "3. Se declara una variable suscrita llamada nombreEmpleado y se le",
+      "file": "chapters/logica-de-programacion/162-3-se-declara-una-variable-suscrita-llamada-nombreempleado-y-se-le.md",
+      "words": 39
+    },
+    {
+      "index": 163,
+      "title": "4. Se declara una variable suscrita llamada letrasDocumento y se le",
+      "file": "chapters/logica-de-programacion/163-4-se-declara-una-variable-suscrita-llamada-letrasdocumento-y-se-le.md",
+      "words": 91
+    },
+    {
+      "index": 164,
+      "title": "parte d: el algoritmo, sin ser un error de l´ogica, lo ideal",
+      "file": "chapters/logica-de-programacion/164-parte-d-el-algoritmo-sin-ser-un-error-de-logica-lo-ideal.md",
+      "words": 188
+    },
+    {
+      "index": 165,
+      "title": "1. Se declara una variable suscrita llamada semestreEstudiante",
+      "file": "chapters/logica-de-programacion/165-1-se-declara-una-variable-suscrita-llamada-semestreestudiante.md",
+      "words": 36
+    },
+    {
+      "index": 166,
+      "title": "2. Se declara una variable suscrita llamada",
+      "file": "chapters/logica-de-programacion/166-2-se-declara-una-variable-suscrita-llamada.md",
+      "words": 37
+    },
+    {
+      "index": 167,
+      "title": "3. Se declara una variable suscrita llamada sueldoPersona con un",
+      "file": "chapters/logica-de-programacion/167-3-se-declara-una-variable-suscrita-llamada-sueldopersona-con-un.md",
+      "words": 20862
+    },
+    {
+      "index": 168,
+      "title": "17 MAX_EMPLEADOS )",
+      "file": "chapters/logica-de-programacion/168-17-maxempleados-.md",
+      "words": 8
+    },
+    {
+      "index": 169,
+      "title": "21 MAX_MESES )",
+      "file": "chapters/logica-de-programacion/169-21-maxmeses-.md",
+      "words": 3342
+    },
+    {
+      "index": 170,
+      "title": "1. Escriba un algoritmo en pseudoc´odigo que permita almacenar en",
+      "file": "chapters/logica-de-programacion/170-1-escriba-un-algoritmo-en-pseudocodigo-que-permita-almacenar-en.md",
+      "words": 63
+    },
+    {
+      "index": 171,
+      "title": "2. Dise˜ne un algoritmo que permita ingresar y almacenar los nombres",
+      "file": "chapters/logica-de-programacion/171-2-disene-un-algoritmo-que-permita-ingresar-y-almacenar-los-nombres.md",
+      "words": 62
+    },
+    {
+      "index": 172,
+      "title": "3. Construya un algoritmo que almacene n n´umero enteros en un arreglo",
+      "file": "chapters/logica-de-programacion/172-3-construya-un-algoritmo-que-almacene-n-numero-enteros-en-un-arreglo.md",
+      "words": 35
+    },
+    {
+      "index": 173,
+      "title": "4. Escriba un algoritmo en pseudoc´odigo que almacene en un arreglo n",
+      "file": "chapters/logica-de-programacion/173-4-escriba-un-algoritmo-en-pseudocodigo-que-almacene-en-un-arreglo-n.md",
+      "words": 34
+    },
+    {
+      "index": 174,
+      "title": "5. El profesor de la materia de “Lenguaje de Programaci´on” requiere",
+      "file": "chapters/logica-de-programacion/174-5-el-profesor-de-la-materia-de-lenguaje-de-programacion-requiere.md",
+      "words": 177
+    },
+    {
+      "index": 175,
+      "title": "6. En una cl´ınica de control al sobrepeso requieren almacenar los",
+      "file": "chapters/logica-de-programacion/175-6-en-una-clnica-de-control-al-sobrepeso-requieren-almacenar-los.md",
+      "words": 123
+    },
+    {
+      "index": 176,
+      "title": "7. Dise˜ne un algoritmo que almacene n´umeros enteros en una matriz",
+      "file": "chapters/logica-de-programacion/176-7-disene-un-algoritmo-que-almacene-numeros-enteros-en-una-matriz.md",
+      "words": 37
+    },
+    {
+      "index": 177,
+      "title": "8. Escriba un algoritmo en pseudoc´odigo que almacene caracteres en",
+      "file": "chapters/logica-de-programacion/177-8-escriba-un-algoritmo-en-pseudocodigo-que-almacene-caracteres-en.md",
+      "words": 37
+    },
+    {
+      "index": 178,
+      "title": "9. Construya un algoritmo en pseudoc´odigo que almacene unos (1) en la",
+      "file": "chapters/logica-de-programacion/178-9-construya-un-algoritmo-en-pseudocodigo-que-almacene-unos-1-en-la.md",
+      "words": 55
+    },
+    {
+      "index": 179,
+      "title": "10. Elabore un algoritmo que permita realizar la multiplicaci´on de dos",
+      "file": "chapters/logica-de-programacion/179-10-elabore-un-algoritmo-que-permita-realizar-la-multiplicacion-de-dos.md",
+      "words": 123
+    },
+    {
+      "index": 180,
+      "title": "L. F., Rodr´ıguez, J. G., Fern´andez-Aliseda, A., Azc´arate, A. G., Farn´es,",
+      "file": "chapters/logica-de-programacion/180-l-f-rodrguez-j-g-fernandez-aliseda-a-azcarate-a-g-farnes.md",
+      "words": 0
+    },
+    {
+      "index": 181,
+      "title": "M. M., SANCHEZ, J. A. M., Mart´ın, J. A. H., et al. (2004). Matem´aticas",
+      "file": "chapters/logica-de-programacion/181-m-m-sanchez-j-a-m-martn-j-a-h-et-al-2004-matematicas.md",
+      "words": 77
+    },
+    {
+      "index": 182,
+      "title": "L. N. Z. (2016). Fundamentos de Programaci´on, Diagramas de flujo,",
+      "file": "chapters/logica-de-programacion/182-l-n-z-2016-fundamentos-de-programacion-diagramas-de-flujo.md",
+      "words": 51
+    },
+    {
+      "index": 183,
+      "title": "444 BIBLIOGRAF´IA",
+      "file": "chapters/logica-de-programacion/183-444-bibliografia.md",
+      "words": 263
+    },
+    {
+      "index": 184,
+      "title": "446 ´INDICE ALFAB ´ETICO",
+      "file": "chapters/logica-de-programacion/184-446-indice-alfab-etico.md",
+      "words": 186
+    },
+    {
+      "index": 185,
+      "title": "FORTRAN, 18",
+      "file": "chapters/logica-de-programacion/185-fortran-18.md",
+      "words": 121
+    }
+  ],
+  "learningIntegrated": true
+}

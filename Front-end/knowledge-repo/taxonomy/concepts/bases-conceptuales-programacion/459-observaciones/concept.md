@@ -1,0 +1,37 @@
+# OBSERVACIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 459)
+
+## Contenido
+# OBSERVACIONES:
+
+* solo baja las celdas de piso; las de piezas
+no se bajan
+* Si al bajar el piso puede romper una pieza,
+entonces es absorvido (no rompe la pieza)
+*/
+{
+if (not esSeccionDeAlgunaPieza())
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 299 of 312 --
+
+300
+// Con este if, las piezas no resultan destruidas
+// por el piso
+{
+if (hayPisoAl(Norte))
+// con este if, las piezas arriba de este
+// piso no bajan
+{ if (not esPiso()) { PonerPiso() } }
+else
+// si arriba no hay piso (est´a vac´ıo o hay
+// pieza), debe vaciarse porque las celdas
+// de pieza no bajan
+{ VaciarCelda() }
+}
+}
+//----------------------------------------------------
+procedure VaciarDePisoLaFilaActual()
+/*

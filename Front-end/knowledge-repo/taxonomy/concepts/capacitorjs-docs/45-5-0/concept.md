@@ -1,0 +1,228 @@
+# 5 0
+
+## Fuente
+CapacitorJS — Documentación Oficial (Cap. 45)
+
+## Contenido
+# 5 0
+
+## Products
+
+## Open Source
+
+# Live Reload
+
+## Using with Ionic CLI​
+
+## Using with Framework CLIs​
+
+## Contents
+
+Live Reload is useful for debugging both the web portion of an app as well as native functionality on device hardware or simulators. Rather than deploy a new native binary every time you make a code change, it reloads the browser (or Web View) when changes in the app are detected.
+
+If running on a device, make sure it is on the same Wi-Fi network as your computer.
+
+The Ionic CLI includes a complete Live Reload experience, automating all of the steps that are detailed manually below. Install it along withnative-run(a cross-platform command-line utility for running native binaries on devices and simulators/emulators):
+
+Next, use theionic cap runcommand to start the Live Reload process:
+
+This performs anionic build, copies web assets into the specified native platform, then opens the IDE for your native project (Xcode for iOS, Android Studio for Android).
+
+Theserverentry automatically created incapacitor.config.jsonis removed after the command terminates. For complete details on theionic cap runcommand,see here.
+
+Capacitor supports CLIs with live reload capability.
+
+First, determine your computer's IP address on your LAN.
+
+Next, start your local web server. The server must be bound to0.0.0.0in order to be accessible from the LAN. The command to run will vary, but is typically:
+
+With react-scripts, useHOST=0.0.0.0 npm run start
+
+Withincapacitor.config.json, create aserverentry then configure theurlfield using the local web server's IP address and port:
+
+Next, runnpx cap copyto copy the updated Capacitor config into all native projects.
+
+Open the native IDE if it's not already open:
+
+Finally, click the Run button to launch the app and start using Live Reload.
+
+Be careful not to commit the server config to source control.
+
+Alternatively to settingurlincapacitor.config.json, you can set the live reload url directly from the CLI when running the app from the command line:
+
+Micro Frontends for any React Native, Android, or iOS mobile apps.
+
+## Código
+
+```
+native-run
+```
+
+```
+npminstall-g@ionic/cli native-run
+```
+
+```
+npminstall-g@ionic/cli native-run
+```
+
+```
+ionic cap run
+```
+
+```
+ionic cap run android-l--externalionic cap run ios-l--external
+```
+
+```
+ionic cap run android-l--externalionic cap run ios-l--external
+```
+
+```
+ionic build
+```
+
+```
+server
+```
+
+```
+capacitor.config.json
+```
+
+```
+ionic cap run
+```
+
+```
+ifconfig
+```
+
+```
+ipconfig
+```
+
+```
+0.0.0.0
+```
+
+```
+npmrun start
+```
+
+```
+npmrun start
+```
+
+```
+HOST=0.0.0.0 npm run start
+```
+
+```
+capacitor.config.json
+```
+
+```
+server
+```
+
+```
+"server":{"url":"http://192.168.1.68:8100","cleartext":true},
+```
+
+```
+"server":{"url":"http://192.168.1.68:8100","cleartext":true},
+```
+
+```
+npx cap copy
+```
+
+```
+npx capopeniosnpx capopenandroid
+```
+
+```
+npx capopeniosnpx capopenandroid
+```
+
+```
+capacitor.config.json
+```
+
+```
+npx cap run --live-reload--port8100
+```
+
+```
+npx cap run --live-reload--port8100
+```
+
+- v8
+- v7
+- v6
+- v5
+- v4
+- v3
+- v2
+
+- Appflow
+- Portals
+
+- Ionic Framework
+- Capacitor
+- Stencil
+
+- Getting StartedIntroductionEnvironment SetupInstalling CapacitorBuilding Your UIUsing with Ionic FrameworkVS Code ExtensionCapacitor TemplatesFAQs
+- Introduction
+- Environment Setup
+- Installing Capacitor
+- Building Your UI
+- Using with Ionic Framework
+- VS Code Extension
+- Capacitor Templates
+- FAQs
+- BasicsDevelopment WorkflowUsing PluginsConfiguring Your AppJavaScript API
+- Development Workflow
+- Using Plugins
+- Configuring Your App
+- JavaScript API
+- Upgrade GuidesUpdating to 8.0Updating plugins to 8.0Updating to 7.0Updating plugins to 7.0Updating to 6.0Updating plugins to 6.0Updating to 5.0Updating plugins to 5.0Updating to 4.0Updating to 3.0Updating to 2.0Updating to 1.1Updating plugins to 3.0
+- Updating to 8.0
+- Updating plugins to 8.0
+- Updating to 7.0
+- Updating plugins to 7.0
+- Updating to 6.0
+- Updating plugins to 6.0
+- Updating to 5.0
+- Updating plugins to 5.0
+- Updating to 4.0
+- Updating to 3.0
+- Updating to 2.0
+- Updating to 1.1
+- Updating plugins to 3.0
+- Cordova/PhoneGapOverviewMigrating StrategyCordova to Capacitor Migration
+- Overview
+- Migrating Strategy
+- Cordova to Capacitor Migration
+- ConceptsAdsAngularAutofill CredentialsAutomated ConfigurationCI/CDDeep LinksDeploying and UpdatingEnvironment Specific ConfigurationsGamesIn App PurchasesLive ReloadMocking PluginsPush Notifications - FirebaseReact HooksScreen OrientationSecuritySplash Screens and IconsStorageCommunity Guides
+- Ads
+- Angular
+- Autofill Credentials
+- Automated Configuration
+- CI/CD
+- Deep Links
+- Deploying and Updating
+- Environment Specific Configurations
+- Games
+- In App Purchases
+- Live Reload
+- Mocking Plugins
+- Push Notifications - Firebase
+- React Hooks
+- Screen Orientation
+- Security
+- Splash Screens and Icons
+- Storage
+- Community Guides
+- iOSGetting StartedConfiguring iOSCustom Native iOS CodePrivacy ManifestDeploying to App StoreCustom ViewControllerTroubleshoot

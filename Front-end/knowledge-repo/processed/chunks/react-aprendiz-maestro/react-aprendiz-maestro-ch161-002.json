@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch161-002",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 161,
+  "chunkIndex": 2,
+  "title": "6.1 Implementación de Editable . . . . . . . . . . . . . . . . . . . . 45",
+  "start": 900,
+  "end": 1012,
+  "words": 112,
+  "content": "miras la salida de Webpack verás que hay nuevas dependencias que se han instalado en el proyecto. Es lo que podemos esperar dados los cambios. El proceso puede tardar un rato en terminar, una vez que lo haga, refresca el navegador. Dado que no hemos cambiado la lógica de la aplicación de ninguna manera, todo debería tener el mismo aspecto de antes. Un buen paso con el que continuar es implementar un adaptador que conecte los datos con nuestras vistas. Puedes encontrar una idea similar en react-redux10. MobX no necesita un Proveedor para nada. En este caso nuestra implementación únicamente devolverá children. 10https://www.npmjs.com/package/react-redux -- 93 of 226 -- React y Flux 76"
+}

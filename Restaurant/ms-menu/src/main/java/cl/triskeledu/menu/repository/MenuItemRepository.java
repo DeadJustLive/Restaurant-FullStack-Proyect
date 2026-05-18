@@ -162,7 +162,7 @@ public interface MenuItemRepository extends JpaRepository<MenuItem, Long> {
      *       TODO: Notificar a ms-carrito para invalidar carritos con ítems de esta categoría.
      */
     @Modifying
-    @Query("UPDATE MenuItem m SET m.disponible = :disponible WHERE m.categoriaId = :categoriaId")
+    @Query("UPDATE MenuItem m SET m.disponible = :disponible WHERE m.categoria.id = :categoriaId")
     int actualizarDisponibilidadPorCategoria(@Param("categoriaId") Long categoriaId,
                                               @Param("disponible") Boolean disponible);
 

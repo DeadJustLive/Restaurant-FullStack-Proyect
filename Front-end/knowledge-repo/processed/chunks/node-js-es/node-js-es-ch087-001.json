@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch087-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 87,
+  "chunkIndex": 1,
+  "title": "Capítulo 49:: Exigir()",
+  "start": 450,
+  "end": 657,
+  "words": 207,
+  "content": "Cuando se usa, solo llamamos a la variable o constante asignada a este require y usamos la función que se exporta dentro. A partir del uso require () con un paquete NPM El require del nodo también es muy útil cuando se usa en conjunto con un paquete NPM . Digamos, por ejemplo, que le gustaría usar el paquete NPM require en un archivo llamado getWeather.js . Después de que NPM haya instalado su paquete a través de su línea de comando ( git install request ), estará listo para usarlo. Su archivo getWeather.js podría gustarle mirar esto, var https = require('request'); //Construct your url variable... https.get(url, function(error, response, body) { if (error) { console.log(error); } else { console.log('Response => ' + response); console.log('Body => ' + body); } }); Cuando se ejecuta este archivo, primero se require (importa) el paquete que acaba de instalar https://riptutorial.com/es/home 169 -- 197 of 423 -- llamado request . Dentro del archivo de request , hay muchas funciones a las que ahora tiene acceso, una de las cuales se llama get . En las siguientes dos líneas, la función se utiliza para realizar una solicitud GET de HTTP . Lea Exigir() en línea: https://riptutorial.com/es/node-js/topic/10742/exigir-- https://riptutorial.com/es/home 170 -- 198 of 423 --"
+}

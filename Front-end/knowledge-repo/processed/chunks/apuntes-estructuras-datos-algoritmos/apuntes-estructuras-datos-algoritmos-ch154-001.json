@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch154-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 154,
+  "chunkIndex": 1,
+  "title": "3. \tPara cada operación modificadora se escriben tantas ecuaciones como sean necesarias para garantizar que todo",
+  "start": 450,
+  "end": 618,
+  "words": 168,
+  "content": "nodo que le corresponde está lleno, se mueven las claves a uno de sus hermanos, y así se pospone la división del nodo hasta que ambos hermanos están completamente llenos. Cuando finalmente se dividan, esos dos hermanos pasarán a ser 3, y cada uno estará lleno en 2/3 partes de su capacidad. Los árboles B+ son otra mejora de los árboles B. Mantienen la propiedad de acceso rápido en búsquedas para claves cualquiera y, además, permiten un recorrido secuencial rápido. En un árbol B+ todas las claves se encuentran en las hojas, duplicándose en la raíz y en los nodos interiores aquellas que definen los caminos de búsqueda. Las claves en el nodo raíz e interiores se utilizan únicamente como índices. Para facilitar el recorrido secuencial rápido, las hojas están encadenadas (enhebradas). Véase la figura. 1 Introducidos por R. Bayer y E. M. Mc Creight en “Organization and maintenance of large ordered indices”, Acta Informatica, vol. 1, no. 3, pp. 173–189, 1972. -- 158 of 267 -- 151"
+}

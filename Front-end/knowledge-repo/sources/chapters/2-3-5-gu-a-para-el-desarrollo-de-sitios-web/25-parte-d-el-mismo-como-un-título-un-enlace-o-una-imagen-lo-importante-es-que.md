@@ -1,0 +1,67 @@
+# parte d: el mismo, como un título, un enlace o una imagen. Lo importante, es que
+
+cualquier elemento dentro de la página, debe ser incorporado mediante una
+etiqueta y que ésta debe cumplir las formalidades que indica el estándar para ella.
+En términos generales, los documentos web están compuestos de tres partes y
+dentro de éstas, hay un orden que ayuda a su comprensión y uso.
+Dichas partes son:
+Declaración del tipo de documento estándar a usar
+Encabezado de la página
+Cuerpo de la Página
+A continuación se explican las características de cada una de estas partes.
+Declaración del tipo de documento estándar a usar
+Corresponde a las primeras líneas que debe tener toda página web y en ella se indica
+el tipo de documento de que se trata y con ello, el estándar que regirá su contenido.
+Normalmente la declaración es similar a la siguiente:
+Como se puede observar del texto, los elementos que son relevantes son los
+siguientes:
+Tipo de documento: con la expresión "doctype" se indica cuál es el estándar a
+utilizar, el cual aparece por escrito. En el caso del ejemplo anterior, es XHTML,
+versión 1, en su modo de transición (el otro se denomina estricto).
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0
+Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-
+transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+
+-- 43 of 122 --
+
+44 < www.guiaweb.gob.cl
+Referencia del documento: siempre se indica un enlace a un documento con la
+extensión "dtd", que es el documento oficial del W3C donde se establece el
+estándar y sus características.
+Etiqueta <html>: es la que da inicio a las etique-
+tas del sitio web y que será finalizada al término
+del documento con la etiqueta </html>; en el caso
+de este ejemplo, cuenta con dos modificadores
+que son xmlns para detallar cuál es el conjunto de
+atributos del estándar (cuya ubicación se indica con una dirección web) y lang,
+para señalar el lenguaje en que estará el contenido.
+Si estas líneas no están presentes, el validador entregará un error general y no
+seguirá revisando la página.
+Encabezado de la Página
+Una vez que se ha declarado el estándar como se indicó antes, las siguientes líne-
+as de código de la página web están reservadas para crear el encabezado, que se des-
+pliega entre las etiquetas <head> y </head>.
+Dentro de ellas se ubican los elementos mediante los cuales se describe el contenido
+de la página web, por lo cual a estos elementos se les llama "meta datos" (datos
+acerca de los datos).
+Los hay de cuatro tipos, de acuerdo a la siguiente descripción:
+Título: es la etiqueta <title> que permite designar el título que llevará en el
+encabezado de la ventana el sitio web; se recomienda que lleve el nombre del
+sitio web más un título que describa el contenido de la página. Por ejemplo:
+"Ministerio del Interior - Chile: Acerca del Ministro". De esta manera, esta infor-
+mación será la que aparezca en los buscadores cuando se muestre el enlace al
+usuario que busca alguna palabra o frase que tenga dicha página.
+Metadadato: es información acerca de la información y se define mediante la
+etiqueta <meta>. Para hacerlo se pueden emplear las descripciones del W3C o
+bien las del proyecto Dublin Core, las cuales permiten generar información
+descriptiva acerca de contenidos, autores, copyright y otras descripciones acerca
+de los contenidos del sitio web. Los más usados son:
+Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile
+Tag: etiqueta, es la
+marca que permite
+dar estructura a un
+documento HTML.
+
+-- 44 of 122 --

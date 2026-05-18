@@ -1,0 +1,40 @@
+# 48 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 98)
+
+## Contenido
+# 48 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+5
+Como comunicamos los Sprints
+Es importante mantener a toda la compañía informada sobre lo que está
+ocurriendo. De otra forma, la gente se queja constantemente o, incluso peor,
+hacen falsas presunciones sobre lo que está ocurriendo.
+Utilizamos una “página de información de Sprint” para esto.
+A veces incluimos también información sobre como se demostrará cada historia.
+Equipo Jackass, Sprint 15
+Objetivo de Sprint:
+- ¡Versión beta lista!
+Pila de Sprint:
+- Deposito (3)
+- Herramienta de migración (8)
+- Login en backoffice (5)
+- Administración de usuarios de backoffice (5)
+Velocidad estimada: 21
+Calendario:
+- Periodo de Sprint: 6/11/2006 a 24/11/2006
+- Scrum diario: 9:30-9:45 en la sala del equipo
+- Demo de Sprint: 24/11/2006, 13:00 en la
+cafetería
+Equipo:
+- Jim
+- Erica (Scrum Master)
+- Tom (75%)
+- Eva
+- John
+Versión gratuita on-line.
+Apoya este trabajo, compra la copia impresa:
+http://infoq.com/minibooks/scrum-xp-from- the-trenches
+
+-- 48 of 122 --

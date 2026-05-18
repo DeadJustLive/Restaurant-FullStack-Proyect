@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch368-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 368,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 33,
+  "words": 33,
+  "content": "# OBSERVACIONES: * va a la zona de selecci´on y lee el n´umero all´ı codificado */ { IrAlOrigenDeZonaDeSeleccion() return(leerZonaDeNumeros()) } //---------------------------------------------------- function leerSemilla() /* PROP´OSITO: leer el valor de la semilla del tablero"
+}

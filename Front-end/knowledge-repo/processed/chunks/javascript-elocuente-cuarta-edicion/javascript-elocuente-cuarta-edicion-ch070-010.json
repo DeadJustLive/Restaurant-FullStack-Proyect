@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch070-010",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 70,
+  "chunkIndex": 10,
+  "title": "capítulo d: el proyecto, 116, 200, 261,",
+  "start": 4500,
+  "end": 4788,
+  "words": 288,
+  "content": "286 Método getDate, 149 método getElementById, 227 método getElementsByClassName, 227 método getElementsByTagName, 227, 240 Método getFullYear, 149 Método getHours, 149 método getItem, 326, 327 Método getMinutes, 149 Método getMonth, 149 Método getSeconds, 149 Método getTime, 149 Método getYear, 149 método has, 104, 114 método includes, 395 método indexOf, 114, 143, 157, 395 método insertBefore, 227 método isDirectory, 365 método join, 93, 103, 355 método json, 312 método listen, 359, 360 método map, 89, 93, 103, 119, 264 método match, 148, 159 método moveTo, 291 método next, 395 método on, 361 método pipe, 363, 366 método pop, 59, 69 Método POST, 373 método POST, 310, 311 método postMessage, 256 421 -- 433 of 445 -- método preventDefault, 246, 252, 254, 337 método próximo, 109 método push, 59, 69, 395 Método PUT, 373 método PUT, 310, 362, 366, 378 método quadraticCurveTo, 289 método readAsText, 325 método reduce, 88, 89, 93, 94, 394 método removeChild, 227 método removeEventListener, 243 método removeItem, 326 método replace, 154 método restore, 297, 298 método reverse, 78 método rotate, 298 método save, 297, 298 método scale, 295, 296 método search, 157 método set, 104 método setAttribute, 230 método setItem, 326 método shift, 69 método slice, 229, 392 método some, 394 método split, 117, 264, 400 método startsWith, 363 método stopPropagation, 245 método stroke, 288, 289 método strokeText, 292, 293 método syncState, 333, 340, 350 método talkResponse, 380 método test, 143 método text, 312 método then, 182–185 método toLowerCase, 59, 240 método toString, 97, 103–105, 345, 361 método touches, 275 método toUpperCase, 59, 130, 240, 361 método translate, 296 método trim, 264 método unshift, 69 método updated, 378 método waitForChanges, 380 método write, 360 método writeHead, 359 mínimo, 27, 73 módulo, 166, 375 diseño, 174 resolución, 168"
+}

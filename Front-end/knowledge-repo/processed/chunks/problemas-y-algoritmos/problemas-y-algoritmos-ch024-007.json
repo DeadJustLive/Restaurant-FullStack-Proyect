@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch024-007",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 24,
+  "chunkIndex": 7,
+  "title": "11. Es obvio que cad(1, c) imprime c líneas.",
+  "start": 3150,
+  "end": 3570,
+  "words": 420,
+  "content": "++) 8 p r i n t f ( \" %d \" , p [ i ] ) ; 9 p r i n t f ( \"\\n\" ) ; 10 } e l s e { // Sino , r e a l i z a l o s i n t e r c a m b i o s c o r r e s p o n d i e n t e s y e n t r a en r e c u r s i o n 11 for ( i =0; i <n ; i ++){ 12 aux=p [ i ] ; // I n t e r c a m b i a l o s v a l o r e s de p [ n−1] y p [ i ] 13 p [ i ]=p [ n − 1 ] ; 14 p [ n−1]=aux ; 15 p e r m u t a c i o n e s ( n−1) ; // Hace l a l la ma da r e c u r s i v a 16 aux=p [ i ] ; //Pone l o s v a l o r e s de p [ n−1] y p [ i ] en su l u g a r 17 p [ i ]=p [ n − 1 ] ; 18 p [ n−1]=aux ; 19 } 20 } 21 } 22 int main ( ) { 23 int i ; 24 s c a n f ( \" %d\" , \\&N) ; // Lee e l tamaño d e l c o n j u n t o de l a e n t r a d a 25 p=new int [N ] ; 26 for ( i =0; i <N; i ++) // I n i c i a l i z a e l c o n j u n t o -- 72 of 315 -- 5.3. PERMUTACIONES 73 27 p [ i ]= i +1; 28 p e r m u t a c i o n e s (N) ; // E j e c u t a l a r e c u r s i o n 29 return 0 ; 30 } Nuevamente el código de la función es bastante corto aunque el resto del programa hace el código mas largo. -- 73 of 315 -- 74 CAPÍTULO 5. BÚSQUEDA EXHAUSTIVA -- 74 of 315 --"
+}

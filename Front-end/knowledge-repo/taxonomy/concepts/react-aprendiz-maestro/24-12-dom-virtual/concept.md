@@ -1,0 +1,52 @@
+# 1.2 DOM Virtual
+
+## Fuente
+react-aprendiz-maestro (Cap. 24)
+
+## Contenido
+# 1.2 DOM Virtual
+
+DOM Virtual
+Uno de los problemas principales de la programación es cómo lidiar con el estado.
+Supón que estás desarrollando una interfaz de usuario y quieres mostrar los mismos
+datos en varios sitios. ¿Cómo puedes estar seguro de que los datos que estás
+mostrando son consistentes?
+Tradicionalmente se han mezclado tanto la gestión del DOM como la gestión del
+estado. React soluciona este problema de una manera diferente, ya que introduce el
+concepto de DOM Virtual para el público en general.
+El DOM Virtual se encuentra por encima del DOM del navegador, o de cualquier
+
+-- 21 of 226 --
+
+Introducción a React 4
+otro elemento que deba ser renderizado. Resuelve el problema de cómo manipular
+el estado a su propia manera. Sea cual sea el cambio que se ha hecho sobre él, se
+las apaña para encontrar y aplicar los cambios sobre el DOM subyacente. Es capaz
+de propagar los cambios sobre el árbol virtual tal y como se muestra en la imagen
+anterior.
+El Rendimiento del DOM Virtual
+Manipular el DOM de esta manera puede llevar a mejoras en el rendimiento. En
+cambio, manipular el DOM a mano suele ser ineficiente y difícil de optimizar. Puedes
+ahorrar un montón de tiempo y de esfuerzo si delegas el problema de la manipulación
+del DOM en una buena implementación que lo lleve a cabo.
+React te permite realizar ciertos ajustes de rendimiento implementando unos puntos
+de enganche con los que ajustar la forma en la que se actualiza el árbol virtual. Por
+lo general esto es, a menudo, algo opcional.
+El mayor coste de tener DOM Virtual es que hace que la implementación de React
+sea muy grande. Es de esperar que el tamaño de aplicaciones pequeñas gire en torno
+a los 150-200 kB minimizadas, con React incluido. La compresión ayuda, pero aún
+así sigue siendo grande.
+Soluciones como preact2 y react-lite3 te permiten obtener tamaños más
+pequeños a costa de perder algunas funcionalidades. Si estás preocupado
+por el tamaño quizá podrías considerar estas soluciones.
+Hay librerías como Matt-Esch/virtual-dom4 o paldepind/snabbdom5 que
+se centran totalmente en el DOM Virtual. Échales un vistazo si estás
+interesado en la teoría y quieres conocer más.
+2https://developit.github.io/preact/
+3https://github.com/Lucifier129/react-lite
+4https://github.com/Matt-Esch/virtual-dom
+5https://github.com/paldepind/snabbdom
+
+-- 22 of 226 --
+
+Introducción a React 5

@@ -1,0 +1,11 @@
+{
+  "id": "2-3-6-guia-desarrollo-software-v2-0-ch053-000",
+  "bookId": "2-3-6-guia-desarrollo-software-v2-0",
+  "chapterIndex": 53,
+  "chunkIndex": 0,
+  "title": "2. Ejemplo Gitlab-ci.yml",
+  "start": 0,
+  "end": 45,
+  "words": 45,
+  "content": "# 2. Ejemplo Gitlab-ci.yml El archivo gitlab-ci.yml es un archivo YAML que se encuentra en la raíz del proyecto, y que se ejecuta automáticamente cada vez que se ejecuta un commit. Este archivo hace que un runner procese las tareas especificadas en el mismo archivo."
+}

@@ -1,0 +1,84 @@
+# Tema I: con el procedimiento info.
+
+## Fuente
+apuntes-estructuras-datos-algoritmos (Cap. 141)
+
+## Contenido
+# Tema I: con el procedimiento info.
+
+Veamos, a continuación, una posible signatura de los tipos “booleano” y “naturales con el cero”.
+espec boolnat
+géneros booleano,natural
+operaciones
+verdad,falso: -> booleano
+¬_: booleano -> booleano
+_∧_,_∨_: booleano booleano -> booleano
+0,1: -> natural
+suc: natural -> natural
+_+_,_*_: natural natural -> natural
+_≤_,_>_: natural natural -> booleano
+fespec
+En este ejemplo, verdad, falso, 0 y 1 son constantes. La operación suc es prefija, es decir, el nombre de la operación
+precede a los operandos y éstos van entre paréntesis y separados por comas. Para definir operaciones prefijas sin paréntesis
+o infijas, indicaremos mediante el símbolo ‘_’ la posición de los argumentos con respecto al nombre de la operación
+(ejemplos: ¬_, _+_, …).
+Para cada género existe un conjunto de términos bien formados (es decir, sintácticamente correctos) o, simplemente,
+términos. La signatura especifica cómo se construyen los términos. De manera informal, cada constante es un término y
+la aplicación de un símbolo de operación a un número apropiado de términos de géneros adecuados es también un
+término. En el caso de definir operaciones con notación infija se precisa además la utilización de paréntesis para construir
+los términos. Los siguientes son ejemplos de términos bien formados:
+1
+(suc(1+suc(0))*1)≤1
+((verdad∨falso)∧(¬falso))∧(0>suc(suc(1)))
+A la especificación algebraica de un TAD se le puede atribuir una semántica o significado. Dicho significado consiste
+en considerar que cada término bien formado denota un valor del tipo al que pertenece la expresión construida. Por
+ejemplo, 	0, 	1, 	suc(0), 	0+1, 	son 	valores 	del 	tipo 	natural, 	mientras 	que 	verdad, 	falso, 	¬falso,
+(suc(1+suc(0))*1)≤1, son valores de tipo booleano.
+En la denominada semántica inicial del TAD natural definido previamente, cada término bien formado de tipo
+natural denota un valor diferente de dicho tipo.
+Es posible que, según la idea intuitiva del programador sobre el tipo que está definiendo, varios términos bien formados
+diferentes deban corresponder a un mismo valor. Por ejemplo, los términos 1, suc(0), 0+1, 1+0 y 1*1, corresponden a la
+idea abstracta “uno”, que todos conocemos, y por tanto deberían tener un mismo significado. Sin embargo, la semántica
+inicial considera, por defecto, valores distintos aquéllos que se construyen con términos distintos.
+Considerando la semántica inicial, la siguiente especificación construye exactamente el tipo de los números naturales
+(con el cero):
+
+-- 232 of 267 --
+
+219
+espec naturales_1
+género natural
+operaciones
+0: -> natural
+suc: natural -> natural
+fespec
+Los únicos valores que pueden construirse son 0, suc(0), suc(suc(0)), suc(suc(suc(0))), etcétera. Cada
+término denota un valor diferente, que corresponde a la idea intuitiva de un natural diferente.
+Si queremos añadir la operación “suma” a la especificación anterior, puede intentarse en la forma siguiente:
+espec naturales_2
+género natural
+operaciones
+0: -> natural
+suc: natural -> natural
+_+_: natural natural -> natural
+fespec
+Sin embargo, esta especificación construye un tipo que no corresponde con lo que llamamos “naturales” puesto que,
+por ejemplo, los términos suc(0) y 0+suc(0) denotan, en principio, valores diferentes (algo contrario a nuestro
+conocimiento sobre cómo los números naturales deberían comportarse).
+La forma de expresar en una especificación que varios términos corresponden a un mismo valor y tienen, por tanto,
+un mismo significado es añadir ecuaciones:
+término_1 = término_2
+Donde término_1 y término_2 son términos bien formados de un mismo género.
+Para poder expresar el hecho de que un número grande o infinito de términos bien formados tienen el mismo valor se
+pueden introducir variables en las ecuaciones. Se entiende que, en cada ecuación con variables, éstas están (implícitamente)
+cuantificadas universalmente (∀).
+espec naturales_3
+género natural
+operaciones
+0: -> natural
+suc: natural -> natural
+_+_: natural natural -> natural
+ecuaciones x,y:natural
+x+0 = x
+x+suc(y) = suc(x+y)
+fespec

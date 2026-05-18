@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch061-006",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 61,
+  "chunkIndex": 6,
+  "title": "4. Puede recibir cualquier número de parámetros.",
+  "start": 2700,
+  "end": 2839,
+  "words": 139,
+  "content": "], Out : {3: castellano }, get_ipython : <bound method InteractiveShell.get_ipython of <IPython.terminal. ˓→interactiveshell.TerminalInteractiveShell object at 0x10e70c2e0>>, exit : <IPython.core.autocall.ExitAutocall at 0x10e761070>, quit : <IPython.core.autocall.ExitAutocall at 0x10e761070>, _ : castellano , __ : , ___ : , Prompts : IPython.terminal.prompts.Prompts, Token : Token, MyPrompt : __main__.MyPrompt, ip : <IPython.terminal.interactiveshell.TerminalInteractiveShell at 0x10e70c2e0>, _i : catalonia() , _ii : language , _iii : \"def catalonia():\\n language = catalan \\n print(f {locals()=} )\\n ␣ ˓→ \", _i1 : \"language = castellano \", language : castellano , _i2 : \"def catalonia():\\n language = catalan \\n print(f {locals()=} )\\n ˓→\", catalonia : <function __main__.catalonia()>, (continué en la próxima página) 248 Capítulo 6. Modularidad -- 252 of 516 -- Aprende Python (proviene de la página anterior) _i3 : language , _3 : castellano , _i4 : catalonia() , _i5 : globals() } EJERCICIOS DE REPASO"
+}

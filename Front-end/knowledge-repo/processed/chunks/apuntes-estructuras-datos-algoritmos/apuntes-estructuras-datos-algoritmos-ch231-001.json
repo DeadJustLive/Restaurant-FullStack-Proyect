@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch231-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 231,
+  "chunkIndex": 1,
+  "title": "2. Estructuras de datos recursivas: representación mediante punteros y datos",
+  "start": 450,
+  "end": 688,
+  "words": 238,
+  "content": "segundo caso no hay ningún problema: desapilar(apilar(p,e)) = p Sin embargo, no hay ningún término canónico congruente a desapilar(pilaVacía). Este término representa una situación indeseada o situación de error. Para salvar este problema, consideraremos la posible existencia de operaciones parciales, cuyo dominio pueda ser restringido. En el caso de la operación observadora cima, no tiene sentido el término cima(pilaVacía). Su dominio de definición debe limitarse a los casos cima(apilar(p,e)), con p y e variables de géneros pila y elemento, respectivamente. Denotaremos las operaciones parciales de la siguiente forma: espec pilas usa booleanos parámetro formal género elemento -- 242 of 267 -- 229 fpf género pila operaciones pilaVacía: -> pila apilar: pila elemento -> pila desapilar: pila -> pila parcial cima: pila -> elemento vacía?: pila -> bool dominio de definición p:pila; e:elemento cima(apilar(p,e)) ecuaciones p:pila; e:elemento desapilar(pilaVacía) = pilaVacía desapilar(apilar(p,e)) = p cima(apilar(p,e)) = e vacía?(pilaVacía) = verdad vacía?(apilar(p,e)) = falso fespec Nótese que a las operaciones parciales se antepone la palabra clave parcial. Tras la cláusula dominios de definición se incluyen los términos para los que se extiende el dominio de las operaciones parciales. Finalmente, hay que notar que el significado del símbolo = en las ecuaciones cambia en el siguiente sentido: cuando el símbolo = actúe sobre dos términos en los que aparezca una operación parcial, hay que entender que expresa lo siguiente: “en caso de estar definidas las operaciones parciales, los dos términos son congruentes”."
+}

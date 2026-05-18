@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch014-003",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 14,
+  "chunkIndex": 3,
+  "title": "PREFACIO",
+  "start": 1350,
+  "end": 1674,
+  "words": 324,
+  "content": "que finalizar tras un número finito de acciones. Cuando el algoritmo Sumar sea ya un programa, la ejecución de éste siempre será la misma, ya que, siempre se seguirán las acciones descritas en el cuerpo del algoritmo, una por una, desde la primera hasta la última y en el orden establecido.  Precisión. Todas las acciones de un algoritmo deben estar bien definidas, esto es, ninguna acción puede ser ambigua, sino que cada una de ellas solamente se debe poder interpretar de una única manera. Dicho de otra forma, si el programa que resulta de un algoritmo se ejecuta varias veces con los mismos datos de entrada, en todos los casos se obtendrán los mismos datos de salida.  Claridad. Lo normal es que un problema se pueda resolver de distintas formas. Por tanto, una de las tareas más importantes del diseñador de un algoritmo es encontrar la solución más legible, es decir, aquella más comprensible para el ser humano.  Generalidad. Un algoritmo debe resolver problemas generales. Por ejemplo, el programa Sumar deberá servir para realizar sumas de dos números enteros cualesquiera, y no, solamente, para sumar dos números determinados, como pueden ser el 3 y el 5. -- 15 of 180 -- Libro de Algoritmos de “Abrirllave.com” 16 / 180  Eficiencia. La ejecución del programa resultante de codificar un algoritmo deberá consumir lo menos posible los recursos disponibles del ordenador (memoria, tiempo de CPU, etc.).  Sencillez. A veces, encontrar la solución algorítmica más eficiente a un problema puede llevar a escribir un algoritmo muy complejo, afectando a la claridad del mismo. Por tanto, hay que intentar que la solución sea sencilla, aun a costa de perder un poco de eficiencia, es decir, se tiene que buscar un equilibrio entre la claridad y la eficiencia. Escribir algoritmos sencillos, claros y eficientes se consigue a base de práctica.  Modularidad. Nunca hay que olvidarse del hecho de que un algoritmo puede formar"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch340-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 340,
+  "chunkIndex": 0,
+  "title": "10. Tipos de datos",
+  "start": 0,
+  "end": 19,
+  "words": 19,
+  "content": "# PRECONDICIONES: * default <hay un tablero de Zilfost codificado> * hay un d´ıgito codificado en la celda actual"
+}

@@ -118,7 +118,7 @@ public interface MenuItemService {
      * @return MenuItemResponseDTO del ítem creado.
      * @throws cl.triskeledu.menu.exception.ItemDuplicadoException si el nombre ya existe en la categoría.
      */
-    MenuItemResponseDTO crear(MenuItemRequestDTO dto);
+    MenuItemResponseDTO crear(Long credencialId, MenuItemRequestDTO dto);
 
     /**
      * OPERACIÓN: Actualizar completamente un ítem del menú (PUT).
@@ -140,7 +140,7 @@ public interface MenuItemService {
      * @return MenuItemResponseDTO actualizado.
      * @throws cl.triskeledu.menu.exception.MenuItemNotFoundException si el ID no existe.
      */
-    MenuItemResponseDTO actualizar(Long id, MenuItemRequestDTO dto);
+    MenuItemResponseDTO actualizar(Long credencialId, Long id, MenuItemRequestDTO dto);
 
     /**
      * OPERACIÓN: Cambiar el flag de disponibilidad de un ítem (PATCH).
@@ -162,7 +162,7 @@ public interface MenuItemService {
      * @param disponible Nuevo valor del flag de disponibilidad.
      * @return MenuItemResponseDTO actualizado.
      */
-    MenuItemResponseDTO cambiarDisponibilidad(Long id, Boolean disponible);
+    MenuItemResponseDTO cambiarDisponibilidad(Long credencialId, Long id, Boolean disponible);
 
     /**
      * OPERACIÓN: Eliminar un ítem del menú por ID.
@@ -187,5 +187,5 @@ public interface MenuItemService {
      *
      * @param id ID del ítem a eliminar.
      */
-    void eliminar(Long id);
+    void eliminar(Long credencialId, Long id);
 }
