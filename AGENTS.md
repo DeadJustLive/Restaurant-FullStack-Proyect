@@ -1,7 +1,7 @@
 # AGENTS.md — Contexto para IA
 
 ## Stack
-- Java 21, Spring Boot 3.5.13, Spring Cloud 2025.0.0
+- Java 21, Spring Boot 3.5.14, Spring Cloud 2025.0.0
 - PostgreSQL (puerto 5433), H2 para testing
 - Spring Data JPA, Spring Kafka, Spring Security (ms-auth)
 - Eureka Server, OpenFeign, MapStruct 1.5.5, Lombok 1.18.44

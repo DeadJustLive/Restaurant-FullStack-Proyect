@@ -1,6 +1,12 @@
-# Plan de Pruebas Postman — Microservicios Restaurant
+# Plan de Pruebas — Microservicios Restaurant
 
-> **Colección Postman:** `Documentacion/Restaurant-API.postman_collection.json` (importar en Postman)
+> **Colección Postman recomendada:**
+> El archivo `Documentacion/Restaurant-API.postman_collection.json` no está incluido en el repositorio.
+> Como alternativa, usa los scripts automáticos:
+> - **Linux:** `Restaurant/pruebas-microservicios/test_endpoints.sh`
+> - **Windows:** `Restaurant/pruebas-microservicios/test_endpoints.bat`
+>
+> O genera la colección Postman desde los controladores usando Postman's "Import from code" con los endpoints listados abajo.
 
 ---
 
@@ -114,24 +120,23 @@ Content-Type: application/json
 ```json
 {
     "token": "eyJhbGciOiJIUzI1NiJ9...",
-    "refreshToken": "eyJhbGciOiJIUzI1NiJ9...",
     "expiresIn": 86400,
     "rol": "ROLE_SA",
     "username": "roberto.admin@restaurant.cl"
 }
 ```
 
+> ⚠️ **Nota:** `refreshToken` no está implementado en la versión actual. El endpoint `POST /api/v1/auth/refresh` lanza `UnsupportedOperationException`. Solo se usa el `token` JWT estándar con expiración de 24h.
+
 **Test post-response:**
 ```javascript
 pm.test("Status 200", () => pm.response.to.have.status(200));
 const body = pm.response.json();
 pm.test("Has token", () => pm.expect(body.token).to.exist);
-pm.test("Has refreshToken", () => pm.expect(body.refreshToken).to.exist);
 pm.test("Has rol", () => pm.expect(body.rol).to.exist);
 
 // Auto-guardar en environment
 pm.environment.set("TOKEN", body.token);
-pm.environment.set("REFRESH_TOKEN", body.refreshToken);
 pm.environment.set("ROL", body.rol);
 
 if (body.rol === "ROLE_SA") pm.environment.set("CREDENCIAL_ID", "1");
@@ -142,18 +147,18 @@ else if (body.rol === "ROLE_RP") pm.environment.set("CREDENCIAL_ID", "5");
 else if (body.rol === "ROLE_CL") pm.environment.set("CREDENCIAL_ID", "6");
 ```
 
-### 4.3 Refresh Token
+### 4.3 Refresh Token (No Implementado)
+
+> ⚠️ **No implementado.** El endpoint `POST /api/v1/auth/refresh` lanza `UnsupportedOperationException`.
 
 ```
 POST {{BASE_AUTH}}/api/v1/auth/refresh?refreshToken={{REFRESH_TOKEN}}
 ```
 
-**Test:** Guardar nuevos `TOKEN` y `REFRESH_TOKEN`.
-
 ### 4.4 Logout
 
 ```
-POST {{BASE_AUTH}}/api/v1/auth/logout?refreshToken={{REFRESH_TOKEN}}
+POST {{BASE_AUTH}}/api/v1/auth/logout
 ```
 
 **Respuesta:** 204 No Content (idempotente).

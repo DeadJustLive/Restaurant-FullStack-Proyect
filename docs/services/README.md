@@ -1,26 +1,27 @@
 # 🛠️ Catálogo de Microservicios
 
-El ecosistema se compone de **12 microservicios** independientes que colaboran para ofrecer la funcionalidad completa del restaurante. Cada servicio sigue un patrón de arquitectura de 6 capas y posee su propia base de datos.
+El ecosistema se compone de **10 microservicios de negocio** + **Eureka Server** que colaboran para ofrecer la funcionalidad completa del restaurante. Cada servicio sigue el patrón **CSR** (Controller → Service → Repository) con 6+ capas y posee su propia base de datos PostgreSQL.
+
+> 📌 **Migración v12→v10:** Los servicios `ms-usuarios` y `ms-categorias` fueron fusionados en `ms-auth` y `ms-menu` respectivamente. Ver [changelog de migración](../07-migration-changelog.md).
 
 ## Servicios Nucleares (Core)
-*   [**ms-auth**](ms-auth.md): Gestión de tokens JWT y autenticación centralizada.
-*   [**ms-usuarios**](ms-usuarios.md): Perfiles de usuarios, roles y asignación a sucursales.
-*   [**ms-sucursales**](ms-sucursales.md): Maestro de locales físicos y estados operativos.
+*   [**ms-auth**](ms-auth.md) (`:9001`): Autenticación JWT, registro/login, gestión de usuarios y roles.
+*   [**ms-sucursales**](ms-sucursales.md) (`:9003`): Maestro de locales físicos y estados operativos.
 
 ## Gestión Comercial y Menú
-*   [**ms-menu**](ms-menu.md): Catálogo de productos, precios y disponibilidad.
-*   [**ms-categorias**](ms-categorias.md): Taxonomía y clasificación de productos.
-*   [**ms-carrito**](ms-carrito.md): Persistencia temporal de la selección del cliente.
+*   [**ms-menu**](ms-menu.md) (`:9004`): Catálogo de productos, categorías, precios y disponibilidad.
+*   [**ms-carrito**](ms-carrito.md) (`:9006`): Persistencia temporal de la selección del cliente.
 
 ## Operaciones y Transacciones
-*   [**ms-pedidos**](ms-pedidos.md): Motor de estados de la orden (Desde Pendiente hasta Entregado).
-*   [**ms-pagos**](ms-pagos.md): Procesamiento transaccional y pasarelas de pago.
-*   [**ms-delivery**](ms-delivery.md): Logística de última milla y asignación de repartidores.
+*   [**ms-pedidos**](ms-pedidos.md) (`:9007`): Motor de estados de la orden (Pendiente → Entregado).
+*   [**ms-pagos**](ms-pagos.md) (`:9008`): Procesamiento transaccional y registro de pagos.
+*   [**ms-delivery**](ms-delivery.md) (`:9009`): Logística de última milla y asignación de repartidores.
 
 ## Soporte e Inteligencia
-*   [**ms-inventario**](ms-inventario.md): Control de stock de materias primas y recetas.
-*   [**ms-notificaciones**](ms-notificaciones.md): Motor de alertas (Email, SMS, Push).
-*   [**ms-reportes**](ms-reportes.md): Análisis de datos, CQRS y Dashboards gerenciales.
+*   [**ms-inventario**](ms-inventario.md) (`:9010`): Control de stock de insumos y movimientos.
+*   [**ms-notificaciones**](ms-notificaciones.md) (`:9011`): Motor de alertas (historial de notificaciones).
+*   [**ms-reportes**](ms-reportes.md) (`:9012`): Análisis de datos, CQRS y snapshots gerenciales.
 
 ---
+
 [⬅️ Volver al Inicio](../00-intro.md)

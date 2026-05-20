@@ -154,7 +154,7 @@ curl http://localhost:9007/api/v1/pedidos         # → 200 OK
 ```bash
 cd Front-end/
 npm install      # Solo la primera vez
-npm run dev      # → http://localhost:5173
+npm run dev      # → http://localhost:3000
 ```
 
 ---
@@ -340,7 +340,7 @@ docker compose up -d        # Vuelve a crear (init.sh se ejecuta automáticament
 │ ms-reportes  │ 9012     │ DB: reportes · Kafka cons    │
 │ PostgreSQL   │ 5433     │ 10 databases (1 por MS)      │
 │ Kafka        │ 9092     │ Mensajería asíncrona          │
-│ Frontend     │ 5173     │ React + Vite                 │
+│ Frontend     │ 3000     │ React + Vite                 │
 └──────────────┴──────────┴──────────────────────────────┘
 ```
 
@@ -351,7 +351,7 @@ docker compose up -d        # Vuelve a crear (init.sh se ejecuta automáticament
 | Archivo | Propósito |
 |---------|-----------|
 | `GUIA-INICIO-RAPIDO.md` | **Este archivo** — guía compacta con comandos copypaste |
-| `GUIA-INICIO-SISTEMA.md` | Guía detallada con antecedentes arquitectónicos |
+| `docs/03-operations.md` | Guía detallada con antecedentes arquitectónicos |
 | `start.sh` / `stop.sh` | Scripts automáticos Linux |
 | `launch.sh` / `launch.bat` | Launcher avanzado con opciones (`--only`, `--no-docker`) |
 | `compile.bat` | Compilar solo (Windows) |

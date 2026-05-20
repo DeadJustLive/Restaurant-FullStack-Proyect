@@ -1,22 +1,55 @@
 # 📜 Microservicio: Menú (ms-menu)
 
-## Propósito
-Gestionar el catálogo de platos, precios y disponibilidad de la oferta gastronómica del restaurante.
+> [!IMPORTANT]
+> **Estado de Implementación:** ✅ **IMPLEMENTADO** (100% funcional)
+> Incluye gestión de `MenuItem` y `Categoria` como entidades JPA internas (relación `@ManyToOne` directa, sin Feign).
 
-## Estado Actual de Implementación: [PARCIALMENTE IMPLEMENTADO]
-- **Funcional:** Estructura de base de datos para MenuItems.
-- **Scaffolding:** El servicio cuenta con la lógica básica de CRUD pero falta la integración de precios dinámicos por sucursal.
-- **Puerto Real:** 9004.
+## 1. Propósito
+Gestionar el catálogo de platos, categorías, precios y disponibilidad de la oferta gastronómica del restaurante.
 
-## Arquitectura Objetivo
-- Validación de disponibilidad en tiempo real basada en el stock de `ms-inventario`.
-- Gestión de modificadores (extras, términos de carne, etc.).
-- Sincronización con `ms-categorias` para filtrado eficiente.
+## 2. Funcionalidad Implementada
+*   CRUD completo de **items del menú** (`MenuItem`) con precios, descripción, disponible/eliminado.
+*   CRUD completo de **categorías** (`Categoria`) con activa/eliminado.
+*   Relación `@ManyToOne` directa entre `MenuItem` → `Categoria` (dentro del mismo microservicio, sin Feign).
+*   Proyección local de sucursales via Kafka (`sucursal-events`) para filtrado por sucursal.
 
-## Limitaciones Actuales
-- No valida si una categoría existe realmente antes de asociarla al plato (falta integración Feign).
-- Los precios son globales y no varían por sucursal aún.
+## 3. Diccionario de Datos
 
-## Dependencias Reales
-- `ms-categorias`: Para la taxonomía del catálogo.
-- `ms-eureka`: Para el registro en el ecosistema.
+### MenuItem
+| Campo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| `id` | `Long` | PK autoincremental |
+| `nombre` | `String` | Nombre del plato |
+| `descripcion` | `String` | Descripción del plato |
+| `precio` | `BigDecimal` | Precio actual |
+| `categoria` | `Categoria` | `@ManyToOne` — categoría del plato |
+| `disponible` | `Boolean` | Disponibilidad actual |
+| `eliminado` | `Boolean` | Soft delete |
+
+### Categoria
+| Campo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| `id` | `Long` | PK autoincremental |
+| `nombre` | `String` | Nombre de la categoría |
+| `descripcion` | `String` | Descripción |
+| `activa` | `Boolean` | Soft delete |
+
+## 4. Endpoints
+*   `GET /api/v1/menu` — Listar items disponibles
+*   `GET /api/v1/menu/{id}` — Obtener item por ID
+*   `POST /api/v1/menu` — Crear item (requiere JWT)
+*   `PUT /api/v1/menu/{id}` — Actualizar item (requiere JWT)
+*   `DELETE /api/v1/menu/{id}` — Soft delete (requiere JWT)
+*   `PATCH /api/v1/menu/{id}/disponibilidad` — Cambiar disponibilidad
+*   `GET /api/v1/categorias` — Listar categorías activas
+*   `GET /api/v1/categorias/{id}` — Obtener categoría por ID
+*   `POST /api/v1/categorias` — Crear categoría (requiere JWT)
+
+## 5. Kafka
+*   **Consumer:** `sucursal-events` — actualiza proyección local de sucursales
+*   **Producer:** `menu-item-events` — notifica cambios a carrito, pedidos, inventario
+
+## 6. Dependencias
+*   `ms-sucursales` (Feign): Consulta de sucursales activas
+*   `ms-auth` (Feign): Validación de JWT
+*   `Eureka`: Registro y descubrimiento

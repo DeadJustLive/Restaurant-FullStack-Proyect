@@ -1,31 +1,70 @@
-# 🍽️ Restaurant Platform — Proyecto de Microservicios
+# 🏪 Restaurant Platform — Proyecto de Microservicios
 
-## 📝 Descripción General
-Este es un proyecto semestral diseñado bajo una arquitectura de microservicios utilizando **Java 21** y **Spring Boot 3.5**. El sistema está orientado a la gestión integral de un restaurante, cubriendo desde la administración de sucursales y menús hasta el procesamiento de pedidos, pagos, inventario y reportes consolidados.
+## 1. Descripción General
+Plataforma SaaS para la gestión integral de restaurantes, construida sobre una arquitectura de **10 microservicios** que implementan los patrones **Database per Service**, **CQRS** (vía Kafka) y **Service Discovery** (vía Eureka).
 
-## 🛠️ Stack Tecnológico Unificado
-El proyecto utiliza herramientas de última generación para asegurar escalabilidad y mantenibilidad:
+Cada microservicio es un módulo Maven independiente con su propia base de datos PostgreSQL, expone APIs REST documentadas, y se comunica con los demás mediante **OpenFeign** (síncrono) y **Apache Kafka** (asíncrono).
 
-*   **Lenguaje:** Java 21
-*   **Framework Principal:** Spring Boot 3.5.13
-*   **Gestión de Dependencias:** Maven
-*   **Microservicios:** Spring Cloud 2025 (Eureka, OpenFeign)
-*   **Seguridad:** Spring Security + JWT (JSON Web Tokens)
-*   **Base de Datos:** PostgreSQL (Database-per-service)
-*   **Mapeo de Datos:** MapStruct 1.5.5
-*   **Utilidades:** Lombok 1.18.44
-*   **Documentación:** Markdown Modular
+## 2. Stack Tecnológico
 
-## 📁 Estructura del Ecosistema de Documentación
-Para facilitar la navegación, la documentación se ha dividido en los siguientes módulos:
+| Componente | Versión |
+| :--- | :--- |
+| Java | 21 |
+| Spring Boot | 3.5.14 |
+| Spring Cloud | 2025.0.0 |
+| Spring Security | 6.x (JWT con jjwt 0.11.5) |
+| MapStruct | 1.5.5.Final |
+| Lombok | 1.18.44 |
+| PostgreSQL | 15 (Docker, puerto 5433) |
+| Apache Kafka | Confluent 7.5.0 (Docker, puerto 9092) |
+| Eureka Server | (Spring Cloud Netflix) |
+| OpenFeign | (Spring Cloud) |
+| Frontend | React 19 + TypeScript + Vite 8 |
+| Estilos | Tailwind CSS + shadcn/ui |
 
-1.  **[Arquitectura y Diseño](01-architecture.md):** Principios, topología y estándares de código.
-2.  **[Seguridad y Accesos](02-security.md):** Roles del sistema y flujo de autenticación.
-3.  **[Guía de Operaciones](03-operations.md):** Cómo compilar, ejecutar y mapa de puertos.
-4.  **[Referencia de Microservicios](services/):** Detalles técnicos específicos de cada uno de los 12 servicios.
-5.  **[Flujos y Reglas de Negocio](04-business-flows.md):** Procesos transversales (Pedidos, Pagos, Inventario).
-6.  **[Diccionario de Datos](05-data-dictionary.md):** Entidades y esquemas de base de datos.
-7.  **[Backlog y Seguimiento](06-backlog.md):** Estado del proyecto, prioridades y estimaciones.
+## 3. Microservicios
 
----
-> **Nota Académica:** Este proyecto cumple con los requisitos de desacoplamiento total, donde cada servicio posee su propio ciclo de vida y almacenamiento.
+| # | Servicio | Puerto | BD | Estado |
+|---|----------|--------|----|--------|
+| 1 | Eureka Server | 8761 | — | ✅ |
+| 2 | ms-auth | 9001 | auth | ✅ 100% |
+| 3 | ms-sucursales | 9003 | sucursales | 🔶 Scaffolding |
+| 4 | ms-menu | 9004 | menu | ✅ 100% |
+| 5 | ms-carrito | 9006 | carrito | 🔶 Scaffolding |
+| 6 | ms-pedidos | 9007 | pedidos | ✅ 100% |
+| 7 | ms-pagos | 9008 | pagos | 🔶 Scaffolding |
+| 8 | ms-delivery | 9009 | delivery | 🔶 Scaffolding |
+| 9 | ms-inventario | 9010 | inventario | ✅ 100% |
+| 10 | ms-notificaciones | 9011 | notificaciones | 🔶 Scaffolding |
+| 11 | ms-reportes | 9012 | reportes | 🔶 Scaffolding |
+
+> **Nota:** Los microservicios `ms-usuarios` y `ms-categorias` fueron fusionados en `ms-auth` y `ms-menu` respectivamente durante la migración v12→v10. Ver [changelog](07-migration-changelog.md).
+
+## 4. Estructura del Ecosistema de Documentación
+
+```
+docs/
+├── 00-intro.md              ← Este archivo (intro + stack + tabla)
+├── 01-architecture.md        ← Topología, principios, mapa de puertos
+├── 02-security.md            ← Autenticación JWT + seguridad
+├── 03-operations.md          ← Guía de inicio del sistema
+├── 04-business-flows.md      ← Flujos de negocio (compra E2E)
+├── 05-data-dictionary.md     ← Diccionario de datos + relaciones + CQRS
+├── 06-backlog.md             ← Backlog y seguimiento
+├── 07-migration-changelog.md ← Migración v12→v10
+├── 08-postman-testing.md     ← Plan de pruebas Postman
+├── services/                 ← Docs individuales por microservicio
+│   ├── README.md
+│   ├── ms-auth.md
+│   ├── ms-sucursales.md
+│   ├── ms-menu.md
+│   ├── ms-carrito.md
+│   ├── ms-pedidos.md
+│   ├── ms-pagos.md
+│   ├── ms-delivery.md
+│   ├── ms-inventario.md
+│   ├── ms-notificaciones.md
+│   └── ms-reportes.md
+└── PHASES/
+    └── kafka-integration.md  ← Fase Kafka (COMPLETADA)
+```
