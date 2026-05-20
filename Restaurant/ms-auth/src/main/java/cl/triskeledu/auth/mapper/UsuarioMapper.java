@@ -29,38 +29,26 @@ import org.mapstruct.MappingTarget;
  */
 @Mapper(componentModel = "spring", unmappedTargetPolicy = org.mapstruct.ReportingPolicy.IGNORE)
 public interface UsuarioMapper {
-
-    /**
-     * MAPEO: Usuario (entity) → UsuarioResponseDTO
-     *
-     * CAMPO CALCULADO: nombreCompleto
-     *   Se calcula concatenando nombre + " " + apellido.
-     *   Usa expression de MapStruct para campos derivados no presentes en la entidad.
-     *
-     * CAMPOS AUTOMÁTICOS (mismo nombre):
-     *   id, credencialId, nombre, apellido, telefono, direccion,
-     *   imagenUrl, sucursalId, activo, creadoEn, actualizadoEn.
-     *
-     * @param usuario Entidad a convertir.
-     * @return DTO de respuesta.
+    /* @learn-error 2026-05-20: MapStruct "erroneous element java.util.ArrayList"
+     *   SÍNTOMA: "No implementation was created for UsuarioMapper due to having
+     *   a problem in the erroneous element java.util.ArrayList" al compilar.
+     *   CAUSA RAÍZ: UsuarioResponseDTO tenía @Builder de Lombok. MapStruct
+     *   detectaba el builder e intentaba usarlo para construir el DTO, pero
+     *   el builder generado por Lombok chocaba con el annotation processing
+     *   de MapStruct (conflicto de orden Lombok → MapStruct).
+     *   SOLUCIÓN: Eliminar @Builder de UsuarioResponseDTO (no se usaba en
+     *   ningún lado). MapStruct usa new + setters automáticamente con
+     *   @NoArgsConstructor + setters (@Data).
+     *   VALIDACIÓN: mvn clean compile genera UsuarioMapperImpl correctamente.
+     *   mvn clean install -DskipTests compila 11/11 módulos sin errores.
+     *   REFERENCIA: https://mapstruct.org/documentation/stable/reference/html/#lombok
      */
+
     @Mapping(target = "nombreCompleto",
              expression = "java(usuario.getNombre() + \" \" + usuario.getApellido())")
-    @Mapping(target = "credencialId", source = "credencial.id")
+    @Mapping(target = "credencialId", source = "credencialId")
     UsuarioResponseDTO toResponseDTO(Usuario usuario);
 
-    /**
-     * MAPEO: UsuarioRequestDTO → Usuario (entity nueva para creación)
-     *
-     * CAMPOS NO MAPEADOS (quedan null — gestionados por BD/Hibernate):
-     *   - id:             generado por la BD.
-     *   - activo:         @Builder.Default = true.
-     *   - creadoEn:       @CreationTimestamp.
-     *   - actualizadoEn:  @UpdateTimestamp.
-     *
-     * @param dto DTO de request validado.
-     * @return Entidad nueva sin persistir.
-     */
     @Mapping(target = "credencial", ignore = true)
     @Mapping(target = "id", ignore = true)
     @Mapping(target = "activo", ignore = true)
@@ -68,20 +56,6 @@ public interface UsuarioMapper {
     @Mapping(target = "actualizadoEn", ignore = true)
     Usuario toEntity(UsuarioRequestDTO dto);
 
-    /**
-     * MAPEO: UsuarioRequestDTO → Usuario existente (actualización in-place para PUT)
-     *
-     * CAMPOS IGNORADOS EN ACTUALIZACIÓN:
-     *   - credencialId: INMUTABLE. Nunca modificar después de la creación.
-     *     Si se mapease, cualquier PUT podría reasignar el vínculo con ms-auth.
-     *
-     * USO EN UsuarioServiceImpl.actualizar():
-     *   usuarioMapper.updateEntityFromDto(dto, existente);
-     *   usuarioRepository.save(existente);
-     *
-     * @param dto    DTO con los nuevos valores.
-     * @param target Entidad existente a actualizar in-place.
-     */
     @Mapping(target = "credencial", ignore = true)
     @Mapping(target = "id", ignore = true)
     @Mapping(target = "activo", ignore = true)

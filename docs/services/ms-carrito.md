@@ -1,5 +1,14 @@
 # 🛒 Microservicio: Carrito (ms-carrito)
 
+> [!NOTE]
+> **Estado de Implementación:** 🟢 **IMPLEMENTADO**
+> - CRUD completo de carritos con persistencia en PostgreSQL.
+> - Ciclo de vida del carrito: crear, agregar ítems (con dedup por `menuItemId`), actualizar cantidad, remover ítem, vaciar carrito.
+> - **CQRS con proyecciones locales:** `MenuItemProyeccion` y `ClienteProyeccion` se actualizan vía Kafka (sin Feign a ms-menu).
+> - Kafka Consumer: `MenuItemKafkaListener` (topic `menu-item-events`), `ClienteKafkaListener` (topic `topico-usuarios`).
+> - Recalculo automático de total con `BigDecimal`.
+> - Feign: `AuthFeignClient` para validación de permisos.
+
 ## 1. Propósito
 Gestiona el estado temporal de la compra. Permite a los usuarios pre-seleccionar productos y calcular subtotales antes de confirmar la orden definitiva.
 

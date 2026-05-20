@@ -1,5 +1,12 @@
 # 🔔 Microservicio: Notificaciones (ms-notificaciones)
 
+> [!NOTE]
+> **Estado de Implementación:** 🟡 **IMPLEMENTADO (con simulaciones)**
+> - CRUD completo de notificaciones con persistencia en PostgreSQL y máquina de estados (`PENDIENTE → ENVIADO/FALLIDO`).
+> - Kafka Consumer: `NotificationEventListener` consume `pedido-events` y `delivery-events`, crea notificaciones automáticas.
+> - **Envío simulado:** Marca como ENVIADO sin integración real con proveedores (logea warning).
+> - Feign: `AuthFeignClient` para validación de permisos.
+
 ## 1. Propósito
 Actúa como el motor de mensajería del ecosistema. Desacopla la lógica de envío de alertas (Emails, SMS, Push) del resto de los microservicios, centralizando el historial y las plantillas.
 

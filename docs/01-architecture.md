@@ -78,15 +78,15 @@ Todos los microservicios siguen estrictamente esta estructura de paquetes:
 | :--- | :--- | :--- | :--- | :--- |
 | Eureka Server | 8761 | — | — | ✅ |
 | ms-auth | 9001 | `auth` | Producer | ✅ 100% |
-| ms-sucursales | 9003 | `sucursales` | Producer | 🔶 Scaffolding |
+| ms-sucursales | 9003 | `sucursales` | Producer | ✅ 100% |
 | ms-menu | 9004 | `menu` | Consumer + Producer | ✅ 100% |
-| ms-carrito | 9006 | `carrito` | Consumer | 🔶 Scaffolding |
+| ms-carrito | 9006 | `carrito` | Consumer | ✅ 100% |
 | ms-pedidos | 9007 | `pedidos` | Consumer + Producer | ✅ 100% |
-| ms-pagos | 9008 | `pagos` | Consumer + Producer | 🔶 Scaffolding |
-| ms-delivery | 9009 | `delivery` | Consumer + Producer | 🔶 Scaffolding |
-| ms-inventario | 9010 | `inventario` | Consumer + Producer | ✅ 100% |
-| ms-notificaciones | 9011 | `notificaciones` | Consumer + Producer | 🔶 Scaffolding |
-| ms-reportes | 9012 | `reportes` | Consumer | 🔶 Scaffolding |
+| ms-pagos | 9008 | `pagos` | Consumer + Producer | ✅ 90% *(pasarela real pendiente)* |
+| ms-delivery | 9009 | `delivery` | Consumer + Producer | ✅ 90% *(geolocalización pendiente)* |
+| ms-inventario | 9010 | `inventario` | Consumer + Producer | ✅ 90% *(descuento automático pendiente)* |
+| ms-notificaciones | 9011 | `notificaciones` | Consumer + Producer | ✅ 85% *(proveedores reales pendientes)* |
+| ms-reportes | 9012 | `reportes` | Consumer | ✅ 85% *(exportación CSV/PDF pendiente)* |
 
 > **Nota:** Los puertos 9002 y 9005 están intencionalmente vacíos (correspondían a `ms-usuarios` y `ms-categorias`, fusionados en `ms-auth` y `ms-menu` respectivamente durante la migración v12→v10).
 

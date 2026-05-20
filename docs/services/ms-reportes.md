@@ -1,5 +1,13 @@
 # 📊 Microservicio: Reportes (ms-reportes)
 
+> [!NOTE]
+> **Estado de Implementación:** 🟢 **IMPLEMENTADO**
+> - Generación dinámica de reportes con dispatch por `TipoReporte` (VENTAS_DIARIAS, TOP_PLATOS, KARDEX_MENSUAL, RENDIMIENTO_REPARTIDORES).
+> - Kafka Consumer: `ReportEventListener` consume `pedido-events` y `pago-events`, persiste `ReporteSnapshot` proactivamente.
+> - Feign clients: `PagoClient` (ms-pagos), `PedidoClient` (ms-pedidos), `AuthFeignClient` (ms-auth).
+> - Historial de reportes por tipo con consulta en `ReporteSnapshotRepository`.
+> - Datos almacenados como `dataJson` (TEXT) en PostgreSQL.
+
 ## 1. Propósito
 Centraliza la inteligencia de negocios del sistema. Consolida datos de múltiples microservicios para generar visibilidad gerencial y dashboards de rendimiento.
 
