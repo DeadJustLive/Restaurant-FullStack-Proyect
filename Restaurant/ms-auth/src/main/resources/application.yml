@@ -12,14 +12,15 @@ spring:
       minimum-idle: 1
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5433/auth
-    username: postgres
-    password: 123
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:123}
   jpa:
     hibernate:
       ddl-auto: update
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   kafka:
+    bootstrap-servers: localhost:9092
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
@@ -36,10 +37,12 @@ spring:
 application:
   security:
     jwt:
-      secret-key: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+      secret-key: ${JWT_SECRET:404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970}
       expiration: 86400000       # 24 horas en ms
       refresh-token:
         expiration: 604800000    # 7 días en ms
+    internal-api-key: ${INTERNAL_API_KEY:a1b2c3d4-e5f6-7890-abc0-def123456789}
+    seed-password-fix-enabled: true  # Solo para desarrollo; DESACTIVAR en producción
 
 eureka:
   client:

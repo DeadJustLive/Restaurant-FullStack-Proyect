@@ -1,6 +1,8 @@
 package cl.triskeledu.inventario.entity.enums;
 
 public enum TipoMovimiento {
-    ENTRADA, // Compras, ajustes positivos
-    SALIDA   // Consumo por ventas, mermas, vencimientos
+    INGRESO, // Compras, ajustes positivos (stock += cantidad)
+    EGRESO,  // Consumo por ventas (stock -= cantidad)
+    MERMA,   // Pérdida, vencimiento (stock -= cantidad)
+    AJUSTE   // Corrección de inventario (stock += cantidad)
 }

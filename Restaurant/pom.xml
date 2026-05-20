@@ -140,7 +140,7 @@
     </dependencyManagement>
 
     <build>
-        <directory>${project.basedir}/target-local</directory>
+        <directory>${project.basedir}/target</directory>
         <plugins>
 
             <plugin>

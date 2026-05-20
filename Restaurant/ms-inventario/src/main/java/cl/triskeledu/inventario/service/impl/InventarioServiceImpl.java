@@ -142,9 +142,9 @@ public class InventarioServiceImpl implements InventarioService {
         Insumo insumo = insumoRepository.findById(dto.getInsumoId())
                 .orElseThrow(() -> new cl.triskeledu.inventario.exception.InsumoNotFoundException("Insumo no encontrado"));
                 
-        if (dto.getTipo() == TipoMovimiento.ENTRADA) {
+        if (dto.getTipo() == TipoMovimiento.INGRESO || dto.getTipo() == TipoMovimiento.AJUSTE) {
             insumo.setStockActual(insumo.getStockActual().add(dto.getCantidad()));
-        } else if (dto.getTipo() == TipoMovimiento.SALIDA) {
+        } else if (dto.getTipo() == TipoMovimiento.EGRESO || dto.getTipo() == TipoMovimiento.MERMA) {
             if (insumo.getStockActual().compareTo(dto.getCantidad()) < 0) {
                 throw new cl.triskeledu.inventario.exception.StockInsuficienteException("Stock insuficiente para realizar la salida");
             }
@@ -188,7 +188,7 @@ public class InventarioServiceImpl implements InventarioService {
 
     private PermisoResponseDTO validarAccesoConFallback(Long credencialId, String modulo, String accion) {
         try {
-            ResponseEntity<PermisoResponseDTO> response = authFeignClient.validarAcceso(credencialId, modulo, accion);
+            ResponseEntity<PermisoResponseDTO> response = authFeignClient.validarAcceso(credencialId, modulo, accion, "a1b2c3d4-e5f6-7890-abc0-def123456789");
             PermisoResponseDTO permiso = response.getBody();
             if (permiso != null) {
                 return permiso;
