@@ -1,0 +1,95 @@
+# OBSERVACIONES:
+
+* la zona de juego de Zilfost est´a desplazada
+al Este por la parte de datos
+*/
+{
+IrACoordenada(x + desplazamientoXDeZonaDeJuego()
+, y + desplazamientoYDeZonaDeJuego())
+}
+En este caso, traducimos la geometr´ıa de la zona de juego en la del tablero, y reutilizamos
+un procedimiento de biblioteca para ir a una coordenada espec´ıfica. Dicho procedimiento
+no lo hemos constru´ıdo a ´un, por lo cual se deja como ejercicio. Observar, adem ´as, que
+se asume como precondici ´on que la coordenada indicada es v ´alida dentro de la zona de
+juego (o sea, que los n ´umeros no son negativos, ni mayores que el ancho o alto de la zona
+de juego).
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 186 of 312 --
+
+187
+Actividad de Programaci ´on 2
+Realice el ejercicio 5.2.2 y ub´ıquelo en la Biblioteca. Compare el c ´odigo pro-
+ducido con el que se presenta en el anexo B y verifique si reutiliz ´o las mismas
+subtareas o no y si defini ´o una precondici ´on similar. En caso que la respuesta
+sea negativa, reflexione sobre las diferencias, y sobre si son o no significativas
+desde el punto de vista de los conceptos impartidos en el libro.
+Ejercicio 5.2.2. Definir un procedimiento IrACoordenada que dados dos par ´ametros num ´eri-
+cos x e y ubique el cabezal en la celda que se encuentra x celdas al Este e y celdas al
+Norte de la esquina suroeste. Establecer la precondici ´on de este procedimiento de manera
+adecuada.
+Las ´ultimas dos operaciones de la zona de juego son las que permiten completar un
+recorrido de las celdas de la zona de juego en direcci ´on noreste. Son similares a las
+operaciones del ejercicio 4.2.7, pero utilizando de manera fija los par ´ametros, y cambiando
+la pregunta sobre si se puede mover para que solo consulte dentro del tablero.
+function esFinDelRecorridoNEDeZonaDeJuego()
+/*
+PROP´OSITO: determina si puede moverse a la celda
+siguiente en un recorrido Noreste de
+las celdas de la zona de juego
+*/
+{
+return (not puedeMoverEnZonaDeJuego(Norte)
+&& not puedeMoverEnZonaDeJuego(Este))
+}
+//----------------------------------------------------
+procedure AvanzarEnRecorridoNEDeZonaDeJuego()
+/*
+PROP´OSITO: avanza a la celda siguiente en un
+recorrido Noreste de las celdas de
+la zona de juego
+PRECONDICIONES: no est´a en el final del recorrido
+*/
+{
+if (puedeMoverEnZonaDeJuego(Este))
+{ Mover(Este) }
+else
+{ IrAlBordeDeZonaDeJuego(opuesto(Este)); Mover(Norte) }
+}
+5.2.2. Zonas de n ´umeros
+Para las zonas de n ´umeros tenemos tres tipos de operaciones: las de movimiento, las de
+lectura y las de modificaci ´on. Recordemos que las zonas de n ´umeros consisten en una
+´unica fila, delimitada arriba y abajo por celdas con 4 bolitas azules, y a izquierda y derecha
+por celdas con 6 bolitas azules.
+Definiremos los siguientes procedimientos y funciones concernientes a la zona de
+juego
+// Operaciones de movimiento en la zona de n´umeros actual
+// function puedeMoverEnZonaDeNumeroAl(dir)
+// procedure IrAlBordeDeZonaDeNumeros(dir)
+//
+// Operaciones para leer y grabar un n´umero de una
+// zona de n´umeros
+// function leerZonaDeNumeros()
+// function hayDigito()
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 187 of 312 --
+
+188
+// function leerDigito()
+// procedure GrabarNumeroEnZonaDeNumeros(numero)
+// procedure GrabarDigitoEnCelda(dig)
+//
+// Operaciones para modificar una zona de n´umeros
+// procedure BorrarZonaDeNumeros()
+// procedure AgregarDigitoAZonaDeNumerosPorIzq(dig)
+// procedure IncrementarZonaDeNumeros()
+// procedure IncrementarDigitoDeCelda()
+La primera funci ´on a definir permite controlar si es posible moverse en una direcci ´on de-
+terminada dentro de la zona de n ´umeros. Dado que no es posible moverse en direcci ´on
+Norte o Sur, la pregunta carece de sentido en estos casos, por lo que supondremos como
+precondici ´on que la direcci ´on no es ninguna de esas dos. Adem ´as, para que la funci ´on
+tenga sentido la celda actual debe encontrarse dentro de una zona de n ´umeros. El c ´odigo
+de la funci ´on ser ´a entonces muy simple
+function puedeMoverEnZonaDeNumeroAl(dir)
+/*

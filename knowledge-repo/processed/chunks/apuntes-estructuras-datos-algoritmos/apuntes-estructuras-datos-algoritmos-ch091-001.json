@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch091-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 91,
+  "chunkIndex": 1,
+  "title": "1. Recordatorio del concepto de tabla o diccionario y su especificación",
+  "start": 450,
+  "end": 604,
+  "words": 154,
+  "content": "incluso que el tiempo de servicio), mientras que en otra de las simulaciones el tiempo medio de espera en cola fue de 0.0 minutos (es decir, ninguno de los clientes servidos en los 200 minutos de esa simulación tuvo que hacer cola). La simulación propuesta en esta lección es la más sencilla que puede plantearse y, de hecho, existen fórmulas analíticas que permiten obtener los resultados buscados sin realizar ninguna simulación (por ejemplo, si el tiempo entre dos llegadas consecutivas es una variable aleatoria exponencial de parámetro λ y el tiempo de servicio es otra variable aleatoria exponencial de parámetro μ, entonces el tiempo medio de espera de un cliente en la cola es Wq=(1/μ2 )/(1-λ/μ). El estudio de modelos de colas como el propuesto aquí y de otros más realistas y complejos, y su análisis, es el objeto de la denominada Teoría de Colas. 4 … … -- 94 of 267 -- 87"
+}

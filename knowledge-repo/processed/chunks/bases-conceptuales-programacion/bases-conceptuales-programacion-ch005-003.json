@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch005-003",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 5,
+  "chunkIndex": 3,
+  "title": "5. Un ejemplo completo: ZILFOST 179",
+  "start": 1350,
+  "end": 1850,
+  "words": 500,
+  "content": ". . . . . . . . . . . . . . . . . . . . . 259 B.2.1. Operaciones sobre la zona de juego . . . . . . . . . . . . . 260 B.2.2. Operaciones sobre zonas de n ´umeros . . . . . . . . . . . . 263 B.2.3. Operaciones de zonas espec´ıficas . . . . . . . . . . . . . . 267 B.3. Operaciones sobre piezas . . . . . . . . . . . . . . . . . . . . . . . 270 B.3.1. Geometr´ıa de las piezas . . . . . . . . . . . . . . . . . . . . 271 B.3.2. Detecci ´on de piezas . . . . . . . . . . . . . . . . . . . . . . 276 B.4. Operaciones de procesamiento de piezas . . . . . . . . . . . . . . 280 B.4.1. Operaci ´on de localizaci ´on de una pieza . . . . . . . . . . . 280 B.4.2. Operaciones para colocar una pieza . . . . . . . . . . . . . 280 B.4.3. Operaciones para quitar una pieza . . . . . . . . . . . . . . 283 B.4.4. Operaciones de movimiento de piezas . . . . . . . . . . . . 286 B.5. Operaciones de la mec ´anica del juego . . . . . . . . . . . . . . . . 288 B.5.1. Operaci ´on de colocar nueva pieza . . . . . . . . . . . . . . 288 B.5.2. Operaciones para bajar piezas . . . . . . . . . . . . . . . . 289 B.5.3. Operaciones para extender el piso . . . . . . . . . . . . . . 291 B.5.4. Operaciones para eliminar filas llenas . . . . . . . . . . . . 297 B.5.5. Operaciones adicionales . . . . . . . . . . . . . . . . . . . 300 B.6. Operaciones de interfaz . . . . . . . . . . . . . . . . . . . . . . . . 301 B.6.1. Determinar nueva pieza . . . . . . . . . . . . . . . . . . . . 301 B.6.2. Operaciones de interacci ´on . . . . . . . . . . . . . . . . . . 302 B.7. Operaciones de biblioteca . . . . . . . . . . . . . . . . . . ."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch058-001",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 58,
+  "chunkIndex": 1,
+  "title": "2. Una función devuelve siempre un valor. Por tanto, en una función siempre debe",
+  "start": 450,
+  "end": 755,
+  "words": 305,
+  "content": "ambos inclusive. Por ejemplo, el factorial de 4 es el resultado de multiplicar 1 * 2 * 3 * 4, es decir, 4! = 24. -- 177 of 180 -- Libro de Algoritmos de “Abrirllave.com” 178 / 180 En pantalla: La solución al problema puede venir dada por el siguiente algoritmo: algoritmo Factorial_de_un_numero variables entero n inicio escribir( \"Introduzca un número: \" ) leer( n ) si( n > 0 ) escribir( n, \"! = \", Factorial( n ) ) sino escribir( \"ERROR: El número debe ser mayor que cero.\" ) fin_si fin Sin emplear recursividad, se puede escribir la función Factorial de la siguiente forma: entero funcion Factorial( E entero numero ) variable entero contador, resultado inicio resultado  numero mientras ( numero > 2 ) numero  numero - 1 resultado  resultado * numero fin_mientras volver resultado fin Y, recursivamente: -- 178 of 180 -- Libro de Algoritmos de “Abrirllave.com” 179 / 180 entero funcion Factorial( E entero numero ) variable entero resultado inicio si ( numero <> 1 ) resultado  Factorial( numero - 1 ) * numero sino resultado  1 fin_si volver resultado fin En ambas soluciones, el resultado devuelto en la llamada a Factorial realizada en el algoritmo Factorial_de_un_numero es el mismo. Sin embargo, obsérvese que, en la segunda solución de la función Factorial, se llamará de forma recursiva al subprograma. En cuanto a qué solución es mejor, la iterativa o la recursiva, hay que decir que, la solución iterativa suele utilizar menos memoria, no corre el riesgo de agotarla e, incluso, puede ser más rápida algorítmicamente. Ahora bien, en algunas ocasiones, la solución recursiva es más elegante y fácil de obtener, por lo que, dependiendo del problema, el programador debe decidir qué solución implementar. -- 179 of 180 -- Libro de Algoritmos de “Abrirllave.com” 180 / 180"
+}

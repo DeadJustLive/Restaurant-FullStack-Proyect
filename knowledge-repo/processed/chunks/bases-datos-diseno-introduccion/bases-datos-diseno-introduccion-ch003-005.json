@@ -1,0 +1,11 @@
+{
+  "id": "bases-datos-diseno-introduccion-ch003-005",
+  "bookId": "bases-datos-diseno-introduccion",
+  "chapterIndex": 3,
+  "chunkIndex": 5,
+  "title": "2. Fases del diseño de una base de datos",
+  "start": 2250,
+  "end": 2594,
+  "words": 344,
+  "content": "de diseño físico hay que elegir un SGBD concreto. Hay que estudiar los diferentes sistemas comerciales o libres que hay en el mercado y seleccionar un SGBD donde se pueda implementar el sistema de información que se ha ido gestando en las fases anteriores del proceso de diseño. Los componentes físicos que forman cada SGBD son específicos. Los fabrican- tes utilizan estrategias y tecnologías diferentes para maximizar el rendimien- to de sus sistemas gestores de bases de datos. En este nivel no existe ningún estándar y, por lo tanto, habrá que adaptar el esquema lógico obtenido en el paso anterior, teniendo presentes las características de cada sistema gestor. El diseñador debe considerar los aspectos de implementación física y de eficien- cia que dependen específicamente del SGBD elegido. El diseño￿físico es una fase del proceso de diseño de bases de datos que adapta el esquema lógico obtenido en la fase anterior al SGBD concreto, que utilizará el sistema de información. 2.4.1. El nivel físico y el nivel virtual El estudio de los niveles físico y virtual de las bases de datos permite ver as- pectos como las estructuras de almacenamiento y las rutas de acceso por los ficheros de la base de datos. Cada SGBD ofrece diferentes opciones para orga- nizar ficheros y rutas de acceso, y es necesario que el diseñador conozca la implementación concreta, con el fin de implementar de una manera más efi- ciente el diseño físico del sistema de información. También es importante conocer las características de los procesos que consul- tan y actualizan la base de datos, como por ejemplo las frecuencias de ejecu- ción y los volúmenes que se espera tener de los diferentes datos que se quieren almacenar con el fin de conseguir un buen rendimiento de la base de datos. Algunos criterios importantes que pueden ser útiles para elegir las opciones de diseño físicas de la base de datos son los siguientes: • Tiempo￿de￿respuesta. Es el tiempo que transcurre desde que se envía una petición al SGBD hasta que éste devuelve los datos de la respuesta. Una"
+}

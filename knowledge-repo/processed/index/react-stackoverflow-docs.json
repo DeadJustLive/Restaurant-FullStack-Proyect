@@ -1,0 +1,462 @@
+{
+  "id": "react-stackoverflow-docs",
+  "title": "react-stackoverflow-docs",
+  "author": "",
+  "pages": 139,
+  "sourceFile": "source-pdfs/react-stackoverflow-docs.pdf",
+  "processedAt": "2026-05-17T05:38:52.022Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Capítulo 1:: Empezando con React 2",
+      "file": "chapters/react-stackoverflow-docs/01-capítulo-1-empezando-con-react-2.md",
+      "words": 61
+    },
+    {
+      "index": 2,
+      "title": "Capítulo 2:: Actuación 13",
+      "file": "chapters/react-stackoverflow-docs/02-capítulo-2-actuación-13.md",
+      "words": 32
+    },
+    {
+      "index": 3,
+      "title": "Capítulo 3:: Apoyos en reaccionar 16",
+      "file": "chapters/react-stackoverflow-docs/03-capítulo-3-apoyos-en-reaccionar-16.md",
+      "words": 46
+    },
+    {
+      "index": 4,
+      "title": "Capítulo 4:: Cómo configurar un webpack básico, reaccionar y babel. 22",
+      "file": "chapters/react-stackoverflow-docs/04-capítulo-4-cómo-configurar-un-webpack-básico-reaccionar-y-babel-22.md",
+      "words": 28
+    },
+    {
+      "index": 5,
+      "title": "Capítulo 5:: Cómo y por qué usar llaves en React. 28",
+      "file": "chapters/react-stackoverflow-docs/05-capítulo-5-cómo-y-por-qué-usar-llaves-en-react-28.md",
+      "words": 21
+    },
+    {
+      "index": 6,
+      "title": "Capítulo 6:: Componentes 30",
+      "file": "chapters/react-stackoverflow-docs/06-capítulo-6-componentes-30.md",
+      "words": 16
+    },
+    {
+      "index": 7,
+      "title": "1. Anidar sin usar niños. 32",
+      "file": "chapters/react-stackoverflow-docs/07-1-anidar-sin-usar-niños-32.md",
+      "words": 14
+    },
+    {
+      "index": 8,
+      "title": "2. Anidar usando niños. 32",
+      "file": "chapters/react-stackoverflow-docs/08-2-anidar-usando-niños-32.md",
+      "words": 13
+    },
+    {
+      "index": 9,
+      "title": "3. Anidar utilizando puntales. 33",
+      "file": "chapters/react-stackoverflow-docs/09-3-anidar-utilizando-puntales-33.md",
+      "words": 60
+    },
+    {
+      "index": 10,
+      "title": "Capítulo 7:: Componentes de orden superior 43",
+      "file": "chapters/react-stackoverflow-docs/10-capítulo-7-componentes-de-orden-superior-43.md",
+      "words": 29
+    },
+    {
+      "index": 11,
+      "title": "Capítulo 8:: Componentes funcionales sin estado 46",
+      "file": "chapters/react-stackoverflow-docs/11-capítulo-8-componentes-funcionales-sin-estado-46.md",
+      "words": 17
+    },
+    {
+      "index": 12,
+      "title": "Capítulo 9:: Comunicación Entre Componentes 50",
+      "file": "chapters/react-stackoverflow-docs/12-capítulo-9-comunicación-entre-componentes-50.md",
+      "words": 27
+    },
+    {
+      "index": 13,
+      "title": "Capítulo 10:: Comunicar Entre Componentes 53",
+      "file": "chapters/react-stackoverflow-docs/13-capítulo-10-comunicar-entre-componentes-53.md",
+      "words": 16
+    },
+    {
+      "index": 14,
+      "title": "Capítulo 11:: Configuración de React Ambiente 56",
+      "file": "chapters/react-stackoverflow-docs/14-capítulo-11-configuración-de-react-ambiente-56.md",
+      "words": 44
+    },
+    {
+      "index": 15,
+      "title": "Capítulo 12:: Estado en reaccionar 58",
+      "file": "chapters/react-stackoverflow-docs/15-capítulo-12-estado-en-reaccionar-58.md",
+      "words": 54
+    },
+    {
+      "index": 16,
+      "title": "Capítulo 13:: Formularios y comentarios del usuario 64",
+      "file": "chapters/react-stackoverflow-docs/16-capítulo-13-formularios-y-comentarios-del-usuario-64.md",
+      "words": 18
+    },
+    {
+      "index": 17,
+      "title": "Capítulo 14:: Instalación 66",
+      "file": "chapters/react-stackoverflow-docs/17-capítulo-14-instalación-66.md",
+      "words": 34
+    },
+    {
+      "index": 18,
+      "title": "Capítulo 15:: Instalación de React, Webpack y Typescript. 70",
+      "file": "chapters/react-stackoverflow-docs/18-capítulo-15-instalación-de-react-webpack-y-typescript-70.md",
+      "words": 43
+    },
+    {
+      "index": 19,
+      "title": "Capítulo 16:: Introducción a la representación del lado del servidor 73",
+      "file": "chapters/react-stackoverflow-docs/19-capítulo-16-introducción-a-la-representación-del-lado-del-servidor-73.md",
+      "words": 22
+    },
+    {
+      "index": 20,
+      "title": "Capítulo 17:: JSX 74",
+      "file": "chapters/react-stackoverflow-docs/20-capítulo-17-jsx-74.md",
+      "words": 52
+    },
+    {
+      "index": 21,
+      "title": "Capítulo 18:: Reaccionar con redux 80",
+      "file": "chapters/react-stackoverflow-docs/21-capítulo-18-reaccionar-con-redux-80.md",
+      "words": 21
+    },
+    {
+      "index": 22,
+      "title": "Capítulo 19:: Reaccionar enrutamiento 82",
+      "file": "chapters/react-stackoverflow-docs/22-capítulo-19-reaccionar-enrutamiento-82.md",
+      "words": 26
+    },
+    {
+      "index": 23,
+      "title": "Capítulo 20:: Reaccionar formas 84",
+      "file": "chapters/react-stackoverflow-docs/23-capítulo-20-reaccionar-formas-84.md",
+      "words": 11
+    },
+    {
+      "index": 24,
+      "title": "Capítulo 21:: Reaccionar herramientas 86",
+      "file": "chapters/react-stackoverflow-docs/24-capítulo-21-reaccionar-herramientas-86.md",
+      "words": 12
+    },
+    {
+      "index": 25,
+      "title": "Capítulo 22:: Reaccionar llamada AJAX 87",
+      "file": "chapters/react-stackoverflow-docs/25-capítulo-22-reaccionar-llamada-ajax-87.md",
+      "words": 37
+    },
+    {
+      "index": 26,
+      "title": "Capítulo 23:: React Boilerplate [React + Babel + Webpack] 90",
+      "file": "chapters/react-stackoverflow-docs/26-capítulo-23-react-boilerplate-react-babel-webpack-90.md",
+      "words": 20
+    },
+    {
+      "index": 27,
+      "title": "Capítulo 24:: React Component Lifecycle 95",
+      "file": "chapters/react-stackoverflow-docs/27-capítulo-24-react-component-lifecycle-95.md",
+      "words": 92
+    },
+    {
+      "index": 28,
+      "title": "Capítulo 25:: React.createClass vs extiende React.Component 103",
+      "file": "chapters/react-stackoverflow-docs/28-capítulo-25-reactcreateclass-vs-extiende-reactcomponent-103.md",
+      "words": 101
+    },
+    {
+      "index": 29,
+      "title": "Capítulo 26:: Soluciones de interfaz de usuario 111",
+      "file": "chapters/react-stackoverflow-docs/29-capítulo-26-soluciones-de-interfaz-de-usuario-111.md",
+      "words": 32
+    },
+    {
+      "index": 30,
+      "title": "Capítulo 27:: Teclas en reaccionar 116",
+      "file": "chapters/react-stackoverflow-docs/30-capítulo-27-teclas-en-reaccionar-116.md",
+      "words": 26
+    },
+    {
+      "index": 31,
+      "title": "Capítulo 28:: Usando React con Flujo 118",
+      "file": "chapters/react-stackoverflow-docs/31-capítulo-28-usando-react-con-flujo-118.md",
+      "words": 37
+    },
+    {
+      "index": 32,
+      "title": "Capítulo 29:: Usando ReactJS con jQuery 119",
+      "file": "chapters/react-stackoverflow-docs/32-capítulo-29-usando-reactjs-con-jquery-119.md",
+      "words": 14
+    },
+    {
+      "index": 33,
+      "title": "Capítulo 30:: Usando ReactJS en forma de flujo 121",
+      "file": "chapters/react-stackoverflow-docs/33-capítulo-30-usando-reactjs-en-forma-de-flujo-121.md",
+      "words": 27
+    },
+    {
+      "index": 34,
+      "title": "Capítulo 31:: Utilizando ReactJS con Typescript 123",
+      "file": "chapters/react-stackoverflow-docs/34-capítulo-31-utilizando-reactjs-con-typescript-123.md",
+      "words": 190
+    },
+    {
+      "index": 35,
+      "title": "Capítulo 1:: Empezando con React",
+      "file": "chapters/react-stackoverflow-docs/35-capítulo-1-empezando-con-react.md",
+      "words": 2349
+    },
+    {
+      "index": 36,
+      "title": "Capítulo 2:: Actuación",
+      "file": "chapters/react-stackoverflow-docs/36-capítulo-2-actuación.md",
+      "words": 840
+    },
+    {
+      "index": 37,
+      "title": "Capítulo 3:: Apoyos en reaccionar",
+      "file": "chapters/react-stackoverflow-docs/37-capítulo-3-apoyos-en-reaccionar.md",
+      "words": 1040
+    },
+    {
+      "index": 38,
+      "title": "Capítulo 4:: Cómo configurar un webpack",
+      "file": "chapters/react-stackoverflow-docs/38-capítulo-4-cómo-configurar-un-webpack.md",
+      "words": 489
+    },
+    {
+      "index": 39,
+      "title": "módulo d: el cargador que nos gustaría usar para cargar el archivo en el paquete web y dejar que",
+      "file": "chapters/react-stackoverflow-docs/39-módulo-d-el-cargador-que-nos-gustaría-usar-para-cargar-el-archivo-en-el-paquete-web-y-dejar-que.md",
+      "words": 978
+    },
+    {
+      "index": 40,
+      "title": "Capítulo 5:: Cómo y por qué usar llaves en",
+      "file": "chapters/react-stackoverflow-docs/40-capítulo-5-cómo-y-por-qué-usar-llaves-en.md",
+      "words": 205
+    },
+    {
+      "index": 41,
+      "title": "Capítulo 6:: Componentes",
+      "file": "chapters/react-stackoverflow-docs/41-capítulo-6-componentes.md",
+      "words": 347
+    },
+    {
+      "index": 42,
+      "title": "1. Anidar sin usar niños.",
+      "file": "chapters/react-stackoverflow-docs/42-1-anidar-sin-usar-niños.md",
+      "words": 105
+    },
+    {
+      "index": 43,
+      "title": "2. Anidar usando niños.",
+      "file": "chapters/react-stackoverflow-docs/43-2-anidar-usando-niños.md",
+      "words": 180
+    },
+    {
+      "index": 44,
+      "title": "3. Anidar utilizando puntales.",
+      "file": "chapters/react-stackoverflow-docs/44-3-anidar-utilizando-puntales.md",
+      "words": 113
+    },
+    {
+      "index": 45,
+      "title": "3 es generalmente una necesidad para hacer una biblioteca pública de componentes, pero",
+      "file": "chapters/react-stackoverflow-docs/45-3-es-generalmente-una-necesidad-para-hacer-una-biblioteca-pública-de-componentes-pero.md",
+      "words": 1727
+    },
+    {
+      "index": 46,
+      "title": "Capítulo 7:: Componentes de orden superior",
+      "file": "chapters/react-stackoverflow-docs/46-capítulo-7-componentes-de-orden-superior.md",
+      "words": 416
+    },
+    {
+      "index": 47,
+      "title": "Capítulo 8:: Componentes funcionales sin",
+      "file": "chapters/react-stackoverflow-docs/47-capítulo-8-componentes-funcionales-sin.md",
+      "words": 677
+    },
+    {
+      "index": 48,
+      "title": "Capítulo 9:: Comunicación Entre",
+      "file": "chapters/react-stackoverflow-docs/48-capítulo-9-comunicación-entre.md",
+      "words": 622
+    },
+    {
+      "index": 49,
+      "title": "Capítulo 10:: Comunicar Entre Componentes",
+      "file": "chapters/react-stackoverflow-docs/49-capítulo-10-comunicar-entre-componentes.md",
+      "words": 415
+    },
+    {
+      "index": 50,
+      "title": "Capítulo 11:: Configuración de React",
+      "file": "chapters/react-stackoverflow-docs/50-capítulo-11-configuración-de-react.md",
+      "words": 59
+    },
+    {
+      "index": 51,
+      "title": "install react and react-dom",
+      "file": "chapters/react-stackoverflow-docs/51-install-react-and-react-dom.md",
+      "words": 11
+    },
+    {
+      "index": 52,
+      "title": "install webpack for bundling",
+      "file": "chapters/react-stackoverflow-docs/52-install-webpack-for-bundling.md",
+      "words": 10
+    },
+    {
+      "index": 53,
+      "title": "install babel for module loading, bundling and transpiling",
+      "file": "chapters/react-stackoverflow-docs/53-install-babel-for-module-loading-bundling-and-transpiling.md",
+      "words": 15
+    },
+    {
+      "index": 54,
+      "title": "install babel presets for react and es6",
+      "file": "chapters/react-stackoverflow-docs/54-install-babel-presets-for-react-and-es6.md",
+      "words": 187
+    },
+    {
+      "index": 55,
+      "title": "Capítulo 12:: Estado en reaccionar",
+      "file": "chapters/react-stackoverflow-docs/55-capítulo-12-estado-en-reaccionar.md",
+      "words": 1128
+    },
+    {
+      "index": 56,
+      "title": "Capítulo 13:: Formularios y comentarios del",
+      "file": "chapters/react-stackoverflow-docs/56-capítulo-13-formularios-y-comentarios-del.md",
+      "words": 362
+    },
+    {
+      "index": 57,
+      "title": "Capítulo 14:: Instalación",
+      "file": "chapters/react-stackoverflow-docs/57-capítulo-14-instalación.md",
+      "words": 99
+    },
+    {
+      "index": 58,
+      "title": "módulo d: e carga para usar con el paquete web. También instalamos los ajustes preestablecidos",
+      "file": "chapters/react-stackoverflow-docs/58-módulo-d-e-carga-para-usar-con-el-paquete-web-también-instalamos-los-ajustes-preestablecidos.md",
+      "words": 621
+    },
+    {
+      "index": 59,
+      "title": "Capítulo 15:: Instalación de React, Webpack y",
+      "file": "chapters/react-stackoverflow-docs/59-capítulo-15-instalación-de-react-webpack-y.md",
+      "words": 488
+    },
+    {
+      "index": 60,
+      "title": "Capítulo 16:: Introducción a la representación",
+      "file": "chapters/react-stackoverflow-docs/60-capítulo-16-introducción-a-la-representación.md",
+      "words": 131
+    },
+    {
+      "index": 61,
+      "title": "Capítulo 17:: JSX",
+      "file": "chapters/react-stackoverflow-docs/61-capítulo-17-jsx.md",
+      "words": 1283
+    },
+    {
+      "index": 62,
+      "title": "Capítulo 18:: Reaccionar con redux",
+      "file": "chapters/react-stackoverflow-docs/62-capítulo-18-reaccionar-con-redux.md",
+      "words": 341
+    },
+    {
+      "index": 63,
+      "title": "Capítulo 19:: Reaccionar enrutamiento",
+      "file": "chapters/react-stackoverflow-docs/63-capítulo-19-reaccionar-enrutamiento.md",
+      "words": 361
+    },
+    {
+      "index": 64,
+      "title": "Capítulo 20:: Reaccionar formas",
+      "file": "chapters/react-stackoverflow-docs/64-capítulo-20-reaccionar-formas.md",
+      "words": 310
+    },
+    {
+      "index": 65,
+      "title": "Capítulo 21:: Reaccionar herramientas",
+      "file": "chapters/react-stackoverflow-docs/65-capítulo-21-reaccionar-herramientas.md",
+      "words": 37
+    },
+    {
+      "index": 66,
+      "title": "Capítulo 22:: Reaccionar llamada AJAX",
+      "file": "chapters/react-stackoverflow-docs/66-capítulo-22-reaccionar-llamada-ajax.md",
+      "words": 561
+    },
+    {
+      "index": 67,
+      "title": "Capítulo 23:: React Boilerplate [React + Babel",
+      "file": "chapters/react-stackoverflow-docs/67-capítulo-23-react-boilerplate-react-babel.md",
+      "words": 1073
+    },
+    {
+      "index": 68,
+      "title": "Capítulo 24:: React Component Lifecycle",
+      "file": "chapters/react-stackoverflow-docs/68-capítulo-24-react-component-lifecycle.md",
+      "words": 1386
+    },
+    {
+      "index": 69,
+      "title": "Capítulo 25:: React.createClass vs extiende",
+      "file": "chapters/react-stackoverflow-docs/69-capítulo-25-reactcreateclass-vs-extiende.md",
+      "words": 1180
+    },
+    {
+      "index": 70,
+      "title": "Capítulo 26:: Soluciones de interfaz de",
+      "file": "chapters/react-stackoverflow-docs/70-capítulo-26-soluciones-de-interfaz-de.md",
+      "words": 676
+    },
+    {
+      "index": 71,
+      "title": "Capítulo 27:: Teclas en reaccionar",
+      "file": "chapters/react-stackoverflow-docs/71-capítulo-27-teclas-en-reaccionar.md",
+      "words": 347
+    },
+    {
+      "index": 72,
+      "title": "Capítulo 28:: Usando React con Flujo",
+      "file": "chapters/react-stackoverflow-docs/72-capítulo-28-usando-react-con-flujo.md",
+      "words": 136
+    },
+    {
+      "index": 73,
+      "title": "Capítulo 29:: Usando ReactJS con jQuery",
+      "file": "chapters/react-stackoverflow-docs/73-capítulo-29-usando-reactjs-con-jquery.md",
+      "words": 253
+    },
+    {
+      "index": 74,
+      "title": "Capítulo 30:: Usando ReactJS en forma de",
+      "file": "chapters/react-stackoverflow-docs/74-capítulo-30-usando-reactjs-en-forma-de.md",
+      "words": 610
+    },
+    {
+      "index": 75,
+      "title": "Capítulo 31:: Utilizando ReactJS con",
+      "file": "chapters/react-stackoverflow-docs/75-capítulo-31-utilizando-reactjs-con.md",
+      "words": 1224
+    }
+  ],
+  "learningIntegrated": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch072-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 72,
+  "chunkIndex": 0,
+  "title": "Incluyendo rutas al ámbito con la palabra claveuse",
+  "start": 0,
+  "end": 50,
+  "words": 50,
+  "content": "# Incluyendo rutas al ámbito con la palabra claveuse ## Incluyendo rutas al ámbito con la palabra claveuse ### Creando rutas deuseidiomaticas ### Proporcionando nuevos nombres con el Keywordas ### Re-exportando nombres conpub use ### Usando paquetes externos ### Usando rutas anidadas para limpiar listasusegrandes ### El Operador Asterisco (Glob)"
+}

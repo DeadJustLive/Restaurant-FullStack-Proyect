@@ -1,0 +1,26 @@
+# OBSERVACIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 392)
+
+## Contenido
+# OBSERVACIONES:
+
+* la celda actual queda en el mismo lugar que
+empez´o
+*/
+{
+Mover(dir)
+QuitarSeccionDePieza(codPieza)
+Mover(opuesto(dir))
+}
+//-----------------------------------------------------
+procedure QuitarSeccionDePiezaDeY(codPieza,dir1,dir2)
+/*
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 285 of 312 --
+
+286
+PROP´OSITO: quitar una secci´on de la pieza codPieza
+en la celda lindante al dir1 y dir2

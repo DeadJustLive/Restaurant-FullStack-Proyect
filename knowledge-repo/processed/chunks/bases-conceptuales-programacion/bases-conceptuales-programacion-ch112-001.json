@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch112-001",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 112,
+  "chunkIndex": 1,
+  "title": "PROP´OSITO:",
+  "start": 450,
+  "end": 781,
+  "words": 331,
+  "content": "> 27 Terminar() otras MostrarError() Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 138 of 312 -- 139 4.2. M ´as sobre repeticiones Como vimos, una repetici ´on es un comando que expresa la ejecuci ´on reiterada de otro comando un cierto n ´umero de veces que se indica con un rango de valores. En este apartado vamos a profundizar sobre algunas combinaciones de repe- ticiones indexadas, y veremos una nueva forma de repetici ´on, la repetici ´on condi- cional, tambi ´en conocida como sentencia while o sentencia do-while. Adem ´as, veremos una manera de estructurar programas que utilizan repetici ´on condicio- nal, denominada por nosotros como recorridos, pensados como repeticiones que procesan secuencias de elementos. El objetivo de los recorridos es simplificar el uso de repeticiones condicionales, y evitar la multitud de problemas que pueden presentarse al utilizar esta poderosa forma de repetici ´on. 4.2.1. M ´as sobre repetici ´on indexada Al realizar repeticiones, puede suceder que algunos de los elementos del ran- go sobre el que se repite no pueda ser procesado de la misma manera que el resto. En ese caso, y acorde al enunciado del ejercicio mencionado, el proce- samiento puede utilizar una alternativa condicional para evitar procesar elemen- tos incorrectos. Para ejemplificar esto, consideremos un procedimiento al que podemos llamar CodificarDireccionDelEnemigo, que deje en la celda actual una marca que indique en cu ´al de las 4 direcciones se encuentra el enemigo al Imaginemos que somos los ex- ploradores de nuestro ej ´ercito, y venimos siguiendo al enemi- go, marcando el territorio para que nuestro ej ´ercito pueda se- guirnos. momento de poner la marca. Para este ejemplo vamos a suponer que el enemi- go se encuentra en solo una de las celdas contiguas a la actual (o sea, no se ha dispersado. . . ), y que la celda actual no contiene bolitas del color en el que codificaremos la respuesta. El c ´odigo para dicho procedimiento podr´ıa ser procedure CodificarDireccionDelEnemigo() {-"
+}

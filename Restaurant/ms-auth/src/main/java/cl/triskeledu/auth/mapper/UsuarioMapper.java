@@ -27,7 +27,7 @@ import org.mapstruct.MappingTarget;
  *
  * =============================================================================
  */
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", unmappedTargetPolicy = org.mapstruct.ReportingPolicy.IGNORE)
 public interface UsuarioMapper {
 
     /**
@@ -62,6 +62,10 @@ public interface UsuarioMapper {
      * @return Entidad nueva sin persistir.
      */
     @Mapping(target = "credencial", ignore = true)
+    @Mapping(target = "id", ignore = true)
+    @Mapping(target = "activo", ignore = true)
+    @Mapping(target = "creadoEn", ignore = true)
+    @Mapping(target = "actualizadoEn", ignore = true)
     Usuario toEntity(UsuarioRequestDTO dto);
 
     /**
@@ -80,6 +84,7 @@ public interface UsuarioMapper {
      */
     @Mapping(target = "credencial", ignore = true)
     @Mapping(target = "id", ignore = true)
+    @Mapping(target = "activo", ignore = true)
     @Mapping(target = "creadoEn", ignore = true)
     @Mapping(target = "actualizadoEn", ignore = true)
     void updateEntityFromDto(UsuarioRequestDTO dto, @MappingTarget Usuario target);

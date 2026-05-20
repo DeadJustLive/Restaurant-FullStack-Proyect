@@ -8,8 +8,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-05-17T21:34:28-0400",
-    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 25.0.2 (Red Hat, Inc.)"
+    date = "2026-05-18T13:33:16-0400",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.46.0.v20260407-0427, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class NotificacionMapperImpl implements NotificacionMapper {
@@ -22,13 +22,13 @@ public class NotificacionMapperImpl implements NotificacionMapper {
 
         NotificacionResponseDTO.NotificacionResponseDTOBuilder notificacionResponseDTO = NotificacionResponseDTO.builder();
 
-        notificacionResponseDTO.id( notificacion.getId() );
-        notificacionResponseDTO.destinatario( notificacion.getDestinatario() );
-        notificacionResponseDTO.tipo( notificacion.getTipo() );
         notificacionResponseDTO.asunto( notificacion.getAsunto() );
-        notificacionResponseDTO.cuerpo( notificacion.getCuerpo() );
-        notificacionResponseDTO.estado( notificacion.getEstado() );
         notificacionResponseDTO.creadoEn( notificacion.getCreadoEn() );
+        notificacionResponseDTO.cuerpo( notificacion.getCuerpo() );
+        notificacionResponseDTO.destinatario( notificacion.getDestinatario() );
+        notificacionResponseDTO.estado( notificacion.getEstado() );
+        notificacionResponseDTO.id( notificacion.getId() );
+        notificacionResponseDTO.tipo( notificacion.getTipo() );
 
         return notificacionResponseDTO.build();
     }
@@ -41,10 +41,10 @@ public class NotificacionMapperImpl implements NotificacionMapper {
 
         Notificacion.NotificacionBuilder notificacion = Notificacion.builder();
 
-        notificacion.destinatario( dto.getDestinatario() );
-        notificacion.tipo( dto.getTipo() );
         notificacion.asunto( dto.getAsunto() );
         notificacion.cuerpo( dto.getCuerpo() );
+        notificacion.destinatario( dto.getDestinatario() );
+        notificacion.tipo( dto.getTipo() );
 
         return notificacion.build();
     }

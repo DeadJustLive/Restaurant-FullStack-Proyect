@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch069-003",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 69,
+  "chunkIndex": 3,
+  "title": "0. Si el resultado es verdadero, significa que se est´a frente a un dato vac´ıo,",
+  "start": 1350,
+  "end": 1705,
+  "words": 355,
+  "content": "se trate de dividir entre 0, tomar´a el valor de Falso y se mostrar´a un mensaje de error sin el resultado de los c´alculos; si la terminaci´on del algoritmo se hace de forma normal, su valor ser´a Verdadero y se imprimir´a el resultado de las operaciones. De acuerdo al an´alisis planteado, se propone el Algoritmo 4.26. -- 261 of 450 -- 260 Estructuras de repetici ´on Algoritmo 4.26: Calculadora 1 Algoritmo Calculadora 2 // Este algoritmo simula una calculadora con las 3 // 4 operaciones b´asicas 4 5 // Declaraci´on de variables 6 Entero numero, calculo 7 Caracter operador 8 Logico bandera 9 10 imprimir( \"Digite un n´umero: \" ) 11 Haga 12 leer( numero ) 13 MientrasQue( numero < -200000 O numero > 200000 ) 14 15 // Inicializaci´on de variables 16 calculo = numero 17 bandera = Verdadero 18 19 // Proceso repetitivo 20 Haga 21 22 imprimir( \"Digite un operador: \" ) 23 Haga 24 leer( operador ) 25 MientrasQue( operador != ’+’ Y operador != ’-’ Y 26 operador != ’/’ Y operador != ’*’ Y 27 operador != ’=’) 28 29 Si( operador != ’=’ ) Entonces 30 imprimir( \"Digite otro n´umero: \" ) 31 Haga 32 imprimir( numero ) 33 MientrasQue( numero < -200000 O numero > 200000 ) 34 35 Segun( operador ) 36 Caso ’+’: calculo = calculo + numero 37 FinCaso 38 Caso ’-’: calculo = calculo - numero 39 FinCaso 40 Caso ’*’: calculo = calculo * numero 41 FinCaso 42 Caso ’/’: Si( numero == 0 ) Entonces 43 imprimir( \"Error. Divisi´on entre cero\" ) 44 bandera = Falso // Cambio de estado 45 SiNo 46 calculo = calculo / numero 47 FinSi 48 FinCaso -- 262 of 450 -- Introducci ´on a la L ´ogica de Programaci ´on 261 49 FinSegun 50 FinSi 51 52 Si( bandera ) Entonces //Si (bandera == Verdadero ) 53 imprimir( calculo ) 54 FinSi 55 56 MientrasQue( operador != ’=’ ) 57 FinAlgoritmo Explicaci´on del algoritmo: Este algoritmo hace uso de varias estructuras Haga-MientrasQue independientes y anidadas. Tambi´en se trabajaron estructuras de decisi´on simple y m´ultiple anidadas."
+}

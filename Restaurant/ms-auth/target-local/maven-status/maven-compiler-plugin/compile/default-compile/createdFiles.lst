@@ -10,6 +10,7 @@ cl/triskeledu/auth/dto/request/RegisterRequestDTO$RegisterRequestDTOBuilder.clas
 cl/triskeledu/auth/mapper/UsuarioMapperImpl.class
 cl/triskeledu/auth/dto/request/UsuarioRequestDTO.class
 cl/triskeledu/auth/entity/Usuario$UsuarioBuilder.class
+cl/triskeledu/auth/dto/request/RefreshTokenRequestDTO.class
 cl/triskeledu/auth/dto/event/AuthEventDTO.class
 cl/triskeledu/auth/service/impl/UsuarioServiceImpl.class
 cl/triskeledu/auth/exception/CredencialYaVinculadaException.class
@@ -32,6 +33,7 @@ cl/triskeledu/auth/service/AuthService.class
 cl/triskeledu/auth/config/SeedPasswordFixer.class
 cl/triskeledu/auth/service/UsuarioService.class
 cl/triskeledu/auth/dto/event/AuthEventDTO$AuthEventDTOBuilder.class
+cl/triskeledu/auth/dto/request/RefreshTokenRequestDTO$RefreshTokenRequestDTOBuilder.class
 cl/triskeledu/auth/exception/CredencialesInvalidasException.class
 cl/triskeledu/auth/repository/UserCredentialRepository.class
 cl/triskeledu/auth/dto/response/UsuarioResponseDTO.class

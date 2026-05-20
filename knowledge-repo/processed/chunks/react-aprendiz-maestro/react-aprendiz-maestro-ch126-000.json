@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch126-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 126,
+  "chunkIndex": 0,
+  "title": "3. Lanzar la llmada a hover cuando se ejecute onMove par que podamos incluir",
+  "start": 0,
+  "end": 53,
+  "words": 53,
+  "content": "# 3.5 Conclusión De momento tenemos sólo una aplicación primitiva, y hay dos funcionalidades críticas que necesitamos: la edición y el borrado de notas. Es un buen momento de centrarnos en ellas a partir de ahora. Primero comenzaremos con el borrado y, tras ello, con la edición. 9https://www.npmjs.com/package/autobind-decorator -- 50 of 226 --"
+}

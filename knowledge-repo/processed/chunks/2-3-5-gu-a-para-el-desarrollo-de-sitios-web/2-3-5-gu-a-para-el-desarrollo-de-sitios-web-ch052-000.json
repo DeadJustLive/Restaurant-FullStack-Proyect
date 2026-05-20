@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch052-000",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 52,
+  "chunkIndex": 0,
+  "title": "3. Apoyo a los robots de búsqueda: se refiere",
+  "start": 0,
+  "end": 54,
+  "words": 54,
+  "content": "# 3. Apoyo a los robots de búsqueda: se refiere al adecuado manejo de las cabeceras de las páginas (es decir, los contenidos de la etiqueta <head>); el contenido del archivo robots.txt; la generación del archivo estándar sitemaps.xml y la revisión del sitio mediante herramientas que simulan la acción de un “spider” de búsqueda."
+}

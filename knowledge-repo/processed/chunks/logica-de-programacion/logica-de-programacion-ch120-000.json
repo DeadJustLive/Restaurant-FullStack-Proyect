@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch120-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 120,
+  "chunkIndex": 0,
+  "title": "11. En el Ejemplo 4.15 se hizo un algoritmo que informaba si un n´umero",
+  "start": 0,
+  "end": 41,
+  "words": 41,
+  "content": "# 11. En el Ejemplo 4.15 se hizo un algoritmo que informaba si un n´umero es o no perfecto. Basado en esa soluci´on, dise˜ne un nuevo algoritmo que lea un n´umero n e imprima los n´umeros perfectos entre 1 y n."
+}

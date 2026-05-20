@@ -1,0 +1,9 @@
+[
+  {
+    "ts": "2026-05-19T22:13:25.687Z",
+    "action": "work_context_init",
+    "detail": "Work context initialized",
+    "planRef": null,
+    "result": "ok"
+  }
+]

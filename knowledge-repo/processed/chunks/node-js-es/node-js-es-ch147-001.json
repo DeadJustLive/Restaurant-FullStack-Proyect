@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch147-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 147,
+  "chunkIndex": 1,
+  "title": "Install a package \"mylib\" from the scope \"myscope\"",
+  "start": 450,
+  "end": 518,
+  "words": 68,
+  "content": "nuevo archivo de configuración llamando a: npm init Eso intentará leer el directorio de trabajo actual para obtener información del repositorio de Git (si existe) y las variables de entorno para probar y autocompletar algunos de los valores de marcador de posición para usted. De lo contrario, proporcionará un diálogo de entrada para las opciones básicas. Si desea crear un package.json con valores predeterminados use: npm init --yes"
+}

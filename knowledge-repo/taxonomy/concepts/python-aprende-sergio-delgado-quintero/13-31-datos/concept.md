@@ -1,0 +1,49 @@
+# 3.1 Datos
+
+## Fuente
+Aprende Python (Cap. 13)
+
+## Contenido
+# 3.1 Datos
+
+Los programas están formados por código y datos. Pero a nivel interno de la memoria del
+ordenador no son más que una secuencia de bits. La interpretación de estos bits depende del
+lenguaje de programación, que almacena en la memoria no sólo el puro dato sino distintos
+metadatos.1
+Cada «trozo» de memoria contiene realmente un objeto, de ahí que se diga que en Python
+todo son objetos. Y cada objeto tiene, al menos, los siguientes campos:
+• Un tipo del dato almacenado.
+• Un identificador único para distinguirlo de otros objetos.
+• Un valor consistente con su tipo.
+3.1.1 Tipos de datos
+A continuación se muestran los distintos tipos de datos que podemos encontrar en Python,
+sin incluir aquellos que proveen paquetes externos:
+1 Foto original de portada por Alexander Sinn en Unsplash.
+46 Capítulo 3. Tipos de datos
+
+-- 50 of 516 --
+
+Aprende Python
+Figura 1: Esquema (metadatos) de un objeto en Python
+3.1. Datos 47
+
+-- 51 of 516 --
+
+Aprende Python
+Tabla 1: Tipos de datos en Python
+Nombre Tipo Ejemplos
+Booleano bool True, False
+Entero int 21, 34500, 34_500
+Flotante float 3.14, 1.5e3
+Complejo complex 2j, 3 + 5j
+Cadena str tfn , tenerife - islas canarias
+Tupla tuple (1, 3, 5)
+Lista list [ Chrome , Firefox ]
+Conjunto set set([2, 4, 6])
+Diccionario dict { Chrome : v79 , Firefox : v71 }
+3.1.2 Variables
+Las variables son fundamentales ya que permiten definir nombres para los valores que
+tenemos en memoria y que vamos a usar en nuestro programa.
+Figura 2: Uso de un nombre de variable
+Reglas para nombrar variables
+En Python existen una serie de reglas para los nombres de variables:

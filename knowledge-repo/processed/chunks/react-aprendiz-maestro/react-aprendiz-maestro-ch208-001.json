@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch208-001",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 208,
+  "chunkIndex": 1,
+  "title": "11.5 Extrayendo LaneHeader (Cabecera de Carril) de Carril . . . . . 123",
+  "start": 450,
+  "end": 652,
+  "words": 202,
+  "content": "id)} /> <button className=\"delete\" onClick={onDelete.bind(null, id)}>x</button> </Note> </li> )}</ul> ) Lo siguiente será tenerlo en cuenta a la hora de renderizar: app/components/Note.jsx import React from 'react'; import {compose} from 'redux'; import {DragSource, DropTarget} from 'react-dnd'; import ItemTypes from '../constants/itemTypes'; const Note = ({ connectDragSource, connectDropTarget, isDragging, isOver, onMove, id, children, ...props isOver, onMove, id, editing, children, ...props }) => { // Pass through if we are editing const dragSource = editing ? a => a : connectDragSource; return compose(connectDragSource, connectDropTarget)( return compose(dragSource, connectDropTarget)( <div style={{ opacity: isDragging || isOver ? 0 : 1 }} {...props}>{children}</div> ); }; ... -- 173 of 226 -- Implementado Arrastrar y Soltar 156 Este pequeño cambio nos dá el comportamiento que queremos. Si tratas de editar una nota ahora, la caja de texto se comportará como esperas. Mirando hacia atrás podemos ver que mantener el estado editing fuera de Editable fue una buena idea. Si no lo hubiésemos hecho así, implementar este cambio habría sido bastante más difícil ya que tendríamos que poder sacar el estado fuera del componente. ¡Por fin tenemos un tablero Kanban que es útil!. Podemos crear carriles y notas nuevas, y también podemos editarlas y borrarlas. Además podemos movar las notas. ¡Objetivo cumplido!"
+}

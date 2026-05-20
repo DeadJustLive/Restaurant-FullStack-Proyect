@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch045-024",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 45,
+  "chunkIndex": 24,
+  "title": "Parte VI",
+  "start": 10800,
+  "end": 10975,
+  "words": 175,
+  "content": "ib[0] y F ib[1] son los primeros 2 términos de la sucesión de Fibonacci y además i = 2. Supongamos que está por ejecutarse por k-ésima vez la línea 6 y que F ib[0], F ib[1], ..., F ib[k] son los primeros k + 1 términos de la sucesión de Fi- bonacci, entonces i tendrá el valor de k+1 y luego de ejecutarse la línea 6 ten- dremos que F ib[k+1] = F ib[k]+F ib[k−1] = F (k)+F (k−1) = F (k), posteri- ormente i tomará el valor de k+2 y tendremos que F ib[0], F ib[1], ..., F ib[k+1] serán los primeros k + 2 términos de la sucesión de Fibonacci. Por inducción, luego de iterar n veces F ib[n] será el n + 1-ésimo término de la sucesión de Fibonacci. Esta implementación elimina aparentemente la recursión. Sin embargo, resultaría muy difícil saber qué está haciendo sin conocer la recursión, ya que para llegar a esta implementación usamos la idea de la implementación recursiva. \u0003 Informalmente hablando la programación dinámica consta de 2 pasos:"
+}

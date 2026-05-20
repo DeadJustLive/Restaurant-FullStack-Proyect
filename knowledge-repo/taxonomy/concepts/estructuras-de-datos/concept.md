@@ -1,0 +1,193 @@
+# estructuras-de-datos
+
+## Resumen
+Documento procesado con openPrompt-Lang Knowledge.
+
+**Páginas:** 64
+**Método:** native
+**Procesado:** 2026-05-17
+
+## Capítulos
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **FACULTAD DE CIENCIAS BÁSICAS E INGENIERÍA**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **LUIS FERNANDO ZAPATA ALVAREZ**
+- **ESPECIALISTA EN GERENCIA INFORMATICA Y EN ADMINISTRACION DE LA INFORMATICA EDUCATIVA y MAGISTER EN**
+- **RESPONSABLES**
+- **GRUPO DE APOYO**
+- **EDICIÓN Y MONTAJE**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **INGENIERIA DE SISTEMAS**
+- **1) Elabore un algoritmo que imprima el recorrido DFS de un grafo representado como matriz de adyacencia.**
+- **2) Elabore un algoritmo que imprima el recorrido BFS de un grafo representado como listas ligadas de**
+- **3) Elabore un algoritmo que imprima el recorrido BFS de un grafo representado como multilistas de**
+- **4) Elabore un algoritmo que imprima el recorrido DFS de un grafo representado como multilistas de**
+- **5) Elabore un algoritmo que imprima el recorrido BFS de un grafo representado como matriz de incidencia.**
+- **3.3 MATRICES DISPERSAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **TABLA DE CONTENIDO**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **2.2 Tema 1 Arboles generales y su representación........................................................................................8**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **1. Buscamos la primera tripleta que contenga la fila de la tripleta ti**
+- **2. Cuando se avanza sobre el vector de tripletas se tiene en cuenta que estemos en la misma fila de la**
+- **3. El orden de magnitud es O(p), siendo p el número de tripletas (orden lineal)**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **2.3 Tema 2 Arboles binarios y su representación ....................................................................................... 12**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **4.2 Representación de matrices dispersas con fórmulas de direccionamiento**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **2.4 Tema 3 Listas Generalizadas.................................................................................................................. 23**
+- **INGENIERIA DE SISTEMAS**
+- **3.4 ANÁLISIS DE OTRAS FÓRMULAS DE DIRECCIONAMIENTO**
+- **IZQUIERDA**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **PRINCIPAL (ESTILO, TÍTULO 4)**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **3.2 Tema 1 Definición y terminología básica sobre grafos.......................................................................... 29**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **4 PISTAS DE APRENDIZAJE**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **3.3 Matrices dispersas ................................................................................................................................. 40**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **5 BIBLIOGRAFÍA**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **3.4 Análisis de otras fórmulas de direccionamiento ................................................................................... 55**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **1 MAPA DE LA ASIGNATURA**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **2 UNIDAD 1 ARBOLES**
+- **UTPL ÁRBOLES [(INFORMÁTICA)(ESTRUCTURA DE DATOS)] Enlace**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **2.2 TEMA 1 ARBOLES GENERALES Y SU REPRESENTACIÓN**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **LIGA1 LIGA2 LIGA3 DATO**
+- **REPRESENTACION DE ARBOLES GENERALES CON LISTAS LIGADAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **SW DATO LIGA**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **2.3 TEMA 2 ARBOLES BINARIOS Y SU REPRESENTACIÓN**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **A B C D E F G**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **DEL PADRE**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **LI RP D LD**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **1. Para el siguiente Árbol general**
+- **2. Para el siguiente árbol binario:**
+- **3. Describir los recorridos inorden, postorden y preorden asociados al árbol del punto 2**
+- **4. Convertir el árbol del punto 1 en binario**
+- **5. Escribir un algoritmo que cree un árbol binario de forma recursiva**
+- **6. Hacer un seguimiento recursivo en Inorden para el árbol que tiene tres registros utilizando la pila**
+- **7. Escribir un algoritmo que busque un dato en que puede encontrarse dentro del árbol.**
+- **2.4 TEMA 3 LISTAS GENERALIZADAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **GENERALIZADA**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **1. Representar con listas generalizadas el siguiente polinomio:**
+- **2. Representar como lista generalizada el siguiente conjunto al conjunto C:**
+- **3. Representar con listas generalizadas el siguiente árbol n-ario**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **3 UNIDAD 2 GRAFOS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **ESTRUCTURAS DE DATOS**
+- **INGENIERIA DE SISTEMAS**
+- **3.2 TEMA 1 DEFINICIÓN Y TERMINOLOGÍA BÁSICA SOBRE GRAFOS**
+- **L2={(A,B),(A,C),(B,C),(C,D)}**
+- **GRAFOS CARACTERÍSTICAS**
+- **ESTRUCTURAS DE DATOS**

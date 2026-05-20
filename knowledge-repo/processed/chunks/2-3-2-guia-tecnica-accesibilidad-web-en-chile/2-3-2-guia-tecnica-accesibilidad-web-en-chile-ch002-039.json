@@ -1,0 +1,11 @@
+{
+  "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-039",
+  "bookId": "2-3-2-guia-tecnica-accesibilidad-web-en-chile",
+  "chapterIndex": 2,
+  "chunkIndex": 39,
+  "title": "parte d: el",
+  "start": 17550,
+  "end": 17745,
+  "words": 195,
+  "content": "es el elemento enfocado, es decir, dicho elemento se encuentra enfocado a través del teclado. \u001f Responsive: Se trata de un atributo de la vista del contenido web, ya sea a una imagen, una tabla, todo el contenido de la página, etc. Decir que sea responsive es que dicho elemento se adapta según el tamaño de la pantalla en la que se visualiza la página web, es decir, si la página está siendo vista desde una pantalla con 1000 pixeles de alto, y la imagen tiene un tamaño de 100 pixeles de alto, puede darse el caso que, al verlo desde un teléfono de 800 pixeles de alto, la imagen ahora tenga un tamaño de 80 pixeles de alto. \u001f Accesibilidad: Cuando se habla de accesibilidad, refiriéndose a contenido o información, quiere decir que una gran variedad o toda la población es capaz de entender y adquirir este contenido o información. Existe un dicho para el contenido web, el cual es hacer una página o aplicación “880”, cuya expresión se refiere a que toda persona entre 8 años y 80 años está habilitada para entender y hacer uso del contenido. -- 108 of 108 --"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch005-011",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 5,
+  "chunkIndex": 11,
+  "title": "4. De lo contrario, si la función es invocada como una función independiente, no unida a algún",
+  "start": 4950,
+  "end": 5140,
+  "words": 190,
+  "content": "mismo contenedor, en lugar de añadir cada elemento uno por vez, lo mejor es concatenar todo el HTML en una única cadena de caracteres para luego anexarla al contenedor. Una posible solución es utilizar un vector que posea todos los elementos, luego reunirlos utilizando join y finalmente anexarla. var myItems = [], $myList = $('#myList'); for (var i=0; i<100; i++) { myItems.push('<li>item ' + i + '</li>'); } $myList.append(myItems.join('')); Manipulación de Atributos Las capacidades para la manipulación de atributos que ofrece la biblioteca son extensos. La realiza- ción de cambios básicos son simples, sin embargo el método $.fn.attr permite manipulaciones más complejas. Manipular un simple atributo $('#myDiv a:first').attr('href', 'newDestination.html'); Manipular múltiples atributos $('#myDiv a:first').attr({ href : 'newDestination.html', rel : 'super-special' }); 37 -- 38 of 107 -- Utilizar una función para determinar el valor del nuevo atributo $('#myDiv a:first').attr({ rel : 'super-special', href : function(idx, href) { return '/new/' + href; } }); $('#myDiv a:first').attr('href', function(idx, href) { return '/new/' + href; }); 0.3.8. Ejercicios Selecciones Abra el archivo /ejercicios/index.html en el navegador. Realice el ejercicio utilizando el archivo /ejercicios/js/sandbox.js o trabaje directamente con Firebug para cumplir los siguientes puntos:"
+}

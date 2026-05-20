@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch069-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 69,
+  "chunkIndex": 0,
+  "title": "{- PROP´OSITO:",
+  "start": 0,
+  "end": 38,
+  "words": 38,
+  "content": "# PRECONDICIONES: * hay 2 celdas al Norte y 2 celdas al Este de la actual */ { Poner(Negro); Mover(Norte); Poner(Negro); Mover(Norte) Poner(Negro); Mover(Este); Poner(Negro); Mover(Este) Poner(Negro); Mover(Sur); Poner(Negro); Mover(Sur) Poner(Negro); Mover(Oeste); Poner(Negro); Mover(Oeste) } procedure DibujarCuadradoRojoDeLado3() /*"
+}

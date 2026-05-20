@@ -1,0 +1,91 @@
+# PRECONDICI´ON:
+
+* debe haber bolitas negras o azules
+en la celda actual
+-}
+{
+if (hayBolitas(Negro))
+-- El cultivo se empez´o a poner Negro
+{ colorAEncender := Rojo }
+else
+{ if (hayBolitas(Verde))
+-- El cultivo conserva su color Verde
+{ colorAEncender := Verde }
+}
+IrALaEsquina(Sur,Oeste)
+Poner(colorAEncender)
+-- Encender la luz correspondiente
+}
+Sin embargo, el c ´odigo del ejemplo contiene un error potencial. En el caso de que el cultivo
+se haya muerto (o sea no haya bolitas de ning ´un color), la variable colorAEncender no
+tendr ´a valor, pues no se habr ´a ejecutado ninguna de las asignaciones en las ramas de los
+condicionales. Puesto que la variable no tiene valor, el llamado a Poner de la ´ultima l´ınea
+producir ´a la destrucci ´on del cabezal.
+Actividad de Programaci ´on 22
+Escriba el c ´odigo de AvisarEstadoDelCultivo en un programa, y probarlo con
+tres celdas diferentes: una que contenga bolitas negras, una que contenga bo-
+litas azules pero no negras, y una que no contenga bolitas ni negras ni azules.
+Observe lo que sucede en cada caso, y compruebe qu ´e sucede cuando la varia-
+ble no toma valor.
+Una forma de corregir el error es darnos cuenta de que la acci ´on de prender la luz no
+siempre debe ejecutarse. En caso de que el cultivo no est ´e ni azul ni negro, no debe
+encenderse ninguna luz. Entonces podemos indicar la necesidad de prender la luz con
+una nueva variable, esta vez de valor booleano. Esta variable debe contener verdadero si
+la luz debe encenderse y falso en caso contrario.
+procedure AvisarEstadoDelCultivo()
+{-
+PRECONDICI´ON: ninguna, es una operaci´on total
+-}
+{
+if (hayBolitas(Negro))
+-- El cultivo se empez´o a poner Negro
+{
+colorAEncender := Rojo
+encenderLuz := True
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 160 of 312 --
+
+161
+-- Indicamos que hay que encender la luz de color rojo
+}
+else
+{ if (hayBolitas(Azul))
+-- El cultivo conserva su color Azul
+{
+colorAEncender := Verde
+encenderLuz := True
+-- Indicamos que hay que encender
+-- la luz de color verde
+}
+else
+{ encenderLuz := False }
+-- Indicamos que no hay que encender
+-- la luz
+}
+IrALaEsquina(Sur,Oeste)
+if (encenderLuz) { Poner(colorAEncender) }
+-- Encender la luz correspondiente,
+-- si fue indicado
+}
+Podemos ver que el comando de encender la luz (el Poner del final) es ahora condicional,
+y la condici ´on es el valor de la variable, que habr ´a cambiado seg ´un el color del cultivo.
+Este c ´odigo no produce la destrucci ´on del cabezal (o sea, es una operaci ´on total).
+Otra forma de provocar la autodestrucci ´on mediante el uso de una variable que no
+fue definida es utilizar dicha variable cuando la misma no tiene sentido, por no correspon-
+der con ning ´un valor. En GOBSTONES, la correspondencia entre una variable y un valor
+sirve solamente dentro del procedimiento donde se realiza la asignaci ´on; o sea, cada pro-
+cedimiento tiene sus propios “recuerdos” que no comparte con ning ´un otro. La parte del
+c ´odigo donde tal correspondencia tiene sentido para una variable determinada se deno-
+mina alcance de la variable. As´ı, en GOBSTONES, las variables tienen alcance dentro de
+un procedimiento exclusivamente.
+Definici ´on 4.3.3. El alcance de una variable es la parte del c ´odigo donde la correspon-
+dencia entre la misma y un valor tiene sentido. En GOBSTONES todas las variables tienen
+alcance solo dentro del procedimiento que las asigna.
+El efecto de que el alcance de las variables sea entre procedimientos es que la ´unica ma-
+nera de comunicar informaci ´on entre procedimientos sea a trav ´es de los par ´ametros o de
+los valores de retorno de las funciones. O sea, no tiene sentido utilizar en un procedimiento
+una variable asignada en otro. Cada procedimiento posee su propia asignaci ´on de varia-
+bles a valores. Por ejemplo, el siguiente c ´odigo es err ´oneo porque cada procedimiento
+tiene su propio espacio de variables, y por lo tanto no comparten las variables.
+procedimiento DuplicarRojasAlNorteMal()

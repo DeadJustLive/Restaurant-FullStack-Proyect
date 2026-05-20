@@ -11,6 +11,8 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
+import lombok.extern.slf4j.Slf4j;
+
 /**
  * =============================================================================
  * EXCEPTION HANDLER: GlobalExceptionHandler (ms-auth)
@@ -20,6 +22,7 @@ import java.util.Map;
  * =============================================================================
  */
 @RestControllerAdvice
+@Slf4j
 public class GlobalExceptionHandler {
 
     /** 404 — Perfil de usuario no encontrado. */
@@ -76,7 +79,8 @@ public class GlobalExceptionHandler {
     /** 500 — Fallback no controlado. No exponer detalle interno. */
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGeneral(Exception ex) {
-        ex.printStackTrace(); return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
+        log.error("Excepción no controlada: ", ex);
+        return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
                 "Error interno en ms-auth. Contacte al administrador.");
     }
 

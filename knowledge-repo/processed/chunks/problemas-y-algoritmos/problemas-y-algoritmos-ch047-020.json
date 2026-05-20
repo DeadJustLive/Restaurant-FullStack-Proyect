@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch047-020",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 47,
+  "chunkIndex": 20,
+  "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+  "start": 9000,
+  "end": 9193,
+  "words": 193,
+  "content": "{ 6 M[ i ] [ k]=INFINITO ; 7 for (m=1;m<i ;m++){ // C o r t e s h o r i z o n t a l e s -- 292 of 315 -- 21.3. POLÍGONO 293 8 M[ i ] [ k]=min (M[ i ] [ k ] , M[m] [ k]+M[ i −m] [ k ] ) ; 9 } 10 for (m=1;m<i ;m++){ // C o r t e s v e r t i c a l e s 11 M[ i ] [ k]=min (M[ i ] [ k ] , M[ i ] [m]+M[ i ] [ k−m] ) ; 12 } 13 } 14 } 15 } Para propósitos del tema de programación dinámica en cortes ya encon- tramos la solución al problema, sin embargo esta solución está llena de cosas que se pueden mejorar, se invita al lector a buscar cómo mejorarla. \u0003 21.3. Polígono Sección pendiente, consúltese http://olympiads.win.tue.nl/ioi/ioi98/contest/day2/polygon/polygo para acceder a la descripción del problema y http://olympiads.win.tue.nl/ioi/ioi98/contest/day2/polyg para acceder a una descripción de la solución. -- 293 of 315 -- 294 CAPÍTULO 21. PROGRAMACIÓN DINÁMICA EN CORTES -- 294 of 315 --"
+}

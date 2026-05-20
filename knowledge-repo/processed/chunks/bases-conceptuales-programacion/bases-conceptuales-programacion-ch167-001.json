@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch167-001",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 167,
+  "chunkIndex": 1,
+  "title": "PRECONDICIONES Y OBSERVACIONES:",
+  "start": 450,
+  "end": 592,
+  "words": 142,
+  "content": "al norte a hacer desde la esquina suroeste para llegar a dicha celda (de manera similar a como se mostr ´o en MarcarCeldaConMaxBolitasEnColumna). Ejercicio 4.3.8. Utilizando la representaci ´on del display de ecualizador del ejercicio 3.4.2, realizar un procedimiento PosicionarseEnFrecuenciaMaxima que ubique al cabezal en la base de la columna que tenga la frecuencia con mayor intensidad. Otra forma de recorrido donde la capacidad de recordar valores es fundamental es cuando se debe recorrer una secuencia pero no se deben procesar todos los elementos. Por ejemplo, imaginemos que queremos colocar una progresi ´on de bolitas verde en n celdas, tal que la cantidad de bolitas en cada celda sean solo los m ´ultiplos de 2 o de 3 (o sea, 2, 3, 4, 6, 8, 9, 10, 12, etc.). Entonces, podr´ıa usarse un recorrido con memoria de la siguiente manera procedure ProgresionVerdeDosOTres(n)"
+}

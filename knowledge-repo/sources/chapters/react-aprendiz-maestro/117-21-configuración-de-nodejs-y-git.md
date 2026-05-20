@@ -1,0 +1,44 @@
+# 2.1 Configuración de Node.js y Git
+
+Antes de comenzar, asegúrate de que tienes instaladas las últimas versiones tanto de
+Node.js3 como de Git4. Te recomiento que utilices, al menos, la última versión LTS
+de Node.js. Puede que tengas errores difíciles de depurar con versiones anteriores, y
+lo mismo puede ocurrir con versiones posteriores a la LTS.
+Una opción interesante es gestionar tu entorno a través de Vagrant5 o
+mediante una herramienta como nvm6.
+Descargando el Esqueleto
+Para poder descargar el esqueleto que nuestro proyecto necesita, clónalo con Git de
+la siguiente manera desde una terminal:
+git clone https://github.com/survivejs/react-boilerplate.git kanban-\
+app
+Esto creará un nuevo directorio llamado kanban-app. Dentro encontrarás todo lo que
+necesitas para poder avanzar. Ya que el esqueleto puede cambiar dependiendo de la
+versión del libro, te recomiendo que cambies a la versión específica del mismo:
+cd kanban-app
+git checkout v2.5.6
+El repositorio contiene una pequeña aplicación a modo de semilla que muestra un
+Hello World! y una configuración de Webpack básica. Para instalar las dependencias
+de la semilla simplemente ejecuta:
+3https://nodejs.org
+4https://git-scm.com/
+5https://www.vagrantup.com/
+6https://www.npmjs.com/package/nvm
+
+-- 28 of 226 --
+
+Configurando el Proyecto 11
+npm install
+Una vez termine deberás ver un directorio llamado node_modules/ con todas las
+dependencias del proyecto.
+Creando un Repositorio Nuevo de Git para tu Proyecto
+No sólo te has descargado el proyecto react-boilerplate, sino que además te has
+descargado el historial del mismo. Este historial no es realmente importante para
+tu nuevo proyecto, así que es un buen momento para borrar el historial de git y
+comenzar con un repositorio limpio. Este nuevo repositorio reflejará la evolución de
+tu proyecto. Es una buena idea que, en el commit inicial, menciones la versión del
+esqueleto de la que partes:
+rm -rf .git
+git init
+git add .
+git commit -am "New project based on react-boilerplate (v2.5.6)"
+Tras esto tendrás un repositorio limpio en el que trabajar.

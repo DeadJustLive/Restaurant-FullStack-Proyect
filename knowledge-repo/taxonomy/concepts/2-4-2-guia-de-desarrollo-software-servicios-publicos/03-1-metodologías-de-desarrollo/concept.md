@@ -1,0 +1,61 @@
+# 1. Metodologías de desarrollo
+
+## Fuente
+2.4.2 Guia de Desarrollo Software Servicios Publicos (Cap. 3)
+
+## Contenido
+# 1. Metodologías de desarrollo
+
+Para el análisis, desarrollo e
+implementación se sugiere utilizar
+metodologías ágiles, incorporando al
+menos las recomendaciones de la
+metodología 	denominada 	The
+Twelve-Factor App, con el objeto de
+satisfacer, al menos, los siguientes
+aspectos:
+● Usar formatos declarativos para la
+automatización de la configuración.
+Así es posible minimizar el tiempo y
+coste que supone que nuevos
+desarrolladores se unan al proyecto.
+● Tener un contrato claro con el
+sistema operativo sobre el que se
+trabaja, ofreciendo la máxima
+portabilidad entre los diferentes
+entornos de ejecución.
+● Disponer, por defecto, despliegues
+en plataformas modernas en la
+nube, obviando la necesidad de
+servidores y administración de
+sistemas.
+● Minimizar las diferencias entre los
+entornos de desarrollo y producción,
+posibilitando 	un 	despliegue
+continuo para conseguir la máxima
+agilidad.
+● Poder escalar la arquitectura o las
+prácticas de desarrollo sin cambios
+significativos en términos de
+herramientas.
+Se recomienda al equipo de desarrollo el
+uso de metodologías ágiles, tales como
+Scrum o Kanban, Programación
+Extrema, Modelamiento Ágil, Feature
+Driven Development (FDD) o cualquier
+otra que considere relevante; o bien
+otras metodologías de desarrollo de
+productos como Shape Up.
+Dado que actualmente las instituciones
+pueden no contar con un equipo con los
+conocimientos de metodologías de
+desarrollo ágil u otras, se recomienda
+
+-- 6 of 33 --
+
+iniciar las capacitación para trabajos
+futuros y, de esta forma, iniciar los
+nuevos 	proyectos 	con 	estas
+metodologías y, con el tiempo, adquirir
+la experiencia para aplicarla a proyectos
+ya existentes.

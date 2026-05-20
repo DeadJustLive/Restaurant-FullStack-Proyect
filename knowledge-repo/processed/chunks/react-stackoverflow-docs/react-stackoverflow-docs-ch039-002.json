@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch039-002",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 39,
+  "chunkIndex": 2,
+  "title": "módulo d: el cargador que nos gustaría usar para cargar el archivo en el paquete web y dejar que",
+  "start": 900,
+  "end": 978,
+  "words": 78,
+  "content": "el comando: npm run build Esto agrupará la pequeña aplicación que ha creado y la colocará en el directorio dist/ que creará en la raíz de la carpeta de su proyecto. Si ejecuta el comando: npm start Luego, la aplicación que haya creado se servirá en su navegador web predeterminado dentro de una instancia de servidor webpack dev. Lea Cómo configurar un webpack básico, reaccionar y babel. en línea: https://riptutorial.com/es/reactjs/topic/6294/como-configurar-un-webpack-basico--reaccionar-y- babel- https://riptutorial.com/es/home 27 -- 37 of 139 --"
+}

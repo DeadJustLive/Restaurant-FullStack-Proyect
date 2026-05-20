@@ -1,0 +1,14 @@
+# 9. Reglas para Medir la Complejidad 111
+
+9.1. Regla de la Suma . . . . . . . . . . . . . . . . . . . . . . . . . 111
+9.2. Producto por Constante . . . . . . . . . . . . . . . . . . . . . 114
+9.3. Regla del Producto . . . . . . . . . . . . . . . . . . . . . . . . 114
+9.4. Complejidad en Polinomios . . . . . . . . . . . . . . . . . . . . 115
+9.5. Medir antes de implementar . . . . . . . . . . . . . . . . . . . 116
+9.6. Búsqueda de Cotas Mayores . . . . . . . . . . . . . . . . . . . 118
+10.Complejidades Logarítmicas 121
+10.1. Análisis de la Búsqueda Binaria . . . . . . . . . . . . . . . . . 121
+10.2. Bases de logaritmos . . . . . . . . . . . . . . . . . . . . . . . . 123
+10.3. Complejidades O(N logN ) . . . . . . . . . . . . . . . . . . . . 124
+
+-- 10 of 315 --

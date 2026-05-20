@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch083-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 83,
+  "chunkIndex": 0,
+  "title": "Controlando como los tests son ejecutados",
+  "start": 0,
+  "end": 57,
+  "words": 57,
+  "content": "# Controlando como los tests son ejecutados ## Controlando como los tests son ejecutados ### Ejecutando tests en paralelo o consecutivamente ### Mostrando el Output de las funciones ### Ejecutando un Subset de tests por nombre #### Ejecutando un solo test #### Filtrando para ejecutar múltiples tests ### Ignorando algunos tests a menos que se soliciten especificamente"
+}

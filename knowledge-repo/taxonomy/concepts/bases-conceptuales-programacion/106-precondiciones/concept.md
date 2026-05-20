@@ -1,0 +1,32 @@
+# PRECONDICIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 106)
+
+## Contenido
+# PRECONDICIONES:
+
+* default <hay un tablero de Zilfost codificado>
+* se encuentra dentro de una zona de n´umeros
+* dir es Este u Oeste (no tiene sentido que sea
+Norte o Sur, porque las zonas de n´umeros tienen
+altura 1)
+*/
+{
+while(puedeMoverEnZonaDeNumeroAl(dir))
+{ Mover(dir) }
+}
+Dado que la zona de n ´umeros codifica un n ´umero, es necesario contar con una forma de
+obtener de qu ´e n ´umero se trata. La funci ´on leerZonaDeNumero es la que da sentido a la
+zona de n ´umeros; la misma utiliza dos funciones auxiliares, hayDigito y leerDigito, que
+capturan la operatoria elemental. El c ´odigo se estructura como un recorrido de totaliza-
+ci ´on sobre los d´ıgitos, ley ´endolos de derecha a izquierda, para lo cual asumimos como
+precondici ´on que la celda actual se encuentra en el borde derecho de la zona a leer. El
+c ´odigo de la funci ´on ser ´a entonces
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 188 of 312 --
+
+189
+function leerZonaDeNumeros()
+/*

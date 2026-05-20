@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch029-000",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 29,
+  "chunkIndex": 0,
+  "title": "EJEMPLO",
+  "start": 0,
+  "end": 16,
+  "words": 16,
+  "content": "# EJEMPLO enumerado direcciones { NORTE, SUR, ESTE, OESTE } direcciones direccion_de_un_coche, direccion_de_un_avion = SUR, direccion_de_un_camion"
+}

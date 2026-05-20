@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch015-000",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 15,
+  "chunkIndex": 0,
+  "title": "Capítulo 12:: Estado en reaccionar 58",
+  "start": 0,
+  "end": 54,
+  "words": 54,
+  "content": "# Capítulo 12:: Estado en reaccionar 58 Examples 58 Estado basico 58 setState () 58 Usando setState() con un Objeto como updater 59 Usando setState() con una función como updater 59 Llamar a setState() con un objeto y una función de devolución de llamada 60 Antipattern común 60 Estado, Eventos y Controles Gestionados. 62"
+}

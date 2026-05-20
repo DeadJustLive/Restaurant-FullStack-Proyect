@@ -1,3 +1,7 @@
+// @use(carrito)
+// @kind(controller)
+// @contract(in: CarritoRequestDTO, CarritoItemRequestDTO -> out: CarritoResponseDTO)
+// @limit(lines: 400)
 package cl.triskeledu.carrito.controller;
 
 import cl.triskeledu.carrito.dto.request.CarritoItemRequestDTO;
@@ -52,7 +56,8 @@ public class CarritoController {
     public ResponseEntity<CarritoResponseDTO> actualizarCantidadItem(
             @PathVariable Long usuarioId,
             @PathVariable Long itemId,
-            @RequestParam Integer cantidad) {
+            @RequestBody Map<String, Integer> payload) {
+        Integer cantidad = payload.get("cantidad");
         log.info("REST request to update item {} quantity to {} for usuarioId: {}", itemId, cantidad, usuarioId);
         return ResponseEntity.ok(carritoService.actualizarCantidadItem(usuarioId, itemId, cantidad));
     }

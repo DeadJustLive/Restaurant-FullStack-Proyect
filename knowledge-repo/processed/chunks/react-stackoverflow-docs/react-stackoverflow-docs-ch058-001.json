@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch058-001",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 58,
+  "chunkIndex": 1,
+  "title": "módulo d: e carga para usar con el paquete web. También instalamos los ajustes preestablecidos",
+  "start": 450,
+  "end": 621,
+  "words": 171,
+  "content": "'bundle.js' }, module: { loaders: [ { test: /\\.js$/, exclude: /(node_modules)/, loader: 'babel', query: { presets: ['es2015', 'react'] } } ] }, devServer: { contentBase: path.resolve(__dirname, 'public'), hot: true } }; Las modificaciones estan en https://riptutorial.com/es/home 68 -- 78 of 139 -- output.publicPath que configura una ruta desde la cual se sirve nuestro paquete (consulte los archivos de configuración del paquete web para obtener más información) • devServer contentBase la ruta base para servir archivos estáticos (por ejemplo, index.html ) ○ hot conjuntos del webpack-dev-servidor para recargar caliente cuando se hacen los cambios a los archivos en el disco ○ • Y, finalmente, solo necesitamos un index.html simple para probar nuestra aplicación. index.html: <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"utf-8\"> <title>React Sandbox</title> </head> <body> <div id=\"app\" /> <script src=\"public/bundle.js\"></script> </body> </html> Con esta configuración ejecutando $webpack-dev-server debe iniciar un servidor http local en el puerto 8080 y al conectarse debe mostrar una página que contenga un <h1>Hello world!</h1> . Lea Instalación en línea: https://riptutorial.com/es/reactjs/topic/6441/instalacion https://riptutorial.com/es/home 69 -- 79 of 139 --"
+}

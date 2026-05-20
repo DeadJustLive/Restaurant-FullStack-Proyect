@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch151-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 151,
+  "chunkIndex": 0,
+  "title": "2. Dise˜ne un algoritmos con funciones y procedimientos que permita",
+  "start": 0,
+  "end": 90,
+  "words": 90,
+  "content": "# 2. Dise˜ne un algoritmos con funciones y procedimientos que permita que un arquitecto pueda determinar f´acilmente el ´area total de un parque infantil que esta dise˜nando. El arquitecto puede ajustar cada una de las longitudes de las zonas del parque para ver como el cambio afecta el ´area total. El parque est´a formado por: 3 zonas en forma de hex´agono en donde los ni˜nos juegan con arena, 2 zonas circulares para reuniones y 4 zonas rectangulares para los juegos mec´anicos. -- 349 of 450 -- 348 Procedimientos y funciones"
+}

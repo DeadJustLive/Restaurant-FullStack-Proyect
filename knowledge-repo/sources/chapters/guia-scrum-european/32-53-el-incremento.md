@@ -1,0 +1,62 @@
+# 5.3 	El Incremento
+
+El Incremento es un artefacto central en Scrum que representa la suma de todos los ítems del
+Product Backlog completados durante un Sprint y todos los incrementos anteriores. Es
+esencialmente una versión del producto al final de un Sprint que cumple con los criterios de calidad
+y está en condiciones de ser lanzado o presentado a los stakeholders. Vamos a explorar qué incluye
+el incremento, cómo se forma y su importancia.
+5.3.1 	¿Qué incluye el Incremento?
+El incremento incluye:
+• 	Funcionalidades o componentes completados: Todas los elementos “items” , llamados PBI –
+Product Backlog Items, del producto que han sido desarrolladas y probadas durante el Sprint
+y que satisfacen los criterios de aceptación definidos.
+• 	Integración de las funcionalidades o componentes anteriores: El incremento también
+incluye todas las funcionalidades desarrolladas en Sprints anteriores que siguen siendo parte
+del producto. Debe funcionar de manera cohesiva con las nuevas funcionalidades añadidas.
+5.3.2 	¿Cómo se forma el Incremento?
+El incremento se forma a través del trabajo realizado por el Equipo de Desarrollo durante un Sprint.
+Aquí están los pasos y consideraciones clave:
+• 	Selección de Tareas: Al comienzo del Sprint, el Equipo de Desarrollo selecciona ítems del
+Product Backlog que cree que puede completar durante el Sprint, formando el Sprint
+Backlog.
+• 	Desarrollo y Pruebas: Durante el Sprint, el equipo trabaja en las tareas, desarrollando y
+probando las funcionalidades para asegurar que cumplan con los criterios de aceptación
+establecidos y no comprometan la funcionalidad existente.
+
+-- 10 of 21 --
+
+www.europeanscrum.org
+- 10 -
+• 	Integración Continua: Idealmente, el equipo utiliza prácticas de integración continua para
+asegurar que las nuevas funcionalidades o componentes, se integren regularmente con el
+producto existente y se prueben de manera comprehensiva.
+• 	Revisión del Sprint: Al final del Sprint, el Equipo de Desarrollo presenta el incremento
+durante la Sprint Review para recoger feedback de los stakeholders y del Product Owner.
+5.3.3 	Importancia del Incremento
+El incremento es crucial por varias razones:
+• 	Valor Tangible: Representa el progreso tangible hacia el objetivo final del proyecto,
+proporcionando una versión del producto que está más cerca de la versión final que se
+lanzará.
+• 	Feedback y Mejoras: Facilita la recopilación de feedback de los usuarios y stakeholders, lo
+que permite realizar ajustes basados en respuestas reales del mercado.
+• 	Base para Decisiones Futuras: Cada incremento proporciona una base para tomar
+decisiones sobre la dirección futura del desarrollo del producto, incluyendo ajustes en la
+estrategia de producto y priorización del backlog.
+5.3.4 	¿Cómo se asegura la calidad del Incremento?
+Para garantizar que cada incremento sea potencialmente lanzable, el Equipo de Desarrollo debe
+adherirse a estándares de calidad rigurosos:
+• 	Definición de Hecho (Definition of Done - DoD): Antes de que un incremento pueda
+considerarse completo, debe cumplir con la 'Definición de Hecho' acordada por el equipo y
+el Product Owner. Esta definición incluye criterios específicos que cada funcionalidad debe
+cumplir para asegurar su calidad.
+• 	Pruebas Automatizadas y Manuales: El uso de pruebas automatizadas y manuales durante
+el desarrollo ayuda a identificar y corregir errores antes de que se integren completamente
+en el producto.
+5.3.5 	Conclusión de el Incremento
+El Incremento es el resultado concreto de cada Sprint en Scrum, que no solo demuestra el progreso
+del proyecto sino que también valida la dirección y la estrategia del desarrollo del producto. Al
+asegurar que cada incremento sea de alta calidad y potencialmente lanzable, el Equipo de Desarrollo
+contribuye de manera significativa al éxito y la adaptabilidad del proyecto en su conjunto.
+6 	Eventos de Scrum
+En Scrum encontramos diferentes eventos: El Sprint, Sprint Init o 0, Sprint Planning, Daily Scrum,
+Sprint Review, Sprint Retrospective y Refinamiento o Grooming.

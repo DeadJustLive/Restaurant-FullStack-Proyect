@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch045-000",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 45,
+  "chunkIndex": 0,
+  "title": "EJEMPLO",
+  "start": 0,
+  "end": 19,
+  "words": 19,
+  "content": "# EJEMPLO algoritmo Ejemplo_similiar_2 variables entero a = 4, b = a * 6 inicio escribir( b ) fin"
+}

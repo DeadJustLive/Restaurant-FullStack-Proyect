@@ -1,0 +1,43 @@
+# 10.7 Implementaciones Alternativas
+
+## Fuente
+react-aprendiz-maestro (Cap. 102)
+
+## Contenido
+# 10.7 Implementaciones Alternativas
+
+Que hayamos usado Alt en esta implementación inicial no significa que sea la única
+opción. Para poder comparar varias arquitecturas he implementado la misma aplica-
+ción utilizando técnicas diferentes. A continuación presento una breve comparación:
+• Redux4 es una arquitectura inspirada en Flux diseñada con la recarga en calien-
+te como primer objetivo a cumplir. Redux se basa en un único árbol de estado,
+el cual se manipula con funciones puras conocidas como reductores. Redux te
+fuerza a profundizar en la programación funcional. la implementación es muy
+parecida a la de Alt. - Demo de Redux5
+• Comparado con Redux, Cerebral6 tiene un enfoque diferente. Fue desarrollado
+para permitir ver cómo la aplicación cambia su estado. Cerebral guía más cómo
+hacer el desarrollo y, como resultado, viene con las pilas más cargadas. - Demo
+de Cerebral7
+• MobX8 te permite tener estructuras de datos observables. Las estructuras pue-
+den estar conectadas con componentes de React así que cuando las estructuras
+cambian, también lo hacen los componentes. La implementación del Kanban
+es sorprendentemente simple ya que se pueden utilizar referencias reales entre
+componentes. - Demo de MobX9
+10.8 ¿Relay?
+Comparado con Flux, Relay10 de Facebook mejora la recepción de datos. Permite
+llevar los requisitos sobre los datos a nivel de vista. Puede ser utilizado de forma
+independiente o con Flux dependiendo de lo que necesites.
+4http://rackt.org/redux/
+5https://github.com/survivejs/redux-demo
+6http://www.cerebraljs.com/
+7https://github.com/survivejs/cerebral-demo
+8https://mobxjs.github.io/mobx/
+9https://github.com/survivejs/mobx-demo
+10https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html
+
+-- 123 of 226 --
+
+Implementando Persistencia en localStorage 106
+No lo vamos a cubrir en este libro por ser una tecnología que todavía no está madura.
+Relay tiene algunos requisitos especiales, como un API compatible con GraphQL.
+Sólo lo explicaré si pasa a ser adoptado por la comunidad.

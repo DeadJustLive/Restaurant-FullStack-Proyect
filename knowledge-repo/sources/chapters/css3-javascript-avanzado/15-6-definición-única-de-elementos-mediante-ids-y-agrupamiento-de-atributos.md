@@ -1,0 +1,52 @@
+# 6) Definición única de elementos mediante ids y agrupamiento de atributos
+
+mediante classes.
+A partir de esta primera especificación, en mayo de 1998, y como una exten-
+sión a la primera revisión, aparece la segunda, popularmente conocida como
+la especificación CSS2, y adoptada por la mayoría de los navegadores. Como
+características fundamentales que añade la revisión, se encuentra la posibili-
+dad de definir posiciones de forma absoluta, relativa y fija, así como la pro-
+fundidad de los elementos (z-index) cuando existen superposiciones, también
+el soporte para formatos de voz y textos bidireccionales. De esta, aparece una
+revisión, la 2.1, que incorpora muchas de las mejoras hechas por los fabrican-
+tes de navegadores y que actualmente es empleada y estandarizada.
+La tercera revisión de la especificación del CSS por el W3C empieza en el 2005
+y todavía está en proceso de definición. Pero esta vez, las diferentes imple-
+mentaciones de los motores de render de los navegadores no están esperando
+a tener una especificación, sino que implementan ciertas cosas a su manera
+y, por lo tanto, muchas son utilizables en entornos de producción web. Es ne-
+cesario, sin embargo, partir siempre de la consideración de que las diferentes
+implementaciones de los navegadores no es exacta, y de que, por lo tanto,
+cuando diseñamos una hoja de estilos, el principio que tiene que regir es que
+funcione en todas partes, y no que funcione igual.
+A diferencia de las otras especificaciones, esta vez se ha dividido en te-
+mas. De este modo disponemos de diferentes temas que pueden crecer
+y evolucionar en paralelo, y no como uno grande y monolítico, con
+muchísimas revisiones (cada vez hay más gente interesada y evoluciona
+más deprisa).
+Así, en la nueva revisión encontramos grupos como el de selectores, unidades
+de medida, modelo de caja, colores y gamas, modelo de línea, texto, fuentes,
+lenguajes verticales, page-media... entre otros. Y de este modo, diferentes mó-
+dulos tienen un estatus diferente y son adoptados por los fabricantes de soft-
+ware a diferente velocidad.
+1.2.1. CSS en la web
+Lejos de los usos más abstractos, las hojas de estilos han resultado la herra-
+mienta para dar formato y color a los contenidos de la WWW. Así, cualquier
+documento html es formateado con estilos CSS. La principal característica de
+la web semántica es esta separación de contenidos y visualización, donde el
+contenido tiene sentido por él mismo, y la visualización se adapta a cada dis-
+
+-- 8 of 86 --
+
+CC-BY-SA • PID_00176160 9 CSS3 y Javascript avanzado
+positivo y medio. De este modo y siendo la herramienta con la que damos for-
+ma y color al contenido, los fabricantes de software (navegadores) han pasado
+a ser los implementadores de las funcionalidades especificadas por el W3C.
+A grandes rasgos, todos implementan la especificación, pero en las ex-
+cepciones hay matices y cada navegador tiene sus características a la
+hora de dibujar (render) el contenido con la hoja de estilos.
+1.3. Familias de navegadores
+Hablamos de familias de navegadores para especificar las diferentes tecnolo-
+gías de dibujo que contienen, y así poder agrupar las distintas versiones de
+navegadores de una manera sencilla para el desarrollador. Así, podemos des-
+tacar cuatro grandes familias:

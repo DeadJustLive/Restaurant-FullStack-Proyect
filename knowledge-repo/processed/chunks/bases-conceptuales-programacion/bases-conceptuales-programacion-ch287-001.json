@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch287-001",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 287,
+  "chunkIndex": 1,
+  "title": "PRECONDICIONES:",
+  "start": 450,
+  "end": 520,
+  "words": 70,
+  "content": "que pueden usarse las operaciones definidas en la subsecci ´on 5.3.1. Para los siguientes 2 datos se utilizar ´a el generador de n ´umeros seudoaleatorios, y el ´ultimo de ellos ser ´a producido por este mismo proceso. El c ´odigo resultante es el siguiente function determinarNuevaPieza(semilla) /* PROP´OSITO: devolver c´odigo, tipo y ubicaci´on para una nueva pieza de manera seudorand´omica en base a una semilla. Tambi´en devuelve la nueva semilla"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2-4-2-guia-de-desarrollo-software-servicios-publicos-ch002-000",
+  "bookId": "2-4-2-guia-de-desarrollo-software-servicios-publicos",
+  "chapterIndex": 2,
+  "chunkIndex": 0,
+  "title": "II. Consideraciones iniciales para",
+  "start": 0,
+  "end": 56,
+  "words": 56,
+  "content": "# II. Consideraciones iniciales para el desarrollo de aplicaciones Considerando que el ciclo de desarrollo podría no terminar nunca, se sugiere utilizar todos o algunos de los siguientes ambientes para cada proyecto: producción, staging (demo o certificación), test y development (desarrollo), cada uno de ellos representado en una rama del proyecto en el repositorio de código."
+}

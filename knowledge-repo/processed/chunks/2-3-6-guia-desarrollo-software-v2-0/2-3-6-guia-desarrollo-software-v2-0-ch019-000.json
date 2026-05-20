@@ -1,0 +1,11 @@
+{
+  "id": "2-3-6-guia-desarrollo-software-v2-0-ch019-000",
+  "bookId": "2-3-6-guia-desarrollo-software-v2-0",
+  "chapterIndex": 19,
+  "chunkIndex": 0,
+  "title": "14. Manejo de secretos",
+  "start": 0,
+  "end": 81,
+  "words": 81,
+  "content": "# 14. Manejo de secretos Las aplicaciones habitualmente contienen múltiples secretos que son necesarios para su operación. Éstos pueden incluir certificados digitales, contraseñas para la base de datos, credenciales a otros servicios y llaves criptográficas, entre otros. Toda la información relacionada a certificados digitales, contraseñas, llaves, credenciales, incluidas las rutas de almacenamiento u otras referencias a estos objetos, deben quedar debidamente parametrizadas en un archivo de variables de entorno y éste debe ser excluido de la herramienta de control de versiones."
+}

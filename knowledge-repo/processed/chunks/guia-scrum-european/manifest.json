@@ -1,0 +1,345 @@
+{
+  "bookId": "guia-scrum-european",
+  "totalChunks": 48,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.167Z",
+  "chunks": [
+    {
+      "id": "guia-scrum-european-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "GUÍA SCRUM",
+      "words": 24
+    },
+    {
+      "id": "guia-scrum-european-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "2.1 \tOBJETIVOS DE LA GUÍA...........................................................................................................................- 2 -",
+      "words": 8
+    },
+    {
+      "id": "guia-scrum-european-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "2.2 \tORÍGENES Y EVOLUCIÓN DE SCRUM ..........................................................................................................- 2 -",
+      "words": 10
+    },
+    {
+      "id": "guia-scrum-european-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "2.3 \tDESARROLLO Y CONTRIBUCIONES CLAVE ...................................................................................................- 2 -",
+      "words": 17
+    },
+    {
+      "id": "guia-scrum-european-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "3.1 \tPRINCIPIOS Y VALORES DE SCRUM ............................................................................................................- 2 -",
+      "words": 10
+    },
+    {
+      "id": "guia-scrum-european-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "3.2 \tCOMPONENTES BÁSICOS SCRUM ..............................................................................................................- 3 -",
+      "words": 16
+    },
+    {
+      "id": "guia-scrum-european-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "4.1 \tSCRUM TEAM ......................................................................................................................................- 3 -",
+      "words": 7
+    },
+    {
+      "id": "guia-scrum-european-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "4.2 \tSCRUM MASTER ...................................................................................................................................- 3 -",
+      "words": 7
+    },
+    {
+      "id": "guia-scrum-european-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "4.3 \tPRODUCT OWNER.................................................................................................................................- 4 -",
+      "words": 6
+    },
+    {
+      "id": "guia-scrum-european-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "4.4 \tEQUIPO DE DESARROLLO ........................................................................................................................- 5 -",
+      "words": 16
+    },
+    {
+      "id": "guia-scrum-european-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "5.1 \tPRODUCT BACKLOG...............................................................................................................................- 6 -",
+      "words": 6
+    },
+    {
+      "id": "guia-scrum-european-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "5.2 \tSPRINT BACKLOG ..................................................................................................................................- 8 -",
+      "words": 7
+    },
+    {
+      "id": "guia-scrum-european-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "5.3 \tEL INCREMENTO ...................................................................................................................................- 9 -",
+      "words": 14
+    },
+    {
+      "id": "guia-scrum-european-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "6.1 \tSPRINT..............................................................................................................................................- 10 -",
+      "words": 5
+    },
+    {
+      "id": "guia-scrum-european-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "6.2 \tSPRINT 0 O SPRINT INIT ........................................................................................................................- 12 -",
+      "words": 10
+    },
+    {
+      "id": "guia-scrum-european-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "6.3 \tSPRINT PLANNING ...............................................................................................................................- 12 -",
+      "words": 7
+    },
+    {
+      "id": "guia-scrum-european-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "6.4 \tEL DAILY SCRUM O DAILY STAND-UP ......................................................................................................- 14 -",
+      "words": 11
+    },
+    {
+      "id": "guia-scrum-european-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "6.5 \tEL SPRINT REVIEW ..............................................................................................................................- 15 -",
+      "words": 8
+    },
+    {
+      "id": "guia-scrum-european-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "6.6 \tSPRINT RETROSPECTIVE ........................................................................................................................- 16 -",
+      "words": 7
+    },
+    {
+      "id": "guia-scrum-european-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "6.7 \tBACKLOG REFINEMENT ........................................................................................................................- 17 -",
+      "words": 18
+    },
+    {
+      "id": "guia-scrum-european-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "2.1 \tObjetivos de la Guía",
+      "words": 105
+    },
+    {
+      "id": "guia-scrum-european-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "2.2 \tOrígenes y Evolución de Scrum",
+      "words": 154
+    },
+    {
+      "id": "guia-scrum-european-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "2.3 \tDesarrollo y Contribuciones Clave",
+      "words": 130
+    },
+    {
+      "id": "guia-scrum-european-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "3.1 \tPrincipios y Valores de Scrum",
+      "words": 74
+    },
+    {
+      "id": "guia-scrum-european-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "3.2 \tComponentes básicos Scrum",
+      "words": 52
+    },
+    {
+      "id": "guia-scrum-european-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "4.1 \tScrum Team",
+      "words": 71
+    },
+    {
+      "id": "guia-scrum-european-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "4.2 \tScrum Master",
+      "words": 500
+    },
+    {
+      "id": "guia-scrum-european-ch027-001",
+      "chapterIndex": 27,
+      "chunkIndex": 1,
+      "title": "4.2 \tScrum Master",
+      "words": 148
+    },
+    {
+      "id": "guia-scrum-european-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "4.3 \tProduct Owner",
+      "words": 489
+    },
+    {
+      "id": "guia-scrum-european-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "4.4 \tEquipo de Desarrollo",
+      "words": 391
+    },
+    {
+      "id": "guia-scrum-european-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "5.1 \tProduct Backlog",
+      "words": 500
+    },
+    {
+      "id": "guia-scrum-european-ch030-001",
+      "chapterIndex": 30,
+      "chunkIndex": 1,
+      "title": "5.1 \tProduct Backlog",
+      "words": 288
+    },
+    {
+      "id": "guia-scrum-european-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "5.2 \tSprint Backlog",
+      "words": 500
+    },
+    {
+      "id": "guia-scrum-european-ch031-001",
+      "chapterIndex": 31,
+      "chunkIndex": 1,
+      "title": "5.2 \tSprint Backlog",
+      "words": 210
+    },
+    {
+      "id": "guia-scrum-european-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "5.3 \tEl Incremento",
+      "words": 500
+    },
+    {
+      "id": "guia-scrum-european-ch032-001",
+      "chapterIndex": 32,
+      "chunkIndex": 1,
+      "title": "5.3 \tEl Incremento",
+      "words": 160
+    },
+    {
+      "id": "guia-scrum-european-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "6.1 \tSprint",
+      "words": 500
+    },
+    {
+      "id": "guia-scrum-european-ch033-001",
+      "chapterIndex": 33,
+      "chunkIndex": 1,
+      "title": "6.1 \tSprint",
+      "words": 166
+    },
+    {
+      "id": "guia-scrum-european-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "6.2 \tSprint 0 o Sprint Init",
+      "words": 299
+    },
+    {
+      "id": "guia-scrum-european-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "6.3 \tSprint Planning",
+      "words": 500
+    },
+    {
+      "id": "guia-scrum-european-ch035-001",
+      "chapterIndex": 35,
+      "chunkIndex": 1,
+      "title": "6.3 \tSprint Planning",
+      "words": 293
+    },
+    {
+      "id": "guia-scrum-european-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "6.4 \tEl Daily Scrum o Daily Stand-up",
+      "words": 500
+    },
+    {
+      "id": "guia-scrum-european-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "6.5 \tEl Sprint Review",
+      "words": 500
+    },
+    {
+      "id": "guia-scrum-european-ch037-001",
+      "chapterIndex": 37,
+      "chunkIndex": 1,
+      "title": "6.5 \tEl Sprint Review",
+      "words": 189
+    },
+    {
+      "id": "guia-scrum-european-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "6.6 \tSprint Retrospective",
+      "words": 500
+    },
+    {
+      "id": "guia-scrum-european-ch038-001",
+      "chapterIndex": 38,
+      "chunkIndex": 1,
+      "title": "6.6 \tSprint Retrospective",
+      "words": 193
+    },
+    {
+      "id": "guia-scrum-european-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "6.7 \tBacklog Refinement",
+      "words": 500
+    },
+    {
+      "id": "guia-scrum-european-ch039-001",
+      "chapterIndex": 39,
+      "chunkIndex": 1,
+      "title": "6.7 \tBacklog Refinement",
+      "words": 390
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+# Settlement
+
+## Fuente
+Flow API — Documentación de Integración de Pagos (Cap. 31)
+
+## Contenido
+# Credenciales de prueba
+
+## Tarjetas de crédito para pruebas​
+
+## Tarjetas de prueba Perú para pagos recurrentes​
+
+### Aceptado​
+
+### Rechazado​
+
+Credenciales de prueba disponible para probar tus integraciones con flow
+
+Es posible que algunos medios de pago tengan algún paso adicional de simulación del banco, para ello usar los siguientes datos:
+
+Esta tarjeta de prueba permite simular la inscripción exitosa y un pago recurrente aceptado
+
+Esta tarjeta de prueba permite simular la inscripción exitosa y un pago recurrente rechazado
+
+| País de integración | Tarjeta | Numero | Fecha de caducidad | CVV |
+| --- | --- | --- | --- | --- |
+| Chile | Crédito | 4051885600446623 | 11/27 | 123 |
+| Perú | Crédito | 5293138086430769 | 11/27 | 123 |
+| México | Crédito | 5293138086430769 | 11/27 | 123 |
+
+| Dato | Valor |
+| --- | --- |
+| N° tarjeta de crédito | 5293138086430769 |
+| Año de expiración | Cualquiera |
+| Mes de expiración | Cualquiera |
+| CVV | 123 |
+| Inscripción | Sí |
+
+| Dato | Valor |
+| --- | --- |
+| N° tarjeta de crédito | 4551708161768059 |
+| Año de expiración | Cualquiera |
+| Mes de expiración | Cualquiera |
+| CVV | 123 |
+| Inscripción | Sí |
+
+- Primeros pasos
+- Quickstart
+- Métodos de Pago
+- Pago Ecommerce
+- Planes de Suscripción
+- Plugins
+- Comercios Asociados
+- Liquidaciones
+- Credenciales de prueba
+
+- Credenciales de prueba
+
+- Rut : 11111111-1
+- Clave: 123
+
+- Tarjetas de crédito para pruebas
+- Tarjetas de prueba Perú para pagos recurrentesAceptadoRechazado
+- Aceptado
+- Rechazado
+
+- Aceptado
+- Rechazado
+
+- Documentación
+- Referencias API
+- Plugins para ecommerce
+
+- Preguntas frecuentes
+- Términos y condiciones
+- Politicas de privacidad

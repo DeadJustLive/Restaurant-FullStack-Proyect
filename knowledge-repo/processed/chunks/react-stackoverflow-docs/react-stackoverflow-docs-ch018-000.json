@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch018-000",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 18,
+  "chunkIndex": 0,
+  "title": "Capítulo 15:: Instalación de React, Webpack y Typescript. 70",
+  "start": 0,
+  "end": 43,
+  "words": 43,
+  "content": "# Capítulo 15:: Instalación de React, Webpack y Typescript. 70 Observaciones 70 Examples 70 webpack.config.js 70 El cargador 70 Resolver las extensiones TS 70 -- 5 of 139 -- tsconfig.json 71 include 71 compilerOptions.target 71 compilerOptions.jsx 71 compilerOptions.allowSyntheticDefaultImports 71 Mi primer componente 72"
+}

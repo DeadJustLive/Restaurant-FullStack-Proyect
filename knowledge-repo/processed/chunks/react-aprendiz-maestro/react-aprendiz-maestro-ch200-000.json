@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch200-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 200,
+  "chunkIndex": 0,
+  "title": "10.7 Implementaciones Alternativas . . . . . . . . . . . . . . . . . . . 105",
+  "start": 0,
+  "end": 257,
+  "words": 257,
+  "content": "# 13.2 Permitiendo que las Notas sean Arrastradas Permitir que las notas puedan ser arrastradas es un buen comienzo. Antes de ello, necesitamos configurar una constante de tal modo que React DnD sepa que hay distintos tipos de elementos arrastrables. Crea un fichero con el que poder indicar que quieres mover elementos de tipo Nota como sigue: app/constants/itemTypes.js export default { NOTE: 'note' }; Esta definición puede ser extendida más adelante incluyendo nuevos tipos, como CARRIL, al sistema. A continuación necesitamos decirle a nuestra Nota que es posible arrastrarla. Esto se puede conseguir usando la anotación DragSource. Modifica Nota con la siguiente implementación: app/components/Note.jsx -- 157 of 226 -- Implementado Arrastrar y Soltar 140 import React from 'react'; import {DragSource} from 'react-dnd'; import ItemTypes from '../constants/itemTypes'; const Note = ({ connectDragSource, children, ...props }) => { return connectDragSource( <div {...props}> {children} </div> ); }; const noteSource = { beginDrag(props) { console.log('begin dragging note', props); return {}; } }; export default DragSource(ItemTypes.NOTE, noteSource, connect => ({ connectDragSource: connect.dragSource() }))(Note) Deberías ver algo como esto en la consola del navegador al tratar de mover una nota: begin dragging note Object {className: \"note\", children: Array[2]} Ser capaz sólo de mover notas no es suficiente. Necesitamos anotarlas para que puedan ser soltadas. Esto nos permitirá lanzar cierta lógica cuando tratemos de soltar una nota encima de otra. Observa que React DnD no soporta recarga en caliente perfectamente. Puede que necesites refrescar el navegador para ver los mensajes de log que esperas. -- 158 of 226 -- Implementado Arrastrar y Soltar 141"
+}

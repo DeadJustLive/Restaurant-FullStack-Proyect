@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch032-020",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 32,
+  "chunkIndex": 20,
+  "title": "9. Algoritmos.",
+  "start": 9000,
+  "end": 9079,
+  "words": 79,
+  "content": "3.4 4.2 3.0 5.0 3.9 3.9 2 2.0 3.0 2.0 3.0 2.5 2.5 3 1.0 4.0 3.0 4.0 3.0 3.0 Tabla 2.3: Prueba de escritorio para el algoritmo del Ejemplo 2.5 2.3. Ejercicios propuestos Dise˜ne algoritmos utilizando tanto pseudoc´odigo como diagramas de flujo para los problemas que se enuncian a continuaci´on. Una vez se hayan construido, elabore la prueba de escritorio con la tabla de verificaci´on para determinar si el algoritmo se ejecuta adecuadamente y entrega los resultados esperados:"
+}

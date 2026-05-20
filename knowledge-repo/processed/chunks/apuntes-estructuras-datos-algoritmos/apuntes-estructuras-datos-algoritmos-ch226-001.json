@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch226-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 226,
+  "chunkIndex": 1,
+  "title": "3. Representación de varias pilas en un vector",
+  "start": 450,
+  "end": 616,
+  "words": 166,
+  "content": "También se dice que en ese modelo no existe confusión de valores (como en el caso de los multiconjuntos o conjuntos, en el que dos secuencias diferentes de naturales pueden tener por imagen o “confundirse” en un mismo multiconjunto o conjunto). Por otra parte, todo valor del modelo “secuencias de naturales” puede ser generado mediante la evaluación de algún término del álgebra de términos cerrados definida por la especificación. No ocurre así con el modelo de las “secuencias de enteros”. Este último tiene valores que no pueden obtenerse a partir de la evaluación de ningún término del álgebra de términos cerrados (todas las secuencias que incluyan algún número negativo). Así, el modelo de las “secuencias de enteros” contiene basura. El modelo de las “secuencias de naturales” es precisamente un modelo inicial de ALG(bolsasDeNaturales) porque es típico y generable (en otras palabras, sin confusión y sin basura). El TAD definido por la especificación bolsasDeNaturales es la clase de todos los modelos isomorfos a las “secuencias de naturales”."
+}

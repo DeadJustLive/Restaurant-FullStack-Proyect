@@ -1,0 +1,34 @@
+# 4.1 Condicionales
+
+## Fuente
+Aprende Python (Cap. 26)
+
+## Contenido
+# 4.1 Condicionales
+
+En esta sección veremos las sentencias if y match-case junto a las distintas variantes que
+pueden asumir, pero antes de eso introduciremos algunas cuestiones generales de escritura
+de código.1
+4.1.1 Definición de bloques
+A diferencia de otros lenguajes que utilizan llaves para definir los bloques de código,
+cuando Guido Van Rossum creó el lenguaje quiso evitar estos caracteres por considerarlos
+innecesarios. Es por ello que en Python los bloques de código se definen a través de
+espacios en blanco, preferiblemente 4.2 En términos técnicos se habla del tamaño
+de indentación.
+Consejo: Esto puede resultar extraño e incómodo a personas que vienen de otros lenguajes
+de programación pero desaparece rápido y se siente natural a medida que se escribe código.
+1 Foto original de portada por ali nafezarefi en Unsplash.
+2 Reglas de indentación definidas en PEP 8
+100 Capítulo 4. Control de flujo
+
+-- 104 of 516 --
+
+Aprende Python
+Figura 1: Python recomienda 4 espacios en blanco para indentar
+4.1.2 Comentarios
+Los comentarios son anotaciones que podemos incluir en nuestro programa y que nos
+permiten aclarar ciertos aspectos del código. Estas indicaciones son ignoradas por el
+intérprete de Python.
+Los comentarios se incluyen usando el símbolo almohadilla # y comprenden hasta el final de
+la línea.
+Lista 1: Comentario en bloque

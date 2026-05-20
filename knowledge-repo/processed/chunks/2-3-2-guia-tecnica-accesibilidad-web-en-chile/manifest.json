@@ -1,0 +1,296 @@
+{
+  "bookId": "2-3-2-guia-tecnica-accesibilidad-web-en-chile",
+  "totalChunks": 41,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:12.966Z",
+  "chunks": [
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "WCAG",
+      "words": 85
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-001",
+      "chapterIndex": 2,
+      "chunkIndex": 1,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-002",
+      "chapterIndex": 2,
+      "chunkIndex": 2,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-003",
+      "chapterIndex": 2,
+      "chunkIndex": 3,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-004",
+      "chapterIndex": 2,
+      "chunkIndex": 4,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-005",
+      "chapterIndex": 2,
+      "chunkIndex": 5,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-006",
+      "chapterIndex": 2,
+      "chunkIndex": 6,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-007",
+      "chapterIndex": 2,
+      "chunkIndex": 7,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-008",
+      "chapterIndex": 2,
+      "chunkIndex": 8,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-009",
+      "chapterIndex": 2,
+      "chunkIndex": 9,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-010",
+      "chapterIndex": 2,
+      "chunkIndex": 10,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-011",
+      "chapterIndex": 2,
+      "chunkIndex": 11,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-012",
+      "chapterIndex": 2,
+      "chunkIndex": 12,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-013",
+      "chapterIndex": 2,
+      "chunkIndex": 13,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-014",
+      "chapterIndex": 2,
+      "chunkIndex": 14,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-015",
+      "chapterIndex": 2,
+      "chunkIndex": 15,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-016",
+      "chapterIndex": 2,
+      "chunkIndex": 16,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-017",
+      "chapterIndex": 2,
+      "chunkIndex": 17,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-018",
+      "chapterIndex": 2,
+      "chunkIndex": 18,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-019",
+      "chapterIndex": 2,
+      "chunkIndex": 19,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-020",
+      "chapterIndex": 2,
+      "chunkIndex": 20,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-021",
+      "chapterIndex": 2,
+      "chunkIndex": 21,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-022",
+      "chapterIndex": 2,
+      "chunkIndex": 22,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-023",
+      "chapterIndex": 2,
+      "chunkIndex": 23,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-024",
+      "chapterIndex": 2,
+      "chunkIndex": 24,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-025",
+      "chapterIndex": 2,
+      "chunkIndex": 25,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-026",
+      "chapterIndex": 2,
+      "chunkIndex": 26,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-027",
+      "chapterIndex": 2,
+      "chunkIndex": 27,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-028",
+      "chapterIndex": 2,
+      "chunkIndex": 28,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-029",
+      "chapterIndex": 2,
+      "chunkIndex": 29,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-030",
+      "chapterIndex": 2,
+      "chunkIndex": 30,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-031",
+      "chapterIndex": 2,
+      "chunkIndex": 31,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-032",
+      "chapterIndex": 2,
+      "chunkIndex": 32,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-033",
+      "chapterIndex": 2,
+      "chunkIndex": 33,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-034",
+      "chapterIndex": 2,
+      "chunkIndex": 34,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-035",
+      "chapterIndex": 2,
+      "chunkIndex": 35,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-036",
+      "chapterIndex": 2,
+      "chunkIndex": 36,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-037",
+      "chapterIndex": 2,
+      "chunkIndex": 37,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-038",
+      "chapterIndex": 2,
+      "chunkIndex": 38,
+      "title": "parte d: el",
+      "words": 500
+    },
+    {
+      "id": "2-3-2-guia-tecnica-accesibilidad-web-en-chile-ch002-039",
+      "chapterIndex": 2,
+      "chunkIndex": 39,
+      "title": "parte d: el",
+      "words": 195
+    }
+  ]
+}

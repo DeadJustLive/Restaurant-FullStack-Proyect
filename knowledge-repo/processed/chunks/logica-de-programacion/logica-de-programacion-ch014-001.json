@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch014-001",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 14,
+  "chunkIndex": 1,
+  "title": "2. De varias l´ıneas. En este caso se usa la pareja de caracteres /* para",
+  "start": 450,
+  "end": 526,
+  "words": 76,
+  "content": "que le permiten dise˜nar una soluci´on algor´ıtmica para resolver un problema. En los siguientes p´arrafos de este cap´ıtulo, se explicar´a c´omo hacer el an´alisis de esos problemas y c´omo implementar los algoritmos que los solucionen. 1.8. C´omo solucionar un problema por computador Para la construcci´on de software, independientemente de su tama˜no o complejidad, se deben ejecutar un conjunto de pasos que garanticen su calidad. Esos pasos son [Jim´enez et al., 2016] y [Corona and Ancona, 2011]:"
+}

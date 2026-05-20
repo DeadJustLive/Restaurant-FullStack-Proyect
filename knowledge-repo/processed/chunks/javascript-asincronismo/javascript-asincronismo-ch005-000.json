@@ -1,0 +1,11 @@
+{
+  "id": "javascript-asincronismo-ch005-000",
+  "bookId": "javascript-asincronismo",
+  "chapterIndex": 5,
+  "chunkIndex": 0,
+  "title": "5. Se ejecuta setTimeout. El browser delega el control de tiempo al",
+  "start": 0,
+  "end": 20,
+  "words": 20,
+  "content": "# 5. Se ejecuta setTimeout. El browser delega el control de tiempo al timer. No hay nada más que hacer."
+}

@@ -1,0 +1,28 @@
+# 17.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 181
+
+## Fuente
+react-aprendiz-maestro (Cap. 20)
+
+## Contenido
+# 17.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 181
+
+Apéndices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 183
+Características del Lenguaje . . . . . . . . . . . . . . . . . . . . . . . . . . 184
+Módulos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 184
+Clases . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 187
+Propiedades de las Clases e Iniciadores de Propiedades . . . . . . . . . . 189
+Funciones . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 191
+Interpolación de Strings . . . . . . . . . . . . . . . . . . . . . . . . . . . 195
+Destructuring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 195
+Iniciadores de Objetos . . . . . . . . . . . . . . . . . . . . . . . . . . . . 196
+const, let, var . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 197
+Decoradores . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 197
+Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 198
+Entendiendo los Decoradores . . . . . . . . . . . . . . . . . . . . . . . . . 199
+Implementando un Decorador para Generar Logs . . . . . . . . . . . . . 199
+Implementado @connect . . . . . . . . . . . . . . . . . . . . . . . . . . . 201
+Ideas para Decoradores . . . . . . . . . . . . . . . . . . . . . . . . . . . 203
+Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 204
+Resolución de Problemas . . . . . . . . . . . . . . . . . . . . . . . . . . . . 205
+
+-- 7 of 226 --

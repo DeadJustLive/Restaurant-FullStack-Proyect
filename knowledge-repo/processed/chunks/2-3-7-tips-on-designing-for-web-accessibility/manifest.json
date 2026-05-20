@@ -1,0 +1,79 @@
+{
+  "bookId": "2-3-7-tips-on-designing-for-web-accessibility",
+  "totalChunks": 10,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.009Z",
+  "chunks": [
+    {
+      "id": "2-3-7-tips-on-designing-for-web-accessibility-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "WCAG",
+      "words": 272
+    },
+    {
+      "id": "2-3-7-tips-on-designing-for-web-accessibility-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "WCAG",
+      "words": 182
+    },
+    {
+      "id": "2-3-7-tips-on-designing-for-web-accessibility-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "WCAG",
+      "words": 90
+    },
+    {
+      "id": "2-3-7-tips-on-designing-for-web-accessibility-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "WCAG",
+      "words": 120
+    },
+    {
+      "id": "2-3-7-tips-on-designing-for-web-accessibility-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "WCAG",
+      "words": 141
+    },
+    {
+      "id": "2-3-7-tips-on-designing-for-web-accessibility-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "2. \tA Comment is required",
+      "words": 51
+    },
+    {
+      "id": "2-3-7-tips-on-designing-for-web-accessibility-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "WCAG",
+      "words": 118
+    },
+    {
+      "id": "2-3-7-tips-on-designing-for-web-accessibility-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "WCAG",
+      "words": 298
+    },
+    {
+      "id": "2-3-7-tips-on-designing-for-web-accessibility-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "WCAG",
+      "words": 85
+    },
+    {
+      "id": "2-3-7-tips-on-designing-for-web-accessibility-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "WCAG",
+      "words": 174
+    }
+  ]
+}

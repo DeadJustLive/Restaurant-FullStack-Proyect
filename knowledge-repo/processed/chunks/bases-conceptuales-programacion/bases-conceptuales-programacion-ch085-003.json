@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch085-003",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 85,
+  "chunkIndex": 3,
+  "title": "{- PROP´OSITO:",
+  "start": 1350,
+  "end": 1654,
+  "words": 304,
+  "content": "realiza ninguna acci ´on. Por ejemplo, el siguiente co- mando no tiene ning ´un efecto: foreach i in [10..1] { DibujarLineaVerticalRoja(i) } puesto que el rango 10..1 describe a la secuencia vac´ıa (no tiene elementos), ya que el valor inicial, 10, es mayor que el valor final, 1. Actividad de Programaci ´on 7 Realizar el ejercicio 3.1.6. Utilizarlo para obtener en el tablero final la configuraci ´on de bolitas del gr ´afico G.3.7a. Ayuda: observe que cada fila del dibujo puede ser generada usando una instancia particular del procedimiento Progresion, utilizando los ar- gumentos adecuados. Ejercicio 3.1.6. Escribir un procedimiento Progresion que dados un n ´umero n y una direcci ´on dir, coloque 1 bolita roja en la celda actual, 2 bolitas rojas en la celda lindante en la direcci ´on dir, 3 en la siguiente, etc. repitiendo esto n veces y dejando el cabezal en la celda siguiente a la ´ultima ocupada. Actividad de Programaci ´on 8 ¿Qu ´e tendr´ıa que cambiarse en el procedimiento Progresion de la acti- vidad anterior para obtener la configuraci ´on del gr ´afico G.3.7b sin cam- biar el programa principal? Los rangos de una repetici ´on indexada no se limitan a n ´umeros. Tambi ´en pueden ser colores, direcciones o booleanos. El orden de las direcciones es en el senti- do de las agujas del reloj, comenzando por el Norte, el orden de los colores es alfab ´etico, y el de los booleanos es primero falso y luego verdadero. El orden en Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 104 of 312 -- 105 cada caso es importante para saber qu ´e rango corresponde a cada par de valo- res. Por ejemplo, el procedimiento para dibujar un cuadrado negro de 3 celdas de lado puede escribirse de la siguiente manera: procedure DibujarCuadradoNegro3() {-"
+}

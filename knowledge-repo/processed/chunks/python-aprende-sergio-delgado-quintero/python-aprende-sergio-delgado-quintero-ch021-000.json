@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch021-000",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 21,
+  "chunkIndex": 0,
+  "title": "Salto de línea",
+  "start": 0,
+  "end": 41,
+  "words": 41,
+  "content": "# Salto de línea >>> msg = Primera línea\\nSegunda línea\\nTercera línea >>> print(msg) Primera línea Segunda línea (continué en la próxima página) 3.3. Cadenas de texto 75 -- 79 of 516 -- Aprende Python (proviene de la página anterior) Tercera línea"
+}

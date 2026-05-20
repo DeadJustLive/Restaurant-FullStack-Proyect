@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch069-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 69,
+  "chunkIndex": 0,
+  "title": "El operador de control de flujomatch",
+  "start": 0,
+  "end": 34,
+  "words": 34,
+  "content": "# El operador de control de flujomatch ## El operador de control de flujomatch ### Patrones que vinculan valores ### Match conOption<T> ### Los matches son exhaustivos ### Patrones de captura y el Placeholder_"
+}

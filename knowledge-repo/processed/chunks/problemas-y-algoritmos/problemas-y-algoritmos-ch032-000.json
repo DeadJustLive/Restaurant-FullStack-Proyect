@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch032-000",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 32,
+  "chunkIndex": 0,
+  "title": "Parte III",
+  "start": 0,
+  "end": 123,
+  "words": 123,
+  "content": "# Parte III Algoritmos de Ordenamiento I 131 -- 131 of 315 -- -- 132 of 315 -- 133 Los algoritmos de ordenamiento son quizá los ejemplos mas citados de algoritmos donde la e\u001cciencia juega un papel muy importante y también sirven para realizar una de las tareas mas comunes de una computadora, que es la de ordenar datos. Incluso un sinónimo de la palabra \u0013computadora\u0014 es \u0013ordenador\u0014. Podemos ver con frecuencia que aplicaciones como hojas de cálculo o navegadores de archivos tienen la opción de ordenar los datos para mostrar- los de una manera mas presentable. Sin embargo el ordenamiento tiene un propósito mucho mas importante que el de mostrar datos organizados. Para entender la importancia del ordenamiento recordemos que en la"
+}

@@ -1,0 +1,828 @@
+{
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "totalChunks": 117,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.023Z",
+  "chunks": [
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "ÍNDICE DEL CONTENIDO",
+      "words": 7
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "Capítulo 1.: Qué es un algoritmo ..................................................... 11",
+      "words": 29
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "Capítulo 2.: Tipos de datos .............................................................. 17",
+      "words": 60
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "Capítulo 3.: Identificadores, variables y constantes........................ 23",
+      "words": 82
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "Capítulo 4.: Tipos de datos definidos por el programador ............... 38",
+      "words": 53
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "Capítulo 5.: Operadores y expresiones ............................................ 45",
+      "words": 60
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "Capítulo 6.: Instrucciones primitivas .............................................. 63",
+      "words": 24
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "Capítulo 7.: Estructura de un algoritmo en pseudocódigo ............... 71",
+      "words": 57
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "Capítulo 8.: Ordinogramas .............................................................. 79",
+      "words": 24
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "Capítulo 9.: Instrucciones de control alternativas ........................... 83",
+      "words": 60
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "Capítulo 10.: Instrucciones de control repetitivas......................... 111",
+      "words": 106
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "Capítulo 11.: Instrucciones de control de salto ............................. 148",
+      "words": 42
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "Capítulo 12.: Llamadas a subalgoritmos ....................................... 156",
+      "words": 102
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "PREFACIO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch014-001",
+      "chapterIndex": 14,
+      "chunkIndex": 1,
+      "title": "PREFACIO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch014-002",
+      "chapterIndex": 14,
+      "chunkIndex": 2,
+      "title": "PREFACIO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch014-003",
+      "chapterIndex": 14,
+      "chunkIndex": 3,
+      "title": "PREFACIO",
+      "words": 324
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "parte d: e la solución a un problema mayor. Pero, a su vez, dicho algoritmo debe",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch015-001",
+      "chapterIndex": 15,
+      "chunkIndex": 1,
+      "title": "parte d: e la solución a un problema mayor. Pero, a su vez, dicho algoritmo debe",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch015-002",
+      "chapterIndex": 15,
+      "chunkIndex": 2,
+      "title": "parte d: e la solución a un problema mayor. Pero, a su vez, dicho algoritmo debe",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch015-003",
+      "chapterIndex": 15,
+      "chunkIndex": 3,
+      "title": "parte d: e la solución a un problema mayor. Pero, a su vez, dicho algoritmo debe",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch015-004",
+      "chapterIndex": 15,
+      "chunkIndex": 4,
+      "title": "parte d: e la solución a un problema mayor. Pero, a su vez, dicho algoritmo debe",
+      "words": 216
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "1. Consta de uno o más caracteres.",
+      "words": 8
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "2. El primer carácter debe ser una letra o el carácter guion bajo ( _ ), mientras que, todos",
+      "words": 57
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "3. No pueden existir dos identificadores iguales, es decir, dos elementos de un algoritmo",
+      "words": 88
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "PINGUINO1",
+      "words": 336
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "1. Cuántas son las variables que el programa necesita para realizar las tareas que se le",
+      "words": 19
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "2. El tipo de dato que puede almacenar cada una de ellas.",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch021-001",
+      "chapterIndex": 21,
+      "chunkIndex": 1,
+      "title": "2. El tipo de dato que puede almacenar cada una de ellas.",
+      "words": 309
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "TEMPERATURA = -5",
+      "words": 9
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "TEMPERATURA = -5, MES = 10",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch023-001",
+      "chapterIndex": 23,
+      "chunkIndex": 1,
+      "title": "TEMPERATURA = -5, MES = 10",
+      "words": 400
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 103
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "NUMERO = '9'",
+      "words": 7
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "ESPACIO_EN_BLANCO = ' '",
+      "words": 29
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "COMILLA_SIMPLE = '\\''",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch027-001",
+      "chapterIndex": 27,
+      "chunkIndex": 1,
+      "title": "COMILLA_SIMPLE = '\\''",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch027-002",
+      "chapterIndex": 27,
+      "chunkIndex": 2,
+      "title": "COMILLA_SIMPLE = '\\''",
+      "words": 59
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 18
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 16
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 15
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 14
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch032-001",
+      "chapterIndex": 32,
+      "chunkIndex": 1,
+      "title": "EJEMPLO",
+      "words": 171
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 12
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 10
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 9
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 7
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 139
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 59
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "1. Operadores suma y resta.",
+      "words": 6
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "2. Signos de un número (también son operadores).",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch040-001",
+      "chapterIndex": 40,
+      "chunkIndex": 1,
+      "title": "2. Signos de un número (también son operadores).",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch040-002",
+      "chapterIndex": 40,
+      "chunkIndex": 2,
+      "title": "2. Signos de un número (también son operadores).",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch040-003",
+      "chapterIndex": 40,
+      "chunkIndex": 3,
+      "title": "2. Signos de un número (también son operadores).",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch040-004",
+      "chapterIndex": 40,
+      "chunkIndex": 4,
+      "title": "2. Signos de un número (también son operadores).",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch040-005",
+      "chapterIndex": 40,
+      "chunkIndex": 5,
+      "title": "2. Signos de un número (también son operadores).",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch040-006",
+      "chapterIndex": 40,
+      "chunkIndex": 6,
+      "title": "2. Signos de un número (también son operadores).",
+      "words": 375
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "CONSONANTE = 'S'",
+      "words": 19
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "CONSONANTE",
+      "words": 110
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "OLIMPIADA + PUNTO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch043-001",
+      "chapterIndex": 43,
+      "chunkIndex": 1,
+      "title": "OLIMPIADA + PUNTO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch043-002",
+      "chapterIndex": 43,
+      "chunkIndex": 2,
+      "title": "OLIMPIADA + PUNTO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch043-003",
+      "chapterIndex": 43,
+      "chunkIndex": 3,
+      "title": "OLIMPIADA + PUNTO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch043-004",
+      "chapterIndex": 43,
+      "chunkIndex": 4,
+      "title": "OLIMPIADA + PUNTO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch043-005",
+      "chapterIndex": 43,
+      "chunkIndex": 5,
+      "title": "OLIMPIADA + PUNTO",
+      "words": 167
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 33
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 19
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 353
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "EJEMPLO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch047-001",
+      "chapterIndex": 47,
+      "chunkIndex": 1,
+      "title": "EJEMPLO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch047-002",
+      "chapterIndex": 47,
+      "chunkIndex": 2,
+      "title": "EJEMPLO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch047-003",
+      "chapterIndex": 47,
+      "chunkIndex": 3,
+      "title": "EJEMPLO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch047-004",
+      "chapterIndex": 47,
+      "chunkIndex": 4,
+      "title": "EJEMPLO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch047-005",
+      "chapterIndex": 47,
+      "chunkIndex": 5,
+      "title": "EJEMPLO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch047-006",
+      "chapterIndex": 47,
+      "chunkIndex": 6,
+      "title": "EJEMPLO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch047-007",
+      "chapterIndex": 47,
+      "chunkIndex": 7,
+      "title": "EJEMPLO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch047-008",
+      "chapterIndex": 47,
+      "chunkIndex": 8,
+      "title": "EJEMPLO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch047-009",
+      "chapterIndex": 47,
+      "chunkIndex": 9,
+      "title": "EJEMPLO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch047-010",
+      "chapterIndex": 47,
+      "chunkIndex": 10,
+      "title": "EJEMPLO",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch047-011",
+      "chapterIndex": 47,
+      "chunkIndex": 11,
+      "title": "EJEMPLO",
+      "words": 467
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "Capítulo 10",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch048-001",
+      "chapterIndex": 48,
+      "chunkIndex": 1,
+      "title": "Capítulo 10",
+      "words": 198
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "1. Si la condición se evalúa a falsa, el bloque de instrucciones no se ejecuta, y el bucle",
+      "words": 25
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "2. Si la condición se evalúa a verdadera, el bloque de instrucciones sí que se ejecuta y,",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch050-001",
+      "chapterIndex": 50,
+      "chunkIndex": 1,
+      "title": "2. Si la condición se evalúa a verdadera, el bloque de instrucciones sí que se ejecuta y,",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch050-002",
+      "chapterIndex": 50,
+      "chunkIndex": 2,
+      "title": "2. Si la condición se evalúa a verdadera, el bloque de instrucciones sí que se ejecuta y,",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch050-003",
+      "chapterIndex": 50,
+      "chunkIndex": 3,
+      "title": "2. Si la condición se evalúa a verdadera, el bloque de instrucciones sí que se ejecuta y,",
+      "words": 399
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "1. Se ejecuta el bloque de instrucciones y, después, si la condición se evalúa a falsa, el",
+      "words": 38
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "2. Se ejecuta el bloque de instrucciones y, a continuación, si la condición se evalúa a",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch052-001",
+      "chapterIndex": 52,
+      "chunkIndex": 1,
+      "title": "2. Se ejecuta el bloque de instrucciones y, a continuación, si la condición se evalúa a",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch052-002",
+      "chapterIndex": 52,
+      "chunkIndex": 2,
+      "title": "2. Se ejecuta el bloque de instrucciones y, a continuación, si la condición se evalúa a",
+      "words": 240
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "1. Si el valor de la <variable> es mayor que el <valor_final>, entonces no se",
+      "words": 30
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "2. Si el valor de la <variable> es menor o igual que el <valor_final>, entonces,",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch054-001",
+      "chapterIndex": 54,
+      "chunkIndex": 1,
+      "title": "2. Si el valor de la <variable> es menor o igual que el <valor_final>, entonces,",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch054-002",
+      "chapterIndex": 54,
+      "chunkIndex": 2,
+      "title": "2. Si el valor de la <variable> es menor o igual que el <valor_final>, entonces,",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch054-003",
+      "chapterIndex": 54,
+      "chunkIndex": 3,
+      "title": "2. Si el valor de la <variable> es menor o igual que el <valor_final>, entonces,",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch054-004",
+      "chapterIndex": 54,
+      "chunkIndex": 4,
+      "title": "2. Si el valor de la <variable> es menor o igual que el <valor_final>, entonces,",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch054-005",
+      "chapterIndex": 54,
+      "chunkIndex": 5,
+      "title": "2. Si el valor de la <variable> es menor o igual que el <valor_final>, entonces,",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch054-006",
+      "chapterIndex": 54,
+      "chunkIndex": 6,
+      "title": "2. Si el valor de la <variable> es menor o igual que el <valor_final>, entonces,",
+      "words": 351
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "Capítulo 11",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch055-001",
+      "chapterIndex": 55,
+      "chunkIndex": 1,
+      "title": "Capítulo 11",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch055-002",
+      "chapterIndex": 55,
+      "chunkIndex": 2,
+      "title": "Capítulo 11",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch055-003",
+      "chapterIndex": 55,
+      "chunkIndex": 3,
+      "title": "Capítulo 11",
+      "words": 468
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "Capítulo 12",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch056-001",
+      "chapterIndex": 56,
+      "chunkIndex": 1,
+      "title": "Capítulo 12",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch056-002",
+      "chapterIndex": 56,
+      "chunkIndex": 2,
+      "title": "Capítulo 12",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch056-003",
+      "chapterIndex": 56,
+      "chunkIndex": 3,
+      "title": "Capítulo 12",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch056-004",
+      "chapterIndex": 56,
+      "chunkIndex": 4,
+      "title": "Capítulo 12",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch056-005",
+      "chapterIndex": 56,
+      "chunkIndex": 5,
+      "title": "Capítulo 12",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch056-006",
+      "chapterIndex": 56,
+      "chunkIndex": 6,
+      "title": "Capítulo 12",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch056-007",
+      "chapterIndex": 56,
+      "chunkIndex": 7,
+      "title": "Capítulo 12",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch056-008",
+      "chapterIndex": 56,
+      "chunkIndex": 8,
+      "title": "Capítulo 12",
+      "words": 408
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch057-000",
+      "chapterIndex": 57,
+      "chunkIndex": 0,
+      "title": "1. En vez de la palabra reservada procedimiento, se debe escribir la palabra",
+      "words": 16
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch058-000",
+      "chapterIndex": 58,
+      "chunkIndex": 0,
+      "title": "2. Una función devuelve siempre un valor. Por tanto, en una función siempre debe",
+      "words": 500
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch058-001",
+      "chapterIndex": 58,
+      "chunkIndex": 1,
+      "title": "2. Una función devuelve siempre un valor. Por tanto, en una función siempre debe",
+      "words": 305
+    },
+    {
+      "id": "algoritmos-pseudocodigo-ordinogramas-ch059-000",
+      "chapterIndex": 59,
+      "chunkIndex": 0,
+      "title": "EPÍLOGO",
+      "words": 136
+    }
+  ]
+}

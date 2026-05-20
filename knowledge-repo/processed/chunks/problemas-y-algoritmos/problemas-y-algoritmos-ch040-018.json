@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch040-018",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 40,
+  "chunkIndex": 18,
+  "title": "G = ({A, B, C, D}, {{A, B}, {A, D}, {D, B}, {D, C}, {B, C}, {A, C}})",
+  "start": 8100,
+  "end": 8441,
+  "words": 341,
+  "content": "une la calle. Ejemplo 5 3 1 2 2 4 3 5 -- 218 of 315 -- 16.9. PROBLEMAS 219 Salida Descripción Línea 1: Un solo número entero, el número de pares de esquinas para las cuales no existen Ejemplo 6 Consideraciones 0<2000<N 0<100000<M Referencias El problema fue escrito por Luis Enrique Vargas Azcona y fué utilizado por primera vez en un examen preselectivo de la Olimpiada de Informática durante el 2007. -- 219 of 315 -- 220 CAPÍTULO 16. GRAFOS 16.9.2. Abba Tiempo Límite: 1 segundo Descripción Dada una cadena de caracteres S, la operación reemplaza(a, b) cam- bia cada una de las ocurrencias del caracter a por el caracter b. Por ejemplo, si S = abracadabra entonces reemplaza(b, c) produce la cadena acracadacra. Un palíndrome es una cadena de caracteres que se lee de la misma forma de izquierda a derecha que de derecha a izquierda. Por ejemplo, abba y dad son palíndromes. Problema Escribe un programa que lea una cadena de caracteres S y que encuentre el número mínimo r de aplicaciones de la operación reemplaza que transfor- man a S en un palíndrome. Entrada Un solo renglón que contiene una cadena S formada exclusivamente por letras minúsculas del alfabeto inglés. Ejemplo croacia Salida El valor de r. Ejemplo 3 Consideraciones La cadena S tendrá una longitud entre 1 y 1,000,000. -- 220 of 315 -- 16.9. PROBLEMAS 221 Referencias La idea original del problema fue de Sergio Murguía, el problema fué redactado por Francisco Javier Zaragoza Marinez y fue utilizado por primera vez en un examen selectivo de la Olimpiada Mexicana de Informática durante Julio del 2007. -- 221 of 315 -- 222 CAPÍTULO 16. GRAFOS 16.9.3. Códigos de Prüfer Tiempo Límite:1 Segundo El matemático Heinz Prüfer inventó una forma ingeniosa de nombrar árboles cuyos vertices esten etiquetados de manera única con los números enteros de 1 a n La forma de nombrar el árbol consiste de un código con n − 2 números llamado código de Prüfer. Dicho código se obtiene mediante el siguiente al- goritmo:"
+}

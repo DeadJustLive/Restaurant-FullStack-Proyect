@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch025-027",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 25,
+  "chunkIndex": 27,
+  "title": "parte d: e un conjunto solo una vez: agregarlo nuevamente no tiene ningún efecto.",
+  "start": 12150,
+  "end": 12486,
+  "words": 336,
+  "content": "101 huevos\"; function menosUno(match, cantidad, unidad) { cantidad = Number(cantidad) - 1; if (cantidad == 1) { // solo queda uno, se elimina la 's' unidad = unidad.slice(0, unidad.length - 1); } else if (cantidad == 0) { cantidad = \"ningún\"; } return cantidad + \" \" + unidad; } console.log(stock.replace(/(\\d+) (\\p{L}+)/gu, menosUno)); // → ningún limón, 1 repollo y 100 huevos Esta función toma una cadena, encuentra todas las ocurrencias de un número seguido de una palabra alfanumérica, y devuelve una cadena que tiene una cantidad menos de cada una de esas ocurrencias. El grupo (\\d+) termina siendo el argumento amount de la función, y el grupo (\\p{L}+) se asigna a unit. La función convierte amount a un número, lo cual siempre funciona ya que coincide con \\d+, y realiza algunos ajustes en caso de que solo quede uno o ninguno. Avaricia Es posible usar replace para escribir una función que elimine todos los comen- tarios de un fragmento de código JavaScript. Aquí tienes un primer intento: function stripComments(code) { return code.replace(/\\/\\/.*|\\/\\*[^]*\\*\\//g, \"\"); } console.log(stripComments(\"1 + /* 2 */3\")); // → 1 + 3 console.log(stripComments(\"x = 10;// ¡diez!\")); // → x = 10; console.log(stripComments(\"1 /* a */+/* b */ 1\")); // → 1 1 La parte antes del operador or coincide con dos caracteres de barra seguidos por cualquier cantidad de caracteres que no sean de nueva línea. La parte de comentarios de varias líneas es más compleja. Utilizamos [^] (cualquier carácter que no esté en el conjunto vacío de caracteres) como una forma de 155 -- 167 of 445 -- coincidir con cualquier carácter. No podemos usar simplemente un punto aquí porque los comentarios de bloque pueden continuar en una nueva línea, y el carácter de punto no coincide con caracteres de nueva línea. Pero la salida para la última línea parece haber salido mal. ¿Por qué? La parte [^]* de la expresión, como describí en la sección sobre retroceso, primero intentará coincidir con todo lo que pueda. Si esto hace que la siguiente"
+}

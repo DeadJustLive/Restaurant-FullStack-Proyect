@@ -1,0 +1,11 @@
+{
+  "id": "scrum-y-xp-desde-las-trincheras-ch146-000",
+  "bookId": "scrum-y-xp-desde-las-trincheras",
+  "chapterIndex": 146,
+  "chunkIndex": 0,
+  "title": "96 | SCRUM Y XP DESDE LAS TRINCHERAS",
+  "start": 0,
+  "end": 227,
+  "words": 227,
+  "content": "# 96 | SCRUM Y XP DESDE LAS TRINCHERAS • Haz que unos cuantos desarrolladores trabajen como encargados de pruebas (oh, te adorarán por ello…). • Implementa herramientas y scripts que hagan las pruebas más fáciles. • Añade más código de pruebas automatizadas • Incrementa la longitud de los Sprints y haz que se incluyan pruebas de aceptación en los Sprints. • Define algunos Sprints como “Sprint de pruebas” en los que todo el equipo trabaje como un equipo de pruebas. • Contrata a más encargados de pruebas (incluso aunque signifique eliminar desarrolladores). Hemos probado todas estas soluciones (excepto la última). Las mejores soluciones a largo plazo son por supuesto la segunda y la tercera, es decir, mejores herramientas y script y automatización de las pruebas. Las retrospectivas son un buen foro en el que identificar el eslabón más débil de la cadena. De vuelta a la realidad Probablemente te he dado la impresión de que tenemos encargados de pruebas en todos los equipos Scrum, que tenemos enormes equipos de pruebas para cada producto, que tenemos versiones listas después de cada Sprint, etc., etc. Bueno, pues no. En ocasiones hemos conseguido todo esto, y hemos visto los efectos positivos que producen. Pero aun estamos lejos de un proceso aceptable de aseguramiento de la calidad, y aun tenemos mucho que aprender al respecto. -- 96 of 122 --"
+}

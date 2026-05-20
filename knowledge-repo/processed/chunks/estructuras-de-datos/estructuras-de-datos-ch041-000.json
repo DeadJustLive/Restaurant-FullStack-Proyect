@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch041-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 41,
+  "chunkIndex": 0,
+  "title": "INGENIERIA DE SISTEMAS",
+  "start": 0,
+  "end": 36,
+  "words": 36,
+  "content": "# INGENIERIA DE SISTEMAS 2.2.3.2 REPRESENTACIÓN CON LISTAS GENERALIZADAS Para evitar los problemas de la representación con listas ligadas para los arboles generales recurrimos a las listas generalizadas cuya definición del nodo en la representación es:"
+}

@@ -1,0 +1,11 @@
+# 3.1 	Principios y Valores de Scrum
+
+Scrum se basa en seis valores fundamentales que guían la conducta y las decisiones de los equipos:
+Compromiso, Coraje, Enfoque, Apertura, Respeto y Transparencia. Estos valores no solo fomentan
+una cultura de colaboración y comunicación efectiva, sino que también ayudan a crear un ambiente
+de trabajo en el que todos los miembros del equipo pueden contribuir al máximo.
+
+-- 3 of 21 --
+
+www.europeanscrum.org
+- 3 -

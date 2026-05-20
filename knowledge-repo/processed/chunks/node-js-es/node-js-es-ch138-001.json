@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch138-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 138,
+  "chunkIndex": 1,
+  "title": "Capítulo 94:: npm",
+  "start": 450,
+  "end": 521,
+  "words": 71,
+  "content": "Puede verificar si ya tiene node.js instalado ejecutando el npm -v o npm version . Después de instalar NPM a través del instalador Node.js, asegúrese de verificar si hay actualizaciones. Esto se debe a que NPM se actualiza con más frecuencia que el instalador Node.js. Para buscar actualizaciones ejecute el siguiente comando: npm install npm@latest -g Cómo instalar paquetes Para instalar uno o más paquetes usa lo siguiente: npm install <package-name>"
+}

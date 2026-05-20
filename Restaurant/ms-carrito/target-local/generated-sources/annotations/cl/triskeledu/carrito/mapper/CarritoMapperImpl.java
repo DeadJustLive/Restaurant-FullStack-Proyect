@@ -11,8 +11,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-05-17T21:34:25-0400",
-    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 25.0.2 (Red Hat, Inc.)"
+    date = "2026-05-19T19:12:10-0400",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.46.0.v20260407-0427, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class CarritoMapperImpl implements CarritoMapper {
@@ -25,13 +25,13 @@ public class CarritoMapperImpl implements CarritoMapper {
 
         CarritoResponseDTO.CarritoResponseDTOBuilder carritoResponseDTO = CarritoResponseDTO.builder();
 
+        carritoResponseDTO.actualizadoEn( carrito.getActualizadoEn() );
+        carritoResponseDTO.creadoEn( carrito.getCreadoEn() );
         carritoResponseDTO.id( carrito.getId() );
-        carritoResponseDTO.usuarioId( carrito.getUsuarioId() );
+        carritoResponseDTO.items( carritoItemListToCarritoItemResponseDTOList( carrito.getItems() ) );
         carritoResponseDTO.sucursalId( carrito.getSucursalId() );
         carritoResponseDTO.total( carrito.getTotal() );
-        carritoResponseDTO.items( carritoItemListToCarritoItemResponseDTOList( carrito.getItems() ) );
-        carritoResponseDTO.creadoEn( carrito.getCreadoEn() );
-        carritoResponseDTO.actualizadoEn( carrito.getActualizadoEn() );
+        carritoResponseDTO.usuarioId( carrito.getUsuarioId() );
 
         return carritoResponseDTO.build();
     }
@@ -44,10 +44,10 @@ public class CarritoMapperImpl implements CarritoMapper {
 
         CarritoItemResponseDTO.CarritoItemResponseDTOBuilder carritoItemResponseDTO = CarritoItemResponseDTO.builder();
 
+        carritoItemResponseDTO.cantidad( item.getCantidad() );
         carritoItemResponseDTO.id( item.getId() );
         carritoItemResponseDTO.menuItemId( item.getMenuItemId() );
         carritoItemResponseDTO.precioUnitario( item.getPrecioUnitario() );
-        carritoItemResponseDTO.cantidad( item.getCantidad() );
         carritoItemResponseDTO.subtotal( item.getSubtotal() );
 
         return carritoItemResponseDTO.build();

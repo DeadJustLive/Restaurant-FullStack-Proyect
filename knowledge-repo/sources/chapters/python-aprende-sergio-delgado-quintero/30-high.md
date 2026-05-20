@@ -1,0 +1,15 @@
+# HIGH
+
+4.1.6 Operadores de comparación
+Cuando escribimos condiciones debemos incluir alguna expresión de comparación. Para usar
+estas expresiones es fundamental conocer los operadores que nos ofrece Python:
+Operador Símbolo
+Igualdad ==
+Desigualdad !=
+Menor que <
+Menor o igual que <=
+Mayor que >
+Mayor o igual que >=
+A continuación vamos a ver una serie de ejemplos con expresiones de comparación. Téngase
+en cuenta que estas expresiones habría que incluirlas dentro de la sentencia condicional en
+el caso de que quisiéramos tomar una acción concreta:

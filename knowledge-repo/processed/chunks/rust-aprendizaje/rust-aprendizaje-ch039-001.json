@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch039-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 39,
+  "chunkIndex": 1,
+  "title": "DEADBEEF",
+  "start": 450,
+  "end": 695,
+  "words": 245,
+  "content": "= MutStatic::new(); } fn main() { // Here, I call .set on the MutStatic to put data inside it. // This can fail. MY_GLOBAL_STATE.set(MyStruct::new(0)).unwrap(); { // Using the global state immutably is easy... println!(\"Before mut: {}\", MY_GLOBAL_STATE.read().unwrap().getvalue()); } { // Using it mutably is too... let mut mut_handle = MY_GLOBAL_STATE.write().unwrap(); mut_handle.setvalue(3); println!(\"Changed value to 3.\"); } { // As long as there's a scope change we can get the // immutable version again... println!(\"After mut: {}\", MY_GLOBAL_STATE.read().unwrap().getvalue()); } { // But beware! Anything can change global state! foo(); println!(\"After foo: {}\", MY_GLOBAL_STATE.read().unwrap().getvalue()); } } // Note that foo takes no parameters fn foo() { let val; { val = MY_GLOBAL_STATE.read().unwrap().getvalue(); } { let mut mut_handle = MY_GLOBAL_STATE.write().unwrap(); mut_handle.setvalue(val + 1); } } Este código produce la salida: Before mut: 0 Changed value to 3. After mut: 3 After foo: 4 Esto no es algo que debería suceder en Rust normalmente. foo() no tomó una referencia mutable https://riptutorial.com/es/home 56 -- 70 of 188 -- a nada, por lo que no debería haber mutado nada, y sin embargo lo hizo. Esto puede llevar a errores de lógica muy difíciles de depurar. Por otro lado, esto es a veces exactamente lo que quieres. Por ejemplo, muchos motores de juegos requieren un caché global de imágenes y otros recursos que se cargan perezosamente (o utilizan alguna otra estrategia de carga compleja). MutStatic es perfecto para ese propósito. Lea Globales en línea: https://riptutorial.com/es/rust/topic/1244/globales https://riptutorial.com/es/home 57 -- 71 of 188 --"
+}

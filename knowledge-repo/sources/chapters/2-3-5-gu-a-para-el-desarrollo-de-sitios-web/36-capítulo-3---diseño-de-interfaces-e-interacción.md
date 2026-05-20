@@ -1,0 +1,62 @@
+# Capítulo 3: - Diseño de Interfaces e Interacción
+
+www.guiaweb.gob.cl > 59
+Respecto del uso del logotipo, se debe tener en cuenta que los órganos de la
+Administración Pública pueden obtener autorización para no emplear el logotipo
+señalado y en cambio utilizar el que tengan como institución. Ejemplos de este tipo
+se ven habitualmente en Sitios Web como el del Instituto Nacional de Estadísticas
+y el del Servicio de 	Impuestos Internos, ambas entidades dependientes del
+Ministerio de Hacienda.
+Figura 6. El sitio web del Ministerio de Trabajo muestra el logotipo más su nombre en el tamaño tra-
+dicional al lado derecho.
+Figura 7. El sitio web del Instituto Nacional de Estadísticas también muestra un logotipo propio.
+
+-- 59 of 122 --
+
+60 < www.guiaweb.gob.cl
+Siguiendo con la identificación del sitio web,
+otro elemento que ayuda en este aspecto es el
+correcto uso de la etiqueta <title> en la cabe-
+cera de las páginas web10 , a través de la cual se
+define el título que mostrará el sitio web en la
+parte superior de la ventana del browser utiliza-
+do. En las imágenes anteriores se puede apreciar
+en la barra azul que aparece al tope de cada
+imagen. En este sentido se recomienda que lleve
+el nombre del sitio web más un título que des-
+criba el contenido de la página, debido a que
+dicha información será la que aparezca en los buscadores cuando se muestre el
+enlace al usuario que busca alguna palabra o frase que tenga dicha página.
+Finalmente en este aspecto se debe señalar que utilizando los dos elementos antes
+señalados, el usuario debe recibir la información suficiente para saber que está en
+un sitio web de un organismo del Gobierno de Chile y además, conocer el nombre
+de dicho servicio.
+> Sistema de navegación
+Se denomina “sistema de navegación” al conjunto de elementos presente en cada
+una de las pantallas, que permite a un usuario moverse por las diferentes secciones
+de un sitio web y retornar hasta la portada, sin sentir la sensación de haberse
+perdido en ese camino.
+Para conseguir este objetivo el diseño web debe contemplar, al menos, que el
+sistema de navegación cuente con los siguientes elementos:
+Menú de secciones: es una zona de la interfaz en la que se detallan las seccio-
+nes o categorías en las que está dividida la información contenida en el sitio
+web. Normalmente se ubica en la parte superior de cada página o bien en la
+zona superior derecha o izquierda. Hasta la aparición de los últimos estudios
+basados en “eyetracking”11 no había una recomendación certera acerca de su
+ubicación; tras éstos, parece indicado ubicarlos en la zona superior o en la zona
+superior izquierda. Se debe evitar el uso de nombres complejos y preferir pala-
+bras de fácil y rápida comprensión.
+Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile
+10.- Más información de este tema en la sección “Encabezado de Página” del Capítulo 2 de esta versión de la Guía Web.
+11.- Ver subtítulo “Elementos de la interfaz”, antes en este mismo capítulo.
+El contenido de la
+etiqueta <title> es de
+gran importancia: su
+contenido es usado
+por los buscadores
+para crear un enlace
+en sus páginas de
+resultados, que lleve
+hacia nuestro sitio.
+
+-- 60 of 122 --

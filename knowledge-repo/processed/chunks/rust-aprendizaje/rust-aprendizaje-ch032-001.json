@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch032-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 32,
+  "chunkIndex": 1,
+  "title": "Capítulo 13:: Documentación",
+  "start": 450,
+  "end": 672,
+  "words": 222,
+  "content": "53 of 188 -- /// It is considered good practice to have examples in your documentation /// under an \"Examples\" header, like this: /// # Examples /// Code can be added in \"fences\" of 3 backticks. /// /// ``` /// let bar = Bar::new(); /// ``` /// /// Examples also function as tests to ensure the examples actually compile. /// The compiler will automatically generate a main() function and run the /// example code as a test when cargo test is run. struct Bar { ... } Pruebas de documentacion El código en la documentación de los comentarios se ejecutará automáticamente por cargo test . Estos se conocen como \"pruebas de documentación\" y ayudan a garantizar que sus ejemplos funcionen y no engañen a los usuarios de su caja. Puede importar un pariente desde la raíz de la caja (como si hubiera un extern crate mycrate; oculto extern crate mycrate; en la parte superior del ejemplo) /// ``` /// use mycrate::foo::Bar; /// ``` Si su código no se ejecuta correctamente en una prueba de documentación, puede usar el atributo no_run , así: /// ```no_run /// use mycrate::NetworkClient; /// NetworkClient::login(\"foo\", \"bar\"); /// ``` También puede indicar que su código debe entrar en pánico, como este: /// ```should_panic /// unreachable!(); /// ``` Lea Documentación en línea: https://riptutorial.com/es/rust/topic/4865/documentacion https://riptutorial.com/es/home 40 -- 54 of 188 --"
+}

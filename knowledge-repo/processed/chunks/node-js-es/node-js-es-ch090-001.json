@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch090-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 90,
+  "chunkIndex": 1,
+  "title": "Módulo d: e carga con nombre de directorio",
+  "start": 450,
+  "end": 573,
+  "words": 123,
+  "content": "(err) return next(err) req.user = user next() https://riptutorial.com/es/home 177 -- 205 of 423 -- }) } Cada módulo inyectado solo una vez. NodeJS ejecuta el módulo solo la primera vez que lo requiera. Cualquier otra función requerida volverá a utilizar el mismo Objeto, por lo que no ejecutará el código en el módulo otra vez. Además, Node almacena en caché los módulos la primera vez que se cargan utilizando require. Esto reduce el número de lecturas de archivos y ayuda a acelerar la aplicación. myModule.js console.log(123) ; exports.var1 = 4 ; index.js var a=require('./myModule') ; // Output 123 var b=require('./myModule') ; // No output console.log(a.var1) ; // Output 4 console.log(b.var1) ; // Output 4 a.var2 = 5 ; console.log(b.var2) ; // Output 5"
+}

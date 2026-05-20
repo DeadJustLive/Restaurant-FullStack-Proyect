@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch162-001",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 162,
+  "chunkIndex": 1,
+  "title": "6.2 Extrayendo el Renderizado de Nota . . . . . . . . . . . . . . . . 46",
+  "start": 450,
+  "end": 736,
+  "words": 286,
+  "content": "const {flux} = this.context; const stores = flux.stores; const composedStores = composeStores(stores); -- 96 of 226 -- React y Flux 79 return React.createElement(target, {...Object.assign( {}, this.props, state(composedStores), actions )} ); } handleChange = () => { this.forceUpdate(); } } Connect.contextTypes = { flux: React.PropTypes.object.isRequired } return Connect; } // Convierte {store: <AltStore>} en {<store>: store.getState()} function composeStores(stores) { let ret = {}; Object.keys(stores).forEach(k => { const store = stores[k]; // Combina el estado del almacén ret = Object.assign({}, ret, store.getState()); }); return ret; } Dado que flux.FinalStore no está disponible por defecto, necesitamos cambiar nuestra instacia de Alt para que la contenga. Tras ello podremos acceder a ella donde la necesitemos: app/libs/alt.js -- 97 of 226 -- React y Flux 80 import Alt from 'alt'; import makeFinalStore from 'alt-utils/lib/makeFinalStore'; const alt = new Alt(); export default alt; class Flux extends Alt { constructor(config) { super(config); this.FinalStore = makeFinalStore(this); } } const flux = new Flux(); export default flux; Podemos incrustar algunos datos de prueba en App y renderizarlos para ver conectar en acción. Haz los cambios siguientes para enviar datos a App y, después, mira cómo se muestran en la interfaz de usuario: app/components/App.jsx import React from 'react'; import uuid from 'uuid'; import Notes from './Notes'; import connect from '../libs/connect'; export default class App extends React.Component { class App extends React.Component { constructor(props) { ... } render() { const {notes} = this.state; -- 98 of 226 -- React y Flux 81 return ( <div> {this.props.test} <button className=\"add-note\" onClick={this.addNote}>+</butto\\ n> <Notes notes={notes} onNoteClick={this.activateNoteEdit} onEdit={this.editNote} onDelete={this.deleteNote} /> </div> ); } ... } export default connect(() => ({ test: 'test' }))(App) Refresca el navegador para mostrar el texto. Deberías poder ver ahora el texto que hemos conectado con App."
+}

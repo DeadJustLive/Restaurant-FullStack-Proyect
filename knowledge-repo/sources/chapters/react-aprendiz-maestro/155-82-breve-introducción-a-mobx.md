@@ -1,0 +1,44 @@
+# 8.2 Breve Introducción a MobX
+
+MobX3 tiene un punto de vista totalmente diferente sobre la gestión de datos. Si
+Redux te ayuda a modelar tu flujo de datos de manera explícita, MobX hace el
+esfuerzo de que sea implícita. No te obliga a seguir determinada estructura. En su
+lugar, tendrás que anotar tus estructuras de datos como observable y dejar a MobX
+gestionar cuándo se actualizan tus vistas.
+Mientras que Redux adopta el concepto de inmutabilidad a través de la idea de
+los reductores, MobX hace justo lo contrario y apoya la mutación. Esto implica
+que ciertos asuntos como la gestión de referencias pueden ser extraordinariamente
+sencillos en MobX mientras que en Redux te verás forzado a normalizar tus datos
+para que puedas manipularlos fácilmente con reductores.
+Tanto Redux como MobX son valiosos a su manera. No hay una solución correcta
+cuando de la gestión de datos se trata. Estoy seguro de que aparecerán más
+alternativas a medida que pase el tiempo. Cada solución tiene sus propias ventajas
+e inconvenientes. Entendiendo las alternativas tendrás una mejor capacidad de
+seleccionar la solución que mejor encaje con lo que necesites llegado el momento.
+8.3 ¿Qué Sistema de Gestión de Estados
+Debería Utilizar?
+El mapa de gestores de estados está cambiando constantemente. En la actualidad
+Redux4 es muy popular, pero hay buenas alternativas a la vista. voronianski/flux-
+comparison5 muestra una comparativa entre algunos de los más populares.
+La elección de una librería está condicionada por tus propias preferencias personales.
+Tienes que tener en cuenta factores como API, funcionalidades, documentación y
+soporte. Comenzar con una de las alternativas más populares puede ser una buena
+idea. Podrás hacer elecciones que se ajusten más a lo que quieres a medida que vayas
+conociendo mejor la arquitectura.
+3https://mobxjs.github.io/mobx/
+4http://redux.js.org
+5https://github.com/voronianski/flux-comparison
+
+-- 85 of 226 --
+
+React y Flux 68
+Para esta aplicación vamos a utilizar una implementación de Flux conocida con el
+nombre de Alt6. Su API está bien diseñado y es suficiente para nuestro propósito.
+Como extra, Alt ha sido diseñado teniendo en mente el renderizado isomórfico
+(renderiza de igual manera tanto en servidor como en cliente). Si conoces Flux tendrás
+un buen punto de partida con el que comprender mejor las alternativas.
+El libro no cubre todas las soluciones alternativas en detalle todavía, pero diseñare-
+mos la aplicación de tal forma que podamos utilizar alternativas más adelante. La idea
+es que podamos aislar la vista de la gestión de datos para que podamos intercambiar
+esta gestión sin tener que cambiar código de React. Es una forma de diseñar pensando
+en el cambio.

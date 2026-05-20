@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch137-000",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 137,
+  "chunkIndex": 0,
+  "title": "2. Semántica de una especificación algebraica",
+  "start": 0,
+  "end": 49,
+  "words": 49,
+  "content": "# 1. Proceso de borrado como en un árbol binario de búsqueda: a. Buscar el nodo a borrar. b. Si el nodo es hoja, se borra. c. Si no es hoja: • se sustituye por el máximo del subárbol izquierdo, y • se borra dicho máximo del subárbol izquierdo."
+}

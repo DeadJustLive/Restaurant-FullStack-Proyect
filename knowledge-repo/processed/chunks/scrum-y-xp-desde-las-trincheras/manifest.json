@@ -1,0 +1,1318 @@
+{
+  "bookId": "scrum-y-xp-desde-las-trincheras",
+  "totalChunks": 187,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.463Z",
+  "chunks": [
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS",
+      "words": 6
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "TRINCHERAS",
+      "words": 19
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "VERSION GRATUITA ON-LINE",
+      "words": 450
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "AGRADECIMIENTOS \t4",
+      "words": 3
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "PRÓLOGO DE JEFF SUTHERLAND \t10",
+      "words": 6
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "PRÓLOGO DE MIKE COHN \t12",
+      "words": 6
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "PREFACIO - ¡HEY, SCRUM FUNCIONA! \t13",
+      "words": 7
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "INTRODUCCIÓN \t14",
+      "words": 18
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "COMO HACEMOS PILAS DE PRODUCTO \t17",
+      "words": 23
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "COMO NOS PREPARAMOS PARA LA PLANIFICACIÓN DE SPRINT",
+      "words": 10
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch100-000",
+      "chapterIndex": 100,
+      "chunkIndex": 0,
+      "title": "50 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 254
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch101-000",
+      "chapterIndex": 101,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 51",
+      "words": 79
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch102-000",
+      "chapterIndex": 102,
+      "chunkIndex": 0,
+      "title": "52 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 155
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch103-000",
+      "chapterIndex": 103,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 53",
+      "words": 152
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch104-000",
+      "chapterIndex": 104,
+      "chunkIndex": 0,
+      "title": "54 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 30
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch105-000",
+      "chapterIndex": 105,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 55",
+      "words": 186
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch106-000",
+      "chapterIndex": 106,
+      "chunkIndex": 0,
+      "title": "56 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 14
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch107-000",
+      "chapterIndex": 107,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 57",
+      "words": 190
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch108-000",
+      "chapterIndex": 108,
+      "chunkIndex": 0,
+      "title": "58 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 176
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch109-000",
+      "chapterIndex": 109,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 59",
+      "words": 164
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "COMO HACEMOS LA PLANIFICACIÓN DE SPRINT \t22",
+      "words": 158
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch110-000",
+      "chapterIndex": 110,
+      "chunkIndex": 0,
+      "title": "60 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 162
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch111-000",
+      "chapterIndex": 111,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 61",
+      "words": 500
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch111-001",
+      "chapterIndex": 111,
+      "chunkIndex": 1,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 61",
+      "words": 51
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch112-000",
+      "chapterIndex": 112,
+      "chunkIndex": 0,
+      "title": "62 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 321
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch113-000",
+      "chapterIndex": 113,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 63",
+      "words": 267
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch114-000",
+      "chapterIndex": 114,
+      "chunkIndex": 0,
+      "title": "64 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 495
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch115-000",
+      "chapterIndex": 115,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 65",
+      "words": 500
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch115-001",
+      "chapterIndex": 115,
+      "chunkIndex": 1,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 65",
+      "words": 81
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch116-000",
+      "chapterIndex": 116,
+      "chunkIndex": 0,
+      "title": "66 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 330
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch117-000",
+      "chapterIndex": 117,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 67",
+      "words": 418
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch118-000",
+      "chapterIndex": 118,
+      "chunkIndex": 0,
+      "title": "68 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 47
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch119-000",
+      "chapterIndex": 119,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 69",
+      "words": 285
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "COMO COMUNICAMOS LOS SPRINTS \t48",
+      "words": 6
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch120-000",
+      "chapterIndex": 120,
+      "chunkIndex": 0,
+      "title": "70 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 287
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch121-000",
+      "chapterIndex": 121,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 71",
+      "words": 388
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch122-000",
+      "chapterIndex": 122,
+      "chunkIndex": 0,
+      "title": "72 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 361
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch123-000",
+      "chapterIndex": 123,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 73",
+      "words": 199
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch124-000",
+      "chapterIndex": 124,
+      "chunkIndex": 0,
+      "title": "74 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 274
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch125-000",
+      "chapterIndex": 125,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 75",
+      "words": 245
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch126-000",
+      "chapterIndex": 126,
+      "chunkIndex": 0,
+      "title": "76 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 305
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch127-000",
+      "chapterIndex": 127,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 77",
+      "words": 256
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch128-000",
+      "chapterIndex": 128,
+      "chunkIndex": 0,
+      "title": "78 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 307
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch129-000",
+      "chapterIndex": 129,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 79",
+      "words": 269
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "COMO HACEMOS PILAS DE SPRINT \t50",
+      "words": 64
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch130-000",
+      "chapterIndex": 130,
+      "chunkIndex": 0,
+      "title": "80 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 376
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch131-000",
+      "chapterIndex": 131,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 81",
+      "words": 359
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch132-000",
+      "chapterIndex": 132,
+      "chunkIndex": 0,
+      "title": "82 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 464
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch133-000",
+      "chapterIndex": 133,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 83",
+      "words": 462
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch134-000",
+      "chapterIndex": 134,
+      "chunkIndex": 0,
+      "title": "84 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 432
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch135-000",
+      "chapterIndex": 135,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 85",
+      "words": 385
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch136-000",
+      "chapterIndex": 136,
+      "chunkIndex": 0,
+      "title": "86 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 257
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch137-000",
+      "chapterIndex": 137,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 87",
+      "words": 169
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch138-000",
+      "chapterIndex": 138,
+      "chunkIndex": 0,
+      "title": "88 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 316
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch139-000",
+      "chapterIndex": 139,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 89",
+      "words": 356
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "COMO DISTRIBUIMOS LA SALA DEL EQUIPO \t59",
+      "words": 35
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch140-000",
+      "chapterIndex": 140,
+      "chunkIndex": 0,
+      "title": "90 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 472
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch141-000",
+      "chapterIndex": 141,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 91",
+      "words": 419
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch142-000",
+      "chapterIndex": 142,
+      "chunkIndex": 0,
+      "title": "92 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 75
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch143-000",
+      "chapterIndex": 143,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 93",
+      "words": 211
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch144-000",
+      "chapterIndex": 144,
+      "chunkIndex": 0,
+      "title": "94 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 386
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch145-000",
+      "chapterIndex": 145,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 95",
+      "words": 342
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch146-000",
+      "chapterIndex": 146,
+      "chunkIndex": 0,
+      "title": "96 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 227
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch147-000",
+      "chapterIndex": 147,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 97",
+      "words": 321
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch148-000",
+      "chapterIndex": 148,
+      "chunkIndex": 0,
+      "title": "98 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 282
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch149-000",
+      "chapterIndex": 149,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 99",
+      "words": 332
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "CÓMO HACEMOS SCRUM DIARIOS \t63",
+      "words": 28
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch150-000",
+      "chapterIndex": 150,
+      "chunkIndex": 0,
+      "title": "100 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 293
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch151-000",
+      "chapterIndex": 151,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 101",
+      "words": 341
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch152-000",
+      "chapterIndex": 152,
+      "chunkIndex": 0,
+      "title": "102 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 288
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch153-000",
+      "chapterIndex": 153,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 103",
+      "words": 188
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch154-000",
+      "chapterIndex": 154,
+      "chunkIndex": 0,
+      "title": "104 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 114
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch155-000",
+      "chapterIndex": 155,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 105",
+      "words": 270
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch156-000",
+      "chapterIndex": 156,
+      "chunkIndex": 0,
+      "title": "106 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 497
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch157-000",
+      "chapterIndex": 157,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 107",
+      "words": 175
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch158-000",
+      "chapterIndex": 158,
+      "chunkIndex": 0,
+      "title": "1) \tTodo el mundo en la mesa describe qué ha conseguido su equipo la",
+      "words": 26
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch159-000",
+      "chapterIndex": 159,
+      "chunkIndex": 0,
+      "title": "2) \tCualquier otro asunto inter-equipos que necesite ser discutido, por",
+      "words": 45
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "CÓMO HACEMOS LA DEMO DE SPRINT \t66",
+      "words": 34
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch160-000",
+      "chapterIndex": 160,
+      "chunkIndex": 0,
+      "title": "108 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 91
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch161-000",
+      "chapterIndex": 161,
+      "chunkIndex": 0,
+      "title": "1) Noticias y actualizaciones del Jefe de Desarrollo. Información sobre eventos",
+      "words": 15
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch162-000",
+      "chapterIndex": 162,
+      "chunkIndex": 0,
+      "title": "2) Un turno por producto. Una persona de cada grupo de producto informa sobre",
+      "words": 46
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch163-000",
+      "chapterIndex": 163,
+      "chunkIndex": 0,
+      "title": "3) Cualquier persona es libre de añadir información o formular preguntas.",
+      "words": 234
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch164-000",
+      "chapterIndex": 164,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 109",
+      "words": 65
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch165-000",
+      "chapterIndex": 165,
+      "chunkIndex": 0,
+      "title": "1. Personas como el Dueño de Producto o yo mismo podemos visitar todos los",
+      "words": 42
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch166-000",
+      "chapterIndex": 166,
+      "chunkIndex": 0,
+      "title": "2. Los equipos pueden visitar los Scrum diarios de otros equipos. No ocurre muy",
+      "words": 207
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch167-000",
+      "chapterIndex": 167,
+      "chunkIndex": 0,
+      "title": "1) \tApagar fuegos",
+      "words": 4
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch168-000",
+      "chapterIndex": 168,
+      "chunkIndex": 0,
+      "title": "2) \tProteger al equipo Scrum de todo tipo de distracciones, incluyendo cosas",
+      "words": 30
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch169-000",
+      "chapterIndex": 169,
+      "chunkIndex": 0,
+      "title": "110 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 383
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "CÓMO HACEMOS RETROSPECTIVAS DE SPRINT \t69",
+      "words": 45
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch170-000",
+      "chapterIndex": 170,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 111",
+      "words": 174
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch171-000",
+      "chapterIndex": 171,
+      "chunkIndex": 0,
+      "title": "112 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 170
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch172-000",
+      "chapterIndex": 172,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 113",
+      "words": 109
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch173-000",
+      "chapterIndex": 173,
+      "chunkIndex": 0,
+      "title": "114 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 474
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch174-000",
+      "chapterIndex": 174,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 115",
+      "words": 160
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch175-000",
+      "chapterIndex": 175,
+      "chunkIndex": 0,
+      "title": "116 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 355
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch176-000",
+      "chapterIndex": 176,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 117",
+      "words": 122
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch177-000",
+      "chapterIndex": 177,
+      "chunkIndex": 0,
+      "title": "1. Queremos que los miembros de cada equipo se conozcan bien entre si.",
+      "words": 14
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch178-000",
+      "chapterIndex": 178,
+      "chunkIndex": 0,
+      "title": "2. Queremos tener una infraestructura de comunicaciones excelente entre las",
+      "words": 29
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch179-000",
+      "chapterIndex": 179,
+      "chunkIndex": 0,
+      "title": "118 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 9
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "DESCANSOS ENTRE SPRINTS \t74",
+      "words": 38
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch180-000",
+      "chapterIndex": 180,
+      "chunkIndex": 0,
+      "title": "3. Al principio, el equipo offshore es demasiado pequeño como para formar un",
+      "words": 19
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch181-000",
+      "chapterIndex": 181,
+      "chunkIndex": 0,
+      "title": "4. Queremos un periodo de intercambio intensivo de conocimiento antes de que",
+      "words": 313
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch182-000",
+      "chapterIndex": 182,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 119",
+      "words": 328
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch183-000",
+      "chapterIndex": 183,
+      "chunkIndex": 0,
+      "title": "120 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 149
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch184-000",
+      "chapterIndex": 184,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 121",
+      "words": 32
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch185-000",
+      "chapterIndex": 185,
+      "chunkIndex": 0,
+      "title": "122 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 332
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "CÓMO COMBINAMOS SCRUM CON XP \t81",
+      "words": 41
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "CÓMO HACEMOS PRUEBAS \t87",
+      "words": 80
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "CÓMO MANEJAR MÚLTIPLES EQUIPOS SCRUM \t97",
+      "words": 82
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "CÓMO GESTIONAMOS EQUIPOS DISTRIBUIDOS",
+      "words": 5
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "GEOGRÁFICAMENTE \t116",
+      "words": 13
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "LISTA DE COMPROBACIÓN DEL SCRUM MASTER \t119",
+      "words": 25
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "EPÍLOGO \t120",
+      "words": 3
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "LECTURAS RECOMENDADAS \t121",
+      "words": 4
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "SOBRE EL AUTOR \t122",
+      "words": 10
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "10 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 470
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 11",
+      "words": 154
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "12 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 485
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 13",
+      "words": 217
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "14 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 374
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 15",
+      "words": 59
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "16 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 298
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 17",
+      "words": 441
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "18 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 367
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 19",
+      "words": 282
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "20 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 390
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 21",
+      "words": 125
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "22 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 252
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 23",
+      "words": 344
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "24 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 492
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 25",
+      "words": 88
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "1) La gente no piensa que vayan a durar tanto…",
+      "words": 391
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "26 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 482
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 27",
+      "words": 420
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "28 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 9
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "PILA DE PRODUCTO \tPILA DE SPRINT 1",
+      "words": 189
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 29",
+      "words": 9
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "PILA DE PRODUCTO",
+      "words": 4
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "VELOCIDAD ESTIMADA",
+      "words": 98
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "30 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 94
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "1. A ojo de buen cubero",
+      "words": 7
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "2. Cálculos de velocidad",
+      "words": 56
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 31",
+      "words": 218
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "1. Decidir la velocidad estimada",
+      "words": 6
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch057-000",
+      "chapterIndex": 57,
+      "chunkIndex": 0,
+      "title": "2. Calcular cuántas historias se pueden añadir sin sobrepasar la velocidad",
+      "words": 78
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch058-000",
+      "chapterIndex": 58,
+      "chunkIndex": 0,
+      "title": "32 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 399
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch059-000",
+      "chapterIndex": 59,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 33",
+      "words": 9
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch060-000",
+      "chapterIndex": 60,
+      "chunkIndex": 0,
+      "title": "DÍAS DISPONIBLES",
+      "words": 3
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch061-000",
+      "chapterIndex": 61,
+      "chunkIndex": 0,
+      "title": "50 DÍAS-HOMBRE DISPONIBLES",
+      "words": 97
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch062-000",
+      "chapterIndex": 62,
+      "chunkIndex": 0,
+      "title": "VELOCIDAD ESTIMADA DE ESTE SPRINT",
+      "words": 6
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch063-000",
+      "chapterIndex": 63,
+      "chunkIndex": 0,
+      "title": "(DÍAS-HOMBRE \tDISPONIBLES) \tX \t(FACTOR \tDE \tDEDICACIÓN) \t= \tVELOCIDAD",
+      "words": 9
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch064-000",
+      "chapterIndex": 64,
+      "chunkIndex": 0,
+      "title": "ESTIMADA",
+      "words": 67
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch065-000",
+      "chapterIndex": 65,
+      "chunkIndex": 0,
+      "title": "FACTOR DE DEDICACIÓN DEL ÚLTIMO SPRINT",
+      "words": 7
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch066-000",
+      "chapterIndex": 66,
+      "chunkIndex": 0,
+      "title": "(VELOCIDAD REAL)",
+      "words": 3
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch067-000",
+      "chapterIndex": 67,
+      "chunkIndex": 0,
+      "title": "(FACTOR DE DEDICACIÓN) = ---------------------------",
+      "words": 6
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch068-000",
+      "chapterIndex": 68,
+      "chunkIndex": 0,
+      "title": "(DIAS-HOMBRE DISPONIBLES)",
+      "words": 52
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch069-000",
+      "chapterIndex": 69,
+      "chunkIndex": 0,
+      "title": "34 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 55
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch070-000",
+      "chapterIndex": 70,
+      "chunkIndex": 0,
+      "title": "FACTOR DE DEDICACIÓN DEL ÚLTIMO SPRINT",
+      "words": 7
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch071-000",
+      "chapterIndex": 71,
+      "chunkIndex": 0,
+      "title": "(18 PUNTOS HISTORIA)",
+      "words": 4
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch072-000",
+      "chapterIndex": 72,
+      "chunkIndex": 0,
+      "title": "(40%) = \t-------------------- \t50 DÍAS-HOMBRE X 40% = 20 PUNTOS-",
+      "words": 11
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch073-000",
+      "chapterIndex": 73,
+      "chunkIndex": 0,
+      "title": "HISTORIA",
+      "words": 2
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch074-000",
+      "chapterIndex": 74,
+      "chunkIndex": 0,
+      "title": "(45 DÍAS-HOMBRE)",
+      "words": 33
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch075-000",
+      "chapterIndex": 75,
+      "chunkIndex": 0,
+      "title": "COMIENZO DEL SPRINT",
+      "words": 4
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch076-000",
+      "chapterIndex": 76,
+      "chunkIndex": 0,
+      "title": "19 PUNTOS DE HISTORIA",
+      "words": 5
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch077-000",
+      "chapterIndex": 77,
+      "chunkIndex": 0,
+      "title": "INCLUIDOS EN SPRINT",
+      "words": 205
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch078-000",
+      "chapterIndex": 78,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 35",
+      "words": 402
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch079-000",
+      "chapterIndex": 79,
+      "chunkIndex": 0,
+      "title": "36 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 211
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch080-000",
+      "chapterIndex": 80,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 37",
+      "words": 330
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch081-000",
+      "chapterIndex": 81,
+      "chunkIndex": 0,
+      "title": "38 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 239
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch082-000",
+      "chapterIndex": 82,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 39",
+      "words": 361
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch083-000",
+      "chapterIndex": 83,
+      "chunkIndex": 0,
+      "title": "40 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 330
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch084-000",
+      "chapterIndex": 84,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 41",
+      "words": 478
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch085-000",
+      "chapterIndex": 85,
+      "chunkIndex": 0,
+      "title": "42 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 301
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch086-000",
+      "chapterIndex": 86,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 43",
+      "words": 280
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch087-000",
+      "chapterIndex": 87,
+      "chunkIndex": 0,
+      "title": "44 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 417
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch088-000",
+      "chapterIndex": 88,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 45",
+      "words": 386
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch089-000",
+      "chapterIndex": 89,
+      "chunkIndex": 0,
+      "title": "1) Intentamos evitar las historias técnicas. Busca efusivamente formas de",
+      "words": 46
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch090-000",
+      "chapterIndex": 90,
+      "chunkIndex": 0,
+      "title": "46 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 9
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch091-000",
+      "chapterIndex": 91,
+      "chunkIndex": 0,
+      "title": "2) Si no podemos transformar una historia técnica en una historia normal,",
+      "words": 56
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch092-000",
+      "chapterIndex": 92,
+      "chunkIndex": 0,
+      "title": "3) Si lo anterior falla, definirla como historia técnica y mantener una lista",
+      "words": 373
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch093-000",
+      "chapterIndex": 93,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 47",
+      "words": 84
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch094-000",
+      "chapterIndex": 94,
+      "chunkIndex": 0,
+      "title": "1) El Dueño de Producto imprime los elementos de Jira más importantes, los trae",
+      "words": 46
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch095-000",
+      "chapterIndex": 95,
+      "chunkIndex": 0,
+      "title": "2) El Dueño de Producto crea historias que se refieren a los elementos de Jira.",
+      "words": 32
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch096-000",
+      "chapterIndex": 96,
+      "chunkIndex": 0,
+      "title": "3) La corrección de errores se considera algo fuera del Sprint. El equipo",
+      "words": 52
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch097-000",
+      "chapterIndex": 97,
+      "chunkIndex": 0,
+      "title": "4) Hacer la Pila de Producto en Jira (es decir, abandonar Excel). Tratar los",
+      "words": 199
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch098-000",
+      "chapterIndex": 98,
+      "chunkIndex": 0,
+      "title": "48 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "words": 160
+    },
+    {
+      "id": "scrum-y-xp-desde-las-trincheras-ch099-000",
+      "chapterIndex": 99,
+      "chunkIndex": 0,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 49",
+      "words": 286
+    }
+  ]
+}

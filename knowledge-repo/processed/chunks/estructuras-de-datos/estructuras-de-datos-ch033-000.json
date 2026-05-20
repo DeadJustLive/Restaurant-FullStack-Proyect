@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch033-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 33,
+  "chunkIndex": 0,
+  "title": "INGENIERIA DE SISTEMAS",
+  "start": 0,
+  "end": 230,
+  "words": 230,
+  "content": "# 2.2 TEMA 1 ARBOLES GENERALES Y SU REPRESENTACIÓN La definición de árboles parte del concepto de árbol general que no incluye el árbol sin ningún registro. Además, se definen los conceptos básicos asociados a los árboles. 2.2.1 DEFINICIÓN DE ARBOLES GENERALES Un árbol es un conjunto de n registros(n>0), donde el árbol vacío no está definido, de tal manera que hay un registro llamado raíz y los otros registros están partidos en conjuntos disjuntos cada uno de los cuales tiene las mismas características de la definición del árbol (esta característica hace comportar la estructura árbol como recursiva). Gráficamente: La raíz principal del árbol es G de ella se desprenden tres árboles recursivamente cuyas raíces son respectivamente R, T, A y así sucesivamente se pueden generar más árboles dependiendo de la estructura. 2.2.2 TERMINOLOGÍA DE ÁRBOLES Las ramificaciones de cada nodo se les denomina hijos y los nodos desde donde parten las ramificaciones se denominan padres. Los registros con el mismo padre se denominan hermanos. Al número de ramificaciones que tiene un registro se le denomina el grado de un registro. El grado de un árbol se determina encontrando el registro con el más grande número de ramificaciones. Los registros que no tienen hijos dentro del árbol se denominan hojas. Para calcular el número de hojas de un árbol ver el video en YouTube: -- 8 of 64 -- 9"
+}

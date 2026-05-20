@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch123-004",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 123,
+  "chunkIndex": 4,
+  "title": "4. Árboles de juego: estrategia minimax",
+  "start": 1800,
+  "end": 1922,
+  "words": 122,
+  "content": "en el caso peor, las operaciones fundamentales del diccionario, buscar, añadir y quitar, tienen un coste en el caso peor en O(n), es decir, lineal en n, siendo n el número de claves del diccionario. Esto es así porque el árbol podría ser degenerado, como ya se explicó en la sección anterior. Tal y como se dijo en la sección anterior, si no es necesario garantizar un coste bajo en el caso peor y nos conformamos con el caso promedio, un ABB es una buena solución para almacenar un diccionario porque puede demostrarse que, en media, la altura de un ABB generado aleatoriamente es logarítmica en el número de claves. -- 133 of 267 -- 126 -- 134 of 267 -- 127"
+}

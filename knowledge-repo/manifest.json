@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "generated": "2026-05-19T22:15:03.768Z",
+  "structure": "knowledge-repo",
+  "totalBooks": 0,
+  "totalChapters": 0,
+  "domains": [],
+  "playbooks": [],
+  "layers": {
+    "sources": "Original content (PDFs, web, native markdown)",
+    "processed": "Summaries, extractions, chunks, and index",
+    "taxonomy": "Domains, concepts, patterns, and glossary",
+    "playbooks": "Actionable knowledge by domain",
+    "metadata": "Sources CSV, tags, relations, changelog"
+  }
+}

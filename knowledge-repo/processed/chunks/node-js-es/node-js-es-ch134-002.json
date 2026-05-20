@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch134-002",
+  "bookId": "node-js-es",
+  "chapterIndex": 134,
+  "chunkIndex": 2,
+  "title": "Capítulo 90:: Node.JS y MongoDB.",
+  "start": 900,
+  "end": 1039,
+  "words": 139,
+  "content": ": \"Norway\" } { \"_id\" : 3, \"country\" : \"Spain\" } La siguiente operación reemplaza el documento { country: \"Spain\" } con el documento { country: \"Finland\" } db.countries.replaceOne( { country: \"Spain\" }, { country: \"Finland\" } ) Y devuelve: { \"acknowledged\" : true, \"matchedCount\" : 1, \"modifiedCount\" : 1 } El ejemplo de países de colección ahora contiene: { \"_id\" : 1, \"country\" : \"Sweden\" } { \"_id\" : 2, \"country\" : \"Norway\" } { \"_id\" : 3, \"country\" : \"Finland\" } Borrando La eliminación de documentos de una colección en mangosta se realiza de la siguiente manera. https://riptutorial.com/es/home 290 -- 318 of 423 -- Auto.remove({_id:123}, function(err, result){ if (err) return console.error(err); console.log(result); // this will specify the mongo default delete result. }); Lea Node.JS y MongoDB. en línea: https://riptutorial.com/es/node-js/topic/7505/node-js-y- mongodb- https://riptutorial.com/es/home 291 -- 319 of 423 --"
+}

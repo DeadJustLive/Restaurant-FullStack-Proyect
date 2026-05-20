@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch114-005",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 114,
+  "chunkIndex": 5,
+  "title": "OBSERVACIONES:",
+  "start": 2250,
+  "end": 2324,
+  "words": 74,
+  "content": "de la que no se sabe a priori cu ´antas veces debe repetirse (o sea, no se puede generar una secuencia sobre la cual realizar la iteraci ´on). El ejemplo m ´as sencillo de uso de repetici ´on condicional es llevar el cabezal hasta un borde del tablero, como se propuso pensar en la actividad del inicio de esta secci ´on. El siguiente c ´odigo lleva el cabezal hasta el borde superior: procedure CabezalAlTopeDeLaColumna()"
+}

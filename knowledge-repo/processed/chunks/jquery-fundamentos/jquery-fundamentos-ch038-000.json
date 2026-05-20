@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch038-000",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 38,
+  "chunkIndex": 0,
+  "title": "2. Vincular el evento change en el elemento select; cuando se realiza un cambio en la selección,",
+  "start": 0,
+  "end": 24,
+  "words": 24,
+  "content": "# 2. Vincular el evento change en el elemento select; cuando se realiza un cambio en la selección, enviar una petición Ajax a /ejercicios/data/specials.json."
+}

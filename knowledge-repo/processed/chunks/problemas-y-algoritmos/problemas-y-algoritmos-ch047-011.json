@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch047-011",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 47,
+  "chunkIndex": 11,
+  "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+  "start": 4950,
+  "end": 5450,
+  "words": 500,
+  "content": "entonces fácilmente podríamos calcular A[i][k][h] de la siguiente manera: 1 i f ( i==1 && k==1 && h==1){ 2 A[ i ] [ k ] [ h]=W[ i ] [ k ] [ h ] ; 3 } e l s e i f ( i==0 | | k==0 | | h==0){ 4 A[ i ] [ k ] [ h]=−INF ; -- 282 of 315 -- 20.7. ROBOT RECOLECTOR 283 5 } e l s e { 6 A[ i ] [ k ] [ h]=max(A[ i ] [ k ] [ h −1] , A[ i ] [ k − 1 ] [ h ] , A[ i − 1 ] [ k ] [ h ] )+W[ i ] [ k ] [ h ] ; 7 } Ahora, en el único lugar donde se menciona algo de la forma A[i][k][g(h)] en el código anterior se menciona de la siguiente manera A[i][k][h−1] entonces A[i][k] se puede calcular de abajo hacia arriba así: 1 for ( h=0;h<=N; h++){ 2 i f ( i==1 && k==1 && h==1){ 3 A[ i ] [ k ] [ h]=W[ i ] [ k ] [ h ] ; 4 } e l s e i f ( i==0 | | k==0 | | h==0){ 5 A[ i ] [ k ] [ h]=−INF ; 6 } e l s e { 7 A[ i ] [ k ] [ h]=max(A[ i ] [ k ] [ h −1] , A[ i ] [ k − 1 ] [ h ] , A[ i − 1 ] [ k ] [ h ] )+W[ i ] [ k ] [ h ] ; 8 } 9 } Como este código calcula A[i][k] y la única parte donde menciona algo de la forma A[i][g(k)] es de la siguiente manera A[i][k][h − 1] ó A[i][k − 1][h] entonces A[i] se puede calcular de abajo hacia arriba así: 1 for ( k=0;k<=N; k++){ 2 for ( h=0;h<=N; h++){ 3 i f ( i==1 && k==1 && h==1){ 4 A[ i ] [ k ] [ h]=W[ i ] [ k ] [ h ] ; 5 } e l s e i f ( i==0 | | k==0 | | h==0){ 6 A[ i ] [ k ] [ h]=−INF ; 7 } e l s e { 8 A[ i ] [ k ] [ h]=max(A[ i ] [ k ] [ h −1] , A[ i ] [ k − 1 ] [ h ] , A[ i − 1 ] [ k ] [ h ] )+W[ i ] [ k ] [ h ] ; 9 } 10 } 11 } Nuevamente expresiones de la forma A[g(i)] sólo se mencionan en el código como A[i] y A[i − 1] entonces A se puede calcular de abajo hacia arriba de esta forma: 1 for ( i =0; i<=N; i ++){ 2 for ( k=0;k<=N; k++){ 3 for ( h=0;h<=N; h++){ -- 283"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch071-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 71,
+  "chunkIndex": 0,
+  "title": "Rutas para referirse a un elemento en el árbol de módulos",
+  "start": 0,
+  "end": 54,
+  "words": 54,
+  "content": "# Rutas para referirse a un elemento en el árbol de módulos ## Rutas para referirse a un elemento en el árbol de módulos ### Exponiendo rutas con la palabra clavepub #### Buenas prácticas para paquetes con un binario y una biblioteca ### Comenzando rutas relativas consuper ### Haciendo públicos los structs y enums"
+}

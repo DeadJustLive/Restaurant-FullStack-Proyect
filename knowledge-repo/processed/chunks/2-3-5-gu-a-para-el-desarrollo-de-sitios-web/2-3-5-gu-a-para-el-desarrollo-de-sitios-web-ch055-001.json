@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch055-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 55,
+  "chunkIndex": 1,
+  "title": "3. El grado en el que un sistema o ambiente apoya la navegación y recuperación",
+  "start": 450,
+  "end": 772,
+  "words": 322,
+  "content": "en la tecnología Javascript, por lo que es necesario interpretar dicho código para navegarla; como los robots de búsqueda no lo hacen, aparece como que no existen más y el contenido que exista no se incluye. La página necesita un plug-in de la tecnología Flash para visualizar su conte- nido; esto ocurre habitualmente en sitios que tienen una introducción animada que puede ser vista por humanos, pero que no ofrece puntos de entrada para el robot de búsqueda; por lo tanto, para éste el sitio sólo tiene una página. Lo anterior también es válido para aquellas páginas que emplean tecnología basada en Applets Java para la navegación, los cuales también impiden el acceso a los programas automáticos. En los tres casos señalados se da el fenómeno que los robots de búsqueda no logran entender la sintaxis ofrecida en el código, ya que normalmente en los tres casos señalados de haber enlaces hacia el resto del sitio, estos se ofrecen desde el interior de programas que deben ser interpretados y no mediante enlaces basados en HTML. Debido a esto, en dichos casos los robots no logran encontrar la forma de tener acce- so al interior del sitio web y sólo guardan la información de la portada del sitio web. Cabe indicar que, tal como se explica más adelante en este capítulo, en los tres casos señalados existen formas de ofrecer acceso alternativo a los robots de búsqueda, faci- litando el acceso de estos al sitio pese al uso de dichas tecnologías en la portada. > Posicionamiento del Sitio Web Una tarea permanente del administrador del sitio web será la de determinar la posición relativa del sitio web en los sistemas de búsqueda, respecto de las pala- Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile 5.- Ver el estudio en http://www.ciw.cl/material/web_chilena_2006/index.html Más información sobre Ricardo Baeza-Yates se puede encontrar en el sitio http://www.dcc.uchile.cl/~r baeza/spanish.html. -- 80 of 122 --"
+}

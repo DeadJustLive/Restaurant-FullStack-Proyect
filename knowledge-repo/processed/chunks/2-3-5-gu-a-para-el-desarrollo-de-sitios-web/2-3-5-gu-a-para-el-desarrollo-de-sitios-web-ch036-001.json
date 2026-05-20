@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch036-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 36,
+  "chunkIndex": 1,
+  "title": "Capítulo 3: - Diseño de Interfaces e Interacción",
+  "start": 450,
+  "end": 548,
+  "words": 98,
+  "content": "evitar el uso de nombres complejos y preferir pala- bras de fácil y rápida comprensión. Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile 10.- Más información de este tema en la sección “Encabezado de Página” del Capítulo 2 de esta versión de la Guía Web. 11.- Ver subtítulo “Elementos de la interfaz”, antes en este mismo capítulo. El contenido de la etiqueta <title> es de gran importancia: su contenido es usado por los buscadores para crear un enlace en sus páginas de resultados, que lleve hacia nuestro sitio. -- 60 of 122 --"
+}

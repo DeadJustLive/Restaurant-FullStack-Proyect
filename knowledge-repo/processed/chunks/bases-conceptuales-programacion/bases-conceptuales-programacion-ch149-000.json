@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch149-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 149,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 15,
+  "words": 15,
+  "content": "# PRECONDICI´ON: * falla siempre, pues cant no es una variable definida, ni un par´ametro"
+}

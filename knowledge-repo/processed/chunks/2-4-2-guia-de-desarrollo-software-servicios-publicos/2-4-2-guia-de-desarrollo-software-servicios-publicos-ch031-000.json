@@ -1,0 +1,11 @@
+{
+  "id": "2-4-2-guia-de-desarrollo-software-servicios-publicos-ch031-000",
+  "bookId": "2-4-2-guia-de-desarrollo-software-servicios-publicos",
+  "chapterIndex": 31,
+  "chunkIndex": 0,
+  "title": "VI. Uso de tecnologías",
+  "start": 0,
+  "end": 35,
+  "words": 35,
+  "content": "# VI. Uso de tecnologías Para facilitar la ejecución y registro de pruebas se recomienda el uso de herramientas de integración/despliegue continuo (CI/CD) y de herramientas de revisión del código integradas a este pipeline CI/CD."
+}

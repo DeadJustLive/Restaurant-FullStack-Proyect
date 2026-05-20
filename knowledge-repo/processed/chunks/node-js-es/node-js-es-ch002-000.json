@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch002-000",
+  "bookId": "node-js-es",
+  "chapterIndex": 2,
+  "chunkIndex": 0,
+  "title": "Capítulo 2:: Ambiente 23",
+  "start": 0,
+  "end": 53,
+  "words": 53,
+  "content": "# Capítulo 2:: Ambiente 23 Examples 23 Accediendo a las variables del entorno. 23 -- 2 of 423 -- Argumentos de la línea de comandos de process.argv 23 Uso de diferentes propiedades / configuración para diferentes entornos como dev, qa, puest 24 Cargando las propiedades del entorno desde un \"archivo de propiedades\" 25"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2-3-6-guia-desarrollo-software-v2-0-ch034-000",
+  "bookId": "2-3-6-guia-desarrollo-software-v2-0",
+  "chapterIndex": 34,
+  "chunkIndex": 0,
+  "title": "3. Tareas fuera de línea o",
+  "start": 0,
+  "end": 84,
+  "words": 84,
+  "content": "# 3. Tareas fuera de línea o programadas Para las tareas asíncronas o que tengan la característica de una tarea programada diaria o de tiempo definido, éstas deben usar tecnologías de encolamiento, como las que se mencionan en Tecnologías de División de Gobierno Digital | Lineamientos para desarrollo de software 19 -- 19 of 33 -- Preferencia. El consumo de las colas debe ser con procesos que no tengan relación con el sitio y debe ser posible desarrollarlos e implementarlos como un servicio separado."
+}

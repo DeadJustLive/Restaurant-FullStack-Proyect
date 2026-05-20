@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch188-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 188,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 20,
+  "words": 20,
+  "content": "# PROP´OSITO: devuelve un n´umero codificado en la zona de n´umeros actual, si tal n´umero existe, o cero si no"
+}

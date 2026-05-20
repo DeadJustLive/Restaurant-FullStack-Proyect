@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch483-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 483,
+  "chunkIndex": 0,
+  "title": "3. Dibujar",
+  "start": 0,
+  "end": 40,
+  "words": 40,
+  "content": "# OBSERVACIONES: * la celda actual queda en el mismo lugar que empez´o */ { TransformarCeldaEnPiso(marca) TransformarCeldaEnPisoAl(dirA, marca) TransformarCeldaEnPisoAl(dirB, marca) TransformarCeldaEnPisoAl(dirC, marca) } //----------------------------------------------------- procedure TransformarCeldaEnPiso(marca) /* PROP´OSITO: transforma en piso la celda actual y agrega la marca si corresponde"
+}

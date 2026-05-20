@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch060-001",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 60,
+  "chunkIndex": 1,
+  "title": "tema c: omo Node. Es uno de los pocos lenguajes de programación que no tiene",
+  "start": 450,
+  "end": 666,
+  "words": 216,
+  "content": "Node agrega pocos enlaces adicionales en el ámbito global. Si deseas acceder a funcionali- dades integradas, debes solicitarlas al sistema de módulos. Node comenzó utilizando el sistema de módulos CommonJS, basado en la función require, que vimos en el Capítulo 10. Aún utilizará este sistema de forma predeterminada cuando cargues un archivo .js. Pero también soporta el sistema de módulos ES más moderno. Cuando el nombre de un script termina en .mjs, se considera que es un módulo de este tipo, y puedes usar import y export en él (pero no require). Utilizaremos módulos ES en este capítulo. Cuando se importa un módulo, ya sea con require o import, Node debe resolver la cadena proporcionada a un archivo real que pueda cargar. Los nombres que comienzan con /, ./ o ../ se resuelven como archivos, relativos a la ruta del módulo actual. Aquí, . representa el directorio actual, ../ para un directorio arriba, y / para la raíz del sistema de archivos. Por lo tanto, si solicitas \"./graph.mjs\" desde el archivo /tmp/robot/robot.mjs, Node intentará cargar el archivo /tmp/robot/graph.mjs. Cuando se importa una cadena que no parece una ruta relativa o absoluta, se asume que se refiere a un módulo integrado o un módulo instalado en un directorio node_modules. Por ejemplo, importar desde \"node:fs\" te dará el"
+}

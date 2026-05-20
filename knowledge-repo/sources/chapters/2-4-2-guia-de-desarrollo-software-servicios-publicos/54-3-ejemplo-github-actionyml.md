@@ -1,0 +1,72 @@
+# 3. Ejemplo Github-action.yml
+
+El mismo concepto que el gitlab-ci.yml,
+pero para Github actions
+División de Gobierno Digital | Lineamientos para desarrollo de software 	30
+
+-- 30 of 33 --
+
+Ejemplo Dockerfile aplicación PHP
+División de Gobierno Digital | Lineamientos para desarrollo de software 	31
+
+-- 31 of 33 --
+
+Ejemplo gitlab-ci.yml utilizando el registry de gitlab y con stage de
+code_quality
+xxxxxxxxxx
+image: docker:stable
+stages:
+- build
+- code_quality
+build:
+stage: build
+variables:
+DOCKER_DRIVER: overlay2
+services:
+- docker:stable-dind
+script:
+- docker login git.gob.cl:4567 -u gitlab-ci-token -p $CI_BUILD_TOKEN
+- docker build -t git.gob.cl:4567/chileatiende/chileatiende:$CI_COMMIT_REF_NAME .
+- docker push git.gob.cl:4567/chileatiende/chileatiende:$CI_COMMIT_REF_NAME
+only:
+- master
+- staging
+code_quality:
+stage: code_quality
+variables:
+DOCKER_DRIVER: overlay2
+allow_failure: true
+services:
+- docker:stable-dind
+script:
+- export 	SP_VERSION=$(echo 	"$CI_SERVER_VERSION" 	| 	sed
+'s/^\([0-9]*\)\.\([0-9]*\).*/\1-\2- stable/')
+- docker run
+--env SOURCE_CODE="$PWD"
+--volume "$PWD":/code
+--volume /var/run/docker.sock:/var/run/docker.sock
+"registry.gitlab.com/gitlab-org/security-products/codequality:$SP_VERSION" /code
+artifacts:
+paths: [gl-code-quality-report.json]
+build site:
+stage: build
+image: node:10-stretch
+script:
+- apt-get update
+- apt-get -y install libpng16-16 libpng-tools libpng-dev
+- npm i npm@latest -g
+- npm install
+- npm audit fix --force
+- npm run prod
+artifacts:
+expire_in: 30 days
+paths:
+- public/*
+División de Gobierno Digital | Lineamientos para desarrollo de software 	32
+
+-- 32 of 33 --
+
+Ejemplo github-actions.yml de deploy en un cluster AWS EKS utilizando el
+registry de AWS (ECR)
+- name: app_name
+- env:

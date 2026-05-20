@@ -1,0 +1,11 @@
+{
+  "id": "restaurant-session-001",
+  "phase": "idle",
+  "tools_called": [],
+  "skipped_prerequisites": [],
+  "friction_events": [],
+  "active_domain": ["programming"],
+  "plan_file": null,
+  "validated_at": null,
+  "strict_mode": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch047-002",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 47,
+  "chunkIndex": 2,
+  "title": "Capítulo 26:: Manejo de errores",
+  "start": 900,
+  "end": 1011,
+  "words": 111,
+  "content": "-> &str { match self { &DateError::InvalidDay(_) => \"Day is outside range!\", &DateError::InvalidMonth(_) => \"Month is outside range!\", } } // cause method returns None by default } Nota: En general, la Option<T> no debe utilizarse para informar errores. Option<T> indica una posibilidad esperada de no existencia de un valor y una sola razón directa para ello. En contraste, el Result<T, E> se usa para informar errores inesperados durante la ejecución, y especialmente cuando hay múltiples modos de falla para distinguirlos. Además, el Result<T, E> solo se utiliza como valores de retorno. ( Una vieja discusión. ) Lea Manejo de errores en línea: https://riptutorial.com/es/rust/topic/1762/manejo-de-errores https://riptutorial.com/es/home 86 -- 100 of 188 --"
+}

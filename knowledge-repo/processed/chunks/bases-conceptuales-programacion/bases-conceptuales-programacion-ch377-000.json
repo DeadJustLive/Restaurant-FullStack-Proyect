@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch377-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 377,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 19,
+  "words": 19,
+  "content": "# PRECONDICIONES: * default <hay un tablero de Zilfost codificado> * dig es un d´ıgito (entre 0 y 9)"
+}

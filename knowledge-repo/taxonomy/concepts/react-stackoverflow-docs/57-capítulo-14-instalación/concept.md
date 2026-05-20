@@ -1,0 +1,24 @@
+# Capítulo 14:: Instalación
+
+## Fuente
+react-stackoverflow-docs (Cap. 57)
+
+## Contenido
+# Capítulo 14:: Instalación
+
+Examples
+Configuración simple
+Configurando las carpetas
+Este ejemplo asume que el código está en src/ y que la salida se pondrá en out/ . Como tal, la
+estructura de la carpeta debería verse como
+example/
+|-- src/
+| |-- index.js
+| `-- ...
+|-- out/
+`-- package.json
+Configurando los paquetes
+Asumiendo un entorno de configuración de npm, primero debemos configurar babel para
+transpilar el código React a un código compatible con es5.
+$npm install --save-dev babel-core babel-loader babel-preset-es2015 babel-preset-react
+El comando anterior indicará a npm que instale las bibliotecas centrales de babel, así como el

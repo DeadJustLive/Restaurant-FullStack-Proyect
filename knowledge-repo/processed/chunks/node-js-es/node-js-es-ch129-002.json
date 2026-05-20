@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch129-002",
+  "bookId": "node-js-es",
+  "chapterIndex": 129,
+  "chunkIndex": 2,
+  "title": "Capítulo 85:: Node.JS con ES6",
+  "start": 900,
+  "end": 1032,
+  "words": 132,
+  "content": "we call the 'print' method from the class template itself (a recursion in this particular case) }, Math.random() * 1000); } Debido a que la impresión está definida en el ámbito de la clase, en realidad es un método, que puede invocarse desde el objeto de la clase o desde la misma clase. Entonces ... hasta ahora definimos nuestra clase ... el tiempo para usarlo: new Program().print(); Lo que es realmente igual a: var prog = new Program(); // define a new object of type 'Program' prog.print(); // use the program to print itself En conclusión: JS es6 puede simplificar su código, hacerlo más intuitivo y fácil de entender (en comparación con la versión anterior de JS). Puede intentar volver a escribir un código existente y ver la diferencia por sí mismo."
+}

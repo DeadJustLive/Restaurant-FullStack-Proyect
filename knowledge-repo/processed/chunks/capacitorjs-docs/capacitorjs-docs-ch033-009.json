@@ -1,0 +1,11 @@
+{
+  "id": "capacitorjs-docs-ch033-009",
+  "bookId": "capacitorjs-docs",
+  "chapterIndex": 33,
+  "chunkIndex": 9,
+  "title": "Splash screens and icons",
+  "start": 4050,
+  "end": 4234,
+  "words": 184,
+  "content": "- Deep Links - Deploying and Updating - Environment Specific Configurations - Games - In App Purchases - Live Reload - Mocking Plugins - Push Notifications - Firebase - React Hooks - Screen Orientation - Security - Splash Screens and Icons - Storage - Community Guides - Getting Started - Configuring iOS - Custom Native iOS Code - Privacy Manifest - Deploying to App Store - Custom ViewController - Troubleshooting - Swift Package Manager - Getting Started - Configuration - Custom Native Code - Setting Target SDK - Deploying to Google Play - Troubleshooting - Getting Started - Building Progressive Web Apps - PWA Elements - Config - Capacitor iOS API - Capacitor Android API - Capacitor Web API - Capacitor Data Types - Persisting Plugin Calls - Plugin APIs - Support Policy - CLI - Community Hub - Forum - Blog - Twitter - Help Center - Customer Support - Enterprise Advisory - English - 日本語 - CAPACITOR_ANDROID_STUDIO_PATH: The path to Android Studio executable on your system. - CAPACITOR_COCOAPODS_PATH: The path to thepodbinary on your system. - Example - Schema - Environment Variables"
+}

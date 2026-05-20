@@ -1,0 +1,11 @@
+{
+  "id": "flow-api-docs-ch006-001",
+  "bookId": "flow-api-docs",
+  "chapterIndex": 6,
+  "chunkIndex": 1,
+  "title": "Flow Plans.postman collection.json",
+  "start": 450,
+  "end": 633,
+  "words": 183,
+  "content": "\"var hash = CryptoJS.HmacSHA256(toSign, pm.variables.get(\\\"secretKey\\\"));\", \"pm.environment.set(\\\"Signature\\\", hash.toString());\", \"\", \"\", \"function getToSign() {\", \" var textToSign = \\\"\\\";\", \" var data;\", \" var params = new Map()\", \" if(request.method === \\\"POST\\\") {\", \" data = request.data;\", \" } else if(request.method === \\\"GET\\\") {\", \" data = getUrlVars(request.url);\", \" }\", \" for(var name in data) {\", \" if(name === \\\"s\\\" ) {\", \" continue;\", \" }\", \" var value = data[name];\", \" if (value.startsWith('{{')) {\", \" value = pm.variables.get(clearEnvironment(value)); \", \" }\", \" params.set(name, value);\", \" }\", \" var sortedKeys = Array.from(params.keys()).sort();\", \" for (var param of sortedKeys) {\", \" console.log(param);\", \" textToSign += param + params.get(param);\", \" }\", \" return textToSign;\", \"}\", \"\", \"function getUrlVars(url) {\", \" var vars = {};\", \" var parts = url.replace(/[?&]+([^=&]+)=([^&]*)/gi, \", \" function(m,key,value) {\", \" vars[key] = value;\", \" });\", \" return vars;\", \" }\", \"\", \"function clearEnvironment(key) {\", \" return key.replace('{{','').replace('}}','')\", \"}\" ] } }, { \"listen\": \"test\", \"script\": { \"id\": \"50dd57d2-d14b-41f8-ade0-5551a8281652\", \"type\": \"text/javascript\", \"exec\": [ \"//Check response code\", \"pm.test(\\\"Status code is 200\\\", function () {\", \" pm.response.to.have.status(200);\", \"});\" ] } } ], \"protocolProfileBehavior\": {} } ```"
+}

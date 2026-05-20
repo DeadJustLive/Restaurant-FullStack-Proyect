@@ -1,0 +1,68 @@
+# PRECONDICIONES:
+
+* hay 2 celdas al Norte y 2 celdas al Este de la actual
+*/
+{
+Poner(Rojo); Mover(Norte); Poner(Rojo); Mover(Norte)
+Poner(Rojo); Mover(Este); Poner(Rojo); Mover(Este)
+Poner(Rojo); Mover(Sur); Poner(Rojo); Mover(Sur)
+Poner(Rojo); Mover(Oeste); Poner(Rojo); Mover(Oeste)
+}
+Observar la repetici ´on de c ´odigo, puesto que tenemos dos procedimientos casi
+id ´enticos, que difieren ´unicamente en el color de cada uno de los Poner utilizados.
+En el gr ´afico G.3.2 podemos ver resaltadas esas diferencias.
+Pero tener varios procedimientos ´unicamente porque un valor determinado es
+diferente es inc ´omodo y poco eficiente. Si quisi ´eramos cuadrados de los 4 colores
+habr´ıa que tener 4 procedimientos. Y si hubiese que modificarlos para cambiar el
+tama ˜no del cuadrado, por ejemplo, habr´ıa que hacer las modificaciones en cada
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 90 of 312 --
+
+91
+G.3.2. Diferencias en los procedimientos simples que dibujan un cuadrado negro
+y otro rojo.
+uno de ellos.
+Actividad de Programaci ´on 1
+Escriba los dos procedimientos simples faltantes para poder dibujar cua-
+drados de los 4 colores. El objetivo de esta actividad es mostrar lo tedio-
+so que resulta duplicar c ´odigo solo por el cambio de un valor (en este
+caso, el color).
+Sin embargo, los procedimientos, al diferir ´unicamente en el color, tienen todos
+algo en com ´un. Si tomamos uno de ellos y recortamos el color, quedar´ıa un
+procedimiento con un “agujero”, como si fuera un rompecabezas al que le falta
+A este “procedimiento con agu-
+jero” se lo suele denominar es-
+quema o template, y requiere
+que el agujero sea rellenado an-
+tes de poder funcionar.
+una pieza. El resultado de tal t ´ecnica se muestra en el gr ´afico G.3.3.
+¡Si ahora repetimos este procedimiento con los otros procedimientos, pode-
+mos observar que el esquema es exactamente el mismo! Esta observaci ´on nos
+permite pensar en un mecanismo donde defini ´esemos el esquema, y cada vez
+que precis ´asemos dibujar un cuadrado de cierto color, usar´ıamos el esquema,
+rellenando el “agujero” con el color que dese ´aramos. Seg ´un el valor que eligi ´ese-
+mos para rellenar el agujero, podr´ıamos tener diferentes procedimientos. Este
+proceso se ilustra en el gr ´afico G.3.4.
+Sin embargo, el agujero no puede expresarse gr ´aficamente en un lenguaje de
+programaci ´on. Para poder expresarlo debemos utilizar texto. Entonces, la idea es
+ponerle un nombre al “agujero” y entender que cada vez que querramos mencio-
+nar al agujero, usaremos ese nombre. Ese mecanismo se conoce con el nombre
+de par ´ametro.
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 91 of 312 --
+
+92
+G.3.3. Procedimiento para dibujar un cuadrado, con un “agujero” para el color
+Leer con Atenci ´on
+Un par ´ametro es un nombre que usamos para escribir un “agujero” den-
+tro de un (esquema de) procedimiento. Este “agujero” debe ser rellenado
+adecuadamente con un valor antes de poder utilizar dicho procedimien-
+to.
+En nuestro caso, un nombre adecuado para el agujero (el par ´ametro) ser´ıa, por
+ejemplo, colorDelCuadrado. As´ı, en lugar de escribir un agujero gr ´aficamente,
+usaremos ese nombre para indicar que ah´ı hay un agujero. Ese nombre apare-
+cer ´a en el encabezado del procedimiento, como se ve en el siguiente c ´odigo:
+procedure DibujarCuadradoDeLado3DeColor(colorDelCuadrado)
+/*

@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch227-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 227,
+  "chunkIndex": 1,
+  "title": "1. Datos puntero y datos dinámicos",
+  "start": 450,
+  "end": 673,
+  "words": 223,
+  "content": "del tipo. Por ejemplo, Gen(natural) = {0,suc} es un conjunto libre de generadoras del tipo natural porque cada término de TGen(natural) (es decir: 0, suc(0), suc(suc(0)), …) denota un natural diferente. Lo mismo sucede con Gen(bolsa) = {[],_⊕_} con respecto al tipo bolsa (por ejemplo, la sucesión [3,4,5] sólo puede generarse como 3⊕(4⊕(5⊕[]))). En cambio, Gen(bolsa) = {[],[_],_∪_} es no libre puesto que, por ejemplo, la sucesión [3,4,5] puede generarse como ([3]∪[4])∪[5] ó como [3]∪([4]∪[5]). Cuando el conjunto de operaciones generadoras es libre puede establecerse una biyección entre el conjunto TGen(g) y el soporte TESPECg. Para cada clase [t] de TESPECg, es decir, para cada valor del tipo de interés, existe un único término t c ∈ [t] ∩ TGen(g), que se denomina término canónico de la clase. Es decir, para cada valor del tipo existe un único término formado sólo por operaciones generadoras. Cuando el conjunto de generadoras no es libre el especificador debe elegir un término (el que, a su juicio, sea más sencillo) como representante canónico de cada clase. La elección que se haga de la clase Gen(g) así como la elección de los términos canónicos en el caso en que Gen(g) sea no libre, influyen en la escritura de las ecuaciones de la especificación. -- 240 of 267 -- 227 Una metodología adecuada para escribir ecuaciones es la siguiente:"
+}

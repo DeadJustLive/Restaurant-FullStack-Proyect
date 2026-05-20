@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch003-000",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 3,
+  "chunkIndex": 0,
+  "title": "2. Si la función a invocar es creada utilizando Function.bind, this será el primer argumento que",
+  "start": 0,
+  "end": 30,
+  "words": 30,
+  "content": "# 2. Si la función a invocar es creada utilizando Function.bind, this será el primer argumento que es pasado a la función en el momento en que se la crea;"
+}

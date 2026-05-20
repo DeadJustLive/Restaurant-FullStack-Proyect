@@ -1,0 +1,18 @@
+{
+  "id": "fundamentos-programacion",
+  "title": "fundamentos-programacion",
+  "author": "",
+  "pages": 568,
+  "sourceFile": "source-pdfs/fundamentos-programacion.pdf",
+  "processedAt": "2026-05-17T05:38:50.491Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Contenido completo",
+      "file": "chapters/fundamentos-programacion/01-contenido-completo.md",
+      "words": 2843
+    }
+  ],
+  "learningIntegrated": true
+}

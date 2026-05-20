@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {
+      "id": "ch-fundamentos-programacion-01",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.580Z"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pdf-fundamentos-programacion",
+      "to": "ch-fundamentos-programacion-01",
+      "label": "cap. 1"
+    }
+  ]
+}

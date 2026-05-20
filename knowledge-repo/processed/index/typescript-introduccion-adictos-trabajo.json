@@ -1,0 +1,54 @@
+{
+  "id": "typescript-introduccion-adictos-trabajo",
+  "title": "typescript-introduccion-adictos-trabajo",
+  "author": "",
+  "pages": 9,
+  "sourceFile": "source-pdfs/typescript-introduccion-adictos-trabajo.pdf",
+  "processedAt": "2026-05-17T05:38:50.264Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "0. Índice de contenidos.",
+      "file": "chapters/typescript-introduccion-adictos-trabajo/01-0-índice-de-contenidos.md",
+      "words": 29
+    },
+    {
+      "index": 2,
+      "title": "1. Introducción",
+      "file": "chapters/typescript-introduccion-adictos-trabajo/02-1-introducción.md",
+      "words": 209
+    },
+    {
+      "index": 3,
+      "title": "2. Sintaxis",
+      "file": "chapters/typescript-introduccion-adictos-trabajo/03-2-sintaxis.md",
+      "words": 487
+    },
+    {
+      "index": 4,
+      "title": "3. Comunicación con código Javascript ya existente",
+      "file": "chapters/typescript-introduccion-adictos-trabajo/04-3-comunicación-con-código-javascript-ya-existente.md",
+      "words": 205
+    },
+    {
+      "index": 5,
+      "title": "4. Compilador Typescript, Grunt y Gulp.",
+      "file": "chapters/typescript-introduccion-adictos-trabajo/05-4-compilador-typescript-grunt-y-gulp.md",
+      "words": 365
+    },
+    {
+      "index": 6,
+      "title": "5. Revisando el código generado",
+      "file": "chapters/typescript-introduccion-adictos-trabajo/06-5-revisando-el-código-generado.md",
+      "words": 160
+    },
+    {
+      "index": 7,
+      "title": "6. Conclusiones",
+      "file": "chapters/typescript-introduccion-adictos-trabajo/07-6-conclusiones.md",
+      "words": 109
+    }
+  ],
+  "learningIntegrated": true
+}

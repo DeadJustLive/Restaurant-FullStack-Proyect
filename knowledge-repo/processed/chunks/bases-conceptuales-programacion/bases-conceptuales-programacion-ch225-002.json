@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch225-002",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 225,
+  "chunkIndex": 2,
+  "title": "K BACKSPACE; y",
+  "start": 900,
+  "end": 1056,
+  "words": 156,
+  "content": "´omputo espec´ıfico). Tambi ´en se debe reflexionar sobre el impacto que conocer y enten- der este hecho tiene sobre la calidad del c ´odigo producido. La ´ultima de las funciones importantes de esta secci ´on es la que permite determinar si la celda actual indica una posici ´on donde pueda colocarse una determinada pieza. Para definirla se usan varias funciones auxiliares que describiremos. Esta funci ´on, que denomi- namos hayLugarParaPiezaTipo, toma como par ´ametros el tipo y la rotaci ´on de una pieza, y retorna un booleano que es verdadero cuando hay lugar para la pieza (hay celdas libres en los lugares necesarios). Para esto utiliza las funciones que obtienen las direcciones de una pieza, y dos funciones auxiliares para procesar las celdas de clase A y B. function hayLugarParaPiezaTipo(tipoPieza, rotPieza) /* PROP´OSITO: informar si hay lugar en el tablero para colocar una pieza de tipo tipoPieza y rotaci´on rotPieza con pivote en la celda actual"
+}

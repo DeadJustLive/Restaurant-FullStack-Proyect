@@ -1,0 +1,170 @@
+{
+  "bookId": "javascript-asincronismo",
+  "totalChunks": 23,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.174Z",
+  "chunks": [
+    {
+      "id": "javascript-asincronismo-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "1. Se apila console.log(\"Op. sync #1\")",
+      "words": 7
+    },
+    {
+      "id": "javascript-asincronismo-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "2. Se imprime \"Op. sync #1\"",
+      "words": 7
+    },
+    {
+      "id": "javascript-asincronismo-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "3. Se desapila console.log(\"Op. sync #1\")",
+      "words": 7
+    },
+    {
+      "id": "javascript-asincronismo-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "4. Se apila setTimeout(function callback() {...}",
+      "words": 7
+    },
+    {
+      "id": "javascript-asincronismo-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "5. Se ejecuta setTimeout. El browser delega el control de tiempo al",
+      "words": 20
+    },
+    {
+      "id": "javascript-asincronismo-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "6. Se desapila setTimeout(function callback() {...})",
+      "words": 7
+    },
+    {
+      "id": "javascript-asincronismo-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "7. Se apila console.log(\"Op. sync #3\")",
+      "words": 7
+    },
+    {
+      "id": "javascript-asincronismo-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "8. Se imprime \"Op. sync #3\"",
+      "words": 7
+    },
+    {
+      "id": "javascript-asincronismo-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "9. Se desapila console.log(\"Op. sync #3\")",
+      "words": 7
+    },
+    {
+      "id": "javascript-asincronismo-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "10. Tras dos segundos, el timer finaliza y pone el callback() en cola.",
+      "words": 14
+    },
+    {
+      "id": "javascript-asincronismo-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "11. El Event Loop toma el primer elemento de la cola y lo apila.",
+      "words": 15
+    },
+    {
+      "id": "javascript-asincronismo-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "12. Se ejecuta callback(), por ende, se apila",
+      "words": 12
+    },
+    {
+      "id": "javascript-asincronismo-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "13. Se imprime \"Op. async #2“",
+      "words": 7
+    },
+    {
+      "id": "javascript-asincronismo-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "14. Se desapila console.log(\"Op. async #2\")",
+      "words": 7
+    },
+    {
+      "id": "javascript-asincronismo-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "15. Se desapila callback()",
+      "words": 500
+    },
+    {
+      "id": "javascript-asincronismo-ch015-001",
+      "chapterIndex": 15,
+      "chunkIndex": 1,
+      "title": "15. Se desapila callback()",
+      "words": 500
+    },
+    {
+      "id": "javascript-asincronismo-ch015-002",
+      "chapterIndex": 15,
+      "chunkIndex": 2,
+      "title": "15. Se desapila callback()",
+      "words": 500
+    },
+    {
+      "id": "javascript-asincronismo-ch015-003",
+      "chapterIndex": 15,
+      "chunkIndex": 3,
+      "title": "15. Se desapila callback()",
+      "words": 500
+    },
+    {
+      "id": "javascript-asincronismo-ch015-004",
+      "chapterIndex": 15,
+      "chunkIndex": 4,
+      "title": "15. Se desapila callback()",
+      "words": 500
+    },
+    {
+      "id": "javascript-asincronismo-ch015-005",
+      "chapterIndex": 15,
+      "chunkIndex": 5,
+      "title": "15. Se desapila callback()",
+      "words": 500
+    },
+    {
+      "id": "javascript-asincronismo-ch015-006",
+      "chapterIndex": 15,
+      "chunkIndex": 6,
+      "title": "15. Se desapila callback()",
+      "words": 500
+    },
+    {
+      "id": "javascript-asincronismo-ch015-007",
+      "chapterIndex": 15,
+      "chunkIndex": 7,
+      "title": "15. Se desapila callback()",
+      "words": 445
+    },
+    {
+      "id": "javascript-asincronismo-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "FIN DE LA PRESENTACIÓN",
+      "words": 18
+    }
+  ]
+}

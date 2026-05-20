@@ -1,3 +1,7 @@
+// @use(carrito)
+// @kind(serviceImpl)
+// @contract(in: CarritoRequestDTO, CarritoItemRequestDTO -> out: CarritoResponseDTO)
+// @limit(lines: 400)
 package cl.triskeledu.carrito.service.impl;
 
 import cl.triskeledu.carrito.dto.request.CarritoItemRequestDTO;

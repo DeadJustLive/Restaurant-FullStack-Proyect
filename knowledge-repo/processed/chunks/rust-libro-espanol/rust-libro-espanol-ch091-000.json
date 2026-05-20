@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch091-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 91,
+  "chunkIndex": 0,
+  "title": "Trabajando con cualquier número de futures",
+  "start": 0,
+  "end": 28,
+  "words": 28,
+  "content": "# Trabajando con cualquier número de futures ## Trabajando con cualquier número de futures ### Carrera de futuros ### Cediendo el Control ### Construyendo Nuestras Propias Abstracciones Asíncronas"
+}

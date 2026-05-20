@@ -1,0 +1,11 @@
+{
+  "id": "2-3-6-guia-desarrollo-software-v2-0-ch029-000",
+  "bookId": "2-3-6-guia-desarrollo-software-v2-0",
+  "chapterIndex": 29,
+  "chunkIndex": 0,
+  "title": "V. Tecnologías de preferencia",
+  "start": 0,
+  "end": 49,
+  "words": 49,
+  "content": "# V. Tecnologías de preferencia Para facilitar la ejecución y registro de pruebas se recomienda el uso de herramientas de integración/despliegue continuo (CI/CD) y de herramientas de revisión del código integradas a este pipeline CI/CD. Se recomienda el uso de las siguientes tecnologías de desarrollo y arquitectura del software."
+}

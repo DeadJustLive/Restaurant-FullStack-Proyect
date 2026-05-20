@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch010-007",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 10,
+  "chunkIndex": 7,
+  "title": "9. Muestra el valor de la ubicación de memoria 0.",
+  "start": 3150,
+  "end": 3215,
+  "words": 65,
+  "content": "derecha: (1 - 2)+ 1. No te preocupes demasiado por estas reglas de precedencia. Cuando tengas dudas, simplemente agrega paréntesis. Hay un operador aritmético más, que quizás no reconozcas de inmediato. El símbolo % se utiliza para representar la operación de residuo. X % Y es el residuo de dividir X por Y. Por ejemplo, 314 % 100 produce 14, y 144 % 12 da"
+}

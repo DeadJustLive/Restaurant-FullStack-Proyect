@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch053-009",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 53,
+  "chunkIndex": 9,
+  "title": "0. De igual manera si se trabaja con divisiones, la",
+  "start": 4050,
+  "end": 4264,
+  "words": 214,
+  "content": "1 Dentro de la forma general que se explic´o para el ciclo Mientras, esta operaci´on representa la instrucci´on modificadora de condici´on; en cada iteraci´on que se haga, su contenido se incrementar´a en 1. Cuando el contenido de la variable contadorEstudiantes sea igual al de la variable cantidadEstudiantes, el ciclo terminar´a. Despu´es de la instrucci´on FinMientras (l´ınea 38) se efect´ua una divisi´on para calcular el promedio general del grupo (l´ınea 41). Esta operaci´on se debe realizar por fuera del ciclo, una vez se terminen sus iteraciones: 41 promedioGrupo = sumaDefinitivas / cantidadEstudiantes Como observaci´on adicional a la soluci´on algor´ıtmica presentada para este ejemplo, se debe tener en cuenta que la variable -- 198 of 450 -- Introducci ´on a la L ´ogica de Programaci ´on 197 cantidadEstudiantes, que act´ua como divisor en la anterior expresi´on, recibir´a su valor por parte del usuario del algoritmo; en el caso de que le asignen como valor el 0, esta operaci´on generar´a un error, puesto que la divisi´on entre 0 no est´a definida. Es responsabilidad de los dise˜nadores de algoritmos o de programas de computador evitar que se generen errores en la ejecuci´on de los mismos. Dado lo anterior, se puede mejorar el funcionamiento de este algoritmo incluyendo las siguientes l´ıneas, en reemplazo de la instrucci´on de la l´ınea"
+}

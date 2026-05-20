@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch130-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 130,
+  "chunkIndex": 1,
+  "title": "Capítulo 86:: Node.js con Oracle",
+  "start": 450,
+  "end": 512,
+  "words": 62,
+  "content": ".catch(function(err) { reject(err); }); }); } function queryObject(sql, bindParams, options) { options['outFormat'] = oracledb.OBJECT; // default is oracledb.ARRAY return queryArray(sql, bindParams, options); } module.exports = queryArray; module.exports.queryArray = queryArray; module.exports.queryObject = queryObject; Tenga en cuenta que tiene ambos métodos queryArray y queryObject para llamar a su objeto oracle. Lea Node.js con Oracle en línea: https://riptutorial.com/es/node-js/topic/8248/node-js-con-oracle https://riptutorial.com/es/home 277 -- 305 of 423 --"
+}

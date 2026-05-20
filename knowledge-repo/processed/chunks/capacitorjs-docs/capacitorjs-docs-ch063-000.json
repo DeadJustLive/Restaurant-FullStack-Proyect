@@ -1,0 +1,11 @@
+{
+  "id": "capacitorjs-docs-ch063-000",
+  "bookId": "capacitorjs-docs",
+  "chapterIndex": 63,
+  "chunkIndex": 0,
+  "title": "Cross-platform, core native plugins.",
+  "start": 0,
+  "end": 29,
+  "words": 29,
+  "content": "# Cross-platform, core native plugins. ## Cross-platform, core native plugins. #### Camera #### File System #### Geolocation #### Accelerometer #### Notifications #### Network #### Haptics #### Your Own Plugin"
+}

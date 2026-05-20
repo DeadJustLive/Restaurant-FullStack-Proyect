@@ -1,0 +1,1026 @@
+{
+  "id": "node-js-es",
+  "title": "Capítulo 1: Empezando con Node.js 2",
+  "author": "",
+  "pages": 423,
+  "sourceFile": "source-pdfs/node-js-es.pdf",
+  "processedAt": "2026-05-17T05:52:19.833Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Capítulo 1:: Empezando con Node.js 2",
+      "file": "chapters/node-js-es/01-capítulo-1-empezando-con-nodejs-2.md",
+      "words": 131
+    },
+    {
+      "index": 2,
+      "title": "Capítulo 2:: Ambiente 23",
+      "file": "chapters/node-js-es/02-capítulo-2-ambiente-23.md",
+      "words": 48
+    },
+    {
+      "index": 3,
+      "title": "Capítulo 5:: Aplicaciones Web Con Express 29",
+      "file": "chapters/node-js-es/03-capítulo-5-aplicaciones-web-con-express-29.md",
+      "words": 127
+    },
+    {
+      "index": 4,
+      "title": "Capítulo 6:: Asegurando aplicaciones Node.js 46",
+      "file": "chapters/node-js-es/04-capítulo-6-asegurando-aplicaciones-nodejs-46.md",
+      "words": 48
+    },
+    {
+      "index": 5,
+      "title": "Capítulo 7:: Async / Await 51",
+      "file": "chapters/node-js-es/05-capítulo-7-async-await-51.md",
+      "words": 33
+    },
+    {
+      "index": 6,
+      "title": "Capítulo 8:: async.js 55",
+      "file": "chapters/node-js-es/06-capítulo-8-asyncjs-55.md",
+      "words": 67
+    },
+    {
+      "index": 7,
+      "title": "Capítulo 11:: Biblioteca de mangosta 65",
+      "file": "chapters/node-js-es/07-capítulo-11-biblioteca-de-mangosta-65.md",
+      "words": 90
+    },
+    {
+      "index": 8,
+      "title": "Capítulo 14:: Carga automática en los cambios 83",
+      "file": "chapters/node-js-es/08-capítulo-14-carga-automática-en-los-cambios-83.md",
+      "words": 47
+    },
+    {
+      "index": 9,
+      "title": "Capítulo 30:: Depurando la aplicación Node.js 114",
+      "file": "chapters/node-js-es/09-capítulo-30-depurando-la-aplicación-nodejs-114.md",
+      "words": 37
+    },
+    {
+      "index": 10,
+      "title": "Capítulo 33:: Despliegue de aplicaciones Node.js en producción 123",
+      "file": "chapters/node-js-es/10-capítulo-33-despliegue-de-aplicaciones-nodejs-en-producción-123.md",
+      "words": 60
+    },
+    {
+      "index": 11,
+      "title": "Capítulo 38:: Ejecutando archivos o comandos con procesos hijo 138",
+      "file": "chapters/node-js-es/11-capítulo-38-ejecutando-archivos-o-comandos-con-procesos-hijo-138.md",
+      "words": 31
+    },
+    {
+      "index": 12,
+      "title": "Capítulo 40:: Emisores de eventos 143",
+      "file": "chapters/node-js-es/12-capítulo-40-emisores-de-eventos-143.md",
+      "words": 41
+    },
+    {
+      "index": 13,
+      "title": "Capítulo 47:: Eventloop 163",
+      "file": "chapters/node-js-es/13-capítulo-47-eventloop-163.md",
+      "words": 53
+    },
+    {
+      "index": 14,
+      "title": "Capítulo 49:: Exigir() 168",
+      "file": "chapters/node-js-es/14-capítulo-49-exigir-168.md",
+      "words": 31
+    },
+    {
+      "index": 15,
+      "title": "Capítulo 51:: Exportando y consumiendo módulos 174",
+      "file": "chapters/node-js-es/15-capítulo-51-exportando-y-consumiendo-módulos-174.md",
+      "words": 33
+    },
+    {
+      "index": 16,
+      "title": "Capítulo 53:: Gestor de paquetes de hilo 184",
+      "file": "chapters/node-js-es/16-capítulo-53-gestor-de-paquetes-de-hilo-184.md",
+      "words": 79
+    },
+    {
+      "index": 17,
+      "title": "Capítulo 57:: Historia de Nodejs 193",
+      "file": "chapters/node-js-es/17-capítulo-57-historia-de-nodejs-193.md",
+      "words": 42
+    },
+    {
+      "index": 18,
+      "title": "Capítulo 59:: Instalación de Node.js 199",
+      "file": "chapters/node-js-es/18-capítulo-59-instalación-de-nodejs-199.md",
+      "words": 120
+    },
+    {
+      "index": 19,
+      "title": "Capítulo 61:: Integración de mongodb 207",
+      "file": "chapters/node-js-es/19-capítulo-61-integración-de-mongodb-207.md",
+      "words": 69
+    },
+    {
+      "index": 20,
+      "title": "Capítulo 63:: Integración de MySQL 216",
+      "file": "chapters/node-js-es/20-capítulo-63-integración-de-mysql-216.md",
+      "words": 82
+    },
+    {
+      "index": 21,
+      "title": "Capítulo 70:: La comunicación arduino con nodeJs. 235",
+      "file": "chapters/node-js-es/21-capítulo-70-la-comunicación-arduino-con-nodejs-235.md",
+      "words": 30
+    },
+    {
+      "index": 22,
+      "title": "Capítulo 76:: Mantener una aplicación de nodo constantemente en ejecución 249",
+      "file": "chapters/node-js-es/22-capítulo-76-mantener-una-aplicación-de-nodo-constantemente-en-ejecución-249.md",
+      "words": 40
+    },
+    {
+      "index": 23,
+      "title": "Capítulo 82:: Node.js (express.js) con código de ejemplo angular.js 264",
+      "file": "chapters/node-js-es/23-capítulo-82-nodejs-expressjs-con-código-de-ejemplo-angularjs-264.md",
+      "words": 45
+    },
+    {
+      "index": 24,
+      "title": "Capítulo 88:: Node.js Performance 279",
+      "file": "chapters/node-js-es/24-capítulo-88-nodejs-performance-279.md",
+      "words": 51
+    },
+    {
+      "index": 25,
+      "title": "Capítulo 90:: Node.JS y MongoDB. 286",
+      "file": "chapters/node-js-es/25-capítulo-90-nodejs-y-mongodb-286.md",
+      "words": 34
+    },
+    {
+      "index": 26,
+      "title": "Capítulo 94:: npm 302",
+      "file": "chapters/node-js-es/26-capítulo-94-npm-302.md",
+      "words": 125
+    },
+    {
+      "index": 27,
+      "title": "Capítulo 95:: nvm - Administrador de versiones de nodo 317",
+      "file": "chapters/node-js-es/27-capítulo-95-nvm---administrador-de-versiones-de-nodo-317.md",
+      "words": 35
+    },
+    {
+      "index": 28,
+      "title": "Capítulo 97:: paquete.json 330",
+      "file": "chapters/node-js-es/28-capítulo-97-paquetejson-330.md",
+      "words": 37
+    },
+    {
+      "index": 29,
+      "title": "Capítulo 99:: Programación asíncrona 340",
+      "file": "chapters/node-js-es/29-capítulo-99-programación-asíncrona-340.md",
+      "words": 70
+    },
+    {
+      "index": 30,
+      "title": "Capítulo 105:: Sistema de archivos de E / S 358",
+      "file": "chapters/node-js-es/30-capítulo-105-sistema-de-archivos-de-e-s-358.md",
+      "words": 158
+    },
+    {
+      "index": 31,
+      "title": "Capítulo 111:: Uso de IISNode para alojar aplicaciones web Node.js en IIS 382",
+      "file": "chapters/node-js-es/31-capítulo-111-uso-de-iisnode-para-alojar-aplicaciones-web-nodejs-en-iis-382.md",
+      "words": 232
+    },
+    {
+      "index": 32,
+      "title": "Capítulo 1:: Empezando con Node.js",
+      "file": "chapters/node-js-es/32-capítulo-1-empezando-con-nodejs.md",
+      "words": 4239
+    },
+    {
+      "index": 33,
+      "title": "Capítulo 2:: Ambiente",
+      "file": "chapters/node-js-es/33-capítulo-2-ambiente.md",
+      "words": 501
+    },
+    {
+      "index": 34,
+      "title": "Database connection to mysql",
+      "file": "chapters/node-js-es/34-database-connection-to-mysql.md",
+      "words": 52
+    },
+    {
+      "index": 35,
+      "title": "Capítulo 3:: Análisis de argumentos de línea",
+      "file": "chapters/node-js-es/35-capítulo-3-análisis-de-argumentos-de-línea.md",
+      "words": 87
+    },
+    {
+      "index": 36,
+      "title": "REST",
+      "file": "chapters/node-js-es/36-rest.md",
+      "words": 106
+    },
+    {
+      "index": 37,
+      "title": "Capítulo 5:: Aplicaciones Web Con Express",
+      "file": "chapters/node-js-es/37-capítulo-5-aplicaciones-web-con-express.md",
+      "words": 3743
+    },
+    {
+      "index": 38,
+      "title": "Capítulo 6:: Asegurando aplicaciones Node.js",
+      "file": "chapters/node-js-es/38-capítulo-6-asegurando-aplicaciones-nodejs.md",
+      "words": 937
+    },
+    {
+      "index": 39,
+      "title": "Capítulo 7:: Async / Await",
+      "file": "chapters/node-js-es/39-capítulo-7-async-await.md",
+      "words": 599
+    },
+    {
+      "index": 40,
+      "title": "Capítulo 8:: async.js",
+      "file": "chapters/node-js-es/40-capítulo-8-asyncjs.md",
+      "words": 1147
+    },
+    {
+      "index": 41,
+      "title": "Capítulo 9:: Autenticación de Windows bajo",
+      "file": "chapters/node-js-es/41-capítulo-9-autenticación-de-windows-bajo.md",
+      "words": 109
+    },
+    {
+      "index": 42,
+      "title": "Capítulo 10:: Base de datos (MongoDB con",
+      "file": "chapters/node-js-es/42-capítulo-10-base-de-datos-mongodb-con.md",
+      "words": 127
+    },
+    {
+      "index": 43,
+      "title": "ECMA 6:",
+      "file": "chapters/node-js-es/43-ecma-6.md",
+      "words": 45
+    },
+    {
+      "index": 44,
+      "title": "ECMA6:",
+      "file": "chapters/node-js-es/44-ecma6.md",
+      "words": 80
+    },
+    {
+      "index": 45,
+      "title": "Capítulo 11:: Biblioteca de mangosta",
+      "file": "chapters/node-js-es/45-capítulo-11-biblioteca-de-mangosta.md",
+      "words": 1974
+    },
+    {
+      "index": 46,
+      "title": "Capítulo 12:: Bluebird Promises",
+      "file": "chapters/node-js-es/46-capítulo-12-bluebird-promises.md",
+      "words": 218
+    },
+    {
+      "index": 47,
+      "title": "Capítulo 13:: Buen estilo de codificación",
+      "file": "chapters/node-js-es/47-capítulo-13-buen-estilo-de-codificación.md",
+      "words": 652
+    },
+    {
+      "index": 48,
+      "title": "Capítulo 14:: Carga automática en los",
+      "file": "chapters/node-js-es/48-capítulo-14-carga-automática-en-los.md",
+      "words": 481
+    },
+    {
+      "index": 49,
+      "title": "Capítulo 15:: Casos de uso de Node.js",
+      "file": "chapters/node-js-es/49-capítulo-15-casos-de-uso-de-nodejs.md",
+      "words": 136
+    },
+    {
+      "index": 50,
+      "title": "BEGIN",
+      "file": "chapters/node-js-es/50-begin.md",
+      "words": 113
+    },
+    {
+      "index": 51,
+      "title": "Capítulo 16:: Cierre agraciado",
+      "file": "chapters/node-js-es/51-capítulo-16-cierre-agraciado.md",
+      "words": 84
+    },
+    {
+      "index": 52,
+      "title": "Capítulo 17:: CLI",
+      "file": "chapters/node-js-es/52-capítulo-17-cli.md",
+      "words": 724
+    },
+    {
+      "index": 53,
+      "title": "NODE_DISABLE_COLORS=1",
+      "file": "chapters/node-js-es/53-nodedisablecolors1.md",
+      "words": 97
+    },
+    {
+      "index": 54,
+      "title": "Capítulo 18:: Código Node.js para STDIN y",
+      "file": "chapters/node-js-es/54-capítulo-18-código-nodejs-para-stdin-y.md",
+      "words": 120
+    },
+    {
+      "index": 55,
+      "title": "Capítulo 19:: Comenzando con el perfilado de",
+      "file": "chapters/node-js-es/55-capítulo-19-comenzando-con-el-perfilado-de.md",
+      "words": 430
+    },
+    {
+      "index": 56,
+      "title": "Capítulo 20:: Cómo se cargan los módulos",
+      "file": "chapters/node-js-es/56-capítulo-20-cómo-se-cargan-los-módulos.md",
+      "words": 388
+    },
+    {
+      "index": 57,
+      "title": "Capítulo 21:: Comunicación cliente-servidor",
+      "file": "chapters/node-js-es/57-capítulo-21-comunicación-cliente-servidor.md",
+      "words": 296
+    },
+    {
+      "index": 58,
+      "title": "Capítulo 22:: Comunicación socket.io",
+      "file": "chapters/node-js-es/58-capítulo-22-comunicación-socketio.md",
+      "words": 111
+    },
+    {
+      "index": 59,
+      "title": "Capítulo 23:: Conectarse a Mongodb",
+      "file": "chapters/node-js-es/59-capítulo-23-conectarse-a-mongodb.md",
+      "words": 154
+    },
+    {
+      "index": 60,
+      "title": "Capítulo 24:: Conexión Mysql Pool",
+      "file": "chapters/node-js-es/60-capítulo-24-conexión-mysql-pool.md",
+      "words": 287
+    },
+    {
+      "index": 61,
+      "title": "Capítulo 25:: Cortar",
+      "file": "chapters/node-js-es/61-capítulo-25-cortar.md",
+      "words": 137
+    },
+    {
+      "index": 62,
+      "title": "Capítulo 26:: Creación de una biblioteca",
+      "file": "chapters/node-js-es/62-capítulo-26-creación-de-una-biblioteca.md",
+      "words": 94
+    },
+    {
+      "index": 63,
+      "title": "Módulo d: e ejemplo y programa correspondiente usando Bluebird",
+      "file": "chapters/node-js-es/63-módulo-d-e-ejemplo-y-programa-correspondiente-usando-bluebird.md",
+      "words": 390
+    },
+    {
+      "index": 64,
+      "title": "Capítulo 27:: Creando API's con Node.js",
+      "file": "chapters/node-js-es/64-capítulo-27-creando-apis-con-nodejs.md",
+      "words": 232
+    },
+    {
+      "index": 65,
+      "title": "Capítulo 28:: csv parser en el nodo js",
+      "file": "chapters/node-js-es/65-capítulo-28-csv-parser-en-el-nodo-js.md",
+      "words": 139
+    },
+    {
+      "index": 66,
+      "title": "Capítulo 29:: Depuración remota en Node.JS",
+      "file": "chapters/node-js-es/66-capítulo-29-depuración-remota-en-nodejs.md",
+      "words": 205
+    },
+    {
+      "index": 67,
+      "title": "Capítulo 30:: Depurando la aplicación Node.js",
+      "file": "chapters/node-js-es/67-capítulo-30-depurando-la-aplicación-nodejs.md",
+      "words": 396
+    },
+    {
+      "index": 68,
+      "title": "Capítulo 31:: Desafíos de rendimiento",
+      "file": "chapters/node-js-es/68-capítulo-31-desafíos-de-rendimiento.md",
+      "words": 523
+    },
+    {
+      "index": 69,
+      "title": "Capítulo 32:: Desinstalar Node.js",
+      "file": "chapters/node-js-es/69-capítulo-32-desinstalar-nodejs.md",
+      "words": 115
+    },
+    {
+      "index": 70,
+      "title": "Capítulo 33:: Despliegue de aplicaciones",
+      "file": "chapters/node-js-es/70-capítulo-33-despliegue-de-aplicaciones.md",
+      "words": 1231
+    },
+    {
+      "index": 71,
+      "title": "Capítulo 34:: Despliegue de la aplicación",
+      "file": "chapters/node-js-es/71-capítulo-34-despliegue-de-la-aplicación.md",
+      "words": 280
+    },
+    {
+      "index": 72,
+      "title": "Capítulo 35:: Devolución de llamada a la",
+      "file": "chapters/node-js-es/72-capítulo-35-devolución-de-llamada-a-la.md",
+      "words": 339
+    },
+    {
+      "index": 73,
+      "title": "Capítulo 36:: Diseño API de descanso:",
+      "file": "chapters/node-js-es/73-capítulo-36-diseño-api-de-descanso.md",
+      "words": 171
+    },
+    {
+      "index": 74,
+      "title": "Capítulo 37:: ECMAScript 2015 (ES6) con",
+      "file": "chapters/node-js-es/74-capítulo-37-ecmascript-2015-es6-con.md",
+      "words": 423
+    },
+    {
+      "index": 75,
+      "title": "Capítulo 38:: Ejecutando archivos o",
+      "file": "chapters/node-js-es/75-capítulo-38-ejecutando-archivos-o.md",
+      "words": 781
+    },
+    {
+      "index": 76,
+      "title": "Capítulo 39:: Ejecutando node.js como un",
+      "file": "chapters/node-js-es/76-capítulo-39-ejecutando-nodejs-como-un.md",
+      "words": 102
+    },
+    {
+      "index": 77,
+      "title": "start node at multi user system level (= sysVinit runlevel 3)",
+      "file": "chapters/node-js-es/77-start-node-at-multi-user-system-level-sysvinit-runlevel-3.md",
+      "words": 67
+    },
+    {
+      "index": 78,
+      "title": "Capítulo 40:: Emisores de eventos",
+      "file": "chapters/node-js-es/78-capítulo-40-emisores-de-eventos.md",
+      "words": 824
+    },
+    {
+      "index": 79,
+      "title": "Capítulo 41:: Enrutamiento de solicitudes ajax",
+      "file": "chapters/node-js-es/79-capítulo-41-enrutamiento-de-solicitudes-ajax.md",
+      "words": 197
+    },
+    {
+      "index": 80,
+      "title": "Capítulo 42:: Enrutamiento NodeJs",
+      "file": "chapters/node-js-es/80-capítulo-42-enrutamiento-nodejs.md",
+      "words": 460
+    },
+    {
+      "index": 81,
+      "title": "Capítulo 43:: Entregar HTML o cualquier otro",
+      "file": "chapters/node-js-es/81-capítulo-43-entregar-html-o-cualquier-otro.md",
+      "words": 189
+    },
+    {
+      "index": 82,
+      "title": "Capítulo 44:: Enviando un flujo de archivos al",
+      "file": "chapters/node-js-es/82-capítulo-44-enviando-un-flujo-de-archivos-al.md",
+      "words": 322
+    },
+    {
+      "index": 83,
+      "title": "Capítulo 45:: Enviar notificación web",
+      "file": "chapters/node-js-es/83-capítulo-45-enviar-notificación-web.md",
+      "words": 481
+    },
+    {
+      "index": 84,
+      "title": "Capítulo 46:: Estructura del proyecto",
+      "file": "chapters/node-js-es/84-capítulo-46-estructura-del-proyecto.md",
+      "words": 704
+    },
+    {
+      "index": 85,
+      "title": "Capítulo 47:: Eventloop",
+      "file": "chapters/node-js-es/85-capítulo-47-eventloop.md",
+      "words": 637
+    },
+    {
+      "index": 86,
+      "title": "Capítulo 48:: Evitar el infierno de devolución",
+      "file": "chapters/node-js-es/86-capítulo-48-evitar-el-infierno-de-devolución.md",
+      "words": 317
+    },
+    {
+      "index": 87,
+      "title": "Capítulo 49:: Exigir()",
+      "file": "chapters/node-js-es/87-capítulo-49-exigir.md",
+      "words": 653
+    },
+    {
+      "index": 88,
+      "title": "Capítulo 50:: Exportando e importando el",
+      "file": "chapters/node-js-es/88-capítulo-50-exportando-e-importando-el.md",
+      "words": 626
+    },
+    {
+      "index": 89,
+      "title": "Capítulo 51:: Exportando y consumiendo",
+      "file": "chapters/node-js-es/89-capítulo-51-exportando-y-consumiendo.md",
+      "words": 516
+    },
+    {
+      "index": 90,
+      "title": "Módulo d: e carga con nombre de directorio",
+      "file": "chapters/node-js-es/90-módulo-d-e-carga-con-nombre-de-directorio.md",
+      "words": 564
+    },
+    {
+      "index": 91,
+      "title": "Módulo c: argando desde node_modules",
+      "file": "chapters/node-js-es/91-módulo-c-argando-desde-nodemodules.md",
+      "words": 412
+    },
+    {
+      "index": 92,
+      "title": "Capítulo 52:: Gestión de errores Node.js",
+      "file": "chapters/node-js-es/92-capítulo-52-gestión-de-errores-nodejs.md",
+      "words": 615
+    },
+    {
+      "index": 93,
+      "title": "Capítulo 53:: Gestor de paquetes de hilo",
+      "file": "chapters/node-js-es/93-capítulo-53-gestor-de-paquetes-de-hilo.md",
+      "words": 573
+    },
+    {
+      "index": 94,
+      "title": "Capítulo 54:: gruñido",
+      "file": "chapters/node-js-es/94-capítulo-54-gruñido.md",
+      "words": 457
+    },
+    {
+      "index": 95,
+      "title": "Capítulo 55:: Guía para principiantes de",
+      "file": "chapters/node-js-es/95-capítulo-55-guía-para-principiantes-de.md",
+      "words": 45
+    },
+    {
+      "index": 96,
+      "title": "Capítulo 56:: herrero",
+      "file": "chapters/node-js-es/96-capítulo-56-herrero.md",
+      "words": 149
+    },
+    {
+      "index": 97,
+      "title": "Capítulo 57:: Historia de Nodejs",
+      "file": "chapters/node-js-es/97-capítulo-57-historia-de-nodejs.md",
+      "words": 767
+    },
+    {
+      "index": 98,
+      "title": "Capítulo 58:: http",
+      "file": "chapters/node-js-es/98-capítulo-58-http.md",
+      "words": 300
+    },
+    {
+      "index": 99,
+      "title": "the node & npm versions in apt are outdated. This is how you can update them:",
+      "file": "chapters/node-js-es/99-the-node-npm-versions-in-apt-are-outdated-this-is-how-you-can-update-them.md",
+      "words": 167
+    },
+    {
+      "index": 100,
+      "title": "choco install nodejs.install",
+      "file": "chapters/node-js-es/100-choco-install-nodejsinstall.md",
+      "words": 1267
+    },
+    {
+      "index": 101,
+      "title": "Capítulo 60:: Integracion de cassandra",
+      "file": "chapters/node-js-es/101-capítulo-60-integracion-de-cassandra.md",
+      "words": 85
+    },
+    {
+      "index": 102,
+      "title": "Capítulo 61:: Integración de mongodb",
+      "file": "chapters/node-js-es/102-capítulo-61-integración-de-mongodb.md",
+      "words": 1209
+    },
+    {
+      "index": 103,
+      "title": "Capítulo 62:: Integración de MongoDB para",
+      "file": "chapters/node-js-es/103-capítulo-62-integración-de-mongodb-para.md",
+      "words": 622
+    },
+    {
+      "index": 104,
+      "title": "Capítulo 63:: Integración de MySQL",
+      "file": "chapters/node-js-es/104-capítulo-63-integración-de-mysql.md",
+      "words": 264
+    },
+    {
+      "index": 105,
+      "title": "módulo M: ySQL buscará la siguiente conexión gratuita para ejecutar su consulta.",
+      "file": "chapters/node-js-es/105-módulo-m-ysql-buscará-la-siguiente-conexión-gratuita-para-ejecutar-su-consulta.md",
+      "words": 782
+    },
+    {
+      "index": 106,
+      "title": "Capítulo 64:: Integración de pasaportes",
+      "file": "chapters/node-js-es/106-capítulo-64-integración-de-pasaportes.md",
+      "words": 1128
+    },
+    {
+      "index": 107,
+      "title": "Capítulo 65:: Integración MSSQL",
+      "file": "chapters/node-js-es/107-capítulo-65-integración-mssql.md",
+      "words": 462
+    },
+    {
+      "index": 108,
+      "title": "Capítulo 66:: Integración PostgreSQL",
+      "file": "chapters/node-js-es/108-capítulo-66-integración-postgresql.md",
+      "words": 106
+    },
+    {
+      "index": 109,
+      "title": "Módulo d: e consola",
+      "file": "chapters/node-js-es/109-módulo-d-e-consola.md",
+      "words": 135
+    },
+    {
+      "index": 110,
+      "title": "Módulo d: e proceso",
+      "file": "chapters/node-js-es/110-módulo-d-e-proceso.md",
+      "words": 158
+    },
+    {
+      "index": 111,
+      "title": "Capítulo 68:: Inyección de dependencia",
+      "file": "chapters/node-js-es/111-capítulo-68-inyección-de-dependencia.md",
+      "words": 111
+    },
+    {
+      "index": 112,
+      "title": "Capítulo 69:: Koa Framework v2",
+      "file": "chapters/node-js-es/112-capítulo-69-koa-framework-v2.md",
+      "words": 74
+    },
+    {
+      "index": 113,
+      "title": "Capítulo 70:: La comunicación arduino con",
+      "file": "chapters/node-js-es/113-capítulo-70-la-comunicación-arduino-con.md",
+      "words": 327
+    },
+    {
+      "index": 114,
+      "title": "Módulo d: e traducción simple y ligero con almacenamiento dinámico de json. Es compatible con",
+      "file": "chapters/node-js-es/114-módulo-d-e-traducción-simple-y-ligero-con-almacenamiento-dinámico-de-json-es-compatible-con.md",
+      "words": 211
+    },
+    {
+      "index": 115,
+      "title": "Capítulo 72:: Lodash",
+      "file": "chapters/node-js-es/115-capítulo-72-lodash.md",
+      "words": 126
+    },
+    {
+      "index": 116,
+      "title": "REST",
+      "file": "chapters/node-js-es/116-rest.md",
+      "words": 163
+    },
+    {
+      "index": 117,
+      "title": "Capítulo 74:: Manejo de excepciones",
+      "file": "chapters/node-js-es/117-capítulo-74-manejo-de-excepciones.md",
+      "words": 937
+    },
+    {
+      "index": 118,
+      "title": "módulo d: e flujo proporciona una API base que facilita la creación de objetos que",
+      "file": "chapters/node-js-es/118-módulo-d-e-flujo-proporciona-una-api-base-que-facilita-la-creación-de-objetos-que.md",
+      "words": 89
+    },
+    {
+      "index": 119,
+      "title": "NOTA",
+      "file": "chapters/node-js-es/119-nota.md",
+      "words": 137
+    },
+    {
+      "index": 120,
+      "title": "Capítulo 76:: Mantener una aplicación de",
+      "file": "chapters/node-js-es/120-capítulo-76-mantener-una-aplicación-de.md",
+      "words": 391
+    },
+    {
+      "index": 121,
+      "title": "Capítulo 77:: Marcos de plantillas",
+      "file": "chapters/node-js-es/121-capítulo-77-marcos-de-plantillas.md",
+      "words": 219
+    },
+    {
+      "index": 122,
+      "title": "Capítulo 78:: Marcos de pruebas unitarias",
+      "file": "chapters/node-js-es/122-capítulo-78-marcos-de-pruebas-unitarias.md",
+      "words": 140
+    },
+    {
+      "index": 123,
+      "title": "Capítulo 79:: Módulo de cluster",
+      "file": "chapters/node-js-es/123-capítulo-79-módulo-de-cluster.md",
+      "words": 517
+    },
+    {
+      "index": 124,
+      "title": "Capítulo 80:: Multihilo",
+      "file": "chapters/node-js-es/124-capítulo-80-multihilo.md",
+      "words": 526
+    },
+    {
+      "index": 125,
+      "title": "Capítulo 81:: N-API",
+      "file": "chapters/node-js-es/125-capítulo-81-n-api.md",
+      "words": 430
+    },
+    {
+      "index": 126,
+      "title": "Capítulo 82:: Node.js (express.js) con código",
+      "file": "chapters/node-js-es/126-capítulo-82-nodejs-expressjs-con-código.md",
+      "words": 931
+    },
+    {
+      "index": 127,
+      "title": "Capítulo 83:: Node.js Arquitectura y Trabajos",
+      "file": "chapters/node-js-es/127-capítulo-83-nodejs-arquitectura-y-trabajos.md",
+      "words": 35
+    },
+    {
+      "index": 128,
+      "title": "Capítulo 84:: Node.js con CORS",
+      "file": "chapters/node-js-es/128-capítulo-84-nodejs-con-cors.md",
+      "words": 186
+    },
+    {
+      "index": 129,
+      "title": "Capítulo 85:: Node.JS con ES6",
+      "file": "chapters/node-js-es/129-capítulo-85-nodejs-con-es6.md",
+      "words": 1026
+    },
+    {
+      "index": 130,
+      "title": "Capítulo 86:: Node.js con Oracle",
+      "file": "chapters/node-js-es/130-capítulo-86-nodejs-con-oracle.md",
+      "words": 506
+    },
+    {
+      "index": 131,
+      "title": "Capítulo 87:: Node.js Design Fundamental",
+      "file": "chapters/node-js-es/131-capítulo-87-nodejs-design-fundamental.md",
+      "words": 171
+    },
+    {
+      "index": 132,
+      "title": "Capítulo 88:: Node.js Performance",
+      "file": "chapters/node-js-es/132-capítulo-88-nodejs-performance.md",
+      "words": 570
+    },
+    {
+      "index": 133,
+      "title": "Capítulo 89:: Node.js v6 Nuevas",
+      "file": "chapters/node-js-es/133-capítulo-89-nodejs-v6-nuevas.md",
+      "words": 639
+    },
+    {
+      "index": 134,
+      "title": "Capítulo 90:: Node.JS y MongoDB.",
+      "file": "chapters/node-js-es/134-capítulo-90-nodejs-y-mongodb.md",
+      "words": 1033
+    },
+    {
+      "index": 135,
+      "title": "Capítulo 91:: NodeJS con Redis",
+      "file": "chapters/node-js-es/135-capítulo-91-nodejs-con-redis.md",
+      "words": 1233
+    },
+    {
+      "index": 136,
+      "title": "Capítulo 92:: NodeJS Frameworks",
+      "file": "chapters/node-js-es/136-capítulo-92-nodejs-frameworks.md",
+      "words": 166
+    },
+    {
+      "index": 137,
+      "title": "Capítulo 93:: Notificaciones push",
+      "file": "chapters/node-js-es/137-capítulo-93-notificaciones-push.md",
+      "words": 469
+    },
+    {
+      "index": 138,
+      "title": "Capítulo 94:: npm",
+      "file": "chapters/node-js-es/138-capítulo-94-npm.md",
+      "words": 517
+    },
+    {
+      "index": 139,
+      "title": "e.g. to install lodash and express",
+      "file": "chapters/node-js-es/139-eg-to-install-lodash-and-express.md",
+      "words": 97
+    },
+    {
+      "index": 140,
+      "title": "of the package lodash",
+      "file": "chapters/node-js-es/140-of-the-package-lodash.md",
+      "words": 49
+    },
+    {
+      "index": 141,
+      "title": "public ones by setting registry for specific scope",
+      "file": "chapters/node-js-es/141-public-ones-by-setting-registry-for-specific-scope.md",
+      "words": 137
+    },
+    {
+      "index": 142,
+      "title": "or",
+      "file": "chapters/node-js-es/142-or.md",
+      "words": 50
+    },
+    {
+      "index": 143,
+      "title": "or",
+      "file": "chapters/node-js-es/143-or.md",
+      "words": 96
+    },
+    {
+      "index": 144,
+      "title": "e.g. to install the grunt command line tool",
+      "file": "chapters/node-js-es/144-eg-to-install-the-grunt-command-line-tool.md",
+      "words": 209
+    },
+    {
+      "index": 145,
+      "title": "or",
+      "file": "chapters/node-js-es/145-or.md",
+      "words": 33
+    },
+    {
+      "index": 146,
+      "title": "or",
+      "file": "chapters/node-js-es/146-or.md",
+      "words": 152
+    },
+    {
+      "index": 147,
+      "title": "Install a package \"mylib\" from the scope \"myscope\"",
+      "file": "chapters/node-js-es/147-install-a-package-mylib-from-the-scope-myscope.md",
+      "words": 509
+    },
+    {
+      "index": 148,
+      "title": "or",
+      "file": "chapters/node-js-es/148-or.md",
+      "words": 1276
+    },
+    {
+      "index": 149,
+      "title": "SYNOPSIS",
+      "file": "chapters/node-js-es/149-synopsis.md",
+      "words": 164
+    },
+    {
+      "index": 150,
+      "title": "Capítulo 95:: nvm - Administrador de",
+      "file": "chapters/node-js-es/150-capítulo-95-nvm---administrador-de.md",
+      "words": 189
+    },
+    {
+      "index": 151,
+      "title": "PROCESO DE INSTALACIÓN",
+      "file": "chapters/node-js-es/151-proceso-de-instalación.md",
+      "words": 35
+    },
+    {
+      "index": 152,
+      "title": "PRUEBA DE QUE NVM FUE INSTALADO CORRECTAMENTE",
+      "file": "chapters/node-js-es/152-prueba-de-que-nvm-fue-instalado-correctamente.md",
+      "words": 462
+    },
+    {
+      "index": 153,
+      "title": "Capítulo 96:: OAuth 2.0",
+      "file": "chapters/node-js-es/153-capítulo-96-oauth-20.md",
+      "words": 817
+    },
+    {
+      "index": 154,
+      "title": "Capítulo 97:: paquete.json",
+      "file": "chapters/node-js-es/154-capítulo-97-paquetejson.md",
+      "words": 779
+    },
+    {
+      "index": 155,
+      "title": "or",
+      "file": "chapters/node-js-es/155-or.md",
+      "words": 856
+    },
+    {
+      "index": 156,
+      "title": "Capítulo 98:: pasaporte.js",
+      "file": "chapters/node-js-es/156-capítulo-98-pasaportejs.md",
+      "words": 242
+    },
+    {
+      "index": 157,
+      "title": "Capítulo 99:: Programación asíncrona",
+      "file": "chapters/node-js-es/157-capítulo-99-programación-asíncrona.md",
+      "words": 2300
+    },
+    {
+      "index": 158,
+      "title": "Capítulo 100:: Programación síncrona vs",
+      "file": "chapters/node-js-es/158-capítulo-100-programación-síncrona-vs.md",
+      "words": 232
+    },
+    {
+      "index": 159,
+      "title": "Capítulo 101:: Readline",
+      "file": "chapters/node-js-es/159-capítulo-101-readline.md",
+      "words": 163
+    },
+    {
+      "index": 160,
+      "title": "Capítulo 102:: Ruta-controlador-estructura de",
+      "file": "chapters/node-js-es/160-capítulo-102-ruta-controlador-estructura-de.md",
+      "words": 288
+    },
+    {
+      "index": 161,
+      "title": "Capítulo 103:: Sequelize.js",
+      "file": "chapters/node-js-es/161-capítulo-103-sequelizejs.md",
+      "words": 459
+    },
+    {
+      "index": 162,
+      "title": "Capítulo 104:: Servidor de nodo sin marco",
+      "file": "chapters/node-js-es/162-capítulo-104-servidor-de-nodo-sin-marco.md",
+      "words": 321
+    },
+    {
+      "index": 163,
+      "title": "Capítulo 105:: Sistema de archivos de E / S",
+      "file": "chapters/node-js-es/163-capítulo-105-sistema-de-archivos-de-e-s.md",
+      "words": 2153
+    },
+    {
+      "index": 164,
+      "title": "Capítulo 106:: Sockets TCP",
+      "file": "chapters/node-js-es/164-capítulo-106-sockets-tcp.md",
+      "words": 382
+    },
+    {
+      "index": 165,
+      "title": "Capítulo 107:: Subir archivo",
+      "file": "chapters/node-js-es/165-capítulo-107-subir-archivo.md",
+      "words": 443
+    },
+    {
+      "index": 166,
+      "title": "Capítulo 108:: Usando Streams",
+      "file": "chapters/node-js-es/166-capítulo-108-usando-streams.md",
+      "words": 1229
+    },
+    {
+      "index": 167,
+      "title": "Capítulo 109:: Usando WebSocket con",
+      "file": "chapters/node-js-es/167-capítulo-109-usando-websocket-con.md",
+      "words": 165
+    },
+    {
+      "index": 168,
+      "title": "Capítulo 110:: Uso de Browserfiy para",
+      "file": "chapters/node-js-es/168-capítulo-110-uso-de-browserfiy-para.md",
+      "words": 433
+    },
+    {
+      "index": 169,
+      "title": "Capítulo 111:: Uso de IISNode para alojar",
+      "file": "chapters/node-js-es/169-capítulo-111-uso-de-iisnode-para-alojar.md",
+      "words": 2796
+    }
+  ],
+  "learningIntegrated": true
+}

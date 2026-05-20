@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch064-002",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 64,
+  "chunkIndex": 2,
+  "title": "PRECONDICI´ON:",
+  "start": 900,
+  "end": 1028,
+  "words": 128,
+  "content": "en lenguaje cas- tellano, aunque tambi ´en existen otras opciones, m ´as avanzadas; por ejemplo, una muy com ´un es utilizar alguna forma de lenguaje l ´ogico para expresarlos, de manera de poder proveer mecanismos formales de tratamiento. Sin embargo, en este libro, usaremos solo la forma coloquial, pues se trata solo de una introduc- ci ´on y no pretende un conocimiento exhaustivo o profundo de las variantes. Para dejar constancia del prop ´osito y precondiciones de un procedimiento se suelen utilizar comentarios, tal cual se mostr ´o en la secci ´on anterior. Veamos un ejemplo del contrato de un procedimiento. Para ello, utilizaremos el procedimiento DibujarCuadradoNegroDeLado3 visto en el ejercicio 2.2.10. El c ´odigo completo para el mismo, comentado con el contrato, podr´ıa ser procedure DibujarCuadradoNegroDeLado3() {-"
+}

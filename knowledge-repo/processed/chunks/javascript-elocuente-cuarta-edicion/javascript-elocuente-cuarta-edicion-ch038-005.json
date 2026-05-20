@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch038-005",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 38,
+  "chunkIndex": 5,
+  "title": "13. Carla nota que sus propios teléfonos reciben direcciones como 10.0.0.20",
+  "start": 2250,
+  "end": 2449,
+  "words": 199,
+  "content": "ese momento, que tiene métodos getDay y getHours que devuelven el día de la semana y la hora del día. Ambos tipos de archivos, la lista de archivos de registro y los propios archivos de registro, tienen cada dato en su propia línea, separados por caracteres de nueva línea (\"\\n\"). Construyendo Promise.all Como vimos, dado un array de promesas, Promise.all devuelve una promesa que espera a que todas las promesas en el array finalicen. Luego tiene éxito, devolviendo un array de valores de resultado. Si una promesa en el array falla, la promesa devuelta por all también falla, con la razón de fallo de la promesa que falló. Implementa algo similar tú mismo como una función regular llamada Promise_all . Recuerda que después de que una promesa tiene éxito o falla, no puede volver a tener éxito o fallar, y las llamadas posteriores a las funciones que la resuelven se ignoran. Esto puede simplificar la forma en que manejas el fallo de tu promesa. 199 -- 211 of 445 -- “El evaluador, que determina el significado de expresiones en un lenguaje de programación, es solo otro programa.” —Hal Abelson y Gerald Sussman, Estructura e Interpretación de Programas de Computadora"
+}

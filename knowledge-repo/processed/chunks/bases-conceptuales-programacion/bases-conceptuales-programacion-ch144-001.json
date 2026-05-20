@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch144-001",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 144,
+  "chunkIndex": 1,
+  "title": "OBSERVACIONES:",
+  "start": 450,
+  "end": 679,
+  "words": 229,
+  "content": "una variable que no fue definida es utilizar dicha variable cuando la misma no tiene sentido, por no correspon- der con ning ´un valor. En GOBSTONES, la correspondencia entre una variable y un valor sirve solamente dentro del procedimiento donde se realiza la asignaci ´on; o sea, cada pro- cedimiento tiene sus propios “recuerdos” que no comparte con ning ´un otro. La parte del c ´odigo donde tal correspondencia tiene sentido para una variable determinada se deno- mina alcance de la variable. As´ı, en GOBSTONES, las variables tienen alcance dentro de un procedimiento exclusivamente. Definici ´on 4.3.3. El alcance de una variable es la parte del c ´odigo donde la correspon- dencia entre la misma y un valor tiene sentido. En GOBSTONES todas las variables tienen alcance solo dentro del procedimiento que las asigna. El efecto de que el alcance de las variables sea entre procedimientos es que la ´unica ma- nera de comunicar informaci ´on entre procedimientos sea a trav ´es de los par ´ametros o de los valores de retorno de las funciones. O sea, no tiene sentido utilizar en un procedimiento una variable asignada en otro. Cada procedimiento posee su propia asignaci ´on de varia- bles a valores. Por ejemplo, el siguiente c ´odigo es err ´oneo porque cada procedimiento tiene su propio espacio de variables, y por lo tanto no comparten las variables. procedimiento DuplicarRojasAlNorteMal()"
+}

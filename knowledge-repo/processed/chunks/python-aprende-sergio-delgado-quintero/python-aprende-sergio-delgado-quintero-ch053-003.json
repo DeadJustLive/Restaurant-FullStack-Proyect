@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch053-003",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 53,
+  "chunkIndex": 3,
+  "title": "5.4 Conjuntos",
+  "start": 1350,
+  "end": 1443,
+  "words": 93,
+  "content": "un conjunto inmutable con los posibles niveles (categorías) de calificaciones: >>> marks = [1, 3, 2, 3, 1, 4, 2, 4, 5, 2, 5, 5, 3, 1, 4] >>> marks_levels = frozenset(marks) >>> marks_levels frozenset({1, 2, 3, 4, 5}) Veamos qué ocurre si intentamos modificar este conjunto: >>> marks_levels.add(50) Traceback (most recent call last): File \"<stdin>\", line 1, in <module> AttributeError: frozenset object has no attribute add Nota: Los frozenset son a los sets lo que las tuplas a las listas: una forma de «congelar» los valores para que no se puedan modificar."
+}

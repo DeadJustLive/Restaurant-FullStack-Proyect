@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch053-000",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 53,
+  "chunkIndex": 0,
+  "title": "install babel for module loading, bundling and transpiling",
+  "start": 0,
+  "end": 15,
+  "words": 15,
+  "content": "# install babel for module loading, bundling and transpiling $ npm i babel-core babel-loader --save"
+}

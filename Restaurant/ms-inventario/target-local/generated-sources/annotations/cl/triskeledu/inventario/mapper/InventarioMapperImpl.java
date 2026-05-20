@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-05-17T20:45:51-0400",
-    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 25.0.2 (Red Hat, Inc.)"
+    date = "2026-05-18T13:33:14-0400",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.46.0.v20260407-0427, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class InventarioMapperImpl implements InventarioMapper {
@@ -24,14 +24,14 @@ public class InventarioMapperImpl implements InventarioMapper {
 
         InsumoResponseDTO.InsumoResponseDTOBuilder insumoResponseDTO = InsumoResponseDTO.builder();
 
+        insumoResponseDTO.actualizadoEn( insumo.getActualizadoEn() );
+        insumoResponseDTO.creadoEn( insumo.getCreadoEn() );
         insumoResponseDTO.id( insumo.getId() );
-        insumoResponseDTO.sucursalId( insumo.getSucursalId() );
         insumoResponseDTO.nombre( insumo.getNombre() );
-        insumoResponseDTO.unidadMedida( insumo.getUnidadMedida() );
         insumoResponseDTO.stockActual( insumo.getStockActual() );
         insumoResponseDTO.stockMinimo( insumo.getStockMinimo() );
-        insumoResponseDTO.creadoEn( insumo.getCreadoEn() );
-        insumoResponseDTO.actualizadoEn( insumo.getActualizadoEn() );
+        insumoResponseDTO.sucursalId( insumo.getSucursalId() );
+        insumoResponseDTO.unidadMedida( insumo.getUnidadMedida() );
 
         return insumoResponseDTO.build();
     }
@@ -44,10 +44,10 @@ public class InventarioMapperImpl implements InventarioMapper {
 
         Insumo.InsumoBuilder insumo = Insumo.builder();
 
-        insumo.sucursalId( dto.getSucursalId() );
         insumo.nombre( dto.getNombre() );
-        insumo.unidadMedida( dto.getUnidadMedida() );
         insumo.stockMinimo( dto.getStockMinimo() );
+        insumo.sucursalId( dto.getSucursalId() );
+        insumo.unidadMedida( dto.getUnidadMedida() );
 
         return insumo.build();
     }
@@ -58,10 +58,10 @@ public class InventarioMapperImpl implements InventarioMapper {
             return;
         }
 
-        entity.setSucursalId( dto.getSucursalId() );
         entity.setNombre( dto.getNombre() );
-        entity.setUnidadMedida( dto.getUnidadMedida() );
         entity.setStockMinimo( dto.getStockMinimo() );
+        entity.setSucursalId( dto.getSucursalId() );
+        entity.setUnidadMedida( dto.getUnidadMedida() );
     }
 
     @Override
@@ -72,12 +72,12 @@ public class InventarioMapperImpl implements InventarioMapper {
 
         MovimientoResponseDTO.MovimientoResponseDTOBuilder movimientoResponseDTO = MovimientoResponseDTO.builder();
 
+        movimientoResponseDTO.cantidad( movimiento.getCantidad() );
+        movimientoResponseDTO.creadoEn( movimiento.getCreadoEn() );
         movimientoResponseDTO.id( movimiento.getId() );
         movimientoResponseDTO.insumoId( movimiento.getInsumoId() );
-        movimientoResponseDTO.tipo( movimiento.getTipo() );
-        movimientoResponseDTO.cantidad( movimiento.getCantidad() );
         movimientoResponseDTO.referencia( movimiento.getReferencia() );
-        movimientoResponseDTO.creadoEn( movimiento.getCreadoEn() );
+        movimientoResponseDTO.tipo( movimiento.getTipo() );
 
         return movimientoResponseDTO.build();
     }

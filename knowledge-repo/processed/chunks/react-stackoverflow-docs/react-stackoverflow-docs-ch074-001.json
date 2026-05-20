@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch074-001",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 74,
+  "chunkIndex": 1,
+  "title": "Capítulo 30:: Usando ReactJS en forma de",
+  "start": 450,
+  "end": 610,
+  "words": 160,
+  "content": "claro, podemos empezar desde el final. Los diferentes componentes de React ( vistas ) obtienen datos de diferentes tiendas sobre los cambios realizados. Pocos componentes pueden denominarse vistas de controlador , ya que proporcionan el código de pegamento para obtener los datos de las tiendas y pasar los datos por la cadena de sus descendientes. Las vistas de controlador representan cualquier sección significativa de la página. • Las tiendas se pueden destacar como devoluciones de llamada que comparan el tipo de acción y otros datos de entrada para la lógica empresarial de su aplicación. • Dispatcher es el receptor de acciones comunes y el contenedor de devoluciones de llamada. • Las acciones no son más que simples objetos con propiedad de type requerida. Anteriormente, querrá usar constantes para los tipos de acción y los métodos de ayuda (llamados creadores de acción ). • Lea Usando ReactJS en forma de flujo en línea: https://riptutorial.com/es/reactjs/topic/8158/usando-reactjs-en-forma-de-flujo https://riptutorial.com/es/home 122 -- 132 of 139 --"
+}

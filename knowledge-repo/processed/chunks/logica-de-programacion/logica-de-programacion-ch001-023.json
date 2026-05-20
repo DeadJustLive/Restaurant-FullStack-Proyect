@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch001-023",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 1,
+  "chunkIndex": 23,
+  "title": "4 ´INDICE GENERAL",
+  "start": 10350,
+  "end": 10624,
+  "words": 274,
+  "content": "que hacen parte de una expresi´on relacional, pueden estar compuestos por constantes, variables o la combinaci´on de ambos. Ejemplos: definitiva >= 3.0 Aqu´ı se est´a preguntando si el valor contenido en la variable definitiva es mayor o igual a 3.0. La expresi´on retornar´a un resultado de Verdadero o Falso, dependiendo de lo que tenga almacenado la variable definitiva. (2 * a + b) > (3 * c - d) Para que esta expresi´on sea verdadera, la parte izquierda de la expresi´on, es decir, lo que hay del lado izquierdo del operador > debe ser mayor que lo que hay del lado derecho. N´otese que en ambos lados de la expresi´on hay expresiones aritm´eticas que involucran variables y n´umeros. En estos casos, tambi´en se debe aplicar la prioridad en las operaciones. 1.6.7 Expresiones l´ogicas Tambi´en llamadas booleanas. Son aquellas que se utilizan para crear condiciones a partir de datos l´ogicos. Est´an compuestas por expresiones relacionales o l´ogicas, conectadas a trav´es de operadores l´ogicos, los -- 42 of 450 -- Introducci ´on a la L ´ogica de Programaci ´on 41 cuales fueron estudiados en el numeral 1.6.3. Los resultados que arroja la evaluaci´on de este tipo de expresiones solo pueden ser de dos formas: Verdadero o Falso. Para ilustrar el funcionamiento de estos operadores, se analizar´an los siguientes ejemplos. Ejemplo con el operador Y: para poder hacer cualquier transacci´on en un cajero autom´atico se requiere poseer una tarjeta (d´ebito o cr´edito) y adicionalmente la clave de dicha tarjeta; actualmente existen otros medios, pero para el ejemplo se tomar´an esas condiciones. A continuaci´on, se analizar´a en qu´e situaciones se podr´ıa hacer alguna transacci´on y en cuales no:"
+}

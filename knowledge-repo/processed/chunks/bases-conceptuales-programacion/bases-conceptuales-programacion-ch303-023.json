@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch303-023",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 303,
+  "chunkIndex": 23,
+  "title": "PROP´OSITO:",
+  "start": 10350,
+  "end": 10412,
+  "words": 62,
+  "content": "todas las secciones (excepto la secci ´on de biblioteca) en un archivo Zilfost.gbs y la secci ´on de biblioteca en un archivo Biblioteca.gbs. Am- bos archivos deben ser colocados en la misma carpeta, y ejecutados con alguna de las herramientas que implementan GOBSTONES en su versi ´on 3.0. B.1. C ´odigo principal /* ------------------------------------------------- AUTOR: Pablo E. Mart´ınez L´opez FECHA: abril-octubre 2013"
+}

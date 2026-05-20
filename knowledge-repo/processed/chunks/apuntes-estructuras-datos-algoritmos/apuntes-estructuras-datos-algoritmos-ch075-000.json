@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch075-000",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 75,
+  "chunkIndex": 0,
+  "title": "3. Detalles de la implementación nodo–lista",
+  "start": 0,
+  "end": 12,
+  "words": 12,
+  "content": "# 3. Ejemplo de aplicación del TAD pila: evaluación de expresiones postfijas"
+}

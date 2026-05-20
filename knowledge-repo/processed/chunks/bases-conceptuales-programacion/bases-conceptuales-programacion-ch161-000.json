@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch161-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 161,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 25,
+  "words": 25,
+  "content": "# PROP´OSITO: * retorna el color del que hay m´as bolitas. Si hay igual cantidad de m´as de un color, retorna el menor color posible"
+}

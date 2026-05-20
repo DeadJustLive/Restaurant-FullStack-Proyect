@@ -1,0 +1,96 @@
+# PRECONDICIONES:
+
+* la zona de juego tiene un ancho m´ınimo de 9
+*/
+{
+VaciarZonaDeJuego()
+ColocarNuevaPieza(1,1,1)
+ColocarNuevaPieza(6,6,6)
+BajarPiezasDeZonaDeJuego()
+BajarPiezasDeZonaDeJuego()
+ColocarNuevaPieza(3,3,3)
+ColocarNuevaPieza(5,5,5)
+BajarPiezasDeZonaDeJuego()
+BajarPiezasDeZonaDeJuego()
+ColocarNuevaPieza(7,7,7)
+BajarPiezasDeZonaDeJuego()
+ColocarNuevaPieza(2,2,2)
+ColocarNuevaPieza(4,4,4)
+BajarPiezasDeZonaDeJuego()
+BajarPiezasDeZonaDeJuego()
+BajarPiezasDeZonaDeJuego()
+}
+La operaci ´on de VaciarZonaDeJuego es simplemente un recorrido sobre las celdas de la
+zona de juego, donde el procesamiento consiste en vaciarlas.
+5.6. C ´odigo para las operaciones de interfaz
+Toda la mec ´anica del juego se accede con una interfaz espec´ıfica. Estas operaciones
+determinan las acciones posibles que se pueden realizar en el juego, que ser ´an combina-
+ci ´on de acciones b ´asicas de la mec ´anica y algunos otros elementos. En el caso de este
+juego encontramos dos grupos de operaciones de interfaz: las necesarias para proveer
+cierto grado de “aleatoriedad” en la secuencia de piezas y las operaciones espec´ıficas de
+interacci ´on con el usuario. Describiremos cada grupo en una subsecci ´on diferente.
+5.6.1. Determinar la pr ´oxima pieza
+Para que el juego resulte interesante es necesario que la secuencia de piezas no sea
+siempre predecible. Para lograr esto, y puesto que GOBSTONES no tiene primitivas pa-
+ra generar n ´umeros seudoaleatorios, se hace necesario codificar operaciones para esta
+tarea.
+N ´umeros seudoaleatorios
+Un generador de n ´umeros aleatorios es un algoritmo o dispositivo que sirve para pro-
+cudir una secuencia de n ´umeros que no siguen ning ´un esquema prefijado, o sea, que son,
+o parecen ser, aleatorios. Existen muchos m ´etodos para generar n ´umeros aleatorios, pero
+aunque muchos consiguen varias caracter´ısticas de imprevisibilidad, la mayor´ıa a menudo
+falla en ofrecer verdadera alteatoriedad. En aplicaciones que requieren de aleatoriedad de
+manera fundamental (como por ejemplo, aplicaciones de seguridad inform ´atica) se prefie-
+ren generadores de n ´umeros verdaderamente aleatorios, los cuales involucran hardware
+adem ´as de software. Pero en aplicaciones de simulaci ´on y en algunos juegos, esto es
+demasiado costoso.
+Un generador de n ´umeros seudoaleatorios es un procedimiento computacional que,
+basado en un dato inicial (conocido como semilla), produce una secuencia larga de n ´ume-
+ros que aparecen a primera vista como aleatorios. No es un verdadero generador de
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 222 of 312 --
+
+223
+n ´umeros aleatorios, pues la secuencia puede ser totalmente predecida conociendo la se-
+milla; pero eligiendo bien el algoritmo pueden dar la impresi ´on de aleatoriedad en muchas
+aplicaciones, como por ejemplo juegos y simulaciones. Y puesto que dadas las mismas
+condiciones iniciales (la misma semilla), la secuencia de n ´umeros resulta la misma, los
+generadores de n ´umeros seudoaleatorios ofrecen la ventaja de que se puede volver a re-
+producir un escenario dado, lo cual constituye una caracter´ıstica deseable en este tipo de
+aplicaciones.
+Para Ampliar
+Para saber m ´as sobre generaci ´on de n ´umeros aleatorios, su importancia, la com-
+paraci ´on entre generadores de verdadera aleatoriedad y generadores seudo-
+aleatorios existen diversas fuentes. Para este libro utilizamos dos fuentes princi-
+pales:
+La organizaci ´on RANDOM.org, donde puede consultarse el siguiente
+link: http://www.random.org/randomness/
+La Wikipedia, especialmente las entradas
+https://en.wikipedia.org/wiki/Random_number_generation,
+https://en.wikipedia.org/wiki/Pseudorandom_number_generator y
+https://en.wikipedia.org/wiki/Linear_congruential_generator.
+Uno de los m ´etodos m ´as comunes de generaci ´on de n ´umeros seudoaleatorios se conoce
+como generador lineal congruente, y utiliza una ecuaci ´on de recurrencia con la siguiente
+forma:
+Xi+1 = (aXi + b) m´od m
+donde X0 es la semilla original, y a, b y m son los par ´ametros del generador. Este tipo de
+generadores es capaz de generar un m ´aximo de m n ´umeros diferentes en una secuencia
+que aparentemente carece de patr ´on preestablecido.
+El generador de n ´umeros seudoaleatorios que utilizamos para el juego de ZILFOST se
+debe a Lewis, Goodman y Miller, qui ´enes sugirieron los valores a = 75, b = 0 y m = 231 −1
+para los par ´ametros de un generador lineal congruente. Este generador ha sido amplia-
+mente estudiando desde entonces, y en 1988, Stephen Park and Keith Miller propusieron
+este algoritmo como un est ´andar [Park and Miller, 1988], y discutieron un par de imple-
+mentaciones en C y BASIC. La importancia del algoritmo reside en que puede ser imple-
+mentado con aritm ´etica de 32 bits, e igualmente produce excelentes resultados. Nosotros
+entramos en contacto con este algoritmo gracias a un art´ıculo de Mark Jones [Jones,
+1996], que lo implementa en el lenguaje funcional HASKELL. All´ı muestra adem ´as c ´omo
+implementarlo con aritm ´etica de 32 bits y c ´omo obtener n ´umeros en un rango de 0 a un
+m ´aximo dado. El c ´odigo resultante es el siguiente
+function randomEntre0YConSemilla(maximo,semilla)
+/*
+PROP´OSITO: calcula en base a una semilla dada (x_i),
+un n´umero seudoaleatorio entre 0 y el
+m´aximo dado, y una nueva semilla (x_{i+1})
+a ser usada en invocaciones futuras

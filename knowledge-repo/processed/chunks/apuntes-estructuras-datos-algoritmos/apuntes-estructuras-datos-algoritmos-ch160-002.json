@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch160-002",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 160,
+  "chunkIndex": 2,
+  "title": "4. Transformación de algoritmos recursivos múltiples: caso general",
+  "start": 900,
+  "end": 1005,
+  "words": 105,
+  "content": "claves, pero para almacenar N claves con un alfabeto de k símbolos se precisan palabras de longitud log N, con base del logaritmo igual a k. Es decir, la longitud de las claves es logarítmica en el número de palabras. best besti bestowal bestsell bestial bestir bestseller bestselling best i owal sell al r er ing -- 168 of 267 -- 161 Aplicaciones habituales de árboles lexicográficos son la manipulación de diccionarios (búsqueda, inserción, borrado, etc., de claves y sus valores asociados), búsqueda de prefijos de palabras o, de forma más general, búsqueda y comparación de subcadenas: procesamiento de textos, completado automático de comandos, etc."
+}

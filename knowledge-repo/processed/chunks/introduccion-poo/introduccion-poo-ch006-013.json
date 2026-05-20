@@ -1,0 +1,11 @@
+{
+  "id": "introduccion-poo-ch006-013",
+  "bookId": "introduccion-poo",
+  "chapterIndex": 6,
+  "chunkIndex": 13,
+  "title": "3. POO en los distintos lenguajes de programación",
+  "start": 5850,
+  "end": 6087,
+  "words": 237,
+  "content": "puede ejecutar código Java (applets) sin importar de dónde provenga, ya que no hay grandes peligros de seguridad (como pueden ser virus o pro- gramas que atenten contra la privacidad). Básicamente, la idea que propone es que el usuario sólo necesita tener a su lado un mero elemento de interacción (a veces llamado \"terminal tonto\") sin demasiada potencia de procesamiento o capacidad de almacenamiento (por ejemplo, carente de disco duro) y que el verdadero ordenador (elementos de computación y almacenamiento) puede estar distribuido en una red. Desde el principio Java fue diseñado como un lenguaje orientado a objetos. Los objetos agrupan en estructuras encapsuladas tanto sus datos como los métodos (o funciones) que manipulan esos datos. La tendencia del futuro, a la que Java se suma, apunta hacia la programación orientada a objetos, especialmente en entornos cada vez más complejos y basados en una red. 3.10. JavaScript Web recomendada En la web oficial de Sun podéis obtener más infor- mación sobre el lengua- je de programación Java: java.sun.com. JavaScript es un lenguaje que se introdujo en la versión 2.0 del Netscape Na- vigator, a principios de 1996, y que Microsoft aceptó más tarde para que su Internet Explorer ganara cuota de mercado, aunque ambas versiones tienen características incompatibles. Ved también Las características de la orien- tación a objetos en JavaScript se estudian en detalle en el módulo \"Orientación a objetos en JavaScript\". -- 44 of 44 --"
+}

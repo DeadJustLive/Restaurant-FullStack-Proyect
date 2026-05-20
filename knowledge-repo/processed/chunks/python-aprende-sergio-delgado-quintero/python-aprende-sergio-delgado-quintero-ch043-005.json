@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch043-005",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 43,
+  "chunkIndex": 5,
+  "title": "1. Utilizando la función clear():",
+  "start": 2250,
+  "end": 2589,
+  "words": 339,
+  "content": "5.1.7 sys.argv Cuando queramos ejecutar un programa Python desde línea de comandos, tendremos la posibilidad de acceder a los argumentos de dicho programa. Para ello se utiliza una lista que la encontramos dentro del módulo sys y que se denomina argv: Figura 4: Acceso a parámetros en línea de comandos Veamos una aplicación de lo anterior en un programa que convierte un número decimal a una determinada base, ambos argumentos pasados por línea de comandos: dec2base.py 1 import sys 2 3 number = int(sys.argv[1]) 4 tobase = int(sys.argv[2]) 5 6 match tobase: 7 case 2: 8 result = f {number:b} 9 case 8: 10 result = f {number:o} 11 case 16: 12 result = f {number:x} 13 case _: 14 result = None 15 (continué en la próxima página) 5.1. Listas 161 -- 165 of 516 -- Aprende Python (proviene de la página anterior) 16 if result is None: 17 print(f Base {tobase} not implemented! ) 18 else: 19 print(result) Si lo ejecutamos obtenemos lo siguiente: $ python dec2base.py 65535 2 1111111111111111 5.1.8 Funciones matemáticas Python nos ofrece, entre otras4, estas tres funciones matemáticas básicas que se pueden aplicar sobre listas. Suma de todos los valores: Mediante la función sum(): >>> data = [5, 3, 2, 8, 9, 1] >>> sum(data) 28 Mínimo de todos los valores: Mediante la función min(): >>> data = [5, 3, 2, 8, 9, 1] >>> min(data) 1 Máximo de todos los valores: Mediante la función max(): >>> data = [5, 3, 2, 8, 9, 1] >>> max(data) 9 Ejercicio Lea desde línea de comandos una serie de números y obtenga la media de dichos valores (muestre el resultado con 2 decimales). La llamada se haría de la siguiente manera: $ python avg.py 32 56 21 99 12 17 4 Existen multitud de paquetes científicos en Python para trabajar con listas o vectores numéricos. Una de las más famosas es la librería Numpy. 162 Capítulo 5. Estructuras de datos -- 166 of 516 -- Aprende Python Plantilla de código para el programa: import sys"
+}

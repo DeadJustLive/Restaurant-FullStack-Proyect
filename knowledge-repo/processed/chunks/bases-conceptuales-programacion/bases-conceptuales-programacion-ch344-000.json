@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch344-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 344,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 42,
+  "words": 42,
+  "content": "# PRECONDICIONES: * default <hay un tablero de Zilfost codificado> * dig es un d´ıgito (entre 0 y 9) * est´a sobre un espacio libre (celda vac´ıa) de una zona de n´umeros */ { Poner(Azul); PonerN(Negro,dig) } //--------------------------------------------------- //--------------------------------------------------- procedure BorrarZonaDeNumeros() /*"
+}

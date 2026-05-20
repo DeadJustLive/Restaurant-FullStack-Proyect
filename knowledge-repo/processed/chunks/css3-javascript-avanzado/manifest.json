@@ -1,0 +1,450 @@
+{
+  "bookId": "css3-javascript-avanzado",
+  "totalChunks": 63,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.134Z",
+  "chunks": [
+    {
+      "id": "css3-javascript-avanzado-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "1. CSS, especificación tercera.............................................................. 7",
+      "words": 46
+    },
+    {
+      "id": "css3-javascript-avanzado-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "2. Novedades CSS3................................................................................... 11",
+      "words": 107
+    },
+    {
+      "id": "css3-javascript-avanzado-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "3. Bibliotecas Javascript....................................................................... 26",
+      "words": 139
+    },
+    {
+      "id": "css3-javascript-avanzado-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "5. Prototype.............................................................................................. 45",
+      "words": 31
+    },
+    {
+      "id": "css3-javascript-avanzado-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "6. YUI.......................................................................................................... 49",
+      "words": 37
+    },
+    {
+      "id": "css3-javascript-avanzado-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "7. MooTools............................................................................................... 53",
+      "words": 30
+    },
+    {
+      "id": "css3-javascript-avanzado-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "8. Librerías Javascript para canvas................................................... 58",
+      "words": 89
+    },
+    {
+      "id": "css3-javascript-avanzado-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "9. Ejercicios............................................................................................... 83",
+      "words": 22
+    },
+    {
+      "id": "css3-javascript-avanzado-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "1. CSS, especificación tercera",
+      "words": 239
+    },
+    {
+      "id": "css3-javascript-avanzado-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "1) Propiedades del tipo de letra, así como el estilo de este.",
+      "words": 13
+    },
+    {
+      "id": "css3-javascript-avanzado-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "2) Colores de los textos y de los fondos.",
+      "words": 10
+    },
+    {
+      "id": "css3-javascript-avanzado-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "3) Atributos del texto tales como espacio entre caracteres, palabras y líneas.",
+      "words": 13
+    },
+    {
+      "id": "css3-javascript-avanzado-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "4) Alineación de tablas, bloques de texto, imágenes, párrafos.",
+      "words": 10
+    },
+    {
+      "id": "css3-javascript-avanzado-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "5) Márgenes externos e internos, filetes y posición de la mayoría de los ele-",
+      "words": 29
+    },
+    {
+      "id": "css3-javascript-avanzado-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "6) Definición única de elementos mediante ids y agrupamiento de atributos",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch015-001",
+      "chapterIndex": 15,
+      "chunkIndex": 1,
+      "title": "6) Definición única de elementos mediante ids y agrupamiento de atributos",
+      "words": 81
+    },
+    {
+      "id": "css3-javascript-avanzado-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "1) Basados en el motor￿de￿dibujo￿de￿Internet￿Explorer. Fundamentalmente",
+      "words": 33
+    },
+    {
+      "id": "css3-javascript-avanzado-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "2) Familia Geko, que utilizan el motor￿de￿dibujo￿Geko, desarrollado por Mo-",
+      "words": 25
+    },
+    {
+      "id": "css3-javascript-avanzado-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "3) Familia Webkit. Basados en el motor￿de￿dibujo￿Opensource￿Webkit, desa-",
+      "words": 45
+    },
+    {
+      "id": "css3-javascript-avanzado-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "4) Familia de navegadores basados en Opera.",
+      "words": 405
+    },
+    {
+      "id": "css3-javascript-avanzado-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "2. Novedades CSS3",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch020-001",
+      "chapterIndex": 20,
+      "chunkIndex": 1,
+      "title": "2. Novedades CSS3",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch020-002",
+      "chapterIndex": 20,
+      "chunkIndex": 2,
+      "title": "2. Novedades CSS3",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch020-003",
+      "chapterIndex": 20,
+      "chunkIndex": 3,
+      "title": "2. Novedades CSS3",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch020-004",
+      "chapterIndex": 20,
+      "chunkIndex": 4,
+      "title": "2. Novedades CSS3",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch020-005",
+      "chapterIndex": 20,
+      "chunkIndex": 5,
+      "title": "2. Novedades CSS3",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch020-006",
+      "chapterIndex": 20,
+      "chunkIndex": 6,
+      "title": "2. Novedades CSS3",
+      "words": 406
+    },
+    {
+      "id": "css3-javascript-avanzado-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "1. Cread unos botones CSS con efectos de degradado interno y sombra exterior",
+      "words": 19
+    },
+    {
+      "id": "css3-javascript-avanzado-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "2. Maquetad un pequeño layout usando mediaquery, webfonts, esquinas redon-",
+      "words": 31
+    },
+    {
+      "id": "css3-javascript-avanzado-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "3. Bibliotecas Javascript",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch023-001",
+      "chapterIndex": 23,
+      "chunkIndex": 1,
+      "title": "3. Bibliotecas Javascript",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch023-002",
+      "chapterIndex": 23,
+      "chunkIndex": 2,
+      "title": "3. Bibliotecas Javascript",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch023-003",
+      "chapterIndex": 23,
+      "chunkIndex": 3,
+      "title": "3. Bibliotecas Javascript",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch023-004",
+      "chapterIndex": 23,
+      "chunkIndex": 4,
+      "title": "3. Bibliotecas Javascript",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch023-005",
+      "chapterIndex": 23,
+      "chunkIndex": 5,
+      "title": "3. Bibliotecas Javascript",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch023-006",
+      "chapterIndex": 23,
+      "chunkIndex": 6,
+      "title": "3. Bibliotecas Javascript",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch023-007",
+      "chapterIndex": 23,
+      "chunkIndex": 7,
+      "title": "3. Bibliotecas Javascript",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch023-008",
+      "chapterIndex": 23,
+      "chunkIndex": 8,
+      "title": "3. Bibliotecas Javascript",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch023-009",
+      "chapterIndex": 23,
+      "chunkIndex": 9,
+      "title": "3. Bibliotecas Javascript",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch023-010",
+      "chapterIndex": 23,
+      "chunkIndex": 10,
+      "title": "3. Bibliotecas Javascript",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch023-011",
+      "chapterIndex": 23,
+      "chunkIndex": 11,
+      "title": "3. Bibliotecas Javascript",
+      "words": 102
+    },
+    {
+      "id": "css3-javascript-avanzado-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "5. Prototype",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch024-001",
+      "chapterIndex": 24,
+      "chunkIndex": 1,
+      "title": "5. Prototype",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch024-002",
+      "chapterIndex": 24,
+      "chunkIndex": 2,
+      "title": "5. Prototype",
+      "words": 61
+    },
+    {
+      "id": "css3-javascript-avanzado-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "6. YUI",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch025-001",
+      "chapterIndex": 25,
+      "chunkIndex": 1,
+      "title": "6. YUI",
+      "words": 254
+    },
+    {
+      "id": "css3-javascript-avanzado-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "7. MooTools",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch026-001",
+      "chapterIndex": 26,
+      "chunkIndex": 1,
+      "title": "7. MooTools",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch026-002",
+      "chapterIndex": 26,
+      "chunkIndex": 2,
+      "title": "7. MooTools",
+      "words": 276
+    },
+    {
+      "id": "css3-javascript-avanzado-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "8. Librerías Javascript para canvas",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch027-001",
+      "chapterIndex": 27,
+      "chunkIndex": 1,
+      "title": "8. Librerías Javascript para canvas",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch027-002",
+      "chapterIndex": 27,
+      "chunkIndex": 2,
+      "title": "8. Librerías Javascript para canvas",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch027-003",
+      "chapterIndex": 27,
+      "chunkIndex": 3,
+      "title": "8. Librerías Javascript para canvas",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch027-004",
+      "chapterIndex": 27,
+      "chunkIndex": 4,
+      "title": "8. Librerías Javascript para canvas",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch027-005",
+      "chapterIndex": 27,
+      "chunkIndex": 5,
+      "title": "8. Librerías Javascript para canvas",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch027-006",
+      "chapterIndex": 27,
+      "chunkIndex": 6,
+      "title": "8. Librerías Javascript para canvas",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch027-007",
+      "chapterIndex": 27,
+      "chunkIndex": 7,
+      "title": "8. Librerías Javascript para canvas",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch027-008",
+      "chapterIndex": 27,
+      "chunkIndex": 8,
+      "title": "8. Librerías Javascript para canvas",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch027-009",
+      "chapterIndex": 27,
+      "chunkIndex": 9,
+      "title": "8. Librerías Javascript para canvas",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch027-010",
+      "chapterIndex": 27,
+      "chunkIndex": 10,
+      "title": "8. Librerías Javascript para canvas",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch027-011",
+      "chapterIndex": 27,
+      "chunkIndex": 11,
+      "title": "8. Librerías Javascript para canvas",
+      "words": 299
+    },
+    {
+      "id": "css3-javascript-avanzado-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "9. Ejercicios",
+      "words": 500
+    },
+    {
+      "id": "css3-javascript-avanzado-ch028-001",
+      "chapterIndex": 28,
+      "chunkIndex": 1,
+      "title": "9. Ejercicios",
+      "words": 373
+    }
+  ]
+}

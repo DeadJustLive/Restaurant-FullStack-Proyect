@@ -1,0 +1,397 @@
+{
+  "id": "capacitorjs-docs",
+  "title": "CapacitorJS — Documentación Oficial",
+  "author": "Ionic Team",
+  "pages": 100,
+  "sourceFile": "web:capacitorjs.com",
+  "processedAt": "2026-05-17T08:44:01.902Z",
+  "method": "web",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Configuration",
+      "file": "chapters/capacitorjs-docs/01-configuration.md",
+      "words": 1312
+    },
+    {
+      "index": 2,
+      "title": "Custom code",
+      "file": "chapters/capacitorjs-docs/02-custom-code.md",
+      "words": 1312
+    },
+    {
+      "index": 3,
+      "title": "Deploying to google play",
+      "file": "chapters/capacitorjs-docs/03-deploying-to-google-play.md",
+      "words": 1312
+    },
+    {
+      "index": 4,
+      "title": "Android",
+      "file": "chapters/capacitorjs-docs/04-android.md",
+      "words": 1312
+    },
+    {
+      "index": 5,
+      "title": "Setting target sdk",
+      "file": "chapters/capacitorjs-docs/05-setting-target-sdk.md",
+      "words": 1312
+    },
+    {
+      "index": 6,
+      "title": "Troubleshooting",
+      "file": "chapters/capacitorjs-docs/06-troubleshooting.md",
+      "words": 1312
+    },
+    {
+      "index": 7,
+      "title": "API​",
+      "file": "chapters/capacitorjs-docs/07-api.md",
+      "words": 28
+    },
+    {
+      "index": 8,
+      "title": "Cli",
+      "file": "chapters/capacitorjs-docs/08-cli.md",
+      "words": 198
+    },
+    {
+      "index": 9,
+      "title": "Config",
+      "file": "chapters/capacitorjs-docs/09-config.md",
+      "words": 1312
+    },
+    {
+      "index": 10,
+      "title": "Running Your App​",
+      "file": "chapters/capacitorjs-docs/10-running-your-app.md",
+      "words": 17
+    },
+    {
+      "index": 11,
+      "title": "Migration strategy",
+      "file": "chapters/capacitorjs-docs/11-migration-strategy.md",
+      "words": 876
+    },
+    {
+      "index": 12,
+      "title": "Cordova",
+      "file": "chapters/capacitorjs-docs/12-cordova.md",
+      "words": 1019
+    },
+    {
+      "index": 13,
+      "title": "Data types",
+      "file": "chapters/capacitorjs-docs/13-data-types.md",
+      "words": 1312
+    },
+    {
+      "index": 14,
+      "title": "Ios",
+      "file": "chapters/capacitorjs-docs/14-ios.md",
+      "words": 1312
+    },
+    {
+      "index": 15,
+      "title": "Saving calls",
+      "file": "chapters/capacitorjs-docs/15-saving-calls.md",
+      "words": 1312
+    },
+    {
+      "index": 16,
+      "title": "Web",
+      "file": "chapters/capacitorjs-docs/16-web.md",
+      "words": 1312
+    },
+    {
+      "index": 17,
+      "title": "Ads",
+      "file": "chapters/capacitorjs-docs/17-ads.md",
+      "words": 1146
+    },
+    {
+      "index": 18,
+      "title": "WebView-Accessible Native Code​",
+      "file": "chapters/capacitorjs-docs/18-webview-accessible-native-code.md",
+      "words": 21
+    },
+    {
+      "index": 19,
+      "title": "Autofill credentials",
+      "file": "chapters/capacitorjs-docs/19-autofill-credentials.md",
+      "words": 1239
+    },
+    {
+      "index": 20,
+      "title": "Automated configuration",
+      "file": "chapters/capacitorjs-docs/20-automated-configuration.md",
+      "words": 844
+    },
+    {
+      "index": 21,
+      "title": "When to create a subclass​",
+      "file": "chapters/capacitorjs-docs/21-when-to-create-a-subclass.md",
+      "words": 15
+    },
+    {
+      "index": 22,
+      "title": "Community",
+      "file": "chapters/capacitorjs-docs/22-community.md",
+      "words": 879
+    },
+    {
+      "index": 23,
+      "title": "Deep links",
+      "file": "chapters/capacitorjs-docs/23-deep-links.md",
+      "words": 1271
+    },
+    {
+      "index": 24,
+      "title": "Using SPM in an existing Capacitor Project​",
+      "file": "chapters/capacitorjs-docs/24-using-spm-in-an-existing-capacitor-project.md",
+      "words": 31
+    },
+    {
+      "index": 25,
+      "title": "Environment specific configurations",
+      "file": "chapters/capacitorjs-docs/25-environment-specific-configurations.md",
+      "words": 1156
+    },
+    {
+      "index": 26,
+      "title": "Games",
+      "file": "chapters/capacitorjs-docs/26-games.md",
+      "words": 1136
+    },
+    {
+      "index": 27,
+      "title": "Live reload",
+      "file": "chapters/capacitorjs-docs/27-live-reload.md",
+      "words": 1020
+    },
+    {
+      "index": 28,
+      "title": "Mocking plugins",
+      "file": "chapters/capacitorjs-docs/28-mocking-plugins.md",
+      "words": 851
+    },
+    {
+      "index": 29,
+      "title": "Android Toolbox​",
+      "file": "chapters/capacitorjs-docs/29-android-toolbox.md",
+      "words": 15
+    },
+    {
+      "index": 30,
+      "title": "React hooks",
+      "file": "chapters/capacitorjs-docs/30-react-hooks.md",
+      "words": 967
+    },
+    {
+      "index": 31,
+      "title": "Screen orientation",
+      "file": "chapters/capacitorjs-docs/31-screen-orientation.md",
+      "words": 1193
+    },
+    {
+      "index": 32,
+      "title": "Security",
+      "file": "chapters/capacitorjs-docs/32-security.md",
+      "words": 941
+    },
+    {
+      "index": 33,
+      "title": "Splash screens and icons",
+      "file": "chapters/capacitorjs-docs/33-splash-screens-and-icons.md",
+      "words": 4229
+    },
+    {
+      "index": 34,
+      "title": "Bridge​",
+      "file": "chapters/capacitorjs-docs/34-bridge.md",
+      "words": 12
+    },
+    {
+      "index": 35,
+      "title": "Overview​",
+      "file": "chapters/capacitorjs-docs/35-overview.md",
+      "words": 17
+    },
+    {
+      "index": 36,
+      "title": "Deploying to app store",
+      "file": "chapters/capacitorjs-docs/36-deploying-to-app-store.md",
+      "words": 1312
+    },
+    {
+      "index": 37,
+      "title": "Capacitor Object​",
+      "file": "chapters/capacitorjs-docs/37-capacitor-object.md",
+      "words": 11
+    },
+    {
+      "index": 38,
+      "title": "Privacy manifest",
+      "file": "chapters/capacitorjs-docs/38-privacy-manifest.md",
+      "words": 1312
+    },
+    {
+      "index": 39,
+      "title": "Spm",
+      "file": "chapters/capacitorjs-docs/39-spm.md",
+      "words": 1312
+    },
+    {
+      "index": 40,
+      "title": "Viewcontroller",
+      "file": "chapters/capacitorjs-docs/40-viewcontroller.md",
+      "words": 1312
+    },
+    {
+      "index": 41,
+      "title": "Support policy",
+      "file": "chapters/capacitorjs-docs/41-support-policy.md",
+      "words": 1312
+    },
+    {
+      "index": 42,
+      "title": "Data Security​",
+      "file": "chapters/capacitorjs-docs/42-data-security.md",
+      "words": 16
+    },
+    {
+      "index": 43,
+      "title": "2 0",
+      "file": "chapters/capacitorjs-docs/43-2-0.md",
+      "words": 1094
+    },
+    {
+      "index": 44,
+      "title": "3 0",
+      "file": "chapters/capacitorjs-docs/44-3-0.md",
+      "words": 775
+    },
+    {
+      "index": 45,
+      "title": "5 0",
+      "file": "chapters/capacitorjs-docs/45-5-0.md",
+      "words": 1163
+    },
+    {
+      "index": 46,
+      "title": "6 0",
+      "file": "chapters/capacitorjs-docs/46-6-0.md",
+      "words": 794
+    },
+    {
+      "index": 47,
+      "title": "7 0",
+      "file": "chapters/capacitorjs-docs/47-7-0.md",
+      "words": 1123
+    },
+    {
+      "index": 48,
+      "title": "Setup a new iOS scheme​",
+      "file": "chapters/capacitorjs-docs/48-setup-a-new-ios-scheme.md",
+      "words": 37
+    },
+    {
+      "index": 49,
+      "title": "Setup Android product flavors​",
+      "file": "chapters/capacitorjs-docs/49-setup-android-product-flavors.md",
+      "words": 21
+    },
+    {
+      "index": 50,
+      "title": "Dynamically build for different environments​",
+      "file": "chapters/capacitorjs-docs/50-dynamically-build-for-different-environments.md",
+      "words": 18
+    },
+    {
+      "index": 51,
+      "title": "8 0",
+      "file": "chapters/capacitorjs-docs/51-8-0.md",
+      "words": 2327
+    },
+    {
+      "index": 52,
+      "title": "Using plugins",
+      "file": "chapters/capacitorjs-docs/52-using-plugins.md",
+      "words": 1080
+    },
+    {
+      "index": 53,
+      "title": "Utilities",
+      "file": "chapters/capacitorjs-docs/53-utilities.md",
+      "words": 2304
+    },
+    {
+      "index": 54,
+      "title": "Faqs",
+      "file": "chapters/capacitorjs-docs/54-faqs.md",
+      "words": 735
+    },
+    {
+      "index": 55,
+      "title": "Getting started",
+      "file": "chapters/capacitorjs-docs/55-getting-started.md",
+      "words": 1162
+    },
+    {
+      "index": 56,
+      "title": "Templates",
+      "file": "chapters/capacitorjs-docs/56-templates.md",
+      "words": 732
+    },
+    {
+      "index": 57,
+      "title": "Vscode extension",
+      "file": "chapters/capacitorjs-docs/57-vscode-extension.md",
+      "words": 732
+    },
+    {
+      "index": 58,
+      "title": "Sección",
+      "file": "chapters/capacitorjs-docs/58-sección.md",
+      "words": 1162
+    },
+    {
+      "index": 59,
+      "title": "Progressive web apps",
+      "file": "chapters/capacitorjs-docs/59-progressive-web-apps.md",
+      "words": 1258
+    },
+    {
+      "index": 60,
+      "title": "Pwa elements",
+      "file": "chapters/capacitorjs-docs/60-pwa-elements.md",
+      "words": 1258
+    },
+    {
+      "index": 61,
+      "title": "Get startedeasily.",
+      "file": "chapters/capacitorjs-docs/61-get-startedeasily.md",
+      "words": 30
+    },
+    {
+      "index": 62,
+      "title": "Connect web apps tonative functionality.",
+      "file": "chapters/capacitorjs-docs/62-connect-web-apps-tonative-functionality.md",
+      "words": 15
+    },
+    {
+      "index": 63,
+      "title": "Cross-platform, core native plugins.",
+      "file": "chapters/capacitorjs-docs/63-cross-platform-core-native-plugins.md",
+      "words": 24
+    },
+    {
+      "index": 64,
+      "title": "What people are saying about Capacitor.",
+      "file": "chapters/capacitorjs-docs/64-what-people-are-saying-about-capacitor.md",
+      "words": 67
+    }
+  ],
+  "learningIntegrated": false,
+  "sourceUrl": "https://capacitorjs.com/docs"
+}

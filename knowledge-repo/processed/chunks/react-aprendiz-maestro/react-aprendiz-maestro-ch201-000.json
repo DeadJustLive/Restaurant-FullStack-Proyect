@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch201-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 201,
+  "chunkIndex": 0,
+  "title": "ÍNDICE GENERAL",
+  "start": 0,
+  "end": 221,
+  "words": 221,
+  "content": "# 13.3 Permitiendo a las Notas que Detecten Notas que Pasan por Encima Podemos anotar notas de tal modo que detecten que otra nota les está pasando por encima de un modo similar al anterior. En este caso usaremos la anotación DropTarget: app/components/Note.jsx import React from 'react'; import {DragSource} from 'react-dnd'; import {compose} from 'redux'; import {DragSource, DropTarget} from 'react-dnd'; import ItemTypes from '../constants/itemTypes'; const Note = ({ connectDragSource, children, ...props connectDragSource, connectDropTarget, children, ...props }) => { return connectDragSource( return compose(connectDragSource, connectDropTarget)( <div {...props}> {children} </div> ); }; const noteSource = { beginDrag(props) { console.log('begin dragging note', props); return {}; } }; -- 159 of 226 -- Implementado Arrastrar y Soltar 142 const noteTarget = { hover(targetProps, monitor) { const sourceProps = monitor.getItem(); console.log('dragging note', sourceProps, targetProps); } }; export default DragSource(ItemTypes.NOTE, noteSource, connect => ({ connectDragSource: connect.dragSource() }))(Note) export default compose( DragSource(ItemTypes.NOTE, noteSource, connect => ({ connectDragSource: connect.dragSource() })), DropTarget(ItemTypes.NOTE, noteTarget, connect => ({ connectDropTarget: connect.dropTarget() })) )(Note) Si pruebas a arrastrar una nota por encima de otra deberías ver mensajes como el siguiente en la consola: dragging note Object {} Object {className: \"note\", children: Array[2\\ ]} Ambos decoradores nos dan acceso a las propiedades de Nota. En este caso estamos usando monitor.getItem() para acceder a ellas en noteTarget. Esta es la clave para hacer que todo funcione correctamente."
+}

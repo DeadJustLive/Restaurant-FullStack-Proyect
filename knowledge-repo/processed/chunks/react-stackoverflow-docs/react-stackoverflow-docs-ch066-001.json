@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch066-001",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 66,
+  "chunkIndex": 1,
+  "title": "Capítulo 22:: Reaccionar llamada AJAX",
+  "start": 450,
+  "end": 561,
+  "words": 111,
+  "content": "de agregar siempre un atributo key único (o prop) al elemento en bucle, que es importante para el rendimiento de representación de React. import React from 'react'; class Users extends React.Component { constructor() { super(); this.state = { users: [] }; } componentDidMount() { fetch('/api/users') .then(response => response.json()) .then(json => this.setState({ users: json.data })); } render() { return ( <div> <h1>Users</h1> { this.state.users.length == 0 ? 'Loading users...' : this.state.users.map(user => ( <figure key={user.id}> <img src={user.avatar} /> <figcaption> {user.name} </figcaption> </figure> )) } </div> ); } } ReactDOM.render(<Users />, document.getElementById('root')); Ejemplo de trabajo en JSBin . Lea Reaccionar llamada AJAX en línea: https://riptutorial.com/es/reactjs/topic/6432/reaccionar- llamada-ajax https://riptutorial.com/es/home 89 -- 99 of 139 --"
+}

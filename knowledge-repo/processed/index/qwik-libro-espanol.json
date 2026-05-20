@@ -1,0 +1,222 @@
+{
+  "id": "qwik-libro-espanol",
+  "title": "Qwik Framework - Libro en Español",
+  "author": "Anartz Mugika / Comunidad",
+  "pages": 35,
+  "sourceFile": "web/qwik-libro-espanol",
+  "processedAt": "2026-05-17T03:11:43.797015",
+  "method": "web",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Introducción y Presentación",
+      "file": "chapters/web/qwik-libro-espanol/00-intro.md",
+      "words": 1403
+    },
+    {
+      "index": 2,
+      "title": "src_global.css · GitHub",
+      "file": "chapters/web/qwik-libro-espanol/02-routing.md",
+      "words": 169
+    },
+    {
+      "index": 3,
+      "title": "src_global.css · GitHub",
+      "file": "chapters/web/qwik-libro-espanol/03-components.md",
+      "words": 169
+    },
+    {
+      "index": 4,
+      "title": "src_global.css · GitHub",
+      "file": "chapters/web/qwik-libro-espanol/04-layout.md",
+      "words": 169
+    },
+    {
+      "index": 5,
+      "title": "Estilos",
+      "file": "chapters/web/qwik-libro-espanol/05-styles.md",
+      "words": 5425
+    },
+    {
+      "index": 6,
+      "title": "Server Side Rendering (SSR)",
+      "file": "chapters/web/qwik-libro-espanol/06-styles-practice.md",
+      "words": 1436
+    },
+    {
+      "index": 7,
+      "title": "Server Side Rendering (SSR)",
+      "file": "chapters/web/qwik-libro-espanol/07-ssr.md",
+      "words": 1436
+    },
+    {
+      "index": 8,
+      "title": "State Management: Gestión de estados - Parte 1",
+      "file": "chapters/web/qwik-libro-espanol/08-state-management.md",
+      "words": 3874
+    },
+    {
+      "index": 9,
+      "title": "State Management: Gestión de estados - Parte 2",
+      "file": "chapters/web/qwik-libro-espanol/09-state-management-ii.md",
+      "words": 3147
+    },
+    {
+      "index": 10,
+      "title": "State Management: Gestión de estados - Práctica",
+      "file": "chapters/web/qwik-libro-espanol/10-state-management-practice.md",
+      "words": 3302
+    },
+    {
+      "index": 11,
+      "title": "Consumir APIs REST / GraphQL",
+      "file": "chapters/web/qwik-libro-espanol/11-api-rest-graphql.md",
+      "words": 4488
+    },
+    {
+      "index": 12,
+      "title": "Tasks / Lifecycles - Tareas / Ciclos de vida",
+      "file": "chapters/web/qwik-libro-espanol/12-lifecycles.md",
+      "words": 8388
+    },
+    {
+      "index": 13,
+      "title": "Formularios",
+      "file": "chapters/web/qwik-libro-espanol/13-forms.md",
+      "words": 7405
+    },
+    {
+      "index": 14,
+      "title": "Eventos",
+      "file": "chapters/web/qwik-libro-espanol/14-events.md",
+      "words": 7559
+    },
+    {
+      "index": 15,
+      "title": "Slots: Content Projection / Proyección de contenido",
+      "file": "chapters/web/qwik-libro-espanol/15-content-projection.md",
+      "words": 4008
+    },
+    {
+      "index": 16,
+      "title": "Custom Hooks",
+      "file": "chapters/web/qwik-libro-espanol/16-custom-hooks.md",
+      "words": 4305
+    },
+    {
+      "index": 17,
+      "title": "Testing",
+      "file": "chapters/web/qwik-libro-espanol/17-testing.md",
+      "words": 8276
+    },
+    {
+      "index": 18,
+      "title": "Crear y publicar librería en NPM / Modo librería",
+      "file": "chapters/web/qwik-libro-espanol/18-library-mode.md",
+      "words": 5695
+    },
+    {
+      "index": 19,
+      "title": "Integraciones",
+      "file": "chapters/web/qwik-libro-espanol/19-integrations.md",
+      "words": 4479
+    },
+    {
+      "index": 20,
+      "title": "Integraciones: Trabajando con Componentes React",
+      "file": "chapters/web/qwik-libro-espanol/20-integrations-react.md",
+      "words": 7133
+    },
+    {
+      "index": 21,
+      "title": "Deploy: Publicar aplicaciones",
+      "file": "chapters/web/qwik-libro-espanol/21-deploy.md",
+      "words": 2037
+    },
+    {
+      "index": 22,
+      "title": "Proyecto - Juego Piedra, Papel y Tijera",
+      "file": "chapters/web/qwik-libro-espanol/22-project-rock-paper-scissors.md",
+      "words": 4485
+    },
+    {
+      "index": 23,
+      "title": "Page not found",
+      "file": "chapters/web/qwik-libro-espanol/anartzdev-036352bf06339297c2398d188534b6c3-archive-bc41a9f46cd67d5601d5b8be19396e7eafbfca82_zip.md",
+      "words": 47
+    },
+    {
+      "index": 24,
+      "title": "Page not found",
+      "file": "chapters/web/qwik-libro-espanol/anartzdev-036352bf06339297c2398d188534b6c3-raw-bc41a9f46cd67d5601d5b8be19396e7eafbfca82-src_global_css.md",
+      "words": 47
+    },
+    {
+      "index": 25,
+      "title": "Page not found",
+      "file": "chapters/web/qwik-libro-espanol/anartzdev-036352bf06339297c2398d188534b6c3-raw-bc41a9f46cd67d5601d5b8be19396e7eafbfca82-src_routes_index_tsx.md",
+      "words": 47
+    },
+    {
+      "index": 26,
+      "title": "Page not found",
+      "file": "chapters/web/qwik-libro-espanol/anartzdev-036352bf06339297c2398d188534b6c3-raw-bc41a9f46cd67d5601d5b8be19396e7eafbfca82-src_routes_layout_tsx.md",
+      "words": 47
+    },
+    {
+      "index": 27,
+      "title": "Page not found",
+      "file": "chapters/web/qwik-libro-espanol/anartzdev-036352bf06339297c2398d188534b6c3-revisions.md",
+      "words": 47
+    },
+    {
+      "index": 28,
+      "title": "Page not found",
+      "file": "chapters/web/qwik-libro-espanol/anartzdev-036352bf06339297c2398d188534b6c3.md",
+      "words": 47
+    },
+    {
+      "index": 29,
+      "title": "Page not found",
+      "file": "chapters/web/qwik-libro-espanol/anartzdev.md",
+      "words": 47
+    },
+    {
+      "index": 30,
+      "title": "Cheatsheet",
+      "file": "chapters/web/qwik-libro-espanol/cheatsheet.md",
+      "words": 1611
+    },
+    {
+      "index": 31,
+      "title": "Page not found",
+      "file": "chapters/web/qwik-libro-espanol/discover.md",
+      "words": 47
+    },
+    {
+      "index": 32,
+      "title": "Dominando Qwik desde 0 hasta producción",
+      "file": "chapters/web/qwik-libro-espanol/home.md",
+      "words": 191
+    },
+    {
+      "index": 33,
+      "title": "Page not found",
+      "file": "chapters/web/qwik-libro-espanol/join.md",
+      "words": 47
+    },
+    {
+      "index": 34,
+      "title": "Page not found",
+      "file": "chapters/web/qwik-libro-espanol/login.md",
+      "words": 47
+    },
+    {
+      "index": 35,
+      "title": "Page not found",
+      "file": "chapters/web/qwik-libro-espanol/revealButtonHref.md",
+      "words": 51
+    }
+  ],
+  "learningIntegrated": true
+}

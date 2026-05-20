@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch044-001",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 44,
+  "chunkIndex": 1,
+  "title": "Chapter 16",
+  "start": 450,
+  "end": 636,
+  "words": 186,
+  "content": "fondo, tamaño y posición. Podemos representar el fondo como una tabla ya que es una cuadrícula in- mutable de cuadrados. Los elementos de movimiento libre se pueden super- poner utilizando elementos posicionados absolutamente. En juegos y otros programas que deben animar gráficos y responder a la en- trada del usuario sin retrasos notables, la eficiencia es importante. Aunque el DOM no fue diseñado originalmente para gráficos de alto rendimiento, en real- idad es mejor en esto de lo que podrías esperar. Viste algunas animaciones en el Capítulo 14. En una máquina moderna, un juego simple como este funciona bien, incluso si no nos preocupamos mucho por la optimización. En el próximo capítulo, exploraremos otra tecnología del navegador, la eti- queta <canvas>, que proporciona una forma más tradicional de dibujar gráficos, trabajando en términos de formas y píxeles en lugar de elementos del DOM. 262 -- 274 of 445 -- Niveles Queremos una forma legible y editable por humanos para especificar niveles. Dado que está bien que todo comience en una cuadrícula, podríamos usar cadenas grandes en las que cada carácter represente un elemento, ya sea una"
+}

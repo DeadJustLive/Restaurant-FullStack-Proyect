@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch177-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 177,
+  "chunkIndex": 0,
+  "title": "8. Escriba un algoritmo en pseudoc´odigo que almacene caracteres en",
+  "start": 0,
+  "end": 48,
+  "words": 48,
+  "content": "# 8. Escriba un algoritmo en pseudoc´odigo que almacene caracteres en una matriz de 4 filas por 5 columnas y que posteriormente, halle y muestre la matriz transpuesta de la matriz originalmente ingresada. La matriz transpuesta es una matriz que tiene como filas, las columnas de otra matriz."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2-3-6-guia-desarrollo-software-v2-0-ch044-000",
+  "bookId": "2-3-6-guia-desarrollo-software-v2-0",
+  "chapterIndex": 44,
+  "chunkIndex": 0,
+  "title": "VIII. Uso de contenedores en el",
+  "start": 0,
+  "end": 278,
+  "words": 278,
+  "content": "# VIII. Uso de contenedores en el despliegue Para el despliegue de las aplicaciones es altamente recomendado el uso de contenedores, debido a la facilidad de movilidad de los mismos y replicación de los distintos ambientes. Dada su característica de idempotente, nos permiten replicar en una plataforma para crecer de forma horizontal. Para el despliegue de las aplicaciones es altamente recomendado el uso de contenedores, debido a la facilidad de movilidad de los mismos y replicación de los distintos ambientes. Dada su característica de idempotente, nos permiten replicar en una plataforma para crecer de forma horizontal. En plataformas con contenedores Docker, el uso de herramientas para la gestión y automatización es muy recomendable. En este caso, se sugiere usar Ansible, Chef o Puppet para la administración de los servidores y levantar los contenedores en los mismos, utilizando la herramienta docker-compose provista por Docker. Este set de herramientas permite su fácil y rápida replicación. Para situaciones en las cuales se puede contar con cluster Kubernetes o CloudFoundry, las herramientas provistas por cada uno es suficiente para el despliegue, ya que estas herramientas están preparadas para la gestión, replicación y respaldo de los ambientes, y es posible generar más de un ambiente usando las herramientas que ofrecen para ello Se entiende también que muchas veces las aplicaciones no pueden ingresar a un contenedor, o por su carácter legacy no es posible introducirlas en estos contenedores idempotentes. Sin embargo, se sugiere considerar su uso en los futuros desarrollos y, de esta forma, ir avanzando hacia infraestructuras más flexibles y que pueden crecer de forma horizontal. División de Gobierno Digital | Lineamientos para desarrollo de software 25 -- 25 of 33 --"
+}

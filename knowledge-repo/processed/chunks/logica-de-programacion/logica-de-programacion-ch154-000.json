@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch154-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 154,
+  "chunkIndex": 0,
+  "title": "5. Dise˜ne un algoritmos con funciones y procedimientos que indique si",
+  "start": 0,
+  "end": 34,
+  "words": 34,
+  "content": "# 5. Dise˜ne un algoritmos con funciones y procedimientos que indique si la llave de un tanque de agua debe ser abierta o cerrada. El tanque debe estar siempre entre 250 y 450 litros."
+}

@@ -11,7 +11,7 @@ import org.mapstruct.Mapper;
  * MAPPER: CarritoMapper
  * =============================================================================
  */
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", unmappedTargetPolicy = org.mapstruct.ReportingPolicy.IGNORE)
 public interface CarritoMapper {
 
     CarritoResponseDTO toResponseDTO(Carrito carrito);

@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch012-000",
+  "bookId": "node-js-es",
+  "chapterIndex": 12,
+  "chunkIndex": 0,
+  "title": "Capítulo 40:: Emisores de eventos 143",
+  "start": 0,
+  "end": 48,
+  "words": 48,
+  "content": "# Capítulo 40:: Emisores de eventos 143 Observaciones 143 Examples 143 HTTP Analytics a través de un emisor de eventos 143 Lo esencial 144 Obtenga los nombres de los eventos a los que está suscrito. 145 Obtenga el número de oyentes registrados para escuchar un evento específico 145"
+}

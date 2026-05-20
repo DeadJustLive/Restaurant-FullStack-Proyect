@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch064-002",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 64,
+  "chunkIndex": 2,
+  "title": "Capítulo 37:: Propiedad",
+  "start": 900,
+  "end": 1112,
+  "words": 212,
+  "content": "once the function terminates, x will be dropped, // unless it is moved away when calling another function. let mut x2 = x; // moving OK x2.push_str(\"foo\"); // mutating OK let _ = &mut x2; // mutable borrow OK let _ = &x2; // immutable borrow OK (note that &mut above is dropped) println!(\"{}\", x2.len()); // reading OK drop(x2); // dropping OK } La propiedad y el rasgo de la copia Algunos tipos de Rust implementan el rasgo de Copy . Los tipos que son Copy se pueden mover sin poseer el valor en cuestión. Esto se debe a que el contenido del valor puede simplemente copiarse byte por byte en la memoria para producir un nuevo valor idéntico. La mayoría de las primitivas en Rust ( bool , usize , f64 , etc.) son Copy . let x: isize = 42; let xr = &x; let y = *xr; // OK, because isize is Copy // both x and y are owned here En particular, Vec y String no son Copy : let x = Vec::new(); https://riptutorial.com/es/home 123 -- 137 of 188 -- let xr = &x; let y = *xr; // ERROR, cannot move out of borrowed content Lea Propiedad en línea: https://riptutorial.com/es/rust/topic/4395/propiedad https://riptutorial.com/es/home 124 -- 138 of 188 --"
+}

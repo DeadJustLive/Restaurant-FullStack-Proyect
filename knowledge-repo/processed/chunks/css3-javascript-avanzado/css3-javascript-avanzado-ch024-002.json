@@ -1,0 +1,11 @@
+{
+  "id": "css3-javascript-avanzado-ch024-002",
+  "bookId": "css3-javascript-avanzado",
+  "chapterIndex": 24,
+  "chunkIndex": 2,
+  "title": "5. Prototype",
+  "start": 900,
+  "end": 961,
+  "words": 61,
+  "content": "nos permiten generar widgets drag&drop de manera simple o widgets para ordenar toda una galería de efectos y componentes, como casillas de autocompletado o un sistema de edición de contenidos en el propio documento html. Web recomendada Podemos consultarlo en lí- nea, donde encontraremos una amplia documentación: http://api.prototypejs.org/ -- 48 of 86 -- CC-BY-SA • PID_00176160 49 CSS3 y Javascript avanzado"
+}

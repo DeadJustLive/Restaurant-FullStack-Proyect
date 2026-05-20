@@ -1,0 +1,88 @@
+# 3.3 Cadenas de texto
+
+## Fuente
+Aprende Python (Cap. 20)
+
+## Contenido
+# 3.3 Cadenas de texto
+
+Las cadenas de texto son secuencias de caracteres. También se les conoce como «strings»
+y nos permiten almacenar información textual de forma muy cómoda.1
+Es importante destacar que Python 3 almacena los caracteres codificados en el estándar
+Unicode, lo que es una gran ventaja con respecto a versiones antiguas del lenguaje. Además
+permite representar una cantidad ingente de símbolos incluyendo los famosos emojis .
+3.3.1 Creando «strings»
+Para escribir una cadena de texto en Python basta con rodear los caracteres con comillas
+simples6:
+>>> Mi primera cadena en Python
+Mi primera cadena en Python
+Para incluir comillas dobles dentro de la cadena de texto no hay mayor inconveniente:
+>>> Los llamados "strings" son secuencias de caracteres
+Los llamados "strings" son secuencias de caracteres
+1 Foto original de portada por Roman Kraft en Unsplash.
+6 También es posible utilizar comillas dobles. Yo me he decantado por las comillas simples ya que quedan
+más limpias y suele ser el formato que devuelve el propio intérprete de Python.
+3.3. Cadenas de texto 73
+
+-- 77 of 516 --
+
+Aprende Python
+Puede surgir la duda de cómo incluimos comillas simples dentro de la propia cadena de
+texto. Veamos soluciones para ello:
+Lista 4: Comillas simples escapadas
+>>> Los llamados \strings\ son secuencias de caracteres
+"Los llamados strings son secuencias de caracteres"
+Lista 5: Comillas simples dentro de comillas dobles
+>>> "Los llamados strings son secuencias de caracteres"
+"Los llamados strings son secuencias de caracteres"
+En la primera opción estamos escapando las comillas simples para que no sean tratadas
+como caracteres especiales. En la segunda opción estamos creando el «string» con comillas
+dobles (por fuera) para poder incluir directamente las comillas simples (por dentro). Python
+también nos ofrece esta posibilidad.
+Comillas triples
+Hay una forma alternativa de crear cadenas de texto utilizando comillas triples. Su uso está
+pensado principalmente para cadenas multilínea:
+>>> poem = To be, or not to be, that is the question:
+... Whether tis nobler in the mind to suffer
+... The slings and arrows of outrageous fortune,
+... Or to take arms against a sea of troubles
+Importante: Los tres puntos ... que aparecen a la izquierda de las líneas no están incluidos
+en la cadena de texto. Es el símbolo que ofrece el intérprete de Python cuando saltamos de
+línea.
+Cadena vacía
+La cadena vacía es aquella que no contiene ningún carácter. Aunque a priori no lo pueda
+parecer, es un recurso importante en cualquier código. Su representación en Python es la
+siguiente:
+>>>
+74 Capítulo 3. Tipos de datos
+
+-- 78 of 516 --
+
+Aprende Python
+3.3.2 Conversión
+Podemos crear «strings» a partir de otros tipos de datos usando la función str():
+>>> str(True)
+True
+>>> str(10)
+10
+>>> str(21.7)
+21.7
+Para el caso contrario de convertir un «string» a un valor numérico, tenemos a disposición
+las funciones ya vistas:
+>>> int( 10 )
+10
+>>> float( 21.7 )
+21.7
+Pero hay que tener en cuenta un detalle. La función int() también admite la base en la
+que se encuentra el número. Eso significa que podemos pasar un número, por ejemplo, en
+hexadecimal (como «string») y lo podríamos convertir a su valor entero:
+>>> int( FF , 16)
+255
+Nota: La base por defecto que utiliza int() para convertir cadenas de texto es la base
+decimal.
+3.3.3 Secuencias de escape
+Python permite escapar el significado de algunos caracteres para conseguir otros resultados.
+Si escribimos una barra invertida \ antes del carácter en cuestión, le otorgamos un significado
+especial.
+Quizás la secuencia de escape más conocida es \n que representa un salto de línea, pero
+existen muchas otras:

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch198-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 198,
+  "chunkIndex": 0,
+  "title": "PROP´OSITO:",
+  "start": 0,
+  "end": 32,
+  "words": 32,
+  "content": "# PRECONDICIONES: * default <hay un tablero de Zilfost codificado> * el n´umero m´aximo codificado no excede la cantidad de d´ıgitos disponibles * se encuentra en la zona de n´umeros a incrementar"
+}

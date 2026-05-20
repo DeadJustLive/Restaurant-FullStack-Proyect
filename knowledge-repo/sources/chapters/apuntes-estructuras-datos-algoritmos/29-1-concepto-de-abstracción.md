@@ -1,0 +1,27 @@
+# 1. Concepto de abstracción
+
+El concepto de abstracción en el proceso de comprensión de un problema lleva consigo el destacar los detalles
+importantes e ignorar los irrelevantes.
+Los siguientes son ejemplos de abstracción relacionados de alguna manera con la programación y los lenguajes:
+• 	los lenguajes de alto nivel persiguen abstraerse de los detalles de los ensambladores;
+• 	los procedimientos y funciones permiten la abstracción de un conjunto de instrucciones;
+• 	la especificación formal es una abstracción de cómo resolver un problema.
+El uso de la abstracción en programación sugiere un método jerárquico de diseño (normalmente descendente) que
+implica la consideración de varios niveles de detalle.
+En programación cabe distinguir entre las dos formas siguientes de abstracción:
+• 	Abstracción de acciones (procedural o funcional): una acción (o valor) virtual parametrizada (ocultación de
+información: datos locales y secuencia de instrucciones); separación del qué (especificación) y el cómo
+(implementación).
+• 	Abstracción de datos, en la que nos vamos a centrar en estos apuntes, si bien conocemos ya algunos ejemplos en
+los lenguajes de programación usuales:
+- Tipos simples estándar (enteros, booleanos, reales)
+independencia de la máquina
+representación invisible
+manipulación con un conjunto de operaciones prefijadas
+- Tipos simples definidos por el programador (enumeraciones)
+se eleva el “nivel del lenguaje” (ejemplo: enum Color {rojo, verde, azul};)
+conjunto de operaciones predefinidas
+- Tipos estructurados definidos por el programador
+constructores genéricos de tipos que debe completar el programador (vectores y tuplas o registros)
+(ejemplos: int T[100]; struct Nif {int dni; char letra;};)
+operaciones predefinidas para tipos estructurados como los anteriores (ejemplo, el acceso a T[0])

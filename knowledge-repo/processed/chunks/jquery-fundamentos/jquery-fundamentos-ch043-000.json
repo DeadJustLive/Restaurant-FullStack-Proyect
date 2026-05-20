@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch043-000",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 43,
+  "chunkIndex": 0,
+  "title": "para sistemas que no son windows",
+  "start": 0,
+  "end": 9,
+  "words": 9,
+  "content": "# para sistemas que no son windows ../../requirejs/build/build.sh app.build.js"
+}

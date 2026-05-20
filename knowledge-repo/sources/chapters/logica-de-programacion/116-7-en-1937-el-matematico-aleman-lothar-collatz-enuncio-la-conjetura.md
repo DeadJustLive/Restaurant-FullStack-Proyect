@@ -1,0 +1,25 @@
+# 7. En 1937, el matem´atico alem´an Lothar Collatz, enunci´o la conjetura
+
+de Collatz, tambi´en conocida como el problema de Ulam, conjetura
+3n + 1, entre otros.
+Collatz enunci´o que, a partir de cualquier n´umero natural, siempre
+se obtiene la unidad. Para ello se hace el siguiente procedimiento:
+
+-- 319 of 450 --
+
+318 Estructuras de repetici ´on
+Tome un n´umero n y ejecute las siguientes operaciones:
+Si n es par, halle la divisi´on entera entre 2. Si n es impar,
+multipl´ıquelo por 3 y s´umele 1.
+Con el resultado que obtenga, repita las operaciones anteriores, hasta
+obtener 1 como respuesta. Ejemplos:
+n = 13, se obtienen los siguientes resultados:
+40, 20, 10, 5, 16, 8, 4, 2, 1.
+n = 6, se obtienen los siguientes resultados:
+3, 10, 5, 16, 8, 4, 2, 1.
+Otra de las curiosidades de esta conjetura, es que cuando se llegue a
+1 y se apliquen nuevamente las f´ormulas, obtendr´a la secuencia 4, 2,
+1 de forma infinita.
+El algoritmo que Usted dise˜ne, debe solicitar un n´umero y aplicar el
+anterior concepto, imprimiendo los resultados que se obtienen hasta
+llegar a la unidad.

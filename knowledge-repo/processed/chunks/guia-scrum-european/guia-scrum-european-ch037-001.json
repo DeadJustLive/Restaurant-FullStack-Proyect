@@ -1,0 +1,11 @@
+{
+  "id": "guia-scrum-european-ch037-001",
+  "bookId": "guia-scrum-european",
+  "chapterIndex": 37,
+  "chunkIndex": 1,
+  "title": "6.5 \tEl Sprint Review",
+  "start": 450,
+  "end": 639,
+  "words": 189,
+  "content": "seguir para el próximo Sprint. Importancia del Sprint Review • Alineación con las Necesidades del Negocio y del Usuario: Asegura que el desarrollo del producto está alineado con las necesidades y expectativas de los usuarios y del negocio. • Oportunidad para el Ajuste: Proporciona una oportunidad regular para ajustar el curso del desarrollo del producto, lo que es esencial en entornos cambiantes. • Transparencia y Colaboración: Fomenta la transparencia y la colaboración entre el equipo de desarrollo y los stakeholders, fortaleciendo la confianza y la comprensión mutua. Conclusión El Sprint Review es una reunión esencial que permite al equipo Scrum validar su trabajo y ajustar sus planes de manera continua. Al involucrar activamente a los stakeholders y al permitir una revisión regular del progreso del producto, el Sprint Review ayuda a asegurar que el producto final cumpla o supere las expectativas del cliente y del mercado. Propósito: Presentar el trabajo realizado y adaptar el Product Backlog basándose en el feedback recibido. Duración: Generalmente, no dura más de cuatro horas para un Sprint de un mes, en Sprints menores son proporcionales, 3, 2 ,1 horas en Sprints de una semana."
+}

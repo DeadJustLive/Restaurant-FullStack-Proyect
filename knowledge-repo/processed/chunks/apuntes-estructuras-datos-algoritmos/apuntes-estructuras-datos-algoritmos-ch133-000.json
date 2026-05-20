@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch133-000",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 133,
+  "chunkIndex": 0,
+  "title": "1. Estrategias voraces",
+  "start": 0,
+  "end": 41,
+  "words": 41,
+  "content": "# 1. Buscar la clave hasta encontrar la posición de inserción o modificación del valor asociado. Es un proceso idéntico al de la inserción en árbol binario de búsqueda. Si debe insertarse un nuevo nodo, se inserta siempre en una hoja."
+}

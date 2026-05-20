@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch124-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 124,
+  "chunkIndex": 0,
+  "title": "ESTRUCTURAS DE DATOS",
+  "start": 0,
+  "end": 18,
+  "words": 18,
+  "content": "# 4) Elabore un algoritmo que imprima el recorrido DFS de un grafo representado como multilistas de adyacencia"
+}

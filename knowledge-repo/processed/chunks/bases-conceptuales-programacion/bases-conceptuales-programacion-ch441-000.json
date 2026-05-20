@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch441-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 441,
+  "chunkIndex": 0,
+  "title": "PROP´OSITO:",
+  "start": 0,
+  "end": 32,
+  "words": 32,
+  "content": "# OBSERVACIONES: * la celda actual queda en el mismo lugar que empez´o */ { QuitarPivote(codPieza,tipoPieza,rotPieza) QuitarSeccionDePiezaDe(codPieza,dirA) QuitarSeccionDePiezaDe(codPieza,dirB) QuitarSeccionDePiezaDe(codPieza,dirC) } //----------------------------------------------------- procedure QuitarSeccionDePieza(codPieza) /* PROP´OSITO: quita una secci´on de la pieza codPieza"
+}

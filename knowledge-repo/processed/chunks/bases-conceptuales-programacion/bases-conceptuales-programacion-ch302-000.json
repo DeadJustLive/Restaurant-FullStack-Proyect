@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch302-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 302,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 10,
+  "words": 10,
+  "content": "# K_D, K_ENTER -> { OperacionRotarPieza(True) -- Sentido horario }"
+}

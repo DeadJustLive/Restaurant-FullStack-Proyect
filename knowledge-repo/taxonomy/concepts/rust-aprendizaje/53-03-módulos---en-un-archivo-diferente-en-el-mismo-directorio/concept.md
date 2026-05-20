@@ -1,0 +1,36 @@
+# 03. Módulos - En un archivo diferente en el mismo directorio
+
+## Fuente
+Capítulo 1: Empezando con Rust 2 (Cap. 53)
+
+## Contenido
+# 03. Módulos - En un archivo diferente en el mismo directorio
+
+Cuando mueva algo de código a un archivo nuevo, no es necesario envolver el código en una
+declaración de mod . El archivo mismo actúa como un módulo.
+// ↳ main.rs
+mod greet; // import greet module
+fn main() {
+greet::hello();
+}
+// ↳ greet.rs
+pub fn hello() { // function has to be public to access from outside
+println!("Hello, world!");
+}
+Cuando mueva algo de código a un nuevo archivo, si ese código ha sido ajustado
+desde una declaración mod , será un submódulo del archivo.
+// ↳ main.rs
+mod greet;
+fn main() {
+greet::hello::greet();
+https://riptutorial.com/es/home 96
+
+-- 110 of 188 --
+
+}
+// ↳ greet.rs
+pub mod hello { // module has to be public to access from outside
+pub fn greet() { // function has to be public to access from outside
+println!("Hello, world!");
+}
+}

@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch001-000",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 1,
+  "chunkIndex": 0,
+  "title": "Sección 6",
+  "start": 0,
+  "end": 500,
+  "words": 500,
+  "content": "# Sección 6 ### 6.4 Módulos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 286 7 Procesamiento de texto 295 7.1 string . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 296 8 Ciencia de datos 301 8.1 jupyter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 302 8.2 numpy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 326 8.3 pandas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 369 8.4 matplotlib . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 433 9 Scraping 475 9.1 requests . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 476 9.2 beautifulsoup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 484 9.3 selenium . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 499 ii -- 4 of 516 -- Aprende Python Curso gratuito para aprender el lenguaje de programación Python con un enfoque práctico, incluyendo ejercicios y cobertura para distintos niveles de conocimiento.1 Licencia: GNU General Public License v3.0: GPLv3. Consejo: «Programming is not about typing, it’s about thinking.» – Rich Hickey 1 En la foto de portada aparecen los Monty Python. Fuente: noticiascyl Core 1 -- 5 of 516 -- Aprende Python 2 Core -- 6 of 516 -- ### 1.1 Hablando con la máquina 3 -- 7 of 516 -- Aprende Python Los ordenadores son dispositivos complejos pero están diseñados para hacer una cosa bien: ejecutar aquello que se les indica. La cuestión es cómo indicar a un ordenador lo que"
+}

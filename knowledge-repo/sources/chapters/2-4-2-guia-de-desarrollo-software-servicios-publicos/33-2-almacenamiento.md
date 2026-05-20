@@ -1,0 +1,24 @@
+# 2. Almacenamiento
+
+Para la gestión de datos, tanto
+relacionales como no relacionales, se
+sugiere instalar las bases de datos en
+modo cluster. Además, se deben tomar
+las precauciones necesarias, por
+ejemplo, haber creado los índices
+apropiados, al momento de crear las
+consultas y hacer uso de las mismas.
+En el caso de las bases de datos
+relacionales, se debe considerar, entre
+otros:
+● Tiempo de respuesta; puede variar
+si un cluster es muy grande.
+● No tener referencias circulares.
+Con respecto al uso de bases de datos
+no relacionales, se debe tener cuidado
+en la elección del driver, debiendo ser
+capaz de conectarse a más de un nodo
+del cluster a la vez para, de esta forma,
+mantener el paradigma de un sistema
+en cluster y capaz de crecer de forma
+horizontal.

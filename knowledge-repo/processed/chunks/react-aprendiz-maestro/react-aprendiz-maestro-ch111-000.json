@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch111-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 111,
+  "chunkIndex": 0,
+  "title": "11.6 Conclusión",
+  "start": 0,
+  "end": 263,
+  "words": 263,
+  "content": "# 1. Introducción a React La librería React1 de Facebook ha cambiado nuestra manera de pensar en cuanto al desarrollo de interfaces de usuario en aplicaciones web se refiere. Gracias a su diseño puede ser utilizado más allá de la web. Una característica llamada DOM Virtual es lo que lo permite. En este capítulo veremos algunas de las ideas principales de la librería para que podamos comprender React un poco mejor antes de ponernos con él. 1.1 ¿Qué es React? React React es una librería JavaScript que nos obliga a pensar en componentes. Esta forma de pensar encaja bien con el desarrollo de interfaces de usuario. Dependiendo de tus conocimientos previos puede que te parezca un poco extraño al principio. Tendrás que pensar con detenimiento en el concepto de estado y dónde ubicarlo. Han aparecido muchas soluciones ya que la mera gestión del estado, en sí, supone un problema complicado. En este libro comenzaremos gestionando el estado nosotros mismos y después nos moveremos a una implementación de Flux conocida como Alt. 1https://facebook.github.io/react/ -- 20 of 226 -- Introducción a React 3 Hay más implementaciones disponibles para otras alternativas, como Redux, MobX y Cerebral. React es pragmático en el sentido de que tiene varias salidas de emergencia. Siempre es posible hacer algo a bajo nivel si el modelo de React no encaja contigo. Por ejemplo, hay puntos de enganche que pueden ser utilizados para envolver lógica antigua que dependa del DOM. Esto rompe con la abstracción y ata tu código a un entorno específico, pero a veces es la única cosa que puedes hacer."
+}

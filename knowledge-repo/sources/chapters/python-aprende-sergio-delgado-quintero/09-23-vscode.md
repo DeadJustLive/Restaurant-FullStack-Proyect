@@ -1,0 +1,40 @@
+# 2.3 VSCode
+
+Visual Studio Code (VSCode) es un entorno de desarrollo integrado1 gratuito y de código
+abierto que ha ganado mucha relevancia en los últimos años. Permite trabajar fácilmente
+con multitud de lenguajes de programación y dispone de una gran cantidad de plugins.2
+2.3.1 Depurando código
+La depuración de programas es el proceso de identificar y corregir errores de
+programación. Es conocido también por el término inglés debugging, cuyo significado
+es eliminación de bugs (bichos), manera en que se conoce informalmente a los errores de
+programación.
+Existen varias herramientas de depuración (o debuggers). Algunas de ellas en modo texto
+(terminal) y otras con entorno gráfico (ventanas).
+• La herramienta más extendida para depurar en modo texto es el módulo pdb (The
+Python Debugger). Viene incluido en la instalación base de Python y es realmente
+potente.
+• Aunque existen varias herramientas para depurar en entorno gráfico, nos vamos a
+centrar en Visual Studio Code.
+Lo primero será abrir el fichero (carpeta) donde vamos a trabajar:
+1 También conocido por IDE siglas en inglés de Integrated Development Environment.
+2 Foto original de portada por Kelly Sikkema en Unsplash.
+2.3. VSCode 37
+
+-- 41 of 516 --
+
+Aprende Python
+Figura 5: Apertura del fichero a depurar
+Punto de ruptura
+A continuación pondremos un punto de ruptura (también llamado breakpoint). Esto
+implica que la ejecución se pare en ese punto y viene indicado por un punto rojo . Para
+ponerlo nos tenemos que acercar a la columna que hay a la izquierda del número de línea y
+hacer clic.
+En este ejemplo ponemos un punto de ruptura en la línea 10:
+También es posible añadir puntos de ruptura condicionales pulsando con el botón
+derecho y luego Add Conditional Breakpoint…:
+Lanzar la depuración
+Ahora ya podemos lanzar la depuración pulsando la tecla F5. Nos aparecerá el siguiente
+mensaje en el que dejaremos la opción por defecto Archivo de Python y pulsamos la tecla
+�:
+Ahora ya se inicia el «modo depuración» y veremos una pantalla similar a la siguiente:
+Zonas de la interfaz en modo depuración:

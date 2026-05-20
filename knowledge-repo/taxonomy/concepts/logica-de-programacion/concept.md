@@ -1,0 +1,195 @@
+# logica-de-programacion
+
+## Resumen
+Documento procesado con openPrompt-Lang Knowledge.
+
+**Páginas:** 450
+**Método:** native
+**Procesado:** 2026-05-17
+
+## Capítulos
+- **4 ´INDICE GENERAL**
+- **1. Posee la tarjeta y la clave de ella, podr´a realizar transacciones.**
+- **2. Posee la tarjeta, pero no la clave, por lo tanto, no podr´a realizar**
+- **3. No posee la tarjeta y posee la clave, no podr´a realizar transacciones.**
+- **4. No posee la tarjeta, ni la clave, por consiguiente, no podr´a realizar**
+- **1. Le regalo tanto el perro como el gato, estar´ıa feliz.**
+- **2. Solamente le doy el perro, estar´ıa feliz.**
+- **3. Solamente le regalo el gato, estar´ıa feliz.**
+- **4. Pens´andolo bien, ella est´a muy ni˜na para hacerse cargo de una**
+- **1. Descripci´on narrada.**
+- **2. Diagramas de flujo.**
+- **3. Pseudoc´odigo.**
+- **1. De una sola l´ınea. Para ello se usan dos barras (//).**
+- **2. De varias l´ıneas. En este caso se usa la pareja de caracteres /* para**
+- **1. Definici´on del problema.**
+- **2. An´alisis del problema.**
+- **3. Dise˜no del algoritmo.**
+- **4. Codificaci´on (implementaci´on).**
+- **5. Compilaci´on y ejecuci´on.**
+- **6. Verificaci´on y depuraci´on.**
+- **7. Mantenimiento.**
+- **8. Documentaci´on.**
+- **1. Imagine que se desea declarar variables para almacenar datos de**
+- **2. Para las variables que se declaran en la Tabla 1.17, diga si el**
+- **#CEDULA**
+- **3. Describa, de acuerdo a la precedencia de los operadores, en cu´al orden**
+- **4. Resuelva paso a paso las siguientes expresiones, teniendo en cuenta**
+- **5. Suponga que se requieren las variables: a, b, c, d de tipo real.**
+- **6. Se tienen las variables: a, b, c y d de tipo entero. A partir de**
+- **7. Escriba en notaci´on algor´ıtmica las siguientes expresiones**
+- **8. Preguntas sobre los conceptos vistos**
+- **9. Algoritmos.**
+- **1. Suponga que, para el algoritmo del c´alculo de la nota definitiva**
+- **2. Imagine que se conoce el valor del lado de un cubo. Elabore un**
+- **3. Un empleado fue contratado durante un periodo espec´ıfico en d´ıas**
+- **4. Dise˜ne un algoritmo que, al ingresarle el costo de un producto y la**
+- **5. Construya un algoritmo al que se le ingresa el valor de un n´umero**
+- **6. Un agente inmobiliario necesita un algoritmo con el que pueda saber**
+- **7. Construya un algoritmo que reciba como entrada un ´angulo**
+- **8. Un artesano se enfrenta diariamente al problema de determinar cu´al**
+- **9. Construir un algoritmo que permita determinar cu´al es la altura de**
+- **10. Dada una temperatura en grados cent´ıgrados, construya un algoritmo**
+- **parte V: erdadera de la decisi´on, es decir la parte que se ejecutan cuando la**
+- **1. Crear un algoritmo que indique el valor del descuento de un art´ıculo**
+- **2. Crear un algoritmo que indique si la llave de un tanque de agua debe**
+- **3. Crear un algoritmo que dado un n´umero entero entre 0 y 20 diga si**
+- **4. Crear un algoritmo que indique si un estudiante gan´o o perdi´o un**
+- **5. Crear un algoritmo que permita saber si una ecuaci´on cuadr´atica**
+- **6. Crear un algoritmo que indique si un n´umero entero x, ingresado por**
+- **7. Crear un algoritmo que indique si un n´umero entero x se encuentra**
+- **8. Crear un algoritmo que indique el valor del descuento de un art´ıculo**
+- **9. Crear un algoritmo que indique el valor del descuento de un art´ıculo**
+- **0. De igual manera si se trabaja con divisiones, la**
+- **41. De esta forma, al calcular el promedio general del grupo se evita un**
+- **1. Se divide a entre b y se obtiene el cociente c1 y el resto r1. Los**
+- **2. Si r1 es diferente de 0, se divide b entre r1, obteni´endose el cociente**
+- **3. Si r2 es diferente de 0, se divide r1 entre r2, obteni´endose un nuevo**
+- **4. Estos pasos se repiten mientras que rn sea diferente de 0.**
+- **5. El resto anterior (rn−1), es decir, el ´ultimo divisor es el MCD de a**
+- **1. Sea a = 532 y b = 112. La primera operaci´on a realizar es**
+- **2. El primer resto (r1) es diferente de 0, entonces se divide b entre**
+- **3. El segundo resto (r2) es diferente de 0, se procede a una nueva**
+- **4. El nuevo resto (r3) ya no es diferente de 0, por lo tanto, no se**
+- **5. El resto anterior (rn−1), es decir r2 o el divisor de la ´ultima**
+- **1. Pedir el dato**
+- **2. Escribir la instrucci´on Haga**
+- **3. Leer el dato**
+- **4. Escribir la instrucci´on MientrasQue y su condici´on.**
+- **0. Si el resultado es verdadero, significa que se est´a frente a un dato vac´ıo,**
+- **Parte d: e las estructuras Haga-MientrasQue se destinaron a la**
+- **1. Se inicializa la variable numero en 1.**
+- **2. Se eval´ua la condici´on del Hasta, que para este caso se interpreta**
+- **3. Luego de que se ejecute el cuerpo del ciclo, se incrementa la variable**
+- **Z Y X W V U**
+- **Z Y X W V U T**
+- **Z Y X W V U T S**
+- **Z Y X W V U T S R**
+- **Z Y X W V U T S R Q**
+- **Z Y X W V U T S R Q P**
+- **Z Y X W V U T S R Q P O**
+- **Z Y X W V U T S R Q P O N**
+- **Z Y X W V U T S R Q P O N M**
+- **Z Y X W V U T S R Q P O N M L**
+- **Z Y X W V U T S R Q P O N M L K**
+- **Z Y X W V U T S R Q P O N M L K J**
+- **Z Y X W V U T S R Q P O N M L K J I**
+- **Z Y X W V U T S R Q P O N M L K J I H**
+- **Z Y X W V U T S R Q P O N M L K J I H G**
+- **Z Y X W V U T S R Q P O N M L K J I H G F**
+- **Z Y X W V U T S R Q P O N M L K J I H G F E**
+- **Z Y X W V U T S R Q P O N M L K J I H G F E D**
+- **Z Y X W V U T S R Q P O N M L K J I H G F E D C**
+- **Z Y X W V U T S R Q P O N M L K J I H G F E D C B**
+- **Z Y X W V U T S R Q P O N M L K J I H G F E D C B A**
+- **SALTO LINEA**
+- **10. Igualmente, mostrar´a un mensaje de acuerdo a la respuesta del**
+- **1. Todo estudiante de primer semestre debe cursar 6 espacios**
+- **2. La nota m´ınima es de 0.0 y la nota m´axima es de 5.0.**
+- **3. Se considera que un espacio acad´emico se aprueba si su nota**
+- **4. Un periodo acad´emico se considera aprobado, si al promediar las**
+- **5. Al finalizar el semestre, el estudiante ser´a clasificado en una de las**
+- **6. Un estudiante quedar´a excluido por bajo rendimiento, si cumple una**
+- **7. Se considera que un estudiante queda en situaci´on condicional, si**
+- **8. Si el estudiante no presenta ninguna de las dos anteriores**
+- **1. Por estudiante.**
+- **2. Por grupo.**
+- **3. General, es decir, del total de los estudiantes.**
+- **1. Se pueden definir 6 variables para almacenar la nota definitiva**
+- **2. Se define una sola variable para leer la nota definitiva de cada**
+- **1. Responda las siguientes preguntas:**
+- **2. Tome cada uno de los ejemplos de este cap´ıtulo y reescr´ıbalos usando**
+- **3. Usando la instrucci´on Para, represente los siguientes enunciados:**
+- **4. Dado los extremos de un intervalo [M, N], halle la sumatoria de los**
+- **5. Dada una poblaci´on, m´aximo de 500 habitantes, determinar cu´antos**
+- **6. Genere e imprima los m´ultiplos de 3 que se encuentren entre 6 y n,**
+- **7. En 1937, el matem´atico alem´an Lothar Collatz, enunci´o la conjetura**
+- **8. Lea un n´umero entero positivo, descomp´ongalo en cada una de sus**
+- **9. Dado un n´umero menor o igual a 50, calcule su factorial mediante**
+- **10. El cajero de un restaurante desea controlar el flujo de caja en un**
+- **11. En el Ejemplo 4.15 se hizo un algoritmo que informaba si un n´umero**
+- **12. Simule el funcionamiento de un temporizador, que reciba como**
+- **13. Usando estructuras repetitivas, elabore un algoritmo, que genere e**
+- **Z Y X W V U T S R Q P O N M L K J I H G F E D C B A**
+- **Y X W V U T S R Q P O N M L K J I H G F E D C B A**
+- **X W V U T S R Q P O N M L K J I H G F E D C B A**
+- **W V U T S R Q P O N M L K J I H G F E D C B A**
+- **V U T S R Q P O N M L K J I H G F E D C B A**
+- **U T S R Q P O N M L K J I H G F E D C B A**
+- **T S R Q P O N M L K J I H G F E D C B A**
+- **S R Q P O N M L K J I H G F E D C B A**
+- **R Q P O N M L K J I H G F E D C B A**
+- **Q P O N M L K J I H G F E D C B A**
+- **P O N M L K J I H G F E D C B A**
+- **O N M L K J I H G F E D C B A**
+- **N M L K J I H G F E D C B A**
+- **M L K J I H G F E D C B A**
+- **L K J I H G F E D C B A**
+- **K J I H G F E D C B A**
+- **J I H G F E D C B A**
+- **I H G F E D C B A**
+- **H G F E D C B A**
+- **G F E D C B A**
+- **F E D C B A**
+- **14. A un amigo que vive en el norte de la ciudad, su terapeuta le**
+- **15. Imprima los 10 m´ultiplos sucesivos de 3 en orden descendente, a**
+- **16. En una compa˜n´ıa que tiene varias sucursales a nivel nacional, una o**
+- **17. Para los siguientes algoritmos, realice la respectiva prueba de**
+- **parte c: entral del algoritmo o de otros procedimientos.**
+- **parte d: e la responsabilidad en otras funciones**
+- **1. Dise˜ne un algoritmos con funciones y procedimientos que permita**
+- **2. Dise˜ne un algoritmos con funciones y procedimientos que permita**
+- **3. Dise˜ne un algoritmos con funciones y procedimientos que permita**
+- **4. Dise˜ne un algoritmos con funciones y procedimientos que indique el**
+- **5. Dise˜ne un algoritmos con funciones y procedimientos que indique si**
+- **6. Dise˜ne un algoritmos con funciones y procedimientos que dado un**
+- **7. Dise˜ne un algoritmos con funciones y procedimientos que indique si**
+- **8. Dise˜ne un algoritmos con funciones y procedimientos que permita**
+- **9. Dise˜ne un algoritmos con funciones y procedimientos que indique si**
+- **10. Dise˜ne un algoritmos con funciones y procedimientos que indique**
+- **1. Se declara una variable suscrita llamada edadEstudiante y se**
+- **2. Se declara una variable suscrita llamada estaturaPersona y se le**
+- **3. Se declara una variable suscrita llamada nombreEmpleado y se le**
+- **4. Se declara una variable suscrita llamada letrasDocumento y se le**
+- **parte d: el algoritmo, sin ser un error de l´ogica, lo ideal**
+- **1. Se declara una variable suscrita llamada semestreEstudiante**
+- **2. Se declara una variable suscrita llamada**
+- **3. Se declara una variable suscrita llamada sueldoPersona con un**
+- **17 MAX_EMPLEADOS )**
+- **21 MAX_MESES )**
+- **1. Escriba un algoritmo en pseudoc´odigo que permita almacenar en**
+- **2. Dise˜ne un algoritmo que permita ingresar y almacenar los nombres**
+- **3. Construya un algoritmo que almacene n n´umero enteros en un arreglo**
+- **4. Escriba un algoritmo en pseudoc´odigo que almacene en un arreglo n**
+- **5. El profesor de la materia de “Lenguaje de Programaci´on” requiere**
+- **6. En una cl´ınica de control al sobrepeso requieren almacenar los**
+- **7. Dise˜ne un algoritmo que almacene n´umeros enteros en una matriz**
+- **8. Escriba un algoritmo en pseudoc´odigo que almacene caracteres en**
+- **9. Construya un algoritmo en pseudoc´odigo que almacene unos (1) en la**
+- **10. Elabore un algoritmo que permita realizar la multiplicaci´on de dos**
+- **L. F., Rodr´ıguez, J. G., Fern´andez-Aliseda, A., Azc´arate, A. G., Farn´es,**
+- **M. M., SANCHEZ, J. A. M., Mart´ın, J. A. H., et al. (2004). Matem´aticas**
+- **L. N. Z. (2016). Fundamentos de Programaci´on, Diagramas de flujo,**
+- **444 BIBLIOGRAF´IA**
+- **446 ´INDICE ALFAB ´ETICO**
+- **FORTRAN, 18**

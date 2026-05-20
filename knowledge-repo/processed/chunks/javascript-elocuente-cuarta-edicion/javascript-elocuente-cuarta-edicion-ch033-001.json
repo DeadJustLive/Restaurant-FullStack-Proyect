@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch033-001",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 33,
+  "chunkIndex": 1,
+  "title": "parte d: e su interfaz y dos funciones que sí lo son. No tiene dependencias.",
+  "start": 450,
+  "end": 732,
+  "words": 282,
+  "content": "encuentro un error en el código, probablemente lo corrija en el programa con el que estoy trabajando en ese momento y olvide corregirlo también en el otro programa. Una vez que empieces a duplicar código, rápidamente te darás cuenta de que estás perdiendo tiempo y energía moviendo copias y manteniéndolas actual- izadas. Ahí es donde entran los paquetes. Un paquete es un fragmento de código que se puede distribuir (copiar e instalar). Puede contener uno o más módulos y tiene información sobre en qué otros paquetes depende. Un paquete también suele venir con documentación que explica qué hace para que las personas que no lo escribieron aún puedan usarlo. Cuando se encuentra un problema en un paquete o se añade una nueva característica, se actualiza el paquete. Ahora los programas que dependen de él (que también pueden ser paquetes) pueden copiar la nueva versión para obtener las mejoras que se hicieron en el código. Trabajar de esta manera requiere infraestructura. Necesitamos un lugar para almacenar y encontrar paquetes y una forma conveniente de instalar y actualizarlos. En el mundo de JavaScript, esta infraestructura es provista por NPM (https://npmjs.org). NPM es dos cosas: un servicio en línea donde puedes descargar (y subir) paquetes y un programa (incluido con Node.js) que te ayuda a instalar y ges- tionarlos. En el momento de la escritura, hay más de tres millones de paquetes difer- entes disponibles en NPM. Una gran parte de ellos son basura, para ser honesto. Pero casi cada paquete de JavaScript útil y disponible públicamente se puede encontrar en NPM. Por ejemplo, un analizador de archivos INI, similar al que construimos en el Capítulo 9, está disponible bajo el nombre del paquete ini."
+}

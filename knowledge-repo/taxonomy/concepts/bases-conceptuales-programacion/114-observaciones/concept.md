@@ -1,0 +1,41 @@
+# OBSERVACIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 114)
+
+## Contenido
+# OBSERVACIONES:
+
+* se estructura como un recorrido en la zona
+de n´umeros
+*/
+{
+IrAlBordeDeZonaDeNumeros(Este)
+while(puedeMoverEnZonaDeNumeroAl(Oeste))
+{
+VaciarCelda()
+Mover(Oeste)
+}
+VaciarCelda()
+}
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 190 of 312 --
+
+191
+donde la operaci ´on VaciarCelda es la que se defini ´o en el ejercicio 3.2.13 y correspon-
+de con la subtarea de procesar elemento del esquema gen ´erico de recorridos. Observar
+tambi ´en el uso de las operaciones de zona, el procedimiento IrAlBordeDeZonaDeNumeros
+como la subtarea de iniciar el recorrido, y la funci ´on puedeMoverEnZonaDeNumeroAl como
+la subtarea de verificar el fin del recorrido actual.
+Otra de las operaciones de modificaci ´on espec´ıfica de las zonas de n ´umeros es la
+operaci ´on de AgregarDigitoAZonaDeNumerosPorIzq. Esta operaci ´on se utiliza para ir le-
+yendo los d´ıgitos de un n ´umero de izquierda a derecha (por ejemplo, por teclado), para
+especificar un n ´umero completo. La lectura de un n ´umero por teclado de esta manera se
+asemeja a la funci ´on de un control remoto cuando colocamos los n ´umeros de canales
+para cambiar de canal: apretamos primero el 0 y despu ´es el 7 para poner el canal 7. En
+cada momento debe ubicarse cu ´al es la pr ´oxima posici ´on libre en la zona de n ´umeros y
+agregar el d´ıgito pasado como par ´ametro a esa posici ´on. En caso que la zona est ´e llena,
+la borra y vuelve a empezar. El c ´odigo resultante es el siguiente
+procedure AgregarDigitoAZonaDeNumerosPorIzq(dig)
+/*

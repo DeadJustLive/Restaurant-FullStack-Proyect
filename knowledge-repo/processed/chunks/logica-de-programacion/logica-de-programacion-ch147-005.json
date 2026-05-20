@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch147-005",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 147,
+  "chunkIndex": 5,
+  "title": "17. Para los siguientes algoritmos, realice la respectiva prueba de",
+  "start": 2250,
+  "end": 2365,
+  "words": 115,
+  "content": "variable m. -- 334 of 450 -- Introducci ´on a la L ´ogica de Programaci ´on 333 Una vez los par´ametros tiene sus valores, se ejecutan las instrucciones para imprimir la respectiva serie. 18 Entero termino 19 20 Para i = 1 Hasta cantidad Incremento 1 21 termino = i * base 22 imprimir( termino, \" \" ) 23 FinPara En este caso la variable termino podr´ıa ser eliminada haciendo lo siguiente: Para i = 1 Hasta cantidad Incremento 1 imprimir( (i * base), \" \" ) FinPara Aclaraci´on: El uso apropiado de procedimientos facilita no solo la reutilizaci´on de c´odigo, sino que se puede ganar legibilidad al simplificar la cantidad de l´ıneas de la"
+}

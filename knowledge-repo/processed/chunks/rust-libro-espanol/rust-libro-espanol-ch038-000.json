@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch038-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 38,
+  "chunkIndex": 0,
+  "title": "Usando Trait Objects que permiten valores de diferentes tipos",
+  "start": 0,
+  "end": 38,
+  "words": 38,
+  "content": "# Usando Trait Objects que permiten valores de diferentes tipos ## Usando Trait Objects que permiten valores de diferentes tipos ### Definir un Trait para un comportamiento común ### Implementando el trait ### Los trait objects realizandynamic dispatch"
+}

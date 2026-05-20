@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch072-005",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 72,
+  "chunkIndex": 5,
+  "title": "Capítulo 45:: Serde",
+  "start": 2250,
+  "end": 2379,
+  "words": 129,
+  "content": "{ pub struct Data { /* ... */ } } // This single-element tuple struct is called a newtype struct. struct Data(not_my_crate::Data); impl Serialize for Data { fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error> where S: Serializer { // Any implementation of Serialize. } } impl Deserialize for Data { fn deserialize<D>(deserializer: D) -> Result<Self, D::Error> where D: Deserializer { // Any implementation of Deserialize. } } // Enable `Deref` coercion. impl Deref for Data { type Target = not_my_crate::Data; fn deref(&self) -> &Self::Target { &self.0 } } // Now `Data` can be used in ways that require it to implement // Serialize and Deserialize. #[derive(Serialize, Deserialize)] struct Outer { id: u64, name: String, data: Data, } Lea Serde en línea: https://riptutorial.com/es/rust/topic/1170/serde https://riptutorial.com/es/home 159 -- 173 of 188 --"
+}

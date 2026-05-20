@@ -61,7 +61,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String, Object>> handleGeneral(Exception ex) {
-        ex.printStackTrace();
+        log.error("Excepción no controlada: ", ex);
         return buildError(HttpStatus.INTERNAL_SERVER_ERROR,
                 "Error interno en ms-carrito. Contacte al administrador.");
     }

@@ -1,0 +1,54 @@
+# Capítulo 4:: Cómo configurar un webpack
+
+## Fuente
+react-stackoverflow-docs (Cap. 38)
+
+## Contenido
+# Capítulo 4:: Cómo configurar un webpack
+
+básico, reaccionar y babel.
+Observaciones
+Este canal de compilación no es exactamente lo que llamaría "listo para la producción", pero le
+brinda un buen comienzo para que agregue las cosas que necesita para obtener la experiencia de
+desarrollo que está buscando. El enfoque que algunas personas adoptan (incluyéndome a mí
+mismo) es tomar una tubería completamente construida de Yeoman.io o en otro lugar y luego
+quitarle las cosas que no quieren hasta que se adapte al estilo. No hay nada de malo en esto,
+pero tal vez con el ejemplo anterior podría optar por el enfoque opuesto y acumularse a partir de
+los huesos.
+Algunas cosas que le gustaría agregar son cosas como un marco de prueba y estadísticas de
+cobertura como Karma con Mocha o Jasmine. Lintado con ESLint. Reemplazo de módulos en
+caliente en webpack-dev-server para que pueda obtener esa experiencia de desarrollo de Ctrl +
+S, F5. Además, la tubería actual solo se compila en modo dev, por lo que una tarea de
+compilación de producción sería buena.
+Gotchas!
+Observe que en la propiedad de contexto de webpack.config.js hemos utilizado el módulo de ruta
+de nodo para definir nuestra ruta en lugar de simplemente concatenar __dirname a la cadena /src
+esto se debe a que Windows odia las barras diagonales . Entonces, para hacer que la solución
+sea más compatible con varias plataformas, use el nodo apalancamiento para ayudarnos.
+Explicación de las propiedades webpack.config.js
+contexto
+Esta es la ruta de archivo que el paquete web utilizará como ruta raíz para resolver rutas de
+archivos relativas. Entonces, en index.jsx donde usamos require('./index.html') ese punto
+realmente se resuelve en el directorio src/ porque lo hemos definido como tal en esta propiedad.
+entrada
+Donde webpack busca primero para comenzar a agrupar la solución. Esta es la razón por la que
+verá que en el index.jsx estamos combinando la solución con requisitos e importaciones.
+salida
+Aquí es donde definimos donde webpack debería estar eliminando los archivos que ha
+encontrado para agrupar. También hemos definido un nombre para el archivo en el que se
+eliminarán nuestros estilos y javascript empaquetados.
+devServer
+https://riptutorial.com/es/home 22
+
+-- 32 of 139 --
+
+Estas son configuraciones específicas para webpack-dev-server. La base de contentBase define
+donde el servidor debe hacer que sea su raíz, hemos definido la carpeta dist/ como nuestra base
+aquí. El port es el puerto en el que se alojará el servidor. open es lo que se usa para instruir a
+webpack-dev-server para que abra su navegador predeterminado una vez que haya girado el
+servidor.
+módulo> cargadores
+Esto define una asignación para el paquete web para usar, de modo que se sepa qué hacer
+cuando encuentre archivos diferentes. La propiedad de test otorga expresiones regulares para el
+paquete web para determinar si debe aplicar este módulo, en la mayoría de los casos tenemos
+coincidencias en las extensiones de archivo. loader o los loaders proporcionan el nombre del

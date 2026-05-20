@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch520-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 520,
+  "chunkIndex": 0,
+  "title": "{- PROP´OSITO:",
+  "start": 0,
+  "end": 33,
+  "words": 33,
+  "content": "# PROP´OSITO: combinar las acciones necesarias para rotar la pieza indicada en la zona de selecci´on (si existe) */ { IrAPiezaSiExiste(leerZonaDeSeleccion()) if (hayPiezaActual()) { RotarPiezaActual(sentidoHorario); ExtenderElPiso() } BorrarZonaDeSeleccion() } //---------------------------------------------------- procedure OperacionAgregarDigitoASeleccion(dig) /*"
+}

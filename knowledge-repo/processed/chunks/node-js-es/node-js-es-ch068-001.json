@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch068-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 68,
+  "chunkIndex": 1,
+  "title": "Capítulo 31:: Desafíos de rendimiento",
+  "start": 450,
+  "end": 529,
+  "words": 79,
+  "content": ".done(function(response){ $(\"#log\").val( $(\"#log\").val() + '\\n' + response.status); if(response.status != 'Done!'){ checkTaskTimeout = setTimeout(updateStatus, 500); } }); } //start checking the task var checkTaskTimeout = setTimeout(updateStatus, 100); }); }); }); paquete.json: { \"name\": \"nodeProcessor\", \"dependencies\": { \"body-parser\": \"^1.15.2\", \"express\": \"^4.14.0\", \"html\": \"0.0.10\", \"mongoose\": \"^4.5.5\" } } Descargo de responsabilidad: este ejemplo pretende darle una idea básica. Para usarlo en el entorno de producción, necesita mejoras. Lea Desafíos de rendimiento en línea: https://riptutorial.com/es/node-js/topic/6325/desafios-de- rendimiento https://riptutorial.com/es/home 121 -- 149 of 423 --"
+}

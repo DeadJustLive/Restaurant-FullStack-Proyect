@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch050-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 50,
+  "chunkIndex": 0,
+  "title": "INGENIERIA DE SISTEMAS",
+  "start": 0,
+  "end": 130,
+  "words": 130,
+  "content": "# A B C D E F G 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 Por tener el árbol solo tres niveles el tamaño de la estructura estática será de 7 un dato en el primer nivel, dos datos en el segundo nivel y cuatro datos en el tercer nivel del árbol. En el caso de que el árbol no tenga alguno de los hijos de los dos lados el árbol, no ubica en la posición correspondiente al nodo faltante en el vector ninguna información. 2.3.3.2 REPRESENTACIÓN DE ÁRBOLES COMO UNA LISTA LIGADA Para representar la estructura árbol binario de manera dinámica se requiere definir el registro del nodo de la siguiente manera: LI D LD -- 14 of 64 -- 15"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch050-000",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 50,
+  "chunkIndex": 0,
+  "title": "4. Borrado en AVL",
+  "start": 0,
+  "end": 39,
+  "words": 39,
+  "content": "# módulo m: onedas exporta tipo moneda=(c1,c10,c50,e1) función precio(m:moneda) devuelve natural implementación función precio(m:moneda) devuelve natural principio selección m=c1: devuelve 1; m=c10: devuelve 10; m=c50: devuelve 50; m=e1: devuelve 100; fselec -- 46 of 267 -- 39 fin fin"
+}

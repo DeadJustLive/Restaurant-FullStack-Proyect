@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch016-000",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 16,
+  "chunkIndex": 0,
+  "title": "1. Para todo entero n y todo par m, un tablero de ajedrez de n × m tiene",
+  "start": 0,
+  "end": 28,
+  "words": 28,
+  "content": "# 1. Para todo entero n y todo par m, un tablero de ajedrez de n × m tiene exactamente el mismo número de cuadros blancos que negros."
+}

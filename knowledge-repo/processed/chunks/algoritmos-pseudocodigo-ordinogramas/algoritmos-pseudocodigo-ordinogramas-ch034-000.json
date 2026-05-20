@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch034-000",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 34,
+  "chunkIndex": 0,
+  "title": "EJEMPLO",
+  "start": 0,
+  "end": 10,
+  "words": 10,
+  "content": "# EJEMPLO subrango calificaciones = 0..10 calificaciones matematicas, fisica, quimica"
+}

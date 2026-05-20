@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch096-004",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 96,
+  "chunkIndex": 4,
+  "title": "PRECONDICIONES:",
+  "start": 1800,
+  "end": 1971,
+  "words": 171,
+  "content": ">, una expresi ´on de cualquier tipo b ´asico. Las funciones con par ´ametros se pueden invocar de manera similar a la vista para procedimientos con par ´ametros, mediante el uso de argumentos, con la diferencia, ya mencionada, de que por ser expresiones solo se pueden utilizar en lugares donde se espera una expresi ´on. Definici ´on 3.3.2. Una funci ´on con par ´ametros puede ser usada como una ex- presi ´on. La forma de invocarla es escribir su nombre seguida por argumentos, de la siguiente manera < funcName >(< args >) donde < args > es una lista de valores espec´ıficos (los argumentos) para los par ´ametros de la funci ´on. Las nociones de concordancia de tipos entre cada argumento y los usos que se les da a los par ´ametros correspondientes es similar a la vista para los procedi- mientos. Por ejemplo, podemos ver si hay m ´as bolitas de un color que de otro, pero usando par ´ametros para indicar qu ´e colores queremos. function hayMasQue(color1, color2) {-"
+}

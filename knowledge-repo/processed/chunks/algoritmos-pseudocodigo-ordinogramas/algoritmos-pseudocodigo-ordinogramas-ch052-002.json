@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch052-002",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 52,
+  "chunkIndex": 2,
+  "title": "2. Se ejecuta el bloque de instrucciones y, a continuación, si la condición se evalúa a",
+  "start": 900,
+  "end": 1140,
+  "words": 240,
+  "content": "Algoritmos de “Abrirllave.com” 129 / 180 Un acumulador suele utilizarse para acumular resultados producidos en las iteraciones de un bucle. 10.3.2. Diferencias entre un bucle mientras y hacer...mientras Para saber cuándo hacer uso de un bucle u otro, es muy importante conocer bien las diferencias más significativas existentes entre ambos bucles. Ha aparecido una nueva palabra reservada: hacer. Han vuelto a aparecer los símbolos reservados abrir paréntesis “(” y cerrar paréntesis “)”, con un significado distinto. () Delimitan la condición en una instrucción repetitiva hacer...mientras. Ejercicios resueltos  Ejercicios de la instrucción repetitiva hacer...mientras 10.4. Repetitiva para En pseudocódigo, para escribir una instrucción repetitiva para se utiliza la sintaxis: para <variable>  <valor_inicial> hasta <valor_final> [ incremento <valor_incremento> ] hacer <bloque_de_instrucciones> fin_para /* A la <variable> se le asigna el <valor_inicial> y, se le suma, sucesivamente, el <valor_incremento>, hasta superar el <valor_final>. */ /* Por omisión, el <valor_incremento> es 1. */ -- 129 of 180 -- Libro de Algoritmos de “Abrirllave.com” 130 / 180 En una instrucción repetitiva para, siempre se utiliza una <variable> a la que se debe asignar un <valor_inicial>. En cada iteración del bucle, al valor de la <variable> se le suma el <valor_incremento> y, cuando la <variable> supera el <valor_ final>, el bucle finaliza. En consecuencia, cuando el flujo de un algoritmo llega a un bucle para, en primer lugar, se asigna el <valor_inicial> a la <variable> y, a partir de ese instante, existen dos posibilidades:"
+}

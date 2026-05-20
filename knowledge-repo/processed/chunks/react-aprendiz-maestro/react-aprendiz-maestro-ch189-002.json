@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch189-002",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 189,
+  "chunkIndex": 2,
+  "title": "9.6 Migrando App.deleteNote a Flux . . . . . . . . . . . . . . . . . 92",
+  "start": 900,
+  "end": 1130,
+  "words": 230,
+  "content": "Gestionado Dependencias de Datos 121 ); }; function selectNotesByIds(allNotes, noteIds = []) { // `reduce` es un método poderoso que nos permite // agrupar datos. Puedes implementar filter` y `map` // dentro de él. Nosotros lo estamos usando para // concatenar notas cuyos id coincidan return noteIds.reduce((notes, id) => // Concatena ids que encajen al resultado notes.concat( allNotes.filter(note => note.id === id) ) , []); } export default connect( ({notes}) => ({ notes }), { NoteActions NoteActions, LaneActions } )(Lane) Si intentas utilizar la aplicación ahora verás que cada carril es capaz de mantener sus propias notas: -- 139 of 226 -- Gestionado Dependencias de Datos 122 Separate notes La estructura actual nos permite mantener el singleton y una estructura de datos plana. Lidiar con las referencias es un tanto tedioso, pero es consistente con la arquitectura Flux. Puedes ver el mismo problema en la implementación con Redux3. La implementación con MobX4 evita el problema completamente. selectNotesByIds pudo haber sido escrita utilizando map y find. En ese caso podrías haber acabado utilizando noteIds.map(id => allNotes.find(note => note.id === id));. Sin embargo, tendrías que haber utilizado el polyfill find para que funcione en navegadores viejos. Normalizar los datos puede hacer que selectNotesByIds sea trivial. Si estás usando una solución como Redux, la normalización puede hacer fáciles operaciones como ésta. 3https://github.com/survivejs-demos/redux-demo 4https://github.com/survivejs-demos/mobx-demo -- 140 of 226 -- Gestionado Dependencias de Datos 123"
+}

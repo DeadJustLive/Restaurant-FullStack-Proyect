@@ -1,0 +1,1425 @@
+{
+  "nodes": [
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-01",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.339Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-02",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.339Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-03",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.339Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-04",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.340Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-05",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.340Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-06",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.340Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-07",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.340Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-08",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.340Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-09",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.340Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-10",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.340Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-11",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.341Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-12",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.341Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-13",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.341Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-14",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.341Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-15",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.341Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-16",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.341Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-17",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.341Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-18",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.341Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-19",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.341Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-20",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.341Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-21",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.341Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-22",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.342Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-23",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.342Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-24",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.342Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-25",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.342Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-26",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.342Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-27",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.342Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-28",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.342Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-29",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.342Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-30",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.342Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-31",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.342Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-32",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.343Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-33",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.343Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-34",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.343Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-35",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.343Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-36",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.343Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-37",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.343Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-38",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.343Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-39",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.343Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-40",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.344Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-41",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.344Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-42",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.344Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-43",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.344Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-44",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.344Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-45",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.344Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-46",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.344Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-47",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.344Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-48",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.344Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-49",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.345Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-50",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.345Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-51",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.345Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-52",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.345Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-53",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.345Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-54",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.345Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-55",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.345Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-56",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.345Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-57",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.345Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-58",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.345Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-59",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.346Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-60",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.346Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-61",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.346Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-62",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.346Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-63",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.346Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-64",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.346Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-65",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.346Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-66",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.346Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-67",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.346Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-68",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.346Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-69",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.347Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-70",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.347Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-71",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.347Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-72",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.347Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-73",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.347Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-74",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.347Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-75",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.347Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-76",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.347Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-77",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.348Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-78",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.348Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-79",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.348Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-80",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.348Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-81",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.348Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-82",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.348Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-83",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.348Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-84",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.349Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-85",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.349Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-86",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.349Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-87",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.349Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-88",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.349Z"
+    },
+    {
+      "id": "ch-python-aprende-sergio-delgado-quintero-89",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.349Z"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-01",
+      "label": "cap. 1"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-02",
+      "label": "cap. 2"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-01",
+      "to": "ch-python-aprende-sergio-delgado-quintero-02",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-03",
+      "label": "cap. 3"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-02",
+      "to": "ch-python-aprende-sergio-delgado-quintero-03",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-04",
+      "label": "cap. 4"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-03",
+      "to": "ch-python-aprende-sergio-delgado-quintero-04",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-05",
+      "label": "cap. 5"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-04",
+      "to": "ch-python-aprende-sergio-delgado-quintero-05",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-06",
+      "label": "cap. 6"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-05",
+      "to": "ch-python-aprende-sergio-delgado-quintero-06",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-07",
+      "label": "cap. 7"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-06",
+      "to": "ch-python-aprende-sergio-delgado-quintero-07",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-08",
+      "label": "cap. 8"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-07",
+      "to": "ch-python-aprende-sergio-delgado-quintero-08",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-09",
+      "label": "cap. 9"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-08",
+      "to": "ch-python-aprende-sergio-delgado-quintero-09",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-10",
+      "label": "cap. 10"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-09",
+      "to": "ch-python-aprende-sergio-delgado-quintero-10",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-11",
+      "label": "cap. 11"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-10",
+      "to": "ch-python-aprende-sergio-delgado-quintero-11",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-12",
+      "label": "cap. 12"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-11",
+      "to": "ch-python-aprende-sergio-delgado-quintero-12",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-13",
+      "label": "cap. 13"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-12",
+      "to": "ch-python-aprende-sergio-delgado-quintero-13",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-14",
+      "label": "cap. 14"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-13",
+      "to": "ch-python-aprende-sergio-delgado-quintero-14",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-15",
+      "label": "cap. 15"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-14",
+      "to": "ch-python-aprende-sergio-delgado-quintero-15",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-16",
+      "label": "cap. 16"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-15",
+      "to": "ch-python-aprende-sergio-delgado-quintero-16",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-17",
+      "label": "cap. 17"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-16",
+      "to": "ch-python-aprende-sergio-delgado-quintero-17",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-18",
+      "label": "cap. 18"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-17",
+      "to": "ch-python-aprende-sergio-delgado-quintero-18",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-19",
+      "label": "cap. 19"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-18",
+      "to": "ch-python-aprende-sergio-delgado-quintero-19",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-20",
+      "label": "cap. 20"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-19",
+      "to": "ch-python-aprende-sergio-delgado-quintero-20",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-21",
+      "label": "cap. 21"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-20",
+      "to": "ch-python-aprende-sergio-delgado-quintero-21",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-22",
+      "label": "cap. 22"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-21",
+      "to": "ch-python-aprende-sergio-delgado-quintero-22",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-23",
+      "label": "cap. 23"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-22",
+      "to": "ch-python-aprende-sergio-delgado-quintero-23",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-24",
+      "label": "cap. 24"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-23",
+      "to": "ch-python-aprende-sergio-delgado-quintero-24",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-25",
+      "label": "cap. 25"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-24",
+      "to": "ch-python-aprende-sergio-delgado-quintero-25",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-26",
+      "label": "cap. 26"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-25",
+      "to": "ch-python-aprende-sergio-delgado-quintero-26",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-27",
+      "label": "cap. 27"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-26",
+      "to": "ch-python-aprende-sergio-delgado-quintero-27",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-28",
+      "label": "cap. 28"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-27",
+      "to": "ch-python-aprende-sergio-delgado-quintero-28",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-29",
+      "label": "cap. 29"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-28",
+      "to": "ch-python-aprende-sergio-delgado-quintero-29",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-30",
+      "label": "cap. 30"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-29",
+      "to": "ch-python-aprende-sergio-delgado-quintero-30",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-31",
+      "label": "cap. 31"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-30",
+      "to": "ch-python-aprende-sergio-delgado-quintero-31",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-32",
+      "label": "cap. 32"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-31",
+      "to": "ch-python-aprende-sergio-delgado-quintero-32",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-33",
+      "label": "cap. 33"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-32",
+      "to": "ch-python-aprende-sergio-delgado-quintero-33",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-34",
+      "label": "cap. 34"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-33",
+      "to": "ch-python-aprende-sergio-delgado-quintero-34",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-35",
+      "label": "cap. 35"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-34",
+      "to": "ch-python-aprende-sergio-delgado-quintero-35",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-36",
+      "label": "cap. 36"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-35",
+      "to": "ch-python-aprende-sergio-delgado-quintero-36",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-37",
+      "label": "cap. 37"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-36",
+      "to": "ch-python-aprende-sergio-delgado-quintero-37",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-38",
+      "label": "cap. 38"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-37",
+      "to": "ch-python-aprende-sergio-delgado-quintero-38",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-39",
+      "label": "cap. 39"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-38",
+      "to": "ch-python-aprende-sergio-delgado-quintero-39",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-40",
+      "label": "cap. 40"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-39",
+      "to": "ch-python-aprende-sergio-delgado-quintero-40",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-41",
+      "label": "cap. 41"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-40",
+      "to": "ch-python-aprende-sergio-delgado-quintero-41",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-42",
+      "label": "cap. 42"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-41",
+      "to": "ch-python-aprende-sergio-delgado-quintero-42",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-43",
+      "label": "cap. 43"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-42",
+      "to": "ch-python-aprende-sergio-delgado-quintero-43",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-44",
+      "label": "cap. 44"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-43",
+      "to": "ch-python-aprende-sergio-delgado-quintero-44",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-45",
+      "label": "cap. 45"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-44",
+      "to": "ch-python-aprende-sergio-delgado-quintero-45",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-46",
+      "label": "cap. 46"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-45",
+      "to": "ch-python-aprende-sergio-delgado-quintero-46",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-47",
+      "label": "cap. 47"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-46",
+      "to": "ch-python-aprende-sergio-delgado-quintero-47",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-48",
+      "label": "cap. 48"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-47",
+      "to": "ch-python-aprende-sergio-delgado-quintero-48",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-49",
+      "label": "cap. 49"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-48",
+      "to": "ch-python-aprende-sergio-delgado-quintero-49",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-50",
+      "label": "cap. 50"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-49",
+      "to": "ch-python-aprende-sergio-delgado-quintero-50",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-51",
+      "label": "cap. 51"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-50",
+      "to": "ch-python-aprende-sergio-delgado-quintero-51",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-52",
+      "label": "cap. 52"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-51",
+      "to": "ch-python-aprende-sergio-delgado-quintero-52",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-53",
+      "label": "cap. 53"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-52",
+      "to": "ch-python-aprende-sergio-delgado-quintero-53",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-54",
+      "label": "cap. 54"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-53",
+      "to": "ch-python-aprende-sergio-delgado-quintero-54",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-55",
+      "label": "cap. 55"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-54",
+      "to": "ch-python-aprende-sergio-delgado-quintero-55",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-56",
+      "label": "cap. 56"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-55",
+      "to": "ch-python-aprende-sergio-delgado-quintero-56",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-57",
+      "label": "cap. 57"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-56",
+      "to": "ch-python-aprende-sergio-delgado-quintero-57",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-58",
+      "label": "cap. 58"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-57",
+      "to": "ch-python-aprende-sergio-delgado-quintero-58",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-59",
+      "label": "cap. 59"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-58",
+      "to": "ch-python-aprende-sergio-delgado-quintero-59",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-60",
+      "label": "cap. 60"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-59",
+      "to": "ch-python-aprende-sergio-delgado-quintero-60",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-61",
+      "label": "cap. 61"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-60",
+      "to": "ch-python-aprende-sergio-delgado-quintero-61",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-62",
+      "label": "cap. 62"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-61",
+      "to": "ch-python-aprende-sergio-delgado-quintero-62",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-63",
+      "label": "cap. 63"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-62",
+      "to": "ch-python-aprende-sergio-delgado-quintero-63",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-64",
+      "label": "cap. 64"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-63",
+      "to": "ch-python-aprende-sergio-delgado-quintero-64",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-65",
+      "label": "cap. 65"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-64",
+      "to": "ch-python-aprende-sergio-delgado-quintero-65",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-66",
+      "label": "cap. 66"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-65",
+      "to": "ch-python-aprende-sergio-delgado-quintero-66",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-67",
+      "label": "cap. 67"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-66",
+      "to": "ch-python-aprende-sergio-delgado-quintero-67",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-68",
+      "label": "cap. 68"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-67",
+      "to": "ch-python-aprende-sergio-delgado-quintero-68",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-69",
+      "label": "cap. 69"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-68",
+      "to": "ch-python-aprende-sergio-delgado-quintero-69",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-70",
+      "label": "cap. 70"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-69",
+      "to": "ch-python-aprende-sergio-delgado-quintero-70",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-71",
+      "label": "cap. 71"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-70",
+      "to": "ch-python-aprende-sergio-delgado-quintero-71",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-72",
+      "label": "cap. 72"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-71",
+      "to": "ch-python-aprende-sergio-delgado-quintero-72",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-73",
+      "label": "cap. 73"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-72",
+      "to": "ch-python-aprende-sergio-delgado-quintero-73",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-74",
+      "label": "cap. 74"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-73",
+      "to": "ch-python-aprende-sergio-delgado-quintero-74",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-75",
+      "label": "cap. 75"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-74",
+      "to": "ch-python-aprende-sergio-delgado-quintero-75",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-76",
+      "label": "cap. 76"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-75",
+      "to": "ch-python-aprende-sergio-delgado-quintero-76",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-77",
+      "label": "cap. 77"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-76",
+      "to": "ch-python-aprende-sergio-delgado-quintero-77",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-78",
+      "label": "cap. 78"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-77",
+      "to": "ch-python-aprende-sergio-delgado-quintero-78",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-79",
+      "label": "cap. 79"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-78",
+      "to": "ch-python-aprende-sergio-delgado-quintero-79",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-80",
+      "label": "cap. 80"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-79",
+      "to": "ch-python-aprende-sergio-delgado-quintero-80",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-81",
+      "label": "cap. 81"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-80",
+      "to": "ch-python-aprende-sergio-delgado-quintero-81",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-82",
+      "label": "cap. 82"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-81",
+      "to": "ch-python-aprende-sergio-delgado-quintero-82",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-83",
+      "label": "cap. 83"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-82",
+      "to": "ch-python-aprende-sergio-delgado-quintero-83",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-84",
+      "label": "cap. 84"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-83",
+      "to": "ch-python-aprende-sergio-delgado-quintero-84",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-85",
+      "label": "cap. 85"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-84",
+      "to": "ch-python-aprende-sergio-delgado-quintero-85",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-86",
+      "label": "cap. 86"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-85",
+      "to": "ch-python-aprende-sergio-delgado-quintero-86",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-87",
+      "label": "cap. 87"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-86",
+      "to": "ch-python-aprende-sergio-delgado-quintero-87",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-88",
+      "label": "cap. 88"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-87",
+      "to": "ch-python-aprende-sergio-delgado-quintero-88",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-python-aprende-sergio-delgado-quintero",
+      "to": "ch-python-aprende-sergio-delgado-quintero-89",
+      "label": "cap. 89"
+    },
+    {
+      "from": "ch-python-aprende-sergio-delgado-quintero-88",
+      "to": "ch-python-aprende-sergio-delgado-quintero-89",
+      "label": "siguiente"
+    }
+  ]
+}

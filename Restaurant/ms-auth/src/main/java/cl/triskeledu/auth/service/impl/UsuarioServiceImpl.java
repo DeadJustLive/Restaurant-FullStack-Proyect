@@ -18,6 +18,10 @@ import cl.triskeledu.auth.entity.Usuario;
  * =============================================================================
  * SERVICE IMPL: UsuarioServiceImpl
  * =============================================================================
+ * @use(auth)
+ * @kind(serviceImpl)
+ * @contract(in: UsuarioRequestDTO -> out: UsuarioResponseDTO)
+ * @limit(lines: 400)
  *
  * PROPÓSITO:
  *   Implementación concreta del contrato UsuarioService.

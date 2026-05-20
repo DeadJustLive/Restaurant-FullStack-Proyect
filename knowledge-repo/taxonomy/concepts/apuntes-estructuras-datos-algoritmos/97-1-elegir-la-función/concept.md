@@ -1,0 +1,15 @@
+# 1. Elegir la función
+
+## Fuente
+apuntes-estructuras-datos-algoritmos (Cap. 97)
+
+## Contenido
+# 1. Elegir la función
+
+h : Dominio de las claves  1..max
+no inyectiva, que se denomina función de dispersión (o función de localización, de desmenuzamiento, o de
+transformación, según otras traducciones del término original inglés hashing function).
+Esta función se utiliza para calcular la entrada primaria, es decir, la posición en el vector v[1..max] de pares
+<clave,valor> que, en primera instancia, le corresponde a una clave dada c.
+Como h no es inyectiva es posible que la entrada primaria de la clave de un par a insertar esté ocupada por otro par
+con clave diferente. Este hecho se conoce por el nombre de colisión.

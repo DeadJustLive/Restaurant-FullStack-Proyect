@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch067-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 67,
+  "chunkIndex": 0,
+  "title": "Un Programa de Ejemplo Usando Structs",
+  "start": 0,
+  "end": 32,
+  "words": 32,
+  "content": "# Un Programa de Ejemplo Usando Structs ## Un Programa de Ejemplo Usando Structs ### Refactorizando con Tuplas ### Refactorizando con Structs: Añadiendo Más Significado ### Añadiendo Funcionalidad Útil con Traits Derivados"
+}

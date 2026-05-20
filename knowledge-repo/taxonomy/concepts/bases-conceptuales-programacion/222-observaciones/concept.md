@@ -1,0 +1,29 @@
+# OBSERVACIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 222)
+
+## Contenido
+# OBSERVACIONES:
+
+* como los d´ıgitos se ingresan de izquierda a derecha
+pero se leen de derecha a izquierda, determinar si
+se complet´o el ingreso de un c´odigo v´alido se puede
+realizar leyendo el n´umero y viendo que es distinto
+de cero
+*/
+{
+AgregarDigitoASeleccion(dig)
+if (leerZonaDeSeleccion()/=0) // Al terminar de seleccionar
+// una pieza, baja todas
+{ BajarPiezasDeZonaDeJuego() }
+}
+Como se puede observar en el comentario del contrato, la manera de determinar si se
+complet ´o la lectura de un c ´odigo v ´alido es simplemente verificar que el c ´odigo es distinto
+de cero; esto es as´ı porque los d´ıgitos se ingresan en la zona de selecci ´on de izquierda a
+derecha y se leen de derecha a izquierda, con lo cual mientras que no haya un d´ıgito en
+la celda menos significativa de la zona, el n ´umero le´ıdo dar ´a cero.
+Finalmente la ´ultima de las operaciones de interacci ´on es la de bajar todas las piezas
+en simult ´aneo.
+procedure OperacionBajarPiezas()
+/*

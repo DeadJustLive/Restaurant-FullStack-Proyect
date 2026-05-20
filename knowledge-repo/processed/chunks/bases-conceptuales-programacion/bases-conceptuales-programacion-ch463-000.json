@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch463-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 463,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 42,
+  "words": 42,
+  "content": "# OBSERVACIONES: * al bajar piezas se puede generar nuevo piso y por eso se invoca a la operaci´on de extender el piso */ { UnicamenteBajarPiezas() ExtenderElPiso() } //----------------------------------------------------- procedure UnicamenteBajarPiezas() /* PROP´OSITO: bajar un lugar todas las piezas que pueden bajar"
+}

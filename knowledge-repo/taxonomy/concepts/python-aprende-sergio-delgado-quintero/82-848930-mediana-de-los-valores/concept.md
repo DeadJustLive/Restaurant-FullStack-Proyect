@@ -1,0 +1,24 @@
+# 84893.0 Mediana de los valores
+
+## Fuente
+Aprende Python (Cap. 82)
+
+## Contenido
+# 84893.0 Mediana de los valores
+
+df[ Revenue ].min() 53625 Mínimo
+df[ Revenue ].max() 274515 Máximo
+df[ Revenue ].mode() Múltiples
+valores
+Moda
+df[ Revenue ].abs() Múltiples
+valores
+Valor absoluto
+df[ Revenue ].prod() 6758064777941221376	Producto de los valores
+df[ Revenue ].std() 63236.95 Desviación típica
+df[ Revenue ].var() 3998912818.06	Varianza
+df[ Revenue ].sem() 15337.21 Error típico de la media
+df[ Revenue ].skew() 1.33 Asimetría
+df[ Revenue ].kurt() 1.13 Apuntamiento
+df[ Revenue ].
+quantile()

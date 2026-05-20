@@ -1,0 +1,11 @@
+{
+  "id": "capacitorjs-docs-ch042-000",
+  "bookId": "capacitorjs-docs",
+  "chapterIndex": 42,
+  "chunkIndex": 0,
+  "title": "Data Security​",
+  "start": 0,
+  "end": 19,
+  "words": 19,
+  "content": "# Data Security​ ## Data Security​ ### Avoid Embedding Secrets in Code​ ### Storing Encryption Keys, Session Tokens, etc.​"
+}

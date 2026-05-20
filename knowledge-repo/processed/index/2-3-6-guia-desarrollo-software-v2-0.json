@@ -1,0 +1,348 @@
+{
+  "id": "2-3-6-guia-desarrollo-software-v2-0",
+  "title": "2.3.6 Guia Desarrollo Software v2.0",
+  "author": "",
+  "pages": 33,
+  "sourceFile": "source-pdfs/2-3-6-guia-desarrollo-software-v2-0.pdf",
+  "processedAt": "2026-05-17T07:11:14.383Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "I. Introducción",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/01-i-introducción.md",
+      "words": 286
+    },
+    {
+      "index": 2,
+      "title": "II. Consideraciones iniciales para",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/02-ii-consideraciones-iniciales-para.md",
+      "words": 51
+    },
+    {
+      "index": 3,
+      "title": "1. Metodologías de desarrollo",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/03-1-metodologías-de-desarrollo.md",
+      "words": 240
+    },
+    {
+      "index": 4,
+      "title": "2. Ambientes de desarrollo",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/04-2-ambientes-de-desarrollo.md",
+      "words": 123
+    },
+    {
+      "index": 5,
+      "title": "III. Consideraciones para un",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/05-iii-consideraciones-para-un.md",
+      "words": 33
+    },
+    {
+      "index": 6,
+      "title": "1. Uso de librerías y frameworks",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/06-1-uso-de-librerías-y-frameworks.md",
+      "words": 107
+    },
+    {
+      "index": 7,
+      "title": "2. Consultas seguras a las bases",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/07-2-consultas-seguras-a-las-bases.md",
+      "words": 239
+    },
+    {
+      "index": 8,
+      "title": "3. Codificar y escapar los datos",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/08-3-codificar-y-escapar-los-datos.md",
+      "words": 306
+    },
+    {
+      "index": 9,
+      "title": "4. Validación de datos",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/09-4-validación-de-datos.md",
+      "words": 248
+    },
+    {
+      "index": 10,
+      "title": "5. Autenticación \tnivel \t1:",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/10-5-autenticación-nivel-1.md",
+      "words": 276
+    },
+    {
+      "index": 11,
+      "title": "6. Autenticación \tnivel \t2:",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/11-6-autenticación-nivel-2.md",
+      "words": 112
+    },
+    {
+      "index": 12,
+      "title": "7. Autenticación \tnivel \t3:",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/12-7-autenticación-nivel-3.md",
+      "words": 40
+    },
+    {
+      "index": 13,
+      "title": "8. Implementar mecanismos de",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/13-8-implementar-mecanismos-de.md",
+      "words": 82
+    },
+    {
+      "index": 14,
+      "title": "9. Uso de cookies para manejo",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/14-9-uso-de-cookies-para-manejo.md",
+      "words": 72
+    },
+    {
+      "index": 15,
+      "title": "10. Uso de tokens de sesión",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/15-10-uso-de-tokens-de-sesión.md",
+      "words": 161
+    },
+    {
+      "index": 16,
+      "title": "11. Identificación de datos",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/16-11-identificación-de-datos.md",
+      "words": 33
+    },
+    {
+      "index": 17,
+      "title": "12. Datos en tránsito",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/17-12-datos-en-tránsito.md",
+      "words": 35
+    },
+    {
+      "index": 18,
+      "title": "parte d: e la aplicación.",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/18-parte-d-e-la-aplicación.md",
+      "words": 77
+    },
+    {
+      "index": 19,
+      "title": "14. Manejo de secretos",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/19-14-manejo-de-secretos.md",
+      "words": 76
+    },
+    {
+      "index": 20,
+      "title": "15. Desarrollo \torientado \ta",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/20-15-desarrollo-orientado-a.md",
+      "words": 79
+    },
+    {
+      "index": 21,
+      "title": "16. Calidad de código",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/21-16-calidad-de-código.md",
+      "words": 80
+    },
+    {
+      "index": 22,
+      "title": "17. Detección preventiva",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/22-17-detección-preventiva.md",
+      "words": 78
+    },
+    {
+      "index": 23,
+      "title": "18. Modelo inicial de datos",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/23-18-modelo-inicial-de-datos.md",
+      "words": 51
+    },
+    {
+      "index": 24,
+      "title": "19. Seeding de la base de datos",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/24-19-seeding-de-la-base-de-datos.md",
+      "words": 81
+    },
+    {
+      "index": 25,
+      "title": "20. Implementar mecanismos de",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/25-20-implementar-mecanismos-de.md",
+      "words": 89
+    },
+    {
+      "index": 26,
+      "title": "21. Manejo seguro de errores y",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/26-21-manejo-seguro-de-errores-y.md",
+      "words": 86
+    },
+    {
+      "index": 27,
+      "title": "22. Compilación limpia",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/27-22-compilación-limpia.md",
+      "words": 76
+    },
+    {
+      "index": 28,
+      "title": "IV. Aseguramiento y certificación",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/28-iv-aseguramiento-y-certificación.md",
+      "words": 158
+    },
+    {
+      "index": 29,
+      "title": "V. Tecnologías de preferencia",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/29-v-tecnologías-de-preferencia.md",
+      "words": 44
+    },
+    {
+      "index": 30,
+      "title": "1. Lenguajes de programación",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/30-1-lenguajes-de-programación.md",
+      "words": 127
+    },
+    {
+      "index": 31,
+      "title": "VI. Uso de tecnologías",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/31-vi-uso-de-tecnologías.md",
+      "words": 30
+    },
+    {
+      "index": 32,
+      "title": "1. Lenguaje",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/32-1-lenguaje.md",
+      "words": 78
+    },
+    {
+      "index": 33,
+      "title": "2. Almacenamiento",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/33-2-almacenamiento.md",
+      "words": 130
+    },
+    {
+      "index": 34,
+      "title": "3. Tareas fuera de línea o",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/34-3-tareas-fuera-de-línea-o.md",
+      "words": 77
+    },
+    {
+      "index": 35,
+      "title": "4. Formateo de código",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/35-4-formateo-de-código.md",
+      "words": 106
+    },
+    {
+      "index": 36,
+      "title": "5. Repositorios de código",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/36-5-repositorios-de-código.md",
+      "words": 51
+    },
+    {
+      "index": 37,
+      "title": "VII. Desarrollo y consumo de APIs",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/37-vii-desarrollo-y-consumo-de-apis.md",
+      "words": 34
+    },
+    {
+      "index": 38,
+      "title": "1. Ley de Transformación Digital",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/38-1-ley-de-transformación-digital.md",
+      "words": 60
+    },
+    {
+      "index": 39,
+      "title": "2. Desacoplar \tclientes \ty",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/39-2-desacoplar-clientes-y.md",
+      "words": 48
+    },
+    {
+      "index": 40,
+      "title": "3. Uso de HTTP",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/40-3-uso-de-http.md",
+      "words": 193
+    },
+    {
+      "index": 41,
+      "title": "4. Exposición y autenticación de",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/41-4-exposición-y-autenticación-de.md",
+      "words": 35
+    },
+    {
+      "index": 42,
+      "title": "5. Definición de URI de recursos",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/42-5-definición-de-uri-de-recursos.md",
+      "words": 339
+    },
+    {
+      "index": 43,
+      "title": "6. Uso del idioma en el código",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/43-6-uso-del-idioma-en-el-código.md",
+      "words": 106
+    },
+    {
+      "index": 44,
+      "title": "VIII. Uso de contenedores en el",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/44-viii-uso-de-contenedores-en-el.md",
+      "words": 271
+    },
+    {
+      "index": 45,
+      "title": "IX. Licencias",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/45-ix-licencias.md",
+      "words": 111
+    },
+    {
+      "index": 46,
+      "title": "1. GPLv2 y GPLv3",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/46-1-gplv2-y-gplv3.md",
+      "words": 117
+    },
+    {
+      "index": 47,
+      "title": "3. Apache 2.0",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/47-3-apache-20.md",
+      "words": 95
+    },
+    {
+      "index": 48,
+      "title": "4. Dominio Público (Creative",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/48-4-dominio-público-creative.md",
+      "words": 65
+    },
+    {
+      "index": 49,
+      "title": "5. Casos de uso de licencia",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/49-5-casos-de-uso-de-licencia.md",
+      "words": 271
+    },
+    {
+      "index": 50,
+      "title": "6. Buenas \tprácticas \tde",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/50-6-buenas-prácticas-de.md",
+      "words": 219
+    },
+    {
+      "index": 51,
+      "title": "X. Actualizaciones a esta guía",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/51-x-actualizaciones-a-esta-guía.md",
+      "words": 223
+    },
+    {
+      "index": 52,
+      "title": "1. Ejemplo Dockerfile aplicación",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/52-1-ejemplo-dockerfile-aplicación.md",
+      "words": 42
+    },
+    {
+      "index": 53,
+      "title": "2. Ejemplo Gitlab-ci.yml",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/53-2-ejemplo-gitlab-ciyml.md",
+      "words": 41
+    },
+    {
+      "index": 54,
+      "title": "3. Ejemplo Github-action.yml",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/54-3-ejemplo-github-actionyml.md",
+      "words": 210
+    },
+    {
+      "index": 55,
+      "title": "- \tCLUSTER_NAME:",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/55---clustername.md",
+      "words": 114
+    },
+    {
+      "index": 56,
+      "title": "T_SHA}",
+      "file": "chapters/2-3-6-guia-desarrollo-software-v2-0/56-tsha.md",
+      "words": 42
+    }
+  ],
+  "learningIntegrated": true
+}

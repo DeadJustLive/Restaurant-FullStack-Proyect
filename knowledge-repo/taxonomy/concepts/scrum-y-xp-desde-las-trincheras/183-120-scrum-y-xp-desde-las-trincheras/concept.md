@@ -1,0 +1,29 @@
+# 120 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 183)
+
+## Contenido
+# 120 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+18
+Epílogo
+¡Buf! Nunca pensé que sería tan largo.
+Espero que este documento te de algunas ideas útiles, ya seas nuevo en Scrum
+o un curtido veterano.
+Ya que Scrum debe ser adaptado a las necesidades específicas de cada
+entorno, es duro discutir de forma constructiva sobre las mejores prácticas a nivel
+general. Aun así, estoy interesado en vuestro feedback. Contadme cómo difiere
+vuestro enfoque del mío. ¡Dadme ideas para mejorar!
+Sentíos invitados a escribirme a henrik.kniberg@crisp.se.
+También suelo atender la dirección scrumdevelopment@yahoogroups.com.
+Si te gusta este libro puede que quieras echar un vistazo a mi blog de vez en
+cuando. Espero ir añadiendo artículos sobre Java y desarrollo Ágil de software.
+http://blog.crisp.se/henrikkniberg/
+Oh, y no lo olvides…
+Es sólo un trabajo, ¿verdad?
+Version gratuita on-line.
+Apoya este trabajo, compra la copia impresa:
+http://infoq.com/minibooks/scrum-xp-from- the-trenches
+
+-- 120 of 122 --

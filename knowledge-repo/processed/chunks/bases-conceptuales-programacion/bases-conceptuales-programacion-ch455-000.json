@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch455-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 455,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 51,
+  "words": 51,
+  "content": "# OBSERVACIONES: * para saber su puede bajar, se la quita y se determina si hay lugar una celda m´as abajo (si es que hay celda m´as abajo) * si no hay pieza, no la puede bajar... */ { return (puedeMoverPiezaActual(Sur)) } //----------------------------------------------------- procedure BajarPiezaActual() /* PROP´OSITO: baja la pieza actual"
+}

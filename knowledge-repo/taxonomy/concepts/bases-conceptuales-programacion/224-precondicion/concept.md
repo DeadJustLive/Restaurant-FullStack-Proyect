@@ -1,0 +1,60 @@
+# PRECONDICI´ON:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 224)
+
+## Contenido
+# PRECONDICI´ON:
+
+* tiene que haber un juego de Zilfost v´alido
+codificado en el tablero con una zona de
+juego de ancho m´ınimo 9
+*/
+{ GenerarLogoZILFOST() }
+Vemos que se asume que ya hay un juego de ZILFOST codificado sobre el tablero; si no,
+este programa fallar ´a.
+Otros programas pueden mostrar el uso de diferentes operaciones b ´asicas y diferentes
+combinaciones. Por ejemplo, podr´ıa pensarse en utilizar la zona de datos para codificar de
+alguna manera combinaciones de operaciones b ´asicas y luego simular dichas operaciones
+leyendo los c ´odigos e invocando adecuadamente a las operaciones codificadas. Pero la
+gran desventaja de este enfoque para probar el juego es que solo podemos visualizar el
+tablero final, perdi ´endonos toda posibilidad de interacci ´on.
+5.7.2. Programas interactivos
+Al pensar en ejemplificar el uso de GOBSTONES mediante juegos sencillos, surgi ´o la ne-
+cesidad de imaginar un mecanismo de interacci ´on simple que respetase los principios de
+dise ˜no del lenguaje. La forma m ´as b ´asica de interacci ´on consiste en un ciclo donde la
+computadora muestra al usuario cierto estado, le solicita una interacci ´on elemental (por
+ejemplo mediante la digitaci ´on de alguna tecla), y luego procesa el resultado de dicha
+interacci ´on, mostrando el resultado y volviendo a repetir este accionar. Esta forma de
+interacci ´on se suele conocer como ciclos read-eval-print (o tambi ´en read-execute-print),
+pues comienzan con la lectura de cierta informaci ´on provista por el usuario (la etapa de
+read, lectura de informaci ´on), luego contin ´uan con la ejecuci ´on (la etapa eval o exectue,
+de evaluaci ´on o ejecuci ´on del program), y se completan con la muestra de la informaci ´on
+resultante al usuario (la etapa print, de impresi ´on o muestra de resultados). En el caso
+de GOBSTONES, el mecanismo de muestra de informaci ´on ser´ıa sencillamente permitir vi-
+sualizar el estado del tablero luego del c ´omputo de cada ciclo, y la lectura de informaci ´on
+podr´ıa consistir en recibir una tecla presionada por el usuario. (Podr´ıan tambi ´en conside-
+rarse eventos m ´as complejos, como interacci ´on a trav ´es del mouse u otros dispositivos,
+pero preferimos mantener la simplicidad en este lenguaje.)
+Para expresar este ciclo de read-eval-print en forma de programa, GOBSTONES acep-
+ta una variante de programa llamada programa interactivo, e identificada con la palabra
+clave interactive usada como modificador de la palabra clave program. El cuerpo de un
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 228 of 312 --
+
+229
+programa interactivo ser ´a simplemente una lista de asociaciones entre c ´odigos de tecla y
+bloques del programa a ser ejecutados cuando la tecla asociada sea presionada. En es-
+ta variante, cada bloque mantiene sus propias variables, no habiendo variables comunes
+entre dos ciclos de ejecuci ´on diferentes; lo com ´un es que cada bloque consista en unos
+pocos llamados a procedmientos (idealmente, uno).
+Los c ´odigos de tecla se indican mediante constantes preestablecidas, y la forma de
+la asociaci ´on entre teclas y bloques sigue el mismo principio sint ´actico que el de las di-
+ferentes opciones de una alternativa indexada. Los c ´odigos de teclas que se aceptan
+actualmente comienzan con la letra K (por Key, tecla en ingl ´es), y son los siguientes:
+los c ´odigos de las letras del alfabeto, K A, . . . , K Z;
+los c ´odigos de los d´ıgitos, K 0, . . . , K 9;
+los c ´odigos de las flechas para arriba, abajo, izquierda y derecha, K ARROW UP,
+K ARROW DOWN, K ARROW LEFT y K ARROW RIGHT, respectivamente;
+los c ´odigos de las teclas especiales, K ENTER, K SPACE, K ESCAPE, K TAB, K DELETE y

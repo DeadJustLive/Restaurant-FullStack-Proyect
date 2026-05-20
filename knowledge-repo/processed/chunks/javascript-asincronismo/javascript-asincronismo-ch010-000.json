@@ -1,0 +1,11 @@
+{
+  "id": "javascript-asincronismo-ch010-000",
+  "bookId": "javascript-asincronismo",
+  "chapterIndex": 10,
+  "chunkIndex": 0,
+  "title": "10. Tras dos segundos, el timer finaliza y pone el callback() en cola.",
+  "start": 0,
+  "end": 14,
+  "words": 14,
+  "content": "# 10. Tras dos segundos, el timer finaliza y pone el callback() en cola."
+}

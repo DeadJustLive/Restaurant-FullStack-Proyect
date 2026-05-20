@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch113-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 113,
+  "chunkIndex": 0,
+  "title": "12.1 Implementando la Edición de Nombres",
+  "start": 0,
+  "end": 306,
+  "words": 306,
+  "content": "# 1.3 Renderizadores de React Como mencionamos anteriormente, el enfoque de React hace que éste esté des- acoplado de la web. Puedes utilizar React para implementar interfaces para varias plataformas. En nuestro caso utilizaremos un renderizador conocido como react- dom6, que permite renderizar tanto en el lado del cliente como en el lado del servidor. Renderizado Universal Podemos utilizar react-dom para implementar lo que se conoce como el renderizado universal. La idea es conseguir que el servidor renderice una página inicial y envie los datos al cliente. Esto mejora el rendimiento evitando tener que hacer llamadas innecesarias entre el cliente y el servidor que puedan provocar sobrecarga. Además, es útil para SEO. Aunque el funcionamiento de esta técnica parezca sencillo, puede ser dificil de implementar en el caso de aplicaciones grandes. Aún así es algo que merece la pena conocer. A menudo utilizar el renderizado del lado del servidor de react-dom es suficiente. Puedes utilizarlo, por ejemplo, para generar facturas7, lo cual demuestra que React puede usarse de una forma flexible. La generación de informes es una funcionalidad común después de todo. Renderizadores de React Disponibles Aunque react-dom sea el renderizador más comúnmente utilizado, existen otros de los que deberías ser consciente. A continuación muestro una lista con algunas de las alternativas más populares: • React Native8 - React Native es un framework y un renderizador para plata- formas móviles, incluido iOS y Android. También puedes ejecutar aplicaciones hechas con React Native en la web9. 6https://www.npmjs.com/package/react-dom 7https://github.com/bebraw/generate-invoice 8https://facebook.github.io/react-native/ 9https://github.com/necolas/react-native-web -- 23 of 226 -- Introducción a React 6 • react-blessed10 - react-blessed te permite escribir aplicaciones de terminal utilizando React. Incluso es posible animarlas. • gl-react11 - gl-react provee a React de soporte para WebGL. Con ello puedes, por ejemplo, hacer shaders. • react-canvas12 - react-canvas provee a React de soporte para gestionar el elemento Canvas."
+}

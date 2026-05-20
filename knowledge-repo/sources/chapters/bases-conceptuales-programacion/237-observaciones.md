@@ -1,0 +1,42 @@
+# OBSERVACIONES:
+
+* se estructura como un recorrido NE sobre las
+celdas de la zona de juego
+* si la pieza no existe, queda en un extremo
+de la zona de juego
+*/
+{
+IrAlOrigenDeZonaDeJuego()
+while (not esFinDelRecorridoNEDeZonaDeJuego()
+&& not esSeccionPivoteDePieza(codPieza))
+{ AvanzarEnRecorridoNEDeZonaDeJuego() }
+}
+Observar el uso de las operaciones de recorrido sobre la zona de juegos que fueron
+definidas en la secci ´on 5.2.1.
+¡Una vez m ´as podemos observar el poder de contar con subtareas adecuadas!
+5.4.2. Colocar y quitar una pieza
+Para colocar una pieza definiremos un procedimiento ColocarPieza que se encargue de la
+tarea. Este procedimiento seguir ´a un principio de trabajo similar al utilizado para verificar
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 204 of 312 --
+
+205
+si hay lugar para una pieza: en base a la clase del tipo de pieza elegir ´a uno de dos
+procedimientos auxiliares, uno para colocar piezas de clase A y otro para piezas de clase
+B. ´Estos a su vez utilizaran operaciones auxiliares para colocar cada una de las secciones.
+Las operaciones ser ´an las siguientes
+// procedure ColocarPieza(codPieza, tipoPieza, rotPieza)
+// procedure ColocarPzClaseA(codPieza,tipoPieza,rotPieza
+// ,dirA,dirB,dirC1,dirC2)
+// procedure ColocarPzClaseB(codPieza,tipoPieza,rotPieza
+// ,dirA,dirB,dirC)
+// procedure ColocarSeccionDePieza(codPieza)
+// procedure ColocarPivote(codPieza,tipoPieza,rotPieza)
+// procedure ColocarSeccionDePiezaEn(codPieza,dir)
+// procedure ColocarSeccionDePiezaEnY(codPieza,dir1,dir2)
+El c ´odigo de ColocarPieza es sencillo una vez que entendemos que solo determina a
+cual de las operaciones auxiliares debe invocar.
+procedure ColocarPieza(codPieza, tipoPieza, rotPieza)
+/*
+PROP´OSITO: coloca la pieza codPieza en el tablero

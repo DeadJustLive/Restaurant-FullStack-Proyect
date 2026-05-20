@@ -1,0 +1,69 @@
+# OBSERVACIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 217)
+
+## Contenido
+# OBSERVACIONES:
+
+* la semilla de par´ametro se usa como semilla inicial
+* el resultado de cada n´umero seudorand´omico generado
+se usa como pr´oxima semilla, y el final se retorna
+*/
+{
+(ubicacion,nuevaSemilla)
+:= randomEntre0YConSemilla(anchoDeZonaDeJuego()-1
+,semilla)
+(tipoPieza,nuevaSemilla)
+:= randomEntre0YConSemilla(6
+,nuevaSemilla)
+return(leerZonaDeProximaPieza(), tipoPieza+1
+,ubicacion , nuevaSemilla)
+}
+Puede verse que el tipo de pieza se acota entre 0 y 6, y luego se ajusta sum ´andole 1. Lo
+mismo con respecto a la ubicaci ´on, que se acota por el ancho de la zona de juego, salvo
+que en este caso no hace falta ajustarlo, pues la primera columna de la zona de juego se
+numera como 0. La variable nuevaSemilla guarda los valores intermedios de las semillas
+producidas por el generador, siendo el ´ultimo valor de la misma el que debe devolverse
+para futuros usos. Es importante observar como se aplica el esquema correcto de uso
+del generador de n ´umeros seudoaleatorios para garantizar que la semilla suministrada
+siempre es la ´ultima producida por el generador. Este patr ´on debe repetirse al utilizar esta
+operaci ´on.
+5.6.2. Operaciones de interacci ´on
+Las operaciones de interacci ´on son aquellas que se invocan desde la interfaz de usuario y
+que sirven para expresar las alternativas de interacci ´on que el usuario tiene con el sistema.
+Expresan las opciones posibles con las que el usuario se encuentra cuando interact ´ua
+con el sistema, y constituyen los puntos de acceso al resto del programa, facilitando la
+separaci ´on de las diferentes partes en unidades autocontenidas.
+En el caso del ZILFOST, las operaciones de interacci ´on son cinco
+// procedure OperacionColocarNuevaPieza()
+// procedure OperacionMoverPiezaAl(dir)
+// procedure OperacionRotarPieza(sentidoHorario)
+// procedure OperacionAgregarDigitoASeleccion(dig)
+// procedure OperacionBajarPiezas()
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 225 of 312 --
+
+226
+La operaci ´on de colocar nueva pieza combina las operaciones de determinar nueva pieza
+con la mec ´anica de la semilla para n ´umeros seudoaleatorios, y luego coloca efectivamente
+la pieza en la zona de juego. Las operaciones de mover y rotar pieza sirven para interac-
+tuar con una pieza espec´ıfica, que deben encargarse de determinar cu ´al es. La operaci ´on
+de agregar d´ıgitos a la selecci ´on se encarga de ir completando la lectura de d´ıgitos para
+saber sobre cu ´al pieza deben trabajar las operaciones anteriores. Finalmente la opci ´on de
+bajar piezas se encarga de ir bajando las piezas ante determinados eventos.
+Para la operaci ´on de colocar una nueva pieza, tenemos que determinar c ´omo se man-
+tendr ´a de manera global la semilla de n ´umeros seudoaleatorios, y utilizar esta forma para
+interactuar con las operaciones de la mec ´anica del juego. Dado que el tipo de interacci ´on
+que imaginamos para el juego no involucra recordar valores de variables entre opera-
+ciones de interfaz, debemos encontrar una manera de recordar este valor que no utilice
+variables. Dicha manera viene provista por el tablero. Puesto que los n ´umeros a recordar
+son grandes (del orden de los 10 d´ıgitos) y en las implementaciones actuales de GOBS-
+TONES la operaci ´on de poner muchas bolitas toma un tiempo directamente proporcional al
+n ´umero de bolitas a poner, se elige utilizar una representaci ´on por d´ıgitos que pueda ser
+grabada y le´ıda en el tablero de manera eficiente. Este es el prop ´osito de la zona de se-
+milla que fuera descrita en la secci ´on 5.1. Entonces, el c ´odigo para esta operaci ´on resulta
+simplemente de la combinaci ´on adecuada de operaciones anteriores
+procedure OperacionColocarNuevaPieza()
+/*

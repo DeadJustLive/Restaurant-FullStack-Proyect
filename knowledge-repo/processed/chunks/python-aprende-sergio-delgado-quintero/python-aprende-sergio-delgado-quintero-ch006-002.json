@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch006-002",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 6,
+  "chunkIndex": 2,
+  "title": "2.1 Thonny",
+  "start": 900,
+  "end": 1024,
+  "words": 124,
+  "content": "para poder incorporarlas: 1 msg = Hello, World 2 print(msg) Aunque ya lo veremos en profundidad, lo que hemos hecho es añadir una variable msg en la línea 1 para luego utilizarla al mostrar por pantalla su contenido. Si ahora volvemos a ejecutar nuestro programa veremos que en el panel de variables nos aparece la siguiente información: Name Value msg Hello, World También existe la posibilidad, a través del depurador, de ir ejecutando nuestro programa paso a paso. Para ello basta con pulsar en el botón que tiene un insecto. Ahí comienza la 2.1. Thonny 27 -- 31 of 516 -- Aprende Python sesión de depuración y podemos avanzar instrucción por instrucción usando la tecla F7: Figura 3: Depurando nuestro primer programa en Python"
+}

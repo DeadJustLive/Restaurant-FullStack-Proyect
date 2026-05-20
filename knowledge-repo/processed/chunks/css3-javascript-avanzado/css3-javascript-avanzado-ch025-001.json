@@ -1,0 +1,11 @@
+{
+  "id": "css3-javascript-avanzado-ch025-001",
+  "bookId": "css3-javascript-avanzado",
+  "chapterIndex": 25,
+  "chunkIndex": 1,
+  "title": "6. YUI",
+  "start": 450,
+  "end": 704,
+  "words": 254,
+  "content": "más completo pues contiene muchísimas utilidades y módulos. Repasaremos cómo hacer peticiones con AJAX y cómo construir pequeñas animaciones. 6.3.1. Peticiones AJAX Las peticiones AJAX se realizan utilizando el módulo: Y.io('/url/de/lallamada', { method: 'POST', // serializamos el formulario form: { id: \"elform\", useDisabled: true }, // eventos on: { complete: function (id, response) { // handler de la respuesta } } }); En este caso, serializamos el formulario #elform, hacemos una petición para POST y, cuando obtengamos la respuesta, la procesamos en la función del handler. Como veis, prácticamente siguen la misma estructura que la Prototype o la jQuery, jugamos con configuraciones y parámetros nuevos. 6.3.2. Animación La YUI también tiene un módulo de animación. var animation = new Y.Anim({ nodo: '#my-div', // selector que animar // origen animación from: { height: 0, width: 0 }, // destino to: { height: 100, width: 100 }, duration: 0.5, // duración -- 51 of 86 -- CC-BY-SA • PID_00176160 52 CSS3 y Javascript avanzado easing: Y.Easing.easeOut // tipo de interpolación de movimiento }); animation.run(); Todas las propiedades de la animación pueden ser cambiadas utilizando getters y setters. También hay que decir que las animaciones desencadenan eventos que pueden ser capturados. 6.4. Componentes (widgets) Realmente la YUI destaca por ser una completa biblioteca con multitud de componentes. Entre ellos destacan el campo de autocompletado, el editor de texto enriquecido, un sistema para hacer gráficos y una herramienta para re- cortar imágenes, entre muchos otros. -- 52 of 86 -- CC-BY-SA • PID_00176160 53 CSS3 y Javascript avanzado"
+}

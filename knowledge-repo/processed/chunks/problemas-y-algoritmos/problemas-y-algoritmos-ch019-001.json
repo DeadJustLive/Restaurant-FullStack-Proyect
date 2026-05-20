@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch019-001",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 19,
+  "chunkIndex": 1,
+  "title": "2. Para n ≥ 1 cualquier tablero de ajedrez de 2n × 2n, con un cuadrado",
+  "start": 450,
+  "end": 512,
+  "words": 62,
+  "content": "intentar el problema que pasar directo a la solución. Sumas Sugerencia para el quinto inciso: intenta demostrar que si puedes formar 5 números consecutivos n, n+1, n+2, n+3 y n+4, entonces también puedes formar n + 5, n + 6, n + 7, n + 8 y n + 9. Tablero de Ajedrez Sugerencias para el conteo de cuadros blancos y negros:"
+}

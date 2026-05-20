@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch040-004",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 40,
+  "chunkIndex": 4,
+  "title": "Ch19 00 patterns.html",
+  "start": 1800,
+  "end": 1916,
+  "words": 116,
+  "content": "- 20.2.Traits Avanzados - 20.3.Tipos Avanzados - 20.4.Funciones y Closures Avanzados - 20.5.Macros - 21.1.Construyendo un Servidor Web de un Solo Hilo - 21.2.Convirtiendo Nuestro Servidor de un solo Hilo en un Servidor Multihilo - 21.3.Apagado y limpieza eficientes - 22.1.A - Palabras claves - 22.2.B - Operadores y Símbolos - 22.3.C - Traits derivables - 22.4.D - Herramientas de desarrollo útiles - 22.5.E - Ediciones - 22.6.F - Traducciones del libro - 22.7.G - Cómo se hace Rust y “Rust Nightly” - Light (default) - Rust - Coal - Navy - Ayu - Latte - Frappé - Macchiato - Mocha - Literales - Arrays, Enums, Structs, o Tuplas desestructuradas - Variables - Wildcards - Placeholders"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch060-016",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 60,
+  "chunkIndex": 16,
+  "title": "{- PROP´OSITO:",
+  "start": 7200,
+  "end": 7278,
+  "words": 78,
+  "content": "preten- de mostrar la mayor´ıa de las for- mas usuales de comentarios en un solo programa, lo que resulta en un estilo recargado que no es el usualmente utilizado. En ge- neral, los comentarios se limitan al prop ´osito y precondici ´on, y al- guna que otra aclaraci ´on ocasio- nal en el c ´odigo (¡y no como en este ejemplo, que cada l´ınea tie- ne comentarios!) procedimiento DibujarLineaNegra2HaciaElNorte. {- Autor: Fidel Fecha: 08-08-08 -} procedure DibujarLineaNegra2HaciaElNorte() {-"
+}

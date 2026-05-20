@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch060-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 60,
+  "chunkIndex": 0,
+  "title": "1. Sea a = 532 y b = 112. La primera operaci´on a realizar es",
+  "start": 0,
+  "end": 28,
+  "words": 28,
+  "content": "# 1. Sea a = 532 y b = 112. La primera operaci´on a realizar es dividir a entre b, obteniendo un resto de 84 (r1=84). 532 112"
+}

@@ -1,0 +1,38 @@
+# SCRUM Y XP DESDE LAS TRINCHERAS | 27
+
+latido corporativo al que todo el mundo se acostumbra confortablemente. No hay
+discusiones sobre las fechas de entrega ya que todo el mundo sabe que cada 3
+semanas hay una entrega. Punto.
+Definiendo la meta del Sprint
+Pasa todo el tiempo. En algún momento durante la reunión de planificación de
+Sprint, pregunto “¿Y cual es la meta del Sprint”, y todo el mundo me mira
+anonadado mientras el Dueño de Producto arruga la frente y se rasca la barbilla.
+Por alguna razón, es difícil conseguir una meta de Sprint. Pero aun así he
+descubierto que realmente merece la pena exprimir una. Mejor una medio-meta
+roñosa que no tener ninguna meta. La meta podría ser “ganar más dinero” o
+“impresionar al Director General” o “hacer el sistema lo suficientemente bueno
+como para entregarlo a un grupo de usuarios beta reales” o “añadir soporte de
+backoffice básico” o lo que sea. Lo importante es que esté descrito en términos
+de negocio. Eso significa en términos en los que la gente de fuera del equipo lo
+pueda entender.
+La meta de Sprint debería responder a la pregunta fundamental “¿Por qué
+hacemos este Sprint en vez de irnos todos de vacaciones?”. De hecho, una
+forma de obtener la meta 	del Dueño de Producto es precisamente hacerle esa
+misma pregunta.
+La meta debería ser algo que no se haya logrado aun. “Impresionar al Director
+General” puede ser una meta aceptable, pero sólo si no está impresionado aun
+por el sistema tal y como se encuentra ahora mismo. Si fuera así, todo el mundo
+podría irse a casa y aun así lograr la meta del Sprint.
+La meta del Sprint puede parece bastante tonta y artificial durante la planificación
+de Sprint, pero muchas veces resulta útil a mediados de Sprint, cuando la gente
+comienza a sentirse confusa acerca de lo que deberían estar haciendo. Si tienes
+bastante equipos Scrum (como nosotros) trabajando en diferentes productos, es
+muy útil poder listar todas las metas de Sprint en una página Wiki (o donde sea)
+y colocarla en un sitio prominente donde todo el mundo en la empresa (no solo la
+alta dirección) pueda saber qué está haciendo la compañía - ¡y por qué!
+Decidiendo qué historias incluir en el Sprint
+Una de las principales actividades durante la planificación de Sprint es decidir
+qué historias se incluyen en el Sprint. Más específicamente, qué historias de la
+Pila de Producto copiar en la Pila de Sprint.
+
+-- 27 of 122 --

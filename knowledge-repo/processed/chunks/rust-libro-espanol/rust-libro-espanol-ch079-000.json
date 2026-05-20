@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch079-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 79,
+  "chunkIndex": 0,
+  "title": "Tipos de Datos Genéricos",
+  "start": 0,
+  "end": 32,
+  "words": 32,
+  "content": "# Tipos de Datos Genéricos ## Tipos de Datos Genéricos ### Definiciones En Function ### Definiciones En Struct ### Definiciones En Enum ### Definiciones En Method ### Rendimiento de código usando genéricos"
+}

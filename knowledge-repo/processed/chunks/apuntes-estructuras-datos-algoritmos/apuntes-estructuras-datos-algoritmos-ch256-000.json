@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch256-000",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 256,
+  "chunkIndex": 0,
+  "title": "1. Concepto de diccionario y su especificación",
+  "start": 0,
+  "end": 32,
+  "words": 32,
+  "content": "# 12. Módulos genéricos módulo genérico listasGenéricas parámetros tipo elemento con función “<”(e1,e2:elemento) devuelve booleano exporta tipo lista procedimiento crear(sal l: lista) procedimiento añadirÚltimo(e/s l: lista; ent e:elemento) ... implementación ... fin"
+}

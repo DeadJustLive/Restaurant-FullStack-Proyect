@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch115-000",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 115,
+  "chunkIndex": 0,
+  "title": "2. Especificación",
+  "start": 0,
+  "end": 27,
+  "words": 27,
+  "content": "# 2. Recorrido en post-orden: 1. se recorre en post-orden el subárbol izquierdo, 2. se recorre en post-orden el subárbol derecho, y 3. se visita la raíz."
+}

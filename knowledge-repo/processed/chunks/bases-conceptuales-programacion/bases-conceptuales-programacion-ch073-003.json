@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch073-003",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 73,
+  "chunkIndex": 3,
+  "title": "PROP´OSITO:",
+  "start": 1350,
+  "end": 1413,
+  "words": 63,
+  "content": "la importancia de un buen estilo al elegir nombres y reflexionar sobre lo que all´ı explica. En el caso de las l´ıneas, adem ´as de parametrizar la direcci ´on, podr´ıamos tambi ´en parametrizar el color. Ello es posible porque un procedimiento puede tener m ´as de un par ´ametro. En este caso, el procedimiento para dibujar l´ıneas quedar´ıa as´ı procedure DibujarLinea2Hacia(colorDeLinea, dirDeLinea) /*"
+}

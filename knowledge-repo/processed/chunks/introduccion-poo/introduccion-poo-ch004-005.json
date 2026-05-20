@@ -1,0 +1,11 @@
+{
+  "id": "introduccion-poo-ch004-005",
+  "bookId": "introduccion-poo",
+  "chapterIndex": 4,
+  "chunkIndex": 5,
+  "title": "1. Introducción",
+  "start": 2250,
+  "end": 2540,
+  "words": 290,
+  "content": "tomó posición como el estilo de progra- mación dominante a mediados de los años ochenta, en gran parte debido a la influencia de C++, una extensión del lenguaje de programación C. Su do- minación fue consolidada gracias al auge de las interfaces gráficas de usuario, para las que la programación orientada a objetos está particularmente bien adaptada. Las características de orientación a objetos fueron agregadas a muchos lengua- jes existentes durante ese tiempo, incluyendo Ada, BASIC, Lisp y Pascal, entre otros. La adición de estas características a los lenguajes que no fueron diseña- dos inicialmente para ellas condujo a menudo a problemas de compatibilidad y a la capacidad de mantenimiento del código. Los lenguajes orientados a objetos \"puros\", por otra parte, carecían de las carac- terísticas que muchos programadores solían utilizar. Para evitar este problema, aparecieron una serie de iniciativas con el objeto de crear nuevos lenguajes basados en métodos, pero orientados a objetos, manteniendo de esta manera algunas de las características imperativas. El lenguaje Eiffel fue el primero que cumplía estos objetivos, pero fue reem- plazado por Java, en gran parte debido a la aparición de Internet y a la imple- mentación de la máquina virtual de Java en la mayoría de navegadores. El lenguaje PHP, a partir de la versión 5, soporta una orientación completa a objetos y cumple todas las características propias de la orientación a objetos. En el caso de JavaScript, éste es un lenguaje orientado a objetos, en el que la herencia se implementa siguiendo el paradigma de programación basada en prototipos, esto es, las nuevas clases se generan clonando las clases base y ampliando sus métodos y propiedades. -- 10 of 44 -- CC-BY-NC-ND • PID_00220485 11 Introducción a la programación orientada a objetos"
+}

@@ -1,0 +1,849 @@
+{
+  "nodes": [
+    {
+      "id": "ch-problemas-y-algoritmos-01",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-02",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-03",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-04",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-05",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-06",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-07",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-08",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-09",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-10",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-11",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-12",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-13",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.618Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-14",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.619Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-15",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.619Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-16",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.619Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-17",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.619Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-18",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.619Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-19",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.619Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-20",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.619Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-21",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.619Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-22",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.619Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-23",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.620Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-24",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.620Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-25",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.621Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-26",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.621Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-27",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.621Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-28",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.621Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-29",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.621Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-30",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.621Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-31",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.621Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-32",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.621Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-33",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.622Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-34",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.622Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-35",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.622Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-36",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.622Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-37",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.622Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-38",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.622Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-39",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.622Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-40",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.622Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-41",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.622Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-42",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.622Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-43",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.622Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-44",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.623Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-45",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.623Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-46",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.623Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-47",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.623Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-48",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.623Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-49",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.623Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-50",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.623Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-51",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.623Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-52",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.623Z"
+    },
+    {
+      "id": "ch-problemas-y-algoritmos-53",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.624Z"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-01",
+      "label": "cap. 1"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-02",
+      "label": "cap. 2"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-01",
+      "to": "ch-problemas-y-algoritmos-02",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-03",
+      "label": "cap. 3"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-02",
+      "to": "ch-problemas-y-algoritmos-03",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-04",
+      "label": "cap. 4"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-03",
+      "to": "ch-problemas-y-algoritmos-04",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-05",
+      "label": "cap. 5"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-04",
+      "to": "ch-problemas-y-algoritmos-05",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-06",
+      "label": "cap. 6"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-05",
+      "to": "ch-problemas-y-algoritmos-06",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-07",
+      "label": "cap. 7"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-06",
+      "to": "ch-problemas-y-algoritmos-07",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-08",
+      "label": "cap. 8"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-07",
+      "to": "ch-problemas-y-algoritmos-08",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-09",
+      "label": "cap. 9"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-08",
+      "to": "ch-problemas-y-algoritmos-09",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-10",
+      "label": "cap. 10"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-09",
+      "to": "ch-problemas-y-algoritmos-10",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-11",
+      "label": "cap. 11"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-10",
+      "to": "ch-problemas-y-algoritmos-11",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-12",
+      "label": "cap. 12"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-11",
+      "to": "ch-problemas-y-algoritmos-12",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-13",
+      "label": "cap. 13"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-12",
+      "to": "ch-problemas-y-algoritmos-13",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-14",
+      "label": "cap. 14"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-13",
+      "to": "ch-problemas-y-algoritmos-14",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-15",
+      "label": "cap. 15"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-14",
+      "to": "ch-problemas-y-algoritmos-15",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-16",
+      "label": "cap. 16"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-15",
+      "to": "ch-problemas-y-algoritmos-16",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-17",
+      "label": "cap. 17"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-16",
+      "to": "ch-problemas-y-algoritmos-17",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-18",
+      "label": "cap. 18"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-17",
+      "to": "ch-problemas-y-algoritmos-18",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-19",
+      "label": "cap. 19"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-18",
+      "to": "ch-problemas-y-algoritmos-19",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-20",
+      "label": "cap. 20"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-19",
+      "to": "ch-problemas-y-algoritmos-20",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-21",
+      "label": "cap. 21"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-20",
+      "to": "ch-problemas-y-algoritmos-21",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-22",
+      "label": "cap. 22"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-21",
+      "to": "ch-problemas-y-algoritmos-22",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-23",
+      "label": "cap. 23"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-22",
+      "to": "ch-problemas-y-algoritmos-23",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-24",
+      "label": "cap. 24"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-23",
+      "to": "ch-problemas-y-algoritmos-24",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-25",
+      "label": "cap. 25"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-24",
+      "to": "ch-problemas-y-algoritmos-25",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-26",
+      "label": "cap. 26"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-25",
+      "to": "ch-problemas-y-algoritmos-26",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-27",
+      "label": "cap. 27"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-26",
+      "to": "ch-problemas-y-algoritmos-27",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-28",
+      "label": "cap. 28"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-27",
+      "to": "ch-problemas-y-algoritmos-28",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-29",
+      "label": "cap. 29"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-28",
+      "to": "ch-problemas-y-algoritmos-29",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-30",
+      "label": "cap. 30"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-29",
+      "to": "ch-problemas-y-algoritmos-30",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-31",
+      "label": "cap. 31"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-30",
+      "to": "ch-problemas-y-algoritmos-31",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-32",
+      "label": "cap. 32"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-31",
+      "to": "ch-problemas-y-algoritmos-32",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-33",
+      "label": "cap. 33"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-32",
+      "to": "ch-problemas-y-algoritmos-33",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-34",
+      "label": "cap. 34"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-33",
+      "to": "ch-problemas-y-algoritmos-34",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-35",
+      "label": "cap. 35"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-34",
+      "to": "ch-problemas-y-algoritmos-35",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-36",
+      "label": "cap. 36"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-35",
+      "to": "ch-problemas-y-algoritmos-36",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-37",
+      "label": "cap. 37"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-36",
+      "to": "ch-problemas-y-algoritmos-37",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-38",
+      "label": "cap. 38"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-37",
+      "to": "ch-problemas-y-algoritmos-38",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-39",
+      "label": "cap. 39"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-38",
+      "to": "ch-problemas-y-algoritmos-39",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-40",
+      "label": "cap. 40"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-39",
+      "to": "ch-problemas-y-algoritmos-40",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-41",
+      "label": "cap. 41"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-40",
+      "to": "ch-problemas-y-algoritmos-41",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-42",
+      "label": "cap. 42"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-41",
+      "to": "ch-problemas-y-algoritmos-42",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-43",
+      "label": "cap. 43"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-42",
+      "to": "ch-problemas-y-algoritmos-43",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-44",
+      "label": "cap. 44"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-43",
+      "to": "ch-problemas-y-algoritmos-44",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-45",
+      "label": "cap. 45"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-44",
+      "to": "ch-problemas-y-algoritmos-45",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-46",
+      "label": "cap. 46"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-45",
+      "to": "ch-problemas-y-algoritmos-46",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-47",
+      "label": "cap. 47"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-46",
+      "to": "ch-problemas-y-algoritmos-47",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-48",
+      "label": "cap. 48"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-47",
+      "to": "ch-problemas-y-algoritmos-48",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-49",
+      "label": "cap. 49"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-48",
+      "to": "ch-problemas-y-algoritmos-49",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-50",
+      "label": "cap. 50"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-49",
+      "to": "ch-problemas-y-algoritmos-50",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-51",
+      "label": "cap. 51"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-50",
+      "to": "ch-problemas-y-algoritmos-51",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-52",
+      "label": "cap. 52"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-51",
+      "to": "ch-problemas-y-algoritmos-52",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-problemas-y-algoritmos",
+      "to": "ch-problemas-y-algoritmos-53",
+      "label": "cap. 53"
+    },
+    {
+      "from": "ch-problemas-y-algoritmos-52",
+      "to": "ch-problemas-y-algoritmos-53",
+      "label": "siguiente"
+    }
+  ]
+}

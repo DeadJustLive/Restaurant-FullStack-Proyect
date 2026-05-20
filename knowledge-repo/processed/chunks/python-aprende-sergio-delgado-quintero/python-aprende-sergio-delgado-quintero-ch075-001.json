@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch075-001",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 75,
+  "chunkIndex": 1,
+  "title": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "start": 450,
+  "end": 526,
+  "words": 76,
+  "content": "tener que repetir la cadena de texto completa en un «f-string», podríamos seguir este enfoque: 298 Capítulo 7. Procesamiento de texto -- 302 of 516 -- Aprende Python >>> urlbase = Template( https://python.org/3/library/$module.html ) >>> for module in ( string , re , difflib ): ... url = urlbase.substitute(module=module) ... print(url) ... https://python.org/3/library/string.html https://python.org/3/library/re.html https://python.org/3/library/difflib.html 7.1. string 299 -- 303 of 516 -- Aprende Python 300 Capítulo 7. Procesamiento de texto -- 304 of 516 --"
+}

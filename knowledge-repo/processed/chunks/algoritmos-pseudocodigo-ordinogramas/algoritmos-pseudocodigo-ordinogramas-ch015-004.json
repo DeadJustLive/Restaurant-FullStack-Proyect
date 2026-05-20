@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch015-004",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 15,
+  "chunkIndex": 4,
+  "title": "parte d: e la solución a un problema mayor. Pero, a su vez, dicho algoritmo debe",
+  "start": 1800,
+  "end": 2016,
+  "words": 216,
+  "content": "un algoritmo escrito en pseudocódigo se diferencian entre sí por su nombre. Por ejemplo, los tipos de datos básicos se nombran como: entero, real, logico y caracter. Cada uno de ellos es un identificador. Un identificador es el nombre que se le da a un elemento de un algoritmo (o programa). Por ejemplo, el tipo de dato entero hace referencia a un tipo de dato que es distinto a todos los demás tipos de datos, es decir, los valores que puede tomar un dato de tipo entero, no son los mismos que los que puede tomar un dato de otro tipo. Los identificadores entero, real, logico y caracter están predefinidos, forman parte del lenguaje algorítmico. No obstante, en un algoritmo también pueden existir identificadores definidos por el programador. Por ejemplo, un algoritmo puede utilizar variables y constantes definidas por el programador. Además, los algoritmos también se deben nombrar mediante un identificador. En pseudocódigo, a la hora de asignar un nombre a un elemento de un algoritmo, se debe de tener en cuenta que todo identificador debe cumplir unas reglas de sintaxis. Para ello, en -- 23 of 180 -- Libro de Algoritmos de “Abrirllave.com” 24 / 180 nuestro pseudocódigo CEE (“C en Español”), vamos a seguir las mismas reglas de sintaxis que existen en lenguaje C:"
+}

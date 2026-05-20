@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch076-000",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 76,
+  "chunkIndex": 0,
+  "title": "Capítulo 49:: Valores en caja",
+  "start": 0,
+  "end": 265,
+  "words": 265,
+  "content": "# Capítulo 49:: Valores en caja Introducción Las cajas son una parte muy importante de Rust, y cada rustáceo debe saber qué son y cómo usarlas Examples Creando una caja En Rust estable, creas un Box usando la función Box::new . let boxed_int: Box<i32> = Box::new(1); Usando valores en caja Debido a que las Cajas implementan el Deref<Target=T> , puede usar valores Deref<Target=T> como el valor que contienen. let boxed_vec = Box::new(vec![1, 2, 3]); println!(\"{}\", boxed_vec.get(0)); Si desea un patrón de coincidencia en un valor de caja, es posible que tenga que eliminar la referencia de la caja manualmente. struct Point { x: i32, y: i32, } let boxed_point = Box::new(Point { x: 0, y: 0}); // Notice the *. That dereferences the boxed value into just the value match *boxed_point { Point {x, y} => println!(\"Point is at ({}, {})\", x, y), } Uso de cajas para crear enums y estructuras recursivas Si intenta crear una enumeración recursiva en Rust sin usar Box, obtendrá un error de tiempo de compilación que indica que la enumeración no se puede dimensionar. // This gives an error! enum List { Nil, Cons(i32, List) } https://riptutorial.com/es/home 167 -- 181 of 188 -- Para que la enumeración tenga un tamaño definido, el valor contenido recursivamente debe estar en una casilla. // This works! enum List { Nil, Cons(i32, Box<List>) } Esto funciona porque Box siempre tiene el mismo tamaño, sin importar lo que sea T, lo que permite a Rust dar un tamaño a List. Lea Valores en caja en línea: https://riptutorial.com/es/rust/topic/9341/valores-en-caja https://riptutorial.com/es/home 168 -- 182 of 188 --"
+}

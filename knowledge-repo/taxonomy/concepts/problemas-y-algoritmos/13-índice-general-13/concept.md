@@ -1,0 +1,32 @@
+# ÍNDICE GENERAL 13
+
+## Fuente
+problemas-y-algoritmos (Cap. 13)
+
+## Contenido
+# ÍNDICE GENERAL 13
+
+20.Programación Dinámica en Los Espacios de Búsqueda 269
+20.1. Cálculo de Fibonacci . . . . . . . . . . . . . . . . . . . . . . . 269
+20.2. El Ladrón y la Mochila . . . . . . . . . . . . . . . . . . . . . . 271
+20.3. Primer Teorema del Cómputo de Abajo hacia Arriba . . . . . 273
+20.4. Triángulo de Pascal . . . . . . . . . . . . . . . . . . . . . . . . 275
+20.5. La Mochila (0, 1) . . . . . . . . . . . . . . . . . . . . . . . . . 276
+20.6. Segundo Teorema del Cómputo de Abajo Hacia Arriba . . . . 280
+20.7. Robot Recolector . . . . . . . . . . . . . . . . . . . . . . . . . 282
+20.8. Subsecuencia Común Máxima . . . . . . . . . . . . . . . . . . 284
+21.Programación Dinámica en Cortes 287
+21.1. Cortando Cadenas . . . . . . . . . . . . . . . . . . . . . . . . 288
+21.2. Cortando en Cuadrados . . . . . . . . . . . . . . . . . . . . . 292
+21.3. Polígono . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 293
+VII Cómo Resolver Problemas 295
+22.Entendiendo el Problema 299
+23.Encontrando la solución 305
+23.1. Las Dimensiones del Problema . . . . . . . . . . . . . . . . . . 305
+23.2. Dibuja Una o Varias Figuras . . . . . . . . . . . . . . . . . . . 306
+23.3. Libro Incompleto y Dónde Continuar Leyendo . . . . . . . . . 307
+VIII Apéndices 309
+A. Otros Algoritmos y otras Estructuras de Datos 311
+B. Bibliografía Recomendada 313
+
+-- 13 of 315 --

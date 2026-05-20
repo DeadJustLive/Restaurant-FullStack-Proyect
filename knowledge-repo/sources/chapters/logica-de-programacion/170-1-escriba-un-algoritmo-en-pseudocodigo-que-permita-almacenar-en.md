@@ -1,0 +1,10 @@
+# 1. Escriba un algoritmo en pseudoc´odigo que permita almacenar en
+
+arreglos diferentes los nombres, los g´eneros y las edades de un grupo
+de n personas. El algoritmo debe determinar:
+a) Cuantas personas son de g´enero masculino
+b) Cu´antas personas de g´enero femenino superan la mayor´ıa de
+edad
+c) Cu´al es el promedio de edad de las personas de g´enero masculino
+d) Cu´al es el nombre de la persona de g´enero femenino mas
+peque˜na.

@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch123-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 123,
+  "chunkIndex": 1,
+  "title": "Capítulo 79:: Módulo de cluster",
+  "start": 450,
+  "end": 523,
+  "words": 73,
+  "content": "423 -- if (signal) { console.log(`worker was killed by signal: ${signal}`); } else if (code !== 0) { console.log(`worker exited with error code: ${code}`); } else { console.log('worker success!'); } }); } else { // Workers can share any TCP connection // In this case it is an HTTP server http.createServer((req, res) => { res.writeHead(200); res.end('hello world\\n'); }).listen(3000); } Lea Módulo de cluster en línea: https://riptutorial.com/es/node-js/topic/2817/modulo-de-cluster https://riptutorial.com/es/home 258 -- 286 of 423 --"
+}

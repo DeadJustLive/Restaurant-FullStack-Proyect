@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch047-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 47,
+  "chunkIndex": 1,
+  "title": "Capítulo 13:: Buen estilo de codificación",
+  "start": 450,
+  "end": 659,
+  "words": 209,
+  "content": "userEmail = req.body.email; //Check if the email address already exists User.find({\"email\": userEmail}, function(err, usr){ if(usr.length > 0){ //Email Exists res.json('Email already exists'); return; } else { //New Email //Check for same passwords if(password != repassword){ res.json('Passwords does not match'); return; } //Generate Password hash based on sha1 var shasum = crypto.createHash('sha1'); shasum.update(req.body.password); var passwordHash = shasum.digest('hex'); //Create User var user = new User(); user.name = req.body.name; user.email = req.body.email; user.password = passwordHash; user.dob = Date.parse(req.body.dob) || \"\"; user.gender = req.body.gender; //Validate the User user.validate(function(err){ if(err){ res.json(err); return; }else{ //Finally save the User user.save(function(err){ if(err) { res.json(err); https://riptutorial.com/es/home 81 -- 109 of 423 -- return; } //Remove Password before sending User details user.password = undefined; res.json(user); return; }); } }); } }); } } module.exports = UserController; userRoutes.js : - Esta es la ruta para userController var express = require('express'); var UserController = require('../controllers/userController'); //Routes for User var UserRoutes = function(app) { var router = express.Router(); router.route('/users') .post(UserController.create); return router; } module.exports = UserRoutes; El ejemplo anterior puede parecer demasiado grande, pero si un principiante en node.js con una pequeña combinación de conocimiento expreso intenta pasar por esto, lo encontrará fácil y realmente útil. Lea Buen estilo de codificación en línea: https://riptutorial.com/es/node-js/topic/6489/buen-estilo- de-codificacion https://riptutorial.com/es/home 82 -- 110 of 423 --"
+}

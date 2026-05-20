@@ -1,0 +1,897 @@
+{
+  "nodes": [
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-01",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.322Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-02",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.322Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-03",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.323Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-04",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.323Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-05",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.323Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-06",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.323Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-07",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.323Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-08",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.323Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-09",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.323Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-10",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.323Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-11",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.324Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-12",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.324Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-13",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.324Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-14",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.324Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-15",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.324Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-16",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.324Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-17",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.324Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-18",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.324Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-19",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.324Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-20",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.325Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-21",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.326Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-22",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.326Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-23",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.326Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-24",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.326Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-25",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.326Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-26",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.326Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-27",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.326Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-28",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.326Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-29",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.326Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-30",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.326Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-31",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.326Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-32",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-33",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-34",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-35",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-36",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-37",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-38",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-39",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-40",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-41",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-42",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-43",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-44",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.327Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-45",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.328Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-46",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.328Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-47",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.328Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-48",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.328Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-49",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.328Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-50",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.328Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-51",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.328Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-52",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.328Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-53",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.328Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-54",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.328Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-55",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.328Z"
+    },
+    {
+      "id": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-56",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T07:11:53.328Z"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-01",
+      "label": "cap. 1"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-02",
+      "label": "cap. 2"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-01",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-02",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-03",
+      "label": "cap. 3"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-02",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-03",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-04",
+      "label": "cap. 4"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-03",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-04",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-05",
+      "label": "cap. 5"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-04",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-05",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-06",
+      "label": "cap. 6"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-05",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-06",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-07",
+      "label": "cap. 7"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-06",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-07",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-08",
+      "label": "cap. 8"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-07",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-08",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-09",
+      "label": "cap. 9"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-08",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-09",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-10",
+      "label": "cap. 10"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-09",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-10",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-11",
+      "label": "cap. 11"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-10",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-11",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-12",
+      "label": "cap. 12"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-11",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-12",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-13",
+      "label": "cap. 13"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-12",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-13",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-14",
+      "label": "cap. 14"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-13",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-14",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-15",
+      "label": "cap. 15"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-14",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-15",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-16",
+      "label": "cap. 16"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-15",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-16",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-17",
+      "label": "cap. 17"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-16",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-17",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-18",
+      "label": "cap. 18"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-17",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-18",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-19",
+      "label": "cap. 19"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-18",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-19",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-20",
+      "label": "cap. 20"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-19",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-20",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-21",
+      "label": "cap. 21"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-20",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-21",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-22",
+      "label": "cap. 22"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-21",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-22",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-23",
+      "label": "cap. 23"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-22",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-23",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-24",
+      "label": "cap. 24"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-23",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-24",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-25",
+      "label": "cap. 25"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-24",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-25",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-26",
+      "label": "cap. 26"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-25",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-26",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-27",
+      "label": "cap. 27"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-26",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-27",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-28",
+      "label": "cap. 28"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-27",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-28",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-29",
+      "label": "cap. 29"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-28",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-29",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-30",
+      "label": "cap. 30"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-29",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-30",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-31",
+      "label": "cap. 31"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-30",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-31",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-32",
+      "label": "cap. 32"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-31",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-32",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-33",
+      "label": "cap. 33"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-32",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-33",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-34",
+      "label": "cap. 34"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-33",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-34",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-35",
+      "label": "cap. 35"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-34",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-35",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-36",
+      "label": "cap. 36"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-35",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-36",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-37",
+      "label": "cap. 37"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-36",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-37",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-38",
+      "label": "cap. 38"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-37",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-38",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-39",
+      "label": "cap. 39"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-38",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-39",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-40",
+      "label": "cap. 40"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-39",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-40",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-41",
+      "label": "cap. 41"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-40",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-41",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-42",
+      "label": "cap. 42"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-41",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-42",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-43",
+      "label": "cap. 43"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-42",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-43",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-44",
+      "label": "cap. 44"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-43",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-44",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-45",
+      "label": "cap. 45"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-44",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-45",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-46",
+      "label": "cap. 46"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-45",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-46",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-47",
+      "label": "cap. 47"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-46",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-47",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-48",
+      "label": "cap. 48"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-47",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-48",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-49",
+      "label": "cap. 49"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-48",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-49",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-50",
+      "label": "cap. 50"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-49",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-50",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-51",
+      "label": "cap. 51"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-50",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-51",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-52",
+      "label": "cap. 52"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-51",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-52",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-53",
+      "label": "cap. 53"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-52",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-53",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-54",
+      "label": "cap. 54"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-53",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-54",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-55",
+      "label": "cap. 55"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-54",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-55",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-2-4-2-guia-de-desarrollo-software-servicios-publicos",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-56",
+      "label": "cap. 56"
+    },
+    {
+      "from": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-55",
+      "to": "ch-2-4-2-guia-de-desarrollo-software-servicios-publicos-56",
+      "label": "siguiente"
+    }
+  ]
+}

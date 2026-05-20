@@ -1,0 +1,268 @@
+{
+  "bookId": "introduccion-poo",
+  "totalChunks": 37,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.171Z",
+  "chunks": [
+    {
+      "id": "introduccion-poo-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "1. Introducción........................................................................................ 5",
+      "words": 37
+    },
+    {
+      "id": "introduccion-poo-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "2. Conceptos y principales características....................................... 11",
+      "words": 66
+    },
+    {
+      "id": "introduccion-poo-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "3. POO en los distintos lenguajes de programación...................... 31",
+      "words": 72
+    },
+    {
+      "id": "introduccion-poo-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "1. Introducción",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch004-001",
+      "chapterIndex": 4,
+      "chunkIndex": 1,
+      "title": "1. Introducción",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch004-002",
+      "chapterIndex": 4,
+      "chunkIndex": 2,
+      "title": "1. Introducción",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch004-003",
+      "chapterIndex": 4,
+      "chunkIndex": 3,
+      "title": "1. Introducción",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch004-004",
+      "chapterIndex": 4,
+      "chunkIndex": 4,
+      "title": "1. Introducción",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch004-005",
+      "chapterIndex": 4,
+      "chunkIndex": 5,
+      "title": "1. Introducción",
+      "words": 290
+    },
+    {
+      "id": "introduccion-poo-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-001",
+      "chapterIndex": 5,
+      "chunkIndex": 1,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-002",
+      "chapterIndex": 5,
+      "chunkIndex": 2,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-003",
+      "chapterIndex": 5,
+      "chunkIndex": 3,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-004",
+      "chapterIndex": 5,
+      "chunkIndex": 4,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-005",
+      "chapterIndex": 5,
+      "chunkIndex": 5,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-006",
+      "chapterIndex": 5,
+      "chunkIndex": 6,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-007",
+      "chapterIndex": 5,
+      "chunkIndex": 7,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-008",
+      "chapterIndex": 5,
+      "chunkIndex": 8,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-009",
+      "chapterIndex": 5,
+      "chunkIndex": 9,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-010",
+      "chapterIndex": 5,
+      "chunkIndex": 10,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-011",
+      "chapterIndex": 5,
+      "chunkIndex": 11,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-012",
+      "chapterIndex": 5,
+      "chunkIndex": 12,
+      "title": "2. Conceptos y principales características",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch005-013",
+      "chapterIndex": 5,
+      "chunkIndex": 13,
+      "title": "2. Conceptos y principales características",
+      "words": 497
+    },
+    {
+      "id": "introduccion-poo-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-001",
+      "chapterIndex": 6,
+      "chunkIndex": 1,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-002",
+      "chapterIndex": 6,
+      "chunkIndex": 2,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-003",
+      "chapterIndex": 6,
+      "chunkIndex": 3,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-004",
+      "chapterIndex": 6,
+      "chunkIndex": 4,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-005",
+      "chapterIndex": 6,
+      "chunkIndex": 5,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-006",
+      "chapterIndex": 6,
+      "chunkIndex": 6,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-007",
+      "chapterIndex": 6,
+      "chunkIndex": 7,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-008",
+      "chapterIndex": 6,
+      "chunkIndex": 8,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-009",
+      "chapterIndex": 6,
+      "chunkIndex": 9,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-010",
+      "chapterIndex": 6,
+      "chunkIndex": 10,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-011",
+      "chapterIndex": 6,
+      "chunkIndex": 11,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-012",
+      "chapterIndex": 6,
+      "chunkIndex": 12,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 500
+    },
+    {
+      "id": "introduccion-poo-ch006-013",
+      "chapterIndex": 6,
+      "chunkIndex": 13,
+      "title": "3. POO en los distintos lenguajes de programación",
+      "words": 237
+    }
+  ]
+}

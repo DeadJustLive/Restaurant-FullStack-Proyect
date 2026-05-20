@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch037-002",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 37,
+  "chunkIndex": 2,
+  "title": "Capítulo 3:: Apoyos en reaccionar",
+  "start": 900,
+  "end": 1040,
+  "words": 140,
+  "content": "son inmutables, estos valores no se pueden cambiar directamente. En su lugar, debe utilizarse un clon sin estos accesorios. Además, cuando agregue elementos en bucles, tenga en cuenta cómo React reconcilia a los niños durante un cambio de rumbo , y considere la posibilidad de incluir un elemento key único global en los elementos secundarios agregados en un bucle. Detección del tipo de componentes para niños. A veces es realmente útil conocer el tipo de componente hijo cuando se itera a través de ellos. Para recorrer los componentes de los niños, puede usar la función React Children.map util: React.Children.map(this.props.children, (child) => { if (child.type === MyComponentType) { ... } }); El objeto secundario expone la propiedad de type que puede comparar con un componente específico. Lea Apoyos en reaccionar en línea: https://riptutorial.com/es/reactjs/topic/2749/apoyos-en- reaccionar https://riptutorial.com/es/home 21 -- 31 of 139 --"
+}

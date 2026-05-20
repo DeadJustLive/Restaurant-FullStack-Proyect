@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch184-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 184,
+  "chunkIndex": 0,
+  "title": "9.1 Configurando un NoteStore . . . . . . . . . . . . . . . . . . . . 83",
+  "start": 0,
+  "end": 48,
+  "words": 48,
+  "content": "# 10.9 Conclusión En este capítulo hemos visto cómo configurar el localStorage para almacenar el estado de la aplicación. Es una técnica pequeña a la vez que útil. Ahora que hemos solucionado la persistencia, estamos listos para tener un tablero de Kanban estupendo. -- 124 of 226 --"
+}

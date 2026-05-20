@@ -30,21 +30,16 @@ BLUE='\033[0;34m'
 CYAN='\033[0;36m'
 NC='\033[0m' # Sin color
 
-# Puertos definidos
+# Puertos definidos — solo servicios de la defensa
 EUREKA_PORT=8761
 MS_AUTH_PORT=9001
 MS_SUCURSALES_PORT=9003
 MS_MENU_PORT=9004
 MS_CARRITO_PORT=9006
 MS_PEDIDOS_PORT=9007
-MS_PAGOS_PORT=9008
-MS_DELIVERY_PORT=9009
-MS_INVENTARIO_PORT=9010
-MS_NOTIFICACIONES_PORT=9011
-MS_REPORTES_PORT=9012
 
-# Lista de módulos
-MODULES=("ms-auth" "ms-sucursales" "ms-menu" "ms-carrito" "ms-pedidos" "ms-pagos" "ms-delivery" "ms-inventario" "ms-notificaciones" "ms-reportes")
+# Lista de módulos — solo los 5 de mi presentación
+MODULES=("ms-auth" "ms-sucursales" "ms-menu" "ms-carrito" "ms-pedidos")
 
 # Función auxiliar para comprobar salud/ping HTTP
 check_health() {
@@ -128,43 +123,38 @@ deploy_services() {
         sleep 2
     done
     
-    # 3. Iniciar Microservicios
-    echo -e "\n🔥 Desplegando 10 Microservicios en background..."
+    # 3. Iniciar Microservicios (solo los 5 de la defensa)
+    echo -e "\n🔥 Desplegando 5 Microservicios en background..."
     for mod in "${MODULES[@]}"; do
         echo -e "👉 Lanzando ${BLUE}${mod}${NC} (Logs en logs/${mod}.log)..."
         nohup mvn -f "${BASE_DIR}/${mod}" spring-boot:run > "${LOGS_DIR}/${mod}.log" 2>&1 &
-        sleep 1.5 # Intervalo para mitigar picos de consumo de CPU/I/O
+        sleep 1.5
     done
-    
+
     # 4. Esperar registro en Eureka
-    echo -e "\n${YELLOW}⏳ Esperando a que todos los microservicios se registren e inicien...${NC}"
-    echo -e "   (Este proceso suele tomar alrededor de 30-40 segundos)"
-    
+    echo -e "\n${YELLOW}⏳ Esperando a que los 5 microservicios se registren e inicien...${NC}"
+    echo -e "   (Este proceso suele tomar alrededor de 20-30 segundos)"
+
     local all_online=false
     for attempt in {1..30}; do
         local offline_count=0
-        
+
         check_health "ms-auth" ${MS_AUTH_PORT} "/api/v1/auth/health" "true" || ((offline_count++))
         check_health "ms-sucursales" ${MS_SUCURSALES_PORT} "/api/v1/sucursales" "true" || ((offline_count++))
         check_health "ms-menu" ${MS_MENU_PORT} "/api/v1/menu" "true" || ((offline_count++))
         check_health "ms-carrito" ${MS_CARRITO_PORT} "/api/v1/carrito/usuario/1" "true" || ((offline_count++))
         check_health "ms-pedidos" ${MS_PEDIDOS_PORT} "/api/v1/pedidos" "true" || ((offline_count++))
-        check_health "ms-pagos" ${MS_PAGOS_PORT} "/api/v1/pagos" "true" || ((offline_count++))
-        check_health "ms-delivery" ${MS_DELIVERY_PORT} "/api/v1/delivery" "true" || ((offline_count++))
-        check_health "ms-inventario" ${MS_INVENTARIO_PORT} "/api/v1/inventario" "true" || ((offline_count++))
-        check_health "ms-notificaciones" ${MS_NOTIFICACIONES_PORT} "/api/v1/notificaciones/estado/PENDIENTE" "true" || ((offline_count++))
-        check_health "ms-reportes" ${MS_REPORTES_PORT} "/api/v1/reportes/tipo/VENTAS_DIARIAS" "true" || ((offline_count++))
-        
+
         if [ "$offline_count" -eq 0 ]; then
             all_online=true
-            echo -e "${GREEN}🎉 ¡Los 10 microservicios están en línea y respondiendo!${NC}"
+            echo -e "${GREEN}🎉 ¡Los 5 microservicios están en línea y respondiendo!${NC}"
             break
         fi
-        
+
         echo -e "   [Intento $attempt/30] Aún inicializando... (${offline_count} microservicios fuera de línea)"
         sleep 4
     done
-    
+
     if [ "$all_online" != "true" ]; then
         echo -e "${RED}⚠️  Atención: Algunos servicios tardaron demasiado en responder. Procediendo a testear los activos...${NC}"
     fi
@@ -196,18 +186,13 @@ if [ "$AUTH_HEALTH" -ne 0 ] && [ "$1" != "--deploy" ]; then
 fi
 
 # 1. Comprobación de salud final
-echo -e "\n${YELLOW}🔍 PASO 1: Comprobación de Salud de Endpoints...${NC}"
+echo -e "\n${YELLOW}🔍 PASO 1: Comprobación de Salud de Endpoints (5 microservicios)...${NC}"
 check_health "Eureka Discovery Server" ${EUREKA_PORT} ""
 check_health "ms-auth" ${MS_AUTH_PORT} "/api/v1/auth/health"
 check_health "ms-sucursales" ${MS_SUCURSALES_PORT} "/api/v1/sucursales"
 check_health "ms-menu" ${MS_MENU_PORT} "/api/v1/menu"
 check_health "ms-carrito" ${MS_CARRITO_PORT} "/api/v1/carrito/usuario/1"
 check_health "ms-pedidos" ${MS_PEDIDOS_PORT} "/api/v1/pedidos"
-check_health "ms-pagos" ${MS_PAGOS_PORT} "/api/v1/pagos"
-check_health "ms-delivery" ${MS_DELIVERY_PORT} "/api/v1/delivery"
-check_health "ms-inventario" ${MS_INVENTARIO_PORT} "/api/v1/inventario"
-check_health "ms-notificaciones" ${MS_NOTIFICACIONES_PORT} "/api/v1/notificaciones/estado/PENDIENTE"
-check_health "ms-reportes" ${MS_REPORTES_PORT} "/api/v1/reportes/tipo/VENTAS_DIARIAS"
 
 # 2. Flujo de Autenticación Dinámica
 echo -e "\n${YELLOW}🔑 PASO 2: Intentando registro e inicio de sesión dinámico (ms-auth)...${NC}"
@@ -291,14 +276,6 @@ echo -e "${CYAN}================================================================
 echo -e "${GREEN}🎉 FIN DE LA VERIFICACIÓN DE MICROSERVICIOS REST${NC}"
 echo -e "${CYAN}==============================================================================${NC}"
 
-echo -e "\n${YELLOW}🖥️  Iniciando Frontend React (Vite)...${NC}"
-echo -e "💡 El frontend está conectado a los microservicios locales."
-echo -e "👉 Presiona ${RED}Ctrl+C${NC} en esta terminal para detener el frontend y apagar automáticamente todos los microservicios."
-echo -e "${CYAN}------------------------------------------------------------------------------${NC}"
-
-# Cambiar al directorio del frontend y arrancar
-cd "${BASE_DIR}/../Front-end"
-npm run dev
 
 # Detener los servicios backend al finalizar o si se interrumpe
 stop_services

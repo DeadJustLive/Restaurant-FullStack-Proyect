@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch076-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 76,
+  "chunkIndex": 0,
+  "title": "Errores irrecuperables conpanic!",
+  "start": 0,
+  "end": 24,
+  "words": 24,
+  "content": "# Errores irrecuperables conpanic! ## Errores irrecuperables conpanic! ### Deshacer la pila o abortar en respuesta a un pánico ### Usando el backtrace depanic!"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch330-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 330,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 37,
+  "words": 37,
+  "content": "# OBSERVACIONES: * la zona termina con 6 azules al Este y Oeste */ { return(nroBolitasAl(Azul,dir)/=6) } Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 263 of 312 -- 264 //---------------------------------------------------- procedure IrAlBordeDeZonaDeNumeros(dir) /*"
+}

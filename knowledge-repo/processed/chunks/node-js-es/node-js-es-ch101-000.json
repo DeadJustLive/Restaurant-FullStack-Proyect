@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch101-000",
+  "bookId": "node-js-es",
+  "chapterIndex": 101,
+  "chunkIndex": 0,
+  "title": "Capítulo 60:: Integracion de cassandra",
+  "start": 0,
+  "end": 91,
+  "words": 91,
+  "content": "# Capítulo 60:: Integracion de cassandra Examples Hola Mundo Para acceder cassandra-driver módulo Cassandra Cassandra cassandra-driver desde DataStax se puede usar. Es compatible con todas las características y se puede configurar fácilmente. const cassandra = require(\"cassandra-driver\"); const clientOptions = { contactPoints: [\"host1\", \"host2\"], keyspace: \"test\" }; const client = new cassandra.Client(clientOptions); const query = \"SELECT hello FROM world WHERE name = ?\"; client.execute(query, [\"John\"], (err, results) => { if (err) { return console.error(err); } console.log(results.rows); }); Lea Integracion de cassandra en línea: https://riptutorial.com/es/node-js/topic/5949/integracion-de- cassandra https://riptutorial.com/es/home 206 -- 234 of 423 --"
+}

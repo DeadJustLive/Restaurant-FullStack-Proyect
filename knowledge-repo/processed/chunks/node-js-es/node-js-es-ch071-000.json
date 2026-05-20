@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch071-000",
+  "bookId": "node-js-es",
+  "chapterIndex": 71,
+  "chunkIndex": 0,
+  "title": "Capítulo 34:: Despliegue de la aplicación",
+  "start": 0,
+  "end": 287,
+  "words": 287,
+  "content": "# Capítulo 34:: Despliegue de la aplicación Node.js sin tiempo de inactividad. Examples Despliegue utilizando PM2 sin tiempo de inactividad. ecosystem.json { \"name\": \"app-name\", \"script\": \"server\", \"exec_mode\": \"cluster\", \"instances\": 0, \"wait_ready\": true \"listen_timeout\": 10000, \"kill_timeout\": 5000, } wait_ready En lugar de volver a cargar esperando el evento de escucha, espere process.send ('ready'); listen_timeout Tiempo en ms antes de forzar una recarga si la aplicación no escucha. kill_timeout Tiempo en ms antes de enviar un SIGKLL final. server.js const http = require('http'); const express = require('express'); const app = express(); const server = http.Server(app); const port = 80; server.listen(port, function() { process.send('ready'); }); process.on('SIGINT', function() { server.close(function() { process.exit(0); }); }); https://riptutorial.com/es/home 129 -- 157 of 423 -- Es posible que deba esperar a que su aplicación haya establecido conexiones con sus DBs / caches / workers / lo que sea. PM2 debe esperar antes de considerar su solicitud como en línea. Para hacer esto, debe proporcionar wait_ready: true en un archivo de proceso. Esto hará que PM2 escuche ese evento. En su aplicación, deberá agregar process.send('ready'); cuando quieras que tu aplicación sea considerada como lista. Cuando PM2 detiene / reinicia un proceso, algunas señales del sistema se envían a su proceso en un orden determinado. Primero se envía una señal SIGINT a sus procesos, señal que puede detectar para saber que su proceso se detendrá. Si su aplicación no sale sola antes de 1.6s (personalizable), recibirá una señal SIGKILL para forzar la salida del proceso. Entonces, si su aplicación necesita limpiar algunos estados o trabajos, puede detectar la señal SIGINT para preparar su aplicación para salir. Lea Despliegue de la aplicación Node.js sin tiempo de inactividad. en línea: https://riptutorial.com/es/node-js/topic/9752/despliegue-de-la-aplicacion-node-js-sin-tiempo-de- inactividad- https://riptutorial.com/es/home 130 -- 158 of 423 --"
+}

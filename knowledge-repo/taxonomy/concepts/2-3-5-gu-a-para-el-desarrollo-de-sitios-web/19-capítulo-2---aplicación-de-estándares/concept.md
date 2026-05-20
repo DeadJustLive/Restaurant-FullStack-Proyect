@@ -1,0 +1,22 @@
+# Capítulo 2: - Aplicación de Estándares
+
+## Fuente
+Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile (Cap. 19)
+
+## Contenido
+# Capítulo 2: - Aplicación de Estándares
+
+www.guiaweb.gob.cl > 35
+Desarrollo usando HTML/XML estándar (DS100/2006 Art. 5°)
+Este artículo es el que hace la referencia más clara al uso de estándares, señalando
+que el código de despliegue del sitio web debe ser HTML o XML, detallando que "se
+recomienda que el sitio web cumpla con los estándares HTML 4.01 o XHTML 1.0
+validados ante el W3C".
+Tal como se explicaba previamente, este artículo
+detalla que se deben emplear las herramientas de
+verificación del W3C para asegurar que el sitio
+web 	cumple 	con 	el 	estándar 	señalado.
+Adicionalmente este artículo señala que se debe
+ejecutar una tarea similar con los enlaces rotos y
+con las imágenes perdidas.
+Respecto del desarrollo utilizando estos estándares se recomienda revisar el

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch214-001",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 214,
+  "chunkIndex": 1,
+  "title": "PRECONDICIONES:",
+  "start": 450,
+  "end": 783,
+  "words": 333,
+  "content": "el c ´odigo de las primeras dos funciones function esClaseA(tipoPieza) /* PROP´OSITO: indica si la pieza del tipo dado es de clase A */ { return(tipoPieza >= 1 && tipoPieza <= 6) } function esClaseB(tipoPieza) /* PROP´OSITO: indica si la pieza del tipo dado es de clase B */ { return(tipoPieza >= 7 && tipoPieza <= 7) } Vemos que la primera funci ´on retorna un booleano que indica si el c ´odigo del tipo de pieza es de una de las primeras 6 piezas (Z, I, L, F, O ´o S) y la segunda retorna un booleano que indica si el c ´odigo del tipo de pieza de la ´ultima de las piezas (T). Es interesante utilizar las funciones de esta manera, para abstraer la definici ´on espec´ıfica del concepto a expresar. Estas funciones se usar ´an posteriormente para decidir cu ´al de las operaciones gen ´ericas de piezas deben invocarse (si los de clase A o los de clase B). Una vez definida la noci ´on de clase, vemos que las piezas de clase A pueden ser representadas mediante 4 direcciones. Las dos primeras direcciones indican en qu ´e di- recci ´on desde el pivote se encuentran las dos secciones contiguas. Las dos ´ultimas direc- ciones indican hacia d ´onde se encuentra la tercer secci ´on (que siempre estar ´a a distancia Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 196 of 312 -- 197 2 del pivote, por ser una pieza de clase A). Por otra parte, las piezas de clase B puede ser representadas mediante 3 direcciones. Adem ´as, las direcciones en las que se encuen- tran las secciones contiguas tambi ´en dependen de la rotaci ´on. Con estas ideas, estamos en condiciones de definir las siguientes dos funciones, que se encargan de obtener las direcciones necesarias de cada tipo de pieza, dado el tipo y la rotaci ´on. function diresDePiezaClaseA(tipoPieza,rotPieza) /* PROP´OSITO: devolver las direcciones de una pieza de clase A, ajustadas seg´un la rotaci´on"
+}

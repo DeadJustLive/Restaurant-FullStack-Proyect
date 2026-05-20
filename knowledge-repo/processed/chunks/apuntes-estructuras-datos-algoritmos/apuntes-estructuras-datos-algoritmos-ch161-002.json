@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch161-002",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 161,
+  "chunkIndex": 2,
+  "title": "1. Transformación de algoritmos recursivos finales",
+  "start": 900,
+  "end": 976,
+  "words": 76,
+  "content": "claves que podrían almacenarse, la mayoría de los (o muchos) nodos internos tienen un único hijo, lo cual aumenta inútilmente los costes en espacio y tiempo. En los PATRICIA, se evita que exista cualquier nodo interno que tenga un único hijo, por ello, se compacta el árbol haciendo que todos los nodos con un único hijo se fusiones con sus padres. Los PATRICIA se utilizan, por ejemplo, para implementar las tablas de encaminamiento en los router."
+}

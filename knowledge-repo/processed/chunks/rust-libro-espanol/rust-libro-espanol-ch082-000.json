@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch082-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 82,
+  "chunkIndex": 0,
+  "title": "Como escribir tests",
+  "start": 0,
+  "end": 43,
+  "words": 43,
+  "content": "# Como escribir tests ## Como escribir tests ### La anatomia de una funcion de test ### Comprobando resultados con la macroassert! ### Testeando la igualdad con las macrosassert_eq!yassert_ne! ### Agregando mensajes de fallo personalizados ### Comprobando panics conshould_panic ### UsandoResult<T, E>en Tests"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "flow-api-docs-ch001-001",
+  "bookId": "flow-api-docs",
+  "chapterIndex": 1,
+  "chunkIndex": 1,
+  "title": "Flow Coupon.postman collection.json",
+  "start": 450,
+  "end": 612,
+  "words": 162,
+  "content": "var params = new Map()\", \" if(request.method === \\\"POST\\\") {\", \" data = request.data;\", \" } else if(request.method === \\\"GET\\\") {\", \" data = getUrlVars(request.url);\", \" }\", \" for(var name in data) {\", \" if(name === \\\"s\\\" ) {\", \" continue;\", \" }\", \" var value = data[name];\", \" if (value.startsWith('{{')) {\", \" value = pm.variables.get(clearEnvironment(value)); \", \" }\", \" params.set(name, value);\", \" }\", \" var sortedKeys = Array.from(params.keys()).sort();\", \" for (var param of sortedKeys) {\", \" console.log(param);\", \" textToSign += param + params.get(param);\", \" }\", \" return textToSign;\", \"}\", \"\", \"function getUrlVars(url) {\", \" var vars = {};\", \" var parts = url.replace(/[?&]+([^=&]+)=([^&]*)/gi, \", \" function(m,key,value) {\", \" vars[key] = value;\", \" });\", \" return vars;\", \" }\", \"\", \"function clearEnvironment(key) {\", \" return key.replace('{{','').replace('}}','')\", \"}\" ] } }, { \"listen\": \"test\", \"script\": { \"id\": \"6739f944-739c-4d6b-8460-9530110e6cab\", \"type\": \"text/javascript\", \"exec\": [ \"//Check response code\", \"pm.test(\\\"Status code is 200\\\", function () {\", \" pm.response.to.have.status(200);\", \"});\" ] } } ], \"protocolProfileBehavior\": {} } ```"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch270-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 270,
+  "chunkIndex": 0,
+  "title": "PROP´OSITO:",
+  "start": 0,
+  "end": 24,
+  "words": 24,
+  "content": "# PROP´OSITO: eliminar todo el piso de las filas llenas de la zona de juego, bajando el piso de las superiores a la eliminada"
+}

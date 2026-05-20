@@ -1,0 +1,58 @@
+# 1. Concepto y especificación
+
+Como ya se adelantó en la lección previa, un árbol binario es un conjunto de elementos o nodos del mismo tipo tal que:
+• 	o bien es el conjunto vacío, y entonces se llama árbol vacío,
+• 	o bien es no vacío, en cuyo caso existe un elemento destacado llamado raíz y el resto de elementos se distribuyen
+en dos subconjuntos disjuntos, llamados subárbol izquierdo y subárbol derecho, cada uno de los cuales es un árbol
+binario.
+En la siguiente especificación sencilla −genérica− de un primer TAD árbol binario, vamos a incorporar las operaciones
+mínimas para poder generar todos los árboles binarios y un conjunto muy pequeño de operaciones para poder
+extraer/observar algo de información de un árbol binario.
+espec árbolesBinarios
+usa booleanos, naturales
+parámetro formal
+género elemento
+fpf
+género arbin {Su dominio de valores son los árboles binarios de elementos}
+operaciones
+vacío: -> arbin
+{Devuelve el árbol vacío}
+plantar: elemento e, arbin ai, arbin ad -> arbin
+{Devuelve un árbol binario cuyo elemento raíz es e, subárbol izquierdo es ai y subárbol derecho es ad}
+esVacío?: arbin a -> booleano
+{Devuelve verdad si y sólo si a es el árbol vacío}
+parcial raíz: arbin a -> elemento
+3
+6 	9
+5
+1
+7 	33
+15 	55
+
+-- 111 of 267 --
+
+104
+{Devuelve el elemento raíz de a.
+Parcial: la operación no está definida si a es vacío}
+parcial subIzq: arbin a -> arbin
+{Devuelve el subárbol izquierdo de a.
+Parcial: la operación no está definida si a es vacío}
+parcial subDer: arbin a  arbin
+{Devuelve el subárbol derecho de a.
+Parcial: la operación no está definida si a es vacío}
+parcial altura: arbin a  natural
+{Devuelve la altura de a.
+Parcial: la operación no está definida si a es vacío}
+{Las cuatro siguientes operaciones son un Iterador definido sobre los árboles binarios}
+iniciarIterador: arbin a -> arbin
+{Prepara el iterador para que el siguiente elemento a visitar sea un primer elemento del árbol a, si
+existe (situación de no haber visitado ningún elemento)}
+existeSiguiente?: arbin a -> booleano
+{Devuelve falso si ya se han visitado todos los elementos de a, devuelve verdad en caso contrario}
+parcial siguiente: arbin a -> elemento
+{Devuelve el siguiente elemento de a.
+Parcial: la operación no está definida si no existeSiguiente?(a)}
+parcial avanza: arbin a -> pila
+{Devuelve el árbol binario resultante de avanzar el iterador a otro elemento no visitado todavía de a.
+Parcial: la operación no está definida si no existeSiguiente?(a)}
+fespec

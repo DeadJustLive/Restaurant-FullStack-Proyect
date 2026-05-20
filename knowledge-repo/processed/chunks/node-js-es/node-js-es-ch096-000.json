@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch096-000",
+  "bookId": "node-js-es",
+  "chapterIndex": 96,
+  "chunkIndex": 0,
+  "title": "Capítulo 56:: herrero",
+  "start": 0,
+  "end": 153,
+  "words": 153,
+  "content": "# Capítulo 56:: herrero Examples Construye un blog simple Suponiendo que tiene nodos y npm instalados y disponibles, cree una carpeta de proyecto con un package.json válido. Instalar las dependencias necesarias: npm install --save-dev metalsmith metalsmith-in-place handlebars Cree un archivo llamado build.js en la raíz de su carpeta de proyecto, que contenga lo siguiente: var metalsmith = require('metalsmith'); var handlebars = require('handlebars'); var inPlace = require('metalsmith-in-place'); Metalsmith(__dirname) .use(inPlace('handlebars')) .build(function(err) { if (err) throw err; console.log('Build finished!'); }); Cree una carpeta llamada src en la raíz de la carpeta de su proyecto. Cree index.html en src , que contiene lo siguiente: --- title: My awesome blog --- <h1>{{ title }}</h1> La ejecución del node build.js ahora construirá todos los archivos en src . Después de ejecutar este comando, tendrás index.html en tu carpeta de compilación, con los siguientes contenidos: <h1>My awesome blog</h1> Lea herrero en línea: https://riptutorial.com/es/node-js/topic/6111/herrero https://riptutorial.com/es/home 192 -- 220 of 423 --"
+}

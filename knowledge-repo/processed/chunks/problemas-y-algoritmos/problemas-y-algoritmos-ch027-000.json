@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch027-000",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 27,
+  "chunkIndex": 0,
+  "title": "2. La regla que le asigna a cada número entero positivo n su sumatoria",
+  "start": 0,
+  "end": 21,
+  "words": 21,
+  "content": "# 2. La regla que le asigna a cada número entero positivo n su sumatoria descrita por: (n)(n + 1) 2"
+}

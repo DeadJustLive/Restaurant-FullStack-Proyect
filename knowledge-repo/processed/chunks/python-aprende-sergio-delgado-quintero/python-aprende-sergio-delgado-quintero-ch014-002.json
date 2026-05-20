@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch014-002",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 14,
+  "chunkIndex": 2,
+  "title": "3. No pueden ser una palabra reservada del lenguaje («keywords»).",
+  "start": 900,
+  "end": 1155,
+  "words": 255,
+  "content": "tomarán el valor 3. Recordemos que los nombres de variables deben seguir unas reglas establecidas, de lo contrario obtendremos un error sintáctico del intérprete de Python: >>> 7floor = 40 # el nombre empieza por un dígito File \"<stdin>\", line 1 7floor = 40 ^ SyntaxError: invalid syntax >>> for = Bucle # el nombre usa la palabra reservada \"for\" File \"<stdin>\", line 1 for = Bucle ^ SyntaxError: invalid syntax >>> screen-size = 14 # el nombre usa un carácter no válido File \"<stdin>\", line 1 SyntaxError: can t assign to operator Asignando una variable a otra variable Las asignaciones que hemos hecho hasta ahora han sido de un valor literal a una variable. Pero nada impide que podamos hacer asignaciones de una variable a otra variable: >>> people = 157503 >>> total_population = people >>> total_population 157503 Eso sí, la variable que utilicemos como valor de asignación debe existir previamente, ya que si no es así, obtendremos un error informando de que no está definida: >>> total_population = lot_of_people Traceback (most recent call last): File \"<stdin>\", line 1, in <module> NameError: name lot_of_people is not defined 52 Capítulo 3. Tipos de datos -- 56 of 516 -- Aprende Python De hecho, en el lado derecho de la asignación pueden aparecer expresiones más complejas que se verán en su momento. Conocer el valor de una variable Hemos visto previamente cómo asignar un valor a una variable, pero aún no sabemos cómo «comprobar» el valor que tiene dicha variable. Para ello podemos utilizar dos estrategias:"
+}

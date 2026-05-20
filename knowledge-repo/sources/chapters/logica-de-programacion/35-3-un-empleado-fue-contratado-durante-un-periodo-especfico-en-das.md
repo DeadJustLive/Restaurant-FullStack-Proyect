@@ -1,0 +1,11 @@
+# 3. Un empleado fue contratado durante un periodo espec´ıfico en d´ıas
+
+y por un salario, ambos conocidos. Construya un algoritmo que
+permita calcular el valor de su liquidaci´on al terminar el contrato. La
+liquidaci´on se compone de prima, cesant´ıas, intereses a las cesant´ıas
+y vacaciones. Para calcular estos valores, se usan las siguientes
+f´ormulas:
+Prima: (salario * diasLaborados) / 360
+Cesant´ıas: (salario * diasLaborados) / 360
+Intereses cesant´ıas: cesant´ıas * (12 % / diasLaborados)
+Vacaciones: (salario * diasLaborados) / 720

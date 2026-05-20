@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch012-001",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 12,
+  "chunkIndex": 1,
+  "title": "12 ÍNDICE GENERAL",
+  "start": 450,
+  "end": 748,
+  "words": 298,
+  "content": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 224 V Algoritmos de Ordenamiento II 225 17.Árboles y Ordenamiento 229 17.1. Ordenamiento por Árboles Binarios de Búsqueda . . . . . . . 229 17.2. Ordenamiento por Montículo . . . . . . . . . . . . . . . . . . . 230 18.¾Mas rápido que O(N log N)? 233 18.1. Count-Sort . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 233 18.2. *Bucket-Sort . . . . . . . . . . . . . . . . . . . . . . . . . . . 234 18.3. *La Inexistencia de Mejores Algoritmos . . . . . . . . . . . . . 236 VI Optimización Combinatoria 239 19.Estructura de la Solución y Espacio de Búsqueda 241 19.1. Estructura de la Solución . . . . . . . . . . . . . . . . . . . . . 242 19.2. Juego de Números . . . . . . . . . . . . . . . . . . . . . . . . 245 19.3. Empujando Cajas . . . . . . . . . . . . . . . . . . . . . . . . . 253 19.4. Camino Escondido . . . . . . . . . . . . . . . . . . . . . . . . 259 -- 12 of 315 --"
+}

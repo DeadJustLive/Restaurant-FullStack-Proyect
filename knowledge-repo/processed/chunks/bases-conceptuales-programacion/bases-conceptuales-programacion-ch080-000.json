@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch080-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 80,
+  "chunkIndex": 0,
+  "title": "PROP´OSITO:",
+  "start": 0,
+  "end": 16,
+  "words": 16,
+  "content": "# PRECONDICIONES: * hay 2 celdas al Norte y 2 celdas al Este de la actual"
+}

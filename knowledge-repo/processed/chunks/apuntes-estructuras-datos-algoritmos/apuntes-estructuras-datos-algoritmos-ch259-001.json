@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch259-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 259,
+  "chunkIndex": 1,
+  "title": "TEMA III",
+  "start": 450,
+  "end": 738,
+  "words": 288,
+  "content": "si ya no quedan más datos que leer en el fichero (se ha leído ya el último dato), está disponible la función: finFichero(ff) (devuelve booleano indicándolo)} mientrasQue not finFichero(ff) hacer {Para leer un dato de un fichero binario:} leer(ff,dia); {lee la siguiente fecha en el fichero ff y la deja en dia, y deja disponible para ser leído el siguiente dato del fichero} fmq; {eliminar la asociación entre ff y el fichero externo:} disociar(ff); ... fin -- 265 of 267 -- 252 -- 266 of 267 -- 253 Bibliografía Bibliografía Básica: Weiss, M.A.: Data Structures and Algorithm Analysis in C++, 4th Edition, Pearson/Addison Wesley, 2014. Hernández, Z.J. y otros: Fundamentos de Estructuras de Datos. Soluciones en Ada, Java y C++, Thomson, 2005. Shaffer, Clifford A.: Data Structures and Algorithm Analysis in C++, Third Edition, Dover Publications, 2013. Ejercicios: Martí Oliet, N., Ortega Mallén, Y., Verdejo López, J.A.: Estructuras de datos y métodos algorítmicos: 213 ejercicios resueltos. 2ª Edición, Ed. Garceta, 2013. Joyanes, L., Zahonero, I., Fernández, M. y Sánchez, L.: Estructura de datos. Libro de problemas, McGraw Hill, 1999. Bibliografía sobre C++: Stroustrup, B.: The C++ Programming Language, 4th Edition, Addison-Wesley, 2013. Bibliografía Complementaria: Franch Gutiérrez, X.: Estructuras de Datos. Especificación, Diseño e Implementación, 3ª edición, Ed. Edicions UPC, 2001. Mehta, D.P. y Sahni, S.: Handbook of Data Structures and Applications, Chapman & Hall/CRC, 2005. Aho, A. V., Hopcroft, J. E. y Ullman, J. D.: Estructuras de Datos y Algoritmos, Addison-Wesley, 1988. Knuth, D. E.: El arte de programar ordenadores, volumen III: clasificación y búsqueda, Ed. Reverté, 1987. Wirth, N.: Algoritmos + Estructuras de Datos = Programas, Ediciones del Castillo, S.A., 1986. Peña, R.: Diseño de Programas. Formalismo y Abstracción, Pearson Educación, 2005. -- 267 of 267 --"
+}

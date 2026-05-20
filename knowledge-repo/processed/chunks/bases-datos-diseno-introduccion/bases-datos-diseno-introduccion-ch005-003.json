@@ -1,0 +1,11 @@
+{
+  "id": "bases-datos-diseno-introduccion-ch005-003",
+  "bookId": "bases-datos-diseno-introduccion",
+  "chapterIndex": 5,
+  "chunkIndex": 3,
+  "title": "parte im: portante de los diferentes gestores.",
+  "start": 1350,
+  "end": 1595,
+  "words": 245,
+  "content": "datos por parte del sistema gestor. -- 20 of 22 -- CC-BY-NC-ND • PID_00213710 21 Introducción al diseño de bases de datos Glosario database management system f Véase sistema gestor de bases de datos. sigla DBMS divide and conquer loc Véase divide y vencerás. divide y vencerás loc Estrategia que propone resolver un problema complejo mediante la subdivisión en un conjunto de problemas más sencillos cuya resolución implica resolver el problema inicial. en divide and conquer entity relationship model m Véase modelo ER. lenguaje unificado de modelización m Lenguaje de propósito general para modelizar sistemas de software. El estándar fue creado, y actualmente es mantenido, por el Grupo de Gestión de Objetos. en unified modeling language sigla UML modelo ER m Modelo entidad-interrelación de datos de alto nivel que permite modelizar los requisitos, las especificaciones y las restricciones. en entity-relationship model SGBD m Véase sistema gestor de bases de datos. sistema gestor de bases de datos m Tipo de software específico que sirve de interfaz entre la base de datos, el usuario y las aplicaciones que la utilizan. en database management system sigla SGBD UML m Véase lenguaje unificado de modelización. -- 21 of 22 -- CC-BY-NC-ND • PID_00213710 22 Introducción al diseño de bases de datos Bibliografía Elmasri, Ramez; Navathe, Shamkant, B. (2007). Fundamentos de sistemas de bases de datos (5.ª ed.). Madrid: Pearson Educación. Ramakrishnan, Raghu; Gehrke, Johannes (2003). Database management systems (3.ª ed.). Boston: McGraw-Hill Higher Education. -- 22 of 22 --"
+}

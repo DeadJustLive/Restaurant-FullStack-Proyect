@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch054-007",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 54,
+  "chunkIndex": 7,
+  "title": "5. Expresiones",
+  "start": 3150,
+  "end": 3498,
+  "words": 348,
+  "content": "revisar un poco la historia de la programaci ´on. 1.3. Breve historia de la programaci ´on En esta secci ´on vamos a contar una breve (y no particularmente precisa) historia de la programaci ´on, con el objetivo de tener un panorama de c ´omo se clasifi- can los lenguajes modernos, y c ´omo esto influye en la forma en que se piensan programas. Nos limitaremos a hablar de la parte “moderna” de la historia, des- de el surgimiento de las computadoras con v ´alvulas y circuitos hasta nuestros d´ıas, omitiendo la “prehistoria” de las m ´aquinas de calcular, teor´ıas fundaciona- les, etc ´etera. 1.3.1. Surgimiento de las computadoras Las computadoras como las conocemos actualmente surgieron durante la pri- mera mitad del siglo XX. En 1936, Alan Turing desarroll ´o la idea de m ´aquina de Alan Mathison Turing fue un matem ´atico, l ´ogico, criptoanalista e inform ´atico ingl ´es que vivi ´o entre 1912 y 1954. Famo- so por desarrollar las ideas de algoritmo y de computaci ´on, determin ´o los l´ımites de la computabilidad, o sea, de la capacidad de resolver problemas mediante algoritmos. Es considerado el padre de las ciencias de la computaci ´on. c ´omputo universal a trav ´es de sus m ´aquinas de Turing, que fueron los primeros dispositivos te ´oricos en contar con la noci ´on de un “programa”, o sea un dato que se le suministraba a la m ´aquina y que afectaba su comportamiento. Turing inten- taba resolver el problema de decodificar los mensajes del ej ´ercito alem ´an durante la guerra, y se enfrentaba con el problema de que su equipo no era lo suficien- temente veloz para resolver el problema a tiempo, a pesar de que las bases de c ´alculo eran sencillas. De ah´ı que pens ´o en utilizar m ´aquinas para acelerar el proceso, y desarroll ´o la teor´ıa necesaria para tales m ´aquinas. A partir de los trabajos de Turing, John von Neumann desarroll ´o una arquitec- Se pronuncia “yon fon n ´oiman”. Ma- tem ´atico h ´ungaro- americano, que vivi ´o entre 1903 y"
+}

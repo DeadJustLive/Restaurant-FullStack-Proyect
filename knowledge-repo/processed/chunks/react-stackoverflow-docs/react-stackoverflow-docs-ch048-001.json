@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch048-001",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 48,
+  "chunkIndex": 1,
+  "title": "Capítulo 9:: Comunicación Entre",
+  "start": 450,
+  "end": 622,
+  "words": 172,
+  "content": "que quieren. Hay al menos 3 patrones para hacer eso. Puedes encontrar una comparación aquí . Aquí hay un breve resumen: Patrón 1: Emisor de eventos / Destino / Despachador : los oyentes deben hacer referencia a la fuente para suscribirse. para suscribirse: otherObject.addEventListener('click', () => { alert('click!'); }); ○ para enviar: this.dispatchEvent('click'); ○ • Patrón 2: publicación / suscripción : no necesita una referencia específica a la fuente que desencadena el evento, hay un objeto global accesible en todas partes que maneja todos los eventos. para suscribirse: globalBroadcaster.subscribe('click', () => { alert('click!'); }); ○ para enviar: globalBroadcaster.publish('click'); ○ • Patrón 3: Señales : similar a Event Emitter / Target / Dispatcher, pero aquí no usa cadenas aleatorias. Cada objeto que podría emitir eventos debe tener una propiedad específica con ese nombre. De esta manera, usted sabe exactamente qué eventos puede emitir un objeto. para suscribirse: otherObject.clicked.add( () => { alert('click'); }); ○ para enviar: this.clicked.dispatch(); ○ • Lea Comunicación Entre Componentes en línea: https://riptutorial.com/es/reactjs/topic/6567/comunicacion-entre-componentes https://riptutorial.com/es/home 52 -- 62 of 139 --"
+}

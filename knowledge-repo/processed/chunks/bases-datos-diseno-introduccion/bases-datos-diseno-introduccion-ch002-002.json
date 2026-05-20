@@ -1,0 +1,11 @@
+{
+  "id": "bases-datos-diseno-introduccion-ch002-002",
+  "bookId": "bases-datos-diseno-introduccion",
+  "chapterIndex": 2,
+  "chunkIndex": 2,
+  "title": "1. Proceso de diseño de una base de datos",
+  "start": 900,
+  "end": 1123,
+  "words": 223,
+  "content": "otros. Finalmente, la última etapa es la implementación￿y￿optimización de la base de datos. Esta etapa permite cargar los datos y posteriormente permite ajustar algunos parámetros del modelo físico y para optimizar el rendimiento de la base de datos. Estas etapas del diseño no hay que seguirlas estrictamente de manera secuen- cial, y en muchos casos es habitual rehacer el diseño de la etapa anterior a partir de necesidades detectadas en fases posteriores. Estos bucles￿de￿retroali- mentación son habituales y permiten afinar los diseños de las distintas etapas de una manera iterativa. El proceso que muestra la figura 1 se basa en el modelo de diseño￿orientado a￿datos. Este modelo se centra en el diseño de los contenedores de la infor- mación y en la estructura de la base de datos. Paralelamente a este modelo existe el modelo de diseño￿orientado￿a￿procesos, que se centra en las aplica- ciones de bases de datos para determinar los datos y el uso que de estas hacen las aplicaciones. Tradicionalmente, el diseño de aplicaciones se ha basado en este segundo modelo, pero cada vez resulta más claro que ambas actividades son paralelas y que están estrechamente interrelacionadas. Las herramientas de diseño de bases de datos y de aplicaciones se combinan cada vez con mayor frecuencia. -- 9 of 22 -- CC-BY-NC-ND • PID_00213710 10 Introducción al diseño de bases de datos"
+}

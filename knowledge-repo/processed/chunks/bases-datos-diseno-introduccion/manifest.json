@@ -1,0 +1,114 @@
+{
+  "bookId": "bases-datos-diseno-introduccion",
+  "totalChunks": 15,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.114Z",
+  "chunks": [
+    {
+      "id": "bases-datos-diseno-introduccion-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "2. Fases del diseño de una base de datos.......................................... 10",
+      "words": 373
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "1. Proceso de diseño de una base de datos",
+      "words": 500
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch002-001",
+      "chapterIndex": 2,
+      "chunkIndex": 1,
+      "title": "1. Proceso de diseño de una base de datos",
+      "words": 500
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch002-002",
+      "chapterIndex": 2,
+      "chunkIndex": 2,
+      "title": "1. Proceso de diseño de una base de datos",
+      "words": 223
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "2. Fases del diseño de una base de datos",
+      "words": 500
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch003-001",
+      "chapterIndex": 3,
+      "chunkIndex": 1,
+      "title": "2. Fases del diseño de una base de datos",
+      "words": 500
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch003-002",
+      "chapterIndex": 3,
+      "chunkIndex": 2,
+      "title": "2. Fases del diseño de una base de datos",
+      "words": 500
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch003-003",
+      "chapterIndex": 3,
+      "chunkIndex": 3,
+      "title": "2. Fases del diseño de una base de datos",
+      "words": 500
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch003-004",
+      "chapterIndex": 3,
+      "chunkIndex": 4,
+      "title": "2. Fases del diseño de una base de datos",
+      "words": 500
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch003-005",
+      "chapterIndex": 3,
+      "chunkIndex": 5,
+      "title": "2. Fases del diseño de una base de datos",
+      "words": 344
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "parte im: portante de este tiempo está bajo el control del SGBD y hace refe-",
+      "words": 285
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "parte im: portante de los diferentes gestores.",
+      "words": 500
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch005-001",
+      "chapterIndex": 5,
+      "chunkIndex": 1,
+      "title": "parte im: portante de los diferentes gestores.",
+      "words": 500
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch005-002",
+      "chapterIndex": 5,
+      "chunkIndex": 2,
+      "title": "parte im: portante de los diferentes gestores.",
+      "words": 500
+    },
+    {
+      "id": "bases-datos-diseno-introduccion-ch005-003",
+      "chapterIndex": 5,
+      "chunkIndex": 3,
+      "title": "parte im: portante de los diferentes gestores.",
+      "words": 245
+    }
+  ]
+}

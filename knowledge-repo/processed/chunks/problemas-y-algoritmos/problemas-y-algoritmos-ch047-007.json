@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch047-007",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 47,
+  "chunkIndex": 7,
+  "title": "2. Calcular la solución llenando una tabla desde abajo hacia arriba.",
+  "start": 3150,
+  "end": 3650,
+  "words": 500,
+  "content": "0 se tiene que o bien b = 0 o el estado es inalcanzable, ¾el motivo?, si b > 0 equivaldría a decir que la suma de los volúmenes de 0 objetos es mayor que 0. Por lo tanto llegamos a esta fórmula: F (a, b) = max(F (a − 1, b − Va) + Pa, F (a − 1, b)) si a > 0 y b ≥ Va = F (a − 1, b) si a > 0 y b < Va F (0, 0) = 0 F (0, b) = −∞ si b > 0 Donde F (a, b) representa la mejor solución utilizando un subconjunto de los primeros a objetos y usando un volumen total de b. El hecho de que F (0, b) = −∞ cuando b > 0 indica que ese estado no tiene ningún valor aceptable puesto que es un estado inalcanzable, es decir, indica que cualquier otra opción es preferible que pasar por este estado. Claro que para objeto de implementación basta con elegir un número negativo muy pequeño para que haga las veces de −∞. Si recordamos cómo se implementó el cálculo del Triángulo de Pascal en la sección anterior, podemos ver que estamos en una situación análoga. Una vez calculados los valores de F (a, 0), F (a, 1), ..., F (a, C) se tiene to- da la información necesaria para calcular los valores de F (a + 1, 0), F (a + 1, 1), ..., F (a + 1, C). Por tanto si calculamos cada valor de F (a, b) en un arreglo de la forma F [a][b], basta con ir calculando las \u001clas en órden creciente, aquí nos encon- tramos con una observación interesante: no importa en qué orden se calculen las columnas, lo único importante es calcular las \u001clas en el órden correc- to(creciente). El código mas natural para la solución es el siguiente: 1 F [ 0 ] [ 0 ] = 1 ; 2 for ( i =1; i<=C; i ++){ 3 F [ 0 ] [ i ]=−INF ; 4 } 5 for ( i =1; i<=N; i ++){ 6 for ( k=0;k<=C; k++){ 7 i f (V[ i ]<=k ) { 8 F [ i ] [ k]=max(F [ i − 1 ] [ k ] , F [ i − 1 ] [ k−V[ i ] ] ) ; 9 } e l s e { 10 F [ i ] [ k]=F [ i − 1 ] [ k ] ; -- 278 of 315 -- 20.5. LA MOCHILA (0, 1) 279 11 } 12 } 13 } Claro que bien podríamos hacer algo como esto: 1 F [ 0 ] [ 0 ] = 1 ; 2 for ( i =1; i<=C; i ++){ 3 F [ 0 ] [ i ]=−INF ; 4 } 5 for ( i =1; i<=N; i ++){ 6 for ( k=C; k>=0;k−−){ 7 i f (V[ i ]<=k ) { 8 F [ i ]"
+}

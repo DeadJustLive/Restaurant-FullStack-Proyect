@@ -1,0 +1,42 @@
+# SCRUM Y XP DESDE LAS TRINCHERAS | 89
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 139)
+
+## Contenido
+# SCRUM Y XP DESDE LAS TRINCHERAS | 89
+
+Incrementar la calidad incluyendo encargados de
+pruebas en el equipo
+Si, ya oigo las dos quejas:
+• 	“¡Pero eso es obvio! ¡Se supone que los equipos Scrum deben ser multi-
+funcionales!”
+• 	“¡Se supone que en los equipos Scrum no debe haber roles! ¡No
+podemos tener a una persona que sea sólo un encargado de pruebas!”
+Permitidme clarificarlo. Lo que quiero decir con “encargado de pruebas” en este
+caso es “una persona cuya principal habilidad es hacer pruebas” y no “un tipo
+cuya única responsabilidad es hacer pruebas”.
+Los desarrolladores son frecuentemente muy malos encargados de pruebas.
+Especialmente los desarrolladores que deben probar su propio código.
+El encargado de pruebas es quien da el visto bueno
+Además de ser “solo” un miembro del equipo, el encargado de pruebas tiene una
+labor importante. Es el que da el visto bueno. Nada se considera terminado hasta
+que él dice que está terminado. He encontrado a muchos desarrolladores que
+dicen que algo está terminado cuando en realidad no lo estaba. Incluso si tienes
+una definición muy clara de lo que significa “terminado” (algo que deberías tener,
+ver “Definición de terminado”), los desarrolladores frecuentemente la olvidarán.
+Los programadores somos gente impaciente y queremos dedicarnos al próximo
+elemento lo antes posible.
+Así que, ¿cómo sabe el Señor P. (nuestro encargado de pruebas) que algo está
+terminado? Bueno, antes que nada debería (sorpresa) probarlo. En muchas
+ocasiones ocurre que algo que el programador consideraba terminado ni siquiera
+era posible de probar. Porque no se había registrado, o no se había instalado en
+el servidor de pruebas, o no podía arrancarse o lo que sea. Una vez que el Señor
+P. ha probado la funcionalidad, debería revisar la lista de comprobación de
+“terminado” (si tenéis una) con el desarrollador. Por ejemplo, si la definición de
+“terminado” establece que debería haber una nota de versión, entonces el Señor
+P. comprueba que haya una nota de versión. Si hay algún tipo de especificación
+más formal para esta funcionalidad (algo raro en nuestro caso) entonces el Señor
+P. la comprueba también. Etcétera.
+
+-- 89 of 122 --

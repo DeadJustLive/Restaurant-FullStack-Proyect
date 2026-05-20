@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch236-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 236,
+  "chunkIndex": 0,
+  "title": "(1-Z,2-I,3-L,4-F,5-O,6-S,7-T)",
+  "start": 0,
+  "end": 10,
+  "words": 10,
+  "content": "# PRECONDICIONES: * default <hay un tablero de Zilfost codificado>"
+}

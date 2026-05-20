@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch503-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 503,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 24,
+  "words": 24,
+  "content": "# PROP´OSITO: duplica la fila sobre la actual en la actual borrando el contenido de la fila actual, solo en la zona de juego"
+}

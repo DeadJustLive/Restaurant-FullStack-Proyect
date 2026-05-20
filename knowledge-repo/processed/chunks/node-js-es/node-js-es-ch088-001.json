@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch088-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 88,
+  "chunkIndex": 1,
+  "title": "Capítulo 50:: Exportando e importando el",
+  "start": 450,
+  "end": 633,
+  "words": 183,
+  "content": "de la declaración de importación. https://riptutorial.com/es/home 172 -- 200 of 423 -- Importación agrupada import * as i from './fun'; i.say('What?'); // Output: What? i.sayLoud('Whoot!'); // Output: WHOOT! Si queremos tenerlo todo, este es el camino a seguir. Al utilizar la sintaxis * as i , tenemos la declaración de import que nos proporciona un objeto i que contiene todas las exportaciones de nuestro módulo de fun como propiedades con el nombre correspondiente. Caminos Tenga en cuenta que debe marcar explícitamente sus rutas de importación como rutas relativas, incluso si el archivo que desea importar se encuentra en el mismo directorio que el archivo que está importando utilizando ./ . Importaciones desde rutas no prefijadas como import express from 'express'; se buscará en las carpetas de node_modules locales y globales y arrojará un error si no se encuentran módulos coincidentes. Exportando con sintaxis ES6 Este es el equivalente del otro ejemplo, pero en su lugar utiliza ES6. export function printHelloWorld() { console.log(\"Hello World!!!\"); } Lea Exportando e importando el módulo en node.js en línea: https://riptutorial.com/es/node- js/topic/1173/exportando-e-importando-el-modulo-en-node-js https://riptutorial.com/es/home 173 -- 201 of 423 --"
+}

@@ -1,3 +1,7 @@
+// @use(auth)
+// @kind(serviceImpl)
+// @contract(in: RegisterRequestDTO, LoginRequestDTO -> out: AuthResponseDTO)
+// @limit(lines: 400)
 package cl.triskeledu.auth.service.impl;
 
 import cl.triskeledu.auth.dto.request.LoginRequestDTO;
@@ -24,6 +28,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * =============================================================================
  * SERVICE IMPL: AuthServiceImpl — Implementación REAL (no mock)
+ * =============================================================================
  * =============================================================================
  */
 @Service

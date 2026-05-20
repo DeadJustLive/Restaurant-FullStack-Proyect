@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch022-004",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 22,
+  "chunkIndex": 4,
+  "title": "8. Documentaci´on.",
+  "start": 1800,
+  "end": 1909,
+  "words": 109,
+  "content": "tiempo: \" ) 7 leer( t ) 8 9 v = x / t 10 11 imprimir( \"La velocidad es: \", v ) 12 FinAlgoritmo Al ejecutar este algoritmo, suponiendo que la distancia es de 300 metros y el tiempo empleado es de 15 minutos, se observar´a lo siguiente: Ingrese la distancia: 300 Ingrese el tiempo: 15 La velocidad es: 20 En los siguientes cap´ıtulos, se profundizar´a en el desarrollo de algoritmos. Aclaraci´on: En la versi´on en pseudoc´odigo se hace la declaraci´on de variables, en los diagramas de flujo no se requiere. La impresi´on de mensajes tambi´en se puede hacer dentro de los diagramas de flujo. 1.9. Ejercicios propuestos"
+}

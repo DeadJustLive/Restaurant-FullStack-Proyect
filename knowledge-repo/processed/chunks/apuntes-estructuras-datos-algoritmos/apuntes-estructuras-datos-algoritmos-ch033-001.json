@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch033-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 33,
+  "chunkIndex": 1,
+  "title": "3. Implementación del TAD diccionario con ABB",
+  "start": 450,
+  "end": 618,
+  "words": 168,
+  "content": "bool pertenece(char caracter, const Conjcar& c) { return 0<=caracter && caracter<TOTAL_CARACTERES && c.conjunto[int(caracter)]; }; void unionConjcar(const Conjcar& c1, const Conjcar& c2, Conjcar& c) { c.card = 0; for (int i = 0; i < TOTAL_CARACTERES; i++) { c.conjunto[i] = c1.conjunto[i] || c2.conjunto[i]; if (c.conjunto[i]) { c.card = c.card + 1; } } }; void intersecConjcar(const Conjcar& c1, const Conjcar& c2, Conjcar& c) { c.card = 0; for (int i = 0; i < TOTAL_CARACTERES; i++) { c.conjunto[i] = c1.conjunto[i] && c2.conjunto[i]; if (c.conjunto[i]) { c.card = c.card + 1; } } }; int cardinal(const Conjcar& c) { return c.card; }; void iniciarIterador(Conjcar& c) { c.iterPos = 0; while(c.iterPos < TOTAL_CARACTERES && !c.conjunto[c.iterPos]) { c.iterPos = c.iterPos + 1; } } bool existeSiguiente(const Conjcar& c) { return c.iterPos < TOTAL_CARACTERES; } bool siguiente(Conjcar& c, char& caracter) { if (existeSiguiente(c)) { caracter = char(c.iterPos); c.iterPos = c.iterPos + 1; while(c.iterPos < TOTAL_CARACTERES && !c.conjunto[c.iterPos]) { c.iterPos = c.iterPos + 1; } return true; } else { return false; } }"
+}

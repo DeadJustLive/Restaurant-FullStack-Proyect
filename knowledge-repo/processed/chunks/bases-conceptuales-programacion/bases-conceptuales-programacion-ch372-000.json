@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch372-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 372,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 22,
+  "words": 22,
+  "content": "# OBSERVACIONES: * se estructura como un recorrido en la zona de selecci´on */ { IrAlOrigenDeZonaDeProximaPieza() BorrarZonaDeNumeros() } //--------------------------------------------------- procedure BorrarZonaDeSeleccion() /*"
+}

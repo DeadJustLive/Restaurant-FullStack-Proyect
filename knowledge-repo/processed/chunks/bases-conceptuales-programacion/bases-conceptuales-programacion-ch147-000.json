@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch147-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 147,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 20,
+  "words": 20,
+  "content": "# OBSERVACI´ON: * pretende mostrar lo que NO DEBE hacerse -} { cantRojas := nroBolitas(Rojo) Mover(Norte) CompletarDuplicarRojasAlNorteMal() } procedimiento CompletarDuplicarRojasAlNorteMal()"
+}

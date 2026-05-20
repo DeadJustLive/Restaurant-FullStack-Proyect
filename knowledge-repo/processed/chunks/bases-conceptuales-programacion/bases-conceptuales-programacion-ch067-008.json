@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch067-008",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 67,
+  "chunkIndex": 8,
+  "title": "{- PROP´OSITO:",
+  "start": 3600,
+  "end": 3895,
+  "words": 295,
+  "content": "bloques m ´as generales, y estudiaremos el concepto de parametrizaci ´on. En el proceso agregaremos algu- nas formas b ´asicas de combinaci ´on de comandos y expresiones. 3.1. Procedimientos Lo primero que aprendimos es c ´omo escribir procedimientos simples (defini- ci ´on 2.2.21), y trabajamos con ellos, aprendiendo c ´omo utilizarlos adecuadamen- te. Vimos que los procedimientos simples son una forma de nombrar comandos compuestos para identificarlos como tareas de nuestro problema y as´ı definir un nuevo comando especializado para una tarea. Y tambi ´en vimos que adem ´as de los comandos, los lenguajes pose´ıan expresiones para describir valores, entida- des para representar informaci ´on. En este apartado vamos a agregar la idea de par ´ametro a los procedimientos, y comenzaremos a estudiar su potencial. 3.1.1. Procedimientos con par ´ametros Al resolver el ejercicio 2.4.11 donde se ped´ıa dibujar una E roja y una E negra, vi- mos que se hac´ıa necesario, con los elementos que cont ´abamos en ese momen- to, duplicar el procedimiento y cambiar solo el dato del color. Volvamos a repasar el problema de la duplicaci ´on, pero utilizando el ejemplo inicial del cuadrado ne- gro dado en la p ´agina 59 con el procedimiento DibujarCuadradoNegroDeLado3(), cuyo resultado se mostr ´o en el gr ´afico G.2.10. Entonces, ahora supongamos que queremos que en lugar de dibujar dos cuadrados negros, uno de ellos sea rojo y el otro negro, como se muestra en el gr ´afico G.3.1. El c ´odigo para ello, suponien- do solo las herramientas del cap´ıtulo anterior, ser´ıa algo como program { VaciarTablero(); IrAlOrigen() DibujarCuadradoNegroDeLado3() IrAlBorde(Este); Mover(Oeste); Mover(Oeste) DibujarCuadradoRojoDeLado3() } procedure DibujarCuadradoNegroDeLado3() /* Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 89 of 312 -- 90 G.3.1. Resultado de ejecutar el programa que dibuja dos cuadrados"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch059-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 59,
+  "chunkIndex": 1,
+  "title": "Capítulo 4: - Cómo se llega al sitio web",
+  "start": 450,
+  "end": 769,
+  "words": 319,
+  "content": "indica que los enlaces existentes en la página no deben ser seguidos. Uso de robots.txt En forma paralela a lo que se indique en cada página, para el sitio se debe generar un archivo que cumple una función similar a la señalada para la etiqueta <meta> anterior, cual es la de indicar a los robots de los buscadores cuál es la acción global que debe desarrollar en el sitio web. Para ello, en la raíz del servidor se debe incluir un archivo de texto que lleve el nombre robots.txt y en el que se indique la información acerca de la acción a desarrollar9 . El contenido estándar10 está dado por dos líneas, que son las siguientes: Se debe considerar que la línea “User-agent” puede incluir el nombre de cualquier robot y que si tiene un asterisco, indica que la directiva se aplica a todos; en tanto que la línea “Disallow” permite indicar los directorios del sitio web que no se desee incluir en la indexación. Si está en blanco, indica que permite indexar todo el contenido del sitio web. Es importante considerar que este archivo es revisado por todos los robots de búsqueda que acceden al sitio web por lo que es muy importante su presencia, ya que constituye una de las buenas prácticas en torno a los buscadores, debido a que forman parte de una suerte de bienvenida formal a todos los programas enviados por los sistemas de búsqueda de Internet. Cómo mostrar contenidos De acuerdo a lo indicado en los párrafos precedentes, el sitio web deberá cumplir con tener los siguientes elementos para asegurar que los buscadores de Internet los indexen: <meta>: en esta sección la línea debe indicar lo siguiente: <META NAME=\"robots\" content=\"index,follow\"> Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile 9.- Ver Capítulo IV Guía Web, http://www.guiaweb.gob.cl/guia/capitulos/cuatro/queprobar.htm#t03robots 10.- Más información en http://www.robotstxt.org/wc/exclusion.html User-agent: * Disallow: -- 88 of 122 --"
+}

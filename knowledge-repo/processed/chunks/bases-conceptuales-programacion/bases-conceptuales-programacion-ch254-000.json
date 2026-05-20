@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch254-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 254,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 31,
+  "words": 31,
+  "content": "# PRECONDICIONES: * la pieza codPieza no existe en la zona de juego * ubicaci´on es mayor o igual a 0 y menor que el ancho de la zona de juego"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch366-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 366,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 17,
+  "words": 17,
+  "content": "# PROP´OSITO: devuelve un n´umero codificado en la zona de selecci´on, si existe, o cero si no"
+}

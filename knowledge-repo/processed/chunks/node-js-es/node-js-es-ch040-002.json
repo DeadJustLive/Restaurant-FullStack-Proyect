@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch040-002",
+  "bookId": "node-js-es",
+  "chapterIndex": 40,
+  "chunkIndex": 2,
+  "title": "Capítulo 8:: async.js",
+  "start": 900,
+  "end": 1151,
+  "words": 251,
+  "content": "datos de manera eficiente) https://riptutorial.com/es/home 59 -- 87 of 423 -- Cuando queremos manejar una matriz de datos, es mejor usar async.each . Cuando queremos realizar algo con todos los datos y queremos obtener la devolución de llamada final una vez que todo está hecho, entonces este método será útil. Esto se maneja de forma paralela. function createUser(userName, callback) { //create user in db callback(null)//or error based on creation } var arrayOfData = ['Ritu', 'Sid', 'Tom']; async.each(arrayOfData, function(eachUserName, callback) { // Perform operation on each user. console.log('Creating user '+eachUserName); //Returning callback is must. Else it wont get the final callback, even if we miss to return one callback createUser(eachUserName, callback); }, function(err) { //If any of the user creation failed may throw error. if( err ) { // One of the iterations produced an error. // All processing will now stop. console.log('unable to create user'); } else { console.log('All user created successfully'); } }); Para hacer uno a la vez puede usar async.eachSeries async.series (Para manejar eventos uno por uno) / En async.series, todas las funciones se ejecutan en serie y las salidas consolidadas de cada función se pasan a la devolución de llamada final. por ejemplo var async = require ('async'); async.series ([function (callback) {console.log ('First Execute ..'); callback (null, 'userPersonalData');}, function (callback) {console.log ('Second Execute ..'); devolución de llamada (null, 'userDependentData');}], función (err, resultado) {console.log (resultado);}); //Salida: Primera ejecución ... Segunda ejecución ... ['userPersonalData', 'userDependentData'] // resultado Lea async.js en línea: https://riptutorial.com/es/node-js/topic/3972/async-js https://riptutorial.com/es/home 60 -- 88 of 423 --"
+}

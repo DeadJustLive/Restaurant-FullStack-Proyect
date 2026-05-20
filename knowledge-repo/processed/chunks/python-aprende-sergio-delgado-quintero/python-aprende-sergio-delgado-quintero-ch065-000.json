@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch065-000",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 65,
+  "chunkIndex": 0,
+  "title": "1. Escriba una clase en Python para representar una secuencia de ADN. De momento, la",
+  "start": 0,
+  "end": 51,
+  "words": 51,
+  "content": "# 1. Escriba una clase en Python para representar una secuencia de ADN. De momento, la • 4 atributos de clase, cada uno representando una base nitrogenada con su valor como un carácter. • Constructor que recibe una secuencia de caracteres (bases). • Método para representar el objeto en formato «string»."
+}

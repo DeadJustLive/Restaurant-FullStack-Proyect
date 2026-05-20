@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch045-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 45,
+  "chunkIndex": 0,
+  "title": "2. Crear un algoritmo que indique si la llave de un tanque de agua debe",
+  "start": 0,
+  "end": 30,
+  "words": 30,
+  "content": "# 2. Crear un algoritmo que indique si la llave de un tanque de agua debe ser abierta o cerrada. El tanque debe estar siempre entre 250 y 450 litros."
+}

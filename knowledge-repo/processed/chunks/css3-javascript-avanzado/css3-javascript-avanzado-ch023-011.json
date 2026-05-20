@@ -1,0 +1,11 @@
+{
+  "id": "css3-javascript-avanzado-ch023-011",
+  "bookId": "css3-javascript-avanzado",
+  "chapterIndex": 23,
+  "chunkIndex": 11,
+  "title": "3. Bibliotecas Javascript",
+  "start": 4950,
+  "end": 5052,
+  "words": 102,
+  "content": "del resto de código de la página o del navegador. Así, podemos: // Creamos una función anónima para utilizar como envoltorio (function(){ // Esta variable normalmente sería global var msg = \"Thanks for visiting!\"; -- 43 of 86 -- CC-BY-SA • PID_00176160 44 CSS3 y Javascript avanzado // Y la asignamos a un método global window.onunload = function(){ // Podemos utilizar la variable definida globalmente alert( msg ); }; // Cerramos la función y la ejecutamos. A partir de aquí, el // resto de las variables son invisibles })(); -- 44 of 86 -- CC-BY-SA • PID_00176160 45 CSS3 y Javascript avanzado"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch056-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 56,
+  "chunkIndex": 1,
+  "title": "Capítulo 4: - Cómo se llega al sitio web",
+  "start": 450,
+  "end": 640,
+  "words": 190,
+  "content": "de alta el sitio web propio en algunos de los más importantes buscadores de Internet. Al menos se debe realizar esta acción en Google, Yahoo! y LiveWeb. Dar y recibir enlaces hacia otros sitios de Internet, porque ésta es la única manera que un robot de búsqueda pueda conocer la dirección de nuestro sitio web al detectar nuestra dirección a partir de otro sitio web; adicionalmente en el caso de Google, esto contribuirá a su mejorar su índice “Page Rank”. Ofrecer en la página de portada del sitio web los meta-tag que dirijan a los robots hacia los archivos robots.txt y sitemaps.xml cuyas características se analizan más adelante en este capítulo. Ofrecer en la página de portada del sitio web un meta-tag que indique el sitio da permiso para ser indexado, tal como se explica más adelante en este capítulo. Page Rank: es el algoritmo diseñado por Google para indicar la relevancia de un sitio web respecto de la calidad de sus contenidos; entre muchas variables, se determina a partir de su actualización, cantidad de enlaces entrantes y salientes y tiempo de vida del sitio. -- 82 of 122 --"
+}

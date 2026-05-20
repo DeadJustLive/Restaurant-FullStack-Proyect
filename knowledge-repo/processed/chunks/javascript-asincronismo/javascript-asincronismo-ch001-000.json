@@ -1,0 +1,11 @@
+{
+  "id": "javascript-asincronismo-ch001-000",
+  "bookId": "javascript-asincronismo",
+  "chapterIndex": 1,
+  "chunkIndex": 0,
+  "title": "1. Se apila console.log(\"Op. sync #1\")",
+  "start": 0,
+  "end": 7,
+  "words": 7,
+  "content": "# 1. Se apila console.log(\"Op. sync #1\")"
+}

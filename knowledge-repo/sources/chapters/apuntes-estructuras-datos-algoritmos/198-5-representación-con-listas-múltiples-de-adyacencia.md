@@ -1,0 +1,84 @@
+# 5. Representación con listas múltiples de adyacencia
+
+En el caso de grafos dirigidos, las listas de adyacencia directa e inversa pueden representarse de forma más
+compacta.
+Como se definió en la lección 20, una lista múltiple es una estructura dinámica de datos enlazados mediante punteros
+en la que cada dato puede pertenecer a dos o más listas.
+3
+2
+1
+nil
+1
+2
+3
+Listas de adyacencia
+Listas de adyacencia inversa
+1 2 3
+3 nil	2 	nil
+2 nil	1 	nil
+1	2 	nil	Grafo dirigido
+En esta representación, hay un nodo por cada una de las aristas del grafo. Cada nodo guarda la clave de dos vértices
+(origen y destino de la arista) y dos punteros: el primero al nodo que guarda la siguiente arista que tiene el mismo vértice
+destino y el segundo al nodo que guarda la siguiente arista que tiene el mismo vértice origen.
+constante n = ... {cardinal de V}
+tipos ptNodo = ↑nodo
+nodo = registro
+origen,destino: 1..n;
+sigInvAdy,sigAdy:ptNodo
+freg
+grafoDirigido = registro
+adyacentes,invAdyacentes: vector[1..n] de ptNodo
+freg
+Las listas múltiples pueden utilizarse también para representar grafos no dirigidos. De esta forma, en lugar de que a
+cada arista le correspondan dos nodos en la estructura dinámica (como ocurre con la representación basada en listas
+“simples” de adyacencia), puede representarse cada arista con un solo nodo y hacer que éste pertenezca a dos listas de
+adyacencia diferentes. Véase el ejemplo siguiente:
+
+-- 210 of 267 --
+
+197
+4
+1
+2 	3
+4 	nil	2 	3
+1 	3 	4 	nil
+1 	2 	4 	nil
+1 	2 	3 	nil
+1
+2
+3
+4
+1
+2
+3
+4
+1 	2
+1 	3 	2 	3
+1 	4
+nil
+2 	4
+nil 	nil
+3 	4
+nil
+Grafo no dirigido 	Listas de adyacencia
+Listas múltiples de adyacencia
+La definición de la estructura de datos es la siguiente:
+constante n = ... {cardinal de V}
+tipos ptNodo = ↑nodo;
+nodo = registro
+v1,v2:1..n;
+sig1,sig2:ptNodo
+freg
+grafoNoDirigido = vector[1..n] de ptNodo
+Una ventaja de esta representación es que es útil para implementar aquellos algoritmos que necesitan recorrer un grafo
+y al mismo tiempo “marcar” las aristas por las que se pasa (bastaría con añadir un campo booleano al tipo nodo).
+
+-- 211 of 267 --
+
+198
+
+-- 212 of 267 --
+
+199
+Anexo 2: Algoritmos de vuelta atrás y árboles de juego
+Indice

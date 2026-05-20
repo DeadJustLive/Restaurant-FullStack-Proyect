@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch032-011",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 32,
+  "chunkIndex": 11,
+  "title": "Ch17 02 concurrency with async.html",
+  "start": 4950,
+  "end": 5199,
+  "words": 249,
+  "content": "20.4.Funciones y Closures Avanzados - 20.5.Macros - 21.1.Construyendo un Servidor Web de un Solo Hilo - 21.2.Convirtiendo Nuestro Servidor de un solo Hilo en un Servidor Multihilo - 21.3.Apagado y limpieza eficientes - 22.1.A - Palabras claves - 22.2.B - Operadores y Símbolos - 22.3.C - Traits derivables - 22.4.D - Herramientas de desarrollo útiles - 22.5.E - Ediciones - 22.6.F - Traducciones del libro - 22.7.G - Cómo se hace Rust y “Rust Nightly” - Light (default) - Rust - Coal - Navy - Ayu - Latte - Frappé - Macchiato - Mocha - Elimina el bloque async alrededor de uno o ambos bucles. - Espera (await) cada bloque async inmediatamente después de definirlo. - Envuelve solo el primer bucle en un bloque async y espera el future resultante después del cuerpo del segundo bucle. - El future devuelto portrpl::joinsolo se completa cuandoambosfutures que recibe han terminado. - El future detxse completa cuando termina el último sleep después de enviar el último mensaje envals. - El future derxno se completará hasta que el buclewhile lettermine. - El buclewhile letno terminará hasta que esperarrx.recvdevuelvaNone. - rx.recv().awaitsolo devolveráNonecuando el otro extremo del canal se cierre. - El canal solo se cerrará si llamamos arx.closeo cuando se elimine (drop) el lado del envíotx. - No llamamos arx.closeen ninguna parte, ytxno se eliminará hasta que finalice el bloque async externo pasado atrpl::run. - El bloque no puede terminar porque está esperando quetrpl::joinse complete, lo que nos devuelve al inicio de esta lista."
+}

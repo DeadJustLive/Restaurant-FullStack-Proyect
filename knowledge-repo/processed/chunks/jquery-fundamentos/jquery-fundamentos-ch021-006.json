@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch021-006",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 21,
+  "chunkIndex": 6,
+  "title": "5. Añadir un nuevo div.module a la página después del último; luego añadir una copia de una de",
+  "start": 2700,
+  "end": 2875,
+  "words": 175,
+  "content": "primera será ejecutada cuando ocurra el evento mouseenter, mientras que la segunda será ejecutada cuando ocurra mouseleave. Nota A partir de la versión 1.4 de jQuery, el método requiere obligatoriamente dos funciones. La función auxiliar hover $('#menu li').hover(function() { $(this).toggleClass('hover'); }); $.fn.toggle Al igual que el método anterior, $.fn.toggle recibe dos o más funciones; cada vez que un evento ocurre, la función siguiente en la lista se ejecutará. Generalmente, $.fn.toggle es utilizada con solo dos funciones. En caso que utiliza más de dos funciones, tenga cuidado, ya que puede ser dificultar la depuración del código. La función auxiliar toggle 48 -- 49 of 107 -- $('p.expander').toggle( function() { $(this).prev().addClass('open'); }, function() { $(this).prev().removeClass('open'); } ); 0.5.7. Ejercicios Crear una “Sugerencia” para una Caja de Ingreso de Texto Abra el archivo /ejercicios/index.html en el navegador. Realice el ejercicio utilizando el archivo /ejercicios/js/inputHint.js o trabaje directamente con Firebug. La tarea a realizar es utilizar el texto del elemento label y aplicar una “sugerencia” en la caja de ingreso de texto. Los pasos ha seguir son los siguientes:"
+}

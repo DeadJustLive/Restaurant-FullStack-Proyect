@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch077-008",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 77,
+  "chunkIndex": 8,
+  "title": "4. Compute los tiempos de ejecución de 2) y 3)",
+  "start": 3600,
+  "end": 3860,
+  "words": 260,
+  "content": "States IBM 73620 364800 New York United States Tencent 69864 85858 Shenzhen China Panasonic 63191 243540 Osaka Japan Lenovo 60742 71500 Hong Kong China HP Inc. 56639 53000 California United States LG Electronics 53625 75000 Seoul South Korea Truco: Se suele usar df como nombre para las variables tipo DataFrame. Ejercicio Cargue el conjunto de datos democan desde democan.csv en un DataFrame df indicando que la columna Island es el índice. También es posible cargar el «dataset» a través de la URL que conseguimos con botón derecho: copiar enlace. Características de un DataFrame Visualización de los datos Para «echar un vistazo» a los datos, existen dos funciones muy recurridas: >>> df.head() Revenue Employees City Country (continué en la próxima página) 8.3. pandas 387 -- 391 of 516 -- Aprende Python (proviene de la página anterior) Company Apple 274515 147000 California United States Samsung Electronics 200734 267937 Suwon South Korea Alphabet 182527 135301 California United States Foxconn 181945 878429 New Taipei City Taiwan Microsoft 143015 163000 Washington United States >>> df.tail() Revenue Employees City Country Company Tencent 69864 85858 Shenzhen China Panasonic 63191 243540 Osaka Japan Lenovo 60742 71500 Hong Kong China HP Inc. 56639 53000 California United States LG Electronics 53625 75000 Seoul South Korea Truco: Estas funciones admiten como parámetro el número de registros a visualizar. Información sobre los datos Pandas ofrece algunas funciones que proporcionan un cierto «resumen» de los datos a nivel descriptivo. Veamos algunas de ellas. Información sobre columnas: >>> df.info() <class pandas.core.frame.DataFrame > Index: 17 entries, Apple to LG Electronics Data columns (total 4 columns):"
+}

@@ -1,0 +1,32 @@
+# PRECONDICIONES:
+
+* la zona de juego tiene un ancho m´ınimo de 9
+*/
+{
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 300 of 312 --
+
+301
+VaciarZonaDeJuego()
+ColocarNuevaPieza(1,1,1)
+ColocarNuevaPieza(6,6,6)
+BajarPiezasDeZonaDeJuego()
+BajarPiezasDeZonaDeJuego()
+ColocarNuevaPieza(3,3,3)
+ColocarNuevaPieza(5,5,5)
+BajarPiezasDeZonaDeJuego()
+BajarPiezasDeZonaDeJuego()
+ColocarNuevaPieza(7,7,7)
+BajarPiezasDeZonaDeJuego()
+ColocarNuevaPieza(2,2,2)
+ColocarNuevaPieza(4,4,4)
+BajarPiezasDeZonaDeJuego()
+BajarPiezasDeZonaDeJuego()
+BajarPiezasDeZonaDeJuego()
+}
+//-----------------------------------------------------
+procedure VaciarZonaDeJuego()
+/*
+PROP´OSITO: quita todas las piezas y el piso
+de la zona de juego

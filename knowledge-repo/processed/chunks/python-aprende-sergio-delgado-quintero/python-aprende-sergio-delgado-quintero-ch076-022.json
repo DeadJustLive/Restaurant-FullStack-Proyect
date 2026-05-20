@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch076-022",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 76,
+  "chunkIndex": 22,
+  "title": "CAPÍTULO 8",
+  "start": 9900,
+  "end": 10160,
+  "words": 260,
+  "content": "100: >>> A = np.random.randint(-100, 100, size=(3000, 3000)) >>> B = np.random.randint(-100, 100, size=(3000, 3000)) Una primera aproximación para aplicar esta función a cada elemento de las matrices de entrada sería la siguiente: >>> result = np.zeros_like(A) >>> %%timeit ... for i in range(A.shape[0]): ... for j in range(A.shape[1]): ... result[i, j] = customf(A[i, j], B[i, j]) ... 3 s ± 23.8 ms per loop (mean ± std. dev. of 7 runs, 1 loop each) Mejorando rendimiento con funciones vectorizadas Con un pequeño detalle podemos mejorar el rendimiento de la función que hemos diseñado anteriormente. Se trata de decorarla con np.vectorize con lo que estamos otorgándole un comportamiento distinto y enfocado al procesamiento de arrays numéricos: >>> @np.vectorize ... def customf(a, b): ... if a > b: ... return a + b ... elif a < b: ... return a - b ... else: ... return 0 ... Dado que ahora ya se trata de una función vectorizada podemos aplicarla directamente a las matrices de entrada (aprovechamos para medir su tiempo de ejecución): 8.2. numpy 363 -- 367 of 516 -- Aprende Python >>> %timeit customf(A, B) 1.29 s ± 7.33 ms per loop (mean ± std. dev. of 7 runs, 1 loop each) Hemos obtenido una mejora de 2.32x con respecto al uso de funciones simples. Truco: La mejora de rendimiento se aprecia más claramente a medida que los tamaños de las matrices (arrays) de entrada son mayores. Consejo: El uso de funciones lambda puede ser muy útil en vectorización: np. vectorize(lambda a, b: return a + b). Ejercicio"
+}

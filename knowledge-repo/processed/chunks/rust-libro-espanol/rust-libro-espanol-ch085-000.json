@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch085-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 85,
+  "chunkIndex": 0,
+  "title": "Aceptando argumentos de línea de comandos",
+  "start": 0,
+  "end": 35,
+  "words": 35,
+  "content": "# Aceptando argumentos de línea de comandos ## Aceptando argumentos de línea de comandos ### Leyendo los valores de los argumentos ### La funciónargsy Unicode inválido ### Guardando los valores de los argumentos en variables"
+}

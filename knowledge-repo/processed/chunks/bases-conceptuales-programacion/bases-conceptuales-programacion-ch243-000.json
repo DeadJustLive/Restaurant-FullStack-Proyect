@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch243-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 243,
+  "chunkIndex": 0,
+  "title": "K_L, K_ARROW_RIGHT",
+  "start": 0,
+  "end": 34,
+  "words": 34,
+  "content": "# PRECONDICIONES Y OBSERVACIONES: * las mismas que para ColocarPieza */ { ColocarSeccionDePieza(codPieza) PonerN(Negro,tipoPieza) PonerN(Rojo,rotPieza) } //----------------------------------------------------- procedure ColocarSeccionDePiezaEn(codPieza,dir) /* PROP´OSITO: coloca una secci´on de la pieza codPieza en la celda lindante al dir"
+}

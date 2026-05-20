@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch004-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 4,
+  "chunkIndex": 0,
+  "title": "Apéndice C: Traits derivables",
+  "start": 0,
+  "end": 45,
+  "words": 45,
+  "content": "# Apéndice C: Traits derivables ## Apéndice C: Traits derivables ### Debugpara el Output del programador ### PartialEqyEqpara comparaciones de igualdad ### PartialOrdyOrdpara comparaciones de orden ### CloneyCopypara duplicar valores ### Hashpara mapear un valor a un valor de tamaño fijo ### Defaultpara valores predeterminados"
+}

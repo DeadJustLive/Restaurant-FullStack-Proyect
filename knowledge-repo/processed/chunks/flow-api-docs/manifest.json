@@ -1,0 +1,534 @@
+{
+  "bookId": "flow-api-docs",
+  "totalChunks": 75,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.158Z",
+  "chunks": [
+    {
+      "id": "flow-api-docs-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "Flow Coupon.postman collection.json",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch001-001",
+      "chapterIndex": 1,
+      "chunkIndex": 1,
+      "title": "Flow Coupon.postman collection.json",
+      "words": 162
+    },
+    {
+      "id": "flow-api-docs-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "Flow Customer.postman collection.json",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch002-001",
+      "chapterIndex": 2,
+      "chunkIndex": 1,
+      "title": "Flow Customer.postman collection.json",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch002-002",
+      "chapterIndex": 2,
+      "chunkIndex": 2,
+      "title": "Flow Customer.postman collection.json",
+      "words": 440
+    },
+    {
+      "id": "flow-api-docs-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "Flow Invoices.postman collection.json",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch003-001",
+      "chapterIndex": 3,
+      "chunkIndex": 1,
+      "title": "Flow Invoices.postman collection.json",
+      "words": 96
+    },
+    {
+      "id": "flow-api-docs-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "Flow Merchant.postman collection.json",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch004-001",
+      "chapterIndex": 4,
+      "chunkIndex": 1,
+      "title": "Flow Merchant.postman collection.json",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch004-002",
+      "chapterIndex": 4,
+      "chunkIndex": 2,
+      "title": "Flow Merchant.postman collection.json",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch004-003",
+      "chapterIndex": 4,
+      "chunkIndex": 3,
+      "title": "Flow Merchant.postman collection.json",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch004-004",
+      "chapterIndex": 4,
+      "chunkIndex": 4,
+      "title": "Flow Merchant.postman collection.json",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch004-005",
+      "chapterIndex": 4,
+      "chunkIndex": 5,
+      "title": "Flow Merchant.postman collection.json",
+      "words": 240
+    },
+    {
+      "id": "flow-api-docs-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "Flow Payment.postman collection.json",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch005-001",
+      "chapterIndex": 5,
+      "chunkIndex": 1,
+      "title": "Flow Payment.postman collection.json",
+      "words": 316
+    },
+    {
+      "id": "flow-api-docs-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "Flow Plans.postman collection.json",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch006-001",
+      "chapterIndex": 6,
+      "chunkIndex": 1,
+      "title": "Flow Plans.postman collection.json",
+      "words": 183
+    },
+    {
+      "id": "flow-api-docs-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "Flow Refund.postman collection.json",
+      "words": 408
+    },
+    {
+      "id": "flow-api-docs-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "Flow Settlements.postman collection.json",
+      "words": 342
+    },
+    {
+      "id": "flow-api-docs-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "Flow Subscription.postman collection.json",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch009-001",
+      "chapterIndex": 9,
+      "chunkIndex": 1,
+      "title": "Flow Subscription.postman collection.json",
+      "words": 294
+    },
+    {
+      "id": "flow-api-docs-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "Realizar pruebas en nuestro ambiente Sandbox",
+      "words": 49
+    },
+    {
+      "id": "flow-api-docs-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "Obtiene el estado extendido de un pago en base al número de orden Flow",
+      "words": 35
+    },
+    {
+      "id": "flow-api-docs-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "Envía de forma masiva un lote de cobros a  clientes.",
+      "words": 29
+    },
+    {
+      "id": "flow-api-docs-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "Obtiene el estado de un lote de cobros enviados por el servicio batchCollect",
+      "words": 33
+    },
+    {
+      "id": "flow-api-docs-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "Reversa un cargo efectuado en la tarjeta de crédito de un cliente",
+      "words": 31
+    },
+    {
+      "id": "flow-api-docs-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "Cancela un cambio de plan programado asociado a una suscripción",
+      "words": 27
+    },
+    {
+      "id": "flow-api-docs-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "Ingresa un pago por fuera y da por pagado el Importe (Invoice)",
+      "words": 31
+    },
+    {
+      "id": "flow-api-docs-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "Obtiene la Liquidación efectuada con ese identificadorDeprecated",
+      "words": 21
+    },
+    {
+      "id": "flow-api-docs-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "Obtiene la liquidación efectuada con ese identificador en el formato nuevo",
+      "words": 29
+    },
+    {
+      "id": "flow-api-docs-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "Api changelog.txt",
+      "words": 366
+    },
+    {
+      "id": "flow-api-docs-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "Pago ecommerce",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch020-001",
+      "chapterIndex": 20,
+      "chunkIndex": 1,
+      "title": "Pago ecommerce",
+      "words": 437
+    },
+    {
+      "id": "flow-api-docs-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "Planes de suscripción",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch021-001",
+      "chapterIndex": 21,
+      "chunkIndex": 1,
+      "title": "Planes de suscripción",
+      "words": 381
+    },
+    {
+      "id": "flow-api-docs-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "Credentials",
+      "words": 306
+    },
+    {
+      "id": "flow-api-docs-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "Intro",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch023-001",
+      "chapterIndex": 23,
+      "chunkIndex": 1,
+      "title": "Intro",
+      "words": 436
+    },
+    {
+      "id": "flow-api-docs-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "Merchant",
+      "words": 306
+    },
+    {
+      "id": "flow-api-docs-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "Payment methods",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch025-001",
+      "chapterIndex": 25,
+      "chunkIndex": 1,
+      "title": "Payment methods",
+      "words": 437
+    },
+    {
+      "id": "flow-api-docs-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "Descargar e instalar​",
+      "words": 23
+    },
+    {
+      "id": "flow-api-docs-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "Realizar pruebas en plataforma sandbox​",
+      "words": 24
+    },
+    {
+      "id": "flow-api-docs-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "Opciones avanzadas​",
+      "words": 31
+    },
+    {
+      "id": "flow-api-docs-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "¿Es posible tener sólo una extensión instalada y recibir pagos mediante Webpay, Servipag y Multicaja?​",
+      "words": 32
+    },
+    {
+      "id": "flow-api-docs-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "Quick start",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch030-001",
+      "chapterIndex": 30,
+      "chunkIndex": 1,
+      "title": "Quick start",
+      "words": 437
+    },
+    {
+      "id": "flow-api-docs-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "Settlement",
+      "words": 306
+    },
+    {
+      "id": "flow-api-docs-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "Create coupon",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch032-001",
+      "chapterIndex": 32,
+      "chunkIndex": 1,
+      "title": "Create coupon",
+      "words": 380
+    },
+    {
+      "id": "flow-api-docs-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "Create customer",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch033-001",
+      "chapterIndex": 33,
+      "chunkIndex": 1,
+      "title": "Create customer",
+      "words": 380
+    },
+    {
+      "id": "flow-api-docs-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "Create plan",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch034-001",
+      "chapterIndex": 34,
+      "chunkIndex": 1,
+      "title": "Create plan",
+      "words": 380
+    },
+    {
+      "id": "flow-api-docs-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "Create suscription",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch035-001",
+      "chapterIndex": 35,
+      "chunkIndex": 1,
+      "title": "Create suscription",
+      "words": 380
+    },
+    {
+      "id": "flow-api-docs-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "Get invoice",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch036-001",
+      "chapterIndex": 36,
+      "chunkIndex": 1,
+      "title": "Get invoice",
+      "words": 380
+    },
+    {
+      "id": "flow-api-docs-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "Integration flow",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch037-001",
+      "chapterIndex": 37,
+      "chunkIndex": 1,
+      "title": "Integration flow",
+      "words": 380
+    },
+    {
+      "id": "flow-api-docs-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "Register card",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch038-001",
+      "chapterIndex": 38,
+      "chunkIndex": 1,
+      "title": "Register card",
+      "words": 380
+    },
+    {
+      "id": "flow-api-docs-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "Suscription status",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch039-001",
+      "chapterIndex": 39,
+      "chunkIndex": 1,
+      "title": "Suscription status",
+      "words": 380
+    },
+    {
+      "id": "flow-api-docs-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "Create order",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch040-001",
+      "chapterIndex": 40,
+      "chunkIndex": 1,
+      "title": "Create order",
+      "words": 437
+    },
+    {
+      "id": "flow-api-docs-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "Order confirmation",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch041-001",
+      "chapterIndex": 41,
+      "chunkIndex": 1,
+      "title": "Order confirmation",
+      "words": 437
+    },
+    {
+      "id": "flow-api-docs-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "Order finished",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch042-001",
+      "chapterIndex": 42,
+      "chunkIndex": 1,
+      "title": "Order finished",
+      "words": 437
+    },
+    {
+      "id": "flow-api-docs-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "Order reverse",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch043-001",
+      "chapterIndex": 43,
+      "chunkIndex": 1,
+      "title": "Order reverse",
+      "words": 437
+    },
+    {
+      "id": "flow-api-docs-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "Status",
+      "words": 500
+    },
+    {
+      "id": "flow-api-docs-ch044-001",
+      "chapterIndex": 44,
+      "chunkIndex": 1,
+      "title": "Status",
+      "words": 436
+    },
+    {
+      "id": "flow-api-docs-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "Sección",
+      "words": 84
+    }
+  ]
+}

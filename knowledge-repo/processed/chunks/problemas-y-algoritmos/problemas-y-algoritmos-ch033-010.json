@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch033-010",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 33,
+  "chunkIndex": 10,
+  "title": "Parte I: se mostró un algoritmo llamado \u0013Busqueda Binaria\u0014 el cual servía",
+  "start": 4500,
+  "end": 4796,
+  "words": 296,
+  "content": "(2a+1), lo que prueba que T es de complejidad O(nlogn) para cualquier entero n. Existe también un algoritmo muy popular de ordenamiento llamado \u0010Quick- sort\u0011 que en la mayoría de los casos suele ser tan rápido como \u0010mezcla\u0011 y requiere menos memoria. Pero no se hablará de ese algoritmo en este libro debido a la di\u001ccultad de analizar su tiempo de ejecución, si el lector quiere aprender a usarlo puede consultar otro libro y usarlo bajo su propio riesgo. -- 146 of 315 -- 12.8. PROBLEMAS 147 12.8. Problemas 12.8.1. Mediana Tiempo Límite: 1 segundo Un nuevo experimento espacial involucra a N objetos etiquetados desde 1 hasta N Se sabe de antemano que N es impar. Cada objeto tiene una fuerza distinta(aunque desconocida) expresada por un número natural. El objeto con la fuerza mediana es el objeto X tal que hay exactamente tantos objetos con una fuerza mas pequeña que X como objetos con una fuerza mayor que X . Desafortunadamente, la unica manera de comparar las fuerzas es por un dispositivo que, dados 3 objetos distintos determina el objeto con fuerza mediana tomando en cuenta solamente esos 3 objetos. Problema Escribe un programa que determine el objeto con la fuerza mediana. Libreria Dispones de una biblioteca llamada device con estas tres operaciones: GetN, deberá ser llamado una vez al principio sin parámetros; regresa el valor de N Med3, deberá ser llamado con tres etiquetas de objetos como parámet- ros; regresa la etiqueta del objeto con la fuerza media. Answer, deberá ser llamado una sola vez al \u001cnal, con una etiqueta de objeto como argumento; reporta la etiqueta del objeto X Puedes experimentar con una biblioteca de diseño propio Ejemplo Secuencia 2 5 4 3 1 Interacción -- 147 of 315 -- 148 CAPÍTULO 12. ORDENAMIENTO"
+}

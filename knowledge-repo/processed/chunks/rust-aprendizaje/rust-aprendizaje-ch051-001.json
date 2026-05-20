@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch051-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 51,
+  "chunkIndex": 1,
+  "title": "Capítulo 29:: Módulos",
+  "start": 450,
+  "end": 600,
+  "words": 150,
+  "content": "use algo con su ruta absoluta en su proyecto. Para lograr esto, puedes usar el módulo super , así: fn x() -> u8 { 5 } mod example { use super::x; fn foo() { println!(\"{}\", x()); } } Puede usar super varias veces para llegar al \"abuelo\" de su módulo actual, pero debe tener cuidado de no introducir problemas de legibilidad si usa super demasiadas veces en una importación. Exportaciones y Visibilidad Estructura de directorios: yourproject/ Cargo.lock Cargo.toml src/ main.rs writer.rs main.rs // This is import from writer.rs mod writer; fn main() { // Call of imported write() function. writer::write() // BAD writer::open_file() } escritor.r // This function WILL be exported. pub fn write() {} // This will NOT be exported. fn open_file() {} https://riptutorial.com/es/home 95 -- 109 of 188 -- Organización del código básico Veamos cómo podemos organizar el código, cuando el código base se está haciendo más grande."
+}

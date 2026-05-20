@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch030-000",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 30,
+  "chunkIndex": 0,
+  "title": "4. Vincular un evento click a cada ítem de la lista de forma que:",
+  "start": 0,
+  "end": 40,
+  "words": 40,
+  "content": "# 4. Vincular un evento click a cada ítem de la lista de forma que: muestre el div correspondiente y oculte el otro; añada la clase “current” al ítem seleccionado; remueva la clase “current” del otro ítem de la lista."
+}

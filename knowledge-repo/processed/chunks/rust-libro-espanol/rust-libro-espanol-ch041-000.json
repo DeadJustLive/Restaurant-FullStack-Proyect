@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch041-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 41,
+  "chunkIndex": 0,
+  "title": "Todos los lugares donde se pueden usar Patterns",
+  "start": 0,
+  "end": 36,
+  "words": 36,
+  "content": "# Todos los lugares donde se pueden usar Patterns ## Todos los lugares donde se pueden usar Patterns ### matchArms ### Expresiones condicionalesif let ### Bucles condicionaleswhile let ### Buclesfor ### Sentenciaslet ### Parámetros de función"
+}

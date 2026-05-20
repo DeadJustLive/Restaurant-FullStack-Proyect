@@ -1,0 +1,27 @@
+# OBSERVACI´ON:
+
+* se estructura como un recorrido por celdas, de
+Oeste a Este y de Sur a Norte
+-}
+{
+-- va a la primera celda para saber que las hace todas
+IrALaEsquina(Sur,Oeste)
+while (not llegoALaEsquina(Norte,Este))
+-- todav´ıa falta procesar celdas
+{
+-- procesar la celda
+PintarCeldaDe(color)
+-- pasar a la siguiente celda
+AvanzarASiguienteDelRecorridoDeCeldas(Norte,Este)
+}
+-- pinta la ´ultima celda, pues no entr´o al while si
+-- la celda era la ´ultima
+PintarCeldaDe(color)
+}
+Aqu´ı el procedimiento verdaderamente interesante es el que pasa a la siguiente
+celda. Para realizarlo debe considerarse primero si se puede mover al Este, y en
+ese caso, moverse; pero si no puede moverse al Este, entonces debe moverse al
+Norte y volver al extremo Oeste para continuar con las celdas de arriba. El c ´odigo
+para esto ser´ıa
+procedure AvanzarASiguienteDelRecorridoDeCeldas(dirExterna
+,dirInterna)

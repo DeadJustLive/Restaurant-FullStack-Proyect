@@ -1,0 +1,257 @@
+{
+  "nodes": [
+    {
+      "id": "ch-javascript-asincronismo-01",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.586Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-02",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.586Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-03",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.586Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-04",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.586Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-05",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.586Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-06",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.586Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-07",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.586Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-08",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.586Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-09",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.587Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-10",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.587Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-11",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.587Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-12",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.587Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-13",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.587Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-14",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.587Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-15",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.587Z"
+    },
+    {
+      "id": "ch-javascript-asincronismo-16",
+      "category": "knowledge",
+      "status": "extraído",
+      "addedAt": "2026-05-17T05:49:54.587Z"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-01",
+      "label": "cap. 1"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-02",
+      "label": "cap. 2"
+    },
+    {
+      "from": "ch-javascript-asincronismo-01",
+      "to": "ch-javascript-asincronismo-02",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-03",
+      "label": "cap. 3"
+    },
+    {
+      "from": "ch-javascript-asincronismo-02",
+      "to": "ch-javascript-asincronismo-03",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-04",
+      "label": "cap. 4"
+    },
+    {
+      "from": "ch-javascript-asincronismo-03",
+      "to": "ch-javascript-asincronismo-04",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-05",
+      "label": "cap. 5"
+    },
+    {
+      "from": "ch-javascript-asincronismo-04",
+      "to": "ch-javascript-asincronismo-05",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-06",
+      "label": "cap. 6"
+    },
+    {
+      "from": "ch-javascript-asincronismo-05",
+      "to": "ch-javascript-asincronismo-06",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-07",
+      "label": "cap. 7"
+    },
+    {
+      "from": "ch-javascript-asincronismo-06",
+      "to": "ch-javascript-asincronismo-07",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-08",
+      "label": "cap. 8"
+    },
+    {
+      "from": "ch-javascript-asincronismo-07",
+      "to": "ch-javascript-asincronismo-08",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-09",
+      "label": "cap. 9"
+    },
+    {
+      "from": "ch-javascript-asincronismo-08",
+      "to": "ch-javascript-asincronismo-09",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-10",
+      "label": "cap. 10"
+    },
+    {
+      "from": "ch-javascript-asincronismo-09",
+      "to": "ch-javascript-asincronismo-10",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-11",
+      "label": "cap. 11"
+    },
+    {
+      "from": "ch-javascript-asincronismo-10",
+      "to": "ch-javascript-asincronismo-11",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-12",
+      "label": "cap. 12"
+    },
+    {
+      "from": "ch-javascript-asincronismo-11",
+      "to": "ch-javascript-asincronismo-12",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-13",
+      "label": "cap. 13"
+    },
+    {
+      "from": "ch-javascript-asincronismo-12",
+      "to": "ch-javascript-asincronismo-13",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-14",
+      "label": "cap. 14"
+    },
+    {
+      "from": "ch-javascript-asincronismo-13",
+      "to": "ch-javascript-asincronismo-14",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-15",
+      "label": "cap. 15"
+    },
+    {
+      "from": "ch-javascript-asincronismo-14",
+      "to": "ch-javascript-asincronismo-15",
+      "label": "siguiente"
+    },
+    {
+      "from": "pdf-javascript-asincronismo",
+      "to": "ch-javascript-asincronismo-16",
+      "label": "cap. 16"
+    },
+    {
+      "from": "ch-javascript-asincronismo-15",
+      "to": "ch-javascript-asincronismo-16",
+      "label": "siguiente"
+    }
+  ]
+}

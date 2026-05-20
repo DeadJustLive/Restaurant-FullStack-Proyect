@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch074-002",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 74,
+  "chunkIndex": 2,
+  "title": "Capítulo 5: - De la Usabilidad a la Utilidad",
+  "start": 900,
+  "end": 1148,
+  "words": 248,
+  "content": "poner en cada pantalla16 . Por ejemplo, para un sitio que ofrezca trámites de un servicio determinado, será importante determinar quiénes son los usuarios habituales del mismo. Si se sabe que son de la tercera edad y con limitados conocimientos sobre el uso del computador, se podrá diseñar una “persona” que sea un hombre que sólo quiere realizar el trámite en el menor número de pasos posibles, con una interfaz con la menor cantidad de elementos tecnológicos y la mayor simplicidad posible, con el fin de hacer la acción que se necesita y terminar consiguiendo un comprobante que le ayude posteriormente a demostrar que ya hizo la gestión. Como parte del uso de esta metodología se puede bautizar a la “persona” como “Don Tito”, indicar que se trata de un jubilado. Luego, se podrá definir que el “escenario” consistirá en que utilizará el trámite desde un infocentro donde es improbable que pueda recibir ayuda lo que determinará que la pantalla debe ser lo más simple posible y que esperará salir de allí con un documento impreso que lleve un timbre, tal como si hubiera ido a la oficina del servicio. Al conocer estos requerimientos, todo el equipo de desarrollo entenderá muy bien lo que tiene que hacer y su respuesta será diferente que si sólo se hablara del “usuario” en términos genéricos. En el sitio web se entrega una muestra gráfica de una Persona y Escenario que puede emplearse como modelo para implementar esta metodología en forma práctica."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch113-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 113,
+  "chunkIndex": 0,
+  "title": "4. Dado los extremos de un intervalo [M, N], halle la sumatoria de los",
+  "start": 0,
+  "end": 25,
+  "words": 25,
+  "content": "# 4. Dado los extremos de un intervalo [M, N], halle la sumatoria de los n´umeros pares y de los impares que pertenezcan a ´el."
+}

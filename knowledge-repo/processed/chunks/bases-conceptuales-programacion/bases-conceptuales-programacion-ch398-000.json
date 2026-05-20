@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch398-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 398,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 67,
+  "words": 67,
+  "content": "# OBSERVACIONES: * en rotaci´on 1, O es Norte -> OO <- Norte,Este Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 274 of 312 -- 275 XO <- Este donde la X representa al pivote y las Os a las dem´as secciones */ { (dA,dB,dC1,dC2) := id(Norte,Este,Norte,Este) (dA,dB,dC1,dC2) := ajustarDires(dA,dB,dC1,dC2,rotPieza) return (dA,dB,dC1,dC2) } //----------------------------------------------------- function diresDePiezaS(rotPieza) /* PROP´OSITO: devolver las direcciones de una S"
+}

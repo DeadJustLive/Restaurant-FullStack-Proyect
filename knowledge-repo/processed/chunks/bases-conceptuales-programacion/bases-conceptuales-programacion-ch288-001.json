@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch288-001",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 288,
+  "chunkIndex": 1,
+  "title": "OBSERVACIONES:",
+  "start": 450,
+  "end": 586,
+  "words": 136,
+  "content": "imaginamos para el juego no involucra recordar valores de variables entre opera- ciones de interfaz, debemos encontrar una manera de recordar este valor que no utilice variables. Dicha manera viene provista por el tablero. Puesto que los n ´umeros a recordar son grandes (del orden de los 10 d´ıgitos) y en las implementaciones actuales de GOBS- TONES la operaci ´on de poner muchas bolitas toma un tiempo directamente proporcional al n ´umero de bolitas a poner, se elige utilizar una representaci ´on por d´ıgitos que pueda ser grabada y le´ıda en el tablero de manera eficiente. Este es el prop ´osito de la zona de se- milla que fuera descrita en la secci ´on 5.1. Entonces, el c ´odigo para esta operaci ´on resulta simplemente de la combinaci ´on adecuada de operaciones anteriores procedure OperacionColocarNuevaPieza() /*"
+}

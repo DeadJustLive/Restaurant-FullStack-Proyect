@@ -9,6 +9,10 @@ import java.util.List;
  * =============================================================================
  * SERVICE INTERFACE: UsuarioService
  * =============================================================================
+ * @use(auth)
+ * @kind(service)
+ * @contract(in: UsuarioRequestDTO -> out: UsuarioResponseDTO)
+ * @limit(lines: 400)
  *
  * PROPÓSITO:
  *   Contrato de negocio del dominio de perfiles de usuario.

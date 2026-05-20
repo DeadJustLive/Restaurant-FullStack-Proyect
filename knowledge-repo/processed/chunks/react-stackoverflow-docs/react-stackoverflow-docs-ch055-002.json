@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch055-002",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 55,
+  "chunkIndex": 2,
+  "title": "Capítulo 12:: Estado en reaccionar",
+  "start": 900,
+  "end": 1128,
+  "words": 228,
+  "content": "única fuente de verdad. Estado, Eventos y Controles Gestionados. Aquí hay un ejemplo de un componente React con un campo de entrada \"gestionado\". Cuando el valor del campo de entrada cambia, se llama a un controlador de eventos que actualiza el estado del componente con el nuevo valor del campo de entrada. La llamada a setState en el controlador de eventos activará una llamada para render actualización del componente en el dom. import React from 'react'; import {render} from 'react-dom'; class ManagedControlDemo extends React.Component { constructor(props){ super(props); this.state = {message: \"\"}; } handleChange(e){ this.setState({message: e.target.value}); } render() { return ( <div> <legend>Type something here</legend> <input onChange={this.handleChange.bind(this)} value={this.state.message} autoFocus /> <h1>{this.state.message}</h1> </div> ); } } render(<ManagedControlDemo/>, document.querySelector('#app')); Es muy importante tener en cuenta el comportamiento en tiempo de ejecución. Cada vez que un usuario cambia el valor en el campo de entrada handleChange será llamado y así • setState llamará setState y así • se llamará render • Pop quiz, después de escribir un carácter en el campo de entrada, qué elementos DOM cambian todos estos - el div de nivel superior, leyenda, entrada, h1 1. solo la entrada y h1 2. nada 3. ¿Qué es un DOM? 4. https://riptutorial.com/es/home 62 -- 72 of 139 -- Puedes experimentar más aquí para encontrar la respuesta. Lea Estado en reaccionar en línea: https://riptutorial.com/es/reactjs/topic/1816/estado-en- reaccionar https://riptutorial.com/es/home 63 -- 73 of 139 --"
+}

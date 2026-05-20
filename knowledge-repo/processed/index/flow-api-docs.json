@@ -1,0 +1,283 @@
+{
+  "id": "flow-api-docs",
+  "title": "Flow API — Documentación de Integración de Pagos",
+  "author": "Flow Chile",
+  "pages": 49,
+  "sourceFile": "web:developers.flow.cl",
+  "processedAt": "2026-05-17T08:44:01.941Z",
+  "method": "web",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Flow Coupon.postman collection.json",
+      "file": "chapters/flow-api-docs/01-flow-couponpostman-collectionjson.md",
+      "words": 608
+    },
+    {
+      "index": 2,
+      "title": "Flow Customer.postman collection.json",
+      "file": "chapters/flow-api-docs/02-flow-customerpostman-collectionjson.md",
+      "words": 1336
+    },
+    {
+      "index": 3,
+      "title": "Flow Invoices.postman collection.json",
+      "file": "chapters/flow-api-docs/03-flow-invoicespostman-collectionjson.md",
+      "words": 542
+    },
+    {
+      "index": 4,
+      "title": "Flow Merchant.postman collection.json",
+      "file": "chapters/flow-api-docs/04-flow-merchantpostman-collectionjson.md",
+      "words": 2486
+    },
+    {
+      "index": 5,
+      "title": "Flow Payment.postman collection.json",
+      "file": "chapters/flow-api-docs/05-flow-paymentpostman-collectionjson.md",
+      "words": 762
+    },
+    {
+      "index": 6,
+      "title": "Flow Plans.postman collection.json",
+      "file": "chapters/flow-api-docs/06-flow-planspostman-collectionjson.md",
+      "words": 629
+    },
+    {
+      "index": 7,
+      "title": "Flow Refund.postman collection.json",
+      "file": "chapters/flow-api-docs/07-flow-refundpostman-collectionjson.md",
+      "words": 404
+    },
+    {
+      "index": 8,
+      "title": "Flow Settlements.postman collection.json",
+      "file": "chapters/flow-api-docs/08-flow-settlementspostman-collectionjson.md",
+      "words": 338
+    },
+    {
+      "index": 9,
+      "title": "Flow Subscription.postman collection.json",
+      "file": "chapters/flow-api-docs/09-flow-subscriptionpostman-collectionjson.md",
+      "words": 740
+    },
+    {
+      "index": 10,
+      "title": "Realizar pruebas en nuestro ambiente Sandbox",
+      "file": "chapters/flow-api-docs/10-realizar-pruebas-en-nuestro-ambiente-sandbox.md",
+      "words": 42
+    },
+    {
+      "index": 11,
+      "title": "Obtiene el estado extendido de un pago en base al número de orden Flow",
+      "file": "chapters/flow-api-docs/11-obtiene-el-estado-extendido-de-un-pago-en-base-al-número-de-orden-flow.md",
+      "words": 20
+    },
+    {
+      "index": 12,
+      "title": "Envía de forma masiva un lote de cobros a  clientes.",
+      "file": "chapters/flow-api-docs/12-envía-de-forma-masiva-un-lote-de-cobros-a-clientes.md",
+      "words": 18
+    },
+    {
+      "index": 13,
+      "title": "Obtiene el estado de un lote de cobros enviados por el servicio batchCollect",
+      "file": "chapters/flow-api-docs/13-obtiene-el-estado-de-un-lote-de-cobros-enviados-por-el-servicio-batchcollect.md",
+      "words": 19
+    },
+    {
+      "index": 14,
+      "title": "Reversa un cargo efectuado en la tarjeta de crédito de un cliente",
+      "file": "chapters/flow-api-docs/14-reversa-un-cargo-efectuado-en-la-tarjeta-de-crédito-de-un-cliente.md",
+      "words": 18
+    },
+    {
+      "index": 15,
+      "title": "Cancela un cambio de plan programado asociado a una suscripción",
+      "file": "chapters/flow-api-docs/15-cancela-un-cambio-de-plan-programado-asociado-a-una-suscripción.md",
+      "words": 16
+    },
+    {
+      "index": 16,
+      "title": "Ingresa un pago por fuera y da por pagado el Importe (Invoice)",
+      "file": "chapters/flow-api-docs/16-ingresa-un-pago-por-fuera-y-da-por-pagado-el-importe-invoice.md",
+      "words": 18
+    },
+    {
+      "index": 17,
+      "title": "Obtiene la Liquidación efectuada con ese identificadorDeprecated",
+      "file": "chapters/flow-api-docs/17-obtiene-la-liquidación-efectuada-con-ese-identificadordeprecated.md",
+      "words": 13
+    },
+    {
+      "index": 18,
+      "title": "Obtiene la liquidación efectuada con ese identificador en el formato nuevo",
+      "file": "chapters/flow-api-docs/18-obtiene-la-liquidación-efectuada-con-ese-identificador-en-el-formato-nuevo.md",
+      "words": 17
+    },
+    {
+      "index": 19,
+      "title": "Api changelog.txt",
+      "file": "chapters/flow-api-docs/19-api-changelogtxt.md",
+      "words": 363
+    },
+    {
+      "index": 20,
+      "title": "Pago ecommerce",
+      "file": "chapters/flow-api-docs/20-pago-ecommerce.md",
+      "words": 884
+    },
+    {
+      "index": 21,
+      "title": "Planes de suscripción",
+      "file": "chapters/flow-api-docs/21-planes-de-suscripción.md",
+      "words": 827
+    },
+    {
+      "index": 22,
+      "title": "Credentials",
+      "file": "chapters/flow-api-docs/22-credentials.md",
+      "words": 304
+    },
+    {
+      "index": 23,
+      "title": "Intro",
+      "file": "chapters/flow-api-docs/23-intro.md",
+      "words": 884
+    },
+    {
+      "index": 24,
+      "title": "Merchant",
+      "file": "chapters/flow-api-docs/24-merchant.md",
+      "words": 304
+    },
+    {
+      "index": 25,
+      "title": "Payment methods",
+      "file": "chapters/flow-api-docs/25-payment-methods.md",
+      "words": 884
+    },
+    {
+      "index": 26,
+      "title": "Descargar e instalar​",
+      "file": "chapters/flow-api-docs/26-descargar-e-instalar.md",
+      "words": 19
+    },
+    {
+      "index": 27,
+      "title": "Realizar pruebas en plataforma sandbox​",
+      "file": "chapters/flow-api-docs/27-realizar-pruebas-en-plataforma-sandbox.md",
+      "words": 18
+    },
+    {
+      "index": 28,
+      "title": "Opciones avanzadas​",
+      "file": "chapters/flow-api-docs/28-opciones-avanzadas.md",
+      "words": 28
+    },
+    {
+      "index": 29,
+      "title": "¿Es posible tener sólo una extensión instalada y recibir pagos mediante Webpay, Servipag y Multicaja?​",
+      "file": "chapters/flow-api-docs/29-es-posible-tener-sólo-una-extensión-instalada-y-recibir-pagos-mediante-webpay-servipag-y-multicaja.md",
+      "words": 16
+    },
+    {
+      "index": 30,
+      "title": "Quick start",
+      "file": "chapters/flow-api-docs/30-quick-start.md",
+      "words": 884
+    },
+    {
+      "index": 31,
+      "title": "Settlement",
+      "file": "chapters/flow-api-docs/31-settlement.md",
+      "words": 304
+    },
+    {
+      "index": 32,
+      "title": "Create coupon",
+      "file": "chapters/flow-api-docs/32-create-coupon.md",
+      "words": 827
+    },
+    {
+      "index": 33,
+      "title": "Create customer",
+      "file": "chapters/flow-api-docs/33-create-customer.md",
+      "words": 827
+    },
+    {
+      "index": 34,
+      "title": "Create plan",
+      "file": "chapters/flow-api-docs/34-create-plan.md",
+      "words": 827
+    },
+    {
+      "index": 35,
+      "title": "Create suscription",
+      "file": "chapters/flow-api-docs/35-create-suscription.md",
+      "words": 827
+    },
+    {
+      "index": 36,
+      "title": "Get invoice",
+      "file": "chapters/flow-api-docs/36-get-invoice.md",
+      "words": 827
+    },
+    {
+      "index": 37,
+      "title": "Integration flow",
+      "file": "chapters/flow-api-docs/37-integration-flow.md",
+      "words": 827
+    },
+    {
+      "index": 38,
+      "title": "Register card",
+      "file": "chapters/flow-api-docs/38-register-card.md",
+      "words": 827
+    },
+    {
+      "index": 39,
+      "title": "Suscription status",
+      "file": "chapters/flow-api-docs/39-suscription-status.md",
+      "words": 827
+    },
+    {
+      "index": 40,
+      "title": "Create order",
+      "file": "chapters/flow-api-docs/40-create-order.md",
+      "words": 884
+    },
+    {
+      "index": 41,
+      "title": "Order confirmation",
+      "file": "chapters/flow-api-docs/41-order-confirmation.md",
+      "words": 884
+    },
+    {
+      "index": 42,
+      "title": "Order finished",
+      "file": "chapters/flow-api-docs/42-order-finished.md",
+      "words": 884
+    },
+    {
+      "index": 43,
+      "title": "Order reverse",
+      "file": "chapters/flow-api-docs/43-order-reverse.md",
+      "words": 884
+    },
+    {
+      "index": 44,
+      "title": "Status",
+      "file": "chapters/flow-api-docs/44-status.md",
+      "words": 884
+    },
+    {
+      "index": 45,
+      "title": "Sección",
+      "file": "chapters/flow-api-docs/45-sección.md",
+      "words": 82
+    }
+  ],
+  "learningIntegrated": false,
+  "sourceUrl": "https://developers.flow.cl"
+}

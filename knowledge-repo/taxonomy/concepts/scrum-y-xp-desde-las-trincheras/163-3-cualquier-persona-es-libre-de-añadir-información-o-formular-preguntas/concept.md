@@ -1,0 +1,29 @@
+# 3) Cualquier persona es libre de añadir información o formular preguntas.
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 163)
+
+## Contenido
+# 3) Cualquier persona es libre de añadir información o formular preguntas.
+
+Este es un foro de información rápida, no de discusión o reflexión. Mantenerlo en
+15 minutos normalmente funciona. A veces nos pasamos, pero rara vez llegamos
+a más de 30 minutos en total. Si aparecen discusiones interesantes, hago una
+pausa e invito a las personas interesadas en dicha discusión a que se queden
+después de la reunión y continúen con ella.
+¿Por qué hacemos una reunión de pulso con todo el mundo? Porque nos dimos
+cuenta de que el Scrum de Scrums a nivel empresa trataba sobre todo de
+informar. Rara vez teníamos discusiones en él. Adicionalmente, muchas otras
+personas fuera de esta reunión estaban realmente necesitadas de este tipo de
+información. Básicamente, los equipos quieren saber qué están haciendo los
+demás equipos. Así que decidimos que si íbamos a reunirnos y dedicar un
+tiempo a informarnos unos a otros sobre qué estaba haciendo cada equipo, por
+qué no dejar que todo el mundo asistiera.
+Intercalando los Scrums diarios
+Si tienes muchos equipos Scrum en un solo producto y todos ellos hacen el
+Scrum diario al mismo tiempo, tienes un problema. El Dueño de Producto (y los
+fisgones como yo) sólo pueden atender a una de las reuniones de Scrum diarias.
+Así que le pedimos a los equipos que intenten no tener las reuniones al mismo
+tiempo.
+
+-- 108 of 122 --

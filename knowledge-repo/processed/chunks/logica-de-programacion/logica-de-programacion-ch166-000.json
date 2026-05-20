@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch166-000",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 166,
+  "chunkIndex": 0,
+  "title": "2. Se declara una variable suscrita llamada",
+  "start": 0,
+  "end": 45,
+  "words": 45,
+  "content": "# 2. Se declara una variable suscrita llamada correoElectronicoEmpleado con un tama˜no de 30 posiciones para datos de tipo Cadena. (Ver Figura 6.7). Cadena correoElectronicoEmpleado [ 30 ] correoElectronicoEmpleado -> . . . 1 2 3 . . . 29 30 Figura 6.7: Vector correoElectronicoEmpleado"
+}

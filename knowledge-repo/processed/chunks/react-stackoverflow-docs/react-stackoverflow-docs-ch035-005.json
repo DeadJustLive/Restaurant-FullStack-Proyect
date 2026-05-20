@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch035-005",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 35,
+  "chunkIndex": 5,
+  "title": "Capítulo 1:: Empezando con React",
+  "start": 2250,
+  "end": 2349,
+  "words": 99,
+  "content": "obtener más información. Como nota final, los accesorios de reacción son inmutables una vez que se han pasado, lo que significa que no pueden modificarse desde un componente. Si el padre de un componente cambia el valor de un prop, React se encarga de reemplazar los antiguos props por el nuevo, el componente se redirigirá utilizando los nuevos valores. https://riptutorial.com/es/home 11 -- 21 of 139 -- Vea Thinking In React y Reutilizable Components para profundizar en la relación de los accesorios con los componentes. Lea Empezando con React en línea: https://riptutorial.com/es/reactjs/topic/797/empezando-con- react https://riptutorial.com/es/home 12 -- 22 of 139 --"
+}

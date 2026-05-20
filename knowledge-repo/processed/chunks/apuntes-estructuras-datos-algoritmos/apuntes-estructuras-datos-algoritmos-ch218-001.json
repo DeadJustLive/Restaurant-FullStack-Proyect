@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch218-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 218,
+  "chunkIndex": 1,
+  "title": "2. Iteradores",
+  "start": 450,
+  "end": 521,
+  "words": 71,
+  "content": "de entrada y salida, hace un doble papel: el de uno de los parámetros de la aridad y el de resultado. • La restricción a sólo un resultado por función no es importante. En la práctica, varias operaciones con la misma aridad y distinto resultado pueden combinarse en un solo procedimiento con varios parámetros de salida (correspondientes a los resultados). Por ejemplo, las operaciones infoEnt e infoFrec se implementaron en el"
+}

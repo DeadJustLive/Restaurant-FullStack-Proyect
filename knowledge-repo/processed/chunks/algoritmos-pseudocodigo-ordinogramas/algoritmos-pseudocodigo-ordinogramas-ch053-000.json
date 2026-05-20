@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch053-000",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 53,
+  "chunkIndex": 0,
+  "title": "1. Si el valor de la <variable> es mayor que el <valor_final>, entonces no se",
+  "start": 0,
+  "end": 30,
+  "words": 30,
+  "content": "# 1. Si el valor de la <variable> es mayor que el <valor_final>, entonces no se ejecuta el bloque de instrucciones, y el bucle para finaliza sin realizar ninguna iteración."
+}

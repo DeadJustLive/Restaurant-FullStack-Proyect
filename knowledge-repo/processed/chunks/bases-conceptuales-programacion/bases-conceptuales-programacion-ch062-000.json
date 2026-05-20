@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch062-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 62,
+  "chunkIndex": 0,
+  "title": "OBSERVACI´ON:",
+  "start": 0,
+  "end": 263,
+  "words": 263,
+  "content": "# PRECONDICI´ON: Debe haber al menos dos celdas al Norte de la actual. (O sea, el cabezal no puede encontrarse ni en la ´ultima ni en la ante´ultima fila) -} { -- No se dibuja en la celda incial Mover(Norte); Poner(Negro) -- Dibuja en la celda -- al Norte de la inicial Mover(Norte); Poner(Negro) -- Dibuja en la celda dos -- lugares al Norte de la -- inicial -- Al terminar el cabezal se encuentra dos lugares -- al Norte de donde comenz´o } Observar que el c ´odigo efectivo (aquel que no ser ´a ignorado durante la ejecuci ´on) es id ´entico al ofrecido antes. Sin embargo, los comentarios ayudan a entender el prop ´osito de cada parte. Eso s´ı: es tan malo abusar de los comentarios (en una l´ınea similar al ejemplo anterior, que sobreabunda en ellos) como evitarlos completamente. Una buena pr ´actica de la programaci ´on adopta un estilo donde los comentarios son parte importante del c ´odigo, pero no lo recargan innecesa- riamente. Es importante destacar que, puesto que los comentarios son ignorados en la ejecuci ´on, debe verificarse al leer un programa que los comentarios sean v ´alidos respecto de los comandos. Es una pr ´actica mala, pero demasiado com ´un, el de- jar comentarios desactualizados al modificar c ´odigo. Por ejemplo, supongamos que utilizamos este ´ultimo procedimiento comentado como base para un proce- dimiento similar utilizado en la soluci ´on del ejercicio 2.2.10. Para ello, copiamos el programa en otro archivo, y realizamos algunas modificaciones, para obtener: {- Autor: Fidel Fecha: 08-08-08 -} procedure DibujarLineaNegra3HaciaElNorte() {-"
+}

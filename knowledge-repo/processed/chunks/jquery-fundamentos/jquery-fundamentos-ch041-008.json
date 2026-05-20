@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch041-008",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 41,
+  "chunkIndex": 8,
+  "title": "5. Finalmente remover el botón submit del formulario.",
+  "start": 3600,
+  "end": 3744,
+  "words": 144,
+  "content": "lo que solía ser, debido a la implementación en algunos navegadores dedocument.querySelectorAll(), pasando la carga de jQuery hacia el navega- dor. Sin embargo, existen algunos consejos que debe tener en cuenta. Selectores basados en ID Siempre es mejor comenzar las selecciones con un ID. // rápido $('#container div.robotarm'); // super-rápido $('#container').find('div.robotarm'); El ejemplo que utiliza $.fn.find es más rápido debido a que la primera selección utiliza el mo- tor de selección interno Sizzle — mientras que la selección realizada únicamente por ID utiliza document.getElementById(), el cual es extremadamente rápido debido a que es una función na- tiva del navegador. Especificidad Trate de ser especifico para el lado derecho de la selección y menos específico para el izquierdo. // no optimizado $('div.data .gonzalez'); // optimizado $('.data td.gonzalez'); Use en lo posible etiqueta.clase del lado derecho de la selección, y solo etiqueta o .clase en la"
+}

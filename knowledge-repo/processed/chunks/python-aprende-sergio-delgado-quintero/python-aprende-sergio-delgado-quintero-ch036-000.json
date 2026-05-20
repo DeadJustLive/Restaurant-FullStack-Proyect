@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch036-000",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 36,
+  "chunkIndex": 0,
+  "title": "2. Escriba un programa que pida nombre y apellidos de una persona (usando un solo",
+  "start": 0,
+  "end": 62,
+  "words": 62,
+  "content": "# 2. Escriba un programa que pida nombre y apellidos de una persona (usando un solo input) y repita la pregunta mientras el nombre no esté en formato título (solución). ¿Su nombre? ana torres blanco Error. Debe escribirlo correctamente ¿Su nombre? Ana torres blanco Error. Debe escribirlo correctamente ¿Su nombre? Ana Torres blanco Error. Debe escribirlo correctamente ¿Su nombre? Ana Torres Blanco"
+}

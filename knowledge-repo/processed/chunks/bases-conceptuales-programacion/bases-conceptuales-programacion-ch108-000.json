@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch108-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 108,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 25,
+  "words": 25,
+  "content": "# {- PROP´OSITO: * avanza 1 celda al Este y al llegar, decide si arma una trinchera (si no hay enemigos) o ataca al enemigo."
+}

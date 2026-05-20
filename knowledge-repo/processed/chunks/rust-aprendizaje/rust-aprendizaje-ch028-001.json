@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch028-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 28,
+  "chunkIndex": 1,
+  "title": "Capítulo 9:: Carga",
+  "start": 450,
+  "end": 711,
+  "words": 261,
+  "content": "--bin $ cd hello $ cargo run Compiling hello v0.1.0 (file:///home/rust/hello) Running `target/debug/hello` Hello, world! Después de hacer esto, puede editar el programa abriendo src/main.rs en un editor de texto. Publicando un cajón Para publicar una caja en crates.io , debe iniciar sesión con Cargo (consulte ' Conexión de Cargo a una cuenta de Crates.io '). Puedes empaquetar y publicar tu caja con los siguientes comandos: cargo package cargo publish Cualquier error en su archivo Cargo.toml se resaltará durante este proceso. Debe asegurarse de actualizar su versión y de que su archivo .gitignore o Cargo.toml excluye cualquier archivo no deseado. Conexión de carga a una cuenta Crates.io https://riptutorial.com/es/home 29 -- 43 of 188 -- Las cuentas en crates.io se crean al iniciar sesión con GitHub; No puedes registrarte con ningún otro método. Para conectar su cuenta de GitHub a crates.io, haga clic en el botón ' Iniciar sesión con GitHub ' en la barra de menú superior y autorice a crates.io para acceder a su cuenta. Esto lo conectará a crates.io, asumiendo que todo salió bien. Luego debe encontrar su clave API , que puede encontrar haciendo clic en su avatar, yendo a ' Configuración de la cuenta ' y copiando la línea que se ve así: cargo login abcdefghijklmnopqrstuvwxyz1234567890rust Debe pegarse en su terminal / línea de comando y debe autenticarlo con la instalación de cargo local. Tenga cuidado con su clave API: debe mantenerse en secreto, como una contraseña, de lo contrario, sus jaulas podrían ser secuestradas. Lea Carga en línea: https://riptutorial.com/es/rust/topic/1084/carga https://riptutorial.com/es/home 30 -- 44 of 188 --"
+}

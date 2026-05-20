@@ -1,0 +1,2585 @@
+{
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "totalChunks": 368,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.043Z",
+  "chunks": [
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "Tema I:: Programación con Tipos Abstractos de Datos ..................................................................................... 1",
+      "words": 11
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "Lección 1:: Tipos Abstractos de Datos (TAD) ......................................................................................... 3",
+      "words": 10
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "Lección 2:: Especificación de TAD ........................................................................................................ 17",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "Lección 3:: Implementación de TAD...................................................................................................... 25",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "Lección 4:: TAD genéricos ..................................................................................................................... 35",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "Lección 5:: TAD fundamentales ............................................................................................................. 47",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "Tema II:: Tipos de datos lineales...................................................................................................................... 53",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "Lección 6:: El TAD pila genérica. Definición e implementación estática .............................................. 55",
+      "words": 13
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "Lección 7:: Datos puntero y estructuras dinámicas de datos .................................................................. 61",
+      "words": 12
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "Lección 8:: Implementación dinámica de pilas....................................................................................... 65",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch100-000",
+      "chapterIndex": 100,
+      "chunkIndex": 0,
+      "title": "Lección 20",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch101-000",
+      "chapterIndex": 101,
+      "chunkIndex": 0,
+      "title": "1. Concepto y ejemplo introductorio",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch102-000",
+      "chapterIndex": 102,
+      "chunkIndex": 0,
+      "title": "2. Especificación de tablas bidimensionales",
+      "words": 12
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch103-000",
+      "chapterIndex": 103,
+      "chunkIndex": 0,
+      "title": "3. Implementación con estructuras de listas múltiples",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch103-001",
+      "chapterIndex": 103,
+      "chunkIndex": 1,
+      "title": "3. Implementación con estructuras de listas múltiples",
+      "words": 241
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch104-000",
+      "chapterIndex": 104,
+      "chunkIndex": 0,
+      "title": "1. Concepto y ejemplo introductorio",
+      "words": 232
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch105-000",
+      "chapterIndex": 105,
+      "chunkIndex": 0,
+      "title": "2. Especificación de tablas bidimensionales",
+      "words": 6
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch106-000",
+      "chapterIndex": 106,
+      "chunkIndex": 0,
+      "title": "3. Implementación con estructuras de listas múltiples",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch107-000",
+      "chapterIndex": 107,
+      "chunkIndex": 0,
+      "title": "ANEXOS",
+      "words": 4
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch108-000",
+      "chapterIndex": 108,
+      "chunkIndex": 0,
+      "title": "1. Conceptos básicos",
+      "words": 4
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch109-000",
+      "chapterIndex": 109,
+      "chunkIndex": 0,
+      "title": "Lección 16:: Árboles n–arios de búsqueda ........................................................................................... 149",
+      "words": 3
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "Lección 11",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch110-000",
+      "chapterIndex": 110,
+      "chunkIndex": 0,
+      "title": "2. Especificación",
+      "words": 418
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch111-000",
+      "chapterIndex": 111,
+      "chunkIndex": 0,
+      "title": "3. Representación con matriz de adyacencia",
+      "words": 481
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch112-000",
+      "chapterIndex": 112,
+      "chunkIndex": 0,
+      "title": "4. Representación con listas de adyacencia",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch112-001",
+      "chapterIndex": 112,
+      "chunkIndex": 1,
+      "title": "4. Representación con listas de adyacencia",
+      "words": 347
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch113-000",
+      "chapterIndex": 113,
+      "chunkIndex": 0,
+      "title": "5. Representación con listas múltiples de adyacencia",
+      "words": 60
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch114-000",
+      "chapterIndex": 114,
+      "chunkIndex": 0,
+      "title": "1. Conceptos básicos",
+      "words": 27
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch115-000",
+      "chapterIndex": 115,
+      "chunkIndex": 0,
+      "title": "2. Especificación",
+      "words": 27
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch116-000",
+      "chapterIndex": 116,
+      "chunkIndex": 0,
+      "title": "3. Representación con matriz de adyacencia",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch116-001",
+      "chapterIndex": 116,
+      "chunkIndex": 1,
+      "title": "3. Representación con matriz de adyacencia",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch116-002",
+      "chapterIndex": 116,
+      "chunkIndex": 2,
+      "title": "3. Representación con matriz de adyacencia",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch116-003",
+      "chapterIndex": 116,
+      "chunkIndex": 3,
+      "title": "3. Representación con matriz de adyacencia",
+      "words": 439
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch117-000",
+      "chapterIndex": 117,
+      "chunkIndex": 0,
+      "title": "4. Representación con listas de adyacencia",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch118-000",
+      "chapterIndex": 118,
+      "chunkIndex": 0,
+      "title": "5. Representación con listas múltiples de adyacencia",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch119-000",
+      "chapterIndex": 119,
+      "chunkIndex": 0,
+      "title": "1. Introducción al esquema de vuelta atrás",
+      "words": 4
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "1. Conceptos, definiciones y terminología básica",
+      "words": 13
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch120-000",
+      "chapterIndex": 120,
+      "chunkIndex": 0,
+      "title": "Lección 17:: Árboles lexicográficos (o tries)........................................................................................ 159",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch121-000",
+      "chapterIndex": 121,
+      "chunkIndex": 0,
+      "title": "2. Ejemplo: el problema de las ocho reinas",
+      "words": 453
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch122-000",
+      "chapterIndex": 122,
+      "chunkIndex": 0,
+      "title": "3. Ejemplo: recorrido de un laberinto",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch122-001",
+      "chapterIndex": 122,
+      "chunkIndex": 1,
+      "title": "3. Ejemplo: recorrido de un laberinto",
+      "words": 333
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch123-000",
+      "chapterIndex": 123,
+      "chunkIndex": 0,
+      "title": "4. Árboles de juego: estrategia minimax",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch123-001",
+      "chapterIndex": 123,
+      "chunkIndex": 1,
+      "title": "4. Árboles de juego: estrategia minimax",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch123-002",
+      "chapterIndex": 123,
+      "chunkIndex": 2,
+      "title": "4. Árboles de juego: estrategia minimax",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch123-003",
+      "chapterIndex": 123,
+      "chunkIndex": 3,
+      "title": "4. Árboles de juego: estrategia minimax",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch123-004",
+      "chapterIndex": 123,
+      "chunkIndex": 4,
+      "title": "4. Árboles de juego: estrategia minimax",
+      "words": 122
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch124-000",
+      "chapterIndex": 124,
+      "chunkIndex": 0,
+      "title": "1. Introducción al esquema de vuelta atrás",
+      "words": 6
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch125-000",
+      "chapterIndex": 125,
+      "chunkIndex": 0,
+      "title": "2. Ejemplo: el problema de las ocho reinas",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch126-000",
+      "chapterIndex": 126,
+      "chunkIndex": 0,
+      "title": "3. Ejemplo: recorrido de un laberinto",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch127-000",
+      "chapterIndex": 127,
+      "chunkIndex": 0,
+      "title": "4. Árboles de juego: estrategia minimax",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch128-000",
+      "chapterIndex": 128,
+      "chunkIndex": 0,
+      "title": "EM PATE \tEM PATE",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch129-000",
+      "chapterIndex": 129,
+      "chunkIndex": 0,
+      "title": "1. Estrategias voraces",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch129-001",
+      "chapterIndex": 129,
+      "chunkIndex": 1,
+      "title": "1. Estrategias voraces",
+      "words": 345
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "2. Los árboles como estructura de datos para representar TAD contenedores",
+      "words": 9
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch130-000",
+      "chapterIndex": 130,
+      "chunkIndex": 0,
+      "title": "2. Aplicación al problema del recorrido del caballo de ajedrez",
+      "words": 140
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch131-000",
+      "chapterIndex": 131,
+      "chunkIndex": 0,
+      "title": "Lección 18:: Colas con prioridad, montículos y el heapsort ................................................................ 167",
+      "words": 352
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch132-000",
+      "chapterIndex": 132,
+      "chunkIndex": 0,
+      "title": "3. Aplicación al problema del viajante",
+      "words": 16
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch133-000",
+      "chapterIndex": 133,
+      "chunkIndex": 0,
+      "title": "1. Estrategias voraces",
+      "words": 41
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch134-000",
+      "chapterIndex": 134,
+      "chunkIndex": 0,
+      "title": "2. Aplicación al problema del recorrido del caballo de ajedrez",
+      "words": 12
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch135-000",
+      "chapterIndex": 135,
+      "chunkIndex": 0,
+      "title": "3. Aplicación al problema del viajante",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch135-001",
+      "chapterIndex": 135,
+      "chunkIndex": 1,
+      "title": "3. Aplicación al problema del viajante",
+      "words": 273
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch136-000",
+      "chapterIndex": 136,
+      "chunkIndex": 0,
+      "title": "1. Especificación: sintaxis",
+      "words": 20
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch137-000",
+      "chapterIndex": 137,
+      "chunkIndex": 0,
+      "title": "2. Semántica de una especificación algebraica",
+      "words": 49
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch138-000",
+      "chapterIndex": 138,
+      "chunkIndex": 0,
+      "title": "3. Construcción de especificaciones",
+      "words": 411
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch139-000",
+      "chapterIndex": 139,
+      "chunkIndex": 0,
+      "title": "4. Verificación con especificaciones algebraicas",
+      "words": 6
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "1. Conceptos, definiciones y terminología básica",
+      "words": 9
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch140-000",
+      "chapterIndex": 140,
+      "chunkIndex": 0,
+      "title": "1. Especificación: sintaxis",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch141-000",
+      "chapterIndex": 141,
+      "chunkIndex": 0,
+      "title": "Tema I: con el procedimiento info.",
+      "words": 3
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch142-000",
+      "chapterIndex": 142,
+      "chunkIndex": 0,
+      "title": "Tema IV:: Tipos de datos funcionales ............................................................................................................ 175",
+      "words": 4
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch143-000",
+      "chapterIndex": 143,
+      "chunkIndex": 0,
+      "title": "2. Semántica de una especificación algebraica",
+      "words": 6
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch144-000",
+      "chapterIndex": 144,
+      "chunkIndex": 0,
+      "title": "¬ (T) = F; \t¬ (F) = T; \t¬ (KK) = KK",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch144-001",
+      "chapterIndex": 144,
+      "chunkIndex": 1,
+      "title": "¬ (T) = F; \t¬ (F) = T; \t¬ (KK) = KK",
+      "words": 118
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch145-000",
+      "chapterIndex": 145,
+      "chunkIndex": 0,
+      "title": "T∧T = T; \tF∧F = F∧T = T∧F = F∧KK = KK∧F = F",
+      "words": 180
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch146-000",
+      "chapterIndex": 146,
+      "chunkIndex": 0,
+      "title": "T∧KK = KK∧T = KK; \tF∨F = F",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch146-001",
+      "chapterIndex": 146,
+      "chunkIndex": 1,
+      "title": "T∧KK = KK∧T = KK; \tF∨F = F",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch146-002",
+      "chapterIndex": 146,
+      "chunkIndex": 2,
+      "title": "T∧KK = KK∧T = KK; \tF∨F = F",
+      "words": 488
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch147-000",
+      "chapterIndex": 147,
+      "chunkIndex": 0,
+      "title": "T∨T = T∨F = F∨T = T∨KK = KK∨T = T; \tF∨KK = KK∨F = KK",
+      "words": 395
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch148-000",
+      "chapterIndex": 148,
+      "chunkIndex": 0,
+      "title": "1. \tEl álgebra de términos cerrados sobre SIG, TSIG, es inicial en la clase ALG(SIG). El único homomorfismo de TSIG a",
+      "words": 91
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch149-000",
+      "chapterIndex": 149,
+      "chunkIndex": 0,
+      "title": "2. \tEl álgebra definida por ESPEC, TESPEC, es inicial en la clase ALG(ESPEC). El único homomorfismo f = {f g}g∈G,",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "2. Los árboles como estructura de datos para representar TAD contenedores",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch150-000",
+      "chapterIndex": 150,
+      "chunkIndex": 0,
+      "title": "3. Construcción de especificaciones",
+      "words": 3
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch151-000",
+      "chapterIndex": 151,
+      "chunkIndex": 0,
+      "title": "1. \tSi Gen(g) es un conjunto libre, sólo hay que escribir ecuaciones con las operaciones modificadoras y observadoras",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch152-000",
+      "chapterIndex": 152,
+      "chunkIndex": 0,
+      "title": "2. \tSi Gen(g) es un conjunto no libre, un primer conjunto de ecuaciones se utiliza para hacer congruentes entre sí",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch153-000",
+      "chapterIndex": 153,
+      "chunkIndex": 0,
+      "title": "Lección 19:: El TAD tabla y las tablas dispersas (hash) ...................................................................... 177",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch153-001",
+      "chapterIndex": 153,
+      "chunkIndex": 1,
+      "title": "Lección 19:: El TAD tabla y las tablas dispersas (hash) ...................................................................... 177",
+      "words": 75
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch154-000",
+      "chapterIndex": 154,
+      "chunkIndex": 0,
+      "title": "3. \tPara cada operación modificadora se escriben tantas ecuaciones como sean necesarias para garantizar que todo",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch154-001",
+      "chapterIndex": 154,
+      "chunkIndex": 1,
+      "title": "3. \tPara cada operación modificadora se escriben tantas ecuaciones como sean necesarias para garantizar que todo",
+      "words": 168
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch155-000",
+      "chapterIndex": 155,
+      "chunkIndex": 0,
+      "title": "4. \tPara cada operación observadora se escriben tantas operaciones como sean necesarias para garantizar que todo",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch155-001",
+      "chapterIndex": 155,
+      "chunkIndex": 1,
+      "title": "4. \tPara cada operación observadora se escriben tantas operaciones como sean necesarias para garantizar que todo",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch155-002",
+      "chapterIndex": 155,
+      "chunkIndex": 2,
+      "title": "4. \tPara cada operación observadora se escriben tantas operaciones como sean necesarias para garantizar que todo",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch155-003",
+      "chapterIndex": 155,
+      "chunkIndex": 3,
+      "title": "4. \tPara cada operación observadora se escriben tantas operaciones como sean necesarias para garantizar que todo",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch155-004",
+      "chapterIndex": 155,
+      "chunkIndex": 4,
+      "title": "4. \tPara cada operación observadora se escriben tantas operaciones como sean necesarias para garantizar que todo",
+      "words": 398
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch156-000",
+      "chapterIndex": 156,
+      "chunkIndex": 0,
+      "title": "4. Verificación con especificaciones algebraicas",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch157-000",
+      "chapterIndex": 157,
+      "chunkIndex": 0,
+      "title": "1. Transformación de algoritmos recursivos finales",
+      "words": 6
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch158-000",
+      "chapterIndex": 158,
+      "chunkIndex": 0,
+      "title": "2. Transformación de algoritmos recursivos lineales (no finales)",
+      "words": 3
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch159-000",
+      "chapterIndex": 159,
+      "chunkIndex": 0,
+      "title": "3. Transformación de algoritmos recursivos múltiples: un caso particular",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "Lección 12",
+      "words": 9
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch160-000",
+      "chapterIndex": 160,
+      "chunkIndex": 0,
+      "title": "4. Transformación de algoritmos recursivos múltiples: caso general",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch160-001",
+      "chapterIndex": 160,
+      "chunkIndex": 1,
+      "title": "4. Transformación de algoritmos recursivos múltiples: caso general",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch160-002",
+      "chapterIndex": 160,
+      "chunkIndex": 2,
+      "title": "4. Transformación de algoritmos recursivos múltiples: caso general",
+      "words": 105
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch161-000",
+      "chapterIndex": 161,
+      "chunkIndex": 0,
+      "title": "1. Transformación de algoritmos recursivos finales",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch161-001",
+      "chapterIndex": 161,
+      "chunkIndex": 1,
+      "title": "1. Transformación de algoritmos recursivos finales",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch161-002",
+      "chapterIndex": 161,
+      "chunkIndex": 2,
+      "title": "1. Transformación de algoritmos recursivos finales",
+      "words": 76
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch162-000",
+      "chapterIndex": 162,
+      "chunkIndex": 0,
+      "title": "2. Transformación de algoritmos recursivos lineales (no finales)",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch162-001",
+      "chapterIndex": 162,
+      "chunkIndex": 1,
+      "title": "2. Transformación de algoritmos recursivos lineales (no finales)",
+      "words": 294
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch163-000",
+      "chapterIndex": 163,
+      "chunkIndex": 0,
+      "title": "3. Transformación de algoritmos recursivos múltiples: un caso particular",
+      "words": 11
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch164-000",
+      "chapterIndex": 164,
+      "chunkIndex": 0,
+      "title": "Lección 20:: Tablas multidimensionales............................................................................................... 189",
+      "words": 10
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch165-000",
+      "chapterIndex": 165,
+      "chunkIndex": 0,
+      "title": "4. Transformación de algoritmos recursivos múltiples: caso general",
+      "words": 9
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch166-000",
+      "chapterIndex": 166,
+      "chunkIndex": 0,
+      "title": "1. \tSintaxis para una especificación de TAD en lenguaje natural",
+      "words": 13
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch167-000",
+      "chapterIndex": 167,
+      "chunkIndex": 0,
+      "title": "2. \tSintaxis del pseudocódigo",
+      "words": 413
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch168-000",
+      "chapterIndex": 168,
+      "chunkIndex": 0,
+      "title": "1. Sintaxis para una especificación de TAD en lenguaje natural",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch168-001",
+      "chapterIndex": 168,
+      "chunkIndex": 1,
+      "title": "1. Sintaxis para una especificación de TAD en lenguaje natural",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch168-002",
+      "chapterIndex": 168,
+      "chunkIndex": 2,
+      "title": "1. Sintaxis para una especificación de TAD en lenguaje natural",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch168-003",
+      "chapterIndex": 168,
+      "chunkIndex": 3,
+      "title": "1. Sintaxis para una especificación de TAD en lenguaje natural",
+      "words": 61
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch169-000",
+      "chapterIndex": 169,
+      "chunkIndex": 0,
+      "title": "2. Sintaxis del pseudocódigo",
+      "words": 469
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "1. Concepto y especificación",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch170-000",
+      "chapterIndex": 170,
+      "chunkIndex": 0,
+      "title": "1. \tTipos de datos predefinidos",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch170-001",
+      "chapterIndex": 170,
+      "chunkIndex": 1,
+      "title": "1. \tTipos de datos predefinidos",
+      "words": 348
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch171-000",
+      "chapterIndex": 171,
+      "chunkIndex": 0,
+      "title": "2. \tDefinición de constantes",
+      "words": 19
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch172-000",
+      "chapterIndex": 172,
+      "chunkIndex": 0,
+      "title": "3. \tDefinición de nuevos tipos de datos",
+      "words": 12
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch173-000",
+      "chapterIndex": 173,
+      "chunkIndex": 0,
+      "title": "4. \tDeclaración de variables",
+      "words": 12
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch174-000",
+      "chapterIndex": 174,
+      "chunkIndex": 0,
+      "title": "5. \tInstrucción de asignación",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch175-000",
+      "chapterIndex": 175,
+      "chunkIndex": 0,
+      "title": "1. Concepto de abstracción",
+      "words": 6
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch176-000",
+      "chapterIndex": 176,
+      "chunkIndex": 0,
+      "title": "6. \tOperaciones con datos cadena",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch176-001",
+      "chapterIndex": 176,
+      "chunkIndex": 1,
+      "title": "6. \tOperaciones con datos cadena",
+      "words": 132
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch177-000",
+      "chapterIndex": 177,
+      "chunkIndex": 0,
+      "title": "7. \tInstrucciones de entrada/salida",
+      "words": 419
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch178-000",
+      "chapterIndex": 178,
+      "chunkIndex": 0,
+      "title": "8. \tInstrucciones condicionales",
+      "words": 281
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch179-000",
+      "chapterIndex": 179,
+      "chunkIndex": 0,
+      "title": "9. \tInstrucciones iterativas",
+      "words": 106
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "2. Implementación estática",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch180-000",
+      "chapterIndex": 180,
+      "chunkIndex": 0,
+      "title": "10. Procedimientos y funciones",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch180-001",
+      "chapterIndex": 180,
+      "chunkIndex": 1,
+      "title": "10. Procedimientos y funciones",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch180-002",
+      "chapterIndex": 180,
+      "chunkIndex": 2,
+      "title": "10. Procedimientos y funciones",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch180-003",
+      "chapterIndex": 180,
+      "chunkIndex": 3,
+      "title": "10. Procedimientos y funciones",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch180-004",
+      "chapterIndex": 180,
+      "chunkIndex": 4,
+      "title": "10. Procedimientos y funciones",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch180-005",
+      "chapterIndex": 180,
+      "chunkIndex": 5,
+      "title": "10. Procedimientos y funciones",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch180-006",
+      "chapterIndex": 180,
+      "chunkIndex": 6,
+      "title": "10. Procedimientos y funciones",
+      "words": 447
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch181-000",
+      "chapterIndex": 181,
+      "chunkIndex": 0,
+      "title": "11. Módulos",
+      "words": 6
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch182-000",
+      "chapterIndex": 182,
+      "chunkIndex": 0,
+      "title": "12. Módulos genéricos",
+      "words": 6
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch183-000",
+      "chapterIndex": 183,
+      "chunkIndex": 0,
+      "title": "13. Uso de módulos genéricos",
+      "words": 6
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch184-000",
+      "chapterIndex": 184,
+      "chunkIndex": 0,
+      "title": "14. Datos puntero",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch185-000",
+      "chapterIndex": 185,
+      "chunkIndex": 0,
+      "title": "15. Instrucciones de creación y uso de ficheros",
+      "words": 443
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch186-000",
+      "chapterIndex": 186,
+      "chunkIndex": 0,
+      "title": "2. Definición de TAD",
+      "words": 413
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch187-000",
+      "chapterIndex": 187,
+      "chunkIndex": 0,
+      "title": "3. Programación con TAD",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch187-001",
+      "chapterIndex": 187,
+      "chunkIndex": 1,
+      "title": "3. Programación con TAD",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch187-002",
+      "chapterIndex": 187,
+      "chunkIndex": 2,
+      "title": "3. Programación con TAD",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch187-003",
+      "chapterIndex": 187,
+      "chunkIndex": 3,
+      "title": "3. Programación con TAD",
+      "words": 464
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch188-000",
+      "chapterIndex": 188,
+      "chunkIndex": 0,
+      "title": "4. Ventajas de la programación con TAD",
+      "words": 27
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch189-000",
+      "chapterIndex": 189,
+      "chunkIndex": 0,
+      "title": "1. Concepto de abstracción",
+      "words": 4
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "3. Implementación dinámica",
+      "words": 9
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch190-000",
+      "chapterIndex": 190,
+      "chunkIndex": 0,
+      "title": "2. Definición de TAD",
+      "words": 3
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch191-000",
+      "chapterIndex": 191,
+      "chunkIndex": 0,
+      "title": "3. Programación con TAD",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch192-000",
+      "chapterIndex": 192,
+      "chunkIndex": 0,
+      "title": "módulo c: onjuntosDeCaracteres",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch193-000",
+      "chapterIndex": 193,
+      "chunkIndex": 0,
+      "title": "módulo d: e declaración, contiene la definición del tipo de dato (nombre del tipo y encabezamientos de los algoritmos),",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch194-000",
+      "chapterIndex": 194,
+      "chunkIndex": 0,
+      "title": "4. Ventajas de la programación con TAD",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch194-001",
+      "chapterIndex": 194,
+      "chunkIndex": 1,
+      "title": "4. Ventajas de la programación con TAD",
+      "words": 235
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch195-000",
+      "chapterIndex": 195,
+      "chunkIndex": 0,
+      "title": "1. Características generales de una especificación",
+      "words": 324
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch196-000",
+      "chapterIndex": 196,
+      "chunkIndex": 0,
+      "title": "2. Especificación algebraica",
+      "words": 292
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch197-000",
+      "chapterIndex": 197,
+      "chunkIndex": 0,
+      "title": "3. Especificación no formal",
+      "words": 367
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch198-000",
+      "chapterIndex": 198,
+      "chunkIndex": 0,
+      "title": "1. Características generales de una especificación",
+      "words": 393
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch199-000",
+      "chapterIndex": 199,
+      "chunkIndex": 0,
+      "title": "2. Especificación algebraica",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "4. Recorridos",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch200-000",
+      "chapterIndex": 200,
+      "chunkIndex": 0,
+      "title": "2. Especificación no formal",
+      "words": 9
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch201-000",
+      "chapterIndex": 201,
+      "chunkIndex": 0,
+      "title": "1. Características de la implementación de un TAD",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch202-000",
+      "chapterIndex": 202,
+      "chunkIndex": 0,
+      "title": "2. Implementación modular",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch203-000",
+      "chapterIndex": 203,
+      "chunkIndex": 0,
+      "title": "1. Características de la implementación de un TAD",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch203-001",
+      "chapterIndex": 203,
+      "chunkIndex": 1,
+      "title": "1. Características de la implementación de un TAD",
+      "words": 121
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch204-000",
+      "chapterIndex": 204,
+      "chunkIndex": 0,
+      "title": "2. Implementación modular",
+      "words": 478
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch205-000",
+      "chapterIndex": 205,
+      "chunkIndex": 0,
+      "title": "1. Concepto de genericidad",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch205-001",
+      "chapterIndex": 205,
+      "chunkIndex": 1,
+      "title": "1. Concepto de genericidad",
+      "words": 218
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch206-000",
+      "chapterIndex": 206,
+      "chunkIndex": 0,
+      "title": "2. TAD genéricos",
+      "words": 439
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch207-000",
+      "chapterIndex": 207,
+      "chunkIndex": 0,
+      "title": "3. Implementación en C++",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch207-001",
+      "chapterIndex": 207,
+      "chunkIndex": 1,
+      "title": "3. Implementación en C++",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch207-002",
+      "chapterIndex": 207,
+      "chunkIndex": 2,
+      "title": "3. Implementación en C++",
+      "words": 139
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch208-000",
+      "chapterIndex": 208,
+      "chunkIndex": 0,
+      "title": "1. Concepto de genericidad",
+      "words": 4
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch209-000",
+      "chapterIndex": 209,
+      "chunkIndex": 0,
+      "title": "2. TAD genéricos",
+      "words": 11
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "Lección 9:: El TAD cola genérica........................................................................................................... 75",
+      "words": 12
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch210-000",
+      "chapterIndex": 210,
+      "chunkIndex": 0,
+      "title": "módulo m: onedas",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch211-000",
+      "chapterIndex": 211,
+      "chunkIndex": 0,
+      "title": "módulo m: onederos",
+      "words": 292
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch212-000",
+      "chapterIndex": 212,
+      "chunkIndex": 0,
+      "title": "módulo m: onedero concreta sacosGen(moneda,precio);",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch212-001",
+      "chapterIndex": 212,
+      "chunkIndex": 1,
+      "title": "módulo m: onedero concreta sacosGen(moneda,precio);",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch212-002",
+      "chapterIndex": 212,
+      "chunkIndex": 2,
+      "title": "módulo m: onedero concreta sacosGen(moneda,precio);",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch212-003",
+      "chapterIndex": 212,
+      "chunkIndex": 3,
+      "title": "módulo m: onedero concreta sacosGen(moneda,precio);",
+      "words": 333
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch213-000",
+      "chapterIndex": 213,
+      "chunkIndex": 0,
+      "title": "3. Implementación en C++",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch213-001",
+      "chapterIndex": 213,
+      "chunkIndex": 1,
+      "title": "3. Implementación en C++",
+      "words": 194
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch214-000",
+      "chapterIndex": 214,
+      "chunkIndex": 0,
+      "title": "1. Contenedores",
+      "words": 4
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch215-000",
+      "chapterIndex": 215,
+      "chunkIndex": 0,
+      "title": "2. Iteradores",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch216-000",
+      "chapterIndex": 216,
+      "chunkIndex": 0,
+      "title": "3. La biblioteca Standard Template Library (STL)",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch217-000",
+      "chapterIndex": 217,
+      "chunkIndex": 0,
+      "title": "1. Contenedores",
+      "words": 6
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch218-000",
+      "chapterIndex": 218,
+      "chunkIndex": 0,
+      "title": "2. Iteradores",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch218-001",
+      "chapterIndex": 218,
+      "chunkIndex": 1,
+      "title": "2. Iteradores",
+      "words": 71
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch219-000",
+      "chapterIndex": 219,
+      "chunkIndex": 0,
+      "title": "3. La biblioteca Standard Template Library (STL)",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch219-001",
+      "chapterIndex": 219,
+      "chunkIndex": 1,
+      "title": "3. La biblioteca Standard Template Library (STL)",
+      "words": 155
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "1. Concepto y especificación",
+      "words": 9
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch220-000",
+      "chapterIndex": 220,
+      "chunkIndex": 0,
+      "title": "TEMA II",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch220-001",
+      "chapterIndex": 220,
+      "chunkIndex": 1,
+      "title": "TEMA II",
+      "words": 60
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch221-000",
+      "chapterIndex": 221,
+      "chunkIndex": 0,
+      "title": "1. Concepto de pila y especificación",
+      "words": 13
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch222-000",
+      "chapterIndex": 222,
+      "chunkIndex": 0,
+      "title": "2. Representación estática e implementación de operaciones",
+      "words": 21
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch223-000",
+      "chapterIndex": 223,
+      "chunkIndex": 0,
+      "title": "3. Representación de varias pilas en un vector",
+      "words": 9
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch224-000",
+      "chapterIndex": 224,
+      "chunkIndex": 0,
+      "title": "1. Concepto de pila y especificación",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch224-001",
+      "chapterIndex": 224,
+      "chunkIndex": 1,
+      "title": "1. Concepto de pila y especificación",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch224-002",
+      "chapterIndex": 224,
+      "chunkIndex": 2,
+      "title": "1. Concepto de pila y especificación",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch224-003",
+      "chapterIndex": 224,
+      "chunkIndex": 3,
+      "title": "1. Concepto de pila y especificación",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch224-004",
+      "chapterIndex": 224,
+      "chunkIndex": 4,
+      "title": "1. Concepto de pila y especificación",
+      "words": 331
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch225-000",
+      "chapterIndex": 225,
+      "chunkIndex": 0,
+      "title": "2. Representación estática e implementación de operaciones",
+      "words": 32
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch226-000",
+      "chapterIndex": 226,
+      "chunkIndex": 0,
+      "title": "3. Representación de varias pilas en un vector",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch226-001",
+      "chapterIndex": 226,
+      "chunkIndex": 1,
+      "title": "3. Representación de varias pilas en un vector",
+      "words": 166
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch227-000",
+      "chapterIndex": 227,
+      "chunkIndex": 0,
+      "title": "1. Datos puntero y datos dinámicos",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch227-001",
+      "chapterIndex": 227,
+      "chunkIndex": 1,
+      "title": "1. Datos puntero y datos dinámicos",
+      "words": 223
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch228-000",
+      "chapterIndex": 228,
+      "chunkIndex": 0,
+      "title": "2. Estructuras de datos recursivas: representación mediante punteros y datos dinámicos",
+      "words": 58
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch229-000",
+      "chapterIndex": 229,
+      "chunkIndex": 0,
+      "title": "3. Punteros y datos dinámicos en C++",
+      "words": 89
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "2. Implementación estática",
+      "words": 13
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch230-000",
+      "chapterIndex": 230,
+      "chunkIndex": 0,
+      "title": "1. Datos puntero y datos dinámicos",
+      "words": 96
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch231-000",
+      "chapterIndex": 231,
+      "chunkIndex": 0,
+      "title": "2. Estructuras de datos recursivas: representación mediante punteros y datos",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch231-001",
+      "chapterIndex": 231,
+      "chunkIndex": 1,
+      "title": "2. Estructuras de datos recursivas: representación mediante punteros y datos",
+      "words": 238
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch232-000",
+      "chapterIndex": 232,
+      "chunkIndex": 0,
+      "title": "3. Punteros y datos dinámicos en C++",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch232-001",
+      "chapterIndex": 232,
+      "chunkIndex": 1,
+      "title": "3. Punteros y datos dinámicos en C++",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch232-002",
+      "chapterIndex": 232,
+      "chunkIndex": 2,
+      "title": "3. Punteros y datos dinámicos en C++",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch232-003",
+      "chapterIndex": 232,
+      "chunkIndex": 3,
+      "title": "3. Punteros y datos dinámicos en C++",
+      "words": 420
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch233-000",
+      "chapterIndex": 233,
+      "chunkIndex": 0,
+      "title": "1. Representación dinámica de una pila e implementación de operaciones",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch234-000",
+      "chapterIndex": 234,
+      "chunkIndex": 0,
+      "title": "2. Codificación en C++ (fragmento)",
+      "words": 9
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch235-000",
+      "chapterIndex": 235,
+      "chunkIndex": 0,
+      "title": "3. Ejemplo de aplicación del TAD pila: evaluación de expresiones postfijas",
+      "words": 10
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch236-000",
+      "chapterIndex": 236,
+      "chunkIndex": 0,
+      "title": "4. Otro ejemplo de aplicación: traducción de expresiones infijas a postfijas",
+      "words": 9
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch237-000",
+      "chapterIndex": 237,
+      "chunkIndex": 0,
+      "title": "1. Representación dinámica de una pila e implementación de operaciones",
+      "words": 377
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch238-000",
+      "chapterIndex": 238,
+      "chunkIndex": 0,
+      "title": "2. Codificación en C++ (fragmento)",
+      "words": 270
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch239-000",
+      "chapterIndex": 239,
+      "chunkIndex": 0,
+      "title": "3. Ejemplo de aplicación del TAD pila: evaluación de expresiones postfijas",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch239-001",
+      "chapterIndex": 239,
+      "chunkIndex": 1,
+      "title": "3. Ejemplo de aplicación del TAD pila: evaluación de expresiones postfijas",
+      "words": 204
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "3. Implementación dinámica",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch024-001",
+      "chapterIndex": 24,
+      "chunkIndex": 1,
+      "title": "3. Implementación dinámica",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch024-002",
+      "chapterIndex": 24,
+      "chunkIndex": 2,
+      "title": "3. Implementación dinámica",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch024-003",
+      "chapterIndex": 24,
+      "chunkIndex": 3,
+      "title": "3. Implementación dinámica",
+      "words": 354
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch240-000",
+      "chapterIndex": 240,
+      "chunkIndex": 0,
+      "title": "4. Otro ejemplo de aplicación: traducción de expresiones infijas a postfijas",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch240-001",
+      "chapterIndex": 240,
+      "chunkIndex": 1,
+      "title": "4. Otro ejemplo de aplicación: traducción de expresiones infijas a postfijas",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch240-002",
+      "chapterIndex": 240,
+      "chunkIndex": 2,
+      "title": "4. Otro ejemplo de aplicación: traducción de expresiones infijas a postfijas",
+      "words": 336
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch241-000",
+      "chapterIndex": 241,
+      "chunkIndex": 0,
+      "title": "1. Concepto de cola y especificación",
+      "words": 11
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch242-000",
+      "chapterIndex": 242,
+      "chunkIndex": 0,
+      "title": "2. Representación dinámica e implementación de operaciones",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch243-000",
+      "chapterIndex": 243,
+      "chunkIndex": 0,
+      "title": "3. Representación estática circular",
+      "words": 252
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch244-000",
+      "chapterIndex": 244,
+      "chunkIndex": 0,
+      "title": "4. Ejemplo de aplicación: simulación de una cola de espera",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch245-000",
+      "chapterIndex": 245,
+      "chunkIndex": 0,
+      "title": "1. Concepto de cola y especificación",
+      "words": 39
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch246-000",
+      "chapterIndex": 246,
+      "chunkIndex": 0,
+      "title": "2. Representación dinámica e implementación de operaciones",
+      "words": 30
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch247-000",
+      "chapterIndex": 247,
+      "chunkIndex": 0,
+      "title": "3. Representación estática circular",
+      "words": 86
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch248-000",
+      "chapterIndex": 248,
+      "chunkIndex": 0,
+      "title": "4. Ejemplo de aplicación: simulación de una cola de espera",
+      "words": 35
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch249-000",
+      "chapterIndex": 249,
+      "chunkIndex": 0,
+      "title": "RESULTADOS",
+      "words": 50
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "4. Recorridos",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch250-000",
+      "chapterIndex": 250,
+      "chunkIndex": 0,
+      "title": "RESULTADOS",
+      "words": 182
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch251-000",
+      "chapterIndex": 251,
+      "chunkIndex": 0,
+      "title": "RESULTADOS",
+      "words": 165
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch252-000",
+      "chapterIndex": 252,
+      "chunkIndex": 0,
+      "title": "Lección 10",
+      "words": 103
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch253-000",
+      "chapterIndex": 253,
+      "chunkIndex": 0,
+      "title": "1. Concepto de diccionario y su especificación",
+      "words": 36
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch254-000",
+      "chapterIndex": 254,
+      "chunkIndex": 0,
+      "title": "2. Implementaciones estáticas sencillas",
+      "words": 101
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch255-000",
+      "chapterIndex": 255,
+      "chunkIndex": 0,
+      "title": "3. Implementación con listas enlazadas ordenadas",
+      "words": 59
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch256-000",
+      "chapterIndex": 256,
+      "chunkIndex": 0,
+      "title": "1. Concepto de diccionario y su especificación",
+      "words": 32
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch257-000",
+      "chapterIndex": 257,
+      "chunkIndex": 0,
+      "title": "2. Implementaciones estáticas sencillas",
+      "words": 107
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch258-000",
+      "chapterIndex": 258,
+      "chunkIndex": 0,
+      "title": "3. Implementación con listas enlazadas ordenadas",
+      "words": 51
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch259-000",
+      "chapterIndex": 259,
+      "chunkIndex": 0,
+      "title": "TEMA III",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch259-001",
+      "chapterIndex": 259,
+      "chunkIndex": 1,
+      "title": "TEMA III",
+      "words": 288
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "1. \tRecorrido en pre-orden:",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "2. \tRecorrido en post-orden:",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "3. \tRecorrido en in-orden u orden central:",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "Lección 13",
+      "words": 261
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "1. Concepto y especificación",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch030-001",
+      "chapterIndex": 30,
+      "chunkIndex": 1,
+      "title": "1. Concepto y especificación",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch030-002",
+      "chapterIndex": 30,
+      "chunkIndex": 2,
+      "title": "1. Concepto y especificación",
+      "words": 263
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "2. Implementación dinámica",
+      "words": 274
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "Lección 10:: El TAD diccionario. Implementación con listas enlazadas ordenadas .............................. 87",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch032-001",
+      "chapterIndex": 32,
+      "chunkIndex": 1,
+      "title": "Lección 10:: El TAD diccionario. Implementación con listas enlazadas ordenadas .............................. 87",
+      "words": 436
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "3. Implementación del TAD diccionario con ABB",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch033-001",
+      "chapterIndex": 33,
+      "chunkIndex": 1,
+      "title": "3. Implementación del TAD diccionario con ABB",
+      "words": 168
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "1. Concepto y especificación",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch034-001",
+      "chapterIndex": 34,
+      "chunkIndex": 1,
+      "title": "1. Concepto y especificación",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch034-002",
+      "chapterIndex": 34,
+      "chunkIndex": 2,
+      "title": "1. Concepto y especificación",
+      "words": 358
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "2. Implementación dinámica",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "3. Implementación del TAD diccionario con ABB",
+      "words": 4
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "Lección 14",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "1. Definición y teorema de AVL",
+      "words": 217
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "2. Representación de los árboles AVL",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch039-001",
+      "chapterIndex": 39,
+      "chunkIndex": 1,
+      "title": "2. Representación de los árboles AVL",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch039-002",
+      "chapterIndex": 39,
+      "chunkIndex": 2,
+      "title": "2. Representación de los árboles AVL",
+      "words": 266
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "3. Inserción en AVL",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch040-001",
+      "chapterIndex": 40,
+      "chunkIndex": 1,
+      "title": "3. Inserción en AVL",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch040-002",
+      "chapterIndex": 40,
+      "chunkIndex": 2,
+      "title": "3. Inserción en AVL",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch040-003",
+      "chapterIndex": 40,
+      "chunkIndex": 3,
+      "title": "3. Inserción en AVL",
+      "words": 177
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "4. Borrado en AVL",
+      "words": 9
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "1. Definición y teorema AVL",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "Tema III:: Tipos de datos arborescentes ........................................................................................................... 97",
+      "words": 170
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "2. Representación de los árboles AVL",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch044-001",
+      "chapterIndex": 44,
+      "chunkIndex": 1,
+      "title": "2. Representación de los árboles AVL",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch044-002",
+      "chapterIndex": 44,
+      "chunkIndex": 2,
+      "title": "2. Representación de los árboles AVL",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch044-003",
+      "chapterIndex": 44,
+      "chunkIndex": 3,
+      "title": "2. Representación de los árboles AVL",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch044-004",
+      "chapterIndex": 44,
+      "chunkIndex": 4,
+      "title": "2. Representación de los árboles AVL",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch044-005",
+      "chapterIndex": 44,
+      "chunkIndex": 5,
+      "title": "2. Representación de los árboles AVL",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch044-006",
+      "chapterIndex": 44,
+      "chunkIndex": 6,
+      "title": "2. Representación de los árboles AVL",
+      "words": 440
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "unidad m: ayor que la del derecho.",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "3. Inserción en AVL",
+      "words": 4
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "1. \tBuscar la clave hasta encontrar la posición de inserción o modificación del valor asociado. Es un proceso idéntico",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "2. \tInsertar el nuevo nodo hoja, con factor de equilibrio equilibrado.",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch048-001",
+      "chapterIndex": 48,
+      "chunkIndex": 1,
+      "title": "2. \tInsertar el nuevo nodo hoja, con factor de equilibrio equilibrado.",
+      "words": 247
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "3. \tDesandar \tel \tcamino \tde \tbúsqueda, \tverificando \tel \tequilibrio \tde \tlos \tnodos \tdel \tcamino, \ty",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch049-001",
+      "chapterIndex": 49,
+      "chunkIndex": 1,
+      "title": "3. \tDesandar \tel \tcamino \tde \tbúsqueda, \tverificando \tel \tequilibrio \tde \tlos \tnodos \tdel \tcamino, \ty",
+      "words": 205
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "4. Borrado en AVL",
+      "words": 39
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "1. \tProceso de borrado como en un árbol binario de búsqueda:",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch051-001",
+      "chapterIndex": 51,
+      "chunkIndex": 1,
+      "title": "1. \tProceso de borrado como en un árbol binario de búsqueda:",
+      "words": 295
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "2. \tSe regresa por el camino de búsqueda calculando los nuevos factores de equilibrio:",
+      "words": 21
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "Lección 15",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch053-001",
+      "chapterIndex": 53,
+      "chunkIndex": 1,
+      "title": "Lección 15",
+      "words": 365
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "Lección 11:: Introducción a los árboles .................................................................................................. 99",
+      "words": 3
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "1. Conceptos y especificación",
+      "words": 3
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "2. Recorridos",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch057-000",
+      "chapterIndex": 57,
+      "chunkIndex": 0,
+      "title": "3. Implementación dinámica",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch057-001",
+      "chapterIndex": 57,
+      "chunkIndex": 1,
+      "title": "3. Implementación dinámica",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch057-002",
+      "chapterIndex": 57,
+      "chunkIndex": 2,
+      "title": "3. Implementación dinámica",
+      "words": 489
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch058-000",
+      "chapterIndex": 58,
+      "chunkIndex": 0,
+      "title": "4. Ideas sobre implementación estática",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch058-001",
+      "chapterIndex": 58,
+      "chunkIndex": 1,
+      "title": "4. Ideas sobre implementación estática",
+      "words": 117
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch059-000",
+      "chapterIndex": 59,
+      "chunkIndex": 0,
+      "title": "1. Conceptos y especificación",
+      "words": 233
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch060-000",
+      "chapterIndex": 60,
+      "chunkIndex": 0,
+      "title": "2. Recorridos",
+      "words": 30
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch061-000",
+      "chapterIndex": 61,
+      "chunkIndex": 0,
+      "title": "3. Implementación dinámica",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch062-000",
+      "chapterIndex": 62,
+      "chunkIndex": 0,
+      "title": "4. Ideas sobre implementación estática",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch063-000",
+      "chapterIndex": 63,
+      "chunkIndex": 0,
+      "title": "parte d: e las componentes del vector. Además, sería preciso añadir en",
+      "words": 9
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch064-000",
+      "chapterIndex": 64,
+      "chunkIndex": 0,
+      "title": "Lección 16",
+      "words": 477
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch065-000",
+      "chapterIndex": 65,
+      "chunkIndex": 0,
+      "title": "Lección 12:: Árboles binarios ............................................................................................................... 103",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch065-001",
+      "chapterIndex": 65,
+      "chunkIndex": 1,
+      "title": "Lección 12:: Árboles binarios ............................................................................................................... 103",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch065-002",
+      "chapterIndex": 65,
+      "chunkIndex": 2,
+      "title": "Lección 12:: Árboles binarios ............................................................................................................... 103",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch065-003",
+      "chapterIndex": 65,
+      "chunkIndex": 3,
+      "title": "Lección 12:: Árboles binarios ............................................................................................................... 103",
+      "words": 99
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch066-000",
+      "chapterIndex": 66,
+      "chunkIndex": 0,
+      "title": "1. Definición",
+      "words": 491
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch067-000",
+      "chapterIndex": 67,
+      "chunkIndex": 0,
+      "title": "2. Árboles n–arios de búsqueda equilibrados",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch068-000",
+      "chapterIndex": 68,
+      "chunkIndex": 0,
+      "title": "3. Ejemplo de implementación (árboles 2–3)",
+      "words": 12
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch069-000",
+      "chapterIndex": 69,
+      "chunkIndex": 0,
+      "title": "1. Definición",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch070-000",
+      "chapterIndex": 70,
+      "chunkIndex": 0,
+      "title": "2. Árboles n–arios de búsqueda equilibrados",
+      "words": 492
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch071-000",
+      "chapterIndex": 71,
+      "chunkIndex": 0,
+      "title": "3. Ejemplo de implementación (árboles 2–3)",
+      "words": 340
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch072-000",
+      "chapterIndex": 72,
+      "chunkIndex": 0,
+      "title": "Lección 17",
+      "words": 136
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch073-000",
+      "chapterIndex": 73,
+      "chunkIndex": 0,
+      "title": "1. Definición y características principales",
+      "words": 11
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch074-000",
+      "chapterIndex": 74,
+      "chunkIndex": 0,
+      "title": "2. Implementaciones",
+      "words": 6
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch075-000",
+      "chapterIndex": 75,
+      "chunkIndex": 0,
+      "title": "3. Detalles de la implementación nodo–lista",
+      "words": 12
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch076-000",
+      "chapterIndex": 76,
+      "chunkIndex": 0,
+      "title": "Lección 13:: Árboles binarios de búsqueda .......................................................................................... 115",
+      "words": 12
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch077-000",
+      "chapterIndex": 77,
+      "chunkIndex": 0,
+      "title": "1. Definición y características principales",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch077-001",
+      "chapterIndex": 77,
+      "chunkIndex": 1,
+      "title": "1. Definición y características principales",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch077-002",
+      "chapterIndex": 77,
+      "chunkIndex": 2,
+      "title": "1. Definición y características principales",
+      "words": 382
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch078-000",
+      "chapterIndex": 78,
+      "chunkIndex": 0,
+      "title": "2. Implementaciones",
+      "words": 298
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch079-000",
+      "chapterIndex": 79,
+      "chunkIndex": 0,
+      "title": "3. Detalles de la implementación nodo–lista",
+      "words": 494
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch080-000",
+      "chapterIndex": 80,
+      "chunkIndex": 0,
+      "title": "Lección 18",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch080-001",
+      "chapterIndex": 80,
+      "chunkIndex": 1,
+      "title": "Lección 18",
+      "words": 444
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch081-000",
+      "chapterIndex": 81,
+      "chunkIndex": 0,
+      "title": "1. Concepto y especificación de cola con prioridad genérica",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch082-000",
+      "chapterIndex": 82,
+      "chunkIndex": 0,
+      "title": "2. Implementación basada en un montículo o heap",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch083-000",
+      "chapterIndex": 83,
+      "chunkIndex": 0,
+      "title": "3. Aplicación a la ordenación de elementos de un vector: el heapsort",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch084-000",
+      "chapterIndex": 84,
+      "chunkIndex": 0,
+      "title": "1. Concepto y especificación de cola con prioridad genérica",
+      "words": 11
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch085-000",
+      "chapterIndex": 85,
+      "chunkIndex": 0,
+      "title": "2. Implementación basada en un montículo o heap",
+      "words": 475
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch086-000",
+      "chapterIndex": 86,
+      "chunkIndex": 0,
+      "title": "módulo c: olaConPrioridadesDeMáximos",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch086-001",
+      "chapterIndex": 86,
+      "chunkIndex": 1,
+      "title": "módulo c: olaConPrioridadesDeMáximos",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch086-002",
+      "chapterIndex": 86,
+      "chunkIndex": 2,
+      "title": "módulo c: olaConPrioridadesDeMáximos",
+      "words": 96
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch087-000",
+      "chapterIndex": 87,
+      "chunkIndex": 0,
+      "title": "Lección 14:: Árboles AVL .................................................................................................................... 127",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch087-001",
+      "chapterIndex": 87,
+      "chunkIndex": 1,
+      "title": "Lección 14:: Árboles AVL .................................................................................................................... 127",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch087-002",
+      "chapterIndex": 87,
+      "chunkIndex": 2,
+      "title": "Lección 14:: Árboles AVL .................................................................................................................... 127",
+      "words": 107
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch088-000",
+      "chapterIndex": 88,
+      "chunkIndex": 0,
+      "title": "3. Aplicación a la ordenación de elementos de un vector: el heapsort",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch088-001",
+      "chapterIndex": 88,
+      "chunkIndex": 1,
+      "title": "3. Aplicación a la ordenación de elementos de un vector: el heapsort",
+      "words": 292
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch089-000",
+      "chapterIndex": 89,
+      "chunkIndex": 0,
+      "title": "TEMA IV",
+      "words": 42
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch090-000",
+      "chapterIndex": 90,
+      "chunkIndex": 0,
+      "title": "Lección 19",
+      "words": 42
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch091-000",
+      "chapterIndex": 91,
+      "chunkIndex": 0,
+      "title": "1. Recordatorio del concepto de tabla o diccionario y su especificación",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch091-001",
+      "chapterIndex": 91,
+      "chunkIndex": 1,
+      "title": "1. Recordatorio del concepto de tabla o diccionario y su especificación",
+      "words": 154
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch092-000",
+      "chapterIndex": 92,
+      "chunkIndex": 0,
+      "title": "2. Repaso de implementaciones ya vistas",
+      "words": 12
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch093-000",
+      "chapterIndex": 93,
+      "chunkIndex": 0,
+      "title": "3. Tablas dispersas (o hash)",
+      "words": 8
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch094-000",
+      "chapterIndex": 94,
+      "chunkIndex": 0,
+      "title": "1. Recordatorio del concepto de tabla o diccionario y su especificación",
+      "words": 5
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch095-000",
+      "chapterIndex": 95,
+      "chunkIndex": 0,
+      "title": "2. Repaso de implementaciones ya vistas",
+      "words": 7
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch096-000",
+      "chapterIndex": 96,
+      "chunkIndex": 0,
+      "title": "3. Tablas dispersas (o hash)",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch096-001",
+      "chapterIndex": 96,
+      "chunkIndex": 1,
+      "title": "3. Tablas dispersas (o hash)",
+      "words": 471
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch097-000",
+      "chapterIndex": 97,
+      "chunkIndex": 0,
+      "title": "1. Elegir la función",
+      "words": 331
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch098-000",
+      "chapterIndex": 98,
+      "chunkIndex": 0,
+      "title": "Lección 15:: Árboles n–arios ................................................................................................................ 139",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch098-001",
+      "chapterIndex": 98,
+      "chunkIndex": 1,
+      "title": "Lección 15:: Árboles n–arios ................................................................................................................ 139",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch098-002",
+      "chapterIndex": 98,
+      "chunkIndex": 2,
+      "title": "Lección 15:: Árboles n–arios ................................................................................................................ 139",
+      "words": 500
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch098-003",
+      "chapterIndex": 98,
+      "chunkIndex": 3,
+      "title": "Lección 15:: Árboles n–arios ................................................................................................................ 139",
+      "words": 197
+    },
+    {
+      "id": "apuntes-estructuras-datos-algoritmos-ch099-000",
+      "chapterIndex": 99,
+      "chunkIndex": 0,
+      "title": "2. Seleccionar un método para resolver las colisiones.",
+      "words": 19
+    }
+  ]
+}

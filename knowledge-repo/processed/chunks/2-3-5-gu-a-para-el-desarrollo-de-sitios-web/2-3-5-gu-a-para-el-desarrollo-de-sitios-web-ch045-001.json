@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch045-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 45,
+  "chunkIndex": 1,
+  "title": "5. Asegurar el contraste de colores: personas con problemas visuales tienen",
+  "start": 450,
+  "end": 631,
+  "words": 181,
+  "content": "son hacia el estándar XML que además es el estándar elegido para el intercambio de documentos electrónicos del Gobierno de Chile, en esta Guía se ha privilegiado destacar el trabajo con XHTML 1.0 con el fin de destacar las características de su utilización sobre los estándares anteriores. Entre las diferencias más relevantes de XHTML respecto de HTML y que deben ser tenidas en cuenta, aparecen las siguientes24 : El documento debe estar bien formado con todas las etiquetas cerradas en el mismo orden en que se abren, vale decir, en el caso de etiquetas que se abren dentro de otras, deben ser cerradas en el mismo orden. No puede haber elementos vacíos, por lo que las etiquetas que no tienen cierre deben completarse con un “slash” al final, como en <img … />,<br /> y <hr />. Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile 23.- Ver contenido del DS 100 en: http://www.guiaweb.cl/recursos/documentos.htm#bdragDS100 24.- Extraído de http://www.w3.org/TR/xhtml1/#diffs y http://es.wikipedia.org/wiki/XHTML Ajax: la sigla significa Asynchronous JavaScript And XML (JavaScript asíncrono y XML). -- 70 of 122 --"
+}

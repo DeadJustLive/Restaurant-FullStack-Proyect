@@ -1,0 +1,40 @@
+# 122 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 185)
+
+## Contenido
+# 122 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+Sobre el autor
+Henrik Kniberg (henrik.kniberg@crisp.se) es un consultor de la empresa Crisp en
+Estocolmo (www.crisp.se), especializado en Java y desarrollo Ágil de software.
+Desde que aparecieron los primeros libros sobre XP y el manifiesto Ágil, Henrik
+ha adoptado los principios Ágiles y ha intentado aprender cómo aplicarlos
+eficientemente en diferentes tipos de organizaciones. Como co-fundador y
+Director Técnico de Goyada (1998-2003) ha tenido múltiples oportunidades de
+experimentar con desarrollo orientado a pruebas y 	otras prácticas Ágiles
+mientras desarrollaba y gestionaba una plataforma técnica y un equipo de
+desarrollo de 30 personas.
+A finales de 2005 Henrik fue contratado como Jefe de Desarrollo en una
+compañía Sueca del negocio de los juegos. La compañía se encontraba en una
+situación de crisis con problemas organizativos y técnicos urgentes. Utilizando
+Scrum y XP como herramientas, Henrik ayudó a la compañía a salir de la crisis
+mediante la implementación de los principios Ágiles y Lean a todos los niveles en
+la compañía.
+Un viernes de Noviembre de 2006 Henrik estaba en casa, en la cama con fiebre,
+y decidió apuntar una serie de notas para si mismo sobre lo que había aprendido
+en el último año. Sin embargo, cuando empezó a teclear ya no pudo parar y,
+después de tres días de tecleo y dibujo frenéticos, las notas iniciales se
+convirtieron en un artículo de 80 páginas titulado “Scrum y XP desde las
+trincheras” que finalmente se convirtieron en este libro.
+Henrik adopta un enfoque holístico y disfruta desempeñando diferentes roles
+como gerente, desarrollador, Scrum Master, maestro y coach. Le apasiona
+ayudar 	a 	compañías 	a 	desarrollar 	software 	excelente 	y 	formar 	equipos
+excelentes, tomando para ello el papel que sea necesario.
+Henrik creció en Tokio y ahora vive en Estocolmo con su mujer Sophia y sus dos
+hijos. Es un músico activo en su tiempo libre, compone y toca el bajo y el teclado
+con bandas locales.
+Para más información ver http://www.crisp.se/henrik.kniberg
+
+-- 122 of 122 --

@@ -1,0 +1,42 @@
+# 4.4 	Equipo de Desarrollo
+
+Un Equipo de Desarrollo en Scrum es un grupo diverso, cross-funcional, autoorganizado y
+empoderado que realiza el trabajo para entregar el producto o incrementos de producto
+terminados, facilitados y mentorizados por el Scrum Master, y orientados por el Product Owner. No
+tiene roles jerárquicos tradicionales como líder de equipo o supervisor; todos los miembros
+colaboran como iguales para completar las tareas del Sprint. El número aconsejado está entre 3 y 9
+personas lo deben componer.
+4.4.1 	Habilidades Blandas del Equipo de Desarrollo
+• 	Colaboración y Comunicación: Capacidad para trabajar eficientemente en equipo,
+comunicarse abiertamente sobre progresos y problemas, y cooperar con otros miembros
+para resolverlos.
+• 	Adaptabilidad y Flexibilidad: Habilidad para adaptarse rápidamente a los cambios en las
+prioridades del proyecto y a las nuevas tecnologías o métodos emergentes.
+• 	Resolución de Problemas: Capacidad de enfrentar desafíos complejos y encontrar
+soluciones efectivas en colaboración con los compañeros de equipo.
+• 	Responsabilidad y Compromiso: Compromiso con los objetivos del equipo y responsabilidad
+individual y colectiva para cumplir con las tareas asignadas.
+
+-- 6 of 21 --
+
+www.europeanscrum.org
+- 6 -
+• 	Crecimiento Continuo: Interés y dedicación para mejorar continuamente sus habilidades
+técnicas y de trabajo en equipo mediante aprendizaje y retroalimentación.
+4.4.2 	Habilidades Duras del Equipo de Desarrollo
+• 	Competencias Específicas: Cada miembro del equipo debe poseer sus habilidades para
+desarrollar su trabajo específico.
+• 	Metodologías Ágiles y Scrum: Entendimiento profundo de Scrum y otras metodologías
+ágiles para maximizar la eficiencia del desarrollo y la entrega de productos.
+• 	Uso de Herramientas de Gestión de Proyectos Ágiles: Experiencia en el manejo de
+herramientas de gestión de proyectos ágiles que facilitan la colaboración y la gestión de
+tareas.
+4.4.3 	Conclusión del rol del Development Team
+El Development Team es el motor que impulsa la creación de productos en un entorno Scrum, y su
+efectividad depende tanto de las habilidades de sus miembros como de su capacidad para trabajar
+en un entorno de equipo colaborativo y autoorganizado. A través de la comunicación efectiva, la
+colaboración y una fuerte ética de trabajo en equipo, el Development Team puede superar desafíos
+técnicos y cumplir con los objetivos de proyecto de manera efectiva.
+5 	Artefactos de Scrum
+Scrum utiliza varios artefactos para ayudar a los equipos a gestionar su trabajo durante los sprints, el
+Product Backlog, el Sprint Backlog y el Incremento.

@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch219-002",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 219,
+  "chunkIndex": 2,
+  "title": "13.4 Desarrollando el API onMove para Notas . . . . . . . . . . . . . . 142",
+  "start": 900,
+  "end": 1160,
+  "words": 260,
+  "content": "button: { width: '100%' } }, primary: { background: 'green' }, warning: { background: 'yellow' } }; @useSheet(styles) export default class ConfirmButton extends React.Component { render() { const {classes} = this.props.sheet; return <button className={classnames(classes.button, classes.primary)}> Confirm </button>; } } -- 189 of 226 -- Aplicando Estilo a React 172 Hay un jss-loader22 para Webpack. React Inline React Inline23 es un enfoque intereasnte para aplicar estilos. Genera CSS basado en la prop className de los elementos que lo usen. El ejemplo anterior puede ser adaptado para React Inline de esta manera: import cx from 'classnames'; ... class ConfirmButton extends React.Component { render() { const {className} = this.props; const classes = cx(styles.button, styles.primary, className); return <button className={classes}>Confirm</button>; } } Por desgracia, se basa en su propia herramienta personalizada para generar código de React y el CSS que necesita para trabajar. jsxstyle El jsxstyle24 de Pete Hunt trata de mitigar algunos de los problemas React Style. Como has podido ver en los ejemplos anteriores, todavía tenemos las definiciones de los estilos separadas del lenguaje de marcado de los componentes. jsxstyle une ambos conceptos. Observa el siguiente ejemplo: 22https://www.npmjs.com/package/jss-loader 23https://github.com/martinandert/react-inline 24https://github.com/petehunt/jsxstyle -- 190 of 226 -- Aplicando Estilo a React 173 // PrimaryButton component <button padding='1em' background='green' >Confirm</button> Esta aproximación todavía está en fase inicial. Por ejemplo, no hay soporte para media queries. En lugar de definir modificadores como antes, acabarás definiendo más componentes con los que dar cabida a tus casos de uso. Al igual que con React Style, jsxstyle tieen un cargador de Webpack que puede extraer CSS en un fichero separado."
+}

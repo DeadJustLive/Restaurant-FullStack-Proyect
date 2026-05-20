@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch123-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 123,
+  "chunkIndex": 0,
+  "title": "REPRESENTACION DE ARBOLES GENERALES CON LISTAS LIGADAS",
+  "start": 0,
+  "end": 18,
+  "words": 18,
+  "content": "# 3) Elabore un algoritmo que imprima el recorrido BFS de un grafo representado como multilistas de adyacencia"
+}

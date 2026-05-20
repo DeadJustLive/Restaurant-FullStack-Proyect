@@ -1,0 +1,240 @@
+{
+  "bookId": "javascript-uoc",
+  "totalChunks": 33,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.216Z",
+  "chunks": [
+    {
+      "id": "javascript-uoc-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "1. Introducción........................................................................................ 5",
+      "words": 4
+    },
+    {
+      "id": "javascript-uoc-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "2. Ecmascript............................................................................................ 6",
+      "words": 158
+    },
+    {
+      "id": "javascript-uoc-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "4. Frameworks JavaScript.................................................................... 36",
+      "words": 28
+    },
+    {
+      "id": "javascript-uoc-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "5. Typescript............................................................................................. 44",
+      "words": 46
+    },
+    {
+      "id": "javascript-uoc-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "1. Introducción",
+      "words": 247
+    },
+    {
+      "id": "javascript-uoc-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-001",
+      "chapterIndex": 6,
+      "chunkIndex": 1,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-002",
+      "chapterIndex": 6,
+      "chunkIndex": 2,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-003",
+      "chapterIndex": 6,
+      "chunkIndex": 3,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-004",
+      "chapterIndex": 6,
+      "chunkIndex": 4,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-005",
+      "chapterIndex": 6,
+      "chunkIndex": 5,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-006",
+      "chapterIndex": 6,
+      "chunkIndex": 6,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-007",
+      "chapterIndex": 6,
+      "chunkIndex": 7,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-008",
+      "chapterIndex": 6,
+      "chunkIndex": 8,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-009",
+      "chapterIndex": 6,
+      "chunkIndex": 9,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-010",
+      "chapterIndex": 6,
+      "chunkIndex": 10,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-011",
+      "chapterIndex": 6,
+      "chunkIndex": 11,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-012",
+      "chapterIndex": 6,
+      "chunkIndex": 12,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-013",
+      "chapterIndex": 6,
+      "chunkIndex": 13,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-014",
+      "chapterIndex": 6,
+      "chunkIndex": 14,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-015",
+      "chapterIndex": 6,
+      "chunkIndex": 15,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-016",
+      "chapterIndex": 6,
+      "chunkIndex": 16,
+      "title": "2. Ecmascript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch006-017",
+      "chapterIndex": 6,
+      "chunkIndex": 17,
+      "title": "2. Ecmascript",
+      "words": 314
+    },
+    {
+      "id": "javascript-uoc-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "4. Frameworks JavaScript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch007-001",
+      "chapterIndex": 7,
+      "chunkIndex": 1,
+      "title": "4. Frameworks JavaScript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch007-002",
+      "chapterIndex": 7,
+      "chunkIndex": 2,
+      "title": "4. Frameworks JavaScript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch007-003",
+      "chapterIndex": 7,
+      "chunkIndex": 3,
+      "title": "4. Frameworks JavaScript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch007-004",
+      "chapterIndex": 7,
+      "chunkIndex": 4,
+      "title": "4. Frameworks JavaScript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch007-005",
+      "chapterIndex": 7,
+      "chunkIndex": 5,
+      "title": "4. Frameworks JavaScript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch007-006",
+      "chapterIndex": 7,
+      "chunkIndex": 6,
+      "title": "4. Frameworks JavaScript",
+      "words": 60
+    },
+    {
+      "id": "javascript-uoc-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "parte d: e los navegadores hacen que en muchos proyectos, y cada vez más, se",
+      "words": 31
+    },
+    {
+      "id": "javascript-uoc-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "5. Typescript",
+      "words": 500
+    },
+    {
+      "id": "javascript-uoc-ch009-001",
+      "chapterIndex": 9,
+      "chunkIndex": 1,
+      "title": "5. Typescript",
+      "words": 373
+    }
+  ]
+}

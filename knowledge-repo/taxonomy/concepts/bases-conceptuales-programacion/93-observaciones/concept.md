@@ -1,0 +1,44 @@
+# OBSERVACIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 93)
+
+## Contenido
+# OBSERVACIONES:
+
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 183 of 312 --
+
+184
+* El origen esta al Este de la primer celda
+de 5 bolitas en un recorrido NE de las celdas
+*/
+{ IrAPrimerCeldaNEConBolitas(Azul,5); Mover(Este) }
+El procedimiento IrAPrimerCeldaNEConBolitas es un recorrido de b ´usqueda (ver defi-
+nici ´on 4.2.3), y es similar a la segunda versi ´on de BuscarInicioSendero en el ejerci-
+cio 4.2.10. No debe dejar de observarse el uso de los comentarios para establecer el
+contrato del procedimiento, tal cual fuera explicado en la subsecci ´on 2.3.4. Esto se man-
+tendr ´a en cada uno de los procedimientos presentados.
+Actividad de Programaci ´on 1
+Realice el ejercicio 5.2.1 y verifique que el c ´odigo resultante es similar al que
+aparece en el c ´odigo completo de ZILFOST presentado en el anexo B. Tener en
+cuenta que este procedimiento aparece en la Biblioteca, pues no es espec´ıfico
+del juego, sino general.
+Ejercicio 5.2.1. Escribir el procedimiento IrAPrimerCeldaNEConBolitas, que toma un
+color c y un n ´umero n y posiciona el cabezal en la primer celda en un recorrido no-
+reste que tenga exactamente n bolitas de color c. Considerar utilizar el procedimiento
+BuscarInicioSendero del ejercicio 4.2.10 como gu´ıa (pueden reutilizarse varias de las
+subtareas definidas en ese ejercicio), y reutilizar los procedimientos definidos en el ejerci-
+cio 4.2.7.
+El procedimiento IrAlOrigenDeZonaDeJuego es extremadamente ´util para ubicarnos en
+la zona de juego, y desde all´ı realizar otras operaciones. Sin embargo, para simplificar
+controles posteriores es m ´as sencillo si conocemos la cantidad de celdas que hay desde
+la esquina suroeste hasta el origen de la zona de juego. Para esto definiremos funcio-
+nes desplazamientoXDeZonaDeJuego y desplazamientoYDeZonaDeJuego, de la siguiente
+manera
+function desplazamientoXDeZonaDeJuego()
+/*
+PROP´OSITO: retorna la cantidad de celdas al Este
+a moverse desde la esquina suroeste para
+ubicarse en la 1era columna de la zona de juego

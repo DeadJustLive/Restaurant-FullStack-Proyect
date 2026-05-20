@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch420-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 420,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 30,
+  "words": 30,
+  "content": "# PRECONDICIONES: * no hay otra pieza codPieza en el tablero * hay lugar para colocar la pieza * tipoPieza es un tipo v´alido * rotPieza es una rotaci´on v´alida"
+}

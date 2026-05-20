@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch067-002",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 67,
+  "chunkIndex": 2,
+  "title": "Capítulo 40:: Rasgos",
+  "start": 900,
+  "end": 1142,
+  "words": 242,
+  "content": "Cat {}; println!(\"The human says {}\", human.speak()); println!(\"The cat says {}\", cat.speak()); } Salida: El humano dice hola. El gato dice miau. Poner un límite en un rasgo Al definir un nuevo rasgo, es posible imponer que los tipos que deseen implementar este rasgo verifiquen una serie de restricciones o límites. Tomando un ejemplo de la biblioteca estándar, el rasgo DerefMut requiere que un tipo implemente primero su rasgo Deref hermano: pub trait DerefMut: Deref { fn deref_mut(&mut self) -> &mut Self::Target; } Esto, a su vez, permite que DerefMut use el tipo asociado Target definido por Deref . Mientras que la sintaxis podría ser una reminiscencia de la herencia: trae todos los elementos asociados (constantes, tipos, funciones, ...) del rasgo enlazado • permite el polimorfismo de &DerefMut a &Deref • Esto es diferente en la naturaleza: es posible usar un tiempo de vida (como 'static ) como un límite • no es posible anular los elementos de rasgos vinculados (ni siquiera las funciones) • Por lo tanto, es mejor pensar en él como un concepto separado. Múltiples tipos de objetos enlazados También es posible agregar varios tipos de objetos a una función de envío estático . fn mammal_speak<T: Person + Dog>(mammal: &T) { println!(\"{0}\", mammal.speak()); } https://riptutorial.com/es/home 134 -- 148 of 188 -- fn main() { let person = Person {}; let dog = Dog {}; mammal_speak(&person); mammal_speak(&dog); } Lea Rasgos en línea: https://riptutorial.com/es/rust/topic/1313/rasgos https://riptutorial.com/es/home 135 -- 149 of 188 --"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch016-001",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 16,
+  "chunkIndex": 1,
+  "title": "4. Asigna la expresión 10 * 3.0 a la variable result y muestra su tipo.",
+  "start": 450,
+  "end": 689,
+  "words": 239,
+  "content": "defecto en el propio lenguaje Python. Tabla 3: Funciones «built-in» abs() delattr() hash() memoryview() set() all() dict() help() min() setattr() any() any() hex() next() slice() ascii() divmod() id() object() sorted() bin() enumerate() input() oct() staticmethod() continué en la próxima página 56 Capítulo 3. Tipos de datos -- 60 of 516 -- Aprende Python Tabla 3 – proviene de la página anterior bool() eval() int() open() str() breakpoint() exec() isinstance() ord() sum() bytearray() filter() issubclass() pow() super() bytes() float() iter() print() tuple() callable() format() len() property() type() chr() frozenset() list() range() vars() classmethod() getattr() locals() repr() zip() compile() globals() map() reversed() __import__() complex() hasattr() max() round() Los detalles de estas funciones se puede consultar en la documentación oficial de Python. 3.1.6 Pidiendo ayuda En Python podemos pedir ayuda con la función help(). Supongamos que queremos obtener información sobre id. Desde el intérprete de Python ejecutamos lo siguiente: >>> help(id) Help on built-in function id in module builtins: id(obj, /) Return the identity of an object. This is guaranteed to be unique among simultaneously existing objects. (CPython uses the object s memory address.) Existe una forma alternativa de obtener ayuda: añadiendo el signo de interrogación ? al término de búsqueda: >>> id? Signature: id(obj, /) Docstring: Return the identity of an object. This is guaranteed to be unique among simultaneously existing objects. (CPython uses the object s memory address.) Type: builtin_function_or_method 3.1. Datos 57 -- 61 of 516 -- Aprende Python"
+}

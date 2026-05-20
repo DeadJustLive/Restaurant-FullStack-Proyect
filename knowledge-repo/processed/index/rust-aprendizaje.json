@@ -1,0 +1,480 @@
+{
+  "id": "rust-aprendizaje",
+  "title": "Capítulo 1: Empezando con Rust 2",
+  "author": "",
+  "pages": 188,
+  "sourceFile": "source-pdfs/rust-aprendizaje.pdf",
+  "processedAt": "2026-05-17T07:11:23.884Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "Capítulo 1:: Empezando con Rust 2",
+      "file": "chapters/rust-aprendizaje/01-capítulo-1-empezando-con-rust-2.md",
+      "words": 34
+    },
+    {
+      "index": 2,
+      "title": "Capítulo 3:: Archivo I / O 10",
+      "file": "chapters/rust-aprendizaje/02-capítulo-3-archivo-i-o-10.md",
+      "words": 31
+    },
+    {
+      "index": 3,
+      "title": "Capítulo 7:: Auto-desreferenciación 19",
+      "file": "chapters/rust-aprendizaje/03-capítulo-7-auto-desreferenciación-19.md",
+      "words": 33
+    },
+    {
+      "index": 4,
+      "title": "Capítulo 8:: Bucles 22",
+      "file": "chapters/rust-aprendizaje/04-capítulo-8-bucles-22.md",
+      "words": 45
+    },
+    {
+      "index": 5,
+      "title": "Capítulo 9:: Carga 27",
+      "file": "chapters/rust-aprendizaje/05-capítulo-9-carga-27.md",
+      "words": 55
+    },
+    {
+      "index": 6,
+      "title": "Capítulo 21:: Instrumentos de cuerda 64",
+      "file": "chapters/rust-aprendizaje/06-capítulo-21-instrumentos-de-cuerda-64.md",
+      "words": 33
+    },
+    {
+      "index": 7,
+      "title": "Capítulo 24:: La coincidencia de patrones 70",
+      "file": "chapters/rust-aprendizaje/07-capítulo-24-la-coincidencia-de-patrones-70.md",
+      "words": 47
+    },
+    {
+      "index": 8,
+      "title": "Capítulo 25:: Macros 76",
+      "file": "chapters/rust-aprendizaje/08-capítulo-25-macros-76.md",
+      "words": 51
+    },
+    {
+      "index": 9,
+      "title": "Capítulo 26:: Manejo de errores 82",
+      "file": "chapters/rust-aprendizaje/09-capítulo-26-manejo-de-errores-82.md",
+      "words": 30
+    },
+    {
+      "index": 10,
+      "title": "Capítulo 29:: Módulos 93",
+      "file": "chapters/rust-aprendizaje/10-capítulo-29-módulos-93.md",
+      "words": 36
+    },
+    {
+      "index": 11,
+      "title": "Capítulo 30:: Opción 100",
+      "file": "chapters/rust-aprendizaje/11-capítulo-30-opción-100.md",
+      "words": 39
+    },
+    {
+      "index": 12,
+      "title": "Capítulo 34:: Paralelismo 109",
+      "file": "chapters/rust-aprendizaje/12-capítulo-34-paralelismo-109.md",
+      "words": 39
+    },
+    {
+      "index": 13,
+      "title": "Capítulo 37:: Propiedad 121",
+      "file": "chapters/rust-aprendizaje/13-capítulo-37-propiedad-121.md",
+      "words": 31
+    },
+    {
+      "index": 14,
+      "title": "Capítulo 39:: Punteros en bruto 127",
+      "file": "chapters/rust-aprendizaje/14-capítulo-39-punteros-en-bruto-127.md",
+      "words": 42
+    },
+    {
+      "index": 15,
+      "title": "Capítulo 40:: Rasgos 130",
+      "file": "chapters/rust-aprendizaje/15-capítulo-40-rasgos-130.md",
+      "words": 64
+    },
+    {
+      "index": 16,
+      "title": "Capítulo 45:: Serde 149",
+      "file": "chapters/rust-aprendizaje/16-capítulo-45-serde-149.md",
+      "words": 79
+    },
+    {
+      "index": 17,
+      "title": "Capítulo 46:: The Drop Rasgo - Destructores en Rust 160",
+      "file": "chapters/rust-aprendizaje/17-capítulo-46-the-drop-rasgo---destructores-en-rust-160.md",
+      "words": 34
+    },
+    {
+      "index": 18,
+      "title": "Capítulo 48:: Tuplas 163",
+      "file": "chapters/rust-aprendizaje/18-capítulo-48-tuplas-163.md",
+      "words": 33
+    },
+    {
+      "index": 19,
+      "title": "Capítulo 50:: Vidas 169",
+      "file": "chapters/rust-aprendizaje/19-capítulo-50-vidas-169.md",
+      "words": 190
+    },
+    {
+      "index": 20,
+      "title": "Capítulo 1:: Empezando con Rust",
+      "file": "chapters/rust-aprendizaje/20-capítulo-1-empezando-con-rust.md",
+      "words": 1298
+    },
+    {
+      "index": 21,
+      "title": "Capítulo 2:: Aplicaciones GUI",
+      "file": "chapters/rust-aprendizaje/21-capítulo-2-aplicaciones-gui.md",
+      "words": 269
+    },
+    {
+      "index": 22,
+      "title": "Capítulo 3:: Archivo I / O",
+      "file": "chapters/rust-aprendizaje/22-capítulo-3-archivo-i-o.md",
+      "words": 352
+    },
+    {
+      "index": 23,
+      "title": "Capítulo 4:: Argumentos de línea de comando",
+      "file": "chapters/rust-aprendizaje/23-capítulo-4-argumentos-de-línea-de-comando.md",
+      "words": 502
+    },
+    {
+      "index": 24,
+      "title": "Capítulo 5:: Arreglos, vectores y cortes",
+      "file": "chapters/rust-aprendizaje/24-capítulo-5-arreglos-vectores-y-cortes.md",
+      "words": 611
+    },
+    {
+      "index": 25,
+      "title": "Capítulo 6:: Asamblea en línea",
+      "file": "chapters/rust-aprendizaje/25-capítulo-6-asamblea-en-línea.md",
+      "words": 454
+    },
+    {
+      "index": 26,
+      "title": "Capítulo 7:: Auto-desreferenciación",
+      "file": "chapters/rust-aprendizaje/26-capítulo-7-auto-desreferenciación.md",
+      "words": 731
+    },
+    {
+      "index": 27,
+      "title": "Capítulo 8:: Bucles",
+      "file": "chapters/rust-aprendizaje/27-capítulo-8-bucles.md",
+      "words": 801
+    },
+    {
+      "index": 28,
+      "title": "Capítulo 9:: Carga",
+      "file": "chapters/rust-aprendizaje/28-capítulo-9-carga.md",
+      "words": 707
+    },
+    {
+      "index": 29,
+      "title": "Capítulo 10:: Cierres y expresiones lambda.",
+      "file": "chapters/rust-aprendizaje/29-capítulo-10-cierres-y-expresiones-lambda.md",
+      "words": 453
+    },
+    {
+      "index": 30,
+      "title": "Capítulo 11:: Constantes asociadas",
+      "file": "chapters/rust-aprendizaje/30-capítulo-11-constantes-asociadas.md",
+      "words": 161
+    },
+    {
+      "index": 31,
+      "title": "Capítulo 12:: Derivado personalizado:",
+      "file": "chapters/rust-aprendizaje/31-capítulo-12-derivado-personalizado.md",
+      "words": 489
+    },
+    {
+      "index": 32,
+      "title": "Capítulo 13:: Documentación",
+      "file": "chapters/rust-aprendizaje/32-capítulo-13-documentación.md",
+      "words": 668
+    },
+    {
+      "index": 33,
+      "title": "Capítulo 14:: estafa",
+      "file": "chapters/rust-aprendizaje/33-capítulo-14-estafa.md",
+      "words": 65
+    },
+    {
+      "index": 34,
+      "title": "Capítulo 15:: Estructuras",
+      "file": "chapters/rust-aprendizaje/34-capítulo-15-estructuras.md",
+      "words": 1776
+    },
+    {
+      "index": 35,
+      "title": "Capítulo 16:: Futuros y Async IO",
+      "file": "chapters/rust-aprendizaje/35-capítulo-16-futuros-y-async-io.md",
+      "words": 164
+    },
+    {
+      "index": 36,
+      "title": "Capítulo 17:: Generación de números",
+      "file": "chapters/rust-aprendizaje/36-capítulo-17-generación-de-números.md",
+      "words": 451
+    },
+    {
+      "index": 37,
+      "title": "Capítulo 18:: Genéricos",
+      "file": "chapters/rust-aprendizaje/37-capítulo-18-genéricos.md",
+      "words": 289
+    },
+    {
+      "index": 38,
+      "title": "Capítulo 19:: Globales",
+      "file": "chapters/rust-aprendizaje/38-capítulo-19-globales.md",
+      "words": 195
+    },
+    {
+      "index": 39,
+      "title": "DEADBEEF",
+      "file": "chapters/rust-aprendizaje/39-deadbeef.md",
+      "words": 693
+    },
+    {
+      "index": 40,
+      "title": "Capítulo 20:: Guía de estilo de óxido",
+      "file": "chapters/rust-aprendizaje/40-capítulo-20-guía-de-estilo-de-óxido.md",
+      "words": 984
+    },
+    {
+      "index": 41,
+      "title": "Capítulo 21:: Instrumentos de cuerda",
+      "file": "chapters/rust-aprendizaje/41-capítulo-21-instrumentos-de-cuerda.md",
+      "words": 637
+    },
+    {
+      "index": 42,
+      "title": "[link (name = \"snappy\")] // la biblioteca extranjera a la que se vinculará (opcional)",
+      "file": "chapters/rust-aprendizaje/42-link-name-snappy-la-biblioteca-extranjera-a-la-que-se-vinculará-opcional.md",
+      "words": 95
+    },
+    {
+      "index": 43,
+      "title": "Capítulo 23:: Iteradores",
+      "file": "chapters/rust-aprendizaje/43-capítulo-23-iteradores.md",
+      "words": 344
+    },
+    {
+      "index": 44,
+      "title": "Capítulo 24:: La coincidencia de patrones",
+      "file": "chapters/rust-aprendizaje/44-capítulo-24-la-coincidencia-de-patrones.md",
+      "words": 697
+    },
+    {
+      "index": 45,
+      "title": "CMYK",
+      "file": "chapters/rust-aprendizaje/45-cmyk.md",
+      "words": 700
+    },
+    {
+      "index": 46,
+      "title": "Capítulo 25:: Macros",
+      "file": "chapters/rust-aprendizaje/46-capítulo-25-macros.md",
+      "words": 1323
+    },
+    {
+      "index": 47,
+      "title": "Capítulo 26:: Manejo de errores",
+      "file": "chapters/rust-aprendizaje/47-capítulo-26-manejo-de-errores.md",
+      "words": 1005
+    },
+    {
+      "index": 48,
+      "title": "Capítulo 27:: Manejo de señales",
+      "file": "chapters/rust-aprendizaje/48-capítulo-27-manejo-de-señales.md",
+      "words": 483
+    },
+    {
+      "index": 49,
+      "title": "Capítulo 28:: Marco web de hierro",
+      "file": "chapters/rust-aprendizaje/49-capítulo-28-marco-web-de-hierro.md",
+      "words": 447
+    },
+    {
+      "index": 50,
+      "title": "parte d: e la ruta de la URL como una variable y la pase a nuestro controlador.",
+      "file": "chapters/rust-aprendizaje/50-parte-d-e-la-ruta-de-la-url-como-una-variable-y-la-pase-a-nuestro-controlador.md",
+      "words": 191
+    },
+    {
+      "index": 51,
+      "title": "Capítulo 29:: Módulos",
+      "file": "chapters/rust-aprendizaje/51-capítulo-29-módulos.md",
+      "words": 596
+    },
+    {
+      "index": 52,
+      "title": "02. Módulos - En el mismo archivo",
+      "file": "chapters/rust-aprendizaje/52-02-módulos---en-el-mismo-archivo.md",
+      "words": 36
+    },
+    {
+      "index": 53,
+      "title": "03. Módulos - En un archivo diferente en el mismo directorio",
+      "file": "chapters/rust-aprendizaje/53-03-módulos---en-un-archivo-diferente-en-el-mismo-directorio.md",
+      "words": 139
+    },
+    {
+      "index": 54,
+      "title": "04. Módulos - En un archivo diferente en un directorio diferente",
+      "file": "chapters/rust-aprendizaje/54-04-módulos---en-un-archivo-diferente-en-un-directorio-diferente.md",
+      "words": 109
+    },
+    {
+      "index": 55,
+      "title": "06. Módulos - Con super",
+      "file": "chapters/rust-aprendizaje/55-06-módulos---con-super.md",
+      "words": 77
+    },
+    {
+      "index": 56,
+      "title": "07. Módulos - Con use",
+      "file": "chapters/rust-aprendizaje/56-07-módulos---con-use.md",
+      "words": 102
+    },
+    {
+      "index": 57,
+      "title": "Capítulo 30:: Opción",
+      "file": "chapters/rust-aprendizaje/57-capítulo-30-opción.md",
+      "words": 934
+    },
+    {
+      "index": 58,
+      "title": "Capítulo 31:: Operadores y sobrecargas",
+      "file": "chapters/rust-aprendizaje/58-capítulo-31-operadores-y-sobrecargas.md",
+      "words": 274
+    },
+    {
+      "index": 59,
+      "title": "Capítulo 32:: Óxido de metal desnudo",
+      "file": "chapters/rust-aprendizaje/59-capítulo-32-óxido-de-metal-desnudo.md",
+      "words": 188
+    },
+    {
+      "index": 60,
+      "title": "Capítulo 33:: Pánicos y Desenrollamientos",
+      "file": "chapters/rust-aprendizaje/60-capítulo-33-pánicos-y-desenrollamientos.md",
+      "words": 381
+    },
+    {
+      "index": 61,
+      "title": "Capítulo 34:: Paralelismo",
+      "file": "chapters/rust-aprendizaje/61-capítulo-34-paralelismo.md",
+      "words": 2283
+    },
+    {
+      "index": 62,
+      "title": "Capítulo 35:: Pautas inseguras",
+      "file": "chapters/rust-aprendizaje/62-capítulo-35-pautas-inseguras.md",
+      "words": 486
+    },
+    {
+      "index": 63,
+      "title": "parte d: e Struct.",
+      "file": "chapters/rust-aprendizaje/63-parte-d-e-struct.md",
+      "words": 186
+    },
+    {
+      "index": 64,
+      "title": "Capítulo 37:: Propiedad",
+      "file": "chapters/rust-aprendizaje/64-capítulo-37-propiedad.md",
+      "words": 1108
+    },
+    {
+      "index": 65,
+      "title": "Capítulo 38:: Pruebas",
+      "file": "chapters/rust-aprendizaje/65-capítulo-38-pruebas.md",
+      "words": 338
+    },
+    {
+      "index": 66,
+      "title": "Capítulo 39:: Punteros en bruto",
+      "file": "chapters/rust-aprendizaje/66-capítulo-39-punteros-en-bruto.md",
+      "words": 638
+    },
+    {
+      "index": 67,
+      "title": "Capítulo 40:: Rasgos",
+      "file": "chapters/rust-aprendizaje/67-capítulo-40-rasgos.md",
+      "words": 1138
+    },
+    {
+      "index": 68,
+      "title": "Capítulo 41:: Rasgos de conversión",
+      "file": "chapters/rust-aprendizaje/68-capítulo-41-rasgos-de-conversión.md",
+      "words": 557
+    },
+    {
+      "index": 69,
+      "title": "Capítulo 42:: Redes TCP",
+      "file": "chapters/rust-aprendizaje/69-capítulo-42-redes-tcp.md",
+      "words": 310
+    },
+    {
+      "index": 70,
+      "title": "Capítulo 43:: Regex",
+      "file": "chapters/rust-aprendizaje/70-capítulo-43-regex.md",
+      "words": 452
+    },
+    {
+      "index": 71,
+      "title": "Capítulo 44:: Rust orientado a objetos",
+      "file": "chapters/rust-aprendizaje/71-capítulo-44-rust-orientado-a-objetos.md",
+      "words": 979
+    },
+    {
+      "index": 72,
+      "title": "Capítulo 45:: Serde",
+      "file": "chapters/rust-aprendizaje/72-capítulo-45-serde.md",
+      "words": 2375
+    },
+    {
+      "index": 73,
+      "title": "Capítulo 46:: The Drop Rasgo - Destructores",
+      "file": "chapters/rust-aprendizaje/73-capítulo-46-the-drop-rasgo---destructores.md",
+      "words": 401
+    },
+    {
+      "index": 74,
+      "title": "Capítulo 47:: Tipos de datos primitivos",
+      "file": "chapters/rust-aprendizaje/74-capítulo-47-tipos-de-datos-primitivos.md",
+      "words": 189
+    },
+    {
+      "index": 75,
+      "title": "Capítulo 48:: Tuplas",
+      "file": "chapters/rust-aprendizaje/75-capítulo-48-tuplas.md",
+      "words": 902
+    },
+    {
+      "index": 76,
+      "title": "Capítulo 49:: Valores en caja",
+      "file": "chapters/rust-aprendizaje/76-capítulo-49-valores-en-caja.md",
+      "words": 259
+    },
+    {
+      "index": 77,
+      "title": "Capítulo 50:: Vidas",
+      "file": "chapters/rust-aprendizaje/77-capítulo-50-vidas.md",
+      "words": 779
+    },
+    {
+      "index": 78,
+      "title": "D. Ataro, David Grayson, Eric Platon, gavinb, IceyEC, John, Jon",
+      "file": "chapters/rust-aprendizaje/78-d-ataro-david-grayson-eric-platon-gavinb-iceyec-john-jon.md",
+      "words": 478
+    }
+  ],
+  "learningIntegrated": true
+}

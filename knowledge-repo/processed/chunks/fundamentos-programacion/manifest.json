@@ -1,0 +1,58 @@
+{
+  "bookId": "fundamentos-programacion",
+  "totalChunks": 7,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.164Z",
+  "chunks": [
+    {
+      "id": "fundamentos-programacion-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "Contenido completo",
+      "words": 500
+    },
+    {
+      "id": "fundamentos-programacion-ch001-001",
+      "chapterIndex": 1,
+      "chunkIndex": 1,
+      "title": "Contenido completo",
+      "words": 500
+    },
+    {
+      "id": "fundamentos-programacion-ch001-002",
+      "chapterIndex": 1,
+      "chunkIndex": 2,
+      "title": "Contenido completo",
+      "words": 500
+    },
+    {
+      "id": "fundamentos-programacion-ch001-003",
+      "chapterIndex": 1,
+      "chunkIndex": 3,
+      "title": "Contenido completo",
+      "words": 500
+    },
+    {
+      "id": "fundamentos-programacion-ch001-004",
+      "chapterIndex": 1,
+      "chunkIndex": 4,
+      "title": "Contenido completo",
+      "words": 500
+    },
+    {
+      "id": "fundamentos-programacion-ch001-005",
+      "chapterIndex": 1,
+      "chunkIndex": 5,
+      "title": "Contenido completo",
+      "words": 500
+    },
+    {
+      "id": "fundamentos-programacion-ch001-006",
+      "chapterIndex": 1,
+      "chunkIndex": 6,
+      "title": "Contenido completo",
+      "words": 143
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# OBSERVACIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 349)
+
+## Contenido
+# OBSERVACIONES:
+
+* puede no haber lugar porque se acaba el tablero
+o porque est´a ocupada
+*/
+{
+if (esClaseA(tipoPieza))
+{
+(dirA,dirB,dirC1,dirC2)
+:= diresDePiezaClaseA(tipoPieza,rotPieza)
+hayL := hayLgPzClaseAEnDires(dirA,dirB,dirC1,dirC2)
+}
+else // Si no es clase A, es clase B
+{
+(dirA,dirB,dirC)
+:= diresDePiezaClaseB(tipoPieza,rotPieza)
+hayL := hayLgPzClaseBEnDires(dirA,dirB,dirC)
+}
+return (hayL)
+}
+//----------------------------------------------------
+function hayLgPzClaseAEnDires(dirA,dirB,dirC1,dirC2)
+/*
+PROP´OSITO: completar el trabajo de hayLugarParaPiezaTipo
+para las piezas de clase A

@@ -1,3 +1,7 @@
+// @use(auth)
+// @kind(service)
+// @contract(in: RegisterRequestDTO, LoginRequestDTO -> out: AuthResponseDTO)
+// @limit(lines: 400)
 package cl.triskeledu.auth.service;
 
 import cl.triskeledu.auth.dto.request.LoginRequestDTO;
@@ -7,6 +11,7 @@ import cl.triskeledu.auth.dto.response.AuthResponseDTO;
 /**
  * =============================================================================
  * SERVICE INTERFACE: AuthService
+ * =============================================================================
  * =============================================================================
  *
  * PROPÓSITO:

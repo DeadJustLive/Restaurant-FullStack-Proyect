@@ -1,8 +1,23 @@
+// @use(auth)
+// @kind(controller)
+// @contract(in: RegisterRequestDTO, LoginRequestDTO -> out: AuthResponseDTO)
+// @limit(lines: 400)
 package cl.triskeledu.auth.controller;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+//import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import cl.triskeledu.auth.dto.request.LoginRequestDTO;
 import cl.triskeledu.auth.dto.request.RegisterRequestDTO;
 import cl.triskeledu.auth.dto.response.AuthResponseDTO;
+import cl.triskeledu.auth.dto.response.PermisoResponseDTO;
 import cl.triskeledu.auth.entity.UserCredential;
 import cl.triskeledu.auth.entity.enums.RolUsuario;
 import cl.triskeledu.auth.repository.UserCredentialRepository;
@@ -10,11 +25,6 @@ import cl.triskeledu.auth.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import cl.triskeledu.auth.dto.response.PermisoResponseDTO;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.*;
 
 /**
  * =============================================================================
@@ -39,7 +49,7 @@ import org.springframework.web.bind.annotation.*;
  * - En producción: considera loguear la IP del cliente para detección de
  * ataques.
  *
- * TODO: Implementar rate limiting en /login para prevenir ataques de fuerza
+ * TO-DO: Implementar rate limiting en /login para prevenir ataques de fuerza
  * bruta.
  * Opciones: Spring Boot Actuator + Bucket4j, o Kong API Gateway.
  *
@@ -65,7 +75,7 @@ public class AuthController {
      * PATH: /api/v1/auth/register
      * ACCESO: Público para ROLE_CL (auto-registro de clientes).
      * Para ROLE_CO, ROLE_RP, ROLE_AD: requiere JWT con ROLE_AD o ROLE_SA.
-     * TODO: Separar en /register (cliente) y /admin/register (empleados).
+     * TO-DO: Separar en /register (cliente) y /admin/register (empleados).
      *
      * REQUEST BODY (RegisterRequestDTO):
      * {
@@ -127,7 +137,8 @@ public class AuthController {
      * SEGURIDAD:
      * - REQUIERE HTTPS. La contraseña viaja en texto plano en el body.
      * - No loguear el body completo. Solo loguear el username.
-     * - TODO: Implementar rate limiting: máximo 5 intentos fallidos por IP/username
+     * - TO-DO: Implementar rate limiting: máximo 5 intentos fallidos por
+     * IP/username
      * en 15 minutos.
      */
     @PostMapping("/login")
@@ -163,12 +174,13 @@ public class AuthController {
      * un 401 en cualquier request (indica que el JWT expiró).
      * El refresh token tiene mayor duración (7 días vs 1 hora del JWT).
      *
-     * TODO: Implementar cuando RefreshTokenRepository esté disponible.
+     * TO-DO: Implementar cuando RefreshTokenRepository esté disponible.
      */
     @PostMapping("/refresh")
-    public ResponseEntity<AuthResponseDTO> refresh(@RequestParam String refreshToken) {
+    public ResponseEntity<AuthResponseDTO> refresh(
+            @Valid @RequestBody cl.triskeledu.auth.dto.request.RefreshTokenRequestDTO dto) {
         log.info("[AuthController] POST /refresh");
-        return ResponseEntity.ok(authService.refresh(refreshToken));
+        return ResponseEntity.ok(authService.refresh(dto.getRefreshToken()));
     }
 
     // =========================================================================
@@ -196,12 +208,12 @@ public class AuthController {
      * El cliente DEBE descartar el JWT del lado del cliente al hacer logout.
      * Para revocación inmediata del JWT: implementar blacklist en Redis.
      *
-     * TODO: Implementar cuando RefreshTokenRepository esté disponible.
+     * TO-DO: Implementar cuando RefreshTokenRepository esté disponible.
      */
     @PostMapping("/logout")
-    public ResponseEntity<Void> logout(@RequestParam String refreshToken) {
+    public ResponseEntity<Void> logout(@Valid @RequestBody cl.triskeledu.auth.dto.request.RefreshTokenRequestDTO dto) {
         log.info("[AuthController] POST /logout");
-        authService.logout(refreshToken);
+        authService.logout(dto.getRefreshToken());
         return ResponseEntity.noContent().build();
     }
     // ENDPOINT: GET /api/v1/auth/health
@@ -216,8 +228,8 @@ public class AuthController {
      *
      * RESPUESTA EXITOSA: 200 OK
      * {
-     *   "status": "UP",
-     *   "service": "ms-auth"
+     * "status": "UP",
+     * "service": "ms-auth"
      * }
      */
     @GetMapping("/health")
@@ -230,7 +242,8 @@ public class AuthController {
     }
 
     /**
-     * Endpoint interno para validación de acceso vía Feign (usado por ms-menu, ms-inventario, etc.)
+     * Endpoint interno para validación de acceso vía Feign (usado por ms-menu,
+     * ms-inventario, etc.)
      */
     @GetMapping("/validar-acceso")
     public ResponseEntity<PermisoResponseDTO> validarAcceso(
@@ -238,18 +251,21 @@ public class AuthController {
             @RequestParam("modulo") String modulo,
             @RequestParam("accion") String accion) {
 
-        log.info("[AuthController] Feign Request: Validando acceso de credencial {} para módulo {} acción {}", credencialId, modulo, accion);
+        log.info("[AuthController] Feign Request: Validando acceso de credencial {} para módulo {} acción {}",
+                credencialId, modulo, accion);
 
         UserCredential cred = userCredentialRepository.findById(credencialId).orElse(null);
 
         if (cred == null) {
             log.warn("[AuthController] Credencial no encontrada: {}", credencialId);
-            return ResponseEntity.ok(PermisoResponseDTO.builder().permitido(false).mensaje("Credencial no encontrada").build());
+            return ResponseEntity
+                    .ok(PermisoResponseDTO.builder().permitido(false).mensaje("Credencial no encontrada").build());
         }
 
         if (!cred.getActivo()) {
             log.warn("[AuthController] Credencial desactivada: {}", credencialId);
-            return ResponseEntity.ok(PermisoResponseDTO.builder().permitido(false).mensaje("Cuenta desactivada").build());
+            return ResponseEntity
+                    .ok(PermisoResponseDTO.builder().permitido(false).mensaje("Cuenta desactivada").build());
         }
 
         RolUsuario rol = cred.getRol();

@@ -1,0 +1,11 @@
+{
+  "id": "algoritmos-pseudocodigo-ordinogramas-ch048-001",
+  "bookId": "algoritmos-pseudocodigo-ordinogramas",
+  "chapterIndex": 48,
+  "chunkIndex": 1,
+  "title": "Capítulo 10",
+  "start": 450,
+  "end": 648,
+  "words": 198,
+  "content": "repetitivas permiten ejecutar un bloque de instrucciones repetidamente, escribiéndolas una sola vez en el algoritmo, reduciendo de este modo el código del mismo. Existen tres tipos de instrucciones repetitivas:  Mientras.  Hacer...mientras.  Para. El problema planteado se puede resolver utilizando, indistintamente, cualquiera de las tres instrucciones repetitivas. Sin embargo, como veremos en el apartado “10.5. Cuándo usar un bucle u otro”, para algunas tareas puede ser más conveniente utilizar una determinada instrucción que otra. A las instrucciones repetitivas también se las conoce como bucles, ciclos o lazos. 10.2. Repetitiva mientras En pseudocódigo, para escribir una instrucción repetitiva mientras, se utiliza la sintaxis: mientras ( <expresión_lógica> ) <bloque_de_instrucciones> fin_mientras /* Mientras que la <expresión_lógica> sea verdadera, se ejecuta el <bloque_de_instrucciones>. */ Igual que en las instrucciones alternativas doble y simple, a la <expresión_lógica> de una instrucción repetitiva mientras, también se le llama condición. Para que se ejecute el <bloque_de_instrucciones>, la condición tiene que ser verdadera. Por el contrario, si la condición es falsa, el <bloque_de_instrucciones> no se ejecuta. Por tanto, cuando el flujo de un algoritmo llega a un bucle mientras, existen dos posibilidades: -- 113 of 180 -- Libro de Algoritmos de “Abrirllave.com” 114 / 180"
+}

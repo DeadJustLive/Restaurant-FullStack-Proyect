@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch311-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 311,
+  "chunkIndex": 0,
+  "title": "PROP´OSITO:",
+  "start": 0,
+  "end": 7,
+  "words": 7,
+  "content": "# K_L, K_ARROW_RIGHT -> { OperacionMoverPiezaAl(Este) }"
+}

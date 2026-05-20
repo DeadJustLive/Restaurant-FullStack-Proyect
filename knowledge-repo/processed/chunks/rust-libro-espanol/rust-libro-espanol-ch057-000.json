@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch057-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 57,
+  "chunkIndex": 0,
+  "title": "¡Hola, Cargo!",
+  "start": 0,
+  "end": 31,
+  "words": 31,
+  "content": "# ¡Hola, Cargo! ## ¡Hola, Cargo! ### Creación de un proyecto con Cargo ### Construir y ejecutar un proyecto de Cargo ### Construyendo una versión de lanzamiento ### Cargo como convención"
+}

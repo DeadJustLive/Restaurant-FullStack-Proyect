@@ -1,0 +1,37 @@
+# OOCSS y SMACSS
+
+## Fuente
+react-aprendiz-maestro (Cap. 139)
+
+## Contenido
+# OOCSS y SMACSS
+
+Al igual que BEM, tanto OOCSS como SMACSS tienen sus propias convenciones y
+metodologías. En el momento de escribir esto, no existen librerías específicas para
+React de OOCSS o SMACSS.
+1http://oocss.org/
+2https://smacss.com/
+3https://en.bem.info/method/
+4http://getbem.com/
+5https://www.npmjs.com/package/react-bem-helper
+6https://www.npmjs.com/package/react-bem-render
+7https://www.npmjs.com/package/bem-react
+8https://www.npmjs.com/package/postcss-bem-linter
+
+-- 180 of 226 --
+
+Aplicando Estilo a React 163
+Pros y Contras
+El beneficio principal de adoptar una metodología es que estructura tu proyecto.
+Las metodologías resuelven algunos problemas básicos y te ayudan a desarrollar
+buen software a largo plazo. Las convenciones que traen a un proyecto ayudan al
+mantenimiento del mismo y son menos propensas a provocar un desastre.
+Por el contrario, una vez adoptas una, te será muy difícil migrar a otra.
+Las metodologías también traen sus propias particularidades (p.e. esquemas de nom-
+brado complejos). Esto puede hacer que algunas cosas se vuelvan más complicadas
+de lo que deberían ser. No necesariamente arreglan los mayores problemas sino que,
+a veces, simplemente los rodean.
+
+-- 181 of 226 --
+
+Aplicando Estilo a React 164

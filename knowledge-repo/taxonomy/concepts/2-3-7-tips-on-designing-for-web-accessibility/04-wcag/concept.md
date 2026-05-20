@@ -1,0 +1,26 @@
+# WCAG
+
+## Fuente
+4/2/2018 Tips on Designing for Web Accessibility • Tips for Getting Started • WAI (Cap. 4)
+
+## Contenido
+# WCAG
+
+Consistent Navigation 3.2.3 (Understanding 3.2.3)
+Multiple Ways 2.4.5 (Understanding 2.4.5)
+User Story
+How consistency and navigation can help someone with cognitive difficulties
+keyboard to navigate
+keyboard to navigate
+Provide clear and consistent navigation options 	SHARE
+
+-- 6 of 13 --
+
+4/2/2018 Tips on Designing for Web Accessibility • Tips for Getting Started • WAI
+https://www.w3.org/WAI/gettingstarted/tips/designing.html 7/13
+Ensure that all fields have a descriptive label adjacent to the field. For left-to-right languages,
+labels are usually positioned to the left or above the field, except for checkboxes and radio buttons
+where they are usually to the right. Avoid having too much space between labels and fields.
+Example: Labels and input fields associated by proximity
+Add a comment
+For more information

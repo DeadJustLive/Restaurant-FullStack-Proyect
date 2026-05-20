@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch004-000",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 4,
+  "chunkIndex": 0,
+  "title": "3. Si la función es invocada como un método de un objeto, this referenciará a dicho objeto;",
+  "start": 0,
+  "end": 18,
+  "words": 18,
+  "content": "# 3. Si la función es invocada como un método de un objeto, this referenciará a dicho objeto;"
+}

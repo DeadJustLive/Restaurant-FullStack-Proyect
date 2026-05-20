@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch025-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 25,
+  "chunkIndex": 1,
+  "title": "parte d: el mismo, como un título, un enlace o una imagen. Lo importante, es que",
+  "start": 450,
+  "end": 590,
+  "words": 140,
+  "content": "nombre del sitio web más un título que describa el contenido de la página. Por ejemplo: \"Ministerio del Interior - Chile: Acerca del Ministro\". De esta manera, esta infor- mación será la que aparezca en los buscadores cuando se muestre el enlace al usuario que busca alguna palabra o frase que tenga dicha página. Metadadato: es información acerca de la información y se define mediante la etiqueta <meta>. Para hacerlo se pueden emplear las descripciones del W3C o bien las del proyecto Dublin Core, las cuales permiten generar información descriptiva acerca de contenidos, autores, copyright y otras descripciones acerca de los contenidos del sitio web. Los más usados son: Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile Tag: etiqueta, es la marca que permite dar estructura a un documento HTML. -- 44 of 122 --"
+}

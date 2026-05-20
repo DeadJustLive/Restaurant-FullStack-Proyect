@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch034-006",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 34,
+  "chunkIndex": 6,
+  "title": "3. Una vez llegado al último ítem de la lista, comenzar de nuevo con el primero.",
+  "start": 2700,
+  "end": 2902,
+  "words": 202,
+  "content": "desea y que se la quiere en formato JSON data : { q : 'select title,abstract,url from search.news where query=\"cat\"', format : 'json' }, // se ejecuta una función al ser satisfactoria la petición success : function(response) { console.log(response); } }); 60 -- 61 of 107 -- jQuery se encarga de solucionar todos los aspectos complejos de la petición JSONP. Lo único que debe hacer es especificar el nombre de la función de devolución (en este caso “callback”, según lo especifica YQL) y el resultado final será como una petición Ajax normal. 0.7.6. Eventos Ajax A menudo, querrá ejecutar una función cuando una petición haya comenzado o terminado, como por ejemplo, mostrar o ocultar un indicador. En lugar de definir estas funciones dentro de cada petición, jQuery provee la posibilidad de vincular eventos Ajax a elementos seleccionados. Para una lista completa de eventos Ajax, puede consultar http://docs.jquery.com/Ajax_Events. Mostrar/Ocultar un indicador utilizando Eventos Ajax $('#loading_indicator') .ajaxStart(function() { $(this).show(); }) .ajaxStop(function() { $(this).hide(); }); 0.7.7. Ejercicios Cargar Contenido Externo Abra el archivo /ejercicios/index.html en el navegador. Realice el ejercicio utilizando el archivo /ejercicios/js/load.js. La tarea es cargar el contenido de un artículo de blog cuando el usuario haga click en el título del ítem."
+}

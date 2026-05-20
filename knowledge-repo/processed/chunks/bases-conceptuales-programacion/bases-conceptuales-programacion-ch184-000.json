@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch184-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 184,
+  "chunkIndex": 0,
+  "title": "OBSERVACIONES:",
+  "start": 0,
+  "end": 48,
+  "words": 48,
+  "content": "# PRECONDICIONES: * default <hay un tablero de Zilfost codificado> * la celda actual est´a en la zona de n´umeros a determinar si se puede mover * dir es Este u Oeste (no tiene sentido que sea Norte o Sur, porque las zonas de n´umeros tienen altura 1)"
+}

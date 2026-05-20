@@ -1,0 +1,1122 @@
+{
+  "id": "scrum-y-xp-desde-las-trincheras",
+  "title": "scrum-y-xp-desde-las-trincheras",
+  "author": "",
+  "pages": 122,
+  "sourceFile": "source-pdfs/scrum-y-xp-desde-las-trincheras.pdf",
+  "processedAt": "2026-05-17T05:37:33.564Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "SCRUM Y XP DESDE LAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/01-scrum-y-xp-desde-las.md",
+      "words": 0
+    },
+    {
+      "index": 2,
+      "title": "TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/02-trincheras.md",
+      "words": 17
+    },
+    {
+      "index": 3,
+      "title": "VERSION GRATUITA ON-LINE",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/03-version-gratuita-on-line.md",
+      "words": 446
+    },
+    {
+      "index": 4,
+      "title": "AGRADECIMIENTOS \t4",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/04-agradecimientos-4.md",
+      "words": 0
+    },
+    {
+      "index": 5,
+      "title": "PRÓLOGO DE JEFF SUTHERLAND \t10",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/05-prólogo-de-jeff-sutherland-10.md",
+      "words": 0
+    },
+    {
+      "index": 6,
+      "title": "PRÓLOGO DE MIKE COHN \t12",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/06-prólogo-de-mike-cohn-12.md",
+      "words": 0
+    },
+    {
+      "index": 7,
+      "title": "PREFACIO - ¡HEY, SCRUM FUNCIONA! \t13",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/07-prefacio---hey-scrum-funciona-13.md",
+      "words": 0
+    },
+    {
+      "index": 8,
+      "title": "INTRODUCCIÓN \t14",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/08-introducción-14.md",
+      "words": 15
+    },
+    {
+      "index": 9,
+      "title": "COMO HACEMOS PILAS DE PRODUCTO \t17",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/09-como-hacemos-pilas-de-producto-17.md",
+      "words": 16
+    },
+    {
+      "index": 10,
+      "title": "COMO NOS PREPARAMOS PARA LA PLANIFICACIÓN DE SPRINT",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/10-como-nos-preparamos-para-la-planificación-de-sprint.md",
+      "words": 1
+    },
+    {
+      "index": 11,
+      "title": "COMO HACEMOS LA PLANIFICACIÓN DE SPRINT \t22",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/11-como-hacemos-la-planificación-de-sprint-22.md",
+      "words": 150
+    },
+    {
+      "index": 12,
+      "title": "COMO COMUNICAMOS LOS SPRINTS \t48",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/12-como-comunicamos-los-sprints-48.md",
+      "words": 0
+    },
+    {
+      "index": 13,
+      "title": "COMO HACEMOS PILAS DE SPRINT \t50",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/13-como-hacemos-pilas-de-sprint-50.md",
+      "words": 57
+    },
+    {
+      "index": 14,
+      "title": "COMO DISTRIBUIMOS LA SALA DEL EQUIPO \t59",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/14-como-distribuimos-la-sala-del-equipo-59.md",
+      "words": 27
+    },
+    {
+      "index": 15,
+      "title": "CÓMO HACEMOS SCRUM DIARIOS \t63",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/15-cómo-hacemos-scrum-diarios-63.md",
+      "words": 22
+    },
+    {
+      "index": 16,
+      "title": "CÓMO HACEMOS LA DEMO DE SPRINT \t66",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/16-cómo-hacemos-la-demo-de-sprint-66.md",
+      "words": 26
+    },
+    {
+      "index": 17,
+      "title": "CÓMO HACEMOS RETROSPECTIVAS DE SPRINT \t69",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/17-cómo-hacemos-retrospectivas-de-sprint-69.md",
+      "words": 38
+    },
+    {
+      "index": 18,
+      "title": "DESCANSOS ENTRE SPRINTS \t74",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/18-descansos-entre-sprints-74.md",
+      "words": 33
+    },
+    {
+      "index": 19,
+      "title": "CÓMO COMBINAMOS SCRUM CON XP \t81",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/19-cómo-combinamos-scrum-con-xp-81.md",
+      "words": 34
+    },
+    {
+      "index": 20,
+      "title": "CÓMO HACEMOS PRUEBAS \t87",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/20-cómo-hacemos-pruebas-87.md",
+      "words": 75
+    },
+    {
+      "index": 21,
+      "title": "CÓMO MANEJAR MÚLTIPLES EQUIPOS SCRUM \t97",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/21-cómo-manejar-múltiples-equipos-scrum-97.md",
+      "words": 75
+    },
+    {
+      "index": 22,
+      "title": "CÓMO GESTIONAMOS EQUIPOS DISTRIBUIDOS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/22-cómo-gestionamos-equipos-distribuidos.md",
+      "words": 0
+    },
+    {
+      "index": 23,
+      "title": "GEOGRÁFICAMENTE \t116",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/23-geográficamente-116.md",
+      "words": 10
+    },
+    {
+      "index": 24,
+      "title": "LISTA DE COMPROBACIÓN DEL SCRUM MASTER \t119",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/24-lista-de-comprobación-del-scrum-master-119.md",
+      "words": 17
+    },
+    {
+      "index": 25,
+      "title": "EPÍLOGO \t120",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/25-epílogo-120.md",
+      "words": 0
+    },
+    {
+      "index": 26,
+      "title": "LECTURAS RECOMENDADAS \t121",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/26-lecturas-recomendadas-121.md",
+      "words": 0
+    },
+    {
+      "index": 27,
+      "title": "SOBRE EL AUTOR \t122",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/27-sobre-el-autor-122.md",
+      "words": 5
+    },
+    {
+      "index": 28,
+      "title": "10 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/28-10-scrum-y-xp-desde-las-trincheras.md",
+      "words": 461
+    },
+    {
+      "index": 29,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 11",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/29-scrum-y-xp-desde-las-trincheras-11.md",
+      "words": 145
+    },
+    {
+      "index": 30,
+      "title": "12 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/30-12-scrum-y-xp-desde-las-trincheras.md",
+      "words": 476
+    },
+    {
+      "index": 31,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 13",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/31-scrum-y-xp-desde-las-trincheras-13.md",
+      "words": 208
+    },
+    {
+      "index": 32,
+      "title": "14 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/32-14-scrum-y-xp-desde-las-trincheras.md",
+      "words": 365
+    },
+    {
+      "index": 33,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 15",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/33-scrum-y-xp-desde-las-trincheras-15.md",
+      "words": 50
+    },
+    {
+      "index": 34,
+      "title": "16 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/34-16-scrum-y-xp-desde-las-trincheras.md",
+      "words": 289
+    },
+    {
+      "index": 35,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 17",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/35-scrum-y-xp-desde-las-trincheras-17.md",
+      "words": 432
+    },
+    {
+      "index": 36,
+      "title": "18 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/36-18-scrum-y-xp-desde-las-trincheras.md",
+      "words": 358
+    },
+    {
+      "index": 37,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 19",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/37-scrum-y-xp-desde-las-trincheras-19.md",
+      "words": 273
+    },
+    {
+      "index": 38,
+      "title": "20 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/38-20-scrum-y-xp-desde-las-trincheras.md",
+      "words": 381
+    },
+    {
+      "index": 39,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 21",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/39-scrum-y-xp-desde-las-trincheras-21.md",
+      "words": 116
+    },
+    {
+      "index": 40,
+      "title": "22 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/40-22-scrum-y-xp-desde-las-trincheras.md",
+      "words": 243
+    },
+    {
+      "index": 41,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 23",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/41-scrum-y-xp-desde-las-trincheras-23.md",
+      "words": 335
+    },
+    {
+      "index": 42,
+      "title": "24 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/42-24-scrum-y-xp-desde-las-trincheras.md",
+      "words": 483
+    },
+    {
+      "index": 43,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 25",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/43-scrum-y-xp-desde-las-trincheras-25.md",
+      "words": 79
+    },
+    {
+      "index": 44,
+      "title": "1) La gente no piensa que vayan a durar tanto…",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/44-1-la-gente-no-piensa-que-vayan-a-durar-tanto.md",
+      "words": 380
+    },
+    {
+      "index": 45,
+      "title": "26 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/45-26-scrum-y-xp-desde-las-trincheras.md",
+      "words": 473
+    },
+    {
+      "index": 46,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 27",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/46-scrum-y-xp-desde-las-trincheras-27.md",
+      "words": 411
+    },
+    {
+      "index": 47,
+      "title": "28 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/47-28-scrum-y-xp-desde-las-trincheras.md",
+      "words": 0
+    },
+    {
+      "index": 48,
+      "title": "PILA DE PRODUCTO \tPILA DE SPRINT 1",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/48-pila-de-producto-pila-de-sprint-1.md",
+      "words": 181
+    },
+    {
+      "index": 49,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 29",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/49-scrum-y-xp-desde-las-trincheras-29.md",
+      "words": 0
+    },
+    {
+      "index": 50,
+      "title": "PILA DE PRODUCTO",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/50-pila-de-producto.md",
+      "words": 0
+    },
+    {
+      "index": 51,
+      "title": "VELOCIDAD ESTIMADA",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/51-velocidad-estimada.md",
+      "words": 95
+    },
+    {
+      "index": 52,
+      "title": "30 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/52-30-scrum-y-xp-desde-las-trincheras.md",
+      "words": 85
+    },
+    {
+      "index": 53,
+      "title": "1. A ojo de buen cubero",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/53-1-a-ojo-de-buen-cubero.md",
+      "words": 0
+    },
+    {
+      "index": 54,
+      "title": "2. Cálculos de velocidad",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/54-2-cálculos-de-velocidad.md",
+      "words": 51
+    },
+    {
+      "index": 55,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 31",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/55-scrum-y-xp-desde-las-trincheras-31.md",
+      "words": 209
+    },
+    {
+      "index": 56,
+      "title": "1. Decidir la velocidad estimada",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/56-1-decidir-la-velocidad-estimada.md",
+      "words": 0
+    },
+    {
+      "index": 57,
+      "title": "2. Calcular cuántas historias se pueden añadir sin sobrepasar la velocidad",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/57-2-calcular-cuántas-historias-se-pueden-añadir-sin-sobrepasar-la-velocidad.md",
+      "words": 66
+    },
+    {
+      "index": 58,
+      "title": "32 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/58-32-scrum-y-xp-desde-las-trincheras.md",
+      "words": 390
+    },
+    {
+      "index": 59,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 33",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/59-scrum-y-xp-desde-las-trincheras-33.md",
+      "words": 0
+    },
+    {
+      "index": 60,
+      "title": "DÍAS DISPONIBLES",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/60-días-disponibles.md",
+      "words": 0
+    },
+    {
+      "index": 61,
+      "title": "50 DÍAS-HOMBRE DISPONIBLES",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/61-50-días-hombre-disponibles.md",
+      "words": 93
+    },
+    {
+      "index": 62,
+      "title": "VELOCIDAD ESTIMADA DE ESTE SPRINT",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/62-velocidad-estimada-de-este-sprint.md",
+      "words": 0
+    },
+    {
+      "index": 63,
+      "title": "(DÍAS-HOMBRE \tDISPONIBLES) \tX \t(FACTOR \tDE \tDEDICACIÓN) \t= \tVELOCIDAD",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/63-días-hombre-disponibles-x-factor-de-dedicación-velocidad.md",
+      "words": 0
+    },
+    {
+      "index": 64,
+      "title": "ESTIMADA",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/64-estimada.md",
+      "words": 65
+    },
+    {
+      "index": 65,
+      "title": "FACTOR DE DEDICACIÓN DEL ÚLTIMO SPRINT",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/65-factor-de-dedicación-del-último-sprint.md",
+      "words": 0
+    },
+    {
+      "index": 66,
+      "title": "(VELOCIDAD REAL)",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/66-velocidad-real.md",
+      "words": 0
+    },
+    {
+      "index": 67,
+      "title": "(FACTOR DE DEDICACIÓN) = ---------------------------",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/67-factor-de-dedicación----------------------------.md",
+      "words": 0
+    },
+    {
+      "index": 68,
+      "title": "(DIAS-HOMBRE DISPONIBLES)",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/68-dias-hombre-disponibles.md",
+      "words": 49
+    },
+    {
+      "index": 69,
+      "title": "34 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/69-34-scrum-y-xp-desde-las-trincheras.md",
+      "words": 46
+    },
+    {
+      "index": 70,
+      "title": "FACTOR DE DEDICACIÓN DEL ÚLTIMO SPRINT",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/70-factor-de-dedicación-del-último-sprint.md",
+      "words": 0
+    },
+    {
+      "index": 71,
+      "title": "(18 PUNTOS HISTORIA)",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/71-18-puntos-historia.md",
+      "words": 0
+    },
+    {
+      "index": 72,
+      "title": "(40%) = \t-------------------- \t50 DÍAS-HOMBRE X 40% = 20 PUNTOS-",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/72-40----------------------50-días-hombre-x-40-20-puntos-.md",
+      "words": 0
+    },
+    {
+      "index": 73,
+      "title": "HISTORIA",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/73-historia.md",
+      "words": 0
+    },
+    {
+      "index": 74,
+      "title": "(45 DÍAS-HOMBRE)",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/74-45-días-hombre.md",
+      "words": 30
+    },
+    {
+      "index": 75,
+      "title": "COMIENZO DEL SPRINT",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/75-comienzo-del-sprint.md",
+      "words": 0
+    },
+    {
+      "index": 76,
+      "title": "19 PUNTOS DE HISTORIA",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/76-19-puntos-de-historia.md",
+      "words": 0
+    },
+    {
+      "index": 77,
+      "title": "INCLUIDOS EN SPRINT",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/77-incluidos-en-sprint.md",
+      "words": 201
+    },
+    {
+      "index": 78,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 35",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/78-scrum-y-xp-desde-las-trincheras-35.md",
+      "words": 393
+    },
+    {
+      "index": 79,
+      "title": "36 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/79-36-scrum-y-xp-desde-las-trincheras.md",
+      "words": 202
+    },
+    {
+      "index": 80,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 37",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/80-scrum-y-xp-desde-las-trincheras-37.md",
+      "words": 321
+    },
+    {
+      "index": 81,
+      "title": "38 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/81-38-scrum-y-xp-desde-las-trincheras.md",
+      "words": 230
+    },
+    {
+      "index": 82,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 39",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/82-scrum-y-xp-desde-las-trincheras-39.md",
+      "words": 352
+    },
+    {
+      "index": 83,
+      "title": "40 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/83-40-scrum-y-xp-desde-las-trincheras.md",
+      "words": 321
+    },
+    {
+      "index": 84,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 41",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/84-scrum-y-xp-desde-las-trincheras-41.md",
+      "words": 469
+    },
+    {
+      "index": 85,
+      "title": "42 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/85-42-scrum-y-xp-desde-las-trincheras.md",
+      "words": 292
+    },
+    {
+      "index": 86,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 43",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/86-scrum-y-xp-desde-las-trincheras-43.md",
+      "words": 271
+    },
+    {
+      "index": 87,
+      "title": "44 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/87-44-scrum-y-xp-desde-las-trincheras.md",
+      "words": 408
+    },
+    {
+      "index": 88,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 45",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/88-scrum-y-xp-desde-las-trincheras-45.md",
+      "words": 377
+    },
+    {
+      "index": 89,
+      "title": "1) Intentamos evitar las historias técnicas. Busca efusivamente formas de",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/89-1-intentamos-evitar-las-historias-técnicas-busca-efusivamente-formas-de.md",
+      "words": 35
+    },
+    {
+      "index": 90,
+      "title": "46 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/90-46-scrum-y-xp-desde-las-trincheras.md",
+      "words": 0
+    },
+    {
+      "index": 91,
+      "title": "2) Si no podemos transformar una historia técnica en una historia normal,",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/91-2-si-no-podemos-transformar-una-historia-técnica-en-una-historia-normal.md",
+      "words": 43
+    },
+    {
+      "index": 92,
+      "title": "3) Si lo anterior falla, definirla como historia técnica y mantener una lista",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/92-3-si-lo-anterior-falla-definirla-como-historia-técnica-y-mantener-una-lista.md",
+      "words": 359
+    },
+    {
+      "index": 93,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 47",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/93-scrum-y-xp-desde-las-trincheras-47.md",
+      "words": 75
+    },
+    {
+      "index": 94,
+      "title": "1) El Dueño de Producto imprime los elementos de Jira más importantes, los trae",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/94-1-el-dueño-de-producto-imprime-los-elementos-de-jira-más-importantes-los-trae.md",
+      "words": 31
+    },
+    {
+      "index": 95,
+      "title": "2) El Dueño de Producto crea historias que se refieren a los elementos de Jira.",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/95-2-el-dueño-de-producto-crea-historias-que-se-refieren-a-los-elementos-de-jira.md",
+      "words": 16
+    },
+    {
+      "index": 96,
+      "title": "3) La corrección de errores se considera algo fuera del Sprint. El equipo",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/96-3-la-corrección-de-errores-se-considera-algo-fuera-del-sprint-el-equipo.md",
+      "words": 38
+    },
+    {
+      "index": 97,
+      "title": "4) Hacer la Pila de Producto en Jira (es decir, abandonar Excel). Tratar los",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/97-4-hacer-la-pila-de-producto-en-jira-es-decir-abandonar-excel-tratar-los.md",
+      "words": 184
+    },
+    {
+      "index": 98,
+      "title": "48 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/98-48-scrum-y-xp-desde-las-trincheras.md",
+      "words": 151
+    },
+    {
+      "index": 99,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 49",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/99-scrum-y-xp-desde-las-trincheras-49.md",
+      "words": 277
+    },
+    {
+      "index": 100,
+      "title": "50 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/100-50-scrum-y-xp-desde-las-trincheras.md",
+      "words": 245
+    },
+    {
+      "index": 101,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 51",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/101-scrum-y-xp-desde-las-trincheras-51.md",
+      "words": 70
+    },
+    {
+      "index": 102,
+      "title": "52 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/102-52-scrum-y-xp-desde-las-trincheras.md",
+      "words": 146
+    },
+    {
+      "index": 103,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 53",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/103-scrum-y-xp-desde-las-trincheras-53.md",
+      "words": 143
+    },
+    {
+      "index": 104,
+      "title": "54 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/104-54-scrum-y-xp-desde-las-trincheras.md",
+      "words": 21
+    },
+    {
+      "index": 105,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 55",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/105-scrum-y-xp-desde-las-trincheras-55.md",
+      "words": 177
+    },
+    {
+      "index": 106,
+      "title": "56 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/106-56-scrum-y-xp-desde-las-trincheras.md",
+      "words": 5
+    },
+    {
+      "index": 107,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 57",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/107-scrum-y-xp-desde-las-trincheras-57.md",
+      "words": 181
+    },
+    {
+      "index": 108,
+      "title": "58 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/108-58-scrum-y-xp-desde-las-trincheras.md",
+      "words": 167
+    },
+    {
+      "index": 109,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 59",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/109-scrum-y-xp-desde-las-trincheras-59.md",
+      "words": 155
+    },
+    {
+      "index": 110,
+      "title": "60 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/110-60-scrum-y-xp-desde-las-trincheras.md",
+      "words": 153
+    },
+    {
+      "index": 111,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 61",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/111-scrum-y-xp-desde-las-trincheras-61.md",
+      "words": 492
+    },
+    {
+      "index": 112,
+      "title": "62 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/112-62-scrum-y-xp-desde-las-trincheras.md",
+      "words": 312
+    },
+    {
+      "index": 113,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 63",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/113-scrum-y-xp-desde-las-trincheras-63.md",
+      "words": 258
+    },
+    {
+      "index": 114,
+      "title": "64 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/114-64-scrum-y-xp-desde-las-trincheras.md",
+      "words": 486
+    },
+    {
+      "index": 115,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 65",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/115-scrum-y-xp-desde-las-trincheras-65.md",
+      "words": 522
+    },
+    {
+      "index": 116,
+      "title": "66 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/116-66-scrum-y-xp-desde-las-trincheras.md",
+      "words": 321
+    },
+    {
+      "index": 117,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 67",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/117-scrum-y-xp-desde-las-trincheras-67.md",
+      "words": 409
+    },
+    {
+      "index": 118,
+      "title": "68 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/118-68-scrum-y-xp-desde-las-trincheras.md",
+      "words": 38
+    },
+    {
+      "index": 119,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 69",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/119-scrum-y-xp-desde-las-trincheras-69.md",
+      "words": 276
+    },
+    {
+      "index": 120,
+      "title": "70 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/120-70-scrum-y-xp-desde-las-trincheras.md",
+      "words": 278
+    },
+    {
+      "index": 121,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 71",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/121-scrum-y-xp-desde-las-trincheras-71.md",
+      "words": 379
+    },
+    {
+      "index": 122,
+      "title": "72 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/122-72-scrum-y-xp-desde-las-trincheras.md",
+      "words": 352
+    },
+    {
+      "index": 123,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 73",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/123-scrum-y-xp-desde-las-trincheras-73.md",
+      "words": 190
+    },
+    {
+      "index": 124,
+      "title": "74 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/124-74-scrum-y-xp-desde-las-trincheras.md",
+      "words": 265
+    },
+    {
+      "index": 125,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 75",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/125-scrum-y-xp-desde-las-trincheras-75.md",
+      "words": 236
+    },
+    {
+      "index": 126,
+      "title": "76 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/126-76-scrum-y-xp-desde-las-trincheras.md",
+      "words": 296
+    },
+    {
+      "index": 127,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 77",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/127-scrum-y-xp-desde-las-trincheras-77.md",
+      "words": 247
+    },
+    {
+      "index": 128,
+      "title": "78 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/128-78-scrum-y-xp-desde-las-trincheras.md",
+      "words": 298
+    },
+    {
+      "index": 129,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 79",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/129-scrum-y-xp-desde-las-trincheras-79.md",
+      "words": 260
+    },
+    {
+      "index": 130,
+      "title": "80 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/130-80-scrum-y-xp-desde-las-trincheras.md",
+      "words": 367
+    },
+    {
+      "index": 131,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 81",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/131-scrum-y-xp-desde-las-trincheras-81.md",
+      "words": 350
+    },
+    {
+      "index": 132,
+      "title": "82 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/132-82-scrum-y-xp-desde-las-trincheras.md",
+      "words": 455
+    },
+    {
+      "index": 133,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 83",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/133-scrum-y-xp-desde-las-trincheras-83.md",
+      "words": 453
+    },
+    {
+      "index": 134,
+      "title": "84 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/134-84-scrum-y-xp-desde-las-trincheras.md",
+      "words": 423
+    },
+    {
+      "index": 135,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 85",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/135-scrum-y-xp-desde-las-trincheras-85.md",
+      "words": 376
+    },
+    {
+      "index": 136,
+      "title": "86 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/136-86-scrum-y-xp-desde-las-trincheras.md",
+      "words": 248
+    },
+    {
+      "index": 137,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 87",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/137-scrum-y-xp-desde-las-trincheras-87.md",
+      "words": 160
+    },
+    {
+      "index": 138,
+      "title": "88 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/138-88-scrum-y-xp-desde-las-trincheras.md",
+      "words": 307
+    },
+    {
+      "index": 139,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 89",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/139-scrum-y-xp-desde-las-trincheras-89.md",
+      "words": 347
+    },
+    {
+      "index": 140,
+      "title": "90 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/140-90-scrum-y-xp-desde-las-trincheras.md",
+      "words": 463
+    },
+    {
+      "index": 141,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 91",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/141-scrum-y-xp-desde-las-trincheras-91.md",
+      "words": 410
+    },
+    {
+      "index": 142,
+      "title": "92 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/142-92-scrum-y-xp-desde-las-trincheras.md",
+      "words": 66
+    },
+    {
+      "index": 143,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 93",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/143-scrum-y-xp-desde-las-trincheras-93.md",
+      "words": 202
+    },
+    {
+      "index": 144,
+      "title": "94 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/144-94-scrum-y-xp-desde-las-trincheras.md",
+      "words": 377
+    },
+    {
+      "index": 145,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 95",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/145-scrum-y-xp-desde-las-trincheras-95.md",
+      "words": 333
+    },
+    {
+      "index": 146,
+      "title": "96 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/146-96-scrum-y-xp-desde-las-trincheras.md",
+      "words": 218
+    },
+    {
+      "index": 147,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 97",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/147-scrum-y-xp-desde-las-trincheras-97.md",
+      "words": 312
+    },
+    {
+      "index": 148,
+      "title": "98 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/148-98-scrum-y-xp-desde-las-trincheras.md",
+      "words": 273
+    },
+    {
+      "index": 149,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 99",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/149-scrum-y-xp-desde-las-trincheras-99.md",
+      "words": 323
+    },
+    {
+      "index": 150,
+      "title": "100 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/150-100-scrum-y-xp-desde-las-trincheras.md",
+      "words": 284
+    },
+    {
+      "index": 151,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 101",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/151-scrum-y-xp-desde-las-trincheras-101.md",
+      "words": 332
+    },
+    {
+      "index": 152,
+      "title": "102 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/152-102-scrum-y-xp-desde-las-trincheras.md",
+      "words": 279
+    },
+    {
+      "index": 153,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 103",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/153-scrum-y-xp-desde-las-trincheras-103.md",
+      "words": 179
+    },
+    {
+      "index": 154,
+      "title": "104 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/154-104-scrum-y-xp-desde-las-trincheras.md",
+      "words": 105
+    },
+    {
+      "index": 155,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 105",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/155-scrum-y-xp-desde-las-trincheras-105.md",
+      "words": 261
+    },
+    {
+      "index": 156,
+      "title": "106 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/156-106-scrum-y-xp-desde-las-trincheras.md",
+      "words": 488
+    },
+    {
+      "index": 157,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 107",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/157-scrum-y-xp-desde-las-trincheras-107.md",
+      "words": 166
+    },
+    {
+      "index": 158,
+      "title": "1) \tTodo el mundo en la mesa describe qué ha conseguido su equipo la",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/158-1-todo-el-mundo-en-la-mesa-describe-qué-ha-conseguido-su-equipo-la.md",
+      "words": 11
+    },
+    {
+      "index": 159,
+      "title": "2) \tCualquier otro asunto inter-equipos que necesite ser discutido, por",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/159-2-cualquier-otro-asunto-inter-equipos-que-necesite-ser-discutido-por.md",
+      "words": 34
+    },
+    {
+      "index": 160,
+      "title": "108 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/160-108-scrum-y-xp-desde-las-trincheras.md",
+      "words": 82
+    },
+    {
+      "index": 161,
+      "title": "1) Noticias y actualizaciones del Jefe de Desarrollo. Información sobre eventos",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/161-1-noticias-y-actualizaciones-del-jefe-de-desarrollo-información-sobre-eventos.md",
+      "words": 3
+    },
+    {
+      "index": 162,
+      "title": "2) Un turno por producto. Una persona de cada grupo de producto informa sobre",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/162-2-un-turno-por-producto-una-persona-de-cada-grupo-de-producto-informa-sobre.md",
+      "words": 31
+    },
+    {
+      "index": 163,
+      "title": "3) Cualquier persona es libre de añadir información o formular preguntas.",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/163-3-cualquier-persona-es-libre-de-añadir-información-o-formular-preguntas.md",
+      "words": 222
+    },
+    {
+      "index": 164,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 109",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/164-scrum-y-xp-desde-las-trincheras-109.md",
+      "words": 56
+    },
+    {
+      "index": 165,
+      "title": "1. Personas como el Dueño de Producto o yo mismo podemos visitar todos los",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/165-1-personas-como-el-dueño-de-producto-o-yo-mismo-podemos-visitar-todos-los.md",
+      "words": 27
+    },
+    {
+      "index": 166,
+      "title": "2. Los equipos pueden visitar los Scrum diarios de otros equipos. No ocurre muy",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/166-2-los-equipos-pueden-visitar-los-scrum-diarios-de-otros-equipos-no-ocurre-muy.md",
+      "words": 192
+    },
+    {
+      "index": 167,
+      "title": "1) \tApagar fuegos",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/167-1-apagar-fuegos.md",
+      "words": 0
+    },
+    {
+      "index": 168,
+      "title": "2) \tProteger al equipo Scrum de todo tipo de distracciones, incluyendo cosas",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/168-2-proteger-al-equipo-scrum-de-todo-tipo-de-distracciones-incluyendo-cosas.md",
+      "words": 17
+    },
+    {
+      "index": 169,
+      "title": "110 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/169-110-scrum-y-xp-desde-las-trincheras.md",
+      "words": 374
+    },
+    {
+      "index": 170,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 111",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/170-scrum-y-xp-desde-las-trincheras-111.md",
+      "words": 165
+    },
+    {
+      "index": 171,
+      "title": "112 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/171-112-scrum-y-xp-desde-las-trincheras.md",
+      "words": 161
+    },
+    {
+      "index": 172,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 113",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/172-scrum-y-xp-desde-las-trincheras-113.md",
+      "words": 100
+    },
+    {
+      "index": 173,
+      "title": "114 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/173-114-scrum-y-xp-desde-las-trincheras.md",
+      "words": 465
+    },
+    {
+      "index": 174,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 115",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/174-scrum-y-xp-desde-las-trincheras-115.md",
+      "words": 151
+    },
+    {
+      "index": 175,
+      "title": "116 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/175-116-scrum-y-xp-desde-las-trincheras.md",
+      "words": 346
+    },
+    {
+      "index": 176,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 117",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/176-scrum-y-xp-desde-las-trincheras-117.md",
+      "words": 113
+    },
+    {
+      "index": 177,
+      "title": "1. Queremos que los miembros de cada equipo se conozcan bien entre si.",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/177-1-queremos-que-los-miembros-de-cada-equipo-se-conozcan-bien-entre-si.md",
+      "words": 0
+    },
+    {
+      "index": 178,
+      "title": "2. Queremos tener una infraestructura de comunicaciones excelente entre las",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/178-2-queremos-tener-una-infraestructura-de-comunicaciones-excelente-entre-las.md",
+      "words": 18
+    },
+    {
+      "index": 179,
+      "title": "118 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/179-118-scrum-y-xp-desde-las-trincheras.md",
+      "words": 0
+    },
+    {
+      "index": 180,
+      "title": "3. Al principio, el equipo offshore es demasiado pequeño como para formar un",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/180-3-al-principio-el-equipo-offshore-es-demasiado-pequeño-como-para-formar-un.md",
+      "words": 5
+    },
+    {
+      "index": 181,
+      "title": "4. Queremos un periodo de intercambio intensivo de conocimiento antes de que",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/181-4-queremos-un-periodo-de-intercambio-intensivo-de-conocimiento-antes-de-que.md",
+      "words": 300
+    },
+    {
+      "index": 182,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 119",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/182-scrum-y-xp-desde-las-trincheras-119.md",
+      "words": 319
+    },
+    {
+      "index": 183,
+      "title": "120 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/183-120-scrum-y-xp-desde-las-trincheras.md",
+      "words": 140
+    },
+    {
+      "index": 184,
+      "title": "SCRUM Y XP DESDE LAS TRINCHERAS | 121",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/184-scrum-y-xp-desde-las-trincheras-121.md",
+      "words": 23
+    },
+    {
+      "index": 185,
+      "title": "122 | SCRUM Y XP DESDE LAS TRINCHERAS",
+      "file": "chapters/scrum-y-xp-desde-las-trincheras/185-122-scrum-y-xp-desde-las-trincheras.md",
+      "words": 323
+    }
+  ],
+  "learningIntegrated": true
+}

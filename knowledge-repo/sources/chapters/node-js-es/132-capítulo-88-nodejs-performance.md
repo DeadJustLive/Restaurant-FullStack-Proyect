@@ -1,0 +1,116 @@
+# Capítulo 88:: Node.js Performance
+
+Examples
+Evento de bucle
+Ejemplo de operación de bloqueo
+let loop = (i, max) => {
+while (i < max) i++
+return i
+}
+// This operation will block Node.js
+// Because, it's CPU-bound
+// You should be careful about this kind of code
+loop(0, 1e+12)
+Ejemplo de operación de IO sin bloqueo
+let i = 0
+const step = max => {
+while (i < max) i++
+console.log('i = %d', i)
+}
+const tick = max => process.nextTick(step, max)
+// this will postpone tick run step's while-loop to event loop cycles
+// any other IO-bound operation (like filesystem reading) can take place
+// in parallel
+tick(1e+6)
+tick(1e+7)
+console.log('this will output before all of tick operations. i = %d', i)
+console.log('because tick operations will be postponed')
+tick(1e+8)
+https://riptutorial.com/es/home 279
+
+-- 307 of 423 --
+
+En términos más simples, Event Loop es un mecanismo de cola de un solo hilo que ejecuta su
+código enlazado a la CPU hasta el final de su ejecución y el código enlazado a IO de una manera
+no bloqueante.
+Sin embargo, Node.js debajo de la alfombra usa subprocesos múltiples para algunas de sus
+operaciones a través de la Biblioteca libuv .
+Consideraciones de rendimiento
+Las operaciones de no bloqueo no bloquearán la cola y no afectarán el rendimiento del
+bucle.
+•
+Sin embargo, las operaciones vinculadas a la CPU bloquearán la cola, por lo que debe tener
+cuidado de no realizar operaciones vinculadas a la CPU en su código Node.js.
+•
+Node.js no bloquea IO porque descarga el trabajo al kernel del sistema operativo, y cuando la
+operación IO proporciona datos ( como un evento ), notificará su código con las devoluciones de
+llamada suministradas.
+Aumentar maxSockets
+Lo esencial
+require('http').globalAgent.maxSockets = 25
+// You can change 25 to Infinity or to a different value by experimenting
+Node.js por defecto utiliza maxSockets = Infinity al mismo tiempo (desde v0.12.0 ). Hasta el Nodo
+v0.12.0, el valor predeterminado era maxSockets = 5 (ver v0.11.0 ). Entonces, después de más de
+5 solicitudes se pondrán en cola. Si quieres concurrencia, aumenta este número.
+https://riptutorial.com/es/home 280
+
+-- 308 of 423 --
+
+Configurando tu propio agente
+http API de http está utilizando un " Agente global " . Puede suministrar su propio agente. Me
+gusta esto:
+const http = require('http')
+const myGloriousAgent = new http.Agent({ keepAlive: true })
+myGloriousAgent.maxSockets = Infinity
+http.request({ ..., agent: myGloriousAgent }, ...)
+Desactivación total de Socket Pooling
+const http = require('http')
+const options = {.....}
+options.agent = false
+const request = http.request(options)
+Escollos
+Debería hacer lo mismo para la API https si desea los mismos efectos.	•
+Tenga en cuenta que, por ejemplo, AWS usará 50 en lugar de Infinity .	•
+Habilitar gzip
+const http = require('http')
+const fs = require('fs')
+const zlib = require('zlib')
+http.createServer((request, response) => {
+const stream = fs.createReadStream('index.html')
+const acceptsEncoding = request.headers['accept-encoding']
+let encoder = {
+hasEncoder : false,
+contentEncoding: {},
+createEncoder : () => throw 'There is no encoder'
+}
+if (!acceptsEncoding) {
+acceptsEncoding = ''
+}
+if (acceptsEncoding.match(/\bdeflate\b/)) {
+encoder = {
+hasEncoder : true,
+contentEncoding: { 'content-encoding': 'deflate' },
+https://riptutorial.com/es/home 281
+
+-- 309 of 423 --
+
+createEncoder : zlib.createDeflate
+}
+} else if (acceptsEncoding.match(/\bgzip\b/)) {
+encoder = {
+hasEncoder : true,
+contentEncoding: { 'content-encoding': 'gzip' },
+createEncoder : zlib.createGzip
+}
+}
+response.writeHead(200, encoder.contentEncoding)
+if (encoder.hasEncoder) {
+stream = stream.pipe(encoder.createEncoder())
+}
+stream.pipe(response)
+}).listen(1337)
+Lea Node.js Performance en línea: https://riptutorial.com/es/node-js/topic/9410/node-js-
+performance
+https://riptutorial.com/es/home 282
+
+-- 310 of 423 --

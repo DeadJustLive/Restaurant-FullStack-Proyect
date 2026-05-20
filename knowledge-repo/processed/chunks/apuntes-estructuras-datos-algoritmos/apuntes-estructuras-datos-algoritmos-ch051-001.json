@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch051-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 51,
+  "chunkIndex": 1,
+  "title": "1. \tProceso de borrado como en un árbol binario de búsqueda:",
+  "start": 450,
+  "end": 745,
+  "words": 295,
+  "content": "saco s , elemento e -> saco {devuelve el saco resultante de añadir el elemento e a s} sacar: saco s , elemento e -> saco {devuelve el saco resultante de extraer el elemento e de s; si no hay ningún elemento e en s, devuelve un saco igual a s} cuántas: saco s , elemento e -> natural {cuenta cuántas unidades del elemento e hay en s} valor: saco s -> natural {devuelve la suma del precio de todos los elementos de s; para su cálculo será preciso usar la operación precio, que deberá estar definida para los datos de tipo elemento} fespec La implementación genérica del TAD (genérico) saco tendría la forma siguiente: módulo genérico sacosGen parámetros tipo elemento con función precio(e:elemento) devuelve natural con función “=”(e1,e2:elemento) devuelve booleano exporta constante maxNum = 1000000 tipo saco procedimiento vacio(sal s:saco) procedimiento meter(e/s s:saco; ent e:elemento) procedimiento sacar(e/s s:saco; ent e:elemento) función cuántas(s:saco; e:elemento) devuelve natural función valor(s:saco) devuelve natural implementación tipo unElemto = registro elElemto:elemento; numVecesRepetido:natural freg elementos = vector[1..maxNum] de unElemto saco = registro losElementos:elementos; numDistintos:natural freg procedimiento vacio(sal s:saco) variable e:elemento principio s.numDistintos:=0 fin ... {Dejamos como ejercicio escribir el resto de la implementación, teniendo en cuenta que el tipo “elemento” es un parámetro formal, es decir, es sólo un nombre de tipo y no sabemos más características de él, salvo que tendrá siempre definida una función “precio” con el perfil indicado.} fin -- 49 of 267 -- 42 Finalmente, para poder usar un TAD genérico, como el TAD saco, es necesario antes concretarlo o particularizarlo, indicando con qué tipo se corresponde su parámetro formal elemento. procedimiento tití importa monedas,frutas,sacosGen {En los módulos ‘monedas’ y ‘frutas’ están definidos los tipos moneda, fruta, y una función ‘precio’ para monedas y otra para frutas}"
+}

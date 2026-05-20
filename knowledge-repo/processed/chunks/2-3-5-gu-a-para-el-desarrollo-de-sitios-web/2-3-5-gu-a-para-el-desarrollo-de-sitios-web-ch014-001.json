@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch014-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 14,
+  "chunkIndex": 1,
+  "title": "Capítulo 2: - Aplicación de Estándares",
+  "start": 450,
+  "end": 753,
+  "words": 303,
+  "content": "que se escriben las páginas de los Sitios Web. Para este ámbito existe una organización de carácter mundial conocida como World Wide Web Consortium (W3C) que genera constante- mente las nuevas versiones de los estándares del web y ofrece herramientas que permiten hacer la validación del uso de los mismos. En el caso de los Sitios Web chilenos, diversas normas dicen relación con el cumplimiento de los estándares (ver Capítulo 1 de la Guía Web 2) por lo sus admi- nistradores los deben conocer y aplicar. > Quién fija los estándares Tal como se explicó antes, en el caso del web los estándares son fijados por el World Wide Web Consortium (W3C), una organización internacional que agrupa a más de 400 entidades miembros1 entre las cuales se cuentan empresas, universidades, medios de comunicación, fundaciones y centros de investigación. El W3C fue creado en 1994 a partir del trabajo de Tim Berners-Lee quien fue el inventor de esta tecnología en el año 1989, mientras trabajaba en la Organización Europea de Investigación Nuclear (CERN) ubicada en Suiza. Con el fin de facilitar el intercambio de información a través de redes de computadores, ideó el sistema para que cada documento tuviera una dirección única (Uniform Resource Identificator -URI) con el fin de que desde cualquier lugar de la red pudiera ser accedido sin dificultades. Además, ideó la forma de representar ese documento a través de un lenguaje común (Hyper text Markup Language HTML) y finalmente, la forma de transmitir esos datos a través de la red, utilizando un protocolo de comu- nicaciones especializado para esta tarea (Hyper text Transfer Protocol - HTTP). Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile 1.- Ver listado actualizado de miembros en http://www.w3.org/Consortium/Member/List Sitio del World Wide Web Consortium es www.w3.org -- 28 of 122 --"
+}

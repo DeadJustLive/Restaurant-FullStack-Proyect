@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch005-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 5,
+  "chunkIndex": 0,
+  "title": "Apéndice D - Herramientas de desarrollo útiles",
+  "start": 0,
+  "end": 35,
+  "words": 35,
+  "content": "# Apéndice D - Herramientas de desarrollo útiles ## Apéndice D - Herramientas de desarrollo útiles ### Formato automático conrustfmt ### Corregir su código conrustfix ### Más lints con Clippy ### Integración de IDE conrust-analyzer"
+}

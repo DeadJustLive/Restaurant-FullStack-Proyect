@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch039-002",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 39,
+  "chunkIndex": 2,
+  "title": "2. Representación de los árboles AVL",
+  "start": 900,
+  "end": 1166,
+  "words": 266,
+  "content": "mismo significado. Sin embargo, la semántica inicial considera, por defecto, valores distintos aquéllos que se construyen con términos distintos. Considerando la semántica inicial, la siguiente especificación construye exactamente el tipo de los números naturales (con el cero): espec naturales_1 género natural operaciones 0: -> natural suc: natural -> natural fespec Los únicos valores que pueden construirse son 0, suc(0), suc(suc(0)), suc(suc(suc(0))), etcétera. Cada término denota un valor diferente, que corresponde a la idea intuitiva de un natural diferente. Si queremos añadir la operación “suma” a la especificación anterior, puede intentarse en la forma siguiente: espec naturales_2 género natural operaciones 0: -> natural suc: natural -> natural _+_: natural natural -> natural fespec Sin embargo, esta especificación construye un tipo que no corresponde con lo que llamamos “naturales” puesto que, por ejemplo, los términos suc(0) y 0+suc(0) denotan, en principio, valores diferentes (algo contrario a nuestro conocimiento sobre cómo los números naturales deberían comportarse). La forma de expresar en una especificación que varios términos corresponden a un mismo valor y tienen, por tanto, un mismo significado es añadir ecuaciones: término_1 = término_2 Donde término_1 y término_2 son términos bien formados de un mismo género. Para poder expresar el hecho de que un número grande o infinito de términos bien formados tienen el mismo valor se pueden introducir variables en las ecuaciones. Se entiende que en cada ecuación con variables, éstas están (implícitamente) cuantificadas universalmente (∀). espec naturales_3 género natural operaciones 0: -> natural suc: natural -> natural _+_: natural natural -> natural ecuaciones x,y:natural x+0 = x x+suc(y) = suc(x+y) fespec -- 27 of 267 -- 20"
+}

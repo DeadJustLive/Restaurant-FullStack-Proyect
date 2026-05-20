@@ -1,0 +1,751 @@
+{
+  "bookId": "react-stackoverflow-docs",
+  "totalChunks": 106,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.389Z",
+  "chunks": [
+    {
+      "id": "react-stackoverflow-docs-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "Capítulo 1:: Empezando con React 2",
+      "words": 61
+    },
+    {
+      "id": "react-stackoverflow-docs-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "Capítulo 2:: Actuación 13",
+      "words": 32
+    },
+    {
+      "id": "react-stackoverflow-docs-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "Capítulo 3:: Apoyos en reaccionar 16",
+      "words": 46
+    },
+    {
+      "id": "react-stackoverflow-docs-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "Capítulo 4:: Cómo configurar un webpack básico, reaccionar y babel. 22",
+      "words": 28
+    },
+    {
+      "id": "react-stackoverflow-docs-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "Capítulo 5:: Cómo y por qué usar llaves en React. 28",
+      "words": 21
+    },
+    {
+      "id": "react-stackoverflow-docs-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "Capítulo 6:: Componentes 30",
+      "words": 16
+    },
+    {
+      "id": "react-stackoverflow-docs-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "1. Anidar sin usar niños. 32",
+      "words": 14
+    },
+    {
+      "id": "react-stackoverflow-docs-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "2. Anidar usando niños. 32",
+      "words": 13
+    },
+    {
+      "id": "react-stackoverflow-docs-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "3. Anidar utilizando puntales. 33",
+      "words": 60
+    },
+    {
+      "id": "react-stackoverflow-docs-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "Capítulo 7:: Componentes de orden superior 43",
+      "words": 29
+    },
+    {
+      "id": "react-stackoverflow-docs-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "Capítulo 8:: Componentes funcionales sin estado 46",
+      "words": 17
+    },
+    {
+      "id": "react-stackoverflow-docs-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "Capítulo 9:: Comunicación Entre Componentes 50",
+      "words": 27
+    },
+    {
+      "id": "react-stackoverflow-docs-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "Capítulo 10:: Comunicar Entre Componentes 53",
+      "words": 16
+    },
+    {
+      "id": "react-stackoverflow-docs-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "Capítulo 11:: Configuración de React Ambiente 56",
+      "words": 44
+    },
+    {
+      "id": "react-stackoverflow-docs-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "Capítulo 12:: Estado en reaccionar 58",
+      "words": 54
+    },
+    {
+      "id": "react-stackoverflow-docs-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "Capítulo 13:: Formularios y comentarios del usuario 64",
+      "words": 18
+    },
+    {
+      "id": "react-stackoverflow-docs-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "Capítulo 14:: Instalación 66",
+      "words": 34
+    },
+    {
+      "id": "react-stackoverflow-docs-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "Capítulo 15:: Instalación de React, Webpack y Typescript. 70",
+      "words": 43
+    },
+    {
+      "id": "react-stackoverflow-docs-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "Capítulo 16:: Introducción a la representación del lado del servidor 73",
+      "words": 22
+    },
+    {
+      "id": "react-stackoverflow-docs-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "Capítulo 17:: JSX 74",
+      "words": 52
+    },
+    {
+      "id": "react-stackoverflow-docs-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "Capítulo 18:: Reaccionar con redux 80",
+      "words": 21
+    },
+    {
+      "id": "react-stackoverflow-docs-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "Capítulo 19:: Reaccionar enrutamiento 82",
+      "words": 26
+    },
+    {
+      "id": "react-stackoverflow-docs-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "Capítulo 20:: Reaccionar formas 84",
+      "words": 11
+    },
+    {
+      "id": "react-stackoverflow-docs-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "Capítulo 21:: Reaccionar herramientas 86",
+      "words": 12
+    },
+    {
+      "id": "react-stackoverflow-docs-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "Capítulo 22:: Reaccionar llamada AJAX 87",
+      "words": 37
+    },
+    {
+      "id": "react-stackoverflow-docs-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "Capítulo 23:: React Boilerplate [React + Babel + Webpack] 90",
+      "words": 20
+    },
+    {
+      "id": "react-stackoverflow-docs-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "Capítulo 24:: React Component Lifecycle 95",
+      "words": 92
+    },
+    {
+      "id": "react-stackoverflow-docs-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "Capítulo 25:: React.createClass vs extiende React.Component 103",
+      "words": 101
+    },
+    {
+      "id": "react-stackoverflow-docs-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "Capítulo 26:: Soluciones de interfaz de usuario 111",
+      "words": 32
+    },
+    {
+      "id": "react-stackoverflow-docs-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "Capítulo 27:: Teclas en reaccionar 116",
+      "words": 26
+    },
+    {
+      "id": "react-stackoverflow-docs-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "Capítulo 28:: Usando React con Flujo 118",
+      "words": 37
+    },
+    {
+      "id": "react-stackoverflow-docs-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "Capítulo 29:: Usando ReactJS con jQuery 119",
+      "words": 14
+    },
+    {
+      "id": "react-stackoverflow-docs-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "Capítulo 30:: Usando ReactJS en forma de flujo 121",
+      "words": 27
+    },
+    {
+      "id": "react-stackoverflow-docs-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "Capítulo 31:: Utilizando ReactJS con Typescript 123",
+      "words": 190
+    },
+    {
+      "id": "react-stackoverflow-docs-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "Capítulo 1:: Empezando con React",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch035-001",
+      "chapterIndex": 35,
+      "chunkIndex": 1,
+      "title": "Capítulo 1:: Empezando con React",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch035-002",
+      "chapterIndex": 35,
+      "chunkIndex": 2,
+      "title": "Capítulo 1:: Empezando con React",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch035-003",
+      "chapterIndex": 35,
+      "chunkIndex": 3,
+      "title": "Capítulo 1:: Empezando con React",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch035-004",
+      "chapterIndex": 35,
+      "chunkIndex": 4,
+      "title": "Capítulo 1:: Empezando con React",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch035-005",
+      "chapterIndex": 35,
+      "chunkIndex": 5,
+      "title": "Capítulo 1:: Empezando con React",
+      "words": 99
+    },
+    {
+      "id": "react-stackoverflow-docs-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "Capítulo 2:: Actuación",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch036-001",
+      "chapterIndex": 36,
+      "chunkIndex": 1,
+      "title": "Capítulo 2:: Actuación",
+      "words": 390
+    },
+    {
+      "id": "react-stackoverflow-docs-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "Capítulo 3:: Apoyos en reaccionar",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch037-001",
+      "chapterIndex": 37,
+      "chunkIndex": 1,
+      "title": "Capítulo 3:: Apoyos en reaccionar",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch037-002",
+      "chapterIndex": 37,
+      "chunkIndex": 2,
+      "title": "Capítulo 3:: Apoyos en reaccionar",
+      "words": 140
+    },
+    {
+      "id": "react-stackoverflow-docs-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "Capítulo 4:: Cómo configurar un webpack",
+      "words": 489
+    },
+    {
+      "id": "react-stackoverflow-docs-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "módulo d: el cargador que nos gustaría usar para cargar el archivo en el paquete web y dejar que",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch039-001",
+      "chapterIndex": 39,
+      "chunkIndex": 1,
+      "title": "módulo d: el cargador que nos gustaría usar para cargar el archivo en el paquete web y dejar que",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch039-002",
+      "chapterIndex": 39,
+      "chunkIndex": 2,
+      "title": "módulo d: el cargador que nos gustaría usar para cargar el archivo en el paquete web y dejar que",
+      "words": 78
+    },
+    {
+      "id": "react-stackoverflow-docs-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "Capítulo 5:: Cómo y por qué usar llaves en",
+      "words": 205
+    },
+    {
+      "id": "react-stackoverflow-docs-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "Capítulo 6:: Componentes",
+      "words": 347
+    },
+    {
+      "id": "react-stackoverflow-docs-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "1. Anidar sin usar niños.",
+      "words": 105
+    },
+    {
+      "id": "react-stackoverflow-docs-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "2. Anidar usando niños.",
+      "words": 180
+    },
+    {
+      "id": "react-stackoverflow-docs-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "3. Anidar utilizando puntales.",
+      "words": 113
+    },
+    {
+      "id": "react-stackoverflow-docs-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "3 es generalmente una necesidad para hacer una biblioteca pública de componentes, pero",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch045-001",
+      "chapterIndex": 45,
+      "chunkIndex": 1,
+      "title": "3 es generalmente una necesidad para hacer una biblioteca pública de componentes, pero",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch045-002",
+      "chapterIndex": 45,
+      "chunkIndex": 2,
+      "title": "3 es generalmente una necesidad para hacer una biblioteca pública de componentes, pero",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch045-003",
+      "chapterIndex": 45,
+      "chunkIndex": 3,
+      "title": "3 es generalmente una necesidad para hacer una biblioteca pública de componentes, pero",
+      "words": 377
+    },
+    {
+      "id": "react-stackoverflow-docs-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "Capítulo 7:: Componentes de orden superior",
+      "words": 416
+    },
+    {
+      "id": "react-stackoverflow-docs-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "Capítulo 8:: Componentes funcionales sin",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch047-001",
+      "chapterIndex": 47,
+      "chunkIndex": 1,
+      "title": "Capítulo 8:: Componentes funcionales sin",
+      "words": 227
+    },
+    {
+      "id": "react-stackoverflow-docs-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "Capítulo 9:: Comunicación Entre",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch048-001",
+      "chapterIndex": 48,
+      "chunkIndex": 1,
+      "title": "Capítulo 9:: Comunicación Entre",
+      "words": 172
+    },
+    {
+      "id": "react-stackoverflow-docs-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "Capítulo 10:: Comunicar Entre Componentes",
+      "words": 415
+    },
+    {
+      "id": "react-stackoverflow-docs-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "Capítulo 11:: Configuración de React",
+      "words": 59
+    },
+    {
+      "id": "react-stackoverflow-docs-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "install react and react-dom",
+      "words": 11
+    },
+    {
+      "id": "react-stackoverflow-docs-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "install webpack for bundling",
+      "words": 10
+    },
+    {
+      "id": "react-stackoverflow-docs-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "install babel for module loading, bundling and transpiling",
+      "words": 15
+    },
+    {
+      "id": "react-stackoverflow-docs-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "install babel presets for react and es6",
+      "words": 187
+    },
+    {
+      "id": "react-stackoverflow-docs-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "Capítulo 12:: Estado en reaccionar",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch055-001",
+      "chapterIndex": 55,
+      "chunkIndex": 1,
+      "title": "Capítulo 12:: Estado en reaccionar",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch055-002",
+      "chapterIndex": 55,
+      "chunkIndex": 2,
+      "title": "Capítulo 12:: Estado en reaccionar",
+      "words": 228
+    },
+    {
+      "id": "react-stackoverflow-docs-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "Capítulo 13:: Formularios y comentarios del",
+      "words": 362
+    },
+    {
+      "id": "react-stackoverflow-docs-ch057-000",
+      "chapterIndex": 57,
+      "chunkIndex": 0,
+      "title": "Capítulo 14:: Instalación",
+      "words": 99
+    },
+    {
+      "id": "react-stackoverflow-docs-ch058-000",
+      "chapterIndex": 58,
+      "chunkIndex": 0,
+      "title": "módulo d: e carga para usar con el paquete web. También instalamos los ajustes preestablecidos",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch058-001",
+      "chapterIndex": 58,
+      "chunkIndex": 1,
+      "title": "módulo d: e carga para usar con el paquete web. También instalamos los ajustes preestablecidos",
+      "words": 171
+    },
+    {
+      "id": "react-stackoverflow-docs-ch059-000",
+      "chapterIndex": 59,
+      "chunkIndex": 0,
+      "title": "Capítulo 15:: Instalación de React, Webpack y",
+      "words": 488
+    },
+    {
+      "id": "react-stackoverflow-docs-ch060-000",
+      "chapterIndex": 60,
+      "chunkIndex": 0,
+      "title": "Capítulo 16:: Introducción a la representación",
+      "words": 131
+    },
+    {
+      "id": "react-stackoverflow-docs-ch061-000",
+      "chapterIndex": 61,
+      "chunkIndex": 0,
+      "title": "Capítulo 17:: JSX",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch061-001",
+      "chapterIndex": 61,
+      "chunkIndex": 1,
+      "title": "Capítulo 17:: JSX",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch061-002",
+      "chapterIndex": 61,
+      "chunkIndex": 2,
+      "title": "Capítulo 17:: JSX",
+      "words": 383
+    },
+    {
+      "id": "react-stackoverflow-docs-ch062-000",
+      "chapterIndex": 62,
+      "chunkIndex": 0,
+      "title": "Capítulo 18:: Reaccionar con redux",
+      "words": 341
+    },
+    {
+      "id": "react-stackoverflow-docs-ch063-000",
+      "chapterIndex": 63,
+      "chunkIndex": 0,
+      "title": "Capítulo 19:: Reaccionar enrutamiento",
+      "words": 361
+    },
+    {
+      "id": "react-stackoverflow-docs-ch064-000",
+      "chapterIndex": 64,
+      "chunkIndex": 0,
+      "title": "Capítulo 20:: Reaccionar formas",
+      "words": 310
+    },
+    {
+      "id": "react-stackoverflow-docs-ch065-000",
+      "chapterIndex": 65,
+      "chunkIndex": 0,
+      "title": "Capítulo 21:: Reaccionar herramientas",
+      "words": 37
+    },
+    {
+      "id": "react-stackoverflow-docs-ch066-000",
+      "chapterIndex": 66,
+      "chunkIndex": 0,
+      "title": "Capítulo 22:: Reaccionar llamada AJAX",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch066-001",
+      "chapterIndex": 66,
+      "chunkIndex": 1,
+      "title": "Capítulo 22:: Reaccionar llamada AJAX",
+      "words": 111
+    },
+    {
+      "id": "react-stackoverflow-docs-ch067-000",
+      "chapterIndex": 67,
+      "chunkIndex": 0,
+      "title": "Capítulo 23:: React Boilerplate [React + Babel",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch067-001",
+      "chapterIndex": 67,
+      "chunkIndex": 1,
+      "title": "Capítulo 23:: React Boilerplate [React + Babel",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch067-002",
+      "chapterIndex": 67,
+      "chunkIndex": 2,
+      "title": "Capítulo 23:: React Boilerplate [React + Babel",
+      "words": 173
+    },
+    {
+      "id": "react-stackoverflow-docs-ch068-000",
+      "chapterIndex": 68,
+      "chunkIndex": 0,
+      "title": "Capítulo 24:: React Component Lifecycle",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch068-001",
+      "chapterIndex": 68,
+      "chunkIndex": 1,
+      "title": "Capítulo 24:: React Component Lifecycle",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch068-002",
+      "chapterIndex": 68,
+      "chunkIndex": 2,
+      "title": "Capítulo 24:: React Component Lifecycle",
+      "words": 486
+    },
+    {
+      "id": "react-stackoverflow-docs-ch069-000",
+      "chapterIndex": 69,
+      "chunkIndex": 0,
+      "title": "Capítulo 25:: React.createClass vs extiende",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch069-001",
+      "chapterIndex": 69,
+      "chunkIndex": 1,
+      "title": "Capítulo 25:: React.createClass vs extiende",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch069-002",
+      "chapterIndex": 69,
+      "chunkIndex": 2,
+      "title": "Capítulo 25:: React.createClass vs extiende",
+      "words": 280
+    },
+    {
+      "id": "react-stackoverflow-docs-ch070-000",
+      "chapterIndex": 70,
+      "chunkIndex": 0,
+      "title": "Capítulo 26:: Soluciones de interfaz de",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch070-001",
+      "chapterIndex": 70,
+      "chunkIndex": 1,
+      "title": "Capítulo 26:: Soluciones de interfaz de",
+      "words": 226
+    },
+    {
+      "id": "react-stackoverflow-docs-ch071-000",
+      "chapterIndex": 71,
+      "chunkIndex": 0,
+      "title": "Capítulo 27:: Teclas en reaccionar",
+      "words": 347
+    },
+    {
+      "id": "react-stackoverflow-docs-ch072-000",
+      "chapterIndex": 72,
+      "chunkIndex": 0,
+      "title": "Capítulo 28:: Usando React con Flujo",
+      "words": 136
+    },
+    {
+      "id": "react-stackoverflow-docs-ch073-000",
+      "chapterIndex": 73,
+      "chunkIndex": 0,
+      "title": "Capítulo 29:: Usando ReactJS con jQuery",
+      "words": 253
+    },
+    {
+      "id": "react-stackoverflow-docs-ch074-000",
+      "chapterIndex": 74,
+      "chunkIndex": 0,
+      "title": "Capítulo 30:: Usando ReactJS en forma de",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch074-001",
+      "chapterIndex": 74,
+      "chunkIndex": 1,
+      "title": "Capítulo 30:: Usando ReactJS en forma de",
+      "words": 160
+    },
+    {
+      "id": "react-stackoverflow-docs-ch075-000",
+      "chapterIndex": 75,
+      "chunkIndex": 0,
+      "title": "Capítulo 31:: Utilizando ReactJS con",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch075-001",
+      "chapterIndex": 75,
+      "chunkIndex": 1,
+      "title": "Capítulo 31:: Utilizando ReactJS con",
+      "words": 500
+    },
+    {
+      "id": "react-stackoverflow-docs-ch075-002",
+      "chapterIndex": 75,
+      "chunkIndex": 2,
+      "title": "Capítulo 31:: Utilizando ReactJS con",
+      "words": 324
+    }
+  ]
+}

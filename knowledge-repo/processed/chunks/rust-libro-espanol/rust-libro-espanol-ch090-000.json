@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch090-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 90,
+  "chunkIndex": 0,
+  "title": "Closures: Funciones anónimas que capturan su entorno",
+  "start": 0,
+  "end": 48,
+  "words": 48,
+  "content": "# Closures: Funciones anónimas que capturan su entorno ## Closures: Funciones anónimas que capturan su entorno ### Capturando el Entorno con Closures ### Inferencia de tipo de Closure y anotación ### Capturando referencias o moviendo el ownership ### Moviendo valores capturados fuera de los closures y los traitsFn"
+}

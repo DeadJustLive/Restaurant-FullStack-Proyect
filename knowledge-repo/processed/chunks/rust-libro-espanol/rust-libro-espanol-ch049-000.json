@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch049-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 49,
+  "chunkIndex": 0,
+  "title": "Macros",
+  "start": 0,
+  "end": 42,
+  "words": 42,
+  "content": "# Macros ## Macros ### La Diferencia Entre Macros y Funciones ### Macros Declarativas conmacro_rules!para Metaprogramacion General ### Macros Procedurales para Generar Código a partir de Atributos ### Cómo Escribir una MacroderivePersonalizada ### Macros similares a atributos ### Macros similares a funciones"
+}

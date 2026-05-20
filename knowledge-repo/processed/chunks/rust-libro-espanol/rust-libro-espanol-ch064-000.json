@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch064-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 64,
+  "chunkIndex": 0,
+  "title": "Referencias y Prestamos",
+  "start": 0,
+  "end": 20,
+  "words": 20,
+  "content": "# Referencias y Prestamos ## Referencias y Prestamos ### Referencias Mutables ### Referencias colgantes ### Las reglas de las referencias"
+}

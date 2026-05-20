@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch040-006",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 40,
+  "chunkIndex": 6,
+  "title": "Chapter 13",
+  "start": 2700,
+  "end": 2917,
+  "words": 217,
+  "content": "su navegador Chrome y el navegador de Apple Safari ganó popularidad, lo que llevó a una situación en la que había cuatro actores principales, en lugar de uno solo. Los nuevos actores tenían una actitud más seria hacia los estándares y mejores prácticas de ingeniería, lo que nos dio menos incompatibilidad y menos errores. Microsoft, viendo cómo su cuota de mercado se desmoronaba, adoptó estas actitudes en su navegador Edge, que reemplaza a Internet Explorer. Si estás empezando a aprender desarrollo web hoy, considérate afortunado. Las últimas versiones de los principales navegadores se comportan de manera bas- tante uniforme y tienen relativamente pocos errores.Desafortunadamente, con la disminución constante de la cuota de mercado de Firefox y Edge convirtién- dose en simplemente un contenedor alrededor del núcleo de Chrome en 2018, esta uniformidad podría una vez más tomar la forma de un único proveedor —Google en este caso— teniendo el suficiente control sobre el mercado de navegadores para imponer su idea de cómo debería lucir la Web al resto del mundo. 221 -- 233 of 445 -- “¡Qué mal! ¡La misma vieja historia! Una vez que has terminado de construir tu casa, te das cuenta de que has aprendido accidentalmente algo que realmente deberías haber sabido antes de comenzar.” —Friedrich Nietzsche, Más allá del bien y del mal"
+}

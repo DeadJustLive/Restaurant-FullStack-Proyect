@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch445-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 445,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 37,
+  "words": 37,
+  "content": "# OBSERVACIONES: * la celda actual queda en el mismo lugar que empez´o */ { QuitarSeccionDePieza(codPieza) SacarN(Negro,tipoPieza) SacarN(Rojo,rotPieza) } //----------------------------------------------------- procedure QuitarSeccionDePiezaDe(codPieza,dir) /* PROP´OSITO: quita una secci´on de la pieza codPieza en la celda lindante al dir"
+}

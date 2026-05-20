@@ -1,0 +1,77 @@
+# 12.3 Dando Estilo al Tablero Kanban
+
+El estilo se ha estropeado un poco al añadir Carriles a la aplicación. Cambia lo
+siguiente para que quede un poco mejor:
+app/main.css
+body {
+background-color: cornsilk;
+font-family: sans-serif;
+}
+.add-note {
+background-color: #fdfdfd;
+border: 1px solid #ccc;
+}
+.lane {
+display: inline-block;
+margin: 1em;
+background-color: #efefef;
+border: 1px solid #ccc;
+border-radius: 0.5em;
+min-width: 10em;
+vertical-align: top;
+
+-- 151 of 226 --
+
+Editando los Carriles 134
+}
+.lane-header {
+overflow: auto;
+padding: 1em;
+color: #efefef;
+background-color: #333;
+border-top-left-radius: 0.5em;
+border-top-right-radius: 0.5em;
+}
+.lane-name {
+float: left;
+}
+.lane-add-note {
+float: left;
+margin-right: 0.5em;
+}
+.lane-delete {
+float: right;
+margin-left: 0.5em;
+visibility: hidden;
+}
+.lane-header:hover .lane-delete {
+visibility: visible;
+}
+
+-- 152 of 226 --
+
+Editando los Carriles 135
+.add-lane, .lane-add-note button {
+cursor: pointer;
+background-color: #fdfdfd;
+border: 1px solid #ccc;
+}
+.lane-delete button {
+padding: 0;
+cursor: pointer;
+color: white;
+background-color: rgba(0, 0, 0, 0);
+border: 0;
+}
+...
+Deberías ver algo como esto:
+Kanban con Estilo
+Podemos dejar el CSS en un sólo fichero ya que el nuestro es un proyecto pequeño.
+En caso de que comience a crecer, habrá que considerar el partirlo en varios ficheros.
+
+-- 153 of 226 --
+
+Editando los Carriles 136
+Una forma de hacer esto es extraer el CSS de cada componente y referenciarlo desde
+él (por ejemplo, require('./lane.css') en Lane.jsx). Puedes incluso considerar el
+utilizar Módulos CSS para hacer que las CSS funcionen en un ámbito local. Lee el

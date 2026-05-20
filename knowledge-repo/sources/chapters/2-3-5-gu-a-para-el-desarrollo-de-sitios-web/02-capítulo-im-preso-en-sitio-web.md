@@ -1,0 +1,38 @@
+# CAPÍTULO IM: PRESO 	EN SITIO WEB
+
+Normas que rigen los sitios web 	Normativa
+Aplicación de Estándares 	Estándares
+Diseño de Interfaces e Interacción 	Diseño Web
+Cómo se llega al sitio web 	Encontrabilidad
+De la Usabilidad a la Utilidad 	Usabilidad
+La palabra "Usabilidad"
+se deriva del término
+inglés Usability" y la
+palabra"Encontrabilidad"
+del inglés "Findability".
+Ninguna de ellas existe
+oficialmente en castellano.
+
+-- 6 of 122 --
+
+>> 4. Cómo se llega al sitio web: introduce el concepto de la Encontrabilidad
+(entendido como la facilidad para que los contenidos de un sitio web puedan ser
+indexados y luego encontrados por sistemas de búsqueda) como elemento clave
+para asegurar que sus contenidos queden adecuadamente indexados en sistemas
+de 	búsqueda 	internos 	y 	externos, 	facilitando 	de 	esa
+manera el acceso directo a la información. La cobertura de este aspecto está
+relacionada con la forma de generar, escribir y presentar los contenidos.
+>> 	5. De la Usabilidad a la Utilidad: introduce el concepto de la Usabilidad
+(entendido como facilidad de uso) como elemento central para los Sitios Web
+de Gobierno, poniendo énfasis en la necesidad de que se asegure que lo que se
+publica pueda ser visto y usado sin problemas de acceso por los ciudadanos.
+La cobertura de este aspecto está relacionada con la forma de presentar los
+contenidos, gracias a lo cual extiende lo que se había ofrecido de manera simple en
+la primera versión de la Guía.
+> Relación con el Sitio Web
+Como se ha indicado, la Guía Web 2.0 es un documento que busca mantener una
+relación estrecha con el sitio web que lo acompaña, para sacar el mayor provecho
+a las características del espacio digital, en beneficio de sus usuarios.
+Para apoyar esta relación, a lo largo de la Guía Web habrá iconos o signos
+especiales mediante los cuales se comunicará que existen elementos en el sitio web
+que tienen relación con los contenidos que se están abordando en dichas páginas.

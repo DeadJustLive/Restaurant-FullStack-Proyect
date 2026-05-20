@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch041-000",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 41,
+  "chunkIndex": 0,
+  "title": "CAPÍTULO 5",
+  "start": 0,
+  "end": 92,
+  "words": 92,
+  "content": "# CAPÍTULO 5 Estructuras de datos Si bien ya hemos visto una sección sobre Tipos de datos, podríamos hablar de tipos de datos más complejos en Python que se constituyen en estructuras de datos. Si pensamos en estos elementos como átomos, las estructuras de datos que vamos a ver sería moléculas. Es decir, combinamos los tipos básicos de formas más complejas. De hecho, esta distinción se hace en el Tutorial oficial de Python. Trataremos distintas estructuras de datos como listas, tuplas, diccionarios y conjuntos. 137 -- 141 of 516 -- Aprende Python"
+}

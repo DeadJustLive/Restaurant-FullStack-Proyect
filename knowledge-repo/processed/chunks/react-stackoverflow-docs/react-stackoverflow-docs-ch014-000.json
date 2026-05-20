@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch014-000",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 14,
+  "chunkIndex": 0,
+  "title": "Capítulo 11:: Configuración de React Ambiente 56",
+  "start": 0,
+  "end": 44,
+  "words": 44,
+  "content": "# Capítulo 11:: Configuración de React Ambiente 56 Examples 56 Componente Reactivo Simple 56 Instalar todas las dependencias 56 Configurar webpack 56 Configurar babel 57 -- 4 of 139 -- Archivo HTML para usar el componente reaccionar 57 Transpilar y agrupar su componente 57"
+}

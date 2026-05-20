@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch111-004",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 111,
+  "chunkIndex": 4,
+  "title": "PRECONDICIONES:",
+  "start": 1800,
+  "end": 1916,
+  "words": 116,
+  "content": "Hay dos cuestiones que observar en un switch. La primera es que el orden en el que se elige es secuencial, al igual que en un if; o sea, si el mismo valor aparece m ´as de una vez, solo se utilizar ´a su primera aparici ´on. La segunda es que la rama default siempre debe aparecer y captura todos los valores posibles que no se encuentren entre los listados. Esto puede llevar al caso an ´omalo donde esta rama nunca se elija, por no quedar valores disponibles. Para ejemplificar esta situaci ´on, consideremos la necesidad de codificar una direcci ´on en la celda actual, utilizando bolitas verdes. Un c ´odigo posible ser´ıa procedure CodificarDireccion(dir) {-"
+}

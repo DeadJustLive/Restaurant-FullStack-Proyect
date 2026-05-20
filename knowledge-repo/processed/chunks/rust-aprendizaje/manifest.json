@@ -1,0 +1,849 @@
+{
+  "bookId": "rust-aprendizaje",
+  "totalChunks": 120,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.400Z",
+  "chunks": [
+    {
+      "id": "rust-aprendizaje-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "Capítulo 1:: Empezando con Rust 2",
+      "words": 41
+    },
+    {
+      "id": "rust-aprendizaje-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "Capítulo 3:: Archivo I / O 10",
+      "words": 39
+    },
+    {
+      "id": "rust-aprendizaje-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "Capítulo 7:: Auto-desreferenciación 19",
+      "words": 38
+    },
+    {
+      "id": "rust-aprendizaje-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "Capítulo 8:: Bucles 22",
+      "words": 50
+    },
+    {
+      "id": "rust-aprendizaje-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "Capítulo 9:: Carga 27",
+      "words": 60
+    },
+    {
+      "id": "rust-aprendizaje-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "Capítulo 21:: Instrumentos de cuerda 64",
+      "words": 40
+    },
+    {
+      "id": "rust-aprendizaje-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "Capítulo 24:: La coincidencia de patrones 70",
+      "words": 55
+    },
+    {
+      "id": "rust-aprendizaje-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "Capítulo 25:: Macros 76",
+      "words": 56
+    },
+    {
+      "id": "rust-aprendizaje-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "Capítulo 26:: Manejo de errores 82",
+      "words": 37
+    },
+    {
+      "id": "rust-aprendizaje-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "Capítulo 29:: Módulos 93",
+      "words": 41
+    },
+    {
+      "id": "rust-aprendizaje-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "Capítulo 30:: Opción 100",
+      "words": 44
+    },
+    {
+      "id": "rust-aprendizaje-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "Capítulo 34:: Paralelismo 109",
+      "words": 44
+    },
+    {
+      "id": "rust-aprendizaje-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "Capítulo 37:: Propiedad 121",
+      "words": 36
+    },
+    {
+      "id": "rust-aprendizaje-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "Capítulo 39:: Punteros en bruto 127",
+      "words": 49
+    },
+    {
+      "id": "rust-aprendizaje-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "Capítulo 40:: Rasgos 130",
+      "words": 69
+    },
+    {
+      "id": "rust-aprendizaje-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "Capítulo 45:: Serde 149",
+      "words": 84
+    },
+    {
+      "id": "rust-aprendizaje-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "Capítulo 46:: The Drop Rasgo - Destructores en Rust 160",
+      "words": 45
+    },
+    {
+      "id": "rust-aprendizaje-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "Capítulo 48:: Tuplas 163",
+      "words": 38
+    },
+    {
+      "id": "rust-aprendizaje-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "Capítulo 50:: Vidas 169",
+      "words": 195
+    },
+    {
+      "id": "rust-aprendizaje-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "Capítulo 1:: Empezando con Rust",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch020-001",
+      "chapterIndex": 20,
+      "chunkIndex": 1,
+      "title": "Capítulo 1:: Empezando con Rust",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch020-002",
+      "chapterIndex": 20,
+      "chunkIndex": 2,
+      "title": "Capítulo 1:: Empezando con Rust",
+      "words": 404
+    },
+    {
+      "id": "rust-aprendizaje-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "Capítulo 2:: Aplicaciones GUI",
+      "words": 274
+    },
+    {
+      "id": "rust-aprendizaje-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "Capítulo 3:: Archivo I / O",
+      "words": 359
+    },
+    {
+      "id": "rust-aprendizaje-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "Capítulo 4:: Argumentos de línea de comando",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch023-001",
+      "chapterIndex": 23,
+      "chunkIndex": 1,
+      "title": "Capítulo 4:: Argumentos de línea de comando",
+      "words": 60
+    },
+    {
+      "id": "rust-aprendizaje-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "Capítulo 5:: Arreglos, vectores y cortes",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch024-001",
+      "chapterIndex": 24,
+      "chunkIndex": 1,
+      "title": "Capítulo 5:: Arreglos, vectores y cortes",
+      "words": 168
+    },
+    {
+      "id": "rust-aprendizaje-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "Capítulo 6:: Asamblea en línea",
+      "words": 460
+    },
+    {
+      "id": "rust-aprendizaje-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "Capítulo 7:: Auto-desreferenciación",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch026-001",
+      "chapterIndex": 26,
+      "chunkIndex": 1,
+      "title": "Capítulo 7:: Auto-desreferenciación",
+      "words": 285
+    },
+    {
+      "id": "rust-aprendizaje-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "Capítulo 8:: Bucles",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch027-001",
+      "chapterIndex": 27,
+      "chunkIndex": 1,
+      "title": "Capítulo 8:: Bucles",
+      "words": 355
+    },
+    {
+      "id": "rust-aprendizaje-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "Capítulo 9:: Carga",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch028-001",
+      "chapterIndex": 28,
+      "chunkIndex": 1,
+      "title": "Capítulo 9:: Carga",
+      "words": 261
+    },
+    {
+      "id": "rust-aprendizaje-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "Capítulo 10:: Cierres y expresiones lambda.",
+      "words": 460
+    },
+    {
+      "id": "rust-aprendizaje-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "Capítulo 11:: Constantes asociadas",
+      "words": 166
+    },
+    {
+      "id": "rust-aprendizaje-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "Capítulo 12:: Derivado personalizado:",
+      "words": 494
+    },
+    {
+      "id": "rust-aprendizaje-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "Capítulo 13:: Documentación",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch032-001",
+      "chapterIndex": 32,
+      "chunkIndex": 1,
+      "title": "Capítulo 13:: Documentación",
+      "words": 222
+    },
+    {
+      "id": "rust-aprendizaje-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "Capítulo 14:: estafa",
+      "words": 69
+    },
+    {
+      "id": "rust-aprendizaje-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "Capítulo 15:: Estructuras",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch034-001",
+      "chapterIndex": 34,
+      "chunkIndex": 1,
+      "title": "Capítulo 15:: Estructuras",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch034-002",
+      "chapterIndex": 34,
+      "chunkIndex": 2,
+      "title": "Capítulo 15:: Estructuras",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch034-003",
+      "chapterIndex": 34,
+      "chunkIndex": 3,
+      "title": "Capítulo 15:: Estructuras",
+      "words": 430
+    },
+    {
+      "id": "rust-aprendizaje-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "Capítulo 16:: Futuros y Async IO",
+      "words": 171
+    },
+    {
+      "id": "rust-aprendizaje-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "Capítulo 17:: Generación de números",
+      "words": 457
+    },
+    {
+      "id": "rust-aprendizaje-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "Capítulo 18:: Genéricos",
+      "words": 293
+    },
+    {
+      "id": "rust-aprendizaje-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "Capítulo 19:: Globales",
+      "words": 199
+    },
+    {
+      "id": "rust-aprendizaje-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "DEADBEEF",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch039-001",
+      "chapterIndex": 39,
+      "chunkIndex": 1,
+      "title": "DEADBEEF",
+      "words": 245
+    },
+    {
+      "id": "rust-aprendizaje-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "Capítulo 20:: Guía de estilo de óxido",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch040-001",
+      "chapterIndex": 40,
+      "chunkIndex": 1,
+      "title": "Capítulo 20:: Guía de estilo de óxido",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch040-002",
+      "chapterIndex": 40,
+      "chunkIndex": 2,
+      "title": "Capítulo 20:: Guía de estilo de óxido",
+      "words": 92
+    },
+    {
+      "id": "rust-aprendizaje-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "Capítulo 21:: Instrumentos de cuerda",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch041-001",
+      "chapterIndex": 41,
+      "chunkIndex": 1,
+      "title": "Capítulo 21:: Instrumentos de cuerda",
+      "words": 193
+    },
+    {
+      "id": "rust-aprendizaje-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "[link (name = \"snappy\")] // la biblioteca extranjera a la que se vinculará (opcional)",
+      "words": 110
+    },
+    {
+      "id": "rust-aprendizaje-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "Capítulo 23:: Iteradores",
+      "words": 348
+    },
+    {
+      "id": "rust-aprendizaje-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "Capítulo 24:: La coincidencia de patrones",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch044-001",
+      "chapterIndex": 44,
+      "chunkIndex": 1,
+      "title": "Capítulo 24:: La coincidencia de patrones",
+      "words": 254
+    },
+    {
+      "id": "rust-aprendizaje-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "CMYK",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch045-001",
+      "chapterIndex": 45,
+      "chunkIndex": 1,
+      "title": "CMYK",
+      "words": 252
+    },
+    {
+      "id": "rust-aprendizaje-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "Capítulo 25:: Macros",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch046-001",
+      "chapterIndex": 46,
+      "chunkIndex": 1,
+      "title": "Capítulo 25:: Macros",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch046-002",
+      "chapterIndex": 46,
+      "chunkIndex": 2,
+      "title": "Capítulo 25:: Macros",
+      "words": 427
+    },
+    {
+      "id": "rust-aprendizaje-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "Capítulo 26:: Manejo de errores",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch047-001",
+      "chapterIndex": 47,
+      "chunkIndex": 1,
+      "title": "Capítulo 26:: Manejo de errores",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch047-002",
+      "chapterIndex": 47,
+      "chunkIndex": 2,
+      "title": "Capítulo 26:: Manejo de errores",
+      "words": 111
+    },
+    {
+      "id": "rust-aprendizaje-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "Capítulo 27:: Manejo de señales",
+      "words": 489
+    },
+    {
+      "id": "rust-aprendizaje-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "Capítulo 28:: Marco web de hierro",
+      "words": 454
+    },
+    {
+      "id": "rust-aprendizaje-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "parte d: e la ruta de la URL como una variable y la pase a nuestro controlador.",
+      "words": 209
+    },
+    {
+      "id": "rust-aprendizaje-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "Capítulo 29:: Módulos",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch051-001",
+      "chapterIndex": 51,
+      "chunkIndex": 1,
+      "title": "Capítulo 29:: Módulos",
+      "words": 150
+    },
+    {
+      "id": "rust-aprendizaje-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "02. Módulos - En el mismo archivo",
+      "words": 44
+    },
+    {
+      "id": "rust-aprendizaje-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "03. Módulos - En un archivo diferente en el mismo directorio",
+      "words": 151
+    },
+    {
+      "id": "rust-aprendizaje-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "04. Módulos - En un archivo diferente en un directorio diferente",
+      "words": 121
+    },
+    {
+      "id": "rust-aprendizaje-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "06. Módulos - Con super",
+      "words": 83
+    },
+    {
+      "id": "rust-aprendizaje-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "07. Módulos - Con use",
+      "words": 108
+    },
+    {
+      "id": "rust-aprendizaje-ch057-000",
+      "chapterIndex": 57,
+      "chunkIndex": 0,
+      "title": "Capítulo 30:: Opción",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch057-001",
+      "chapterIndex": 57,
+      "chunkIndex": 1,
+      "title": "Capítulo 30:: Opción",
+      "words": 488
+    },
+    {
+      "id": "rust-aprendizaje-ch058-000",
+      "chapterIndex": 58,
+      "chunkIndex": 0,
+      "title": "Capítulo 31:: Operadores y sobrecargas",
+      "words": 280
+    },
+    {
+      "id": "rust-aprendizaje-ch059-000",
+      "chapterIndex": 59,
+      "chunkIndex": 0,
+      "title": "Capítulo 32:: Óxido de metal desnudo",
+      "words": 195
+    },
+    {
+      "id": "rust-aprendizaje-ch060-000",
+      "chapterIndex": 60,
+      "chunkIndex": 0,
+      "title": "Capítulo 33:: Pánicos y Desenrollamientos",
+      "words": 387
+    },
+    {
+      "id": "rust-aprendizaje-ch061-000",
+      "chapterIndex": 61,
+      "chunkIndex": 0,
+      "title": "Capítulo 34:: Paralelismo",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch061-001",
+      "chapterIndex": 61,
+      "chunkIndex": 1,
+      "title": "Capítulo 34:: Paralelismo",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch061-002",
+      "chapterIndex": 61,
+      "chunkIndex": 2,
+      "title": "Capítulo 34:: Paralelismo",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch061-003",
+      "chapterIndex": 61,
+      "chunkIndex": 3,
+      "title": "Capítulo 34:: Paralelismo",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch061-004",
+      "chapterIndex": 61,
+      "chunkIndex": 4,
+      "title": "Capítulo 34:: Paralelismo",
+      "words": 487
+    },
+    {
+      "id": "rust-aprendizaje-ch062-000",
+      "chapterIndex": 62,
+      "chunkIndex": 0,
+      "title": "Capítulo 35:: Pautas inseguras",
+      "words": 491
+    },
+    {
+      "id": "rust-aprendizaje-ch063-000",
+      "chapterIndex": 63,
+      "chunkIndex": 0,
+      "title": "parte d: e Struct.",
+      "words": 191
+    },
+    {
+      "id": "rust-aprendizaje-ch064-000",
+      "chapterIndex": 64,
+      "chunkIndex": 0,
+      "title": "Capítulo 37:: Propiedad",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch064-001",
+      "chapterIndex": 64,
+      "chunkIndex": 1,
+      "title": "Capítulo 37:: Propiedad",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch064-002",
+      "chapterIndex": 64,
+      "chunkIndex": 2,
+      "title": "Capítulo 37:: Propiedad",
+      "words": 212
+    },
+    {
+      "id": "rust-aprendizaje-ch065-000",
+      "chapterIndex": 65,
+      "chunkIndex": 0,
+      "title": "Capítulo 38:: Pruebas",
+      "words": 342
+    },
+    {
+      "id": "rust-aprendizaje-ch066-000",
+      "chapterIndex": 66,
+      "chunkIndex": 0,
+      "title": "Capítulo 39:: Punteros en bruto",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch066-001",
+      "chapterIndex": 66,
+      "chunkIndex": 1,
+      "title": "Capítulo 39:: Punteros en bruto",
+      "words": 194
+    },
+    {
+      "id": "rust-aprendizaje-ch067-000",
+      "chapterIndex": 67,
+      "chunkIndex": 0,
+      "title": "Capítulo 40:: Rasgos",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch067-001",
+      "chapterIndex": 67,
+      "chunkIndex": 1,
+      "title": "Capítulo 40:: Rasgos",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch067-002",
+      "chapterIndex": 67,
+      "chunkIndex": 2,
+      "title": "Capítulo 40:: Rasgos",
+      "words": 242
+    },
+    {
+      "id": "rust-aprendizaje-ch068-000",
+      "chapterIndex": 68,
+      "chunkIndex": 0,
+      "title": "Capítulo 41:: Rasgos de conversión",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch068-001",
+      "chapterIndex": 68,
+      "chunkIndex": 1,
+      "title": "Capítulo 41:: Rasgos de conversión",
+      "words": 113
+    },
+    {
+      "id": "rust-aprendizaje-ch069-000",
+      "chapterIndex": 69,
+      "chunkIndex": 0,
+      "title": "Capítulo 42:: Redes TCP",
+      "words": 315
+    },
+    {
+      "id": "rust-aprendizaje-ch070-000",
+      "chapterIndex": 70,
+      "chunkIndex": 0,
+      "title": "Capítulo 43:: Regex",
+      "words": 456
+    },
+    {
+      "id": "rust-aprendizaje-ch071-000",
+      "chapterIndex": 71,
+      "chunkIndex": 0,
+      "title": "Capítulo 44:: Rust orientado a objetos",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch071-001",
+      "chapterIndex": 71,
+      "chunkIndex": 1,
+      "title": "Capítulo 44:: Rust orientado a objetos",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch071-002",
+      "chapterIndex": 71,
+      "chunkIndex": 2,
+      "title": "Capítulo 44:: Rust orientado a objetos",
+      "words": 86
+    },
+    {
+      "id": "rust-aprendizaje-ch072-000",
+      "chapterIndex": 72,
+      "chunkIndex": 0,
+      "title": "Capítulo 45:: Serde",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch072-001",
+      "chapterIndex": 72,
+      "chunkIndex": 1,
+      "title": "Capítulo 45:: Serde",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch072-002",
+      "chapterIndex": 72,
+      "chunkIndex": 2,
+      "title": "Capítulo 45:: Serde",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch072-003",
+      "chapterIndex": 72,
+      "chunkIndex": 3,
+      "title": "Capítulo 45:: Serde",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch072-004",
+      "chapterIndex": 72,
+      "chunkIndex": 4,
+      "title": "Capítulo 45:: Serde",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch072-005",
+      "chapterIndex": 72,
+      "chunkIndex": 5,
+      "title": "Capítulo 45:: Serde",
+      "words": 129
+    },
+    {
+      "id": "rust-aprendizaje-ch073-000",
+      "chapterIndex": 73,
+      "chunkIndex": 0,
+      "title": "Capítulo 46:: The Drop Rasgo - Destructores",
+      "words": 409
+    },
+    {
+      "id": "rust-aprendizaje-ch074-000",
+      "chapterIndex": 74,
+      "chunkIndex": 0,
+      "title": "Capítulo 47:: Tipos de datos primitivos",
+      "words": 196
+    },
+    {
+      "id": "rust-aprendizaje-ch075-000",
+      "chapterIndex": 75,
+      "chunkIndex": 0,
+      "title": "Capítulo 48:: Tuplas",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch075-001",
+      "chapterIndex": 75,
+      "chunkIndex": 1,
+      "title": "Capítulo 48:: Tuplas",
+      "words": 456
+    },
+    {
+      "id": "rust-aprendizaje-ch076-000",
+      "chapterIndex": 76,
+      "chunkIndex": 0,
+      "title": "Capítulo 49:: Valores en caja",
+      "words": 265
+    },
+    {
+      "id": "rust-aprendizaje-ch077-000",
+      "chapterIndex": 77,
+      "chunkIndex": 0,
+      "title": "Capítulo 50:: Vidas",
+      "words": 500
+    },
+    {
+      "id": "rust-aprendizaje-ch077-001",
+      "chapterIndex": 77,
+      "chunkIndex": 1,
+      "title": "Capítulo 50:: Vidas",
+      "words": 333
+    },
+    {
+      "id": "rust-aprendizaje-ch078-000",
+      "chapterIndex": 78,
+      "chunkIndex": 0,
+      "title": "D. Ataro, David Grayson, Eric Platon, gavinb, IceyEC, John, Jon",
+      "words": 489
+    }
+  ]
+}

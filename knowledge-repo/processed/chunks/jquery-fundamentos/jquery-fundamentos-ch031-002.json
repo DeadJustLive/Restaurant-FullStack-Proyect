@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch031-002",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 31,
+  "chunkIndex": 2,
+  "title": "5. Finalmente, mostrar la primera pestaña.",
+  "start": 900,
+  "end": 1038,
+  "words": 138,
+  "content": "Ayuda: No se olvide de utilizar el selector :visible. Crear un Menú Desplegable Abra el archivo /ejercicios/index.html en el navegador. Realice el ejercicio utilizando el archivo /ejercicios/js/navigation.js. La tarea es poder desplegar los ítems del menú superior de la página: al pasar el puntero del ratón por encima de un ítem del menú, se debe mostrar su submenú en caso que exista; al no estar más encima de un ítem, el submenú se debe ocultar. Para poder realizarlo, utilice el método $.fn.hover para añadir o remover una clase en el submenú para poder controlar si debe estar oculto o visible (El archivo /ejercicios/css/styles.css incluye una clase “hover” para este propósito) Crear un Slideshow Abra el archivo /ejercicios/index.html en el navegador. Realice el ejercicio utilizando el archivo /ejercicios/js/slideshow.js. La tarea es añadir un slideshow a la página con JavaScript."
+}

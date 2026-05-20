@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch008-000",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 8,
+  "chunkIndex": 0,
+  "title": "Capítulo 25:: Macros 76",
+  "start": 0,
+  "end": 56,
+  "words": 56,
+  "content": "# Capítulo 25:: Macros 76 -- 7 of 188 -- Observaciones 76 Examples 76 Tutorial 76 Crear una macro HashSet 77 Recursion 77 Límite de recursión 78 Patrones multiples 78 Especificadores de fragmentos - Tipo de patrones 79 Seguir set 80 Exportando e importando macros 80 Depuración de macros 81 log_syntax! () 81 --muy expandido 81"
+}

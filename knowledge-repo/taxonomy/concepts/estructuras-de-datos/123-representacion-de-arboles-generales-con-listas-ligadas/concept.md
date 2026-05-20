@@ -1,0 +1,14 @@
+# REPRESENTACION DE ARBOLES GENERALES CON LISTAS LIGADAS
+
+## Fuente
+estructuras-de-datos (Cap. 123)
+
+## Contenido
+# REPRESENTACION DE ARBOLES GENERALES CON LISTAS LIGADAS
+
+Árbol:
+Representación:
+
+-- 10 of 64 --
+
+11

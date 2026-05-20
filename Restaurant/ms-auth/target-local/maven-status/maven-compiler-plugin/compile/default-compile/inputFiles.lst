@@ -16,6 +16,7 @@
 /home/nodead/Escritorio/Restaurant-FullStack-Proyect/Restaurant/ms-auth/src/main/java/cl/triskeledu/auth/exception/TokenInvalidoException.java
 /home/nodead/Escritorio/Restaurant-FullStack-Proyect/Restaurant/ms-auth/src/main/java/cl/triskeledu/auth/service/impl/UsuarioServiceImpl.java
 /home/nodead/Escritorio/Restaurant-FullStack-Proyect/Restaurant/ms-auth/src/main/java/cl/triskeledu/auth/dto/event/AuthEventDTO.java
+/home/nodead/Escritorio/Restaurant-FullStack-Proyect/Restaurant/ms-auth/src/main/java/cl/triskeledu/auth/dto/request/RefreshTokenRequestDTO.java
 /home/nodead/Escritorio/Restaurant-FullStack-Proyect/Restaurant/ms-auth/src/main/java/cl/triskeledu/auth/entity/UserCredential.java
 /home/nodead/Escritorio/Restaurant-FullStack-Proyect/Restaurant/ms-auth/src/main/java/cl/triskeledu/auth/exception/CredencialYaVinculadaException.java
 /home/nodead/Escritorio/Restaurant-FullStack-Proyect/Restaurant/ms-auth/src/main/java/cl/triskeledu/auth/service/AuthService.java

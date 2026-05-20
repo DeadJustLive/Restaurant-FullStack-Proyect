@@ -1,0 +1,11 @@
+{
+  "id": "estructuras-de-datos-ch096-000",
+  "bookId": "estructuras-de-datos",
+  "chapterIndex": 96,
+  "chunkIndex": 0,
+  "title": "INGENIERIA DE SISTEMAS",
+  "start": 0,
+  "end": 72,
+  "words": 72,
+  "content": "# 3.2 TEMA 1 DEFINICIÓN Y TERMINOLOGÍA BÁSICA SOBRE GRAFOS 3.2.1 DEFINICIÓN DE GRAFOS Se define como un conjunto finito de puntos o vértices que se comunican con una traza llamada lado para formar una figura con estas relaciones (un grafo contiene un conjunto finito de lados). Ejemplos: Grafo 1 Grafo 2 Grafo 3 Los vértices y lados para los grafos 1 y 2 son: Grafo 1: V1={1,2,3,4} L1={<1,2>,<1,3>,<2,3>,<2,4>,<3,4>} Grafo 2: V2={A,B,C,D}"
+}

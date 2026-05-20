@@ -1,0 +1,11 @@
+{
+  "id": "2-3-6-guia-desarrollo-software-v2-0-ch037-000",
+  "bookId": "2-3-6-guia-desarrollo-software-v2-0",
+  "chapterIndex": 37,
+  "chunkIndex": 0,
+  "title": "VII. Desarrollo y consumo de APIs",
+  "start": 0,
+  "end": 41,
+  "words": 41,
+  "content": "# VII. Desarrollo y consumo de APIs La exposición de los servicios API REST debe utilizar mecanismos de autenticación para su consumo privado, ya sea tokens (JWT u otros), certificados o llaves criptográficas, u otros como medios de autenticación entre puntos."
+}

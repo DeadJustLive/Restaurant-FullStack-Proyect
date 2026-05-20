@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch023-017",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 23,
+  "chunkIndex": 17,
+  "title": "2. Luego de ver casos pequeños, ¾Notas algo en los bordes?, ¾Puedes in-",
+  "start": 7650,
+  "end": 7806,
+  "words": 156,
+  "content": "n − 1 caracteres posibles. Para evitar meter muchos datos en la pila, es mejor tener la cadena guardada en un arreglo global de tipo char. Código 5.1: Generador de Cadenas de Caracteres 1 char C [ 2 1 ] ; 2 void cadenas ( int n , int c ) { 3 int i ; 4 i f ( n==0){ 5 p r i n t f ( \" %s \\n\" , C) ; 6 } e l s e { 7 for ( i= ' a ' ; i < ' a '+c ; i ++){ 8 C[ n]= i ; 9 cadenas ( n−1, c ) ; 10 } 11 } Problema Resuelto 5.1.2. ¾Cuántas cadenas de longitud n que utilizan solamente las primeras c letras del abecedario(todas minúsculas) existen? O dicho de otra forma ¾Cuántas líneas imprime el código 5.1? Solución Llamémosle cad(n, c) al número de líneas que imprime el código"
+}

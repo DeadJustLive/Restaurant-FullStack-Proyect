@@ -1,0 +1,9 @@
+# INGENIERIA DE SISTEMAS
+
+## Fuente
+estructuras-de-datos (Cap. 33)
+
+## Contenido
+# INGENIERIA DE SISTEMAS
+
+3.2.2 EJERCICIOS PROPUESTOS

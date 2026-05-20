@@ -1,0 +1,11 @@
+{
+  "id": "2-4-2-guia-de-desarrollo-software-servicios-publicos-ch025-000",
+  "bookId": "2-4-2-guia-de-desarrollo-software-servicios-publicos",
+  "chapterIndex": 25,
+  "chunkIndex": 0,
+  "title": "20. Implementar mecanismos de",
+  "start": 0,
+  "end": 94,
+  "words": 94,
+  "content": "# 20. Implementar mecanismos de registros o logs Se deben registrar distintos eventos del sistema para permitir que éstos sean monitoreados de forma automatizada para efectos de seguridad: ● Utilizar un formato común de registros al interior de la institución. Esto permite facilitar la configuración y parametrización de los mecanismos de monitoreo. ● Registrar la cantidad de información correcta. ● Siempre registrar un timestamp e información de identificación (IP, usuario, etc). ● Nunca registrar información sensible en los logs. Dentro del stack de herramientas detallado en Tecnologías de Preferencia, se encuentran opciones Open Source."
+}

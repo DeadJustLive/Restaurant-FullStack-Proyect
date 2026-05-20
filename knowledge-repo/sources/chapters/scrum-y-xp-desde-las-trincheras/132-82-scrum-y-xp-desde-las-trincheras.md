@@ -1,0 +1,50 @@
+# 82 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+• 	La programación por parejas es agotadora y no debería hacerse durante
+todo el día.
+• 	Es bueno cambiar de parejas frecuentemente.
+• 	La 	programación 	por 	parejas 	realmente 	mejora 	la 	distribución 	de
+conocimiento entre el equipo. Sorprendentemente rápido, además.
+• 	Algunas 	personas 	simplemente 	no 	se 	sienten 	a 	gusto 	haciendo
+programación por parejas. No prescindas de un programador excelente
+simplemente porque no se sienta a gusto programando por parejas.
+• 	La revisión de código es una alternativa aceptable a la programación por
+parejas.
+• 	El “navegante” (el tipo que no usa el teclado) debería tener un ordenador
+propio también. No para desarrollar, pero sí para hacer pequeñas tareas
+cuando sea necesario, consultar documentación cuando el “piloto” (el tipo
+que usa el teclado) se atasque, etc.
+• 	No fuerces a la gente a hacer programación por parejas. Anima a las
+personas y proporcionales las herramientas adecuadas, pero permíteles
+experimentar con ella a su propio ritmo.
+Desarrollo guiado por pruebas (TDD)
+¡Amen! Esto, para mi, es más importante que Scrum y XP juntos. Puedes
+quitarme la casa, la tela y el perro, ¡pero no intentes impedirme hacer Test Driven
+Development (TDD)! Si no te gusta TDD, entonces es mejor que no me dejes
+entrar en el edificio, ya que trataré de colarlo de una forma u otra :o)
+He aquí un resumen en diez segundos de TDD:
+Desarrollo guiado por pruebas significa que escribes un test automático y, a
+continuación, escribes el código suficiente para pasar dicho test y después
+refactorizas el código, principalmente para mejorar la legibilidad y eliminar
+duplicaciones. Aclarar y repetir.
+Algunas reflexiones sobre el desarrollo guiado por pruebas:
+• 	TDD es duro. Los programadores tardan un tiempo en pillarlo. De hecho,
+en muchos casos no importa cuanto lo expliques, lo demuestres y los
+animes: en muchos casos la única forma de que un programador lo pille
+es emparejarlo con otro programador que sea bueno en TDD. Una vez
+que un programador lo pilla, sin embargo, normalmente será infectado
+severamente y nunca más querrá trabajar de otra forma.
+• 	TDD tiene un efecto profundamente positivo en del diseño del sistema.
+• 	Se tarda un tiempo en conseguir que TDD funciona en un nuevo
+producto, especialmente con pruebas de integración tipo “caja negra”,
+pero el retorno de la inversión
+• 	Asegúrate de que inviertes suficiente tiempo en hacer que a la gente le
+resulte fácil escribir pruebas. Esto significa conseguir las herramientas
+adecuadas, educar a las personas, proporcionarles las clases de utilidad
+o clases básicas adecuadas, etc.
+Nosotros empleamos las siguientes utilidades para el desarrollo guiado por
+pruebas:
+• 	jUnit / httpUnit / jWebUnit. Estamos considerando TestNG y Selenium.
+• 	HSQLDB como una base de datos embebida en memoria para pruebas.
+
+-- 82 of 122 --

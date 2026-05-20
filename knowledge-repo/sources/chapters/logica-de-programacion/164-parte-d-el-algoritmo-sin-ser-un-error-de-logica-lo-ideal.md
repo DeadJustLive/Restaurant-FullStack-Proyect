@@ -1,0 +1,26 @@
+# parte d: el algoritmo, sin ser un error de l´ogica, lo ideal
+
+ser´ıa realizar siempre las declaraciones al inicio del
+algoritmo o de los procedimientos o funciones.
+La funci´on dimensionar(), internamente est´a construida creando un
+vector en el momento de declarar la variable suscrita del tama˜no indicado
+en el argumento cuando se invoca la funci´on, para posteriormente retornar
+la referencia a este nuevo vector:
+Funcion tipoDato[ ] dimensionar( Entero n )
+tipoDato elemento[ n ]
+Retornar elemento
+FinFuncion
+Note que esta funci´on no indica un tipo de dato espec´ıfico, ya que
+funciona igual para cualquier tipo de dato; se describe de esta forma para
+lograr explicar el funcionamiento en t´erminos generales. Se asume que esta
+
+-- 356 of 450 --
+
+Introducci ´on a la L ´ogica de Programaci ´on 355
+funci´on es interna al pseudoc´odigo del libro y no requiere ser escrita en los
+algoritmos que la utilicen.
+La estructura interna de la funci´on es: crear un vector de n posiciones en
+el momento de la declaraci´on de la variable suscrita, y luego simplemente
+se retorna el valor de la variable, es decir, la referencia al nuevo vector.
+Ejemplos de creaci´on de vectores en el momento de la
+declaraci´on :

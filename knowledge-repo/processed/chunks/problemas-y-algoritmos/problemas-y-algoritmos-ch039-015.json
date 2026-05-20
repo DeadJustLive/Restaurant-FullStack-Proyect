@@ -1,0 +1,11 @@
+{
+  "id": "problemas-y-algoritmos-ch039-015",
+  "bookId": "problemas-y-algoritmos",
+  "chapterIndex": 39,
+  "chunkIndex": 15,
+  "title": "Parte IV",
+  "start": 6750,
+  "end": 7250,
+  "words": 500,
+  "content": "} e l s e { 9 i f ( der [ nodo]==−1){ 10 der [ nodo ]= crear_nodo ( dato ) ; 11 } e l s e { 12 i n s e r t a r ( der [ nodo ] , dato ) ; 13 } 14 } 15 } -- 174 of 315 -- 14.4. ÁRBOLES BINARIOS DE BÚSQUEDA 175 8 8 4 8 4 5 8 4 5 9 8 4 5 9 10 8 4 3 5 9 10 Figura 14.2: Inserción de la secuencia de enteros 8 4 5 9 10 3 en un árbol binario de búsqueda. -- 175 of 315 -- 176 CAPÍTULO 14. ÁRBOLES BINARIOS La función anterior, crea un nuevo nodo con clave dato y lo inserta en un árbol(o subárbol) que tiene raiz en nodo. Asi que si queremos generar un árbol de búsqueda con las claves 8, 4, 5, 9, 10, 3 lo unico que tenemos que hacer es: 1 r a i z=crear_nodo ( 8 ) ; 2 i n s e r t a r ( r a i z , 4) ; 3 i n s e r t a r ( r a i z , 5) ; 4 i n s e r t a r ( r a i z , 9) ; 5 i n s e r t a r ( r a i z , 10) ; 6 i n s e r t a r ( r a i z , 3) ; Ahora podemos ver que un árbol binario de búsqueda permite mantener un conjunto de datos ordenado e insertar nuevos datos; pero el objetivo de los árboles binarios de búsqueda es poder hacer inserciones en tiempo logarítmico, lo cual aún no hemos logrado. 14.5. Encontrar un Elemento en el Árbol Bina- rio de Búsqueda Otra aplicación de los árboles binarios de búsqueda, es el hecho de saber si en el árbol existe un nodo con una determinada clave. Nuevamente la recursión resuelve fácilmente este problema. Llamémosle x al valor que se está buscando: Si la clave de la raiz es x entonces x está en el árbol. Si la clave de la raíz es menor que x, entonces x está en el árbol si y solo sí x está en la rama derecha Si la clave de la raiz es mayor que x, entonces x está en el árbol si y solo sí x está en la rama izquierda Estas 3 observaciones conducen instantanemente a la siguiente imple- mentación recursiva: 1 bool esta_en_el_arbol ( int nodo , Tipo x ) { 2 i f ( nodo==−1) 3 return f a l s e ; 4 i f ( c l a v e [ nodo]==x ) { 5 return true ; 6 } e l s e i f ( c l a v e [ nodo]<x ) { -- 176 of 315 -- 14.6. COMPLEJIDAD 177 7 return esta_en_el_arbol ( der [ nodo"
+}

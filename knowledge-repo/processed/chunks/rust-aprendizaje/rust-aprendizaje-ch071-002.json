@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch071-002",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 71,
+  "chunkIndex": 2,
+  "title": "Capítulo 44:: Rust orientado a objetos",
+  "start": 900,
+  "end": 986,
+  "words": 86,
+  "content": "de compilación, solo se muestran las diferencias aquí: trait Shape { fn accept<V: ShapeVisitor>(&self, sv: &mut V); } impl Shape for Circle { fn accept<V: ShapeVisitor>(&self, sv: &mut V) { // same body } } impl Shape for Rectangle { fn accept<V: ShapeVisitor>(&self, sv: &mut V) { // same body } } fn computeArea<S: Shape>(s: &S) -> f64 { https://riptutorial.com/es/home 147 -- 161 of 188 -- // same body } Lea Rust orientado a objetos en línea: https://riptutorial.com/es/rust/topic/6737/rust-orientado-a- objetos https://riptutorial.com/es/home 148 -- 162 of 188 --"
+}

@@ -1,0 +1,19 @@
+# 1. Características de la implementación de un TAD
+
+Como ya dijimos anteriormente, la implementación de un TAD consiste en:
+• 	elegir la representación de los valores del tipo, usando otros TAD previamente definidos e implementados
+y/o tipos o constructores de tipos predefinidos en el lenguaje de implementación, e
+• 	implementar las operaciones.
+Una buena implementación debe tener las siguientes características:
+• 	Estructurada, para facilitar su desarrollo.
+• 	Eficiente, para optimizar el uso de recursos: tiempo, espacio.
+• 	Legible, para facilitar su modificación y mantenimiento.
+• 	Segura y robusta.
+• 	Correcta, verificable, fácil de usar.
+• 	Garantizar la encapsulación.
+Como ya se dijo, la encapsulación es el concepto fundamental subyacente bajo la programación con TAD. La
+encapsulación consiste básicamente en garantizar:
+• 	la privacidad de la representación: el usuario del TAD no conoce los detalles de representación de los valores del
+TAD, o no necesita conocerlos, y
+• 	la protección del tipo: el usuario del TAD sólo puede utilizar las operaciones previstas y hechas públicas en la
+interfaz del TAD.

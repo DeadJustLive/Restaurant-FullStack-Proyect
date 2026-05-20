@@ -1,0 +1,42 @@
+{
+  "id": "bases-datos-diseno-introduccion",
+  "title": "Jordi Casas Roma",
+  "author": "",
+  "pages": 22,
+  "sourceFile": "source-pdfs/bases-datos-diseno-introduccion.pdf",
+  "processedAt": "2026-05-17T07:11:20.578Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "2. Fases del diseño de una base de datos.......................................... 10",
+      "file": "chapters/bases-datos-diseno-introduccion/01-2-fases-del-diseño-de-una-base-de-datos-10.md",
+      "words": 362
+    },
+    {
+      "index": 2,
+      "title": "1. Proceso de diseño de una base de datos",
+      "file": "chapters/bases-datos-diseno-introduccion/02-1-proceso-de-diseño-de-una-base-de-datos.md",
+      "words": 1113
+    },
+    {
+      "index": 3,
+      "title": "2. Fases del diseño de una base de datos",
+      "file": "chapters/bases-datos-diseno-introduccion/03-2-fases-del-diseño-de-una-base-de-datos.md",
+      "words": 2584
+    },
+    {
+      "index": 4,
+      "title": "parte im: portante de este tiempo está bajo el control del SGBD y hace refe-",
+      "file": "chapters/bases-datos-diseno-introduccion/04-parte-im-portante-de-este-tiempo-está-bajo-el-control-del-sgbd-y-hace-refe-.md",
+      "words": 269
+    },
+    {
+      "index": 5,
+      "title": "parte im: portante de los diferentes gestores.",
+      "file": "chapters/bases-datos-diseno-introduccion/05-parte-im-portante-de-los-diferentes-gestores.md",
+      "words": 1587
+    }
+  ],
+  "learningIntegrated": true
+}

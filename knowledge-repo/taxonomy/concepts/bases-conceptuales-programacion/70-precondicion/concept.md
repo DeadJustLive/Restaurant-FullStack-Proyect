@@ -1,0 +1,24 @@
+# PRECONDICI´ON:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 70)
+
+## Contenido
+# PRECONDICI´ON:
+
+* siempre funciona
+-}
+{
+PonerN(cantAPoner,Rojo)
+-- cantAPoner ES UN PAR´AMETRO!
+}
+Se puede observar que cantRojas se pasa como argumento al invocar el procedimiento
+CompletarDuplicarRojasAlNorteBien, y este lo utiliza mediante el par ´ametro cantAPoner.
+¿C ´omo se relacionan las variables con los par ´ametros y los ´ındices? La respuesta
+a esta pregunta es que no se mezclan. O sea, si bien es cierto que los par ´ametros y
+los ´ındices son identificadores al igual que lo son las variables, no pueden asignarse ni
+par ´ametros ni ´ındices, puesto que su forma de tomar valores es otra. La asignaci ´on es
+una operaci ´on que se realiza solamente con variables. Entonces, no pueden existir, en un
+procedimiento dado, variables con el mismo nombre que un par ´ametro o un ´ındice. Si esto
+sucediese, se producir ´a un error de sintaxis.
+procedure VariosErrores(color)

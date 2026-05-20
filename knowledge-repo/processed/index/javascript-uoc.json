@@ -1,0 +1,66 @@
+{
+  "id": "javascript-uoc",
+  "title": "javascript-uoc",
+  "author": "",
+  "pages": 48,
+  "sourceFile": "source-pdfs/javascript-uoc.pdf",
+  "processedAt": "2026-05-17T05:38:44.458Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "1. Introducción........................................................................................ 5",
+      "file": "chapters/javascript-uoc/01-1-introducción-5.md",
+      "words": 4
+    },
+    {
+      "index": 2,
+      "title": "2. Ecmascript............................................................................................ 6",
+      "file": "chapters/javascript-uoc/02-2-ecmascript-6.md",
+      "words": 158
+    },
+    {
+      "index": 3,
+      "title": "4. Frameworks JavaScript.................................................................... 36",
+      "file": "chapters/javascript-uoc/03-4-frameworks-javascript-36.md",
+      "words": 28
+    },
+    {
+      "index": 4,
+      "title": "5. Typescript............................................................................................. 44",
+      "file": "chapters/javascript-uoc/04-5-typescript-44.md",
+      "words": 46
+    },
+    {
+      "index": 5,
+      "title": "1. Introducción",
+      "file": "chapters/javascript-uoc/05-1-introducción.md",
+      "words": 247
+    },
+    {
+      "index": 6,
+      "title": "2. Ecmascript",
+      "file": "chapters/javascript-uoc/06-2-ecmascript.md",
+      "words": 7964
+    },
+    {
+      "index": 7,
+      "title": "4. Frameworks JavaScript",
+      "file": "chapters/javascript-uoc/07-4-frameworks-javascript.md",
+      "words": 2760
+    },
+    {
+      "index": 8,
+      "title": "parte d: e los navegadores hacen que en muchos proyectos, y cada vez más, se",
+      "file": "chapters/javascript-uoc/08-parte-d-e-los-navegadores-hacen-que-en-muchos-proyectos-y-cada-vez-más-se.md",
+      "words": 31
+    },
+    {
+      "index": 9,
+      "title": "5. Typescript",
+      "file": "chapters/javascript-uoc/09-5-typescript.md",
+      "words": 823
+    }
+  ],
+  "learningIntegrated": true
+}

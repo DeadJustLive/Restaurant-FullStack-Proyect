@@ -1,0 +1,1710 @@
+{
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "totalChunks": 243,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.350Z",
+  "chunks": [
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "Sección 6",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch001-001",
+      "chapterIndex": 1,
+      "chunkIndex": 1,
+      "title": "Sección 6",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch001-002",
+      "chapterIndex": 1,
+      "chunkIndex": 2,
+      "title": "Sección 6",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch001-003",
+      "chapterIndex": 1,
+      "chunkIndex": 3,
+      "title": "Sección 6",
+      "words": 80
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "XVII",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch002-001",
+      "chapterIndex": 2,
+      "chunkIndex": 1,
+      "title": "XVII",
+      "words": 301
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "COBOL",
+      "words": 186
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "1.3 Python",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch004-001",
+      "chapterIndex": 4,
+      "chunkIndex": 1,
+      "title": "1.3 Python",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch004-002",
+      "chapterIndex": 4,
+      "chunkIndex": 2,
+      "title": "1.3 Python",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch004-003",
+      "chapterIndex": 4,
+      "chunkIndex": 3,
+      "title": "1.3 Python",
+      "words": 111
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "CAPÍTULO 2",
+      "words": 47
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "2.1 Thonny",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch006-001",
+      "chapterIndex": 6,
+      "chunkIndex": 1,
+      "title": "2.1 Thonny",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch006-002",
+      "chapterIndex": 6,
+      "chunkIndex": 2,
+      "title": "2.1 Thonny",
+      "words": 124
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "2.2 Contexto real",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch007-001",
+      "chapterIndex": 7,
+      "chunkIndex": 1,
+      "title": "2.2 Contexto real",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch007-002",
+      "chapterIndex": 7,
+      "chunkIndex": 2,
+      "title": "2.2 Contexto real",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch007-003",
+      "chapterIndex": 7,
+      "chunkIndex": 3,
+      "title": "2.2 Contexto real",
+      "words": 337
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "4. Finalmente, la instalamos:",
+      "words": 43
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "2.3 VSCode",
+      "words": 342
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "4. Salida de la terminal.",
+      "words": 65
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "5. Barra de herramientas para depuración.",
+      "words": 211
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "CAPÍTULO 3",
+      "words": 53
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "3.1 Datos",
+      "words": 283
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "3. No pueden ser una palabra reservada del lenguaje («keywords»).",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch014-001",
+      "chapterIndex": 14,
+      "chunkIndex": 1,
+      "title": "3. No pueden ser una palabra reservada del lenguaje («keywords»).",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch014-002",
+      "chapterIndex": 14,
+      "chunkIndex": 2,
+      "title": "3. No pueden ser una palabra reservada del lenguaje («keywords»).",
+      "words": 255
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "2. Si estamos escribiendo un programa desde el editor, podemos hacer uso de print:",
+      "words": 82
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "4. Asigna la expresión 10 * 3.0 a la variable result y muestra su tipo.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch016-001",
+      "chapterIndex": 16,
+      "chunkIndex": 1,
+      "title": "4. Asigna la expresión 10 * 3.0 a la variable result y muestra su tipo.",
+      "words": 239
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "3.2 Números",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch017-001",
+      "chapterIndex": 17,
+      "chunkIndex": 1,
+      "title": "3.2 Números",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch017-002",
+      "chapterIndex": 17,
+      "chunkIndex": 2,
+      "title": "3.2 Números",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch017-003",
+      "chapterIndex": 17,
+      "chunkIndex": 3,
+      "title": "3.2 Números",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch017-004",
+      "chapterIndex": 17,
+      "chunkIndex": 4,
+      "title": "3.2 Números",
+      "words": 159
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "EJERCICIOS DE REPASO",
+      "words": 68
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "words": 35
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "3.3 Cadenas de texto",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch020-001",
+      "chapterIndex": 20,
+      "chunkIndex": 1,
+      "title": "3.3 Cadenas de texto",
+      "words": 154
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "Salto de línea",
+      "words": 41
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "Barra invertida",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch022-001",
+      "chapterIndex": 22,
+      "chunkIndex": 1,
+      "title": "Barra invertida",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch022-002",
+      "chapterIndex": 22,
+      "chunkIndex": 2,
+      "title": "Barra invertida",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch022-003",
+      "chapterIndex": 22,
+      "chunkIndex": 3,
+      "title": "Barra invertida",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch022-004",
+      "chapterIndex": 22,
+      "chunkIndex": 4,
+      "title": "Barra invertida",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch022-005",
+      "chapterIndex": 22,
+      "chunkIndex": 5,
+      "title": "Barra invertida",
+      "words": 75
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "QUIEN A BUEN ÁRBOL SE ARRIMA BUENA SOMBRA LE COBIJA",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch023-001",
+      "chapterIndex": 23,
+      "chunkIndex": 1,
+      "title": "QUIEN A BUEN ÁRBOL SE ARRIMA BUENA SOMBRA LE COBIJA",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch023-002",
+      "chapterIndex": 23,
+      "chunkIndex": 2,
+      "title": "QUIEN A BUEN ÁRBOL SE ARRIMA BUENA SOMBRA LE COBIJA",
+      "words": 408
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "words": 115
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "CAPÍTULO 4",
+      "words": 75
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "4.1 Condicionales",
+      "words": 215
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "Universe age expressed in days",
+      "words": 55
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "9. Usa comentarios para destacar implementaciones incompletas.",
+      "words": 109
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "2. Usar los paréntesis (...):",
+      "words": 487
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "HIGH",
+      "words": 87
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "Asignación de valor inicial",
+      "words": 77
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "Asignación de valor inicial",
+      "words": 136
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "2. El uso de paréntesis, en función del caso, puede aclarar la expresión de comparación.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch033-001",
+      "chapterIndex": 33,
+      "chunkIndex": 1,
+      "title": "2. El uso de paréntesis, en función del caso, puede aclarar la expresión de comparación.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch033-002",
+      "chapterIndex": 33,
+      "chunkIndex": 2,
+      "title": "2. El uso de paréntesis, en función del caso, puede aclarar la expresión de comparación.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch033-003",
+      "chapterIndex": 33,
+      "chunkIndex": 3,
+      "title": "2. El uso de paréntesis, en función del caso, puede aclarar la expresión de comparación.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch033-004",
+      "chapterIndex": 33,
+      "chunkIndex": 4,
+      "title": "2. El uso de paréntesis, en función del caso, puede aclarar la expresión de comparación.",
+      "words": 145
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "4.2 Bucles",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch034-001",
+      "chapterIndex": 34,
+      "chunkIndex": 1,
+      "title": "4.2 Bucles",
+      "words": 403
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "CTRL-C",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch035-001",
+      "chapterIndex": 35,
+      "chunkIndex": 1,
+      "title": "CTRL-C",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch035-002",
+      "chapterIndex": 35,
+      "chunkIndex": 2,
+      "title": "CTRL-C",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch035-003",
+      "chapterIndex": 35,
+      "chunkIndex": 3,
+      "title": "CTRL-C",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch035-004",
+      "chapterIndex": 35,
+      "chunkIndex": 4,
+      "title": "CTRL-C",
+      "words": 65
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "2. Escriba un programa que pida nombre y apellidos de una persona (usando un solo",
+      "words": 62
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "10. Escriba un programa que muestre por pantalla todas las fichas del dominó. La ficha",
+      "words": 66
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "12. Escriba un programa que muestre (por filas) la Tabla ASCII, empezando con el código",
+      "words": 221
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "13. Escriba un programa que permita al usuario adivinar un número. Indicar si el número",
+      "words": 65
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "words": 48
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "CAPÍTULO 5",
+      "words": 92
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "5.1 Listas",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch042-001",
+      "chapterIndex": 42,
+      "chunkIndex": 1,
+      "title": "5.1 Listas",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch042-002",
+      "chapterIndex": 42,
+      "chunkIndex": 2,
+      "title": "5.1 Listas",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch042-003",
+      "chapterIndex": 42,
+      "chunkIndex": 3,
+      "title": "5.1 Listas",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch042-004",
+      "chapterIndex": 42,
+      "chunkIndex": 4,
+      "title": "5.1 Listas",
+      "words": 408
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "1. Utilizando la función clear():",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch043-001",
+      "chapterIndex": 43,
+      "chunkIndex": 1,
+      "title": "1. Utilizando la función clear():",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch043-002",
+      "chapterIndex": 43,
+      "chunkIndex": 2,
+      "title": "1. Utilizando la función clear():",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch043-003",
+      "chapterIndex": 43,
+      "chunkIndex": 3,
+      "title": "1. Utilizando la función clear():",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch043-004",
+      "chapterIndex": 43,
+      "chunkIndex": 4,
+      "title": "1. Utilizando la función clear():",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch043-005",
+      "chapterIndex": 43,
+      "chunkIndex": 5,
+      "title": "1. Utilizando la función clear():",
+      "words": 339
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "Su código debajo de aquí",
+      "words": 372
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "EJERCICIOS DE REPASO",
+      "words": 175
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "words": 58
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "5.2 Tuplas",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch047-001",
+      "chapterIndex": 47,
+      "chunkIndex": 1,
+      "title": "5.2 Tuplas",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch047-002",
+      "chapterIndex": 47,
+      "chunkIndex": 2,
+      "title": "5.2 Tuplas",
+      "words": 271
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "5.3 Diccionarios",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch048-001",
+      "chapterIndex": 48,
+      "chunkIndex": 1,
+      "title": "5.3 Diccionarios",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch048-002",
+      "chapterIndex": 48,
+      "chunkIndex": 2,
+      "title": "5.3 Diccionarios",
+      "words": 83
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "2. Si la clave que buscamos no existe, nos devuelve None4 salvo que le indiquemos otro",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch049-001",
+      "chapterIndex": 49,
+      "chunkIndex": 1,
+      "title": "2. Si la clave que buscamos no existe, nos devuelve None4 salvo que le indiquemos otro",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch049-002",
+      "chapterIndex": 49,
+      "chunkIndex": 2,
+      "title": "2. Si la clave que buscamos no existe, nos devuelve None4 salvo que le indiquemos otro",
+      "words": 156
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "2. Si la clave ya existe, se añade con el valor del «último» diccionario en la mezcla.6",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch050-001",
+      "chapterIndex": 50,
+      "chunkIndex": 1,
+      "title": "2. Si la clave ya existe, se añade con el valor del «último» diccionario en la mezcla.6",
+      "words": 71
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "1. Utilizando la función clear():",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch051-001",
+      "chapterIndex": 51,
+      "chunkIndex": 1,
+      "title": "1. Utilizando la función clear():",
+      "words": 324
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "words": 61
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "5.4 Conjuntos",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch053-001",
+      "chapterIndex": 53,
+      "chunkIndex": 1,
+      "title": "5.4 Conjuntos",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch053-002",
+      "chapterIndex": 53,
+      "chunkIndex": 2,
+      "title": "5.4 Conjuntos",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch053-003",
+      "chapterIndex": 53,
+      "chunkIndex": 3,
+      "title": "5.4 Conjuntos",
+      "words": 93
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "5.5 Ficheros",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch054-001",
+      "chapterIndex": 54,
+      "chunkIndex": 1,
+      "title": "5.5 Ficheros",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch054-002",
+      "chapterIndex": 54,
+      "chunkIndex": 2,
+      "title": "5.5 Ficheros",
+      "words": 469
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "3. Escribir un fichero de salida avg_temps.txt con 12 filas (meses) y la temperatura",
+      "words": 81
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "words": 39
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch057-000",
+      "chapterIndex": 57,
+      "chunkIndex": 0,
+      "title": "CAPÍTULO 6",
+      "words": 142
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch058-000",
+      "chapterIndex": 58,
+      "chunkIndex": 0,
+      "title": "2. Reutilizar el código para distintas situaciones.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch058-001",
+      "chapterIndex": 58,
+      "chunkIndex": 1,
+      "title": "2. Reutilizar el código para distintas situaciones.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch058-002",
+      "chapterIndex": 58,
+      "chunkIndex": 2,
+      "title": "2. Reutilizar el código para distintas situaciones.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch058-003",
+      "chapterIndex": 58,
+      "chunkIndex": 3,
+      "title": "2. Reutilizar el código para distintas situaciones.",
+      "words": 404
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch059-000",
+      "chapterIndex": 59,
+      "chunkIndex": 0,
+      "title": "2. La variable result apunta a una zona de memoria en la que se modifican sus valores.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch059-001",
+      "chapterIndex": 59,
+      "chunkIndex": 1,
+      "title": "2. La variable result apunta a una zona de memoria en la que se modifican sus valores.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch059-002",
+      "chapterIndex": 59,
+      "chunkIndex": 2,
+      "title": "2. La variable result apunta a una zona de memoria en la que se modifican sus valores.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch059-003",
+      "chapterIndex": 59,
+      "chunkIndex": 3,
+      "title": "2. La variable result apunta a una zona de memoria en la que se modifican sus valores.",
+      "words": 173
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch060-000",
+      "chapterIndex": 60,
+      "chunkIndex": 0,
+      "title": "2. If distance less than a half, return floor.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch060-001",
+      "chapterIndex": 60,
+      "chunkIndex": 1,
+      "title": "2. If distance less than a half, return floor.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch060-002",
+      "chapterIndex": 60,
+      "chunkIndex": 2,
+      "title": "2. If distance less than a half, return floor.",
+      "words": 75
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch061-000",
+      "chapterIndex": 61,
+      "chunkIndex": 0,
+      "title": "4. Puede recibir cualquier número de parámetros.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch061-001",
+      "chapterIndex": 61,
+      "chunkIndex": 1,
+      "title": "4. Puede recibir cualquier número de parámetros.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch061-002",
+      "chapterIndex": 61,
+      "chunkIndex": 2,
+      "title": "4. Puede recibir cualquier número de parámetros.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch061-003",
+      "chapterIndex": 61,
+      "chunkIndex": 3,
+      "title": "4. Puede recibir cualquier número de parámetros.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch061-004",
+      "chapterIndex": 61,
+      "chunkIndex": 4,
+      "title": "4. Puede recibir cualquier número de parámetros.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch061-005",
+      "chapterIndex": 61,
+      "chunkIndex": 5,
+      "title": "4. Puede recibir cualquier número de parámetros.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch061-006",
+      "chapterIndex": 61,
+      "chunkIndex": 6,
+      "title": "4. Puede recibir cualquier número de parámetros.",
+      "words": 139
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch062-000",
+      "chapterIndex": 62,
+      "chunkIndex": 0,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "words": 114
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch063-000",
+      "chapterIndex": 63,
+      "chunkIndex": 0,
+      "title": "6.2 Objetos y Clases",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch063-001",
+      "chapterIndex": 63,
+      "chunkIndex": 1,
+      "title": "6.2 Objetos y Clases",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch063-002",
+      "chapterIndex": 63,
+      "chunkIndex": 2,
+      "title": "6.2 Objetos y Clases",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch063-003",
+      "chapterIndex": 63,
+      "chunkIndex": 3,
+      "title": "6.2 Objetos y Clases",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch063-004",
+      "chapterIndex": 63,
+      "chunkIndex": 4,
+      "title": "6.2 Objetos y Clases",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch063-005",
+      "chapterIndex": 63,
+      "chunkIndex": 5,
+      "title": "6.2 Objetos y Clases",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch063-006",
+      "chapterIndex": 63,
+      "chunkIndex": 6,
+      "title": "6.2 Objetos y Clases",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch063-007",
+      "chapterIndex": 63,
+      "chunkIndex": 7,
+      "title": "6.2 Objetos y Clases",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch063-008",
+      "chapterIndex": 63,
+      "chunkIndex": 8,
+      "title": "6.2 Objetos y Clases",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch063-009",
+      "chapterIndex": 63,
+      "chunkIndex": 9,
+      "title": "6.2 Objetos y Clases",
+      "words": 260
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch064-000",
+      "chapterIndex": 64,
+      "chunkIndex": 0,
+      "title": "5. Imprima por pantalla la info() de este objeto (el método info() debería retornar str",
+      "words": 296
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch065-000",
+      "chapterIndex": 65,
+      "chunkIndex": 0,
+      "title": "1. Escriba una clase en Python para representar una secuencia de ADN. De momento, la",
+      "words": 51
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch066-000",
+      "chapterIndex": 66,
+      "chunkIndex": 0,
+      "title": "3. Continúe con el ejercicio anterior, y añada a la clase un método de instancia para sumar",
+      "words": 49
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch067-000",
+      "chapterIndex": 67,
+      "chunkIndex": 0,
+      "title": "5. Continúe con el ejercicio anterior, y añada a la clase un método de instancia para",
+      "words": 52
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch068-000",
+      "chapterIndex": 68,
+      "chunkIndex": 0,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "words": 95
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch069-000",
+      "chapterIndex": 69,
+      "chunkIndex": 0,
+      "title": "6.3 Excepciones",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch069-001",
+      "chapterIndex": 69,
+      "chunkIndex": 1,
+      "title": "6.3 Excepciones",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch069-002",
+      "chapterIndex": 69,
+      "chunkIndex": 2,
+      "title": "6.3 Excepciones",
+      "words": 413
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch070-000",
+      "chapterIndex": 70,
+      "chunkIndex": 0,
+      "title": "6.4 Módulos",
+      "words": 298
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch071-000",
+      "chapterIndex": 71,
+      "chunkIndex": 0,
+      "title": "2. En las rutas definidas en la variable de entorno PYTHONPATH.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch071-001",
+      "chapterIndex": 71,
+      "chunkIndex": 1,
+      "title": "2. En las rutas definidas en la variable de entorno PYTHONPATH.",
+      "words": 319
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch072-000",
+      "chapterIndex": 72,
+      "chunkIndex": 0,
+      "title": "punto de entrada real",
+      "words": 294
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch073-000",
+      "chapterIndex": 73,
+      "chunkIndex": 0,
+      "title": "AMPLIAR CONOCIMIENTOS",
+      "words": 53
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch074-000",
+      "chapterIndex": 74,
+      "chunkIndex": 0,
+      "title": "CAPÍTULO 7",
+      "words": 98
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch075-000",
+      "chapterIndex": 75,
+      "chunkIndex": 0,
+      "title": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch075-001",
+      "chapterIndex": 75,
+      "chunkIndex": 1,
+      "title": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "words": 76
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-000",
+      "chapterIndex": 76,
+      "chunkIndex": 0,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-001",
+      "chapterIndex": 76,
+      "chunkIndex": 1,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-002",
+      "chapterIndex": 76,
+      "chunkIndex": 2,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-003",
+      "chapterIndex": 76,
+      "chunkIndex": 3,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-004",
+      "chapterIndex": 76,
+      "chunkIndex": 4,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-005",
+      "chapterIndex": 76,
+      "chunkIndex": 5,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-006",
+      "chapterIndex": 76,
+      "chunkIndex": 6,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-007",
+      "chapterIndex": 76,
+      "chunkIndex": 7,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-008",
+      "chapterIndex": 76,
+      "chunkIndex": 8,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-009",
+      "chapterIndex": 76,
+      "chunkIndex": 9,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-010",
+      "chapterIndex": 76,
+      "chunkIndex": 10,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-011",
+      "chapterIndex": 76,
+      "chunkIndex": 11,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-012",
+      "chapterIndex": 76,
+      "chunkIndex": 12,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-013",
+      "chapterIndex": 76,
+      "chunkIndex": 13,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-014",
+      "chapterIndex": 76,
+      "chunkIndex": 14,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-015",
+      "chapterIndex": 76,
+      "chunkIndex": 15,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-016",
+      "chapterIndex": 76,
+      "chunkIndex": 16,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-017",
+      "chapterIndex": 76,
+      "chunkIndex": 17,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-018",
+      "chapterIndex": 76,
+      "chunkIndex": 18,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-019",
+      "chapterIndex": 76,
+      "chunkIndex": 19,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-020",
+      "chapterIndex": 76,
+      "chunkIndex": 20,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-021",
+      "chapterIndex": 76,
+      "chunkIndex": 21,
+      "title": "CAPÍTULO 8",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch076-022",
+      "chapterIndex": 76,
+      "chunkIndex": 22,
+      "title": "CAPÍTULO 8",
+      "words": 260
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch077-000",
+      "chapterIndex": 77,
+      "chunkIndex": 0,
+      "title": "4. Compute los tiempos de ejecución de 2) y 3)",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch077-001",
+      "chapterIndex": 77,
+      "chunkIndex": 1,
+      "title": "4. Compute los tiempos de ejecución de 2) y 3)",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch077-002",
+      "chapterIndex": 77,
+      "chunkIndex": 2,
+      "title": "4. Compute los tiempos de ejecución de 2) y 3)",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch077-003",
+      "chapterIndex": 77,
+      "chunkIndex": 3,
+      "title": "4. Compute los tiempos de ejecución de 2) y 3)",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch077-004",
+      "chapterIndex": 77,
+      "chunkIndex": 4,
+      "title": "4. Compute los tiempos de ejecución de 2) y 3)",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch077-005",
+      "chapterIndex": 77,
+      "chunkIndex": 5,
+      "title": "4. Compute los tiempos de ejecución de 2) y 3)",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch077-006",
+      "chapterIndex": 77,
+      "chunkIndex": 6,
+      "title": "4. Compute los tiempos de ejecución de 2) y 3)",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch077-007",
+      "chapterIndex": 77,
+      "chunkIndex": 7,
+      "title": "4. Compute los tiempos de ejecución de 2) y 3)",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch077-008",
+      "chapterIndex": 77,
+      "chunkIndex": 8,
+      "title": "4. Compute los tiempos de ejecución de 2) y 3)",
+      "words": 260
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch078-000",
+      "chapterIndex": 78,
+      "chunkIndex": 0,
+      "title": "Column Non-Null Count Dtype",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch078-001",
+      "chapterIndex": 78,
+      "chunkIndex": 1,
+      "title": "Column Non-Null Count Dtype",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch078-002",
+      "chapterIndex": 78,
+      "chunkIndex": 2,
+      "title": "Column Non-Null Count Dtype",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch078-003",
+      "chapterIndex": 78,
+      "chunkIndex": 3,
+      "title": "Column Non-Null Count Dtype",
+      "words": 419
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch079-000",
+      "chapterIndex": 79,
+      "chunkIndex": 0,
+      "title": "Islas con más de 1000 km2 de extensión",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch079-001",
+      "chapterIndex": 79,
+      "chunkIndex": 1,
+      "title": "Islas con más de 1000 km2 de extensión",
+      "words": 445
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch080-000",
+      "chapterIndex": 80,
+      "chunkIndex": 0,
+      "title": "IBM USA",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch080-001",
+      "chapterIndex": 80,
+      "chunkIndex": 1,
+      "title": "IBM USA",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch080-002",
+      "chapterIndex": 80,
+      "chunkIndex": 2,
+      "title": "IBM USA",
+      "words": 89
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch081-000",
+      "chapterIndex": 81,
+      "chunkIndex": 0,
+      "title": "IBM NEW YORK",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch081-001",
+      "chapterIndex": 81,
+      "chunkIndex": 1,
+      "title": "IBM NEW YORK",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch081-002",
+      "chapterIndex": 81,
+      "chunkIndex": 2,
+      "title": "IBM NEW YORK",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch081-003",
+      "chapterIndex": 81,
+      "chunkIndex": 3,
+      "title": "IBM NEW YORK",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch081-004",
+      "chapterIndex": 81,
+      "chunkIndex": 4,
+      "title": "IBM NEW YORK",
+      "words": 123
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch082-000",
+      "chapterIndex": 82,
+      "chunkIndex": 0,
+      "title": "84893.0 Mediana de los valores",
+      "words": 71
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch083-000",
+      "chapterIndex": 83,
+      "chunkIndex": 0,
+      "title": "84893.0 Cuantiles (por defecto 50%)",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch083-001",
+      "chapterIndex": 83,
+      "chunkIndex": 1,
+      "title": "84893.0 Cuantiles (por defecto 50%)",
+      "words": 290
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch084-000",
+      "chapterIndex": 84,
+      "chunkIndex": 0,
+      "title": "Foxconn tiene el mayor número de empleados/as",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch084-001",
+      "chapterIndex": 84,
+      "chunkIndex": 1,
+      "title": "Foxconn tiene el mayor número de empleados/as",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch084-002",
+      "chapterIndex": 84,
+      "chunkIndex": 2,
+      "title": "Foxconn tiene el mayor número de empleados/as",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch084-003",
+      "chapterIndex": 84,
+      "chunkIndex": 3,
+      "title": "Foxconn tiene el mayor número de empleados/as",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch084-004",
+      "chapterIndex": 84,
+      "chunkIndex": 4,
+      "title": "Foxconn tiene el mayor número de empleados/as",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch084-005",
+      "chapterIndex": 84,
+      "chunkIndex": 5,
+      "title": "Foxconn tiene el mayor número de empleados/as",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch084-006",
+      "chapterIndex": 84,
+      "chunkIndex": 6,
+      "title": "Foxconn tiene el mayor número de empleados/as",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch084-007",
+      "chapterIndex": 84,
+      "chunkIndex": 7,
+      "title": "Foxconn tiene el mayor número de empleados/as",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch084-008",
+      "chapterIndex": 84,
+      "chunkIndex": 8,
+      "title": "Foxconn tiene el mayor número de empleados/as",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch084-009",
+      "chapterIndex": 84,
+      "chunkIndex": 9,
+      "title": "Foxconn tiene el mayor número de empleados/as",
+      "words": 396
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch085-000",
+      "chapterIndex": 85,
+      "chunkIndex": 0,
+      "title": "2020. Hemos descargado el fichero medals.xlsx desde una página de Kaggle4.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch085-001",
+      "chapterIndex": 85,
+      "chunkIndex": 1,
+      "title": "2020. Hemos descargado el fichero medals.xlsx desde una página de Kaggle4.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch085-002",
+      "chapterIndex": 85,
+      "chunkIndex": 2,
+      "title": "2020. Hemos descargado el fichero medals.xlsx desde una página de Kaggle4.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch085-003",
+      "chapterIndex": 85,
+      "chunkIndex": 3,
+      "title": "2020. Hemos descargado el fichero medals.xlsx desde una página de Kaggle4.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch085-004",
+      "chapterIndex": 85,
+      "chunkIndex": 4,
+      "title": "2020. Hemos descargado el fichero medals.xlsx desde una página de Kaggle4.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch085-005",
+      "chapterIndex": 85,
+      "chunkIndex": 5,
+      "title": "2020. Hemos descargado el fichero medals.xlsx desde una página de Kaggle4.",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch085-006",
+      "chapterIndex": 85,
+      "chunkIndex": 6,
+      "title": "2020. Hemos descargado el fichero medals.xlsx desde una página de Kaggle4.",
+      "words": 394
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch086-000",
+      "chapterIndex": 86,
+      "chunkIndex": 0,
+      "title": "CAPÍTULO 9",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch086-001",
+      "chapterIndex": 86,
+      "chunkIndex": 1,
+      "title": "CAPÍTULO 9",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch086-002",
+      "chapterIndex": 86,
+      "chunkIndex": 2,
+      "title": "CAPÍTULO 9",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch086-003",
+      "chapterIndex": 86,
+      "chunkIndex": 3,
+      "title": "CAPÍTULO 9",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch086-004",
+      "chapterIndex": 86,
+      "chunkIndex": 4,
+      "title": "CAPÍTULO 9",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch086-005",
+      "chapterIndex": 86,
+      "chunkIndex": 5,
+      "title": "CAPÍTULO 9",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch086-006",
+      "chapterIndex": 86,
+      "chunkIndex": 6,
+      "title": "CAPÍTULO 9",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch086-007",
+      "chapterIndex": 86,
+      "chunkIndex": 7,
+      "title": "CAPÍTULO 9",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch086-008",
+      "chapterIndex": 86,
+      "chunkIndex": 8,
+      "title": "CAPÍTULO 9",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch086-009",
+      "chapterIndex": 86,
+      "chunkIndex": 9,
+      "title": "CAPÍTULO 9",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch086-010",
+      "chapterIndex": 86,
+      "chunkIndex": 10,
+      "title": "CAPÍTULO 9",
+      "words": 390
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch087-000",
+      "chapterIndex": 87,
+      "chunkIndex": 0,
+      "title": "PARTIAL_LINK_TEXT",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch087-001",
+      "chapterIndex": 87,
+      "chunkIndex": 1,
+      "title": "PARTIAL_LINK_TEXT",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch087-002",
+      "chapterIndex": 87,
+      "chunkIndex": 2,
+      "title": "PARTIAL_LINK_TEXT",
+      "words": 500
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch087-003",
+      "chapterIndex": 87,
+      "chunkIndex": 3,
+      "title": "PARTIAL_LINK_TEXT",
+      "words": 72
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch088-000",
+      "chapterIndex": 88,
+      "chunkIndex": 0,
+      "title": "STACK OVERFLOW",
+      "words": 202
+    },
+    {
+      "id": "python-aprende-sergio-delgado-quintero-ch089-000",
+      "chapterIndex": 89,
+      "chunkIndex": 0,
+      "title": "5. Recorrer los elementos desplegados li y mostrar el contenido textual de los elementos",
+      "words": 68
+    }
+  ]
+}

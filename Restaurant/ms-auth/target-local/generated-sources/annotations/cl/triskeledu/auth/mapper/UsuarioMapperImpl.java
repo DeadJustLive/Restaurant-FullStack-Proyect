@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-05-17T22:49:12-0400",
-    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 25.0.2 (Red Hat, Inc.)"
+    date = "2026-05-19T19:17:34-0400",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.46.0.v20260407-0427, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class UsuarioMapperImpl implements UsuarioMapper {
@@ -24,16 +24,16 @@ public class UsuarioMapperImpl implements UsuarioMapper {
         UsuarioResponseDTO.UsuarioResponseDTOBuilder usuarioResponseDTO = UsuarioResponseDTO.builder();
 
         usuarioResponseDTO.credencialId( usuarioCredencialId( usuario ) );
-        usuarioResponseDTO.id( usuario.getId() );
-        usuarioResponseDTO.nombre( usuario.getNombre() );
-        usuarioResponseDTO.apellido( usuario.getApellido() );
-        usuarioResponseDTO.telefono( usuario.getTelefono() );
-        usuarioResponseDTO.direccion( usuario.getDireccion() );
-        usuarioResponseDTO.imagenUrl( usuario.getImagenUrl() );
-        usuarioResponseDTO.sucursalId( usuario.getSucursalId() );
         usuarioResponseDTO.activo( usuario.getActivo() );
-        usuarioResponseDTO.creadoEn( usuario.getCreadoEn() );
         usuarioResponseDTO.actualizadoEn( usuario.getActualizadoEn() );
+        usuarioResponseDTO.apellido( usuario.getApellido() );
+        usuarioResponseDTO.creadoEn( usuario.getCreadoEn() );
+        usuarioResponseDTO.direccion( usuario.getDireccion() );
+        usuarioResponseDTO.id( usuario.getId() );
+        usuarioResponseDTO.imagenUrl( usuario.getImagenUrl() );
+        usuarioResponseDTO.nombre( usuario.getNombre() );
+        usuarioResponseDTO.sucursalId( usuario.getSucursalId() );
+        usuarioResponseDTO.telefono( usuario.getTelefono() );
 
         usuarioResponseDTO.nombreCompleto( usuario.getNombre() + " " + usuario.getApellido() );
 
@@ -48,12 +48,12 @@ public class UsuarioMapperImpl implements UsuarioMapper {
 
         Usuario.UsuarioBuilder usuario = Usuario.builder();
 
-        usuario.nombre( dto.getNombre() );
         usuario.apellido( dto.getApellido() );
-        usuario.telefono( dto.getTelefono() );
         usuario.direccion( dto.getDireccion() );
         usuario.imagenUrl( dto.getImagenUrl() );
+        usuario.nombre( dto.getNombre() );
         usuario.sucursalId( dto.getSucursalId() );
+        usuario.telefono( dto.getTelefono() );
 
         return usuario.build();
     }
@@ -64,12 +64,12 @@ public class UsuarioMapperImpl implements UsuarioMapper {
             return;
         }
 
-        target.setNombre( dto.getNombre() );
         target.setApellido( dto.getApellido() );
-        target.setTelefono( dto.getTelefono() );
         target.setDireccion( dto.getDireccion() );
         target.setImagenUrl( dto.getImagenUrl() );
+        target.setNombre( dto.getNombre() );
         target.setSucursalId( dto.getSucursalId() );
+        target.setTelefono( dto.getTelefono() );
     }
 
     private Long usuarioCredencialId(Usuario usuario) {

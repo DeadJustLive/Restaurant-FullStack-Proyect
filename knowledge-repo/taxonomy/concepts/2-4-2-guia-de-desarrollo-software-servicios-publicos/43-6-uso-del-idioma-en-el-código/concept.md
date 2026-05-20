@@ -1,0 +1,33 @@
+# 6. Uso del idioma en el código
+
+## Fuente
+2.4.2 Guia de Desarrollo Software Servicios Publicos (Cap. 43)
+
+## Contenido
+# 6. Uso del idioma en el código
+
+Se recomienda utilizar de la siguiente
+forma el uso de idioma castellano e
+inglés a nivel de programación y
+definición de esquemas para la
+construcción de servicios:
+Castellano
+● Variables y contenido
+● Construcción de las URIs
+● Documentación
+● Metadatos
+● Tablas de bases de datos
+Inglés
+● Operaciones, por ejemplo, métodos
+get, create, delete, etc.
+División de Gobierno Digital | Lineamientos para desarrollo de software 	23
+
+-- 23 of 33 --
+
+● Campos de auditorías en base de
+datos, por ejemplo, created_at,
+updated_at y deleted_at, etc.
+● Encabezados
+División de Gobierno Digital | Lineamientos para desarrollo de software 	24
+
+-- 24 of 33 --

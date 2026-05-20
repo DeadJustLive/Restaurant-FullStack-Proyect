@@ -1,0 +1,11 @@
+{
+  "id": "react-stackoverflow-docs-ch052-000",
+  "bookId": "react-stackoverflow-docs",
+  "chapterIndex": 52,
+  "chunkIndex": 0,
+  "title": "install webpack for bundling",
+  "start": 0,
+  "end": 10,
+  "words": 10,
+  "content": "# install webpack for bundling $ npm i webpack -g"
+}

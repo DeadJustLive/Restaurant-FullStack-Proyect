@@ -1,0 +1,39 @@
+# Capítulo 3:: Análisis de argumentos de línea
+
+## Fuente
+Capítulo 1: Empezando con Node.js 2 (Cap. 35)
+
+## Contenido
+# Capítulo 3:: Análisis de argumentos de línea
+
+de comando
+Examples
+Pasando acción (verbo) y valores
+const options = require("commander");
+options
+.option("-v, --verbose", "Be verbose");
+options
+.command("convert")
+.alias("c")
+.description("Converts input file to output file")
+.option("-i, --in-file <file_name>", "Input file")
+.option("-o, --out-file <file_name>", "Output file")
+.action(doConvert);
+options.parse(process.argv);
+if (!options.args.length) options.help();
+function doConvert(options){
+//do something with options.inFile and options.outFile
+};
+Pasando interruptores booleanos
+const options = require("commander");
+options
+.option("-v, --verbose")
+.parse(process.argv);
+if (options.verbose){
+console.log("Let's make some noise!");
+}
+Lea Análisis de argumentos de línea de comando en línea: https://riptutorial.com/es/node-
+js/topic/6174/analisis-de-argumentos-de-linea-de-comando
+https://riptutorial.com/es/home 27
+
+-- 55 of 423 --

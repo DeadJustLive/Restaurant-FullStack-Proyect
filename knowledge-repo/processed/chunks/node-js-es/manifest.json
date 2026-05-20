@@ -1,0 +1,1801 @@
+{
+  "bookId": "node-js-es",
+  "totalChunks": 256,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.300Z",
+  "chunks": [
+    {
+      "id": "node-js-es-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "Capítulo 1:: Empezando con Node.js 2",
+      "words": 138
+    },
+    {
+      "id": "node-js-es-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "Capítulo 2:: Ambiente 23",
+      "words": 53
+    },
+    {
+      "id": "node-js-es-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "Capítulo 5:: Aplicaciones Web Con Express 29",
+      "words": 135
+    },
+    {
+      "id": "node-js-es-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "Capítulo 6:: Asegurando aplicaciones Node.js 46",
+      "words": 55
+    },
+    {
+      "id": "node-js-es-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "Capítulo 7:: Async / Await 51",
+      "words": 40
+    },
+    {
+      "id": "node-js-es-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "Capítulo 8:: async.js 55",
+      "words": 72
+    },
+    {
+      "id": "node-js-es-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "Capítulo 11:: Biblioteca de mangosta 65",
+      "words": 97
+    },
+    {
+      "id": "node-js-es-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "Capítulo 14:: Carga automática en los cambios 83",
+      "words": 56
+    },
+    {
+      "id": "node-js-es-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "Capítulo 30:: Depurando la aplicación Node.js 114",
+      "words": 45
+    },
+    {
+      "id": "node-js-es-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "Capítulo 33:: Despliegue de aplicaciones Node.js en producción 123",
+      "words": 70
+    },
+    {
+      "id": "node-js-es-ch100-000",
+      "chapterIndex": 100,
+      "chunkIndex": 0,
+      "title": "choco install nodejs.install",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch100-001",
+      "chapterIndex": 100,
+      "chunkIndex": 1,
+      "title": "choco install nodejs.install",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch100-002",
+      "chapterIndex": 100,
+      "chunkIndex": 2,
+      "title": "choco install nodejs.install",
+      "words": 371
+    },
+    {
+      "id": "node-js-es-ch101-000",
+      "chapterIndex": 101,
+      "chunkIndex": 0,
+      "title": "Capítulo 60:: Integracion de cassandra",
+      "words": 91
+    },
+    {
+      "id": "node-js-es-ch102-000",
+      "chapterIndex": 102,
+      "chunkIndex": 0,
+      "title": "Capítulo 61:: Integración de mongodb",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch102-001",
+      "chapterIndex": 102,
+      "chunkIndex": 1,
+      "title": "Capítulo 61:: Integración de mongodb",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch102-002",
+      "chapterIndex": 102,
+      "chunkIndex": 2,
+      "title": "Capítulo 61:: Integración de mongodb",
+      "words": 315
+    },
+    {
+      "id": "node-js-es-ch103-000",
+      "chapterIndex": 103,
+      "chunkIndex": 0,
+      "title": "Capítulo 62:: Integración de MongoDB para",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch103-001",
+      "chapterIndex": 103,
+      "chunkIndex": 1,
+      "title": "Capítulo 62:: Integración de MongoDB para",
+      "words": 179
+    },
+    {
+      "id": "node-js-es-ch104-000",
+      "chapterIndex": 104,
+      "chunkIndex": 0,
+      "title": "Capítulo 63:: Integración de MySQL",
+      "words": 270
+    },
+    {
+      "id": "node-js-es-ch105-000",
+      "chapterIndex": 105,
+      "chunkIndex": 0,
+      "title": "módulo M: ySQL buscará la siguiente conexión gratuita para ejecutar su consulta.",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch105-001",
+      "chapterIndex": 105,
+      "chunkIndex": 1,
+      "title": "módulo M: ySQL buscará la siguiente conexión gratuita para ejecutar su consulta.",
+      "words": 345
+    },
+    {
+      "id": "node-js-es-ch106-000",
+      "chapterIndex": 106,
+      "chunkIndex": 0,
+      "title": "Capítulo 64:: Integración de pasaportes",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch106-001",
+      "chapterIndex": 106,
+      "chunkIndex": 1,
+      "title": "Capítulo 64:: Integración de pasaportes",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch106-002",
+      "chapterIndex": 106,
+      "chunkIndex": 2,
+      "title": "Capítulo 64:: Integración de pasaportes",
+      "words": 234
+    },
+    {
+      "id": "node-js-es-ch107-000",
+      "chapterIndex": 107,
+      "chunkIndex": 0,
+      "title": "Capítulo 65:: Integración MSSQL",
+      "words": 467
+    },
+    {
+      "id": "node-js-es-ch108-000",
+      "chapterIndex": 108,
+      "chunkIndex": 0,
+      "title": "Capítulo 66:: Integración PostgreSQL",
+      "words": 111
+    },
+    {
+      "id": "node-js-es-ch109-000",
+      "chapterIndex": 109,
+      "chunkIndex": 0,
+      "title": "Módulo d: e consola",
+      "words": 140
+    },
+    {
+      "id": "node-js-es-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "Capítulo 38:: Ejecutando archivos o comandos con procesos hijo 138",
+      "words": 42
+    },
+    {
+      "id": "node-js-es-ch110-000",
+      "chapterIndex": 110,
+      "chunkIndex": 0,
+      "title": "Módulo d: e proceso",
+      "words": 163
+    },
+    {
+      "id": "node-js-es-ch111-000",
+      "chapterIndex": 111,
+      "chunkIndex": 0,
+      "title": "Capítulo 68:: Inyección de dependencia",
+      "words": 117
+    },
+    {
+      "id": "node-js-es-ch112-000",
+      "chapterIndex": 112,
+      "chunkIndex": 0,
+      "title": "Capítulo 69:: Koa Framework v2",
+      "words": 80
+    },
+    {
+      "id": "node-js-es-ch113-000",
+      "chapterIndex": 113,
+      "chunkIndex": 0,
+      "title": "Capítulo 70:: La comunicación arduino con",
+      "words": 334
+    },
+    {
+      "id": "node-js-es-ch114-000",
+      "chapterIndex": 114,
+      "chunkIndex": 0,
+      "title": "Módulo d: e traducción simple y ligero con almacenamiento dinámico de json. Es compatible con",
+      "words": 227
+    },
+    {
+      "id": "node-js-es-ch115-000",
+      "chapterIndex": 115,
+      "chunkIndex": 0,
+      "title": "Capítulo 72:: Lodash",
+      "words": 130
+    },
+    {
+      "id": "node-js-es-ch116-000",
+      "chapterIndex": 116,
+      "chunkIndex": 0,
+      "title": "REST",
+      "words": 165
+    },
+    {
+      "id": "node-js-es-ch117-000",
+      "chapterIndex": 117,
+      "chunkIndex": 0,
+      "title": "Capítulo 74:: Manejo de excepciones",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch117-001",
+      "chapterIndex": 117,
+      "chunkIndex": 1,
+      "title": "Capítulo 74:: Manejo de excepciones",
+      "words": 493
+    },
+    {
+      "id": "node-js-es-ch118-000",
+      "chapterIndex": 118,
+      "chunkIndex": 0,
+      "title": "módulo d: e flujo proporciona una API base que facilita la creación de objetos que",
+      "words": 105
+    },
+    {
+      "id": "node-js-es-ch119-000",
+      "chapterIndex": 119,
+      "chunkIndex": 0,
+      "title": "NOTA",
+      "words": 139
+    },
+    {
+      "id": "node-js-es-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "Capítulo 40:: Emisores de eventos 143",
+      "words": 48
+    },
+    {
+      "id": "node-js-es-ch120-000",
+      "chapterIndex": 120,
+      "chunkIndex": 0,
+      "title": "Capítulo 76:: Mantener una aplicación de",
+      "words": 398
+    },
+    {
+      "id": "node-js-es-ch121-000",
+      "chapterIndex": 121,
+      "chunkIndex": 0,
+      "title": "Capítulo 77:: Marcos de plantillas",
+      "words": 225
+    },
+    {
+      "id": "node-js-es-ch122-000",
+      "chapterIndex": 122,
+      "chunkIndex": 0,
+      "title": "Capítulo 78:: Marcos de pruebas unitarias",
+      "words": 147
+    },
+    {
+      "id": "node-js-es-ch123-000",
+      "chapterIndex": 123,
+      "chunkIndex": 0,
+      "title": "Capítulo 79:: Módulo de cluster",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch123-001",
+      "chapterIndex": 123,
+      "chunkIndex": 1,
+      "title": "Capítulo 79:: Módulo de cluster",
+      "words": 73
+    },
+    {
+      "id": "node-js-es-ch124-000",
+      "chapterIndex": 124,
+      "chunkIndex": 0,
+      "title": "Capítulo 80:: Multihilo",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch124-001",
+      "chapterIndex": 124,
+      "chunkIndex": 1,
+      "title": "Capítulo 80:: Multihilo",
+      "words": 80
+    },
+    {
+      "id": "node-js-es-ch125-000",
+      "chapterIndex": 125,
+      "chunkIndex": 0,
+      "title": "Capítulo 81:: N-API",
+      "words": 434
+    },
+    {
+      "id": "node-js-es-ch126-000",
+      "chapterIndex": 126,
+      "chunkIndex": 0,
+      "title": "Capítulo 82:: Node.js (express.js) con código",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch126-001",
+      "chapterIndex": 126,
+      "chunkIndex": 1,
+      "title": "Capítulo 82:: Node.js (express.js) con código",
+      "words": 488
+    },
+    {
+      "id": "node-js-es-ch127-000",
+      "chapterIndex": 127,
+      "chunkIndex": 0,
+      "title": "Capítulo 83:: Node.js Arquitectura y Trabajos",
+      "words": 42
+    },
+    {
+      "id": "node-js-es-ch128-000",
+      "chapterIndex": 128,
+      "chunkIndex": 0,
+      "title": "Capítulo 84:: Node.js con CORS",
+      "words": 192
+    },
+    {
+      "id": "node-js-es-ch129-000",
+      "chapterIndex": 129,
+      "chunkIndex": 0,
+      "title": "Capítulo 85:: Node.JS con ES6",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch129-001",
+      "chapterIndex": 129,
+      "chunkIndex": 1,
+      "title": "Capítulo 85:: Node.JS con ES6",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch129-002",
+      "chapterIndex": 129,
+      "chunkIndex": 2,
+      "title": "Capítulo 85:: Node.JS con ES6",
+      "words": 132
+    },
+    {
+      "id": "node-js-es-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "Capítulo 47:: Eventloop 163",
+      "words": 58
+    },
+    {
+      "id": "node-js-es-ch130-000",
+      "chapterIndex": 130,
+      "chunkIndex": 0,
+      "title": "Capítulo 86:: Node.js con Oracle",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch130-001",
+      "chapterIndex": 130,
+      "chunkIndex": 1,
+      "title": "Capítulo 86:: Node.js con Oracle",
+      "words": 62
+    },
+    {
+      "id": "node-js-es-ch131-000",
+      "chapterIndex": 131,
+      "chunkIndex": 0,
+      "title": "Capítulo 87:: Node.js Design Fundamental",
+      "words": 177
+    },
+    {
+      "id": "node-js-es-ch132-000",
+      "chapterIndex": 132,
+      "chunkIndex": 0,
+      "title": "Capítulo 88:: Node.js Performance",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch132-001",
+      "chapterIndex": 132,
+      "chunkIndex": 1,
+      "title": "Capítulo 88:: Node.js Performance",
+      "words": 125
+    },
+    {
+      "id": "node-js-es-ch133-000",
+      "chapterIndex": 133,
+      "chunkIndex": 0,
+      "title": "Capítulo 89:: Node.js v6 Nuevas",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch133-001",
+      "chapterIndex": 133,
+      "chunkIndex": 1,
+      "title": "Capítulo 89:: Node.js v6 Nuevas",
+      "words": 195
+    },
+    {
+      "id": "node-js-es-ch134-000",
+      "chapterIndex": 134,
+      "chunkIndex": 0,
+      "title": "Capítulo 90:: Node.JS y MongoDB.",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch134-001",
+      "chapterIndex": 134,
+      "chunkIndex": 1,
+      "title": "Capítulo 90:: Node.JS y MongoDB.",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch134-002",
+      "chapterIndex": 134,
+      "chunkIndex": 2,
+      "title": "Capítulo 90:: Node.JS y MongoDB.",
+      "words": 139
+    },
+    {
+      "id": "node-js-es-ch135-000",
+      "chapterIndex": 135,
+      "chunkIndex": 0,
+      "title": "Capítulo 91:: NodeJS con Redis",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch135-001",
+      "chapterIndex": 135,
+      "chunkIndex": 1,
+      "title": "Capítulo 91:: NodeJS con Redis",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch135-002",
+      "chapterIndex": 135,
+      "chunkIndex": 2,
+      "title": "Capítulo 91:: NodeJS con Redis",
+      "words": 339
+    },
+    {
+      "id": "node-js-es-ch136-000",
+      "chapterIndex": 136,
+      "chunkIndex": 0,
+      "title": "Capítulo 92:: NodeJS Frameworks",
+      "words": 171
+    },
+    {
+      "id": "node-js-es-ch137-000",
+      "chapterIndex": 137,
+      "chunkIndex": 0,
+      "title": "Capítulo 93:: Notificaciones push",
+      "words": 474
+    },
+    {
+      "id": "node-js-es-ch138-000",
+      "chapterIndex": 138,
+      "chunkIndex": 0,
+      "title": "Capítulo 94:: npm",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch138-001",
+      "chapterIndex": 138,
+      "chunkIndex": 1,
+      "title": "Capítulo 94:: npm",
+      "words": 71
+    },
+    {
+      "id": "node-js-es-ch139-000",
+      "chapterIndex": 139,
+      "chunkIndex": 0,
+      "title": "e.g. to install lodash and express",
+      "words": 104
+    },
+    {
+      "id": "node-js-es-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "Capítulo 49:: Exigir() 168",
+      "words": 36
+    },
+    {
+      "id": "node-js-es-ch140-000",
+      "chapterIndex": 140,
+      "chunkIndex": 0,
+      "title": "of the package lodash",
+      "words": 54
+    },
+    {
+      "id": "node-js-es-ch141-000",
+      "chapterIndex": 141,
+      "chunkIndex": 0,
+      "title": "public ones by setting registry for specific scope",
+      "words": 146
+    },
+    {
+      "id": "node-js-es-ch142-000",
+      "chapterIndex": 142,
+      "chunkIndex": 0,
+      "title": "or",
+      "words": 52
+    },
+    {
+      "id": "node-js-es-ch143-000",
+      "chapterIndex": 143,
+      "chunkIndex": 0,
+      "title": "or",
+      "words": 98
+    },
+    {
+      "id": "node-js-es-ch144-000",
+      "chapterIndex": 144,
+      "chunkIndex": 0,
+      "title": "e.g. to install the grunt command line tool",
+      "words": 218
+    },
+    {
+      "id": "node-js-es-ch145-000",
+      "chapterIndex": 145,
+      "chunkIndex": 0,
+      "title": "or",
+      "words": 35
+    },
+    {
+      "id": "node-js-es-ch146-000",
+      "chapterIndex": 146,
+      "chunkIndex": 0,
+      "title": "or",
+      "words": 154
+    },
+    {
+      "id": "node-js-es-ch147-000",
+      "chapterIndex": 147,
+      "chunkIndex": 0,
+      "title": "Install a package \"mylib\" from the scope \"myscope\"",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch147-001",
+      "chapterIndex": 147,
+      "chunkIndex": 1,
+      "title": "Install a package \"mylib\" from the scope \"myscope\"",
+      "words": 68
+    },
+    {
+      "id": "node-js-es-ch148-000",
+      "chapterIndex": 148,
+      "chunkIndex": 0,
+      "title": "or",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch148-001",
+      "chapterIndex": 148,
+      "chunkIndex": 1,
+      "title": "or",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch148-002",
+      "chapterIndex": 148,
+      "chunkIndex": 2,
+      "title": "or",
+      "words": 378
+    },
+    {
+      "id": "node-js-es-ch149-000",
+      "chapterIndex": 149,
+      "chunkIndex": 0,
+      "title": "SYNOPSIS",
+      "words": 166
+    },
+    {
+      "id": "node-js-es-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "Capítulo 51:: Exportando y consumiendo módulos 174",
+      "words": 41
+    },
+    {
+      "id": "node-js-es-ch150-000",
+      "chapterIndex": 150,
+      "chunkIndex": 0,
+      "title": "Capítulo 95:: nvm - Administrador de",
+      "words": 196
+    },
+    {
+      "id": "node-js-es-ch151-000",
+      "chapterIndex": 151,
+      "chunkIndex": 0,
+      "title": "PROCESO DE INSTALACIÓN",
+      "words": 39
+    },
+    {
+      "id": "node-js-es-ch152-000",
+      "chapterIndex": 152,
+      "chunkIndex": 0,
+      "title": "PRUEBA DE QUE NVM FUE INSTALADO CORRECTAMENTE",
+      "words": 470
+    },
+    {
+      "id": "node-js-es-ch153-000",
+      "chapterIndex": 153,
+      "chunkIndex": 0,
+      "title": "Capítulo 96:: OAuth 2.0",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch153-001",
+      "chapterIndex": 153,
+      "chunkIndex": 1,
+      "title": "Capítulo 96:: OAuth 2.0",
+      "words": 372
+    },
+    {
+      "id": "node-js-es-ch154-000",
+      "chapterIndex": 154,
+      "chunkIndex": 0,
+      "title": "Capítulo 97:: paquete.json",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch154-001",
+      "chapterIndex": 154,
+      "chunkIndex": 1,
+      "title": "Capítulo 97:: paquete.json",
+      "words": 333
+    },
+    {
+      "id": "node-js-es-ch155-000",
+      "chapterIndex": 155,
+      "chunkIndex": 0,
+      "title": "or",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch155-001",
+      "chapterIndex": 155,
+      "chunkIndex": 1,
+      "title": "or",
+      "words": 408
+    },
+    {
+      "id": "node-js-es-ch156-000",
+      "chapterIndex": 156,
+      "chunkIndex": 0,
+      "title": "Capítulo 98:: pasaporte.js",
+      "words": 246
+    },
+    {
+      "id": "node-js-es-ch157-000",
+      "chapterIndex": 157,
+      "chunkIndex": 0,
+      "title": "Capítulo 99:: Programación asíncrona",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch157-001",
+      "chapterIndex": 157,
+      "chunkIndex": 1,
+      "title": "Capítulo 99:: Programación asíncrona",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch157-002",
+      "chapterIndex": 157,
+      "chunkIndex": 2,
+      "title": "Capítulo 99:: Programación asíncrona",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch157-003",
+      "chapterIndex": 157,
+      "chunkIndex": 3,
+      "title": "Capítulo 99:: Programación asíncrona",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch157-004",
+      "chapterIndex": 157,
+      "chunkIndex": 4,
+      "title": "Capítulo 99:: Programación asíncrona",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch157-005",
+      "chapterIndex": 157,
+      "chunkIndex": 5,
+      "title": "Capítulo 99:: Programación asíncrona",
+      "words": 55
+    },
+    {
+      "id": "node-js-es-ch158-000",
+      "chapterIndex": 158,
+      "chunkIndex": 0,
+      "title": "Capítulo 100:: Programación síncrona vs",
+      "words": 238
+    },
+    {
+      "id": "node-js-es-ch159-000",
+      "chapterIndex": 159,
+      "chunkIndex": 0,
+      "title": "Capítulo 101:: Readline",
+      "words": 167
+    },
+    {
+      "id": "node-js-es-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "Capítulo 53:: Gestor de paquetes de hilo 184",
+      "words": 88
+    },
+    {
+      "id": "node-js-es-ch160-000",
+      "chapterIndex": 160,
+      "chunkIndex": 0,
+      "title": "Capítulo 102:: Ruta-controlador-estructura de",
+      "words": 293
+    },
+    {
+      "id": "node-js-es-ch161-000",
+      "chapterIndex": 161,
+      "chunkIndex": 0,
+      "title": "Capítulo 103:: Sequelize.js",
+      "words": 463
+    },
+    {
+      "id": "node-js-es-ch162-000",
+      "chapterIndex": 162,
+      "chunkIndex": 0,
+      "title": "Capítulo 104:: Servidor de nodo sin marco",
+      "words": 329
+    },
+    {
+      "id": "node-js-es-ch163-000",
+      "chapterIndex": 163,
+      "chunkIndex": 0,
+      "title": "Capítulo 105:: Sistema de archivos de E / S",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch163-001",
+      "chapterIndex": 163,
+      "chunkIndex": 1,
+      "title": "Capítulo 105:: Sistema de archivos de E / S",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch163-002",
+      "chapterIndex": 163,
+      "chunkIndex": 2,
+      "title": "Capítulo 105:: Sistema de archivos de E / S",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch163-003",
+      "chapterIndex": 163,
+      "chunkIndex": 3,
+      "title": "Capítulo 105:: Sistema de archivos de E / S",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch163-004",
+      "chapterIndex": 163,
+      "chunkIndex": 4,
+      "title": "Capítulo 105:: Sistema de archivos de E / S",
+      "words": 363
+    },
+    {
+      "id": "node-js-es-ch164-000",
+      "chapterIndex": 164,
+      "chunkIndex": 0,
+      "title": "Capítulo 106:: Sockets TCP",
+      "words": 387
+    },
+    {
+      "id": "node-js-es-ch165-000",
+      "chapterIndex": 165,
+      "chunkIndex": 0,
+      "title": "Capítulo 107:: Subir archivo",
+      "words": 448
+    },
+    {
+      "id": "node-js-es-ch166-000",
+      "chapterIndex": 166,
+      "chunkIndex": 0,
+      "title": "Capítulo 108:: Usando Streams",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch166-001",
+      "chapterIndex": 166,
+      "chunkIndex": 1,
+      "title": "Capítulo 108:: Usando Streams",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch166-002",
+      "chapterIndex": 166,
+      "chunkIndex": 2,
+      "title": "Capítulo 108:: Usando Streams",
+      "words": 334
+    },
+    {
+      "id": "node-js-es-ch167-000",
+      "chapterIndex": 167,
+      "chunkIndex": 0,
+      "title": "Capítulo 109:: Usando WebSocket con",
+      "words": 171
+    },
+    {
+      "id": "node-js-es-ch168-000",
+      "chapterIndex": 168,
+      "chunkIndex": 0,
+      "title": "Capítulo 110:: Uso de Browserfiy para",
+      "words": 440
+    },
+    {
+      "id": "node-js-es-ch169-000",
+      "chapterIndex": 169,
+      "chunkIndex": 0,
+      "title": "Capítulo 111:: Uso de IISNode para alojar",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch169-001",
+      "chapterIndex": 169,
+      "chunkIndex": 1,
+      "title": "Capítulo 111:: Uso de IISNode para alojar",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch169-002",
+      "chapterIndex": 169,
+      "chunkIndex": 2,
+      "title": "Capítulo 111:: Uso de IISNode para alojar",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch169-003",
+      "chapterIndex": 169,
+      "chunkIndex": 3,
+      "title": "Capítulo 111:: Uso de IISNode para alojar",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch169-004",
+      "chapterIndex": 169,
+      "chunkIndex": 4,
+      "title": "Capítulo 111:: Uso de IISNode para alojar",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch169-005",
+      "chapterIndex": 169,
+      "chunkIndex": 5,
+      "title": "Capítulo 111:: Uso de IISNode para alojar",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch169-006",
+      "chapterIndex": 169,
+      "chunkIndex": 6,
+      "title": "Capítulo 111:: Uso de IISNode para alojar",
+      "words": 104
+    },
+    {
+      "id": "node-js-es-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "Capítulo 57:: Historia de Nodejs 193",
+      "words": 49
+    },
+    {
+      "id": "node-js-es-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "Capítulo 59:: Instalación de Node.js 199",
+      "words": 127
+    },
+    {
+      "id": "node-js-es-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "Capítulo 61:: Integración de mongodb 207",
+      "words": 76
+    },
+    {
+      "id": "node-js-es-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "Capítulo 63:: Integración de MySQL 216",
+      "words": 89
+    },
+    {
+      "id": "node-js-es-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "Capítulo 70:: La comunicación arduino con nodeJs. 235",
+      "words": 39
+    },
+    {
+      "id": "node-js-es-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "Capítulo 76:: Mantener una aplicación de nodo constantemente en ejecución 249",
+      "words": 52
+    },
+    {
+      "id": "node-js-es-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "Capítulo 82:: Node.js (express.js) con código de ejemplo angular.js 264",
+      "words": 56
+    },
+    {
+      "id": "node-js-es-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "Capítulo 88:: Node.js Performance 279",
+      "words": 57
+    },
+    {
+      "id": "node-js-es-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "Capítulo 90:: Node.JS y MongoDB. 286",
+      "words": 41
+    },
+    {
+      "id": "node-js-es-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "Capítulo 94:: npm 302",
+      "words": 130
+    },
+    {
+      "id": "node-js-es-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "Capítulo 95:: nvm - Administrador de versiones de nodo 317",
+      "words": 46
+    },
+    {
+      "id": "node-js-es-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "Capítulo 97:: paquete.json 330",
+      "words": 42
+    },
+    {
+      "id": "node-js-es-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "Capítulo 99:: Programación asíncrona 340",
+      "words": 76
+    },
+    {
+      "id": "node-js-es-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "Capítulo 105:: Sistema de archivos de E / S 358",
+      "words": 169
+    },
+    {
+      "id": "node-js-es-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "Capítulo 111:: Uso de IISNode para alojar aplicaciones web Node.js en IIS 382",
+      "words": 246
+    },
+    {
+      "id": "node-js-es-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "Capítulo 1:: Empezando con Node.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch032-001",
+      "chapterIndex": 32,
+      "chunkIndex": 1,
+      "title": "Capítulo 1:: Empezando con Node.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch032-002",
+      "chapterIndex": 32,
+      "chunkIndex": 2,
+      "title": "Capítulo 1:: Empezando con Node.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch032-003",
+      "chapterIndex": 32,
+      "chunkIndex": 3,
+      "title": "Capítulo 1:: Empezando con Node.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch032-004",
+      "chapterIndex": 32,
+      "chunkIndex": 4,
+      "title": "Capítulo 1:: Empezando con Node.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch032-005",
+      "chapterIndex": 32,
+      "chunkIndex": 5,
+      "title": "Capítulo 1:: Empezando con Node.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch032-006",
+      "chapterIndex": 32,
+      "chunkIndex": 6,
+      "title": "Capítulo 1:: Empezando con Node.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch032-007",
+      "chapterIndex": 32,
+      "chunkIndex": 7,
+      "title": "Capítulo 1:: Empezando con Node.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch032-008",
+      "chapterIndex": 32,
+      "chunkIndex": 8,
+      "title": "Capítulo 1:: Empezando con Node.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch032-009",
+      "chapterIndex": 32,
+      "chunkIndex": 9,
+      "title": "Capítulo 1:: Empezando con Node.js",
+      "words": 195
+    },
+    {
+      "id": "node-js-es-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "Capítulo 2:: Ambiente",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch033-001",
+      "chapterIndex": 33,
+      "chunkIndex": 1,
+      "title": "Capítulo 2:: Ambiente",
+      "words": 55
+    },
+    {
+      "id": "node-js-es-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "Database connection to mysql",
+      "words": 57
+    },
+    {
+      "id": "node-js-es-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "Capítulo 3:: Análisis de argumentos de línea",
+      "words": 95
+    },
+    {
+      "id": "node-js-es-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "REST",
+      "words": 108
+    },
+    {
+      "id": "node-js-es-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "Capítulo 5:: Aplicaciones Web Con Express",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch037-001",
+      "chapterIndex": 37,
+      "chunkIndex": 1,
+      "title": "Capítulo 5:: Aplicaciones Web Con Express",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch037-002",
+      "chapterIndex": 37,
+      "chunkIndex": 2,
+      "title": "Capítulo 5:: Aplicaciones Web Con Express",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch037-003",
+      "chapterIndex": 37,
+      "chunkIndex": 3,
+      "title": "Capítulo 5:: Aplicaciones Web Con Express",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch037-004",
+      "chapterIndex": 37,
+      "chunkIndex": 4,
+      "title": "Capítulo 5:: Aplicaciones Web Con Express",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch037-005",
+      "chapterIndex": 37,
+      "chunkIndex": 5,
+      "title": "Capítulo 5:: Aplicaciones Web Con Express",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch037-006",
+      "chapterIndex": 37,
+      "chunkIndex": 6,
+      "title": "Capítulo 5:: Aplicaciones Web Con Express",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch037-007",
+      "chapterIndex": 37,
+      "chunkIndex": 7,
+      "title": "Capítulo 5:: Aplicaciones Web Con Express",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch037-008",
+      "chapterIndex": 37,
+      "chunkIndex": 8,
+      "title": "Capítulo 5:: Aplicaciones Web Con Express",
+      "words": 150
+    },
+    {
+      "id": "node-js-es-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "Capítulo 6:: Asegurando aplicaciones Node.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch038-001",
+      "chapterIndex": 38,
+      "chunkIndex": 1,
+      "title": "Capítulo 6:: Asegurando aplicaciones Node.js",
+      "words": 493
+    },
+    {
+      "id": "node-js-es-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "Capítulo 7:: Async / Await",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch039-001",
+      "chapterIndex": 39,
+      "chunkIndex": 1,
+      "title": "Capítulo 7:: Async / Await",
+      "words": 155
+    },
+    {
+      "id": "node-js-es-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "Capítulo 8:: async.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch040-001",
+      "chapterIndex": 40,
+      "chunkIndex": 1,
+      "title": "Capítulo 8:: async.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch040-002",
+      "chapterIndex": 40,
+      "chunkIndex": 2,
+      "title": "Capítulo 8:: async.js",
+      "words": 251
+    },
+    {
+      "id": "node-js-es-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "Capítulo 9:: Autenticación de Windows bajo",
+      "words": 116
+    },
+    {
+      "id": "node-js-es-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "Capítulo 10:: Base de datos (MongoDB con",
+      "words": 135
+    },
+    {
+      "id": "node-js-es-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "ECMA 6:",
+      "words": 48
+    },
+    {
+      "id": "node-js-es-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "ECMA6:",
+      "words": 82
+    },
+    {
+      "id": "node-js-es-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "Capítulo 11:: Biblioteca de mangosta",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch045-001",
+      "chapterIndex": 45,
+      "chunkIndex": 1,
+      "title": "Capítulo 11:: Biblioteca de mangosta",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch045-002",
+      "chapterIndex": 45,
+      "chunkIndex": 2,
+      "title": "Capítulo 11:: Biblioteca de mangosta",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch045-003",
+      "chapterIndex": 45,
+      "chunkIndex": 3,
+      "title": "Capítulo 11:: Biblioteca de mangosta",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch045-004",
+      "chapterIndex": 45,
+      "chunkIndex": 4,
+      "title": "Capítulo 11:: Biblioteca de mangosta",
+      "words": 180
+    },
+    {
+      "id": "node-js-es-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "Capítulo 12:: Bluebird Promises",
+      "words": 223
+    },
+    {
+      "id": "node-js-es-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "Capítulo 13:: Buen estilo de codificación",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch047-001",
+      "chapterIndex": 47,
+      "chunkIndex": 1,
+      "title": "Capítulo 13:: Buen estilo de codificación",
+      "words": 209
+    },
+    {
+      "id": "node-js-es-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "Capítulo 14:: Carga automática en los",
+      "words": 488
+    },
+    {
+      "id": "node-js-es-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "Capítulo 15:: Casos de uso de Node.js",
+      "words": 144
+    },
+    {
+      "id": "node-js-es-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "BEGIN",
+      "words": 115
+    },
+    {
+      "id": "node-js-es-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "Capítulo 16:: Cierre agraciado",
+      "words": 89
+    },
+    {
+      "id": "node-js-es-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "Capítulo 17:: CLI",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch052-001",
+      "chapterIndex": 52,
+      "chunkIndex": 1,
+      "title": "Capítulo 17:: CLI",
+      "words": 278
+    },
+    {
+      "id": "node-js-es-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "NODE_DISABLE_COLORS=1",
+      "words": 99
+    },
+    {
+      "id": "node-js-es-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "Capítulo 18:: Código Node.js para STDIN y",
+      "words": 128
+    },
+    {
+      "id": "node-js-es-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "Capítulo 19:: Comenzando con el perfilado de",
+      "words": 438
+    },
+    {
+      "id": "node-js-es-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "Capítulo 20:: Cómo se cargan los módulos",
+      "words": 396
+    },
+    {
+      "id": "node-js-es-ch057-000",
+      "chapterIndex": 57,
+      "chunkIndex": 0,
+      "title": "Capítulo 21:: Comunicación cliente-servidor",
+      "words": 301
+    },
+    {
+      "id": "node-js-es-ch058-000",
+      "chapterIndex": 58,
+      "chunkIndex": 0,
+      "title": "Capítulo 22:: Comunicación socket.io",
+      "words": 116
+    },
+    {
+      "id": "node-js-es-ch059-000",
+      "chapterIndex": 59,
+      "chunkIndex": 0,
+      "title": "Capítulo 23:: Conectarse a Mongodb",
+      "words": 160
+    },
+    {
+      "id": "node-js-es-ch060-000",
+      "chapterIndex": 60,
+      "chunkIndex": 0,
+      "title": "Capítulo 24:: Conexión Mysql Pool",
+      "words": 293
+    },
+    {
+      "id": "node-js-es-ch061-000",
+      "chapterIndex": 61,
+      "chunkIndex": 0,
+      "title": "Capítulo 25:: Cortar",
+      "words": 141
+    },
+    {
+      "id": "node-js-es-ch062-000",
+      "chapterIndex": 62,
+      "chunkIndex": 0,
+      "title": "Capítulo 26:: Creación de una biblioteca",
+      "words": 101
+    },
+    {
+      "id": "node-js-es-ch063-000",
+      "chapterIndex": 63,
+      "chunkIndex": 0,
+      "title": "Módulo d: e ejemplo y programa correspondiente usando Bluebird",
+      "words": 400
+    },
+    {
+      "id": "node-js-es-ch064-000",
+      "chapterIndex": 64,
+      "chunkIndex": 0,
+      "title": "Capítulo 27:: Creando API's con Node.js",
+      "words": 239
+    },
+    {
+      "id": "node-js-es-ch065-000",
+      "chapterIndex": 65,
+      "chunkIndex": 0,
+      "title": "Capítulo 28:: csv parser en el nodo js",
+      "words": 148
+    },
+    {
+      "id": "node-js-es-ch066-000",
+      "chapterIndex": 66,
+      "chunkIndex": 0,
+      "title": "Capítulo 29:: Depuración remota en Node.JS",
+      "words": 212
+    },
+    {
+      "id": "node-js-es-ch067-000",
+      "chapterIndex": 67,
+      "chunkIndex": 0,
+      "title": "Capítulo 30:: Depurando la aplicación Node.js",
+      "words": 403
+    },
+    {
+      "id": "node-js-es-ch068-000",
+      "chapterIndex": 68,
+      "chunkIndex": 0,
+      "title": "Capítulo 31:: Desafíos de rendimiento",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch068-001",
+      "chapterIndex": 68,
+      "chunkIndex": 1,
+      "title": "Capítulo 31:: Desafíos de rendimiento",
+      "words": 79
+    },
+    {
+      "id": "node-js-es-ch069-000",
+      "chapterIndex": 69,
+      "chunkIndex": 0,
+      "title": "Capítulo 32:: Desinstalar Node.js",
+      "words": 120
+    },
+    {
+      "id": "node-js-es-ch070-000",
+      "chapterIndex": 70,
+      "chunkIndex": 0,
+      "title": "Capítulo 33:: Despliegue de aplicaciones",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch070-001",
+      "chapterIndex": 70,
+      "chunkIndex": 1,
+      "title": "Capítulo 33:: Despliegue de aplicaciones",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch070-002",
+      "chapterIndex": 70,
+      "chunkIndex": 2,
+      "title": "Capítulo 33:: Despliegue de aplicaciones",
+      "words": 337
+    },
+    {
+      "id": "node-js-es-ch071-000",
+      "chapterIndex": 71,
+      "chunkIndex": 0,
+      "title": "Capítulo 34:: Despliegue de la aplicación",
+      "words": 287
+    },
+    {
+      "id": "node-js-es-ch072-000",
+      "chapterIndex": 72,
+      "chunkIndex": 0,
+      "title": "Capítulo 35:: Devolución de llamada a la",
+      "words": 347
+    },
+    {
+      "id": "node-js-es-ch073-000",
+      "chapterIndex": 73,
+      "chunkIndex": 0,
+      "title": "Capítulo 36:: Diseño API de descanso:",
+      "words": 178
+    },
+    {
+      "id": "node-js-es-ch074-000",
+      "chapterIndex": 74,
+      "chunkIndex": 0,
+      "title": "Capítulo 37:: ECMAScript 2015 (ES6) con",
+      "words": 430
+    },
+    {
+      "id": "node-js-es-ch075-000",
+      "chapterIndex": 75,
+      "chunkIndex": 0,
+      "title": "Capítulo 38:: Ejecutando archivos o",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch075-001",
+      "chapterIndex": 75,
+      "chunkIndex": 1,
+      "title": "Capítulo 38:: Ejecutando archivos o",
+      "words": 337
+    },
+    {
+      "id": "node-js-es-ch076-000",
+      "chapterIndex": 76,
+      "chunkIndex": 0,
+      "title": "Capítulo 39:: Ejecutando node.js como un",
+      "words": 109
+    },
+    {
+      "id": "node-js-es-ch077-000",
+      "chapterIndex": 77,
+      "chunkIndex": 0,
+      "title": "start node at multi user system level (= sysVinit runlevel 3)",
+      "words": 79
+    },
+    {
+      "id": "node-js-es-ch078-000",
+      "chapterIndex": 78,
+      "chunkIndex": 0,
+      "title": "Capítulo 40:: Emisores de eventos",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch078-001",
+      "chapterIndex": 78,
+      "chunkIndex": 1,
+      "title": "Capítulo 40:: Emisores de eventos",
+      "words": 380
+    },
+    {
+      "id": "node-js-es-ch079-000",
+      "chapterIndex": 79,
+      "chunkIndex": 0,
+      "title": "Capítulo 41:: Enrutamiento de solicitudes ajax",
+      "words": 204
+    },
+    {
+      "id": "node-js-es-ch080-000",
+      "chapterIndex": 80,
+      "chunkIndex": 0,
+      "title": "Capítulo 42:: Enrutamiento NodeJs",
+      "words": 465
+    },
+    {
+      "id": "node-js-es-ch081-000",
+      "chapterIndex": 81,
+      "chunkIndex": 0,
+      "title": "Capítulo 43:: Entregar HTML o cualquier otro",
+      "words": 197
+    },
+    {
+      "id": "node-js-es-ch082-000",
+      "chapterIndex": 82,
+      "chunkIndex": 0,
+      "title": "Capítulo 44:: Enviando un flujo de archivos al",
+      "words": 331
+    },
+    {
+      "id": "node-js-es-ch083-000",
+      "chapterIndex": 83,
+      "chunkIndex": 0,
+      "title": "Capítulo 45:: Enviar notificación web",
+      "words": 487
+    },
+    {
+      "id": "node-js-es-ch084-000",
+      "chapterIndex": 84,
+      "chunkIndex": 0,
+      "title": "Capítulo 46:: Estructura del proyecto",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch084-001",
+      "chapterIndex": 84,
+      "chunkIndex": 1,
+      "title": "Capítulo 46:: Estructura del proyecto",
+      "words": 260
+    },
+    {
+      "id": "node-js-es-ch085-000",
+      "chapterIndex": 85,
+      "chunkIndex": 0,
+      "title": "Capítulo 47:: Eventloop",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch085-001",
+      "chapterIndex": 85,
+      "chunkIndex": 1,
+      "title": "Capítulo 47:: Eventloop",
+      "words": 191
+    },
+    {
+      "id": "node-js-es-ch086-000",
+      "chapterIndex": 86,
+      "chunkIndex": 0,
+      "title": "Capítulo 48:: Evitar el infierno de devolución",
+      "words": 325
+    },
+    {
+      "id": "node-js-es-ch087-000",
+      "chapterIndex": 87,
+      "chunkIndex": 0,
+      "title": "Capítulo 49:: Exigir()",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch087-001",
+      "chapterIndex": 87,
+      "chunkIndex": 1,
+      "title": "Capítulo 49:: Exigir()",
+      "words": 207
+    },
+    {
+      "id": "node-js-es-ch088-000",
+      "chapterIndex": 88,
+      "chunkIndex": 0,
+      "title": "Capítulo 50:: Exportando e importando el",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch088-001",
+      "chapterIndex": 88,
+      "chunkIndex": 1,
+      "title": "Capítulo 50:: Exportando e importando el",
+      "words": 183
+    },
+    {
+      "id": "node-js-es-ch089-000",
+      "chapterIndex": 89,
+      "chunkIndex": 0,
+      "title": "Capítulo 51:: Exportando y consumiendo",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch089-001",
+      "chapterIndex": 89,
+      "chunkIndex": 1,
+      "title": "Capítulo 51:: Exportando y consumiendo",
+      "words": 72
+    },
+    {
+      "id": "node-js-es-ch090-000",
+      "chapterIndex": 90,
+      "chunkIndex": 0,
+      "title": "Módulo d: e carga con nombre de directorio",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch090-001",
+      "chapterIndex": 90,
+      "chunkIndex": 1,
+      "title": "Módulo d: e carga con nombre de directorio",
+      "words": 123
+    },
+    {
+      "id": "node-js-es-ch091-000",
+      "chapterIndex": 91,
+      "chunkIndex": 0,
+      "title": "Módulo c: argando desde node_modules",
+      "words": 418
+    },
+    {
+      "id": "node-js-es-ch092-000",
+      "chapterIndex": 92,
+      "chunkIndex": 0,
+      "title": "Capítulo 52:: Gestión de errores Node.js",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch092-001",
+      "chapterIndex": 92,
+      "chunkIndex": 1,
+      "title": "Capítulo 52:: Gestión de errores Node.js",
+      "words": 172
+    },
+    {
+      "id": "node-js-es-ch093-000",
+      "chapterIndex": 93,
+      "chunkIndex": 0,
+      "title": "Capítulo 53:: Gestor de paquetes de hilo",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch093-001",
+      "chapterIndex": 93,
+      "chunkIndex": 1,
+      "title": "Capítulo 53:: Gestor de paquetes de hilo",
+      "words": 131
+    },
+    {
+      "id": "node-js-es-ch094-000",
+      "chapterIndex": 94,
+      "chunkIndex": 0,
+      "title": "Capítulo 54:: gruñido",
+      "words": 461
+    },
+    {
+      "id": "node-js-es-ch095-000",
+      "chapterIndex": 95,
+      "chunkIndex": 0,
+      "title": "Capítulo 55:: Guía para principiantes de",
+      "words": 52
+    },
+    {
+      "id": "node-js-es-ch096-000",
+      "chapterIndex": 96,
+      "chunkIndex": 0,
+      "title": "Capítulo 56:: herrero",
+      "words": 153
+    },
+    {
+      "id": "node-js-es-ch097-000",
+      "chapterIndex": 97,
+      "chunkIndex": 0,
+      "title": "Capítulo 57:: Historia de Nodejs",
+      "words": 500
+    },
+    {
+      "id": "node-js-es-ch097-001",
+      "chapterIndex": 97,
+      "chunkIndex": 1,
+      "title": "Capítulo 57:: Historia de Nodejs",
+      "words": 323
+    },
+    {
+      "id": "node-js-es-ch098-000",
+      "chapterIndex": 98,
+      "chunkIndex": 0,
+      "title": "Capítulo 58:: http",
+      "words": 304
+    },
+    {
+      "id": "node-js-es-ch099-000",
+      "chapterIndex": 99,
+      "chunkIndex": 0,
+      "title": "the node & npm versions in apt are outdated. This is how you can update them:",
+      "words": 184
+    }
+  ]
+}

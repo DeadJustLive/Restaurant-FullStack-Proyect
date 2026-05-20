@@ -1,0 +1,11 @@
+{
+  "id": "node-js-es-ch089-001",
+  "bookId": "node-js-es",
+  "chapterIndex": 89,
+  "chunkIndex": 1,
+  "title": "Capítulo 51:: Exportando y consumiendo",
+  "start": 450,
+  "end": 522,
+  "words": 72,
+  "content": "de las exports que es una versión corta de module.exports • hola-venus.js function hello(subject) { console.log('Venus says Hello ' + subject); } module.exports = { hello: hello }; hola-jupiter.js module.exports = { hello: function(subject) { console.log('Jupiter says hello ' + subject); }, bye: function(subject) { console.log('Jupiter says goodbye ' + subject); } }; https://riptutorial.com/es/home 175 -- 203 of 423 -- hola-mars.js exports.hello = function(subject) { console.log('Mars says Hello ' + subject); };"
+}

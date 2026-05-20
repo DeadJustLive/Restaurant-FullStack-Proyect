@@ -1,0 +1,39 @@
+# Capítulo 28:: Usando React con Flujo
+
+Introducción
+Cómo utilizar el comprobador de tipo de flujo para verificar los tipos en los componentes React.
+Observaciones
+Flujo | Reaccionar
+Examples
+Uso de Flow para verificar tipos de accesorios de componentes funcionales
+sin estado
+type Props = {
+posts: Array<Article>,
+dispatch: Function,
+children: ReactElement
+}
+const AppContainer =
+({ posts, dispatch, children }: Props) => (
+<div className="main-app">
+<Header {...{ posts, dispatch }} />
+{children}
+</div>
+)
+Usando Flow para verificar los tipos de accesorios
+import React, { Component } from 'react';
+type Props = {
+posts: Array<Article>,
+dispatch: Function,
+children: ReactElement
+}
+class Posts extends Component {
+props: Props;
+render () {
+// rest of the code goes here
+}
+}
+Lea Usando React con Flujo en línea: https://riptutorial.com/es/reactjs/topic/7918/usando-react-
+con-flujo
+https://riptutorial.com/es/home 118
+
+-- 128 of 139 --

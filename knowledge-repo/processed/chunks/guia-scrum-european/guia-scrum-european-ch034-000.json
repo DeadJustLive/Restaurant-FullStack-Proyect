@@ -1,0 +1,11 @@
+{
+  "id": "guia-scrum-european-ch034-000",
+  "bookId": "guia-scrum-european",
+  "chapterIndex": 34,
+  "chunkIndex": 0,
+  "title": "6.2 \tSprint 0 o Sprint Init",
+  "start": 0,
+  "end": 299,
+  "words": 299,
+  "content": "# 6.2 Sprint 0 o Sprint Init El Sprint 0 o Sprint Init es un evento clave en Scrum y en cualquier framework y metodología. En la guia original del Dr. Sutherland no aparece en si, ya que la guia presupone que el proyecto o producto se ha presentado através de una propuesta, se ha ganado en los casos de RFP, RFQ, RFIs, y se ha aceptado y preparado, y seguidamente ya empieza el proyecto en la construcción del Product Backlog y seguidamente el Sprint Planning. Los profesionales no recuerdan, que es Scrum un framework ligero, que dista mucho de un método, que no esté en una guia, en el caso de los frameworks, no significa que no se debe o pueda hacer algo. Todo Proyecto necesita una propuesta a presentar, y posteriormente sea aceptada por el cliente interno o externo, y ya, posteriormente sea desarrollado el producto. Esta propuesta Inicial se entrega en el Sprint 0 o llamado Sprint Init. • ¿Qué duración tiene el Sprint 0? • El tiempo que el cliente te da para preparar una propuesta de proyecto o producto en Scrum, o la que tú creas necesario en el caso de proyectos internos. • ¿Quién participa? • Siempre participa todo el Equipo Scrum que es asignado por la oficina de Agilidad, este mismo equipo, ampliado en muchas veces, es el que debería ejecutar el proyecto. • ¿Qué contiene? • Com toda propuesta contiene como mínimo lo siguiente, longitud de Sprints, si exiten MVPs, MMPs y su coste aproximado, coste exproximado de materiales, proyecto, composición y características del equipo Scrum, Tipo contrato, como se factura, si existe plan de riesgos, marketing, etc.. si existen prototipos, materias, licencias, costes generales, y un Story Mapping o Product Backlo a muy alto nivel, comunmente a nivel de Temas."
+}

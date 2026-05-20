@@ -1,0 +1,11 @@
+{
+  "id": "javascript-elocuente-cuarta-edicion-ch047-001",
+  "bookId": "javascript-elocuente-cuarta-edicion",
+  "chapterIndex": 47,
+  "chunkIndex": 1,
+  "title": "parte d: e un segundo). Cuando la pestaña del navegador o la ventana con",
+  "start": 450,
+  "end": 784,
+  "words": 334,
+  "content": "vidas. Muestra el número actual de vidas (usando console.log) cada vez que comienza un nivel. Pausar el juego Haz posible pausar y despausar el juego presionando la tecla Esc. Esto se puede hacer cambiando la función runLevel para configurar un mane- jador de eventos de teclado que interrumpa o reanude la animación cada vez que se presiona la tecla Esc. La interfaz de runAnimation puede no parecer adecuada para esto a primera vista, pero lo es si reorganizas la forma en que runLevel la llama. Cuando tengas eso funcionando, hay algo más que podrías intentar. La forma en que hemos estado registrando los controladores de eventos de teclado es algo problemática. El objeto arrowKeys es actualmente una asignación global, y sus controladores de eventos se mantienen incluso cuando no hay ningún juego en ejecución. Podrías decir que escapan de nuestro sistema. Amplía trackKeys para proporcionar una forma de anular el registro de sus controladores y luego cambia runLevel para registrar sus controladores cuando comienza y desregis- trarlos nuevamente cuando termine. 282 -- 294 of 445 -- Un monstruo Es tradicional que los juegos de plataformas tengan enemigos a los que puedes saltar encima para derrotar. Este ejercicio te pide que agregues un tipo de actor así al juego. Lo llamaremos monstruo. Los monstruos se mueven solo horizontalmente. Puedes hacer que se muevan en la dirección del jugador, que reboten de un lado a otro como lava horizontal, o tengan cualquier patrón de movimiento que desees. La clase no tiene que manejar caídas, pero debe asegurarse de que el monstruo no atraviese paredes. Cuando un monstruo toca al jugador, el efecto depende de si el jugador está saltando encima de ellos o no. Puedes aproximarlo comprobando si el final del jugador está cerca de la parte superior del monstruo. Si este es el caso, el monstruo desaparece. Si no, el juego se pierde. 283 -- 295 of 445 -- “Dibujar es engañar.” —M.C. Escher, citado por Bruno Ernst en El Espejo Mágico de M.C. Escher"
+}

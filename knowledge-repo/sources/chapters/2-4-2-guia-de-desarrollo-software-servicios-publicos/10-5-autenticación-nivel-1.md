@@ -1,0 +1,56 @@
+# 5. Autenticación 	nivel 	1:
+
+Contraseñas
+Las aplicaciones deben exigir al usuario
+el uso de contraseñas de características
+y calidad adecuadas, y que no sean
+contraseñas previamente filtradas1.
+Asimismo, se deben implementar
+mecanismos seguros de recuperación
+de contraseñas, ya sea utilizando un
+segundo factor de autenticación o a
+través de canales diferentes (como
+teléfono móvil o correo electrónico).
+Una contraseña fuerte es aquélla que es
+difícil de detectar, tanto por humanos
+1 Por ejemplo, las de este link.
+División de Gobierno Digital | Lineamientos para desarrollo de software 	10
+
+-- 10 of 33 --
+
+como por software, protegiendo
+efectivamente los datos de un acceso
+no autorizado.
+Una contraseña segura consta de al
+menos ocho (8) caracteres (y mientras
+más caracteres, más fuerte es la
+contraseña), que son una combinación
+de letras, números, símbolos y el uso de
+mayúsculas y minúsculas. Ésta no debe
+contener palabras que se pueden
+encontrar en un diccionario o partes del
+nombre del usuario.
+Para almacenar las contraseñas, se
+deben utilizar algoritmos criptográficos
+especialmente diseñados para este fin,
+tales como bcrypt, PBKDF2 y Argon2. Se
+debe evitar utilizar algoritmos de hash
+“a secas”, tales como SHA-1, SHA-2 y
+MD5 para el almacenamiento de
+contraseñas.
+También se deben implementar
+mecanismos de limitación de intentos
+de inicio de sesión, ya sea ralentizando
+los intentos de inicio de sesión,
+bloqueando la IP de origen de las
+pruebas fallidas o bloqueando las
+cuentas después de un número
+predeterminado de intentos fallidos.
+Esta estrategia no debe bloquear
+permanentemente las cuentas, puesto
+que esto podría causar una denegación
+de servicio a usuarios legítimos.
+En el caso de que los ataques de fuerza
+bruta sean un problema, es
+recomendado implementar múltiples
+factores de autenticación.

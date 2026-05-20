@@ -1,0 +1,11 @@
+# Rc<T>, el Smart Pointer de Conteo de Referencias
+
+## Fuente
+El Lenguaje de Programación Rust (Libro Oficial en Español) (Cap. 22)
+
+## Contenido
+## Rc<T>, el Smart Pointer de Conteo de Referencias
+
+### UsandoRc<T>para Compartir Datos
+
+### Clonando unRc<T>Incrementa el Conteo de Referencias

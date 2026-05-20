@@ -1,0 +1,111 @@
+# Leanpub: Publish Early, Publish Often
+
+## Fuente
+Desarrollo de Apps Web con React.js y Redux.js (Cap. 9)
+
+## Contenido
+# Leanpub: Publish Early, Publish Often
+
+> Fuente: [https://leanpub.com/read/lfm](https://leanpub.com/read/lfm)
+
+- IntroductionLeanpub Flavoured Markdown vs. MarkuaSwitching Writing ModesScope of this Manual
+- Leanpub Flavoured Markdown vs. Markua
+- Switching Writing Modes
+- Scope of this Manual
+- Book.txt, Sample.txt and Manuscript FilesThe Book.txt FileMaking a Sample Book for Readers to Browse for FreeAdding Images or Pictures to Your BookA Note About Character Encoding
+- The Book.txt File
+- Making a Sample Book for Readers to Browse for Free
+- Adding Images or Pictures to Your Book
+- A Note About Character Encoding
+- How Markdown is Used in Leanpub
+- Attributes
+- Creating A New BookHow To Set The Book’s Structure
+- How To Set The Book’s Structure
+- Sample BooksWhy Sample Books?Consequences for Manuscripts
+- Why Sample Books?
+- Consequences for Manuscripts
+- ImagesHow To Insert An ImageImage Format And ResolutionPositioning An Image On The Page
+- How To Insert An Image
+- Image Format And Resolution
+- Positioning An Image On The Page
+- Languages and Letter AccentsSetting the Main Language Used in the BookOverriding Leanpub Language DefaultsSwitching back and forth between language fontsA note about writing Leanpub books in Japanese, Korean and ChineseA note about writing Leanpub books in right-to-left (RTL) languages
+- Setting the Main Language Used in the Book
+- Overriding Leanpub Language Defaults
+- Switching back and forth between language fonts
+- A note about writing Leanpub books in Japanese, Korean and Chinese
+- A note about writing Leanpub books in right-to-left (RTL) languages
+- Parts, Chapters and SectionsPartsChapters, Sections and Sub-sectionsTable of ContentsFront Matter, Main Matter and Back Matter
+- Parts
+- Chapters, Sections and Sub-sections
+- Table of Contents
+- Front Matter, Main Matter and Back Matter
+- Styling TextBold, Emphasis/Italics, and UnderliningSuperscriptsMonospaced TextNon-Breaking Spaces
+- Bold, Emphasis/Italics, and Underlining
+- Superscripts
+- Monospaced Text
+- Non-Breaking Spaces
+- Blocks Of TextParagraphsCentering Paragraphs Or Lines Of TextNumbered/Ordered ListsUnordered/Bulleted ListsDefinition ListsBlockquotesAsides/SidebarsMore Text Block TypesWarning!TipsErrorsInformationQuestionsDiscussionsExercisesGeneric Boxes
+- Paragraphs
+- Centering Paragraphs Or Lines Of Text
+- Numbered/Ordered Lists
+- Unordered/Bulleted Lists
+- Definition Lists
+- Blockquotes
+- Asides/Sidebars
+- More Text Block Types
+- Warning!
+- Tips
+- Errors
+- Information
+- Questions
+- Discussions
+- Exercises
+- Generic Boxes
+- CodeCode SamplesCode Sample TitlesMarking lines as deleted or added to a code block
+- Code Samples
+- Code Sample Titles
+- Marking lines as deleted or added to a code block
+- PoetryPoetry Stanzas in Regular MarkdownSpacing Control for PoetryLine Lengths
+- Poetry Stanzas in Regular Markdown
+- Spacing Control for Poetry
+- Line Lengths
+- LinksFormatting LinksLong HyperlinksFootnotes and Hyperlinks in PDF
+- Formatting Links
+- Long Hyperlinks
+- Footnotes and Hyperlinks in PDF
+- Footnotes and EndnotesFootnotesEndnotesRemove Footnotes
+- Footnotes
+- Endnotes
+- Remove Footnotes
+- CrosslinksQuick ExplanationLonger ExplanationCrosslinking to something with an IDSome Crosslink Details
+- Quick Explanation
+- Longer Explanation
+- Crosslinking to something with an ID
+- Some Crosslink Details
+- BreaksPagebreaksLine Breaks
+- Pagebreaks
+- Line Breaks
+- TablesTable WidthMulti-line rowsAlignment and footer rowsTable TitlesHTML TablesA note on combining attributes
+- Table Width
+- Multi-line rows
+- Alignment and footer rows
+- Table Titles
+- HTML Tables
+- A note on combining attributes
+- MiscellaneousEscaping Markdown Syntax CharactersHow To Exclude Lines From Your BookMathematical EquationsCurly QuotesFigure Captions and LabelsLinks In FootnotesWhy can’t I put section commands in Book.txt?Trouble With Accents? Forcing Text Editors To Save As UTF-8I don’t understand how things get added to a Table of ContentsWhat encoding should I use to write files in Markdown? Should I write in ASCII or UTF-8?How Can I Add Blank Lines To My Text?Adding a motto or epigraph to the beginning of a chapterDisabling Line Numbers While Nesting Code Blocks In ListsIndentationHanging IndentsLong strings of characters running off the right-hand side of the page / the right margin
+- Escaping Markdown Syntax Characters
+- How To Exclude Lines From Your Book
+- Mathematical Equations
+- Curly Quotes
+- Figure Captions and Labels
+- Links In Footnotes
+- Why can’t I put section commands in Book.txt?
+- Trouble With Accents? Forcing Text Editors To Save As UTF-8
+- I don’t understand how things get added to a Table of Contents
+- What encoding should I use to write files in Markdown? Should I write in ASCII or UTF-8?
+- How Can I Add Blank Lines To My Text?
+- Adding a motto or epigraph to the beginning of a chapter
+- Disabling Line Numbers While Nesting Code Blocks In Lists
+- Indentation
+- Hanging Indents
+- Long strings of characters running off the 

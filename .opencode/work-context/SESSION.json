@@ -1,0 +1,26 @@
+{
+  "project": "",
+  "version": "",
+  "session": {
+    "id": null,
+    "startedAt": null,
+    "status": "inactive",
+    "task": {
+      "description": null,
+      "type": null,
+      "priority": null,
+      "stage": null
+    },
+    "context": {
+      "planFile": null,
+      "branch": null,
+      "lastValidatedAt": null
+    }
+  },
+  "metrics": {
+    "filesChanged": 0,
+    "plansCreated": 0,
+    "errorsFixed": 0,
+    "learningsGenerated": 0
+  }
+}

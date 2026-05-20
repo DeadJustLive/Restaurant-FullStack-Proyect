@@ -1,0 +1,44 @@
+# Capítulo 5:: Cómo y por qué usar llaves en
+
+React.
+Introducción
+Siempre que esté mostrando una lista de componentes React, cada componente debe tener un
+atributo key . La clave puede ser cualquier valor, pero debe ser única para esa lista.
+Cuando React tiene que representar los cambios en una lista de elementos, React simplemente
+itera en ambas listas de niños al mismo tiempo y genera una mutación siempre que haya una
+diferencia. Si no hay claves configuradas para los niños, React escanea cada niño. De lo
+contrario, React compara las claves para saber cuáles se agregaron o eliminaron de la lista
+Observaciones
+Para obtener más información, visite este enlace para leer cómo usar las claves:
+https://facebook.github.io/react/docs/lists-and-keys.html
+Y visite este enlace para leer por qué se recomienda usar las claves:
+https://facebook.github.io/react/docs/reconciliation.html#recursing-on-children
+Examples
+Ejemplo básico
+Para un componente React sin clase:
+function SomeComponent(props){
+const ITEMS = ['cat', 'dog', 'rat']
+function getItemsList(){
+return ITEMS.map(item => <li key={item}>{item}</i>);
+}
+return (
+<ul>
+{getItemsList()}
+</ul>
+);
+}
+Para este ejemplo, el componente anterior resuelve:
+<ul>
+<li key='cat'>cat</li>
+<li key='dog'>dog</li>
+<li key='rat'>rat</li>
+https://riptutorial.com/es/home 28
+
+-- 38 of 139 --
+
+<ul>
+Lea Cómo y por qué usar llaves en React. en línea:
+https://riptutorial.com/es/reactjs/topic/9665/como-y-por-que-usar-llaves-en-react-
+https://riptutorial.com/es/home 29
+
+-- 39 of 139 --

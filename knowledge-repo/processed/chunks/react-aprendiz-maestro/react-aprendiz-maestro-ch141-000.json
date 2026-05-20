@@ -1,0 +1,11 @@
+{
+  "id": "react-aprendiz-maestro-ch141-000",
+  "bookId": "react-aprendiz-maestro",
+  "chapterIndex": 141,
+  "chunkIndex": 0,
+  "title": "16.4 Aproximaciones Basadas en React",
+  "start": 0,
+  "end": 219,
+  "words": 219,
+  "content": "# 6.2 Extrayendo el Renderizado de Nota Ahora mismo la Nota controla qué se va a renderizar dentro de ella. Podríamos incluir Editable dentro de ella y hacer que todo funcione mediante la interfaz Nota. A pesar de que podría ser una forma válida de hacerlo, podemos mover la responsabilidad del procesamiento a un nivel superior. 1https://facebook.github.io/react/docs/forms.html -- 64 of 226 -- Edición de Notas 47 Tener el concepto de Nota será especialmente útil cuando queramos llevar la aplicación un paso más allá, así que no hay necesidad de borrarla. En su lugar, podemos darle el control sobre su renderizado a Notas. React tiene una propiedad conocida como children que nos permitirá conseguir esto. Modifica Nota and Notas como se muestra a continuación para llevar el control de renderizado de Nota a Notas: app/components/Note.jsx import React from 'react'; export default ({task, onDelete}) => ( <div> <span>{task}</span> <button onClick={onDelete}>x</button> </div> ); export default ({children, ...props}) => ( <div {...props}> {children} </div> ); app/components/Notes.jsx import React from 'react'; import Note from './Note'; export default ({notes, onDelete=() => {}}) => ( <ul>{notes.map(({id, task}) => <li key={id}> <Note onDelete={onDelete.bind(null, id)} task={task} /> <Note> -- 65 of 226 -- Edición de Notas 48 <span>{task}</span> <button onClick={onDelete.bind(null, id)}>x</button> </Note> </li> )}</ul> ) Ahora que tenemos espacio para trabajar podemos definir un esqueleto para Edita- ble."
+}

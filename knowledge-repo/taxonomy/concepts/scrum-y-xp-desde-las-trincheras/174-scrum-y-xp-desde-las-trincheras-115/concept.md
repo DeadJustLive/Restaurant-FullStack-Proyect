@@ -1,0 +1,24 @@
+# SCRUM Y XP DESDE LAS TRINCHERAS | 115
+
+## Fuente
+scrum-y-xp-desde-las-trincheras (Cap. 174)
+
+## Contenido
+# SCRUM Y XP DESDE LAS TRINCHERAS | 115
+
+Durante la reunión de planificación de Sprint (a la que todos los equipos asisten,
+ya que hacemos Sprints sincronizados para cada producto), la primera cosa que
+hacemos es dejar que un portavoz de cada equipo se levante y resuma los
+puntos clave de su retrospectiva. Lleva unos cinco minutos por equipo. Entonces
+tenemos una discusión abierta durante unos 10 – 20 minutos. A continuación
+hacemos un descanso. Y después comenzamos con la planificación del Sprint
+propiamente dicha.
+No 	hemos 	intentado 	otras 	cosas 	para 	múltiples 	equipos, 	esto 	funciona
+suficientemente bien. La principal desventaja es que no hay un tiempo de
+descanso justo después de la retrospectiva y antes de la planificación de Sprint
+(ver “descansos entre Sprints”).
+Para productos de un solo equipo, no hacemos resumen de retrospectiva durante
+la planificación de Sprint. No hace falta, ya que todo el mundo estuvo en la
+reunión de retrospectiva.
+
+-- 115 of 122 --

@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch423-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 423,
+  "chunkIndex": 0,
+  "title": "PRECONDICIONES:",
+  "start": 0,
+  "end": 37,
+  "words": 37,
+  "content": "# OBSERVACIONES: * la celda actual queda en el mismo lugar que empez´o */ { ColocarPivote(codPieza,tipoPieza,rotPieza) ColocarSeccionDePiezaEn(codPieza,dirA) ColocarSeccionDePiezaEn(codPieza,dirB) ColocarSeccionDePiezaEnY(codPieza,dirC1,dirC2) } //---------------------------------------------------- procedure ColocarPzClaseB(codPieza,tipoPieza,rotPieza ,dirA,dirB,dirC) /* PROP´OSITO: completar el trabajo de ColocarPieza para las piezas de clase B"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "javascript-asincronismo-ch011-000",
+  "bookId": "javascript-asincronismo",
+  "chapterIndex": 11,
+  "chunkIndex": 0,
+  "title": "11. El Event Loop toma el primer elemento de la cola y lo apila.",
+  "start": 0,
+  "end": 15,
+  "words": 15,
+  "content": "# 11. El Event Loop toma el primer elemento de la cola y lo apila."
+}

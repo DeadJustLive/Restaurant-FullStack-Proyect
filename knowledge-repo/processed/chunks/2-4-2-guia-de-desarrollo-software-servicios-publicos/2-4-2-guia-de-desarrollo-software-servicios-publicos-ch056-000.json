@@ -1,0 +1,11 @@
+{
+  "id": "2-4-2-guia-de-desarrollo-software-servicios-publicos-ch056-000",
+  "bookId": "2-4-2-guia-de-desarrollo-software-servicios-publicos",
+  "chapterIndex": 56,
+  "chunkIndex": 0,
+  "title": "T_SHA}",
+  "start": 0,
+  "end": 44,
+  "words": 44,
+  "content": "# T_SHA} - - name: kubernetes deploy - run: | - aws eks update-kubeconfig --name ${CLUSTER_NAME} --region us-east-2 - kubectl set image deploy/$APP_NAME $APP_NAME=${AWS_ACCOUNT_ID}.dkr.ecr.us-east-2.amazonaws.com/${REPOSITORY}:${SHORT_SHA } -n ${NAMESPACE} --record División de Gobierno Digital | Lineamientos para desarrollo de software 33 -- 33 of 33 --"
+}

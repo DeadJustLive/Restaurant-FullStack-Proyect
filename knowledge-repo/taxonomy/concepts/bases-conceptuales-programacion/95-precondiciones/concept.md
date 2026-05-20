@@ -1,0 +1,35 @@
+# PRECONDICIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 95)
+
+## Contenido
+# PRECONDICIONES:
+
+* default <hay un tablero de Zilfost codificado>
+*/
+{
+IrAlOrigenDeZonaDeJuego()
+// Contar la distancia hasta el otro borde de la zona
+anchoActual := 0
+while (not nroBolitas(Azul)==5)
+{
+anchoActual := anchoActual + 1
+Mover(Este)
+}
+return (anchoActual)
+}
+Observamos que se trata de un recorrido de totalizaci ´on, pero que no podemos usar una
+funci ´on general (de biblioteca), porque la condici ´on es espec´ıfica de este caso. El c ´odigo
+para la funci ´on altoDeZonaDeJuego es similar pero se mueve hacia el Norte, y controla de
+manera diferente el fin del recorrido.
+Definimos una funci ´on, puedeMoverEnZonaDeJuego, de verificaci ´on de movimiento y
+dos procedimientos, IrAlBordeDeLaZonaDeJuego e IrACoordenadaDeZonaDeJuego, para
+efectivizar ese movimiento.
+La funci ´on de control de movimiento, puedeMoverEnZonaDeJuego, cumple una funci ´on
+similar a la de la funci ´on primitiva puedeMover, pero restringida a la zona de juego. La
+misma se define como
+function puedeMoverEnZonaDeJuego(dir)
+/*
+PROP´OSITO: determina si puede moverse en la direcci´on
+dada sin caerse de la parte de juego

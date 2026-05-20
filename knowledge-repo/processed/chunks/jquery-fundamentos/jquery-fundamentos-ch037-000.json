@@ -1,0 +1,11 @@
+{
+  "id": "jquery-fundamentos-ch037-000",
+  "bookId": "jquery-fundamentos",
+  "chapterIndex": 37,
+  "chunkIndex": 0,
+  "title": "1. Añadir un elemento div después del formulario que se encuentra dentro del elemento #specials;",
+  "start": 0,
+  "end": 28,
+  "words": 28,
+  "content": "# 1. Añadir un elemento div después del formulario que se encuentra dentro del elemento #specials; allí será el lugar en donde se colocará la información a obtener."
+}

@@ -1,0 +1,60 @@
+# OBSERVACIONES:
+
+## Fuente
+bases-conceptuales-programacion (Cap. 117)
+
+## Contenido
+# OBSERVACIONES:
+
+* los d´ıgitos entran a la zona de izquierda a derecha
+* recorre los d´ıgitos de izq a der para
+encontrar d´onde poner el d´ıgito
+* los espacios libres solo pueden estar
+a la derecha y si no hay, borra el n´umero
+completo y pone el d´ıgito como el primero
+(alternativamente podr´ıa ignorar el d´ıgito)
+*/
+{
+IrAlBordeDeZonaDeNumeros(Oeste)
+while(hayDigito()) { Mover(Este) }
+if (nroBolitas(Azul)==0)
+{ GrabarDigitoEnCelda(dig) }
+else
+{
+// Si no hay espacio, borra el n´umero anterior
+BorrarZonaDeNumeros()
+IrAlBordeDeZonaDeNumeros(Oeste)
+GrabarDigitoEnCelda(dig)
+}
+}
+Alternativamente esta operaci ´on podr´ıa ingresar los d´ıgitos siempre en la posici ´on me-
+nos significativa (el extremo derecho), corriendo los dem ´as d´ıgitos para hacer lugar. Esta
+modificaci ´on se deja como ejercicio.
+Actividad de Programaci ´on 5
+Realice el ejercicio 5.2.5, reempl ´acelo en el c ´odigo provisto en el anexo B y
+pru ´ebelo. ¿Cu ´al comportamiento le resulta m ´as satisfactorio?
+Ejercicio 5.2.5. Escribir un procedimiento cuyo prop ´osito sea similar al del procedimiento
+AgregarDigitoAZonaDeNumerosPorIzq, pero donde cada d´ıgito nuevo ingresa siempre en
+la posici ´on menos significativa, “empujando” a los dem ´as d´ıgitos hacia la izquierda (si
+hubiera lugar), o borrando los dem ´as d´ıgitos (si no lo hubiera). Nombrarlo correctamente.
+Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez
+
+-- 191 of 312 --
+
+192
+Ayuda: se recomienda verificar primero si hay lugar, chequeando que la celda en el
+extremo izquierdo est ´a libre, y en base a esa condici ´on, elegir entre la alternativa de correr
+todos los d´ıgitos a la izquierda, o borrar la zona, para terminar colocando el d´ıgito en la
+celda menos significativa.
+La ´ultima de las operaciones de modificaci ´on sobre una zona de n ´umeros es la de incre-
+mentar el n ´umero representado en dicha zona. Esta operaci ´on se utiliza, por ejemplo, para
+aumentar el c ´odigo de la pr ´oxima pieza a introducir en el tablero una vez que se introdujo
+una. Se realiza como un recorrido sobre los d´ıgitos a incrementar, desde el menos signi-
+ficativo hasta el m ´as significativo, recordando en cada iteraci ´on si hay que “llevarse uno”
+(en ingl ´es, carry); se detiene cuando ya no hay que “llevarse uno”. Para poder contar con
+un carry inicial, en lugar de procesar por separado el ´ultimo elemento de la secuencia, se
+comienza procesando por separado el primero.
+procedure IncrementarZonaDeNumeros()
+/*
+PROP´OSITO: incrementa el n´umero codificado en la
+zona de n´umeros actual

@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch044-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 44,
+  "chunkIndex": 1,
+  "title": "Capítulo 24:: La coincidencia de patrones",
+  "start": 450,
+  "end": 704,
+  "words": 254,
+  "content": "years old, he sleeps a lot\", baby_age), young_age @ 2...4 => println!(\"John is {} years old, he plays all day\", young_age), adult_age @ 5...10 => println!(\"John is {} years old, he eats honey most of the time\", adult_age), old_age => println!(\"John is {} years old, he mostly reads newspapers\", old_age), } } Esto imprimirá: John is 8 years old, he eats honey most of the time Coincidencia de patrones básicos // Create a boolean value let a = true; // The following expression will try and find a pattern for our value starting with // the topmost pattern. // This is an exhaustive match expression because it checks for every possible value match a { true => println!(\"a is true\"), false => println!(\"a is false\") } Si no cubrimos todos los casos, obtendremos un error de compilación: match a { true => println!(\"most important case\") } // error: non-exhaustive patterns: `false` not covered [E0004] Podemos usar _ como el caso predeterminado / comodín, coincide con todo: // Create an 32-bit unsigned integer let b: u32 = 13; match b { https://riptutorial.com/es/home 71 -- 85 of 188 -- 0 => println!(\"b is 0\"), 1 => println!(\"b is 1\"), _ => println!(\"b is something other than 0 or 1\") } Este ejemplo imprimirá: a is true b is something else than 0 or 1 Coincidencia de patrones múltiples Es posible tratar múltiples valores distintos de la misma manera, usando | : enum Colour { Red, Green, Blue, Cyan, Magenta, Yellow, Black } enum ColourModel { RGB,"
+}

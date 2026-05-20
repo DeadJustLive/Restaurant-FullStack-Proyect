@@ -1,0 +1,11 @@
+{
+  "id": "logica-de-programacion-ch009-003",
+  "bookId": "logica-de-programacion",
+  "chapterIndex": 9,
+  "chunkIndex": 3,
+  "title": "4. Pens´andolo bien, ella est´a muy ni˜na para hacerse cargo de una",
+  "start": 1350,
+  "end": 1498,
+  "words": 148,
+  "content": "ciudades del mundo; de igual forma la b´usqueda de una direcci´on no era algo que pudiera realizar un computador o un dispositivo de procesamiento de datos, en la actualidad existen los GPS o tambi´en las aplicaciones que son instaladas en los Smartphone que desarrollan esa tarea y permiten guiar a una persona hacia cualquier lugar. Algoritmos computacionales: son aquellos que se dise˜nan para que luego puedan ser ejecutados por un computador. Este libro est´a orientado al desarrollo de este tipo de algoritmos. 1.7.2 Representaci´on de un algoritmo Para representar algoritmos debe usarse una notaci´on simple y lo suficientemente clara para que no se d´e lugar a ambig¨uedades. Estas notaciones son muy ´utiles para entender la l´ogica de los problemas y poder luego traducirlas a cualquier lenguaje de programaci´on de una manera simple y casi mec´anica. Dentro de las formas m´as utilizadas para representar algoritmos se encuentran las siguientes:"
+}

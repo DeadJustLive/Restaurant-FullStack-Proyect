@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch021-001",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 21,
+  "chunkIndex": 1,
+  "title": "Capítulo 2: - Aplicación de Estándares",
+  "start": 450,
+  "end": 749,
+  "words": 299,
+  "content": "hecho de entregar sus datos en las pantallas del sitio web. Respecto del contenido de dicha política, el Proyecto de Reforma y Modernización del Estado del Ministerio Secretaria General de la Presidencia emitió el documento titulado \"Guía Modelo de Políticas de Privacidad\"13 en el que se explica la forma de cumplir con esta norma y se entrega un documento de base para crear la corres- pondiente a cada organismo. > Nivel II - DS100/2006 Su objetivo es que los Sitios Web cumplan “las directrices principales de las normas internacio- nales de accesibilidad\" con el fin de permitir un grado de acceso a las personas con discapacidades. Para ello se deben cumplir las normas indicadas en el Título III del decreto que corresponde a los artículos 10° a 14° y el plazo para ello fue fijado a dos años de la promulgación del decreto, vale decir, al 12 de agosto de 2008. A continuación se revisa el contenido de los artículos y la forma de darles cumplimiento. Diagramación con CSS (DS100/2006 Art. 10°) Este artículo indica que las páginas de los Sitios Web deben ser diagramadas utilizando hojas de estilo en cascada (CSS por su sigla en inglés), indicando que se debe separar \"el contenido, la estructura y la presentación de los primeros\". Este es un cambio de importancia respecto de la situación actual, ya que incluso hasta la aparición de la Guía Web Versión 1.014 habitualmente se empleaban tablas para disponer los elementos en las páginas, facilitando de esa manera su ubicación en la pantalla. Guía para Desarrollo de Sitios Web - Versión 2 - Gobierno de Chile 13.- Ver documento en http://www.modernizacion.cl/1350/article-140397.html 14.- Ver información al respecto en http://www.guiaweb.gob.cl/guia/capitulos/tres/accesorapido.htm#t04diagramas La Guía Modelo de Políticas de Privacidad se puede bajar desde http://www.moderni zacion.cl/1350/arti cle-140397.html. -- 38 of 122 --"
+}

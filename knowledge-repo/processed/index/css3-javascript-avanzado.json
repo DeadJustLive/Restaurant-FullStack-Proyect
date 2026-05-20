@@ -1,0 +1,180 @@
+{
+  "id": "css3-javascript-avanzado",
+  "title": "css3-javascript-avanzado",
+  "author": "",
+  "pages": 86,
+  "sourceFile": "source-pdfs/css3-javascript-avanzado.pdf",
+  "processedAt": "2026-05-17T05:38:44.543Z",
+  "method": "native",
+  "chapters": [
+    {
+      "index": 1,
+      "title": "1. CSS, especificación tercera.............................................................. 7",
+      "file": "chapters/css3-javascript-avanzado/01-1-css-especificación-tercera-7.md",
+      "words": 46
+    },
+    {
+      "index": 2,
+      "title": "2. Novedades CSS3................................................................................... 11",
+      "file": "chapters/css3-javascript-avanzado/02-2-novedades-css3-11.md",
+      "words": 107
+    },
+    {
+      "index": 3,
+      "title": "3. Bibliotecas Javascript....................................................................... 26",
+      "file": "chapters/css3-javascript-avanzado/03-3-bibliotecas-javascript-26.md",
+      "words": 139
+    },
+    {
+      "index": 4,
+      "title": "5. Prototype.............................................................................................. 45",
+      "file": "chapters/css3-javascript-avanzado/04-5-prototype-45.md",
+      "words": 31
+    },
+    {
+      "index": 5,
+      "title": "6. YUI.......................................................................................................... 49",
+      "file": "chapters/css3-javascript-avanzado/05-6-yui-49.md",
+      "words": 37
+    },
+    {
+      "index": 6,
+      "title": "7. MooTools............................................................................................... 53",
+      "file": "chapters/css3-javascript-avanzado/06-7-mootools-53.md",
+      "words": 30
+    },
+    {
+      "index": 7,
+      "title": "8. Librerías Javascript para canvas................................................... 58",
+      "file": "chapters/css3-javascript-avanzado/07-8-librerías-javascript-para-canvas-58.md",
+      "words": 89
+    },
+    {
+      "index": 8,
+      "title": "9. Ejercicios............................................................................................... 83",
+      "file": "chapters/css3-javascript-avanzado/08-9-ejercicios-83.md",
+      "words": 22
+    },
+    {
+      "index": 9,
+      "title": "1. CSS, especificación tercera",
+      "file": "chapters/css3-javascript-avanzado/09-1-css-especificación-tercera.md",
+      "words": 239
+    },
+    {
+      "index": 10,
+      "title": "1) Propiedades del tipo de letra, así como el estilo de este.",
+      "file": "chapters/css3-javascript-avanzado/10-1-propiedades-del-tipo-de-letra-así-como-el-estilo-de-este.md",
+      "words": 13
+    },
+    {
+      "index": 11,
+      "title": "2) Colores de los textos y de los fondos.",
+      "file": "chapters/css3-javascript-avanzado/11-2-colores-de-los-textos-y-de-los-fondos.md",
+      "words": 10
+    },
+    {
+      "index": 12,
+      "title": "3) Atributos del texto tales como espacio entre caracteres, palabras y líneas.",
+      "file": "chapters/css3-javascript-avanzado/12-3-atributos-del-texto-tales-como-espacio-entre-caracteres-palabras-y-líneas.md",
+      "words": 13
+    },
+    {
+      "index": 13,
+      "title": "4) Alineación de tablas, bloques de texto, imágenes, párrafos.",
+      "file": "chapters/css3-javascript-avanzado/13-4-alineación-de-tablas-bloques-de-texto-imágenes-párrafos.md",
+      "words": 10
+    },
+    {
+      "index": 14,
+      "title": "5) Márgenes externos e internos, filetes y posición de la mayoría de los ele-",
+      "file": "chapters/css3-javascript-avanzado/14-5-márgenes-externos-e-internos-filetes-y-posición-de-la-mayoría-de-los-ele-.md",
+      "words": 29
+    },
+    {
+      "index": 15,
+      "title": "6) Definición única de elementos mediante ids y agrupamiento de atributos",
+      "file": "chapters/css3-javascript-avanzado/15-6-definición-única-de-elementos-mediante-ids-y-agrupamiento-de-atributos.md",
+      "words": 531
+    },
+    {
+      "index": 16,
+      "title": "1) Basados en el motor￿de￿dibujo￿de￿Internet￿Explorer. Fundamentalmente",
+      "file": "chapters/css3-javascript-avanzado/16-1-basados-en-el-motordedibujodeinternetexplorer-fundamentalmente.md",
+      "words": 33
+    },
+    {
+      "index": 17,
+      "title": "2) Familia Geko, que utilizan el motor￿de￿dibujo￿Geko, desarrollado por Mo-",
+      "file": "chapters/css3-javascript-avanzado/17-2-familia-geko-que-utilizan-el-motordedibujogeko-desarrollado-por-mo-.md",
+      "words": 25
+    },
+    {
+      "index": 18,
+      "title": "3) Familia Webkit. Basados en el motor￿de￿dibujo￿Opensource￿Webkit, desa-",
+      "file": "chapters/css3-javascript-avanzado/18-3-familia-webkit-basados-en-el-motordedibujoopensourcewebkit-desa-.md",
+      "words": 45
+    },
+    {
+      "index": 19,
+      "title": "4) Familia de navegadores basados en Opera.",
+      "file": "chapters/css3-javascript-avanzado/19-4-familia-de-navegadores-basados-en-opera.md",
+      "words": 405
+    },
+    {
+      "index": 20,
+      "title": "2. Novedades CSS3",
+      "file": "chapters/css3-javascript-avanzado/20-2-novedades-css3.md",
+      "words": 3106
+    },
+    {
+      "index": 21,
+      "title": "1. Cread unos botones CSS con efectos de degradado interno y sombra exterior",
+      "file": "chapters/css3-javascript-avanzado/21-1-cread-unos-botones-css-con-efectos-de-degradado-interno-y-sombra-exterior.md",
+      "words": 19
+    },
+    {
+      "index": 22,
+      "title": "2. Maquetad un pequeño layout usando mediaquery, webfonts, esquinas redon-",
+      "file": "chapters/css3-javascript-avanzado/22-2-maquetad-un-pequeño-layout-usando-mediaquery-webfonts-esquinas-redon-.md",
+      "words": 31
+    },
+    {
+      "index": 23,
+      "title": "3. Bibliotecas Javascript",
+      "file": "chapters/css3-javascript-avanzado/23-3-bibliotecas-javascript.md",
+      "words": 5052
+    },
+    {
+      "index": 24,
+      "title": "5. Prototype",
+      "file": "chapters/css3-javascript-avanzado/24-5-prototype.md",
+      "words": 961
+    },
+    {
+      "index": 25,
+      "title": "6. YUI",
+      "file": "chapters/css3-javascript-avanzado/25-6-yui.md",
+      "words": 704
+    },
+    {
+      "index": 26,
+      "title": "7. MooTools",
+      "file": "chapters/css3-javascript-avanzado/26-7-mootools.md",
+      "words": 1176
+    },
+    {
+      "index": 27,
+      "title": "8. Librerías Javascript para canvas",
+      "file": "chapters/css3-javascript-avanzado/27-8-librerías-javascript-para-canvas.md",
+      "words": 5249
+    },
+    {
+      "index": 28,
+      "title": "9. Ejercicios",
+      "file": "chapters/css3-javascript-avanzado/28-9-ejercicios.md",
+      "words": 823
+    }
+  ],
+  "learningIntegrated": true
+}

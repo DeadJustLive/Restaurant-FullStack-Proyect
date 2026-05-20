@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch201-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 201,
+  "chunkIndex": 0,
+  "title": "PROP´OSITO:",
+  "start": 0,
+  "end": 348,
+  "words": 348,
+  "content": "# OBSERVACIONES: * si no hay d´ıgito, lo agrega * si se excede, lo vuelve a 0 */ Las bases conceptuales de la Programaci ´on Mart´ınez L ´opez -- 192 of 312 -- 193 { // Agrega un d´ıgito si no lo hab´ıa if (not hayDigito()) { Poner(Azul) } // Incrementa dicho d´ıgito Poner(Negro) // Si se excede, vuelve a 0 if (leerDigito() == 10) { SacarN(Negro, 10) } } Las operaciones sobre zonas de n ´umeros se utilizar ´an en la definici ´on de las zonas es- pec´ıficas: zonas de c ´odigos de piezas y zona de semilla. 5.2.3. Zonas de n ´umeros espec´ıficas Las zonas de espec´ıficas de n ´umeros son 3: las dos zonas de c ´odigo de piezas, la zona de pieza seleccionada y la zona de pr ´oxima pieza, y la zona de semilla. Para las 3 zonas tendremos operaciones para ir al origen de la zona (su extremo derecho), leer el n ´umero de la zona y modificar la zona. Adem ´as para las dos zonas de c ´odigos de pieza tendremos operaciones de borrar la zona. Todas estas operaciones usar ´an las operaciones de zonas de n ´umeros definidas en la subsecci ´on anterior. En el caso de las operaciones de modi- ficaci ´on de zona, la zona de pieza seleccionada se modifica agregando d´ıgitos de a uno (ya sea por izquierda o por derecha, seg ´un el procedimiento de la zona de n ´umeros que se elija), mientras que la zona de pr ´oxima pieza se modifica incrementando la zona, y la zona de semilla se modifica grabando completamente una semilla nueva. Las operaciones para estas zonas ser ´an las siguientes // procedure IrAlOrigenDeZonaDeProximaPieza() // procedure IrAlOrigenDeZonaDeSeleccion() // procedure IrAlOrigenDeZonaDeSemilla() // // function leerZonaDeProximaPieza() // function leerZonaDeSeleccion() // function leerSemilla() // // procedure BorrarZonaDeProximaPieza() // procedure BorrarZonaDeSeleccion() // // procedure AgregarDigitoASeleccion(dig) // procedure IncrementarZonaDeProximaPieza() // procedure GrabarSemilla(semilla) Las operaciones de ir al origen se hacen asumiendo la posici ´on relativa de estas zonas con respecto al origen de la zona de juego. De esta manera, resultan sencillas. procedure IrAlOrigenDeZonaDeProximaPieza() /*"
+}

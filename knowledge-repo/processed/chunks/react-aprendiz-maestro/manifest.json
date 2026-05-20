@@ -1,0 +1,1794 @@
+{
+  "bookId": "react-aprendiz-maestro",
+  "totalChunks": 255,
+  "chunkSize": 500,
+  "overlap": 50,
+  "generated": "2026-05-17T09:15:13.369Z",
+  "chunks": [
+    {
+      "id": "react-aprendiz-maestro-ch001-000",
+      "chapterIndex": 1,
+      "chunkIndex": 0,
+      "title": "1. Introducción a React . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",
+      "words": 67
+    },
+    {
+      "id": "react-aprendiz-maestro-ch002-000",
+      "chapterIndex": 2,
+      "chunkIndex": 0,
+      "title": "1.2 DOM Virtual . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch003-000",
+      "chapterIndex": 3,
+      "chunkIndex": 0,
+      "title": "1.3 Renderizadores de React . . . . . . . . . . . . . . . . . . . . . . 5",
+      "words": 28
+    },
+    {
+      "id": "react-aprendiz-maestro-ch004-000",
+      "chapterIndex": 4,
+      "chunkIndex": 0,
+      "title": "1.4 React.createElement y JSX . . . . . . . . . . . . . . . . . . . . 6",
+      "words": 26
+    },
+    {
+      "id": "react-aprendiz-maestro-ch005-000",
+      "chapterIndex": 5,
+      "chunkIndex": 0,
+      "title": "1.5 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch006-000",
+      "chapterIndex": 6,
+      "chunkIndex": 0,
+      "title": "2. Configurando el Proyecto . . . . . . . . . . . . . . . . . . . . . . . . . 9",
+      "words": 31
+    },
+    {
+      "id": "react-aprendiz-maestro-ch007-000",
+      "chapterIndex": 7,
+      "chunkIndex": 0,
+      "title": "2.1 Configuración de Node.js y Git . . . . . . . . . . . . . . . . . . . 10",
+      "words": 27
+    },
+    {
+      "id": "react-aprendiz-maestro-ch008-000",
+      "chapterIndex": 8,
+      "chunkIndex": 0,
+      "title": "2.2 Ejecutando el Proyecto . . . . . . . . . . . . . . . . . . . . . . . 11",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch009-000",
+      "chapterIndex": 9,
+      "chunkIndex": 0,
+      "title": "ÍNDICE GENERAL",
+      "words": 25
+    },
+    {
+      "id": "react-aprendiz-maestro-ch010-000",
+      "chapterIndex": 10,
+      "chunkIndex": 0,
+      "title": "2.4 Características del Lenguaje Presentes en el Esqueleto . . . . . . 14",
+      "words": 16
+    },
+    {
+      "id": "react-aprendiz-maestro-ch100-000",
+      "chapterIndex": 100,
+      "chunkIndex": 0,
+      "title": "10.5 Conectando la Lógica de Persistencia con",
+      "words": 31
+    },
+    {
+      "id": "react-aprendiz-maestro-ch101-000",
+      "chapterIndex": 101,
+      "chunkIndex": 0,
+      "title": "10.6 Limpiando NoteStore",
+      "words": 31
+    },
+    {
+      "id": "react-aprendiz-maestro-ch102-000",
+      "chapterIndex": 102,
+      "chunkIndex": 0,
+      "title": "10.7 Implementaciones Alternativas",
+      "words": 24
+    },
+    {
+      "id": "react-aprendiz-maestro-ch103-000",
+      "chapterIndex": 103,
+      "chunkIndex": 0,
+      "title": "10.9 Conclusión",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch104-000",
+      "chapterIndex": 104,
+      "chunkIndex": 0,
+      "title": "11. Gestionado Dependencias",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch105-000",
+      "chapterIndex": 105,
+      "chunkIndex": 0,
+      "title": "11.1 Definiendo Carriles",
+      "words": 27
+    },
+    {
+      "id": "react-aprendiz-maestro-ch106-000",
+      "chapterIndex": 106,
+      "chunkIndex": 0,
+      "title": "11.2 Conectando Carriles con App",
+      "words": 27
+    },
+    {
+      "id": "react-aprendiz-maestro-ch107-000",
+      "chapterIndex": 107,
+      "chunkIndex": 0,
+      "title": "11.3 Modelando Carril",
+      "words": 26
+    },
+    {
+      "id": "react-aprendiz-maestro-ch108-000",
+      "chapterIndex": 108,
+      "chunkIndex": 0,
+      "title": "11.4 Haciendo que Carriles sea el Responsable",
+      "words": 30
+    },
+    {
+      "id": "react-aprendiz-maestro-ch109-000",
+      "chapterIndex": 109,
+      "chunkIndex": 0,
+      "title": "4.1 Separación de Nota . . . . . . . . . . . . . . . . . . . . . . . . . 33",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch109-001",
+      "chapterIndex": 109,
+      "chunkIndex": 1,
+      "title": "4.1 Separación de Nota . . . . . . . . . . . . . . . . . . . . . . . . . 33",
+      "words": 167
+    },
+    {
+      "id": "react-aprendiz-maestro-ch011-000",
+      "chapterIndex": 11,
+      "chunkIndex": 0,
+      "title": "16.2 Metodologías CSS . . . . . . . . . . . . . . . . . . . . . . . . . . 161",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch110-000",
+      "chapterIndex": 110,
+      "chunkIndex": 0,
+      "title": "11.5 Extrayendo LaneHeader (Cabecera de Carril)",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch110-001",
+      "chapterIndex": 110,
+      "chunkIndex": 1,
+      "title": "11.5 Extrayendo LaneHeader (Cabecera de Carril)",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch110-002",
+      "chapterIndex": 110,
+      "chunkIndex": 2,
+      "title": "11.5 Extrayendo LaneHeader (Cabecera de Carril)",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch110-003",
+      "chapterIndex": 110,
+      "chunkIndex": 3,
+      "title": "11.5 Extrayendo LaneHeader (Cabecera de Carril)",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch110-004",
+      "chapterIndex": 110,
+      "chunkIndex": 4,
+      "title": "11.5 Extrayendo LaneHeader (Cabecera de Carril)",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch110-005",
+      "chapterIndex": 110,
+      "chunkIndex": 5,
+      "title": "11.5 Extrayendo LaneHeader (Cabecera de Carril)",
+      "words": 194
+    },
+    {
+      "id": "react-aprendiz-maestro-ch111-000",
+      "chapterIndex": 111,
+      "chunkIndex": 0,
+      "title": "11.6 Conclusión",
+      "words": 263
+    },
+    {
+      "id": "react-aprendiz-maestro-ch112-000",
+      "chapterIndex": 112,
+      "chunkIndex": 0,
+      "title": "12. Editando los Carriles",
+      "words": 379
+    },
+    {
+      "id": "react-aprendiz-maestro-ch113-000",
+      "chapterIndex": 113,
+      "chunkIndex": 0,
+      "title": "12.1 Implementando la Edición de Nombres",
+      "words": 306
+    },
+    {
+      "id": "react-aprendiz-maestro-ch114-000",
+      "chapterIndex": 114,
+      "chunkIndex": 0,
+      "title": "12.2 Implementando el Borrado de Carril",
+      "words": 373
+    },
+    {
+      "id": "react-aprendiz-maestro-ch115-000",
+      "chapterIndex": 115,
+      "chunkIndex": 0,
+      "title": "12.3 Dando Estilo al Tablero Kanban",
+      "words": 35
+    },
+    {
+      "id": "react-aprendiz-maestro-ch116-000",
+      "chapterIndex": 116,
+      "chunkIndex": 0,
+      "title": "capítulo D: ando Estilo a React para más información.",
+      "words": 226
+    },
+    {
+      "id": "react-aprendiz-maestro-ch117-000",
+      "chapterIndex": 117,
+      "chunkIndex": 0,
+      "title": "12.4 Conclusión",
+      "words": 313
+    },
+    {
+      "id": "react-aprendiz-maestro-ch118-000",
+      "chapterIndex": 118,
+      "chunkIndex": 0,
+      "title": "13. Implementado Arrastrar y",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch118-001",
+      "chapterIndex": 118,
+      "chunkIndex": 1,
+      "title": "13. Implementado Arrastrar y",
+      "words": 110
+    },
+    {
+      "id": "react-aprendiz-maestro-ch119-000",
+      "chapterIndex": 119,
+      "chunkIndex": 0,
+      "title": "13.1 Configurando React DnD",
+      "words": 399
+    },
+    {
+      "id": "react-aprendiz-maestro-ch012-000",
+      "chapterIndex": 12,
+      "chunkIndex": 0,
+      "title": "16.3 Procesadores CSS . . . . . . . . . . . . . . . . . . . . . . . . . . 164",
+      "words": 24
+    },
+    {
+      "id": "react-aprendiz-maestro-ch120-000",
+      "chapterIndex": 120,
+      "chunkIndex": 0,
+      "title": "4.2 Añadir un Esqueleto para la Llamada a onDelete . . . . . . . . . 34",
+      "words": 35
+    },
+    {
+      "id": "react-aprendiz-maestro-ch121-000",
+      "chapterIndex": 121,
+      "chunkIndex": 0,
+      "title": "13.2 Permitiendo que las Notas sean",
+      "words": 66
+    },
+    {
+      "id": "react-aprendiz-maestro-ch122-000",
+      "chapterIndex": 122,
+      "chunkIndex": 0,
+      "title": "13.3 Permitiendo a las Notas que Detecten",
+      "words": 231
+    },
+    {
+      "id": "react-aprendiz-maestro-ch123-000",
+      "chapterIndex": 123,
+      "chunkIndex": 0,
+      "title": "13.4 Desarrollando el API onMove para Notas",
+      "words": 312
+    },
+    {
+      "id": "react-aprendiz-maestro-ch124-000",
+      "chapterIndex": 124,
+      "chunkIndex": 0,
+      "title": "1. Capturar el identificador de Nota en beginDrag.",
+      "words": 341
+    },
+    {
+      "id": "react-aprendiz-maestro-ch125-000",
+      "chapterIndex": 125,
+      "chunkIndex": 0,
+      "title": "2. Capturar el identificador de la Nota objetivo hover.",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch125-001",
+      "chapterIndex": 125,
+      "chunkIndex": 1,
+      "title": "2. Capturar el identificador de la Nota objetivo hover.",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch125-002",
+      "chapterIndex": 125,
+      "chunkIndex": 2,
+      "title": "2. Capturar el identificador de la Nota objetivo hover.",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch125-003",
+      "chapterIndex": 125,
+      "chunkIndex": 3,
+      "title": "2. Capturar el identificador de la Nota objetivo hover.",
+      "words": 380
+    },
+    {
+      "id": "react-aprendiz-maestro-ch126-000",
+      "chapterIndex": 126,
+      "chunkIndex": 0,
+      "title": "3. Lanzar la llmada a hover cuando se ejecute onMove par que podamos incluir",
+      "words": 53
+    },
+    {
+      "id": "react-aprendiz-maestro-ch127-000",
+      "chapterIndex": 127,
+      "chunkIndex": 0,
+      "title": "13.5 Añadiendo Acciones en el Movimiento",
+      "words": 123
+    },
+    {
+      "id": "react-aprendiz-maestro-ch128-000",
+      "chapterIndex": 128,
+      "chunkIndex": 0,
+      "title": "13.6 Implementando la Lógica de Arrastrar y",
+      "words": 144
+    },
+    {
+      "id": "react-aprendiz-maestro-ch129-000",
+      "chapterIndex": 129,
+      "chunkIndex": 0,
+      "title": "13.7 Arrastrando Notas sobre Carriles Vacíos",
+      "words": 91
+    },
+    {
+      "id": "react-aprendiz-maestro-ch013-000",
+      "chapterIndex": 13,
+      "chunkIndex": 0,
+      "title": "16.4 Aproximaciones Basadas en React . . . . . . . . . . . . . . . . . 166",
+      "words": 30
+    },
+    {
+      "id": "react-aprendiz-maestro-ch130-000",
+      "chapterIndex": 130,
+      "chunkIndex": 0,
+      "title": "13.8 Conclusión",
+      "words": 433
+    },
+    {
+      "id": "react-aprendiz-maestro-ch131-000",
+      "chapterIndex": 131,
+      "chunkIndex": 0,
+      "title": "4.3 Comunicar el Borrado a App . . . . . . . . . . . . . . . . . . . . 35",
+      "words": 55
+    },
+    {
+      "id": "react-aprendiz-maestro-ch132-000",
+      "chapterIndex": 132,
+      "chunkIndex": 0,
+      "title": "14. Probando React",
+      "words": 74
+    },
+    {
+      "id": "react-aprendiz-maestro-ch133-000",
+      "chapterIndex": 133,
+      "chunkIndex": 0,
+      "title": "14.1 TL;DR",
+      "words": 75
+    },
+    {
+      "id": "react-aprendiz-maestro-ch134-000",
+      "chapterIndex": 134,
+      "chunkIndex": 0,
+      "title": "15. Tipado con React",
+      "words": 404
+    },
+    {
+      "id": "react-aprendiz-maestro-ch135-000",
+      "chapterIndex": 135,
+      "chunkIndex": 0,
+      "title": "15.1 TL;DR",
+      "words": 105
+    },
+    {
+      "id": "react-aprendiz-maestro-ch136-000",
+      "chapterIndex": 136,
+      "chunkIndex": 0,
+      "title": "16. Aplicando Estilo a React",
+      "words": 301
+    },
+    {
+      "id": "react-aprendiz-maestro-ch137-000",
+      "chapterIndex": 137,
+      "chunkIndex": 0,
+      "title": "16.1 Estilo a la Vieja Usanza",
+      "words": 202
+    },
+    {
+      "id": "react-aprendiz-maestro-ch138-000",
+      "chapterIndex": 138,
+      "chunkIndex": 0,
+      "title": "16.2 Metodologías CSS",
+      "words": 62
+    },
+    {
+      "id": "react-aprendiz-maestro-ch139-000",
+      "chapterIndex": 139,
+      "chunkIndex": 0,
+      "title": "OOCSS y SMACSS",
+      "words": 156
+    },
+    {
+      "id": "react-aprendiz-maestro-ch014-000",
+      "chapterIndex": 14,
+      "chunkIndex": 0,
+      "title": "16.5 Módulos CSS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 173",
+      "words": 25
+    },
+    {
+      "id": "react-aprendiz-maestro-ch140-000",
+      "chapterIndex": 140,
+      "chunkIndex": 0,
+      "title": "16.3 Procesadores CSS",
+      "words": 288
+    },
+    {
+      "id": "react-aprendiz-maestro-ch141-000",
+      "chapterIndex": 141,
+      "chunkIndex": 0,
+      "title": "16.4 Aproximaciones Basadas en React",
+      "words": 219
+    },
+    {
+      "id": "react-aprendiz-maestro-ch142-000",
+      "chapterIndex": 142,
+      "chunkIndex": 0,
+      "title": "4.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38",
+      "words": 111
+    },
+    {
+      "id": "react-aprendiz-maestro-ch143-000",
+      "chapterIndex": 143,
+      "chunkIndex": 0,
+      "title": "16.5 Módulos CSS",
+      "words": 116
+    },
+    {
+      "id": "react-aprendiz-maestro-ch144-000",
+      "chapterIndex": 144,
+      "chunkIndex": 0,
+      "title": "16.6 Conclusión",
+      "words": 319
+    },
+    {
+      "id": "react-aprendiz-maestro-ch145-000",
+      "chapterIndex": 145,
+      "chunkIndex": 0,
+      "title": "17. Estructurando Proyectos",
+      "words": 242
+    },
+    {
+      "id": "react-aprendiz-maestro-ch146-000",
+      "chapterIndex": 146,
+      "chunkIndex": 0,
+      "title": "17.1 Un Directorio por Concepto",
+      "words": 282
+    },
+    {
+      "id": "react-aprendiz-maestro-ch147-000",
+      "chapterIndex": 147,
+      "chunkIndex": 0,
+      "title": "17.2 Un Directorio por Componente",
+      "words": 85
+    },
+    {
+      "id": "react-aprendiz-maestro-ch148-000",
+      "chapterIndex": 148,
+      "chunkIndex": 0,
+      "title": "17.3 Un Directorio por Vista",
+      "words": 77
+    },
+    {
+      "id": "react-aprendiz-maestro-ch149-000",
+      "chapterIndex": 149,
+      "chunkIndex": 0,
+      "title": "17.4 Conclusión",
+      "words": 119
+    },
+    {
+      "id": "react-aprendiz-maestro-ch015-000",
+      "chapterIndex": 15,
+      "chunkIndex": 0,
+      "title": "16.6 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 175",
+      "words": 32
+    },
+    {
+      "id": "react-aprendiz-maestro-ch150-000",
+      "chapterIndex": 150,
+      "chunkIndex": 0,
+      "title": "EPEERINVALID",
+      "words": 179
+    },
+    {
+      "id": "react-aprendiz-maestro-ch151-000",
+      "chapterIndex": 151,
+      "chunkIndex": 0,
+      "title": "1. Avisar al autor del paquete del problema y confiar en que incremente el rango",
+      "words": 363
+    },
+    {
+      "id": "react-aprendiz-maestro-ch152-000",
+      "chapterIndex": 152,
+      "chunkIndex": 0,
+      "title": "2. Resolver el conflicto utilizando una versión que satisfaga la dependencia. En",
+      "words": 298
+    },
+    {
+      "id": "react-aprendiz-maestro-ch153-000",
+      "chapterIndex": 153,
+      "chunkIndex": 0,
+      "title": "5. Comprendiendo los Componentes de React . . . . . . . . . . . . . . . 39",
+      "words": 144
+    },
+    {
+      "id": "react-aprendiz-maestro-ch154-000",
+      "chapterIndex": 154,
+      "chunkIndex": 0,
+      "title": "3. Hacer un fork del paquete, arreglar el rango de versiones, y utilizar tu",
+      "words": 149
+    },
+    {
+      "id": "react-aprendiz-maestro-ch155-000",
+      "chapterIndex": 155,
+      "chunkIndex": 0,
+      "title": "5.1 Métodos del Ciclo de Vida . . . . . . . . . . . . . . . . . . . . . 39",
+      "words": 428
+    },
+    {
+      "id": "react-aprendiz-maestro-ch156-000",
+      "chapterIndex": 156,
+      "chunkIndex": 0,
+      "title": "5.2 Refs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41",
+      "words": 485
+    },
+    {
+      "id": "react-aprendiz-maestro-ch157-000",
+      "chapterIndex": 157,
+      "chunkIndex": 0,
+      "title": "5.3 Propiedades y Métodos Propios . . . . . . . . . . . . . . . . . . . 41",
+      "words": 78
+    },
+    {
+      "id": "react-aprendiz-maestro-ch158-000",
+      "chapterIndex": 158,
+      "chunkIndex": 0,
+      "title": "5.4 Convenciones de los Componentes de React . . . . . . . . . . . . 43",
+      "words": 27
+    },
+    {
+      "id": "react-aprendiz-maestro-ch159-000",
+      "chapterIndex": 159,
+      "chunkIndex": 0,
+      "title": "5.5 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44",
+      "words": 7
+    },
+    {
+      "id": "react-aprendiz-maestro-ch016-000",
+      "chapterIndex": 16,
+      "chunkIndex": 0,
+      "title": "17. Estructurando Proyectos con React . . . . . . . . . . . . . . . . . . . . 177",
+      "words": 26
+    },
+    {
+      "id": "react-aprendiz-maestro-ch160-000",
+      "chapterIndex": 160,
+      "chunkIndex": 0,
+      "title": "6. Edición de Notas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45",
+      "words": 8
+    },
+    {
+      "id": "react-aprendiz-maestro-ch161-000",
+      "chapterIndex": 161,
+      "chunkIndex": 0,
+      "title": "6.1 Implementación de Editable . . . . . . . . . . . . . . . . . . . . 45",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch161-001",
+      "chapterIndex": 161,
+      "chunkIndex": 1,
+      "title": "6.1 Implementación de Editable . . . . . . . . . . . . . . . . . . . . 45",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch161-002",
+      "chapterIndex": 161,
+      "chunkIndex": 2,
+      "title": "6.1 Implementación de Editable . . . . . . . . . . . . . . . . . . . . 45",
+      "words": 112
+    },
+    {
+      "id": "react-aprendiz-maestro-ch162-000",
+      "chapterIndex": 162,
+      "chunkIndex": 0,
+      "title": "6.2 Extrayendo el Renderizado de Nota . . . . . . . . . . . . . . . . 46",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch162-001",
+      "chapterIndex": 162,
+      "chunkIndex": 1,
+      "title": "6.2 Extrayendo el Renderizado de Nota . . . . . . . . . . . . . . . . 46",
+      "words": 286
+    },
+    {
+      "id": "react-aprendiz-maestro-ch163-000",
+      "chapterIndex": 163,
+      "chunkIndex": 0,
+      "title": "6.3 Inclusión del Esqueleto Editable . . . . . . . . . . . . . . . . . . 48",
+      "words": 109
+    },
+    {
+      "id": "react-aprendiz-maestro-ch164-000",
+      "chapterIndex": 164,
+      "chunkIndex": 0,
+      "title": "6.4 Conectando Editable con Notas . . . . . . . . . . . . . . . . . . 49",
+      "words": 76
+    },
+    {
+      "id": "react-aprendiz-maestro-ch165-000",
+      "chapterIndex": 165,
+      "chunkIndex": 0,
+      "title": "6.5 Haciendo un Seguimiento del Estado editing de Nota . . . . . . 50",
+      "words": 164
+    },
+    {
+      "id": "react-aprendiz-maestro-ch166-000",
+      "chapterIndex": 166,
+      "chunkIndex": 0,
+      "title": "6.6 Implementación de Edit . . . . . . . . . . . . . . . . . . . . . . 53",
+      "words": 420
+    },
+    {
+      "id": "react-aprendiz-maestro-ch167-000",
+      "chapterIndex": 167,
+      "chunkIndex": 0,
+      "title": "6.7 Sobre los Componentes y el Espacio de Nombres . . . . . . . . . 55",
+      "words": 251
+    },
+    {
+      "id": "react-aprendiz-maestro-ch168-000",
+      "chapterIndex": 168,
+      "chunkIndex": 0,
+      "title": "6.8 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56",
+      "words": 217
+    },
+    {
+      "id": "react-aprendiz-maestro-ch169-000",
+      "chapterIndex": 169,
+      "chunkIndex": 0,
+      "title": "7. Dando Estilo a la Aplicación de Notas . . . . . . . . . . . . . . . . . . 57",
+      "words": 216
+    },
+    {
+      "id": "react-aprendiz-maestro-ch017-000",
+      "chapterIndex": 17,
+      "chunkIndex": 0,
+      "title": "17.1 Un Directorio por Concepto . . . . . . . . . . . . . . . . . . . . 177",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch170-000",
+      "chapterIndex": 170,
+      "chunkIndex": 0,
+      "title": "7.1 Aplicando Estilo sobre el Botón “Añadir Nota” . . . . . . . . . . 57",
+      "words": 330
+    },
+    {
+      "id": "react-aprendiz-maestro-ch171-000",
+      "chapterIndex": 171,
+      "chunkIndex": 0,
+      "title": "ÍNDICE GENERAL",
+      "words": 173
+    },
+    {
+      "id": "react-aprendiz-maestro-ch172-000",
+      "chapterIndex": 172,
+      "chunkIndex": 0,
+      "title": "7.2 Aplicando estilos sobre Notas . . . . . . . . . . . . . . . . . . . . 58",
+      "words": 234
+    },
+    {
+      "id": "react-aprendiz-maestro-ch173-000",
+      "chapterIndex": 173,
+      "chunkIndex": 0,
+      "title": "7.3 Aplicando Estilos sobre Notas Individuales . . . . . . . . . . . . 60",
+      "words": 261
+    },
+    {
+      "id": "react-aprendiz-maestro-ch174-000",
+      "chapterIndex": 174,
+      "chunkIndex": 0,
+      "title": "7.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63",
+      "words": 166
+    },
+    {
+      "id": "react-aprendiz-maestro-ch175-000",
+      "chapterIndex": 175,
+      "chunkIndex": 0,
+      "title": "8. React y Flux . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66",
+      "words": 68
+    },
+    {
+      "id": "react-aprendiz-maestro-ch176-000",
+      "chapterIndex": 176,
+      "chunkIndex": 0,
+      "title": "8.1 Breve Introducción a Redux . . . . . . . . . . . . . . . . . . . . . 66",
+      "words": 86
+    },
+    {
+      "id": "react-aprendiz-maestro-ch177-000",
+      "chapterIndex": 177,
+      "chunkIndex": 0,
+      "title": "8.2 Breve Introducción a MobX . . . . . . . . . . . . . . . . . . . . . 67",
+      "words": 179
+    },
+    {
+      "id": "react-aprendiz-maestro-ch178-000",
+      "chapterIndex": 178,
+      "chunkIndex": 0,
+      "title": "8.4 Introducción a Flux . . . . . . . . . . . . . . . . . . . . . . . . . 68",
+      "words": 158
+    },
+    {
+      "id": "react-aprendiz-maestro-ch179-000",
+      "chapterIndex": 179,
+      "chunkIndex": 0,
+      "title": "8.5 Migrando a Alt . . . . . . . . . . . . . . . . . . . . . . . . . . . 70",
+      "words": 179
+    },
+    {
+      "id": "react-aprendiz-maestro-ch018-000",
+      "chapterIndex": 18,
+      "chunkIndex": 0,
+      "title": "17.2 Un Directorio por Componente . . . . . . . . . . . . . . . . . . . 178",
+      "words": 36
+    },
+    {
+      "id": "react-aprendiz-maestro-ch180-000",
+      "chapterIndex": 180,
+      "chunkIndex": 0,
+      "title": "8.6 Entendiendo conectar . . . . . . . . . . . . . . . . . . . . . . . 76",
+      "words": 228
+    },
+    {
+      "id": "react-aprendiz-maestro-ch181-000",
+      "chapterIndex": 181,
+      "chunkIndex": 0,
+      "title": "8.7 Usando el Dispatcher en Alt . . . . . . . . . . . . . . . . . . . . 81",
+      "words": 246
+    },
+    {
+      "id": "react-aprendiz-maestro-ch182-000",
+      "chapterIndex": 182,
+      "chunkIndex": 0,
+      "title": "8.8 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82",
+      "words": 122
+    },
+    {
+      "id": "react-aprendiz-maestro-ch183-000",
+      "chapterIndex": 183,
+      "chunkIndex": 0,
+      "title": "9. Implementando NoteStore y NoteActions . . . . . . . . . . . . . . . . 83",
+      "words": 284
+    },
+    {
+      "id": "react-aprendiz-maestro-ch184-000",
+      "chapterIndex": 184,
+      "chunkIndex": 0,
+      "title": "9.1 Configurando un NoteStore . . . . . . . . . . . . . . . . . . . . 83",
+      "words": 48
+    },
+    {
+      "id": "react-aprendiz-maestro-ch185-000",
+      "chapterIndex": 185,
+      "chunkIndex": 0,
+      "title": "9.2 Entendiendo las Acciones . . . . . . . . . . . . . . . . . . . . . . 86",
+      "words": 109
+    },
+    {
+      "id": "react-aprendiz-maestro-ch186-000",
+      "chapterIndex": 186,
+      "chunkIndex": 0,
+      "title": "9.3 Configurando NoteActions . . . . . . . . . . . . . . . . . . . . . 87",
+      "words": 343
+    },
+    {
+      "id": "react-aprendiz-maestro-ch187-000",
+      "chapterIndex": 187,
+      "chunkIndex": 0,
+      "title": "9.4 Conectando NoteActions con NoteStore . . . . . . . . . . . . . 88",
+      "words": 171
+    },
+    {
+      "id": "react-aprendiz-maestro-ch188-000",
+      "chapterIndex": 188,
+      "chunkIndex": 0,
+      "title": "9.5 Migrando App.addNote a Flux . . . . . . . . . . . . . . . . . . . 90",
+      "words": 254
+    },
+    {
+      "id": "react-aprendiz-maestro-ch189-000",
+      "chapterIndex": 189,
+      "chunkIndex": 0,
+      "title": "9.6 Migrando App.deleteNote a Flux . . . . . . . . . . . . . . . . . 92",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch189-001",
+      "chapterIndex": 189,
+      "chunkIndex": 1,
+      "title": "9.6 Migrando App.deleteNote a Flux . . . . . . . . . . . . . . . . . 92",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch189-002",
+      "chapterIndex": 189,
+      "chunkIndex": 2,
+      "title": "9.6 Migrando App.deleteNote a Flux . . . . . . . . . . . . . . . . . 92",
+      "words": 230
+    },
+    {
+      "id": "react-aprendiz-maestro-ch019-000",
+      "chapterIndex": 19,
+      "chunkIndex": 0,
+      "title": "17.3 Un Directorio por Vista . . . . . . . . . . . . . . . . . . . . . . . 180",
+      "words": 31
+    },
+    {
+      "id": "react-aprendiz-maestro-ch190-000",
+      "chapterIndex": 190,
+      "chunkIndex": 0,
+      "title": "9.7 Migrando App.activateNoteEdit a Flux . . . . . . . . . . . . . 94",
+      "words": 364
+    },
+    {
+      "id": "react-aprendiz-maestro-ch191-000",
+      "chapterIndex": 191,
+      "chunkIndex": 0,
+      "title": "9.8 Migrando App.editNote a Flux . . . . . . . . . . . . . . . . . . . 96",
+      "words": 121
+    },
+    {
+      "id": "react-aprendiz-maestro-ch192-000",
+      "chapterIndex": 192,
+      "chunkIndex": 0,
+      "title": "9.9 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98",
+      "words": 113
+    },
+    {
+      "id": "react-aprendiz-maestro-ch193-000",
+      "chapterIndex": 193,
+      "chunkIndex": 0,
+      "title": "10. Implementando Persistencia en localStorage . . . . . . . . . . . . . . 99",
+      "words": 322
+    },
+    {
+      "id": "react-aprendiz-maestro-ch194-000",
+      "chapterIndex": 194,
+      "chunkIndex": 0,
+      "title": "10.1 Entendiendo localStorage . . . . . . . . . . . . . . . . . . . . . 99",
+      "words": 339
+    },
+    {
+      "id": "react-aprendiz-maestro-ch195-000",
+      "chapterIndex": 195,
+      "chunkIndex": 0,
+      "title": "10.2 Implementando un Envoltorio para localStorage . . . . . . . . 100",
+      "words": 244
+    },
+    {
+      "id": "react-aprendiz-maestro-ch196-000",
+      "chapterIndex": 196,
+      "chunkIndex": 0,
+      "title": "10.3 Persistiendo la Aplicación usando FinalStore . . . . . . . . . . . 101",
+      "words": 10
+    },
+    {
+      "id": "react-aprendiz-maestro-ch197-000",
+      "chapterIndex": 197,
+      "chunkIndex": 0,
+      "title": "10.4 Implementando la Lógica de Persistencia . . . . . . . . . . . . . 101",
+      "words": 54
+    },
+    {
+      "id": "react-aprendiz-maestro-ch198-000",
+      "chapterIndex": 198,
+      "chunkIndex": 0,
+      "title": "10.5 Conectando la Lógica de Persistencia con la Aplicación . . . . . . 103",
+      "words": 73
+    },
+    {
+      "id": "react-aprendiz-maestro-ch199-000",
+      "chapterIndex": 199,
+      "chunkIndex": 0,
+      "title": "10.6 Limpiando NoteStore . . . . . . . . . . . . . . . . . . . . . . . . 104",
+      "words": 193
+    },
+    {
+      "id": "react-aprendiz-maestro-ch020-000",
+      "chapterIndex": 20,
+      "chunkIndex": 0,
+      "title": "17.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 181",
+      "words": 20
+    },
+    {
+      "id": "react-aprendiz-maestro-ch200-000",
+      "chapterIndex": 200,
+      "chunkIndex": 0,
+      "title": "10.7 Implementaciones Alternativas . . . . . . . . . . . . . . . . . . . 105",
+      "words": 257
+    },
+    {
+      "id": "react-aprendiz-maestro-ch201-000",
+      "chapterIndex": 201,
+      "chunkIndex": 0,
+      "title": "ÍNDICE GENERAL",
+      "words": 221
+    },
+    {
+      "id": "react-aprendiz-maestro-ch202-000",
+      "chapterIndex": 202,
+      "chunkIndex": 0,
+      "title": "10.9 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106",
+      "words": 35
+    },
+    {
+      "id": "react-aprendiz-maestro-ch203-000",
+      "chapterIndex": 203,
+      "chunkIndex": 0,
+      "title": "11. Gestionado Dependencias de Datos . . . . . . . . . . . . . . . . . . . . 107",
+      "words": 9
+    },
+    {
+      "id": "react-aprendiz-maestro-ch204-000",
+      "chapterIndex": 204,
+      "chunkIndex": 0,
+      "title": "11.1 Definiendo Carriles . . . . . . . . . . . . . . . . . . . . . . . . 107",
+      "words": 10
+    },
+    {
+      "id": "react-aprendiz-maestro-ch205-000",
+      "chapterIndex": 205,
+      "chunkIndex": 0,
+      "title": "11.2 Conectando Carriles con App . . . . . . . . . . . . . . . . . . . 110",
+      "words": 324
+    },
+    {
+      "id": "react-aprendiz-maestro-ch206-000",
+      "chapterIndex": 206,
+      "chunkIndex": 0,
+      "title": "11.3 Modelando Carril . . . . . . . . . . . . . . . . . . . . . . . . . 111",
+      "words": 389
+    },
+    {
+      "id": "react-aprendiz-maestro-ch207-000",
+      "chapterIndex": 207,
+      "chunkIndex": 0,
+      "title": "11.4 Haciendo que Carriles sea el Responsable de Notas . . . . . . . 114",
+      "words": 468
+    },
+    {
+      "id": "react-aprendiz-maestro-ch208-000",
+      "chapterIndex": 208,
+      "chunkIndex": 0,
+      "title": "11.5 Extrayendo LaneHeader (Cabecera de Carril) de Carril . . . . . 123",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch208-001",
+      "chapterIndex": 208,
+      "chunkIndex": 1,
+      "title": "11.5 Extrayendo LaneHeader (Cabecera de Carril) de Carril . . . . . 123",
+      "words": 202
+    },
+    {
+      "id": "react-aprendiz-maestro-ch209-000",
+      "chapterIndex": 209,
+      "chunkIndex": 0,
+      "title": "11.6 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 126",
+      "words": 343
+    },
+    {
+      "id": "react-aprendiz-maestro-ch021-000",
+      "chapterIndex": 21,
+      "chunkIndex": 0,
+      "title": "2.5 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16",
+      "words": 28
+    },
+    {
+      "id": "react-aprendiz-maestro-ch210-000",
+      "chapterIndex": 210,
+      "chunkIndex": 0,
+      "title": "12. Editando los Carriles . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127",
+      "words": 67
+    },
+    {
+      "id": "react-aprendiz-maestro-ch211-000",
+      "chapterIndex": 211,
+      "chunkIndex": 0,
+      "title": "12.1 Implementando la Edición de Nombres de Carril . . . . . . . . . 127",
+      "words": 236
+    },
+    {
+      "id": "react-aprendiz-maestro-ch212-000",
+      "chapterIndex": 212,
+      "chunkIndex": 0,
+      "title": "12.2 Implementando el Borrado de Carril . . . . . . . . . . . . . . . 130",
+      "words": 68
+    },
+    {
+      "id": "react-aprendiz-maestro-ch213-000",
+      "chapterIndex": 213,
+      "chunkIndex": 0,
+      "title": "12.3 Dando Estilo al Tablero Kanban . . . . . . . . . . . . . . . . . . 133",
+      "words": 114
+    },
+    {
+      "id": "react-aprendiz-maestro-ch214-000",
+      "chapterIndex": 214,
+      "chunkIndex": 0,
+      "title": "12.4 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136",
+      "words": 116
+    },
+    {
+      "id": "react-aprendiz-maestro-ch215-000",
+      "chapterIndex": 215,
+      "chunkIndex": 0,
+      "title": "13. Implementado Arrastrar y Soltar . . . . . . . . . . . . . . . . . . . . . 137",
+      "words": 85
+    },
+    {
+      "id": "react-aprendiz-maestro-ch216-000",
+      "chapterIndex": 216,
+      "chunkIndex": 0,
+      "title": "13.1 Configurando React DnD . . . . . . . . . . . . . . . . . . . . . . 137",
+      "words": 240
+    },
+    {
+      "id": "react-aprendiz-maestro-ch217-000",
+      "chapterIndex": 217,
+      "chunkIndex": 0,
+      "title": "13.2 Permitiendo que las Notas sean Arrastradas . . . . . . . . . . . . 139",
+      "words": 168
+    },
+    {
+      "id": "react-aprendiz-maestro-ch218-000",
+      "chapterIndex": 218,
+      "chunkIndex": 0,
+      "title": "13.3 Permitiendo a las Notas que Detecten Notas que Pasan por Encima 141",
+      "words": 401
+    },
+    {
+      "id": "react-aprendiz-maestro-ch219-000",
+      "chapterIndex": 219,
+      "chunkIndex": 0,
+      "title": "13.4 Desarrollando el API onMove para Notas . . . . . . . . . . . . . . 142",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch219-001",
+      "chapterIndex": 219,
+      "chunkIndex": 1,
+      "title": "13.4 Desarrollando el API onMove para Notas . . . . . . . . . . . . . . 142",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch219-002",
+      "chapterIndex": 219,
+      "chunkIndex": 2,
+      "title": "13.4 Desarrollando el API onMove para Notas . . . . . . . . . . . . . . 142",
+      "words": 260
+    },
+    {
+      "id": "react-aprendiz-maestro-ch022-000",
+      "chapterIndex": 22,
+      "chunkIndex": 0,
+      "title": "ÍNDICE GENERAL",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch220-000",
+      "chapterIndex": 220,
+      "chunkIndex": 0,
+      "title": "13.5 Añadiendo Acciones en el Movimiento . . . . . . . . . . . . . . 146",
+      "words": 367
+    },
+    {
+      "id": "react-aprendiz-maestro-ch221-000",
+      "chapterIndex": 221,
+      "chunkIndex": 0,
+      "title": "13.6 Implementando la Lógica de Arrastrar y Soltar Notas . . . . . . . 148",
+      "words": 201
+    },
+    {
+      "id": "react-aprendiz-maestro-ch222-000",
+      "chapterIndex": 222,
+      "chunkIndex": 0,
+      "title": "13.7 Arrastrando Notas sobre Carriles Vacíos . . . . . . . . . . . . . . 151",
+      "words": 68
+    },
+    {
+      "id": "react-aprendiz-maestro-ch223-000",
+      "chapterIndex": 223,
+      "chunkIndex": 0,
+      "title": "13.8 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 156",
+      "words": 188
+    },
+    {
+      "id": "react-aprendiz-maestro-ch224-000",
+      "chapterIndex": 224,
+      "chunkIndex": 0,
+      "title": "14. Probando React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 158",
+      "words": 312
+    },
+    {
+      "id": "react-aprendiz-maestro-ch225-000",
+      "chapterIndex": 225,
+      "chunkIndex": 0,
+      "title": "14.1 TL;DR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 158",
+      "words": 344
+    },
+    {
+      "id": "react-aprendiz-maestro-ch226-000",
+      "chapterIndex": 226,
+      "chunkIndex": 0,
+      "title": "15. Tipado con React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch226-001",
+      "chapterIndex": 226,
+      "chunkIndex": 1,
+      "title": "15. Tipado con React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch226-002",
+      "chapterIndex": 226,
+      "chunkIndex": 2,
+      "title": "15. Tipado con React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch226-003",
+      "chapterIndex": 226,
+      "chunkIndex": 3,
+      "title": "15. Tipado con React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch226-004",
+      "chapterIndex": 226,
+      "chunkIndex": 4,
+      "title": "15. Tipado con React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch226-005",
+      "chapterIndex": 226,
+      "chunkIndex": 5,
+      "title": "15. Tipado con React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch226-006",
+      "chapterIndex": 226,
+      "chunkIndex": 6,
+      "title": "15. Tipado con React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160",
+      "words": 500
+    },
+    {
+      "id": "react-aprendiz-maestro-ch226-007",
+      "chapterIndex": 226,
+      "chunkIndex": 7,
+      "title": "15. Tipado con React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160",
+      "words": 368
+    },
+    {
+      "id": "react-aprendiz-maestro-ch227-000",
+      "chapterIndex": 227,
+      "chunkIndex": 0,
+      "title": "15.1 TL;DR . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160",
+      "words": 200
+    },
+    {
+      "id": "react-aprendiz-maestro-ch228-000",
+      "chapterIndex": 228,
+      "chunkIndex": 0,
+      "title": "ÍNDICE GENERAL",
+      "words": 21
+    },
+    {
+      "id": "react-aprendiz-maestro-ch229-000",
+      "chapterIndex": 229,
+      "chunkIndex": 0,
+      "title": "16. Aplicando Estilo a React . . . . . . . . . . . . . . . . . . . . . . . . . . 161",
+      "words": 36
+    },
+    {
+      "id": "react-aprendiz-maestro-ch023-000",
+      "chapterIndex": 23,
+      "chunkIndex": 0,
+      "title": "1. Introducción a React",
+      "words": 23
+    },
+    {
+      "id": "react-aprendiz-maestro-ch230-000",
+      "chapterIndex": 230,
+      "chunkIndex": 0,
+      "title": "16.1 Estilo a la Vieja Usanza . . . . . . . . . . . . . . . . . . . . . . . 161",
+      "words": 494
+    },
+    {
+      "id": "react-aprendiz-maestro-ch024-000",
+      "chapterIndex": 24,
+      "chunkIndex": 0,
+      "title": "1.2 DOM Virtual",
+      "words": 29
+    },
+    {
+      "id": "react-aprendiz-maestro-ch025-000",
+      "chapterIndex": 25,
+      "chunkIndex": 0,
+      "title": "1.3 Renderizadores de React",
+      "words": 38
+    },
+    {
+      "id": "react-aprendiz-maestro-ch026-000",
+      "chapterIndex": 26,
+      "chunkIndex": 0,
+      "title": "1.4 React.createElement y JSX",
+      "words": 26
+    },
+    {
+      "id": "react-aprendiz-maestro-ch027-000",
+      "chapterIndex": 27,
+      "chunkIndex": 0,
+      "title": "1.5 Conclusión",
+      "words": 21
+    },
+    {
+      "id": "react-aprendiz-maestro-ch028-000",
+      "chapterIndex": 28,
+      "chunkIndex": 0,
+      "title": "2. Configurando el Proyecto",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch029-000",
+      "chapterIndex": 29,
+      "chunkIndex": 0,
+      "title": "2.1 Configuración de Node.js y Git",
+      "words": 36
+    },
+    {
+      "id": "react-aprendiz-maestro-ch030-000",
+      "chapterIndex": 30,
+      "chunkIndex": 0,
+      "title": "2.2 Ejecutando el Proyecto",
+      "words": 26
+    },
+    {
+      "id": "react-aprendiz-maestro-ch031-000",
+      "chapterIndex": 31,
+      "chunkIndex": 0,
+      "title": "2.4 Características del Lenguaje Presentes en",
+      "words": 24
+    },
+    {
+      "id": "react-aprendiz-maestro-ch032-000",
+      "chapterIndex": 32,
+      "chunkIndex": 0,
+      "title": "3. Implementando una Aplicación de Notas . . . . . . . . . . . . . . . . 17",
+      "words": 25
+    },
+    {
+      "id": "react-aprendiz-maestro-ch033-000",
+      "chapterIndex": 33,
+      "chunkIndex": 0,
+      "title": "2.5 Conclusión",
+      "words": 25
+    },
+    {
+      "id": "react-aprendiz-maestro-ch034-000",
+      "chapterIndex": 34,
+      "chunkIndex": 0,
+      "title": "3. Implementando una",
+      "words": 17
+    },
+    {
+      "id": "react-aprendiz-maestro-ch035-000",
+      "chapterIndex": 35,
+      "chunkIndex": 0,
+      "title": "3.1 Modelo de Datos Inicial",
+      "words": 28
+    },
+    {
+      "id": "react-aprendiz-maestro-ch036-000",
+      "chapterIndex": 36,
+      "chunkIndex": 0,
+      "title": "3.2 Renderizado de los Datos Iniciales",
+      "words": 20
+    },
+    {
+      "id": "react-aprendiz-maestro-ch037-000",
+      "chapterIndex": 37,
+      "chunkIndex": 0,
+      "title": "3.3 Generando los Ids",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch038-000",
+      "chapterIndex": 38,
+      "chunkIndex": 0,
+      "title": "3.4 Añadiendo Nuevas Notas a la Lista",
+      "words": 28
+    },
+    {
+      "id": "react-aprendiz-maestro-ch039-000",
+      "chapterIndex": 39,
+      "chunkIndex": 0,
+      "title": "3.5 Conclusión",
+      "words": 25
+    },
+    {
+      "id": "react-aprendiz-maestro-ch040-000",
+      "chapterIndex": 40,
+      "chunkIndex": 0,
+      "title": "4. Borrado de Notas",
+      "words": 3
+    },
+    {
+      "id": "react-aprendiz-maestro-ch041-000",
+      "chapterIndex": 41,
+      "chunkIndex": 0,
+      "title": "4.1 Separación de Nota",
+      "words": 27
+    },
+    {
+      "id": "react-aprendiz-maestro-ch042-000",
+      "chapterIndex": 42,
+      "chunkIndex": 0,
+      "title": "4.2 Añadir un Esqueleto para la Llamada a",
+      "words": 20
+    },
+    {
+      "id": "react-aprendiz-maestro-ch043-000",
+      "chapterIndex": 43,
+      "chunkIndex": 0,
+      "title": "3.1 Modelo de Datos Inicial . . . . . . . . . . . . . . . . . . . . . . . 17",
+      "words": 52
+    },
+    {
+      "id": "react-aprendiz-maestro-ch044-000",
+      "chapterIndex": 44,
+      "chunkIndex": 0,
+      "title": "4.3 Comunicar el Borrado a App",
+      "words": 39
+    },
+    {
+      "id": "react-aprendiz-maestro-ch045-000",
+      "chapterIndex": 45,
+      "chunkIndex": 0,
+      "title": "4.4 Conclusión",
+      "words": 28
+    },
+    {
+      "id": "react-aprendiz-maestro-ch046-000",
+      "chapterIndex": 46,
+      "chunkIndex": 0,
+      "title": "parte d: el Kanban. La edición es la funcionalidad más difícil de todas. Una forma de",
+      "words": 44
+    },
+    {
+      "id": "react-aprendiz-maestro-ch047-000",
+      "chapterIndex": 47,
+      "chunkIndex": 0,
+      "title": "5. Comprendiendo los",
+      "words": 31
+    },
+    {
+      "id": "react-aprendiz-maestro-ch048-000",
+      "chapterIndex": 48,
+      "chunkIndex": 0,
+      "title": "5.1 Métodos del Ciclo de Vida",
+      "words": 33
+    },
+    {
+      "id": "react-aprendiz-maestro-ch049-000",
+      "chapterIndex": 49,
+      "chunkIndex": 0,
+      "title": "5.2 Refs",
+      "words": 28
+    },
+    {
+      "id": "react-aprendiz-maestro-ch050-000",
+      "chapterIndex": 50,
+      "chunkIndex": 0,
+      "title": "5.3 Propiedades y Métodos Propios",
+      "words": 28
+    },
+    {
+      "id": "react-aprendiz-maestro-ch051-000",
+      "chapterIndex": 51,
+      "chunkIndex": 0,
+      "title": "5.4 Convenciones de los Componentes de",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch052-000",
+      "chapterIndex": 52,
+      "chunkIndex": 0,
+      "title": "5.5 Conclusión",
+      "words": 23
+    },
+    {
+      "id": "react-aprendiz-maestro-ch053-000",
+      "chapterIndex": 53,
+      "chunkIndex": 0,
+      "title": "6. Edición de Notas",
+      "words": 26
+    },
+    {
+      "id": "react-aprendiz-maestro-ch054-000",
+      "chapterIndex": 54,
+      "chunkIndex": 0,
+      "title": "3.2 Renderizado de los Datos Iniciales . . . . . . . . . . . . . . . . . 18",
+      "words": 28
+    },
+    {
+      "id": "react-aprendiz-maestro-ch055-000",
+      "chapterIndex": 55,
+      "chunkIndex": 0,
+      "title": "6.1 Implementación de Editable",
+      "words": 26
+    },
+    {
+      "id": "react-aprendiz-maestro-ch056-000",
+      "chapterIndex": 56,
+      "chunkIndex": 0,
+      "title": "6.2 Extrayendo el Renderizado de Nota",
+      "words": 20
+    },
+    {
+      "id": "react-aprendiz-maestro-ch057-000",
+      "chapterIndex": 57,
+      "chunkIndex": 0,
+      "title": "6.3 Inclusión del Esqueleto Editable",
+      "words": 26
+    },
+    {
+      "id": "react-aprendiz-maestro-ch058-000",
+      "chapterIndex": 58,
+      "chunkIndex": 0,
+      "title": "6.4 Conectando Editable con Notas",
+      "words": 24
+    },
+    {
+      "id": "react-aprendiz-maestro-ch059-000",
+      "chapterIndex": 59,
+      "chunkIndex": 0,
+      "title": "6.5 Haciendo un Seguimiento del Estado",
+      "words": 20
+    },
+    {
+      "id": "react-aprendiz-maestro-ch060-000",
+      "chapterIndex": 60,
+      "chunkIndex": 0,
+      "title": "6.6 Implementación de Edit",
+      "words": 26
+    },
+    {
+      "id": "react-aprendiz-maestro-ch061-000",
+      "chapterIndex": 61,
+      "chunkIndex": 0,
+      "title": "6.7 Sobre los Componentes y el Espacio de",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch062-000",
+      "chapterIndex": 62,
+      "chunkIndex": 0,
+      "title": "6.8 Conclusión",
+      "words": 21
+    },
+    {
+      "id": "react-aprendiz-maestro-ch063-000",
+      "chapterIndex": 63,
+      "chunkIndex": 0,
+      "title": "7. Dando Estilo a la Aplicación",
+      "words": 26
+    },
+    {
+      "id": "react-aprendiz-maestro-ch064-000",
+      "chapterIndex": 64,
+      "chunkIndex": 0,
+      "title": "7.1 Aplicando Estilo sobre el Botón “Añadir",
+      "words": 16
+    },
+    {
+      "id": "react-aprendiz-maestro-ch065-000",
+      "chapterIndex": 65,
+      "chunkIndex": 0,
+      "title": "3.3 Generando los Ids . . . . . . . . . . . . . . . . . . . . . . . . . . 20",
+      "words": 19
+    },
+    {
+      "id": "react-aprendiz-maestro-ch066-000",
+      "chapterIndex": 66,
+      "chunkIndex": 0,
+      "title": "7.2 Aplicando estilos sobre Notas",
+      "words": 21
+    },
+    {
+      "id": "react-aprendiz-maestro-ch067-000",
+      "chapterIndex": 67,
+      "chunkIndex": 0,
+      "title": "7.3 Aplicando Estilos sobre Notas Individuales",
+      "words": 17
+    },
+    {
+      "id": "react-aprendiz-maestro-ch068-000",
+      "chapterIndex": 68,
+      "chunkIndex": 0,
+      "title": "7.4 Conclusión",
+      "words": 29
+    },
+    {
+      "id": "react-aprendiz-maestro-ch069-000",
+      "chapterIndex": 69,
+      "chunkIndex": 0,
+      "title": "8. React y Flux",
+      "words": 29
+    },
+    {
+      "id": "react-aprendiz-maestro-ch070-000",
+      "chapterIndex": 70,
+      "chunkIndex": 0,
+      "title": "8.1 Breve Introducción a Redux",
+      "words": 38
+    },
+    {
+      "id": "react-aprendiz-maestro-ch071-000",
+      "chapterIndex": 71,
+      "chunkIndex": 0,
+      "title": "8.2 Breve Introducción a MobX",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch072-000",
+      "chapterIndex": 72,
+      "chunkIndex": 0,
+      "title": "8.4 Introducción a Flux",
+      "words": 27
+    },
+    {
+      "id": "react-aprendiz-maestro-ch073-000",
+      "chapterIndex": 73,
+      "chunkIndex": 0,
+      "title": "8.5 Migrando a Alt",
+      "words": 29
+    },
+    {
+      "id": "react-aprendiz-maestro-ch074-000",
+      "chapterIndex": 74,
+      "chunkIndex": 0,
+      "title": "1. Configurar una instancia de Alt para que siga las acciones, los almacenes y",
+      "words": 26
+    },
+    {
+      "id": "react-aprendiz-maestro-ch075-000",
+      "chapterIndex": 75,
+      "chunkIndex": 0,
+      "title": "2. Conectar Alt con las vistas.",
+      "words": 30
+    },
+    {
+      "id": "react-aprendiz-maestro-ch076-000",
+      "chapterIndex": 76,
+      "chunkIndex": 0,
+      "title": "3.4 Añadiendo Nuevas Notas a la Lista . . . . . . . . . . . . . . . . . 22",
+      "words": 18
+    },
+    {
+      "id": "react-aprendiz-maestro-ch077-000",
+      "chapterIndex": 77,
+      "chunkIndex": 0,
+      "title": "3. Dejar nuestros datos en un almacén.",
+      "words": 15
+    },
+    {
+      "id": "react-aprendiz-maestro-ch078-000",
+      "chapterIndex": 78,
+      "chunkIndex": 0,
+      "title": "4. Definir acciones que permitan manipular el almacén.",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch079-000",
+      "chapterIndex": 79,
+      "chunkIndex": 0,
+      "title": "8.6 Entendiendo conectar",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch080-000",
+      "chapterIndex": 80,
+      "chunkIndex": 0,
+      "title": "8.7 Usando el Dispatcher en Alt",
+      "words": 19
+    },
+    {
+      "id": "react-aprendiz-maestro-ch081-000",
+      "chapterIndex": 81,
+      "chunkIndex": 0,
+      "title": "8.8 Conclusión",
+      "words": 23
+    },
+    {
+      "id": "react-aprendiz-maestro-ch082-000",
+      "chapterIndex": 82,
+      "chunkIndex": 0,
+      "title": "9. Implementando NoteStore y",
+      "words": 26
+    },
+    {
+      "id": "react-aprendiz-maestro-ch083-000",
+      "chapterIndex": 83,
+      "chunkIndex": 0,
+      "title": "9.1 Configurando un NoteStore",
+      "words": 34
+    },
+    {
+      "id": "react-aprendiz-maestro-ch084-000",
+      "chapterIndex": 84,
+      "chunkIndex": 0,
+      "title": "9.2 Entendiendo las Acciones",
+      "words": 28
+    },
+    {
+      "id": "react-aprendiz-maestro-ch085-000",
+      "chapterIndex": 85,
+      "chunkIndex": 0,
+      "title": "9.3 Configurando NoteActions",
+      "words": 28
+    },
+    {
+      "id": "react-aprendiz-maestro-ch086-000",
+      "chapterIndex": 86,
+      "chunkIndex": 0,
+      "title": "9.4 Conectando NoteActions con NoteStore",
+      "words": 21
+    },
+    {
+      "id": "react-aprendiz-maestro-ch087-000",
+      "chapterIndex": 87,
+      "chunkIndex": 0,
+      "title": "3.5 Conclusión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32",
+      "words": 14
+    },
+    {
+      "id": "react-aprendiz-maestro-ch088-000",
+      "chapterIndex": 88,
+      "chunkIndex": 0,
+      "title": "9.5 Migrando App.addNote a Flux",
+      "words": 23
+    },
+    {
+      "id": "react-aprendiz-maestro-ch089-000",
+      "chapterIndex": 89,
+      "chunkIndex": 0,
+      "title": "9.6 Migrando App.deleteNote a Flux",
+      "words": 22
+    },
+    {
+      "id": "react-aprendiz-maestro-ch090-000",
+      "chapterIndex": 90,
+      "chunkIndex": 0,
+      "title": "9.7 Migrando App.activateNoteEdit a Flux",
+      "words": 18
+    },
+    {
+      "id": "react-aprendiz-maestro-ch091-000",
+      "chapterIndex": 91,
+      "chunkIndex": 0,
+      "title": "9.8 Migrando App.editNote a Flux",
+      "words": 22
+    },
+    {
+      "id": "react-aprendiz-maestro-ch092-000",
+      "chapterIndex": 92,
+      "chunkIndex": 0,
+      "title": "1. Supón que quieres almacenar las notas en el localStorage. ¿Dónde imple-",
+      "words": 56
+    },
+    {
+      "id": "react-aprendiz-maestro-ch093-000",
+      "chapterIndex": 93,
+      "chunkIndex": 0,
+      "title": "9.9 Conclusión",
+      "words": 36
+    },
+    {
+      "id": "react-aprendiz-maestro-ch094-000",
+      "chapterIndex": 94,
+      "chunkIndex": 0,
+      "title": "10. Implementando",
+      "words": 36
+    },
+    {
+      "id": "react-aprendiz-maestro-ch095-000",
+      "chapterIndex": 95,
+      "chunkIndex": 0,
+      "title": "10.1 Entendiendo localStorage",
+      "words": 36
+    },
+    {
+      "id": "react-aprendiz-maestro-ch096-000",
+      "chapterIndex": 96,
+      "chunkIndex": 0,
+      "title": "10.2 Implementando un Envoltorio para",
+      "words": 41
+    },
+    {
+      "id": "react-aprendiz-maestro-ch097-000",
+      "chapterIndex": 97,
+      "chunkIndex": 0,
+      "title": "10.3 Persistiendo la Aplicación usando",
+      "words": 3
+    },
+    {
+      "id": "react-aprendiz-maestro-ch098-000",
+      "chapterIndex": 98,
+      "chunkIndex": 0,
+      "title": "4. Borrado de Notas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33",
+      "words": 33
+    },
+    {
+      "id": "react-aprendiz-maestro-ch099-000",
+      "chapterIndex": 99,
+      "chunkIndex": 0,
+      "title": "10.4 Implementando la Lógica de Persistencia",
+      "words": 31
+    }
+  ]
+}

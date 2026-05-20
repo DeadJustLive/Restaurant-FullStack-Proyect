@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch023-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 23,
+  "chunkIndex": 1,
+  "title": "Capítulo 4:: Argumentos de línea de comando",
+  "start": 450,
+  "end": 510,
+  "words": 60,
+  "content": "subcommand used with matches.subcommand(), which // returns a tuple of (&str, Option<ArgMatches>) where the &str // is the name of the subcommand, and the ArgMatches is an // ArgMatches struct: // https://docs.rs/clap/2.13.0/clap/struct.ArgMatches.html if let (\"run\", Some(run_matches)) = app.subcommand() { println!(\"Run was used!\"); } } Lea Argumentos de línea de comando en línea: https://riptutorial.com/es/rust/topic/7015/argumentos-de-linea-de-comando https://riptutorial.com/es/home 13 -- 27 of 188 --"
+}

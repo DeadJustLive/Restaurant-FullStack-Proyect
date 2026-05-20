@@ -1,0 +1,11 @@
+{
+  "id": "flow-api-docs-ch011-000",
+  "bookId": "flow-api-docs",
+  "chapterIndex": 11,
+  "chunkIndex": 0,
+  "title": "Obtiene el estado extendido de un pago en base al número de orden Flow",
+  "start": 0,
+  "end": 35,
+  "words": 35,
+  "content": "# Obtiene el estado extendido de un pago en base al número de orden Flow ## Obtiene el estado extendido de un pago en base al número de orden Flow ### Responses ### Response samples"
+}

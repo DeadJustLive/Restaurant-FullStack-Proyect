@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch484-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 484,
+  "chunkIndex": 0,
+  "title": "5. UnIdentificadorMasEntendible",
+  "start": 0,
+  "end": 31,
+  "words": 31,
+  "content": "# PRECONDICIONES: * la celda es secci´on de una pieza */ { QuitarSeccionDePiezaActual() PonerPiso() if (marca) { MarcarElPiso() } } //----------------------------------------------------- procedure PonerPiso() /* PROP´OSITO: pone piso en la celda actual"
+}

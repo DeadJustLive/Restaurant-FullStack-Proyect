@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch087-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 87,
+  "chunkIndex": 0,
+  "title": "8. Bloques",
+  "start": 0,
+  "end": 16,
+  "words": 16,
+  "content": "# PRECONDICI´ON: * hay 2 celdas al Norte y 2 al Este de la celda actual"
+}

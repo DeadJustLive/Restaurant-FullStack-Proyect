@@ -1,0 +1,11 @@
+{
+  "id": "bases-conceptuales-programacion-ch407-000",
+  "bookId": "bases-conceptuales-programacion",
+  "chapterIndex": 407,
+  "chunkIndex": 0,
+  "title": "/*=SECCI´ON 5=======================================*",
+  "start": 0,
+  "end": 16,
+  "words": 16,
+  "content": "# PRECONDICIONES: * tipoPieza es un tipo de pieza v´alido * rotPieza es una rotaci´on v´alida"
+}

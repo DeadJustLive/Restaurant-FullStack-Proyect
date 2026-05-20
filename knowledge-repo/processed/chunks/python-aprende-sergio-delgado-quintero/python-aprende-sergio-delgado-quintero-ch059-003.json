@@ -1,0 +1,11 @@
+{
+  "id": "python-aprende-sergio-delgado-quintero-ch059-003",
+  "bookId": "python-aprende-sergio-delgado-quintero",
+  "chapterIndex": 59,
+  "chunkIndex": 3,
+  "title": "2. La variable result apunta a una zona de memoria en la que se modifican sus valores.",
+  "start": 1350,
+  "end": 1523,
+  "words": 173,
+  "content": "determinadas zonas de nuestro código. Del mismo modo podemos (y en muchos casos debemos) adjuntar documentación a la definición de una función incluyendo una cadena de texto (docstring) al comienzo de su cuerpo: >>> def sqrt(value): ... Returns the square root of the value ... return value ** (1/2) ... La forma más ortodoxa de escribir un docstring es utilizando triples comillas: >>> def closest_int(value): ... Returns the closest integer to the given value. ... The operation is: ... 1. Compute distance to floor. ... 2. If distance less than a half, return floor. (continué en la próxima página) 6.1. Funciones 227 -- 231 of 516 -- Aprende Python (proviene de la página anterior) ... Otherwise, return ceil. ... ... floor = int(value) ... if value - floor < 0.5: ... return floor ... else: ... return floor + 1 ... Para ver el docstring de una función, basta con utilizar help: >>> help(closest_int) Help on function closest_int in module __main__: closest_int(value) Returns the closest integer to the given value. The operation is:"
+}

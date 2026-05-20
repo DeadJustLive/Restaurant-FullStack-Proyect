@@ -1,0 +1,42 @@
+# 116 | SCRUM Y XP DESDE LAS TRINCHERAS
+
+16
+Cómo gestionamos equipos distribuidos
+geográficamente
+¿Qué pasa cuando los miembros de los equipos están en localizaciones
+geográficas diferentes?
+Mucha de la “magia” de Scrum y XP se basa en tener miembros de equipos co-
+alocados, 	colaborando 	estrechamente, 	programando 	por 	parejas 	y
+encontrándose cara a cara todos los días.
+Tenemos algunos equipos que están geográficamente separados, y también
+tenemos a miembros de equipo que trabajan desde casa de vez en cuando.
+Nuestra estrategia es muy simple. Usamos todos los trucos que podemos para
+maximizar el “ancho de banda” de la comunicación entre los miembros de equipo
+separados. No me refiero solo al ancho de banda en Megabits por segundo
+(aunque esto también es muy importante). Me refiero al ancho de banda de la
+comunicación en un sentido más amplio:
+• 	La posibilidad de programar por parejas juntos
+• 	La posibilidad de encontrarse cara a cara en el Scrum diario
+• 	La posibilidad de tener discusiones cara a cara en cualquier momento
+• 	La posibilidad de encontrarse físicamente y socializar
+• 	La posibilidad de tener reuniones espontáneas de todo el equipo
+• 	La posibilidad de tener la misma visión de la Pila de Sprint, burn-down de
+Sprint, Pila de Producto y otras fuentes de información.
+Algunas de estas medidas que hemos implementado (o estamos implementando,
+todavía no las hemos hecho todas) son:
+• 	Webcam y auriculares en cada puesto de trabajo
+• 	Salas de reuniones “habilitadas para trabajo remoto” con webcams,
+micrófonos de conferencia, ordenadores siempre encendidos / siempre
+listos, software de compartición de escritorio, etc.
+• 	“Ventanas remotas”. Grandes pantallas en cada localización, mostrando
+una vista permanente de la otra. Una especie de ventana virtual entre dos
+departamentos. Puedes estar de pie frente a ellas y saludar con la mano.
+Puedes ver quién está en su mesa y quién habla con quién. Esto crea
+una sensación de “hey, estamos en esto juntos”.
+• 	Programas de intercambio, donde personas de cada localización viajan y
+se visitan unos a otros regularmente.
+Versión gratuita on-line.
+Apoya este trabajo, compra la copia impresa:
+http://infoq.com/minibooks/scrum-xp-from- the-trenches
+
+-- 116 of 122 --

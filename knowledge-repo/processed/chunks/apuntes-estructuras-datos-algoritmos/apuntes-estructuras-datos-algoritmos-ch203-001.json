@@ -1,0 +1,11 @@
+{
+  "id": "apuntes-estructuras-datos-algoritmos-ch203-001",
+  "bookId": "apuntes-estructuras-datos-algoritmos",
+  "chapterIndex": 203,
+  "chunkIndex": 1,
+  "title": "1. Características de la implementación de un TAD",
+  "start": 450,
+  "end": 571,
+  "words": 121,
+  "content": "ensaya(i+1); si no exitoso entonces cancelar registro fsi fsi fsi hastaQue exitoso or (k=m) fin En el libro Algoritmos + Estructuras de Datos = Programas, de Niklaus Wirth, pueden encontrarse algunos ejemplos clásicos que admiten una solución con el esquema de vuelta atrás, como: la vuelta del caballo (encontrar un recorrido de un caballo por un tablero de ajedrez de forma que recorra todos los cuadros del tablero exactamente una vez), las ocho reinas (colocar ocho reinas en un tablero de ajedrez sin que ninguna de ellas pueda matar a otra), los matrimonios estables (dados dos conjuntos con igual número de elementos, encontrar una biyección entre ellos de forma que todas las parejas relacionadas por esa aplicación satisfagan ciertas propiedades), etc."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rust-aprendizaje-ch068-001",
+  "bookId": "rust-aprendizaje",
+  "chapterIndex": 68,
+  "chunkIndex": 1,
+  "title": "Capítulo 41:: Rasgos de conversión",
+  "start": 450,
+  "end": 563,
+  "words": 113,
+  "content": "una función de lenguaje útil llamada deref coercion , https://riptutorial.com/es/home 137 -- 151 of 188 -- que permite que &A (resp. &mut A ) coaccione automáticamente a a &B (resp. &mut B ). Esto se usa comúnmente cuando se convierte de String a &str , ya que &String se obliga implícitamente a &str según sea necesario. Nota: DerefMut no admite la especificación del tipo resultante, usa el mismo tipo que Deref . Nota: Debido al uso de un tipo asociado (a diferencia de AsRef ), un tipo dado solo puede implementar cada uno de Deref y DerefMut una vez. Lea Rasgos de conversión en línea: https://riptutorial.com/es/rust/topic/2661/rasgos-de-conversion https://riptutorial.com/es/home 138 -- 152 of 188 --"
+}

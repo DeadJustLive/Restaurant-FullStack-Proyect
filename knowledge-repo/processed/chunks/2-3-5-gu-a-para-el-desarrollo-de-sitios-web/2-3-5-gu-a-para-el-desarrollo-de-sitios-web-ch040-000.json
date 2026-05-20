@@ -1,0 +1,11 @@
+{
+  "id": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web-ch040-000",
+  "bookId": "2-3-5-gu-a-para-el-desarrollo-de-sitios-web",
+  "chapterIndex": 40,
+  "chunkIndex": 0,
+  "title": "1. Deben ser diferentes al texto: los enlaces se deben diferenciar del texto que",
+  "start": 0,
+  "end": 64,
+  "words": 64,
+  "content": "# 1. Deben ser diferentes al texto: los enlaces se deben diferenciar del texto que los rodea para explicar visualmente al usuario que se ofrece una acción a partir de su contenido. La forma de diferenciarlo puede variar pero al menos se debe procurar que esté subrayado y de color diferente o bien, si no está subrayado, sí se debe mostrar en otro color."
+}

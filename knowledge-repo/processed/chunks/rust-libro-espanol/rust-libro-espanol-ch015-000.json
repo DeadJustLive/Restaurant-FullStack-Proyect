@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch015-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 15,
+  "chunkIndex": 0,
+  "title": "Cargo Workspaces",
+  "start": 0,
+  "end": 34,
+  "words": 34,
+  "content": "# Cargo Workspaces ## Cargo Workspaces ### Creando un Workspace ### Creando el Segundo Paquete en el Workspace #### Dependiendo de un Paquete Externo en un Workspace #### Agregando un Test a un Workspace"
+}

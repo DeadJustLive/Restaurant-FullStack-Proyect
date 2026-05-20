@@ -1,0 +1,11 @@
+{
+  "id": "javascript-uoc-ch007-006",
+  "bookId": "javascript-uoc",
+  "chapterIndex": 7,
+  "chunkIndex": 6,
+  "title": "4. Frameworks JavaScript",
+  "start": 2700,
+  "end": 2760,
+  "words": 60,
+  "content": "Las funciones nativas de JavaScript son realmente muy potentes, puesto que se ejecutan a un nivel más bajo que el de cualquier librería y esto les proporciona mayor velocidad a la hora de analizar los nodos de una web y seleccionar los elementos de la forma correcta. Por otro lado, las mejoras que incorporan los estándares y su adopción por"
+}

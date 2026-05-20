@@ -1,0 +1,11 @@
+{
+  "id": "rust-libro-espanol-ch028-000",
+  "bookId": "rust-libro-espanol",
+  "chapterIndex": 28,
+  "chunkIndex": 0,
+  "title": "Concurrencia con Estado Compartido",
+  "start": 0,
+  "end": 50,
+  "words": 50,
+  "content": "# Concurrencia con Estado Compartido ## Concurrencia con Estado Compartido ### Usando Mutexes para permitir el acceso a los datos de un hilo a la vez #### La API deMutex<T> #### Compartir unMutex<T>entre varios hilos #### Ownership Multiple con múltiples hilos #### Recuento de referencia atómico conArc<T> ### Similitudes entreRefCell<T>/Rc<T>yMutex<T>/Arc<T>"
+}

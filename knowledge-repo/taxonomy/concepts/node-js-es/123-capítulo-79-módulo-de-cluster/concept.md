@@ -1,0 +1,112 @@
+# Capítulo 79:: Módulo de cluster
+
+## Fuente
+Capítulo 1: Empezando con Node.js 2 (Cap. 123)
+
+## Contenido
+# Capítulo 79:: Módulo de cluster
+
+Sintaxis
+const cluster = require ("cluster")	•
+cluster.fork ()	•
+cluster.isMaster	•
+cluster.isWorker	•
+cluster.schedulingPolicy	•
+cluster.setupMaster (configuración)	•
+cluster.settings	•
+cluster.worker // in worker	•
+cluster.workers // en master	•
+Observaciones
+Tenga en cuenta que cluster.fork() genera un proceso hijo que comienza a ejecutar la secuencia
+de comandos actual desde el principio, en contraste con la llamada al sistema de fork() en C, que
+clona el proceso actual y continúa a partir de la instrucción después de la llamada del sistema
+tanto en el padre como en el servidor. proceso hijo
+La documentación de Node.js tiene una guía más completa para los clústeres aquí
+Examples
+Hola Mundo
+Este es tu cluster.js :
+const cluster = require('cluster');
+const http = require('http');
+const numCPUs = require('os').cpus().length;
+if (cluster.isMaster) {
+// Fork workers.
+for (let i = 0; i < numCPUs; i++) {
+cluster.fork();
+}
+cluster.on('exit', (worker, code, signal) => {
+console.log(`worker ${worker.process.pid} died`);
+});
+} else {
+// Workers can share any TCP connection
+// In this case it is an HTTP server
+require('./server.js')();
+}
+https://riptutorial.com/es/home 256
+
+-- 284 of 423 --
+
+Este es tu server.js principal:
+const http = require('http');
+function startServer() {
+const server = http.createServer((req, res) => {
+res.writeHead(200);
+res.end('Hello Http');
+});
+server.listen(3000);
+}
+if(!module.parent) {
+// Start server if file is run directly
+startServer();
+} else {
+// Export server, if file is referenced via cluster
+module.exports = startServer;
+}
+En este ejemplo, alojamos un servidor web básico; sin embargo, activamos trabajadores
+(procesos secundarios) utilizando el módulo de clúster incorporado. La cantidad de forker de
+procesos depende de la cantidad de núcleos de CPU disponibles. Esto permite que una
+aplicación Node.js aproveche las CPU de varios núcleos, ya que una sola instancia de Node.js se
+ejecuta en un solo hilo. La aplicación ahora compartirá el puerto 8000 en todos los procesos. Las
+cargas se distribuirán automáticamente entre los trabajadores utilizando el método Round-Robin
+de forma predeterminada.
+Ejemplo de cluster
+Una sola instancia de Node.js ejecuta en un solo hilo. Para aprovechar los sistemas de múltiples
+núcleos, la aplicación se puede iniciar en un clúster de procesos Node.js para manejar la carga.
+El módulo de cluster permite crear fácilmente procesos secundarios que comparten todos los
+puertos del servidor.
+El siguiente ejemplo crea el proceso hijo del trabajador en el proceso principal que maneja la
+carga a través de múltiples núcleos.
+Ejemplo
+const cluster = require('cluster');
+const http = require('http');
+const numCPUs = require('os').cpus().length; //number of CPUS
+if (cluster.isMaster) {
+// Fork workers.
+for (var i = 0; i < numCPUs; i++) {
+cluster.fork(); //creating child process
+}
+//on exit of cluster
+cluster.on('exit', (worker, code, signal) => {
+https://riptutorial.com/es/home 257
+
+-- 285 of 423 --
+
+if (signal) {
+console.log(`worker was killed by signal: ${signal}`);
+} else if (code !== 0) {
+console.log(`worker exited with error code: ${code}`);
+} else {
+console.log('worker success!');
+}
+});
+} else {
+// Workers can share any TCP connection
+// In this case it is an HTTP server
+http.createServer((req, res) => {
+res.writeHead(200);
+res.end('hello world\n');
+}).listen(3000);
+}
+Lea Módulo de cluster en línea: https://riptutorial.com/es/node-js/topic/2817/modulo-de-cluster
+https://riptutorial.com/es/home 258
+
+-- 286 of 423 --
